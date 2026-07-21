@@ -1,7 +1,7 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T15:54:09.257671+00:00",
-  "count": 791,
+  "updated_at": "2026-07-21T15:56:21.090863+00:00",
+  "count": 779,
   "errors": [],
   "source_status": {
     "X": {
@@ -34,7 +34,7 @@
     },
     "Reddit": {
       "state": "fetched",
-      "count": 24
+      "count": 12
     },
     "arXiv": {
       "state": "fetched",
@@ -58,14 +58,27 @@
     },
     "来源统计": {
       "技术社区": 60,
-      "Reddit": 24,
       "产业链": 195,
       "巨头企业": 230,
       "新技术": 173,
-      "国内资讯": 109
+      "国内资讯": 109,
+      "Reddit": 12
     }
   },
   "articles": [
+    {
+      "title": "Ask HN: Why 1Password extension pushing debug logs in the browser console?",
+      "url": "https://news.ycombinator.com/item?id=48993988",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:53:53+00:00",
+      "author": "pixelpanic360",
+      "engagement": 1,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "hi All 1Password users, I just realised the 1Password browser for Edge or Chrome is sending a lot of debug messages in the browser console, and it looks like it was vibe coded. Should I be a little bit worry the AI use in these security focus software?"
+    },
     {
       "title": "Could AI chip boom make ASML Europe's first trillion-dollar firm?",
       "url": "https://www.reuters.com/business/media-telecom/could-ai-chip-boom-make-asml-europes-first-trillion-dollar-firm-2026-07-20/",
@@ -116,7 +129,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-21T15:49:34+00:00",
       "author": "chobeat",
-      "engagement": 2,
+      "engagement": 3,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
@@ -186,24 +199,6 @@
         "model"
       ],
       "summary": "How New Technology Changes Business Models"
-    },
-    {
-      "title": "Local LLM worth the investment?",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v2m55p/local_llm_worth_the_investment/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T15:43:09+00:00",
-      "author": "u/Blackbear81",
-      "reddit_community": "LanguageTechnology",
-      "category": "投资商业",
-      "relevance_score": 63,
-      "tags": [
-        "invest",
-        "investment",
-        "model",
-        "market"
-      ],
-      "summary": "Hi everyone Is there anyone using local LLMs on their PC? I'm in the market for a laptop with AI max+ 395 and 128GB unified RAM. The only reason is local LLMs for translation/transcreation work. To be fair, ChatGPT does a pretty decent job when I ask for a dozen of options to choose from. But i'm wondering of I have a "
     },
     {
       "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide - NVIDIA Blog",
@@ -1444,19 +1439,6 @@
       "summary": "LLM Margin Lab"
     },
     {
-      "title": "Can you see seven states from Lookout Mountain? We traced every sightline",
-      "url": "https://uptowhere.com/blog/seven-states-lookout-mountain/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:29:16+00:00",
-      "author": "tonvilro",
-      "engagement": 6,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Can you see seven states from Lookout Mountain? We traced every sightline"
-    },
-    {
       "title": "AI开始自主攻击AI生态？Hugging Face事件揭开智能体安全新挑战 - PANews",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55VUQ2LW94M0Y3eWVxaWcweEFBYnBTMDFUMGEzcXpHc0pNcWo1d0hwYldpZHR6dW1mT2s1Q2h5VzdHLTlwS2dfU2JQa20xWFhZV0NjM2phYXNmR0tKYUo0Qk9aNm12blpRSHJTMXB3VE1wVWg1OVpHYnQxbl9OcjQ?oc=5",
       "source": "中文AI技术开源",
@@ -1497,18 +1479,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "SanDisk Rises 8%, Western Digital Jumps 9%, Micron Adds 7% as Memory Rebound Accelerates Yahoo Finance"
-    },
-    {
-      "title": "打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FZ3J5WWVWb3ZmU1gtTnNjVVRWdWM1ZnpsUUhxZG9XU2k5UnBVekZsaURCaUViSTRuaHBZZWdURXI1MnczZ3QtLQ?oc=5",
-      "source": "全球AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-21T14:20:12+00:00",
-      "language": "zh",
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 财联社"
     },
     {
       "title": "Rationale for Adding Back NVIDIA (NVDA) - Yahoo Finance",
@@ -1958,7 +1928,7 @@
       "summary": "ASML Shares Slide: What Investors Need to Know Yahoo Finance"
     },
     {
-      "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺财经",
+      "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tVWhXZUJacTRkUTcxWmdfd1pkUmU4dTBwV1pULXM5S3FHa2ZtV3lIVDg0Tlpua3MyME9IalNibU9ubGpWVTRrdjlySnZHNDRoQm1DMVh3ZG9yem1FUG4wX0VR?oc=5",
       "source": "中文AI技术开源",
       "source_type": "国内资讯",
@@ -1969,7 +1939,7 @@
       "tags": [
         "发布"
       ],
-      "summary": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 同花顺财经"
+      "summary": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 同花顺"
     },
     {
       "title": "重构工业AI底层逻辑 管网世界模型实现物理状态可交互推演 - 中国科技网",
@@ -2001,21 +1971,6 @@
         "data center"
       ],
       "summary": "Intel Stock Jumps After RBC Predicts Q2 Revenue Beat Amid Reports Of Data Center Layoffs Stocktwits"
-    },
-    {
-      "title": "My review is still missing (EMNLP; ARR may)",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v2h6bw/my_review_is_still_missing_emnlp_arr_may/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T12:35:12+00:00",
-      "author": "u/RobinTheWonder",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "paper"
-      ],
-      "summary": "Hello, I submitted a paper to ARR in May, but my submission has only two reviews as follows (soundness/excitement/reproducibility/OA): R1: 4/3.5/4/3.5 R2: 4/3.5/4/3.5 What are my chances for the main conference, and when will the third review arrive? Is there any experience of a meta-review being written with only two "
     },
     {
       "title": "The top 10 security risks enterprises must solve before Agentic AI scales - DevPro Journal",
@@ -2372,6 +2327,23 @@
         "market"
       ],
       "summary": "Marvell, Intel, Sandisk, Cracker Barrel, GM, and More Stocks That Explain Today’s Market Barron's"
+    },
+    {
+      "title": "大模型几个月能力翻番，标准更新却按年算！业界：AI迭代太快，治理没跟上 - 时代在线",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xcmlkOThSM3VEQWlvUkZPZEJuZGhYQnJIZkhtcW44OXpSZnZ0VG5xbWVPekJaMG9VLUM0cFhZRVhZalJzWlMyOXRfTQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T11:30:11+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 62,
+      "tags": [
+        "模型",
+        "大模型",
+        "治理",
+        "标准"
+      ],
+      "summary": "大模型几个月能力翻番，标准更新却按年算！业界：AI迭代太快，治理没跟上 时代在线"
     },
     {
       "title": "美国推行AI许可制：Anthropic获批受限，OpenAI仅20家用，Meta被逼“自愿”送审 - 手机网易网",
@@ -3169,6 +3141,18 @@
       "summary": "智能伙伴来了，“AI”正重塑大学课堂 新华网"
     },
     {
+      "title": "打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FZ3J5WWVWb3ZmU1gtTnNjVVRWdWM1ZnpsUUhxZG9XU2k5UnBVekZsaURCaUViSTRuaHBZZWdURXI1MnczZ3QtLQ?oc=5",
+      "source": "全球AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-21T06:09:52+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 49,
+      "tags": [],
+      "summary": "打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 财联社"
+    },
+    {
       "title": "OpenAI董事会主席泰勒预判：12个月后企业将彻底告别Token计费焦虑 - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR3hWNHlEOFltRWJDZW12d1F2YkEyUWFoRl81MG5XcHJTNXJjTVAxa0lmNTNJX1M1UjVnaVhxRTY2WjBJaVplRzdKRkt1MlFtR2N6V2E0R0ZLOUZlZ0VFNWotcTF1RHZTLUVJWW44RnRZX2dZbnZzU1ZhTlN2WGJ6TnhzcWdRMUgySF9J?oc=5",
       "source": "全球AI巨头动态",
@@ -3601,23 +3585,6 @@
       "summary": "Neo Raises $100 Million To Secure Agentic AI Software Across Enterprises Pulse 2.0"
     },
     {
-      "title": "To those with a MS in computational linguistics/ human language technology",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v24r5b/to_those_with_a_ms_in_computational_linguistics/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T01:50:51+00:00",
-      "author": "u/Tiny_Strawberry_2226",
-      "reddit_community": "LanguageTechnology",
-      "category": "投资商业",
-      "relevance_score": 51,
-      "tags": [
-        "invest",
-        "investment",
-        "app"
-      ],
-      "summary": "When did you receive your degree? Did you build side projects to build your portfolio by any chance? Would you say they were financially worthy investments on your career by now? How satisfied are you overall with your own goals and aspirations expected before starting the program? :) I am strongly considering human la"
-    },
-    {
       "title": "Anthropic以15亿美元和解AI训练数据版权诉讼 - 观点网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uWkROSVhQYjVLVVRFRXdZWElySmlfYzB1aDJGREZQSFRpZkJRMHBOVWZaSjhUVHpOOEdERDhCVXhUVGVBbjByN0tWUTVQVk5KN2c2djRkNkt2TGRSaFhoOFNn?oc=5",
       "source": "全球AI巨头动态",
@@ -3867,26 +3834,6 @@
       "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyoncé's Say My Name , and Harry Styles' As It Was . The lawsuit, filed in a New York court on Monday, claims that thi"
     },
     {
-      "title": "I released a structurally chunked, open EU AI Act corpus for legal AI and RAG",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v1zb10/i_released_a_structurally_chunked_open_eu_ai_act/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T21:55:38+00:00",
-      "author": "u/Automatic-Forever-63",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 59,
-      "tags": [
-        "research",
-        "dataset",
-        "release",
-        "app",
-        "regulation",
-        "act"
-      ],
-      "summary": "I have released EU AI Act OpenRAG, a downloadable SQLite corpus of Regulation (EU) 2024/1689 for legal research and engineering. The key difference is how the legislation is divided. It is not split into arbitrary token or character windows. Each chunk follows the Act’s actual structure: article paragraph, recital, def"
-    },
-    {
       "title": "英国向Anthropic抛出橄榄枝：邀请其扩张伦敦业务并探讨双重上市 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9SRHFCQnllNVp6dHdCSk00ZktJdjF5c3RjY1FSaDFGR1JnZURFV2xIcXl2S2k4c210MnBieVllTF9qTGMwbmUydw?oc=5",
       "source": "全球AI巨头动态",
@@ -4059,21 +4006,6 @@
         "company"
       ],
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI "
-    },
-    {
-      "title": "Recommendation for generating sample sentences",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v1skpv/recommendation_for_generating_sample_sentences/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T17:47:36+00:00",
-      "author": "u/estudos1",
-      "reddit_community": "LanguageTechnology",
-      "category": "产品应用",
-      "relevance_score": 43,
-      "tags": [
-        "tool"
-      ],
-      "summary": "I would like to start using some IA tool to generate example sentences of new vocabulary for flashcards. Does anyone here have experience on that? How has it been? What cautions do you recommend to do in order to have it useful? How to expand its use? Which tool? I've watched some videos but I am afraid it can be spons"
     },
     {
       "title": "中国成为全球AI治理可信引领者——国际社会积极评价2026世界人工智能大会 - 中国科技网",
@@ -4254,22 +4186,6 @@
       "summary": "I worked on this project ( https://github.com/workofart/harness-training ) for the past few months to reframe \"Agent-driven Self-improving Harness\" to \"Harness Training\". The idea is simple, the harness is trained once with a frozen task LLM against a given task environment. Then you can then swap out the task LLM to a"
     },
     {
-      "title": "Emnlp chances",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v1q6n1/emnlp_chances/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T16:21:50+00:00",
-      "author": "u/Happy_Today_3288",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 52,
-      "tags": [
-        "agent",
-        "app"
-      ],
-      "summary": "Looking for opinions from people familiar with EMNLP reviewing, especially the LLM Agents track. Previous cycle: - Reviews: 2, 3, 3.5, 3 (avg. 2.88) - Confidence: 5, 3, 3, 3 - One reviewer increased 2 → 3 after discussion. - The AC recommended Findings, mainly asking for softer claims and incorporation of the rebuttal "
-    },
-    {
       "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
       "url": "https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update",
       "source": "The Verge AI",
@@ -4408,26 +4324,6 @@
         "robotics"
       ],
       "summary": "WAIC 2026 | Matrix Robotics Unveils MATRIX-3 Humanoid Robot Gasgoo"
-    },
-    {
-      "title": "Dissapointing experience with the ARR/EMNLP reviews",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v1n3by/dissapointing_experience_with_the_arremnlp_reviews/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T14:26:20+00:00",
-      "author": "u/nampallynagarjunaps",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 63,
-      "tags": [
-        "raised",
-        "model",
-        "paper",
-        "dataset",
-        "release",
-        "app"
-      ],
-      "summary": "TLDR; Errror in reviews, no responses from reviewers! This is my first submission to a *CL conference. We submitted it under a language modelling task. We got 3 reviews of 3/4, 2.5/4, 2.5/4. Reviewer 1: they posted a review that is clearly intended for another submission. We raised this with AC on the day reviews are r"
     },
     {
       "title": "Microsoft expands Azure AI and HPC infrastructure with AMD - The Official Microsoft Blog",
@@ -4606,22 +4502,6 @@
       "summary": "1分钟看懂昇腾950：华为在WAIC亮出的算力巨无霸 搜狐网"
     },
     {
-      "title": "EMNLP overall assessment vs. meta",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v1hhrh/emnlp_overall_assessment_vs_meta/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T10:19:26+00:00",
-      "author": "u/th3owner",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 44,
-      "tags": [
-        "model",
-        "paper"
-      ],
-      "summary": "Our paper got 2 / 3 / 3.5 with confidence 4 / 3 / 3 (Interpretability and model analysis track). We addressed everything in the rebuttal but unfortunately none of the reviewers replied. The AC also did not push any of the reviewers to at least acknowledge the rebuttal in their final reviews. Overall, the score is 2.87 "
-    },
-    {
       "title": "China delivers a one-two punch to America’s AI dominance",
       "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
       "source": "The Verge AI",
@@ -4764,24 +4644,6 @@
       "summary": "世界人工智能大会上的\"乳业身影\"：数智之变如何照进现实 新华网"
     },
     {
-      "title": "For Those Who've Watched Andrej Karpathy's makemore Series—Was It Worth It?",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v1e7fr/for_those_whove_watched_andrej_karpathys_makemore/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T07:07:29+00:00",
-      "author": "u/Ok_Second2105",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 55,
-      "tags": [
-        "model",
-        "paper",
-        "dataset",
-        "act"
-      ],
-      "summary": "I recently started Andrej Karpathy's *makemore* lecture series and just finished the first lecture. So far, the focus has been on building a character-level language model using a dataset of names. What I enjoyed most wasn't just the implementation, but how each step is explained from first principles instead of treati"
-    },
-    {
       "title": "Understanding Agentic AI in Clinical Development - Fierce Biotech",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdWxQREluN2xYQ1diWENuTWRsaGF2NFRhbkFhQWxCdUlzSmF4dzUtSFhVVlZsQnlpZWhzX2NWcF9meUJtMDBweXVJZ0ZKYXJyZkZaVVNVSC1DNHJiWHFjUno1ZHdXdlBONUZobUNDRk1SM2hsWjlkVUI2akIycWgwZDhaN1haaTczZ1hvR0dR?oc=5",
       "source": "前沿模型与智能体技术",
@@ -4850,24 +4712,6 @@
       "relevance_score": 37,
       "tags": [],
       "summary": "Hey any one experience overall score 2.66 and then Meta score 3 in some previous cycle ?? Or meta reviewer just rounded off 2.66 to 2.5?? Any Meta Reviewer here?? because there are some uninterested reviewers doing AI generated reviews and giving noisy scores. For them overall score gets lowered. submitted by /u/Histor"
-    },
-    {
-      "title": "开源AI智能体OpenClaw引爆市场！甲骨文财报能否撑起AI基建的万亿野心？苹果入局折叠屏备货上调20%丨20260310从华尔街到陆家嘴 - 第一财经",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93ajllMExiODEyS09XRjJPSDgtRGQ1eE5mdEVnNDNGT1JzQ1ZKRUFZOXhGbWxTbUJ3eHktbkFDWWZFVzRLbkxYV2VUUi1RVktJeXN3Sw?oc=5",
-      "source": "中文AI技术开源",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-20T03:56:52+00:00",
-      "language": "zh",
-      "category": "技术研究",
-      "relevance_score": 58,
-      "tags": [
-        "财报",
-        "开源",
-        "智能体",
-        "law",
-        "市场"
-      ],
-      "summary": "开源AI智能体OpenClaw引爆市场！甲骨文财报能否撑起AI基建的万亿野心？苹果入局折叠屏备货上调20%丨20260310从华尔街到陆家嘴 第一财经"
     },
     {
       "title": "从“会回答”到“会执行”，WAIC上的AI Agent正在发生这些变化…… - rmzxw.com.cn",
@@ -4940,20 +4784,6 @@
         "芯片"
       ],
       "summary": "真武AI芯片累计出货56万片，平头哥开源T-Head SAIL软件栈 电子工程专辑"
-    },
-    {
-      "title": "世界人工智能合作组织(WAICO)推进会成功召开 - ndrc.gov.cn",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGQTJ5ZC04MkJKYTBxZ255b3JmLTg3ZFJGYnJIQWFMQWtYSFNJQ29lU0p4TjkwS2ZNRVNIWGJMd1U0dk9RTWI3dHA2SXJlMTJxcGdEa2Zzek90bEE2RXI0MURFSnpCc3pjVVE?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-20T01:19:59+00:00",
-      "language": "zh",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [
-        "合作"
-      ],
-      "summary": "世界人工智能合作组织(WAICO)推进会成功召开 ndrc.gov.cn"
     },
     {
       "title": "Are there some textbooks that take a primarily engineering approach to machine learning (as opposed to a \"scientific\" approach)? [D]",
@@ -5076,19 +4906,6 @@
       "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
     },
     {
-      "title": "ACL ARR May Cycle:",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v10sqv/acl_arr_may_cycle/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-19T20:21:03+00:00",
-      "author": "u/doytchez",
-      "reddit_community": "LanguageTechnology",
-      "category": "产业动态",
-      "relevance_score": 35,
-      "tags": [],
-      "summary": "Any chances for emnlp with scores 2, 2, 3 and confidences 4,2,4? We wrote rebuttal but got no response from reviewers. submitted by /u/doytchez [link] [comments]"
-    },
-    {
       "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
       "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
       "source": "TechCrunch AI",
@@ -5116,22 +4933,6 @@
         "act"
       ],
       "summary": "1010Benja won’t apologize for using AI. | Image: 1010Benja / Instagram I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring , especially the outputs of Suno . So I'm having a bit of a tough"
-    },
-    {
-      "title": "Modern way to build a rule-based sentence boundary detector",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v0vmnc/modern_way_to_build_a_rulebased_sentence_boundary/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-19T16:51:48+00:00",
-      "author": "u/Speedk4011",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 40,
-      "tags": [
-        "reasoning",
-        "app"
-      ],
-      "summary": "I know text processing has evolved, so I'm curious whether there's now a better way to build a rule-based splitter than the classic mask, split, and unmask approach. If the goal is to split text while respecting things like quotes, escapes, or nested structures, what technique would you use today? I'd love to understan"
     },
     {
       "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
@@ -5168,22 +4969,6 @@
       "relevance_score": 33,
       "tags": [],
       "summary": "‌WAIC最高荣誉五大赢家全揭秘：华为靠“组局”制胜、14nm国芯逆袭 新浪财经"
-    },
-    {
-      "title": "What do you think ARR Findings",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1v0qeh2/what_do_you_think_arr_findings/",
-      "source": "Reddit · r/LanguageTechnology",
-      "source_type": "Reddit",
-      "published_at": "2026-07-19T13:18:26+00:00",
-      "author": "u/Technical_Storage_46",
-      "reddit_community": "LanguageTechnology",
-      "category": "技术研究",
-      "relevance_score": 39,
-      "tags": [
-        "paper",
-        "hiring"
-      ],
-      "summary": "ACL, EMNLP differentiate Main conference papers and Findings papers. What do you think of it? Does tech companies really care about it when they are hiring someone? Or to be a professor, findings papers are seriously weaker than main paper? I’m so confused and stressed for “Finding” track. submitted by /u/Technical_Sto"
     },
     {
       "title": "“世界模型”火了！李飞飞AI公司融资10亿美元 - 第一财经",
@@ -6071,6 +5856,22 @@
         "公司"
       ],
       "summary": "深圳华强：公司是华为计算部件（含昇腾、鲲鹏）总经销商 东方财富"
+    },
+    {
+      "title": "国产大模型Kimi K3能自主设计AI芯片：45nm工艺 100Mhz频率 - 驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aY3lKTUFnZ3hUM3dDcXNVVGtJMmVaOElSdTFxRTVzMVQzMjV4U0l2ZkF2WmJuUUVnbExDX2x0R2oxcjluYzdMOEx1SnVPSjlSOElOdlY2MkM?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T04:58:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "模型",
+        "芯片",
+        "大模型"
+      ],
+      "summary": "国产大模型Kimi K3能自主设计AI芯片：45nm工艺 100Mhz频率 驱动之家"
     },
     {
       "title": "Agentic AI in 2026: Enterprise Implementation Guide | Valorem Reply - Reply",
@@ -7418,18 +7219,6 @@
         "launch"
       ],
       "summary": "Robbyant Launches LingBot-VA 2.0 Built Natively for Embodied AI and Physical World Control Business Wire"
-    },
-    {
-      "title": "Meta's Gigawatt AI Campus Reveals Hyperscaler Power Strategy Shift - Indiatimes",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQXhLR3VPOU05VzRLVGFCZDdPQ29NTXM5S3otaExjRUt1TnpnbnhqSlBmWElzRm1sSnMyQnRYbm4zLTVncjhWazdBVWhjcldnOV9XdV9GUXlxRzNINzNOb0E3Sjdxb0I0WXp6MlVfNm8yNTVia1hqTU5jTElzc1VrcVp3d3BfQnhQSWhjc0VaTC1SSkxQcHFWeEJfdzlDZHdSOWhMNF9qTmgySHpQREZKSWE0ZnFpT3RIRXRNOF9Gc19YWUx4OG4xNXVXclBRamllQ3RjQlNyYUpaNjQ4NDl4REZGcmQwX0I2bnZfRXpPaw?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-10T07:00:00+00:00",
-      "language": "en",
-      "category": "产业动态",
-      "relevance_score": 20,
-      "tags": [],
-      "summary": "Meta's Gigawatt AI Campus Reveals Hyperscaler Power Strategy Shift Indiatimes"
     },
     {
       "title": "Getting started with ChatGPT",
@@ -9428,6 +9217,21 @@
       "summary": "Powering the future of robotics in Europe"
     },
     {
+      "title": "AI Agents in Biology Are Too Inaccurate to Use: Anthropic’s Deterministic Tool Is the Fix - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORUFQUlJVaXgxaHFNZXhtRW05bXZpU3ZjM0FxWnpza1hXZkpNZE9Kdy1JOVE4amhwWlR2dW5ycGsxaGdaWXFENlA4SFpVUTA3UkJUV0xWekptSm9qWS00LXBZbW5PS2F1azVZeWEtMFlXcWtRd0VzUWZRR01qTzY0eGpkTkFZdldMVGJKLWhyZWdFTVZzVGFEQlBIRm85dVJoT0w5Ui1DU0w0T0htUGRncGZ4TWJNNGFLRUo4YU9SLVZyRV83OGxGZA?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "summary": "AI Agents in Biology Are Too Inaccurate to Use: Anthropic’s Deterministic Tool Is the Fix Tech Times"
+    },
+    {
       "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
       "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
       "source": "Google DeepMind",
@@ -9792,20 +9596,6 @@
         "data center"
       ],
       "summary": "Inside an Accelerated AI Data Center Project Data Center Richness | Substack"
-    },
-    {
-      "title": "Google Pushes Forward with New AI for Science Tools - HPCwire",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNG02dnhXSzVzUzBKZXkxcVQ4aTRCdDh2aUpBeHMyTFJUSTRJMmlDb1VYby1GbHFkN2w5Snh0bmhOUFhuRV9IYTRKbmNZY3YwUmYxdE5ldVhsU0ZCN1Jic3A1QVZyMXJfUjQ2S2FLbGJDN19ZWVpOT1QyNGpzQjJVelNhOXlIS085SElhcy1BR0VhLTdBazNELV93?oc=5",
-      "source": "AI for Science",
-      "source_type": "新技术",
-      "published_at": "2026-05-26T07:00:00+00:00",
-      "language": "en",
-      "category": "产品应用",
-      "relevance_score": 23,
-      "tags": [
-        "tool"
-      ],
-      "summary": "Google Pushes Forward with New AI for Science Tools HPCwire"
     },
     {
       "title": "Catch up on the Dialogues stage at Google I/O 2026.",
@@ -10292,6 +10082,20 @@
       "summary": "North Carolina Targets Hyperscale Costs with Proposed AI Infrastructure Bill Data Center Knowledge"
     },
     {
+      "title": "Big Tech Targets Drug Discovery with Wave of Life Science Platforms - genengnews.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcnBHbmdFZ3VOMnlnTkgyUkkta3U1SzE1YVUxRzFyRmNXbnYzeWhEbW1adGlucUdzdTFSTElKb01KVHB0cVR0SjZhcXc3THZUQnRFekNLTHlxR0dqQmNwSWRQNU51RHYtdHM4Qjh3bHhWVXFVSVNiZWZxRkJWZV9ackliSVYyaG5FZU1icVVuZHY3LTMtM0ZOSVJpT2p0ZHNpTkxXY0J0bV9JMHFUMHQ0eWVYTHRpbTNJUnliV3l2VmRwckJo?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-05-04T07:00:00+00:00",
+      "language": "en",
+      "category": "产品应用",
+      "relevance_score": 23,
+      "tags": [
+        "platform"
+      ],
+      "summary": "Big Tech Targets Drug Discovery with Wave of Life Science Platforms genengnews.com"
+    },
+    {
       "title": "Build a Multi-Agent AI Workflow for Biological Network Modeling, Protein Interactions, Metabolism, and Cell Signaling Simulation - MarkTechPost",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSmJzRHJBdzV3VHl2aTZyN3FWUEphdGlBLXdtS210VEVPalIwQ09MRXZuRG1CeW1fSjNxcmNGcmlXR042ZVd5Um1VNmszcU82bTdQeFRDenJxSnh0VXlSdXJfMG8tVUhlcGpGNUR3aWhrcWlCODA1OXl5RENvbFo0RUxIQ0IxZE9ieV96YTQ1Qjlzb0hNZkZHSkN2WUVyREpQdkF2d2EzWXJxN0xqMENieHNHWTVGSGIzV0xnT09NcDJpSVRUb0pmWUtYaHlqaWxySU1VazZaTEs2ZEl1TjhkWWpDcjdpVmJWNkdZNkJUY2EyRmJSbGV6ZHZn0gH_AUFVX3lxTE9YS2Fpc1UxUnJINjNQODN2ZkpXbnh5OWJiaWljbGdNYzlURFpDRjB6emtEZjJVaDZHOUVOTXU4cUdDNV9COWdZWFRidDVqM3NETWNIc3pIczJCYUp3WHRlMzVmVDcySlREWTNNUFlpem9UQm5ZenJuTlg4UHluTlhCV21hMG82N29oeU1uN1NGQjBBQkE0UjBIWHM2OEVwaG5oWkFLN2JMOWtyTXhIM2V5M25aSjJEN0h3TUMzbVNKd2xXRWk2TFN4a01Id3FMV042UGluemsxbnZLcm9pcmVaaUk5ZTBzTVp5elM5SlpnUEp4QlhWZWRxTG9lU1JaVQ?oc=5",
       "source": "AI for Science",
@@ -10617,20 +10421,6 @@
       "summary": "2MM: AI Roundup – Roche and NVIDIA’s AI drug discovery factory and surgical robotics foundation model, Amazon’s nationwide health AI expansion, and Brown’s AI therapy ethics warning [March 2026] 2 Minute Medicine"
     },
     {
-      "title": "Can AI Agents Automate Scientific Discovery? - genengnews.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcDNBWDdqZ3AzOWtMQVBIa2plTE5mTkZyVFdhd1VORDdaOV9XdUlWdDI4amdraU85Z2VIaDVNOHUzMmdPczNOTGotWHRCV0JScnVHX0RzWGFQYjlwc09QWFpJTURlOVJCcmswOXAwcWdnUmlNQXFpeXNBTXNuenJNSTJFWXByaVFCb0ZSRjA4cW1ha19reTRZS1BMcUZtUUR4QWN6TA?oc=5",
-      "source": "AI for Science",
-      "source_type": "新技术",
-      "published_at": "2026-04-01T07:00:00+00:00",
-      "language": "en",
-      "category": "技术研究",
-      "relevance_score": 23,
-      "tags": [
-        "agent"
-      ],
-      "summary": "Can AI Agents Automate Scientific Discovery? genengnews.com"
-    },
-    {
       "title": "Nebius Touts $10B, 310 MW Data Center Plan - Data Center Knowledge",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUxQNmxWQlU2RHhZN3NOTFRvZ3FJa3ZhSWNWdHZjWHFIcmx5RHp6bHBsWFVaaGYzbnd3ZlFRN3VabGJETFVuY0hDTWJMRVE5YXVOUXd2c0o0YTF0RlpSQW1nZEJkZmNXcEs2QTUxM3FZU0NhbElyWjVjTTc2UHhlUXluVjJZTGRlNTNLX2NUSTRHN0ROTmxCUjhGTENHRGpWMUdDVHZPdFdWMHZrc2drcW9EaGd6WkQ3WW00TGZkNThWTjF0TW1J?oc=5",
       "source": "AI数据中心与能源",
@@ -10711,6 +10501,185 @@
       "relevance_score": 20,
       "tags": [],
       "summary": "大厂烧钱百亿搞AI，谁赚到了真金白银？ 21财经"
+    },
+    {
+      "title": "Latent-Y: The Autonomous AI Agent for Drug Design at Scale - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbWo4clp4RmdJb3l6X1hBclYtT1U0ZXltYlZVOXVPX0IzRTRKSHpFcHFPZFVmZnZwdk9xc0JKc3Q5bU5LRzU3emZrT28tSXFiVS1RdEViTDEzcjRHNWRvZUE3SUdycW9rUEgyd0tWNDRWRGFRM3RaRTBuWmRKVzh0U25TajZXNG1uS2VLdDM0UlRUV1NMUHBza1VvejBRZWpxUGRFU21QdW9pMjA1b21selY4SzY?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-03-23T07:00:00+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 23,
+      "tags": [
+        "agent"
+      ],
+      "summary": "Latent-Y: The Autonomous AI Agent for Drug Design at Scale Business Wire"
+    },
+    {
+      "title": "AI Data Centers: 1,000 TWh by 2026 [April Update] - tech-insider.org",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QSElCRldOOE9tc3dzZElFUjZsMFc5NjlhNnJTSXI3Z3JmbnVRa29rSWVQU0phenlSVHN0MnFaTWdVSFNwWk1OVzRlQzdYbnktQTJQdFJiUE5JSzhzUlBGQlNvU1dwWDU5Tmc?oc=5",
+      "source": "AI数据中心与能源",
+      "source_type": "产业链",
+      "published_at": "2026-03-20T07:00:00+00:00",
+      "language": "en",
+      "category": "产业动态",
+      "relevance_score": 23,
+      "tags": [
+        "data center"
+      ],
+      "summary": "AI Data Centers: 1,000 TWh by 2026 [April Update] tech-insider.org"
+    },
+    {
+      "title": "Mistral AI发布Small 4，统一推理与多模态能力 - 品玩",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBLQzhkVU1PTGI3ZVBjR0VJdEo0QVN5SzBtTmZwM3F3akhFQnE0U3p3TTZ5ZFRjVHk2aVlXX2VGZGx1VWFORWxyTg?oc=5",
+      "source": "AI基础设施与企业软件",
+      "source_type": "产业链",
+      "published_at": "2026-03-20T03:31:18+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "推理",
+        "多模态",
+        "发布"
+      ],
+      "summary": "Mistral AI发布Small 4，统一推理与多模态能力 品玩"
+    },
+    {
+      "title": "Dyno Therapeutics Launches Dyno Psi-Phi, an Agentic AI Suite for Protein Binder Design, at NVIDIA GTC 2026 - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPdzdqa2NybTdwTHB6VGx3Z3VaWGI0dVZZVlVWb0l4TTdmR1IzWFdfTXFxUm4yeXVGcm5mQ20tNjdRSWZQUTk1c3R5SFhnV3lzQ2UxVU1kMEtHMV94NWF2Y3BqUG5BSVFtLW43X2FpUVVWZzl4VDZyNDhueGZSdk5LQUoxY0ZyeGFKOGE5YkMyc0t6UUd0VWxEX2o2SlFZcHljZkZWYXR6Q3JLQlVSa043TmxPMWc2NWl3TzR3MWVsSzFPTjdPS181TU16M2k5T1pnQWVYVmM3UHkyS29sQ09JT25xMDhBZXRDcHhiOWI1czNseE0?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-03-18T07:00:00+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "agent",
+        "launch"
+      ],
+      "summary": "Dyno Therapeutics Launches Dyno Psi-Phi, an Agentic AI Suite for Protein Binder Design, at NVIDIA GTC 2026 Business Wire"
+    },
+    {
+      "title": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences - genengnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZUszRVY5NVhuc0F3VnNmX3c4OEIwdWwzU2t5MmdUX29GcmdUQTNjX1BQUjhSeUlWS1YyRFpSb0VqQXVWbkdwTkE0b1VVMkhEV2pSdzdFUmhGNDlsUmhRd2g1MGZnaTYxcXAtTF9PZW9BTWhmcEp2RjFYM2d5RnJkYklMU2RZRlpQLUJaRGNOejh3N1NGX0NQaW4tcDA1LWd3NXJSUjYyck9CLTk5QUZZYlE4RlIxZTBBOUVicFhhQ1p2a3VxZXhrcVdn?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-03-18T07:00:00+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "agent"
+      ],
+      "summary": "NVIDIA GTC 2026: Agentic AI Inflection Hits Healthcare and Life Sciences genengnews.com"
+    },
+    {
+      "title": "NVIDIA Expands Open Model Families to Power the Next Wave of Agentic, Physical and Healthcare AI - NVIDIA Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbjBYaVJXVlVId0Y2WVpqTDRZSG1hN3A3TW1mMHp4a1h3a2x0ODJOT0RjT3J5QTRwZDlpYUFEWjNCS3UxR2pIZThyRUJNZlRtOWwtNk5xQ0hVbDlaU2xUUzNxME4xbF9KQXJmNHdjZzZzRWtFZFNMSDRJZUk1RE8wV0dKM3FVS3BjSm80SThPWTd6MFNRSXUwX0VidDJiR0Izb09rX0k4NVMwWTdFLVc1VWdaeVI3WmQ4cGhyY2VzbzlOM1BHYXJMYg?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-03-16T07:00:00+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "model",
+        "agent"
+      ],
+      "summary": "NVIDIA Expands Open Model Families to Power the Next Wave of Agentic, Physical and Healthcare AI NVIDIA Newsroom"
+    },
+    {
+      "title": "OpenClaw“全民养虾”时代，哪家Coding Plan最适合你？国内主流Coding Plan套餐详解 - qq.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56aUNPY0R2RjVUSzh4MmFxNTE0WkVOWmRDUGVkUVMyNF9NV1NsUjJWblpJSUY4Vks1dmU3QndFSXprSkxjS3hlVzFUZWFtS1JPc1Z4ZGJB?oc=5",
+      "source": "中国AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-03-16T07:00:00+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 23,
+      "tags": [
+        "law"
+      ],
+      "summary": "OpenClaw“全民养虾”时代，哪家Coding Plan最适合你？国内主流Coding Plan套餐详解 qq.com"
+    },
+    {
+      "title": "四月交卷！梁文峰与姚顺雨的关键时刻 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FTjM3WmYzbGIyZ3Y2VFZPcXZwaVlRRWRhNkhIVXlRU2pxNlhrcTA2X1BIRUV1bnRfVENaWmRpb1Ywc1IzdktBVmtsVEEzUllpazVN?oc=5",
+      "source": "中国AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-03-15T07:00:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "四月交卷！梁文峰与姚顺雨的关键时刻 36 Kr"
+    },
+    {
+      "title": "Argonne receives DOE funding to advance AI for science - anl.gov",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMVFsay1qZHNJWWU5bU5fWUNIa1VRcDBvTmZOWVBXMzRZLW5ZcHFMZk5FZGp6d1lGUHFsMlRGMDBTeG5ETk9SSmtNVUpkeW1kVTJLemtrZ3B0UTFMQWs1WmdZSTFIa01YbWZDM18xdjlFLVdWb2FkMnVxU2J6cFNtRTFtQmxRNTIwYkE?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-03-12T07:00:00+00:00",
+      "language": "en",
+      "category": "投资商业",
+      "relevance_score": 23,
+      "tags": [
+        "funding"
+      ],
+      "summary": "Argonne receives DOE funding to advance AI for science anl.gov"
+    },
+    {
+      "title": "The Startup Trying a New Trick to Develop AI For Science Discovery - The Information",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNekd2bnZnSnlPV2ZuZW9MQkZLQjhnQVNvX3o0ajBPVTZqOEVaTzZaU2tXd01YMVg3cHdUUjhtVmMxeVFTczMxNTBPdVBEdzlzdlZuRnY2aVQ5Um56S2tQbTI2RXNvSWppUGU4SlhRSHZBbkpFNHB0akVpV185cWxQX092NHFZV2REY0xfZzR0MUhoYzJQcm54MEdldF9GQTlkZlN2cnJnMUNiUQ?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-03-10T07:00:00+00:00",
+      "language": "en",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "The Startup Trying a New Trick to Develop AI For Science Discovery The Information"
+    },
+    {
+      "title": "Plug Power Plans Hydrogen Offering in Top US Power-Grid Auction - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWmt0aFFSTTVFbk9mcmNfcXc5dzBEb0lfNXBNMzRkNTU0VHcxYnBOVVRzbnR6c0ZuSlBXZ1M1cFJmdWtTSE4tb1A5RldsSzdObUpUVHA0S2NfR0dPYWFmMWpkQ2FHckJTRUlRUUFzYkFscWV3ZGhhNGFMeU85U0hzMWtJV0Y4LTY1MEJiTnJWcC1qYXR1VDdjYWY0TFVDeW5mWmdDM0Y5empQVnFwLVBRSzh2TDA?oc=5",
+      "source": "AI数据中心与能源",
+      "source_type": "产业链",
+      "published_at": "2026-03-07T08:00:00+00:00",
+      "language": "en",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Plug Power Plans Hydrogen Offering in Top US Power-Grid Auction Bloomberg.com"
+    },
+    {
+      "title": "让 AI 惠及每一个人 - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBucjZCVURzTi1VaURDdVdSTTVFWHpwNmVhTnBLQlVKeXdDeVNhX200SzI3bklGQjhaV2RkMnBmclE4Q01fZkMwQVp2Mms0S09jbDd2cTUtaXpneXdEZVc0MktvaVpyRHlOYnJLYg?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-02-27T08:00:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "让 AI 惠及每一个人 OpenAI"
+    },
+    {
+      "title": "国内上市公司纯 AI 算力规模排名（已投产，2026 年 2 月） - 雪球",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PZ1RybzZWMF9BZHdwc3lZbzVDZmdWT1EtdVFPaUEtbEJHRWVhVGVYaS1CSzFYMjJzTXAxemJKeHVxVTlrUlRmSk1EeVpjX0Rz?oc=5",
+      "source": "中国AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-02-22T08:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "上市",
+        "公司"
+      ],
+      "summary": "国内上市公司纯 AI 算力规模排名（已投产，2026 年 2 月） 雪球"
     }
   ]
 }
