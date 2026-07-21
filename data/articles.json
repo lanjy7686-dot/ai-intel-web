@@ -1,7 +1,7 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T14:37:13.248090+00:00",
-  "count": 299,
+  "updated_at": "2026-07-21T14:58:28.617723+00:00",
+  "count": 497,
   "errors": [],
   "source_status": {
     "X": {
@@ -12,7 +12,7 @@
     },
     "RSS": {
       "state": "fetched",
-      "count": 187
+      "count": 387
     },
     "Reddit": {
       "state": "fetched",
@@ -122,27 +122,28 @@
       "summary": "Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. Existing serving systems and auto-parallelism compilers comm"
     },
     {
-      "title": "Advancing next-gen AI with materials science innovation",
-      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
-      "source": "MIT Technology Review AI",
-      "source_type": "RSS",
-      "published_at": "2026-07-21T10:37:34+00:00",
-      "language": "en",
-      "category": "技术研究",
+      "title": "Show HN: Inflexa – open-source Intelligence for Biology",
+      "url": "https://github.com/inflexa-ai/inflexa",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:44:26+00:00",
+      "author": "tanasaradu",
+      "engagement": 2,
+      "category": "产品应用",
       "relevance_score": 76,
       "tags": [
-        "invest",
-        "investment",
         "research",
         "architecture",
-        "api",
-        "chip",
+        "agent",
+        "product",
         "app",
         "tool",
         "platform",
-        "act"
+        "act",
+        "privacy",
+        "cloud"
       ],
-      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI technology demands m"
+      "summary": "Hey HN! Inflexa is an OSS-first TUI for agentic-AI reproducible biological analysis with provenance tracked on every step. It's a better designed Claude Science (bar the GUI for now). Before this, we spent years building a cloud multi-omics analysis platform, working alongside research teams in pharma, biotech, and aca"
     },
     {
       "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
@@ -164,6 +165,65 @@
         "act"
       ],
       "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control, wrapping trusted solvers behind language interfaces and orc"
+    },
+    {
+      "title": "端侧大模型成了刚需，芯片准备好了吗？|2026世界人工智能大会|终端设备|GPU|Agent|推理_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX3dzSy1aN1lBRHR5N2d2Q2RlTEx1S2FXRW5EMi1aWXlEYnFiZlhFRjlFeEdHaXBjSnVsSjZrYnhWcnN3OXUzNnBwMDFORFFnZDJzNllKbFFjRHY3OEozU28yTHM4bXRiZllQYmdxcUpZR1hCWnAxN0xGMW1iS0Fnb0QzMFRpRDFGUTdRRTdUTUlfZHlqNTdSd29zUERmVDdYTmF3ZUJkSQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T14:31:01+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 75,
+      "tags": [
+        "agent",
+        "gpu",
+        "模型",
+        "推理",
+        "芯片",
+        "大模型"
+      ],
+      "summary": "端侧大模型成了刚需，芯片准备好了吗？|2026世界人工智能大会|终端设备|GPU|Agent|推理_手机新浪网 新浪财经"
+    },
+    {
+      "title": "Advancing next-gen AI with materials science innovation",
+      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-21T10:37:34+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 75,
+      "tags": [
+        "invest",
+        "investment",
+        "research",
+        "architecture",
+        "api",
+        "chip",
+        "app",
+        "tool",
+        "platform",
+        "act"
+      ],
+      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI technology demands m"
+    },
+    {
+      "title": "致敬创新！网易科技“未来大奖2026上半年AI榜单”揭晓|kimi|人工智能|大模型|智能体|机器人|真实场景_手机网易网 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yRFdtdWR4TEtQZ1NrRi1hUG9uc1poWks3dVlYcW1rck1TaExhMDduNnZEUmJPWktGdEVyZU5zOVQyOE10b0pCQkwxMWZEMGVWbTNwdVNpVmxzM2lqaXpLR1FB?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:21:37+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 74,
+      "tags": [
+        "模型",
+        "智能体",
+        "机器人",
+        "大模型"
+      ],
+      "summary": "致敬创新！网易科技“未来大奖2026上半年AI榜单”揭晓|kimi|人工智能|大模型|智能体|机器人|真实场景_手机网易网 手机网易网"
     },
     {
       "title": "Reproducing OpenAI’s “persistently beneficial models” - GRPO trait install barely moves. Ideas? [P] [R]",
@@ -326,6 +386,24 @@
         "platform"
       ],
       "summary": "Hi All, In the past I used to make games as an hobby. I wanted do something different this time. After having spent ~10Y working on SmarTeam, ENOVIA and 3DExperience Platform. And recently using Azure Devops and Salesforce. Seeing all the complexity, engineering that went into it, I was itching to create something simi"
+    },
+    {
+      "title": "Show HN: Hale – A Concurrent Systems Language",
+      "url": "https://hale-lang.org/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:45:14+00:00",
+      "author": "rrook",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 69,
+      "tags": [
+        "model",
+        "agent",
+        "app",
+        "act"
+      ],
+      "summary": "I'd like to share Hale, a concurrent systems language that I've been working on this year. The general thesis is that good software design is an actual thing. In everything I've ever programmed or designed, in any part of the stack, I've always felt like the design \"to be implemented\" is always the same, but given the "
     },
     {
       "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
@@ -554,6 +632,22 @@
       "summary": "Rubric-based RL has recently shown promise in improving LLMs on open-ended tasks. A widely recognized limitation of rubric-based RL is limited exploration: criteria that no rollout manages to satisfy (Unexplored Criteria, UC) receive no optimization signal. Recent methods address this by incorporating rubric informatio"
     },
     {
+      "title": "倒计时1天！《人工智能 智能体互联》系列国家标准应用推广专题会 - 智源社区",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNX1RBSl9reHFQOTVDOHM5eEt0eTJWVEVKY2xsbExBbWRPS2pRTGdaRzdUMHdWVmgyTE9LdHFQUC0xRjhjSEp2Nw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T14:20:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "智能体",
+        "应用",
+        "标准"
+      ],
+      "summary": "倒计时1天！《人工智能 智能体互联》系列国家标准应用推广专题会 智源社区"
+    },
+    {
       "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
       "url": "https://arxiv.org/abs/2607.18127v1",
       "source": "arXiv",
@@ -755,6 +849,44 @@
       "summary": "I use Pi coding agent with OpenAI GPT-5.6 Sol but have been finding that GPT-5.6 is slower than Claude Code. Do you use any other model like one of the hosted OSS ones?"
     },
     {
+      "title": "大模型几个月能力翻番，标准更新却按年算！业界：AI迭代太快，治理没跟上 - 时代在线",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xcmlkOThSM3VEQWlvUkZPZEJuZGhYQnJIZkhtcW44OXpSZnZ0VG5xbWVPekJaMG9VLUM0cFhZRVhZalJzWlMyOXRfTQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T11:30:11+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 63,
+      "tags": [
+        "模型",
+        "大模型",
+        "治理",
+        "标准"
+      ],
+      "summary": "大模型几个月能力翻番，标准更新却按年算！业界：AI迭代太快，治理没跟上 时代在线"
+    },
+    {
+      "title": "Are there some textbooks that take a primarily engineering approach to machine learning (as opposed to a \"scientific\" approach)? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v16l6a/are_there_some_textbooks_that_take_a_primarily/",
+      "source": "Reddit · r/MachineLearning",
+      "source_type": "Reddit",
+      "published_at": "2026-07-20T00:32:08+00:00",
+      "author": "u/ConstructionBoth6461",
+      "reddit_community": "MachineLearning",
+      "category": "技术研究",
+      "relevance_score": 63,
+      "tags": [
+        "model",
+        "research",
+        "training",
+        "feature",
+        "app",
+        "tool",
+        "act"
+      ],
+      "summary": "As someone who studied stats undergrad and industrial engineering operations research grad, and who thinks about the practical business of ML components in software.... I get lost and a bit hopeless when I think about how to make useful software out of ML models in a reasonable amount of time, and in the current busine"
+    },
+    {
       "title": "The risk of weather data sabotage is rising",
       "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
       "source": "MIT Technology Review AI",
@@ -822,6 +954,21 @@
         "company"
       ],
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altm"
+    },
+    {
+      "title": "AI大模型外汇交易实验：千问最赚钱，DeepSeek亏最多 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IT2FxOGJUenAtZ1NkUDFwMW5Td0ZXc29EcHA4dUcxeEpzUXR5MU9rekJvS3B4WWk4emlFSWxxdlljMDNIaGxoenVseWV0MEN0dDVLRUhPbWstblRLQjZEcnllbkNxU01hazNCN0s4M1FSdzIyNFE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:36:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 62,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "AI大模型外汇交易实验：千问最赚钱，DeepSeek亏最多 新浪财经"
     },
     {
       "title": "China delivers a one-two punch to America’s AI dominance",
@@ -945,7 +1092,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-21T13:20:58+00:00",
       "author": "alexcordina",
-      "engagement": 5,
+      "engagement": 6,
       "category": "产品应用",
       "relevance_score": 60,
       "tags": [
@@ -956,6 +1103,102 @@
         "market"
       ],
       "summary": "Hi HN, we're developing Neverbell, an AI agent that combines market analysis with trade execution. One of our beta testers said to Neverbell: “Protect my downside, but don’t be too conservative.” Volatility increased a few days later, and the agent decreased their exposure. Our tester wasn’t happy. The interesting part"
+    },
+    {
+      "title": "AI开始自主攻击AI生态？Hugging Face事件揭开智能体安全新挑战 - PANews",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55VUQ2LW94M0Y3eWVxaWcweEFBYnBTMDFUMGEzcXpHc0pNcWo1d0hwYldpZHR6dW1mT2s1Q2h5VzdHLTlwS2dfU2JQa20xWFhZV0NjM2phYXNmR0tKYUo0Qk9aNm12blpRSHJTMXB3VE1wVWg1OVpHYnQxbl9OcjQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T14:23:35+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "智能体",
+        "安全",
+        "生态"
+      ],
+      "summary": "AI开始自主攻击AI生态？Hugging Face事件揭开智能体安全新挑战 PANews"
+    },
+    {
+      "title": "趣丸科技发布天谱乐大模型V4.7，AI音乐从\"一键成曲\"走向\"随心修改\"| 混沌校友在WAIC - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TRWhxZXZLcEFNVk8tbHlCekFFOGdtZmJUbWdMMTZtRnB4Y3FvQWtsVFFfNk5iTGNQRUI0NmNVTTBKR3g4NTVjdDBqMmU1bm9CeV9adFB6RHdfTGhfcjNFUzI0d3gyRzViUXBpQmZxNTEyVVM1UmJ5ME82T0xYT0E?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:43:42+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "模型",
+        "大模型",
+        "发布"
+      ],
+      "summary": "趣丸科技发布天谱乐大模型V4.7，AI音乐从\"一键成曲\"走向\"随心修改\"| 混沌校友在WAIC 新浪网"
+    },
+    {
+      "title": "百聆:集成Deepseek API及语音技术的开源AI语音对话助手，实时交互延迟低至800ms-云开发者社区 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15V1c3dGtMWGUwUTdXWC1VaTdoSThvVTRTNDJhU2twTlV0Q2p6WDdJUUdHNjhfY2dsUndEUXBOTXdEUGUzRVhIMGltQ3VGR3NkWnYtZl9HY3VmVnpfUUhZZWdMYTk4Vl9DUUNfYjlaZWpFZ2tqMmYzZVZHMjFIUGM?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:38:15+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "api",
+        "开源",
+        "助手"
+      ],
+      "summary": "百聆:集成Deepseek API及语音技术的开源AI语音对话助手，实时交互延迟低至800ms-云开发者社区 新浪网"
+    },
+    {
+      "title": "Google要把AI大模型「刻」进芯片里 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wcU9ud29FcXJTR0R0V3cyR3lRX1YwSk5fZG5BZGxOanVBcGQySHJNWmdxZnhhUWZraFQ3NUNtMUZucGRLN19kZ2lmTFgwMHJF?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:03:55+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "模型",
+        "芯片",
+        "大模型"
+      ],
+      "summary": "Google要把AI大模型「刻」进芯片里 36 Kr"
+    },
+    {
+      "title": "人工智能时代电信运营商软件供应链安全治理实践思考 - 安全内参",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGUktGUG00YmZPX2loR0hjVW8wTE90SHN6NHZEbGtZaG5ZN0kwNTVGc2JxZTVsb1N5M1FkcDNacU0xQkJjalN3V0w3ZVBXZw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:20:54+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 59,
+      "tags": [
+        "安全",
+        "治理",
+        "供应链"
+      ],
+      "summary": "人工智能时代电信运营商软件供应链安全治理实践思考 安全内参"
+    },
+    {
+      "title": "不止于大模型，更在于真闭环：上海精智发布“沃土”， 定义“工厂原生AI”新范式 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OZzljWktZc0cwNDN2QXFCdmIzY1NyeDQtcTE3TE1oMmJ6dHNZblNYczRBMlB5aUlRX251T2UydmNCcmhOS0ZNcXBrd00zT2hhWVMzaFo1bWtxcG1nTll4VUlja01Edw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:30:26+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 59,
+      "tags": [
+        "模型",
+        "大模型",
+        "发布"
+      ],
+      "summary": "不止于大模型，更在于真闭环：上海精智发布“沃土”， 定义“工厂原生AI”新范式 东方财富"
     },
     {
       "title": "SpaceX in your index fund, explained",
@@ -1189,6 +1432,66 @@
       "summary": "It's now easier to prompt an AI for a specific problem and later release the code on git, without thinking or researching a bigger goal that there could be an existing project where my contribution would be much more meaningful and sustainable... How could this fragmentation be saved in favor of existing projects?"
     },
     {
+      "title": "安徽发布人工智能专项技能培训政策 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ1p1VmdzeE0yWWRhR0x1bmJLdTZ3WVZMS01SdVU4Qml1QV9HRVNGaUY5NnFjbkpqRGpNX2ZjeEE5ZTV0eE9WazA0YVlvVGJkYWtEb2pDYkkwTzkyOFNZWkpGalQwVFBZbVFxSVpMN0pvYzBsamY5ZEFfYjlOalpwMGViZzI5LXZf?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:40:01+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 57,
+      "tags": [
+        "发布",
+        "政策"
+      ],
+      "summary": "安徽发布人工智能专项技能培训政策 搜狐网"
+    },
+    {
+      "title": "GOAI 世界人工智能开源大赛四大赛道正式发布 - Infoq.cn",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wTmJBY20td1VhVnJhQXlodkxPMXlXUEFXYlNMa0VES3p2N2RSdk9PLUs5anFYb2ZXVDJITDUtbkRub0wzcWtmamY4aE1memxaamxoaks1aVRxZw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:20:57+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "开源",
+        "发布"
+      ],
+      "summary": "GOAI 世界人工智能开源大赛四大赛道正式发布 Infoq.cn"
+    },
+    {
+      "title": "中国AI大模型在西方广受认可 瑞银：应关注这些核心问题 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE45MGN2UnB6ZVVNdUw2X2JjRmpJVGRWZng1SGtlLTJUdE5JcjloME5kS2RQdXFDclRNOEtaT2liN2Q2WlRkRFdzOEliSVktOWtTck52ZUZibTJuMnpkczdKWHJnN0c?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:20:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "中国AI大模型在西方广受认可 瑞银：应关注这些核心问题 财新"
+    },
+    {
+      "title": "GitLab 19.2让AI智能体处理安全积压，破解AI编码审查瓶颈 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xaVh0VDFOM3duVVpiVDdfZjg2amdHWUlhbC1lQUdvcFZBV19hOEU5Mm1IS0ZsSDZSUWgxc1J1Rjd3M3NYYVRfTHNoeGhCeDB6VGozLTlkSjZIUFYxVnZxbi13?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T11:21:39+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "智能体",
+        "安全"
+      ],
+      "summary": "GitLab 19.2让AI智能体处理安全积压，破解AI编码审查瓶颈 手机网易网"
+    },
+    {
       "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
       "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
       "source": "TechCrunch AI",
@@ -1203,6 +1506,22 @@
         "copyright"
       ],
       "summary": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models."
+    },
+    {
+      "title": "大模型迭代提速！AI智能体赛道景气向好 18股业绩倍增可期 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GQnJHU1hJa1UwUU8tcEpteEpna0dPQzQyN05OaXFfWXVVR2RtMDZET3dtcnEwN3FPQTZ2VzFEVE43QlNwWlBxYTUtTk9BTFZfZGVPMXFRQktJRThKTzlvajZGYVZVdw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T00:00:18+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "模型",
+        "智能体",
+        "大模型"
+      ],
+      "summary": "大模型迭代提速！AI智能体赛道景气向好 18股业绩倍增可期 东方财富"
     },
     {
       "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
@@ -1295,6 +1614,36 @@
         "api"
       ],
       "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of legacy cloud infrastruc"
+    },
+    {
+      "title": "直击WAIC2026｜告别大模型“Demo泡沫”：中国电子云探索企业AI破局新解 - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xS1hKX3djMGpHQWxlcmVLT2xQTldaQTBJTnowOGRNdS1wOGFHU2ZaU3pVNnR2Q1ZhVHRpSmJ0V0JfMHVOUDFseXAxNmxyRHRuVkFZaFI0aG5vRFpVLW1XZzVn?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:15:20+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 56,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "直击WAIC2026｜告别大模型“Demo泡沫”：中国电子云探索企业AI破局新解 手机网易网"
+    },
+    {
+      "title": "深圳国际通用人工智能大会将至，AI产业链加速落地，这些股频获机构调研 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5KM0x5d29uUklSX1hOOTRlT3Q0R3hDZDBOc19YM242N2ZyLUlrZWJ1VUFvR3hWUmF1SXd0aGFiejh3LUl3aHRvTQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:04:00+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 56,
+      "tags": [
+        "落地",
+        "产业"
+      ],
+      "summary": "深圳国际通用人工智能大会将至，AI产业链加速落地，这些股频获机构调研 财联社"
     },
     {
       "title": "Google is working on a new AI chip designed to make Gemini more efficient",
@@ -1415,21 +1764,34 @@
       "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together with feature-attribution methods. Using datasets built from se"
     },
     {
-      "title": "Show HN: Pinpoint – Visual feedback for AI coding agents",
-      "url": "https://pinpoint.maferland.com/",
+      "title": "Gemini 3.6 Flash released on AIStudio",
+      "url": "https://aistudio.google.com/welcome",
       "source": "Hacker News",
       "source_type": "技术社区",
-      "published_at": "2026-07-21T13:12:10+00:00",
-      "author": "maferland",
-      "engagement": 3,
-      "category": "技术研究",
+      "published_at": "2026-07-21T14:20:52+00:00",
+      "author": "Topfi",
+      "engagement": 6,
+      "category": "产品应用",
       "relevance_score": 54,
       "tags": [
-        "github",
-        "agent",
-        "product"
+        "release"
       ],
-      "summary": "I built Pinpoint because I was tired of typing out feedback on the visual work my AI agent did. I want my agent to be autonomous, so having it ask for feedback through a UI felt genuinely better. Dropping a contextual comment on each screenshot is much closer to how you'd give feedback on a design in Figma. It also doe"
+      "summary": "Gemini 3.6 Flash released on AIStudio"
+    },
+    {
+      "title": "Tracking the Apple to OpenAI pipeline: 283 moves, 44% from hardware",
+      "url": "https://www.inkling.co/research/apple-to-openai",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:30:08+00:00",
+      "author": "johnm212",
+      "engagement": 3,
+      "category": "产品应用",
+      "relevance_score": 54,
+      "tags": [
+        "app"
+      ],
+      "summary": "Tracking the Apple to OpenAI pipeline: 283 moves, 44% from hardware"
     },
     {
       "title": "Show HN: Ctoken – CLI util to count LLM tokens in files, dirs or input",
@@ -1445,36 +1807,6 @@
         "tool"
       ],
       "summary": "Useful when implementing AI skills, knowledge bases, MCP descriptions etc - its much easier to use CLI tool than web calculator (especially for multiple files)"
-    },
-    {
-      "title": "Tracking the Apple to OpenAI pipeline: 283 moves, 44% from hardware",
-      "url": "https://www.inkling.co/research/apple-to-openai",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:30:08+00:00",
-      "author": "johnm212",
-      "engagement": 2,
-      "category": "产品应用",
-      "relevance_score": 54,
-      "tags": [
-        "app"
-      ],
-      "summary": "Tracking the Apple to OpenAI pipeline: 283 moves, 44% from hardware"
-    },
-    {
-      "title": "Gemini 3.6 Flash released on AIStudio",
-      "url": "https://aistudio.google.com/welcome",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:20:52+00:00",
-      "author": "Topfi",
-      "engagement": 2,
-      "category": "产品应用",
-      "relevance_score": 54,
-      "tags": [
-        "release"
-      ],
-      "summary": "Gemini 3.6 Flash released on AIStudio"
     },
     {
       "title": "Show HN: A Scrabble-like word game for learning Spanish vocabulary",
@@ -1543,44 +1875,192 @@
       "summary": "I Built BlurShield how easy it is to expose email address,Phone No,API Key and other important info. BlurShield is a browser extension which detects and blur the sensitive info automatically. It includes the custom blur options also and also user can keep their own custom patterns in it and a lot of features . I would "
     },
     {
-      "title": "Show HN: An interactive network graph of every Stanley Cup champion",
-      "url": "https://puckstory.com/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:12:38+00:00",
-      "author": "cansofgrease",
-      "engagement": 1,
-      "category": "技术研究",
+      "title": "世界人工智能大会2026官宣：万亿级AI产业爆发前夜 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RaUpFUjdQVTlPT3NPb0hLQ2MzdUdFRHhLQ3htU0tPLVJoWloyOHJNbUNfNUxGNl9BZzRqUFpyRXB5OWxPWlRIelhOTXZuQ2hmNE4zNm1uUXhuLU5aZ1ZKRHpNUkxZN2JJaG1uU196NF9RZEtzNkd1OGhMR1hUWTQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T14:51:56+00:00",
+      "language": "zh",
+      "category": "产业动态",
       "relevance_score": 54,
       "tags": [
-        "github",
-        "app",
-        "act"
+        "产业"
       ],
-      "summary": "I built a network of all 1306 players and 110 rosters engraved on the Cup since 1915. Surprisingly there's no islands, every team has somehow had at least one player who's won it again, there's several close calls where the connection almost broke. A few times where a winner starts off as an island and then gets connec"
+      "summary": "世界人工智能大会2026官宣：万亿级AI产业爆发前夜 新浪网"
     },
     {
-      "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA as a path forward? [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1i26p/i_just_read_lecuns_recent_thoughts_on_world/",
-      "source": "Reddit · r/MachineLearning",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T10:50:04+00:00",
-      "author": "u/ConsciousGreenPepper",
-      "reddit_community": "MachineLearning",
+      "title": "人工智能规则全球对话与协同发展论坛成功举办 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vcV9HbGc5SXhaRGotQjltRktsWC10bzN6aDlfa25ZMXdmQXBZb3FEMnJkZVB1Xzh5Si1EUDhjWjNLbkoteWdQRnNQX2FMNUxWRU9FY2VSTWxjT2s2RDZSRA?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T14:32:00+00:00",
+      "language": "zh",
       "category": "技术研究",
       "relevance_score": 54,
       "tags": [
-        "model",
-        "tool",
-        "act"
+        "paper"
       ],
-      "summary": "So, I just read LeCun's interview with Nebius Science. I feel he had some cool points about LLMs being able to answer things, but not literally understand the physics of the physical world. (Like, being able to explain a task and actually performing it are two completely different things.) But I wanted to get opinions "
+      "summary": "人工智能规则全球对话与协同发展论坛成功举办 thepaper.cn"
+    },
+    {
+      "title": "世界人工智能开源大赛在杭州启动 - chinanews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zYVd2a2R3bUF2YzZZSkZtNnVZaXZxc2RSRF9Sa1lINUpCUEl1RWprdEsyVDQ2YjRiVEpHVjVVTEN1TlJ1Ri1tcGhIVm1EWW12OXJRMFRaLTk5el9PNTU2S2dIWERFbkVY?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:49:49+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "开源"
+      ],
+      "summary": "世界人工智能开源大赛在杭州启动 chinanews.com.cn"
+    },
+    {
+      "title": "GOAI世界人工智能开源大赛在浙江杭州启动 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT0R1cWl4V0JsR0Vubzg2QWd6M3FSdEJsSkhCRjNoN201c2JSLTdoeTFQdlQ2NVctSUhMblNiWlhLSXM2NEtoNkNqVEYzd00wekdJUXRzWUdzREpST2ZESkt3M3RHa0lpczZKcG5UTHBjY2M0dUlLTmNkUWpPd3dDaVRzQnZBXzFh?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:42:31+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "开源"
+      ],
+      "summary": "GOAI世界人工智能开源大赛在浙江杭州启动 搜狐网"
+    },
+    {
+      "title": "持续深化人工智能法治研究 中国政法大学发布多项研究成果 - chinanews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SZWJsMFBvbGN3cW42NlQ5cDM1WG1sTXM2NWVYMlFLWkNpSk9QZ1duWEpqcDh5bk5yeEhoTGdndVBBMlZMdUt3NE13WVhoMXZud182bjd3eVBHbUlZUjZnVGg0SDRVbmJFNkE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:28:50+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 54,
+      "tags": [
+        "发布"
+      ],
+      "summary": "持续深化人工智能法治研究 中国政法大学发布多项研究成果 chinanews.com.cn"
+    },
+    {
+      "title": "视频丨在世界人工智能大会 探寻人形机器人的“下一站”→ - 国际在线",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TQTlXeTVCTWhhNmRlVmlCbmRJRVprYU50VVFrWlNfSmh6cFAwa0MtNUx5YmszUWRMNmt1Vml3Qm03OHZObWtoMEoybTJqVmpXT2VEVFc5ZmtKbHE3dURuek1VVWVGRTFZTS1RckZ0NnVnOW5pVWRVM0JR?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:09:51+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "机器人"
+      ],
+      "summary": "视频丨在世界人工智能大会 探寻人形机器人的“下一站”→ 国际在线"
+    },
+    {
+      "title": "携手构建公正合理的全球人工智能治理体系述评之三 - chinanews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fekxMcWlKVmg3OVh2NlBWaS1QNXVMa1FNYUdzZHNObFJXT1pVNUc0ZGZQZGFIQmhkZ2J1RncyZTVTRFQybWZya3NTcFhoSndLeWc0ckpfNFBKa3ZkbXFGTjd5T1cxWjBh?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:31:47+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 54,
+      "tags": [
+        "治理"
+      ],
+      "summary": "携手构建公正合理的全球人工智能治理体系述评之三 chinanews.com.cn"
+    },
+    {
+      "title": "总台记者专访丨俄专家：合作对人工智能发展至关重要 - 凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBXa0FKNkxjdlYwbW9LaTQxald6Z01WUFN6UmwwMkgwMVBPTmlWVUVLU2JFN2dGVEtfdXNDSG9sM2NOdVFmWVpYOHo1eXk?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:26:58+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 54,
+      "tags": [
+        "合作"
+      ],
+      "summary": "总台记者专访丨俄专家：合作对人工智能发展至关重要 凤凰网"
+    },
+    {
+      "title": "WAIC观察丨AI走出屏幕，智能体与Token同时爆发 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRmRqR3AyRXNLR3ZUVmdBNE1YaDZiX0pqb2FWbFRxeklSUU5MUThNN3VmMEtnS1o1dnNYSjV2MjZYQmR1cXNvcVJqQmhnMjhPVTM2YUdLSWJMOGVVRFdKVFNKVzZTX0FOMkRxQVgzNXNwQms3ZkVtOHUwcWRJcVFZQXlSaVl5aC1T?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:15:19+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "智能体"
+      ],
+      "summary": "WAIC观察丨AI走出屏幕，智能体与Token同时爆发 搜狐网"
+    },
+    {
+      "title": "WAIC观察丨AI走出屏幕，智能体与Token同时爆发 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0ydWJxWjVPYXVMc2NoTjhBNVVkSTVCa3YyZjF0dVpHM3BtZ19iNlBVRU9oYWJHalE2VFpiN21rUGtYZV9ZSG1pSHpDRE5HWlhnRGRhaWIxN2pVbGdkTkRfbnF0cVo?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:14:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "智能体"
+      ],
+      "summary": "WAIC观察丨AI走出屏幕，智能体与Token同时爆发 新京报"
+    },
+    {
+      "title": "总台记者专访丨俄专家：合作对人工智能发展至关重要 - 群众新闻网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iZjNjLS1ENFpQMEJxUUhzN1pwNVByOXdNTTlHUTZPU3hJcGU1MGlOcTNBc0k1VTk3Nk5KdXdEMXlRWl9CTTVhQmdQd1VBLTByRF9RTEZhQzREaWxzRzZUTFhkSGVnaUZmMHFR?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:03:51+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 54,
+      "tags": [
+        "合作"
+      ],
+      "summary": "总台记者专访丨俄专家：合作对人工智能发展至关重要 群众新闻网"
+    },
+    {
+      "title": "阴和俊主持召开人工智能全球治理高级别会议 - 中华人民共和国科学技术部",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fczBKZ1pHVHIyb09BMGUtQS1KMDk4NjJMTlh4R2NWUFVaeUVvR0RRSGhUME9Sa2tYZ2Eydk0zaEUwc3pDVE1jbmFJUmpNcDBUM21xc2lLbFhjZV9IdjktRTJBR0pBc1diOVE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:49:08+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 53,
+      "tags": [
+        "治理"
+      ],
+      "summary": "阴和俊主持召开人工智能全球治理高级别会议 中华人民共和国科学技术部"
+    },
+    {
+      "title": "瀚高股份亮相2026世界人工智能大会（WAIC），以智能基座平台HigoBase加速AI 规模化创新 - 美通社",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPdG12TVlpZ08wTTMtQ1FCTFVFNXE0VlhCY0poWUhZdUlJQUo4bGRjcXpQXzZ5VHZZU0FqRFZIbkRvM2lOMXZNdTgtQmJnOWpiY0FKM0tYZw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:48:00+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 53,
+      "tags": [
+        "平台"
+      ],
+      "summary": "瀚高股份亮相2026世界人工智能大会（WAIC），以智能基座平台HigoBase加速AI 规模化创新 美通社"
     },
     {
       "title": "WAIC重磅成果｜仪电智算云在国家人工智能应用中试基地建设中展现全栈服务能力",
       "url": "https://www.qbitai.com/2026/07/455998.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-21T09:15:50+00:00",
       "language": "zh",
       "category": "产品应用",
@@ -1591,10 +2071,55 @@
       "summary": "WAIC重磅成果｜仪电智算云在国家人工智能应用中试基地建设中展现全栈服务能力"
     },
     {
+      "title": "专访丨中国推动人工智能全球治理迈向体系化新阶段——访新加坡亚洲数字经济科学院院长陈柏珲 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tUzhjWk9OcGNsTnlHcmlJVmNtbUswSTRqQ3ZBTG9ndkRON1lWalZsejhLbXlTeVRrMHFTMGFOOXd3OExERnZpdVJlcFd0QXloZk03QTJLRHE4eXY1cU5DNWF6Nzk5WXhXLUlQWF9EU1VfRjZNLUlUaFNhQllUTXM?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T08:20:10+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 53,
+      "tags": [
+        "治理"
+      ],
+      "summary": "专访丨中国推动人工智能全球治理迈向体系化新阶段——访新加坡亚洲数字经济科学院院长陈柏珲 新华网"
+    },
+    {
+      "title": "学习·知行丨让人工智能发展成为全球合作的交响- 中国日报网 - China Daily",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BbFZmLVZqU2dneWFtd3lHS3NkUVB6SGpJSG1oaDNrbC1ZU0pvazRhdC10Q2o1NWNnWjZFTTlhYzZyaUdPU0tlWjU1RHNXejcwb05xck9HVjZKWkdLeVYyWk5YQjJyVTdJdXphZzBnNmJKQm53YmJMclZERFp2UkE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:38:45+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 53,
+      "tags": [
+        "合作"
+      ],
+      "summary": "学习·知行丨让人工智能发展成为全球合作的交响- 中国日报网 China Daily"
+    },
+    {
+      "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA as a path forward? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1i26p/i_just_read_lecuns_recent_thoughts_on_world/",
+      "source": "Reddit · r/MachineLearning",
+      "source_type": "Reddit",
+      "published_at": "2026-07-20T10:50:04+00:00",
+      "author": "u/ConsciousGreenPepper",
+      "reddit_community": "MachineLearning",
+      "category": "技术研究",
+      "relevance_score": 53,
+      "tags": [
+        "model",
+        "tool",
+        "act"
+      ],
+      "summary": "So, I just read LeCun's interview with Nebius Science. I feel he had some cool points about LLMs being able to answer things, but not literally understand the physics of the physical world. (Like, being able to explain a task and actually performing it are two completely different things.) But I wanted to get opinions "
+    },
+    {
       "title": "不同模型厂同一家Agentic Infra，AGI时代的地基终于浮出水面",
       "url": "https://www.qbitai.com/2026/07/455805.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-20T10:33:23+00:00",
       "language": "zh",
       "category": "技术研究",
@@ -1623,6 +2148,20 @@
       "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
     },
     {
+      "title": "展会资讯|实丰文化旗下产品参展世界人工智能大会 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUbVM2cnd0cUVfeHNKdHFFeW1qOEIyNnE0RVZDWERzZ002RnhLSzlpeHVhZDJxOWFEdFpTcXRsZTk5SjctOW1aWmRNdVVzWkdUMU1pSUNfc1VmNHQ1cnd1YzhpMFlMZ2tYaUxqUFQwWm1PTWphLXc?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T06:58:00+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 52,
+      "tags": [
+        "产品"
+      ],
+      "summary": "展会资讯|实丰文化旗下产品参展世界人工智能大会 新浪财经"
+    },
+    {
       "title": "Looking to Collaborate on ML Research [R]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v299mc/looking_to_collaborate_on_ml_research_r/",
       "source": "Reddit · r/MachineLearning",
@@ -1638,6 +2177,20 @@
         "app"
       ],
       "summary": "I’ve worked with PINNs , GNNs , and unsupervised learning . If you’re working on an ML research project that could turn into a paper and need a collaborator or co-author, feel free to reach out I’d be happy to connect!ehat sho submitted by /u/Puzzleheaded-Bat9316 [link] [comments]"
+    },
+    {
+      "title": "智税宝亮相2026世界人工智能大会｜中税网智慧科技入驻国家级中小企业数字服务平台 - 新华报业网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lcFpBMmVIOVRIYnZ4bXF5RDhLWEdTaVlrVGtmZzVRR2gtaktqZ1V4T09iTjJmWUxNVWctUHVxNzlNQkYtdHViZTJ2bzNIaW5wOWF6eDZjc0loUGtLYTAtV3dnZHRmck1GXzFJ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T04:35:00+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 52,
+      "tags": [
+        "平台"
+      ],
+      "summary": "智税宝亮相2026世界人工智能大会｜中税网智慧科技入驻国家级中小企业数字服务平台 新华报业网"
     },
     {
       "title": "Three-Body Scattering for Generative Modeling",
@@ -1674,6 +2227,21 @@
       "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for example an object detector missing objects. While methods such a"
     },
     {
+      "title": "直击WAIC 2026：大模型迈入万亿参数时代 国产AI超节点上演“群雄逐鹿” - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85dVBOM0V2WHhUWW04eTZjZWtJSmFiRVhrMHkxR2pRRjNRZWE1MjhtTV9aRk5ETGdmbDhhZFppc0JsRE5pSm1aN1NSYmpKaVlxNmxYTzlRS3g3MWs2OFJuSg?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T16:51:25+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 52,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "直击WAIC 2026：大模型迈入万亿参数时代 国产AI超节点上演“群雄逐鹿” 东方财富"
+    },
+    {
       "title": "Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles",
       "url": "https://arxiv.org/abs/2607.18106v1",
       "source": "arXiv",
@@ -1708,6 +2276,47 @@
       "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval queries directly from"
     },
     {
+      "title": "谷歌研发全新“Frozen”专用芯片，大幅提升AI模型运行效率|Gemini|AI芯片|Google|Token|谷歌云_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNjFSNFR1eXVia1RtRkVZNTI1a3BIT2I4R2xlQzRHTm1ZdmFEeDcwZURzNVYySTZxMWlEemlOTXNCaGxCQndmWjJySDY4X0dlTjhCT0s3aTVxd29zZl9zTkRFVkZybHRDZFU2SmF1NkE1RFBiVVJ6NUJMT0pkU1ZEeDhpd0p2WTJDbXBVbXlYa1lwamhOcjV1UFdEVFhDRWlaOVBjMUZ4U1Vsdw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T15:35:56+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 52,
+      "tags": [
+        "模型",
+        "芯片"
+      ],
+      "summary": "谷歌研发全新“Frozen”专用芯片，大幅提升AI模型运行效率|Gemini|AI芯片|Google|Token|谷歌云_手机新浪网 新浪财经"
+    },
+    {
+      "title": "Ask HN: How do you input to LLMs? Typing, voice, or something else?",
+      "url": "https://news.ycombinator.com/item?id=48993098",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:53:39+00:00",
+      "author": "wompapumpum",
+      "engagement": 2,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "Ask HN: How do you input to LLMs? Typing, voice, or something else?"
+    },
+    {
+      "title": "LLM Margin Lab",
+      "url": "https://github.com/telemetry-sh/llm-margin-lab",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:29:22+00:00",
+      "author": "flurly",
+      "engagement": 2,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "LLM Margin Lab"
+    },
+    {
       "title": "OSS ChatGPT WebUI v4 – Projects, Agent Profiles, Server Tools, 1-Click Sharing",
       "url": "https://llmspy.org",
       "source": "Hacker News",
@@ -1722,51 +2331,6 @@
         "tool"
       ],
       "summary": "OSS ChatGPT WebUI v4 – Projects, Agent Profiles, Server Tools, 1-Click Sharing"
-    },
-    {
-      "title": "Show HN: Improved Search for WordPress",
-      "url": "https://searchcue.com/integrations/wordpress/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:00:54+00:00",
-      "author": "probst",
-      "engagement": 2,
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "product",
-        "app"
-      ],
-      "summary": "Hi, I know you to be a discerning bunch of tech savvy people, but since that doesn't stop 50% of the web being powered by WordPress, I want to share how one can vastly improve the search experience on WordPress sites: SearchCue! It's a product we built after building Monocle Search for Squarespace, so we got a real hea"
-    },
-    {
-      "title": "Show HN: I build a project management platform around .md files",
-      "url": "https://www.sfora.ai",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:59:35+00:00",
-      "author": "cordenll",
-      "engagement": 2,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "agent",
-        "platform"
-      ],
-      "summary": "Hey HN, Wanted to show this to get a response! I've built this asynchronous communications platform for my agents. Everything is accessible and readable through a VFS and markdown, so it works well for agents. I use it as a central 'hub' for all of my agents to post too (coding agents & more). Very curious what you guy"
-    },
-    {
-      "title": "LLM Margin Lab",
-      "url": "https://github.com/telemetry-sh/llm-margin-lab",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:29:22+00:00",
-      "author": "flurly",
-      "engagement": 1,
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "LLM Margin Lab"
     },
     {
       "title": "Cheating behaviour in frontier model evaluations",
@@ -1785,6 +2349,18 @@
       "summary": "Cheating behaviour in frontier model evaluations"
     },
     {
+      "title": "“人工智能+信息通信”如何赋能千行百业 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGJFSU9DdlRaUXFZU1ZuTUVUcWxXa1ZmajVQR2dpeWpMNmdQWjVGUEhuVjJHMV9td0hQdV9MY2dvbzNOU19hM09SbW8wRzg0c2VMUWR4X3dTS1RCY2R5NjYxcG9zbHVaaVZHUmtmNkRQVEhYZFY4d0g1cXBxejZQbF9zUHByN25r?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T14:43:10+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "“人工智能+信息通信”如何赋能千行百业 搜狐网"
+    },
+    {
       "title": "NeurIPS 2026 reviews exact timing[D]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v2j950/neurips_2026_reviews_exact_timingd/",
       "source": "Reddit · r/MachineLearning",
@@ -1799,6 +2375,118 @@
         "act"
       ],
       "summary": "Does anyone know the EXACT timing of when NeurIPS reviews are gonna be released? I'm just refreshing openreview all the time and it's stressing me out so much. Thank you for your help. submitted by /u/Anshuman3480 [link] [comments]"
+    },
+    {
+      "title": "四大趋势告诉你，此时此刻，我们为什么需要关注人工智能？ - 中国江苏网",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWl82eVQ3MlU3akVCMWZ2U3BDeFRnVk1GQ2V0Q28xN1VaWGdob3BJSW5XSzlmNWFMQnZvdS02dnBSVS1RbUlOdlZRdnpVeVBzM3Q2WEZmakozck5JaFVtZV9aTWNLUmNQelFuZmFjeDNOR3pOUWtrV291NHE0ZjhPRkxQc1J0aDU3RFp3?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:47:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "四大趋势告诉你，此时此刻，我们为什么需要关注人工智能？ 中国江苏网"
+    },
+    {
+      "title": "要闻解说 - 中国开源模型 Kimi K3 再给特朗普政府出了一道“禁或不禁”的难解题 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMi4wNBVV95cUxOSDNfWFJTSGd1d2RYU3FKcVV3UUJ5SGNiOHFRVnlRcFpjZURwU1JJN2oxTmdmVmU5NDVjQUtOVkJwX0FKSmFZRjdUYmdwMG1ZZFhxWTREazg1RWtTeU1QeUlSWUwwbHNRLTJrMG9oS1dybEJ5a2JwQzF3QlJZZ3RhTGJTUThnd3pYSmROdGp3eWVuM2pYSlNkeWxmTHVTTFgzNnZLcHJRY1ZvNWRHZnJmRll2bzFNUWtzaTlFQ0o3RDdLSmN1WmhDTlY4R0xnQVE1aTlsVlRhcXZ6QW5yZHJfWkVQSXhNNUtmV2JaVGhHa0F6VUxVWXg1MzNPMWI0YzZON3pNNzhaNG53dWFyNXBQb2thTXktaEV2WktvSENPdUFyUDVTSnNJNVpRMjdkQ05FQUsydVcwU0N2WmIzb3NvUUdJS0RFLUh2OEJwMjFMZEdHckF6TEw4VjFzR01XTWVGdnNqMWZCWGFFQ2xHd1FVaUNtdlByNFVzOVFqTDcxb2cyd0JlcDJ0cWVSVy04WkVnZmpPcnBYOG1JT1FfejZJZ2hlSExad0QzRWdzeFI5aUZqR2FnZ0FjTDNlMHdJb1B5VVNOMnR4SmVSOW9SU2NOLUtfSGFkWGRXaDNnTWpmbVJUdDA?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:20:46+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "模型",
+        "开源"
+      ],
+      "summary": "要闻解说 - 中国开源模型 Kimi K3 再给特朗普政府出了一道“禁或不禁”的难解题 RFI"
+    },
+    {
+      "title": "Halliday’s latest smart glasses feature a much-improved display",
+      "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
+      "source": "The Verge AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-21T13:00:00+00:00",
+      "language": "en",
+      "category": "产品应用",
+      "relevance_score": 51,
+      "tags": [
+        "feature",
+        "app"
+      ],
+      "summary": "I was not a fan of the original Halliday glasses. The Gen 2 are better. | Image: Halliday I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, and my 30-minute demo left me with achy "
+    },
+    {
+      "title": "苏州正式设立人工智能发展办公室 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOc2tDQXFvclBsTEtheVVUMmMzQlFSZ20yTE5KZV8wd2hkZElqcnR2bVJVc19zUnp5czJwdzA5VDlyRU9xNUpSSGhjUENadGJ4R0FQbXBrZDhYQ1FsT2VRT0tB?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:15:34+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "苏州正式设立人工智能发展办公室 观点网"
+    },
+    {
+      "title": "人工智能大会热议金融AI：安全、可信是关键变量 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKQWNhbEdkWlA4UW5KZTZxaUhSb1VhMVlyaWpCWV82b01fbHFYX1BxNUIyU0xhck42RVdvUFEyTXp5dnljUXVUdFhyd1V2NFVOeVhlempmZFBiWnRMNWZJTFJB?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T02:30:00+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 51,
+      "tags": [
+        "安全"
+      ],
+      "summary": "人工智能大会热议金融AI：安全、可信是关键变量 财新"
+    },
+    {
+      "title": "深耕数字丝路，人工智能成为中哈合作新亮点 - 中国网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SMFNpOXhwbmliQnA5UEdJbDNfRkpZNTNRTGpHR2JtT2habV8xbFdHZVNfeFlqX3M4QjZrWnZOc0hkb2cwUk41TGNLa0VfT3p5ZDNoZF9JRUJNM21kV19vNlJsTUx5MWYxaVZHRmp4aw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T23:00:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [
+        "合作"
+      ],
+      "summary": "深耕数字丝路，人工智能成为中哈合作新亮点 中国网"
+    },
+    {
+      "title": "隧道股份“AI搭档”亮相世界人工智能大会，推动智能体进入城市建设运营一线_国企动态 - gzw.sh.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRVFzbmZqWElRVkt6VmlxanNqNzE5VkZfOUFsdzFSMExKdy1oaXprS0tnckhVQ1hkQXlIVWQtekhGUzJDTnRTeThzR2otVWJCMmdyR2FiaEFjN1AtXzZNblRHRWM3VGdxaFJJX3UzNENmV1dhRjE5b1ZrbFM2UEpHZndaMDNyTTk0T1JTZzhlV3FnZw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T01:50:36+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "智能体"
+      ],
+      "summary": "隧道股份“AI搭档”亮相世界人工智能大会，推动智能体进入城市建设运营一线_国企动态 gzw.sh.gov.cn"
+    },
+    {
+      "title": "公募探营世界人工智能大会 AI产业商业化落地进程提速 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YcG8xLUZGWkIxRW5xOFFDVHVyaWIySHJOTDQ4UjNubmFQRDJoUjFZX0JYRHJDd2dlbzhQNndQejJ0WG5YWnktbEVkSEU2THU3SnJWQjB2VGxmeU1s?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-19T23:05:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 51,
+      "tags": [
+        "商业化",
+        "落地",
+        "产业"
+      ],
+      "summary": "公募探营世界人工智能大会 AI产业商业化落地进程提速 证券时报"
     },
     {
       "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
@@ -1893,6 +2581,30 @@
       "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its annual I/O developer conference , Google announced a sweeping "
     },
     {
+      "title": "一批人工智能重点项目集中签约 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZEhKWnNOTE5NREtfcWtlcG5TV1dLa0szRXVjQXZyRlZ2ZV9xdnd3cXNBaFctd0RvMEpqTEhJeVhsbWExaXBNdktlUldKQm43eHIzTVdMdE1ZTWlGWU8xNmNwRUw0UWt1WkM4NnBVWjNEQWlJNExuNU04bGFLUjc0V0NTTjNwUkU5alJ6WmxROFZNTkNzRGNRMjN2UU1sMThYS2ZwcmJMS0ZlQWM?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:33:39+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "一批人工智能重点项目集中签约 shobserver.com"
+    },
+    {
+      "title": "新华社丨2026世界人工智能大会观察 - 复旦发展研究院",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LQTk1Ykp3LXNvajFfdnRmZ0JSQjhxLXhHa0pQUzRZRzRTM2VqWWpaYnZZLVI3UE9qMTBvNTEzR1RROC1NZTdlS1lvd2J6eVRLMDZSRzRiMEI2eFJ0Ym5iQ2VSam0?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:31:30+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "新华社丨2026世界人工智能大会观察 复旦发展研究院"
+    },
+    {
       "title": "Number of Submissions @ AAAI [D]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v2ef98/number_of_submissions_aaai_d/",
       "source": "Reddit · r/MachineLearning",
@@ -1909,10 +2621,34 @@
       "summary": "Recently submitted my abstract and the submission number is 32xxx. With still a day to go, I just wonder where are we heading. Hope these conferences at least start making the reviews and names public for the withdrawn/rejected papers. So that people atleast take that accountability submitted by /u/Fantastic-Nerve-4056"
     },
     {
+      "title": "科技时空 - 人工智能中美竞争核心 中国医疗巨头谨慎部署 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxQWDNxdHlwcXk1YVdMQWM5UVRic2ZXRW90ZlVVZG8tWllLb1ExVG1sSW5iWEN6QTAwWGNybzI1Q1lPNzlBVm1KWnFlQjRLRmoyUFRsY2xxNk1FOU5EaWtrX1dQQjhuVHV1aXZLaHpDTkhjMkR1Z2Y4eHBTZlcxNDdMbTg5OXViVjZFN3lVM2N6bk94NVMxWndlVXRZRnJweVNHSWVRdl95bnhvNjNnY3lQU2gzQkxGQzJBMUYtaUdlVm96OWJCc2s1Q1d2ZlQyZ0lGUWo5dndKbVEyNEdTOENkclVBOHdKR3NpR2ZOMGNQRmhQQ1k0RVYyUkVZZEdPbUZrMlhaNS1JMnB1Uk1nVU85ZS1vSDFGU1NMVEZzWHlfbG93LUFCLWpwVGhUcXZEZ3FPRGZjRnFIVmpEV1QtZXFPcHRlaGI4dDd5V3dwX3hCRk9XUUd2TmIxRmxvSEEwWWs1eUJjOV9Ramc5cnNVb3lzWkRXMGVGZVNoUVhyaVZOd3o3dGdYNF9ITDh6TDlRWmxlZUgwWXVURXRVZw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:17:47+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "科技时空 - 人工智能中美竞争核心 中国医疗巨头谨慎部署 RFI"
+    },
+    {
+      "title": "涨停潮来了！人工智能，关键转折！ - 金融界",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fSUVRb0VIbUNEanFuSWgtcm92dUpaMEd2QkNaQ1RKSy1mdVZxOTJ5eGt1M20wOFpidlZ2dmxrZktZMWdOYXV0RTdzeVVWLWVpa2hBWmFNNkVMOU50a3ltdjZKOUxFenp2N1E5emxHVjB3QQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:56:01+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "涨停潮来了！人工智能，关键转折！ 金融界"
+    },
+    {
       "title": "WAIC重磅成果｜上海仪电智算牵头成立“智算系统架构联盟”并发布《超节点系统架构规范》",
       "url": "https://www.qbitai.com/2026/07/456052.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-21T09:39:34+00:00",
       "language": "zh",
       "category": "技术研究",
@@ -1922,6 +2658,135 @@
         "发布"
       ],
       "summary": "WAIC重磅成果｜上海仪电智算牵头成立“智算系统架构联盟”并发布《超节点系统架构规范》"
+    },
+    {
+      "title": "视频丨中国工程院外籍院士：人工智能向善是非常好的理念 - 国际在线",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16NjhoOHEzbE9QTG9tb01kUnFRSUU5eHpaRjRNRUt5dFREMjlyUG9fQkJGMy1JdXBMSHNaNXlYX3ZWSHhXdmQ5aFpSbVVqLWxIeUdtQU5UMjhDSm1BUjhkc3ptMllwT1JmTUZMb05aNnpId3F2ajBmT1pn?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:28:22+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "视频丨中国工程院外籍院士：人工智能向善是非常好的理念 国际在线"
+    },
+    {
+      "title": "生根与重构：全球人工智能趋势全景白皮书（2026年） - 智慧城市行业分析",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdDY0TE8wbjRER2p3dzNRcWJjZEoxQjNMYVZ4cXYyOTN4clgwVXBaelBqdDZHUWRGWWItam5Sc2ZNdGt2RmwteEtfMEcwNHJsSGVqRU9GN2QwUmhKNzROUEVXTGxNZjJ4Ml9FbDJQWnYtY2dBalE1b0FZQWc3dEo1T253T1c3VXB6MUpmU2dfREZxRUtDU1MxODkzQlpCYUNWTHR0bENjbGlIbEZaMlp6ZFU5UnFqWnBZX2V2R3BmeFFUNEE3a0EyQWpWWWlsWF9HT0ZqN05ET2lDQUVSNVRhaGNBRXpJcHdDU05KZk13?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:10:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "生根与重构：全球人工智能趋势全景白皮书（2026年） 智慧城市行业分析"
+    },
+    {
+      "title": "AI赋能千行百业一线观察｜从世界人工智能大会看端侧AI智能化趋势 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeUVVWEtmT1E1UGVPTHVJT3ExQ2hzTHAwaHZ4b3hQNkJ2Wmd3OGlJemhXdFlYT3lUeVVJdzltUzdZN056VmE0VmRrZFJkNGFYbFZMZmUzcWFQWVFiQkFiaF9GZWFsbC1OUTlhdkxZX0Q3UkNzT192dkxsU3R6SjlRTGVZSlN0dmk0?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T08:53:31+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "AI赋能千行百业一线观察｜从世界人工智能大会看端侧AI智能化趋势 新华网"
+    },
+    {
+      "title": "知料科技入选北京市丰台区人工智能首批支持企业名单，以技术攻关与成果转化实力获官方认可 - 新华报业网",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PdVZlRHo1ZEgxZmItVjltQVdZN0FIZ3FrSFZDLUtFZnhqSHFtU2NkRmV6MjU4TC14REJkeGxzX3VjRVlMeDY3UkhpcFdIek9xNW0yQmpzZ1BudGY4bnNzSlRnN2VBOHVHdjZv?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T08:05:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "知料科技入选北京市丰台区人工智能首批支持企业名单，以技术攻关与成果转化实力获官方认可 新华报业网"
+    },
+    {
+      "title": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNEdtWC1OQ0dQNTdJaWw2R3p1S25rX05Gc000c1JIcmdweFJpWEZJLVRYQkJtMzkzVnB4WWlkblI3R1Z5QmpUVThWTU94Skk3dXVQWHhmV04tZVU2ck1pcHFRLWRjMGRoaE8xMVloNnIyaHYxNkpKbVU2U1dGSXJyVjktekpJVnRF?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:57:08+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 50,
+      "tags": [
+        "开源",
+        "芯片"
+      ],
+      "summary": "芯片卖了56万片之后，阿里平头哥把最值钱的东西开源了 搜狐网"
+    },
+    {
+      "title": "第二届人工智能创新发展交流会在天津举办 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DZjlYalpqY2lDRFl6cG1OdlQ3TEFaa0tySXRtTHFyVkcxY1R5bzRJZy0tdWV6eDNfT3ZCQ0ptU190bGt0RFM5M21DMEptV0FRZEhFX3l5YlZJdmoxYk5FS0RuREVWeUFvOVE3aFpHMmg?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:50:13+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "第二届人工智能创新发展交流会在天津举办 中国科技网"
+    },
+    {
+      "title": "龚克：打通AI产业落地“最后一公里” - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaEp0T0dRbGlVdDBiRm4yc2ZCdU5BZk15RTZUWEdRUkNBZ1V3eXRIZVJmQ09CSnZuODAtcVFJVVBHdlJwNnJCVG5nZUtsazY2aEVOcTFDcHJ3N1N2UjZhWmJVVURCWXpweE1ZLXNVZUtBdjFwQnVqOWZGbjZrU1JBVG9NZEtfWFZwN3k2OHBxSkE0UkVJdHd4N1BR?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:39:18+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 50,
+      "tags": [
+        "落地",
+        "产业"
+      ],
+      "summary": "龚克：打通AI产业落地“最后一公里” 新华网客户端"
+    },
+    {
+      "title": "【讲习所·中国与世界】“人工智能是全人类共同的智慧结晶和宝贵财富” - China Daily",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGRGRneWhoNnEtRThaNlJUYVJUaFBBdzR3NEtNdzBFSmNtaHk2dkFjVWxtOC1NamxpY0RQLTRqWm84NlZLVF9wV0pMamgzVjFfc3o5a3ZpZkNrbjNzYUl2d1JLQmRGX3JRLTgxT1E0MTNIVVF4VWJrdU1kaFBBdkk?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:37:36+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "【讲习所·中国与世界】“人工智能是全人类共同的智慧结晶和宝贵财富” China Daily"
+    },
+    {
+      "title": "贝佐斯与英国政府联手投资20亿英镑AI材料初创公司CuspAI - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDQ4SWwtMy1KbTEtMzZrckRVYXNwLUEtSGZObDBvakllSVlhWjgyMVJuMEtyLVo2N2Jzay1IRUMxckJKMnkyV1NVanVjZk1lSnFXZkhwV2NRSno2dXZNWEVZRkotSDJaZlFKcVRSSVlwaEhOM2ltSks0VVRZc0s1b04wQ3p0X3A0?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:34:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 50,
+      "tags": [
+        "投资",
+        "公司"
+      ],
+      "summary": "贝佐斯与英国政府联手投资20亿英镑AI材料初创公司CuspAI 搜狐网"
+    },
+    {
+      "title": "“人工智能已成为推动中国经济转型升级的重要力量”——访中欧数字协会主席路易吉·甘巴尔代拉 - 中国网",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtbEM2WFpwX1Q0LW5MaklvcklCeFljd21aWE9KMGhOSk5iWFp6V05ETmJVV3FORUtzZzQ2UE93UDFlaGJjSlNhTjV6cHJqemMzZ2Zra2NENF8wTW8xY0RJRVRGR2FsSDE3bks2RGROMA?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:17:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "“人工智能已成为推动中国经济转型升级的重要力量”——访中欧数字协会主席路易吉·甘巴尔代拉 中国网"
     },
     {
       "title": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
@@ -1940,10 +2805,40 @@
       "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyoncé's Say My Name , and Harry Styles' As It Was . The lawsuit, filed in a New York court on Monday, claims that thi"
     },
     {
+      "title": "让AI参与真实世界决策！业界首个完整AI决策产品体系发布—— - ncsti.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RQl96R3hoY0ZhTjFrTUxaaFptLURkbktDVzRjTXFBejhUQmV1RTEyZVBXUklacW5lTkM1S20xZV9ZWXVtUzdBLWU3NEpiR2VXMlpmOTVTWTE2MmxmWERITEw2QkUwWTh4UHBBYWhvTkllQ2pFU2Vn?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T06:50:34+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 49,
+      "tags": [
+        "发布",
+        "产品"
+      ],
+      "summary": "让AI参与真实世界决策！业界首个完整AI决策产品体系发布—— ncsti.gov.cn"
+    },
+    {
+      "title": "聆思科技完成近5亿元B轮融资，安徽省及合肥市多家国资平台联合领投 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1janV1dDJ4eU5GRnVpenJyeGNHcjc2WHF4VTQyRlhhUEhoSVk4cUFrVVJOSExJblRFdFdxUG4zZ0dfbFhXVTVlZUNnaGxTMDJSVTEwVmY0aUd2QjRQRjhiMk5mRHNraUJSZlNhM0RJZ20?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T06:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 49,
+      "tags": [
+        "融资",
+        "平台"
+      ],
+      "summary": "聆思科技完成近5亿元B轮融资，安徽省及合肥市多家国资平台联合领投 新浪财经"
+    },
+    {
       "title": "阿里Qoder上线全新安全能力，为每位用户配备一位专属安全工程师",
       "url": "https://www.qbitai.com/2026/07/455979.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-21T05:44:29+00:00",
       "language": "zh",
       "category": "产品应用",
@@ -1953,6 +2848,42 @@
         "安全"
       ],
       "summary": "阿里Qoder上线全新安全能力，为每位用户配备一位专属安全工程师"
+    },
+    {
+      "title": "华泰证券携手2026世界人工智能大会：转型加速度 AI重塑金融生产方式 - 新华网客户端",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY2x5RlNJTWNLQl9xYklJYV9IOG9OZENLMlVqTEdvYXktMkJHV3pmM01VMjFLNm1sX1JZV3gyN2pUT2I4eU9EeV9PU0V6OGhtdEllaTJqQXJXaWRWZm03RW02cDJhd1psc2FVM0F5OGVXNVlFX2hBS0VNenVNZTFtajYweVphbnlmSjVBRlNYUzdtVW5JYi1wNzZn?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T04:03:53+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 49,
+      "tags": [],
+      "summary": "华泰证券携手2026世界人工智能大会：转型加速度 AI重塑金融生产方式 新华网客户端"
+    },
+    {
+      "title": "九方智投亮相2026世界人工智能大会！贯彻“模数共振”，引领金融科技AI新范式 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jNlhWRURZRUxjNUNCU1cwYmNVcWJPdFZxb2l0Q3lFSW1JeEFpTkwybUZFVmxVVmJtNDRCbXFhTE1yMW54WnpFejBmUnRUbXB6bDRMMW40WmgwYjlhRFNZWWl0Smg3Zks2ZzctcURQRjk4VWRXSVE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T03:37:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 49,
+      "tags": [],
+      "summary": "九方智投亮相2026世界人工智能大会！贯彻“模数共振”，引领金融科技AI新范式 新浪财经"
+    },
+    {
+      "title": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BOHA4a3pLcVViU3hmbWczZkM3MnRqS0xTbTZvSHBHU1R1aGNOYnV0UGtJdFV6THNNSzZSdDhmNkpqODBiOXdRUENMSlN5bGQ0ZzRVRFlLLWlmM1ZnbU5VOGNSS3UwUVJ3OUstVDA1cjFSY1NZSnJaUQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T03:03:54+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 49,
+      "tags": [],
+      "summary": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 央视网"
     },
     {
       "title": "Causal Discovery on Irregular Time Series",
@@ -2001,6 +2932,20 @@
         "app"
       ],
       "summary": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping. In our previous w"
+    },
+    {
+      "title": "中国成为全球AI治理可信引领者——国际社会积极评价2026世界人工智能大会 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUY1o2QjlOeWtuZkNBTG5aZ0gwZWpqcENBMzVXZ050dkd4eklOMjhTMTdOUzloaWRVNUpTcm44TGxqUHJIeHoxdE02dlNGYWh3cWhCSjZDay1xUVEtam9KblZBdlJrT0JtTktIdDcxT24?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T17:45:00+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 49,
+      "tags": [
+        "治理"
+      ],
+      "summary": "中国成为全球AI治理可信引领者——国际社会积极评价2026世界人工智能大会 中国科技网"
     },
     {
       "title": "Unveiling Invariant and Transferable Latent Factors Across Heterogeneous Environments via ATLAS",
@@ -2083,6 +3028,21 @@
       "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms is computationally expensive or numerically unstable, especia"
     },
     {
+      "title": "TSMC to raise chipmaking prices by up to 10% in 2027, Nikkei Asia reports",
+      "url": "https://www.reuters.com/world/asia-pacific/tsmc-raise-chipmaking-prices-by-up-10-2027-nikkei-asia-reports-2026-07-21/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:48:57+00:00",
+      "author": "amelius",
+      "engagement": 5,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "chip"
+      ],
+      "summary": "TSMC to raise chipmaking prices by up to 10% in 2027, Nikkei Asia reports"
+    },
+    {
       "title": "Show HN: Maith – open math research with AI",
       "url": "https://github.com/clidey/maith",
       "source": "Hacker News",
@@ -2113,19 +3073,34 @@
       "summary": "Our website: https://neat.is Thank you all for reading."
     },
     {
-      "title": "TSMC to raise chipmaking prices by up to 10% in 2027, Nikkei Asia reports",
-      "url": "https://www.reuters.com/world/asia-pacific/tsmc-raise-chipmaking-prices-by-up-10-2027-nikkei-asia-reports-2026-07-21/",
+      "title": "Show HN: SquadAI is the Kubernetes-like control plane for Codex agents",
+      "url": "https://github.com/mohit17mor/SquadAI",
       "source": "Hacker News",
       "source_type": "技术社区",
-      "published_at": "2026-07-21T13:48:57+00:00",
-      "author": "amelius",
-      "engagement": 4,
+      "published_at": "2026-07-21T14:48:04+00:00",
+      "author": "mohit17mor",
+      "engagement": 3,
       "category": "技术研究",
       "relevance_score": 48,
       "tags": [
-        "chip"
+        "agent"
       ],
-      "summary": "TSMC to raise chipmaking prices by up to 10% in 2027, Nikkei Asia reports"
+      "summary": "Show HN: SquadAI is the Kubernetes-like control plane for Codex agents"
+    },
+    {
+      "title": "Study Claiming AI Helps Students Learn Retracted",
+      "url": "https://www.plagiarismtoday.com/2026/07/15/study-claiming-ai-helps-students-learn-retracted/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:22:02+00:00",
+      "author": "speckx",
+      "engagement": 3,
+      "category": "政策治理",
+      "relevance_score": 48,
+      "tags": [
+        "act"
+      ],
+      "summary": "Study Claiming AI Helps Students Learn Retracted"
     },
     {
       "title": "AWS Sagemaker discontinue support for model/data quality monitoring",
@@ -2143,19 +3118,19 @@
       "summary": "AWS Sagemaker discontinue support for model/data quality monitoring"
     },
     {
-      "title": "Study Claiming AI Helps Students Learn Retracted",
-      "url": "https://www.plagiarismtoday.com/2026/07/15/study-claiming-ai-helps-students-learn-retracted/",
+      "title": "TSMC to raise chipmaking prices by up to 10% from 2027",
+      "url": "https://asia.nikkei.com/business/technology/exclusive-tsmc-to-raise-chipmaking-prices-by-up-to-10-from-2027",
       "source": "Hacker News",
       "source_type": "技术社区",
-      "published_at": "2026-07-21T14:22:02+00:00",
-      "author": "speckx",
+      "published_at": "2026-07-21T14:15:21+00:00",
+      "author": "baal80spam",
       "engagement": 2,
-      "category": "政策治理",
+      "category": "技术研究",
       "relevance_score": 48,
       "tags": [
-        "act"
+        "chip"
       ],
-      "summary": "Study Claiming AI Helps Students Learn Retracted"
+      "summary": "TSMC to raise chipmaking prices by up to 10% from 2027"
     },
     {
       "title": "I paid €2k for an app; a colleague vibe-coded the same one for free",
@@ -2188,6 +3163,66 @@
       "summary": "AI physics on vacation turned into real research in quantum mechanics"
     },
     {
+      "title": "Show HN: Weight Scope, watch and modify training of Deep Nets in real-time [video]",
+      "url": "https://www.youtube.com/watch?v=7a90eZD68e0",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:55:55+00:00",
+      "author": "ipunchghosts",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "training"
+      ],
+      "summary": "Show HN: Weight Scope, watch and modify training of Deep Nets in real-time [video]"
+    },
+    {
+      "title": "Who am AI – interrogate an AI playing a secret character, 10 questions",
+      "url": "https://whoamai-theta.vercel.app/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:43:12+00:00",
+      "author": "jabaho",
+      "engagement": 1,
+      "category": "政策治理",
+      "relevance_score": 48,
+      "tags": [
+        "act"
+      ],
+      "summary": "Who am AI – interrogate an AI playing a secret character, 10 questions"
+    },
+    {
+      "title": "Antares: Open Weight AI Models for Vulnerability Localization",
+      "url": "https://blogs.cisco.com/ai/introducing-antares-the-most-efficient-open-weight-ai-models-for-vulnerability-localization",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:42:51+00:00",
+      "author": "campuscodi",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "model"
+      ],
+      "summary": "Antares: Open Weight AI Models for Vulnerability Localization"
+    },
+    {
+      "title": "The OWASP Agentic AI Top: What Builders on AWS Need to Know",
+      "url": "https://blog.technodrone.cloud/2026/07/aws-intro-owasp-agentic-top10.html",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:41:46+00:00",
+      "author": "maishsk",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "The OWASP Agentic AI Top: What Builders on AWS Need to Know"
+    },
+    {
       "title": "Show HN: Rowset – An open-source back end for AI agents",
       "url": "https://github.com/LVTD-LLC/rowset",
       "source": "Hacker News",
@@ -2201,21 +3236,6 @@
         "agent"
       ],
       "summary": "Show HN: Rowset – An open-source back end for AI agents"
-    },
-    {
-      "title": "TSMC to raise chipmaking prices by up to 10% from 2027",
-      "url": "https://asia.nikkei.com/business/technology/exclusive-tsmc-to-raise-chipmaking-prices-by-up-to-10-from-2027",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:15:21+00:00",
-      "author": "baal80spam",
-      "engagement": 1,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "chip"
-      ],
-      "summary": "TSMC to raise chipmaking prices by up to 10% from 2027"
     },
     {
       "title": "AI Agents Should Propose Infrastructure, Not Mutate It",
@@ -2233,19 +3253,32 @@
       "summary": "AI Agents Should Propose Infrastructure, Not Mutate It"
     },
     {
-      "title": "PartialString – A finite-difference time-domain physical modelling synthesiser",
-      "url": "https://differentinstruments.com/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:19:13+00:00",
-      "author": "shmeano",
-      "engagement": 1,
+      "title": "以科学评价锚定智能进化坐标，2026国际AI城市生态论坛举行 - 上观新闻",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kWTdkMHljM000Q1ZxVWVQQVNjcmQ0NF9WSzNLdFpaRURab0dCcUFwODBpOW1mWmUtbjBzNXU1T3JBZHdReUFNS1lWd19NUUxqblJfelFrX2E2QQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:47:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 48,
+      "tags": [
+        "生态"
+      ],
+      "summary": "以科学评价锚定智能进化坐标，2026国际AI城市生态论坛举行 上观新闻"
+    },
+    {
+      "title": "法国报纸摘要 - 英国迎来新首相 欧盟创纪录重罚速卖通 美中AI竞争的“模型蒸馏”争议 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMimARBVV95cUxOVVNaUE1UanRua3FjOWhYQXBYTHY4VDRnYjNxeW43QUFieC1kZmM3RGw0R2tPMnk3bEZtckNJMzZrdy1PNU9pU3V5VmRmNmpyanBFME4xTjNuMVhrYnY2aU1LcEJjZ1R3Z3dXb0ZFeTZULWV5a2xaaVltM1BkU1VOZ0ZXYldiRmRqLUk3LUhtRVIzTTd1RTZ3Q2FDUlJ5ZkVLY3JyZFc0QlI3U3dJTlRUYVh4dG9CMzhwZUZJUDExUHk5VHlXT2YwOHhfSl8zdmstcTd3ZEZiOE5CclZrUEVWTWQ0RTZwenp0blBybE5KMnRjVWtraWhmOWhDSkRqNVBDcnhGbW14R21xZ0Z6WEgzMnFhRXM2QXQ0R0V6SkZ3R2ZZNElGcGhZTEY3VW42VERPT3NONEVRVkQ2dWlNVzlMaHlNZUtmNVpGNEtSaUt5dFBhWTkwSnRXNDlZUHF1aVJPTUFpQ1l2QXNwN3IwRlpETXBSWWxaY2tBUHhuYnFfRmt4Z09lUDhLQkFNTzROYklDZG9JOTVwUFBnbFhCTWRfRGkwWTNaWUxOSWd0RTBES21UQWJUbkZBOVEzMmdiT1F5ekRPMHVJd3NFbTlPcGJCWktKbGtocF9Sd0RJNVZ5bHJManBqb05jUDRxT3I4RDAyYnBsb1dsRVhjcE11VjlpUGd5UVNrYUZYVTh5c2x0aXdlZ3ZvYU9uMg?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:36:32+00:00",
+      "language": "zh",
       "category": "技术研究",
       "relevance_score": 48,
       "tags": [
-        "model"
+        "模型"
       ],
-      "summary": "PartialString – A finite-difference time-domain physical modelling synthesiser"
+      "summary": "法国报纸摘要 - 英国迎来新首相 欧盟创纪录重罚速卖通 美中AI竞争的“模型蒸馏”争议 RFI"
     },
     {
       "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
@@ -2259,13 +3292,139 @@
       "tags": [
         "platform"
       ],
-      "summary": "Deezer said more than 90,000 AI-generated tracks were uploaded daily on the platform in June"
+      "summary": "Deezer said more than 90,000 AI-generated tracks were uploaded daily on the platform in June."
+    },
+    {
+      "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺财经",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tVWhXZUJacTRkUTcxWmdfd1pkUmU4dTBwV1pULXM5S3FHa2ZtV3lIVDg0Tlpua3MyME9IalNibU9ubGpWVTRrdjlySnZHNDRoQm1DMVh3ZG9yem1FUG4wX0VR?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:45:35+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "发布"
+      ],
+      "summary": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 同花顺财经"
+    },
+    {
+      "title": "重构工业AI底层逻辑 管网世界模型实现物理状态可交互推演 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BWFREMEYzOEVXUHo1QkszWmYwYVpBbkMyd3NFZ3hTdGdrZWZ6X3NDQWROVHpZUy1xdFhHRWRhUnNlcG13M0xDTE1hdmNpeDBwZnFhYzhfejBxek5WYVJlYnczOTFkVDd2MjhTQlpZb2o?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:41:40+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "模型"
+      ],
+      "summary": "重构工业AI底层逻辑 管网世界模型实现物理状态可交互推演 中国科技网"
+    },
+    {
+      "title": "场景牵引加速AI赋能新型工业化：构建模型到场景闭环，不是为了AI而AI - 央广财经",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JekUzbFEzekcxTGdQZFpNMDZpemw0YXh6dkl2RnlSWjlTQzBqeTZxeFZvcmtrS1ZSMFQxcUhDU0sxX3prczhUZDk5VV9hREpyUzNBWDhaMWQwQW1fcGZIZzZYZGJPQmRwSjl2Uzh6Yw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:20:51+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "模型"
+      ],
+      "summary": "场景牵引加速AI赋能新型工业化：构建模型到场景闭环，不是为了AI而AI 央广财经"
+    },
+    {
+      "title": "《中国智·惠世界（2026）》案例集发布 诠释全球AI普惠共赢新图景 - 中国农业大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5idkJXWTlZTDBwS3RpQWEtelJUd0NXNEpXczlZSDhUWm83RlJ0UzV6TlVGRlF6MDdaSzdsRGxSRUx3bzFJUUNvRGx5aFFzYnd3WnJwZDhmQ1V0bVZTa3Z6OXdSX0ZtTWd0MXFzU3ZSemsxQWh6d29B?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:20:32+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "发布"
+      ],
+      "summary": "《中国智·惠世界（2026）》案例集发布 诠释全球AI普惠共赢新图景 中国农业大学新闻网"
+    },
+    {
+      "title": "WAIC现场直击：端侧算力竞赛爆发，聆思手握下一代AI终端落地关键筹码 - 智东西",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5PQzJlaGZwVDh4dzIzSXNaQ04tcy1fVUxDMDdlcm1VaVZxMUVSNFdzVkFoRmhvb0tDNlpUUTZ6YldHMnBGYlE?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T11:40:48+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "落地"
+      ],
+      "summary": "WAIC现场直击：端侧算力竞赛爆发，聆思手握下一代AI终端落地关键筹码 智东西"
+    },
+    {
+      "title": "AI融资周报 丨 爱诗科技百亿估值领跑，曦诺未来跻身独角兽 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuTzBoZjFjcThkcjBfc2J5OWV5X29kYUNKb0ZPMjRuX0NWdWpfcXVmbVQzNEpobnF4cU4tLURQdTJ4MjlpMkJ0MGlpWlEzU0t6X1U5Q0xYdFpLTEZaVXRLc1VwQmZvcU1pMTB2TzRRNW8?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T02:41:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 48,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "AI融资周报 丨 爱诗科技百亿估值领跑，曦诺未来跻身独角兽 新浪财经"
+    },
+    {
+      "title": "复刻“DeepSeek时刻”？华尔街齐称：Kimi K3反而强化算力需求 - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91bHNQcTlMWlFkTFhYV2pRNGpIODNtbDZ3WGwxRWxmS2F1bWhjSnNrMmFzZlRHOTVoY1FzLW01elhDSVh4dXFmb2liUllnT0tqR1Nv?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T00:35:31+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 48,
+      "tags": [],
+      "summary": "复刻“DeepSeek时刻”？华尔街齐称：Kimi K3反而强化算力需求 华尔街见闻"
+    },
+    {
+      "title": "谷歌研发全新“Frozen”专用芯片 大幅提升AI模型运行效率 - 驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FTVAyUkF2SFpjSVJlNldQeVRJN1JQVUpIZnZnLVY5eml6UmZlZWFGOEs1YXBhOHQ2VnpRbE5qdnJ6R0NUR2JDZ09BcmhsdEZzSmh5SnhnaW0?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T00:05:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "模型",
+        "芯片"
+      ],
+      "summary": "谷歌研发全新“Frozen”专用芯片 大幅提升AI模型运行效率 驱动之家"
+    },
+    {
+      "title": "塔上孕育AI新生态，中国铁塔以全域数字新基建赋能千行百业 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93bjVUTDI1anpETG40aVQtWHhrc0xyZGY5YkZ3YmljX3BWWl9iYnNTcjQ2YVRpUUgyd0JRZFRmZWRhV0Y3WlFqT1YxeEVtTm1zYXZ3djRlZ0VLUGpNRlE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:39:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 47,
+      "tags": [
+        "生态"
+      ],
+      "summary": "塔上孕育AI新生态，中国铁塔以全域数字新基建赋能千行百业 shobserver.com"
     },
     {
       "title": "WAIC重磅成果｜智爱赛思全面升级并发布科研专属Token Plan",
       "url": "https://www.qbitai.com/2026/07/456021.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-21T09:21:55+00:00",
       "language": "zh",
       "category": "产品应用",
@@ -2274,6 +3433,48 @@
         "发布"
       ],
       "summary": "WAIC重磅成果｜智爱赛思全面升级并发布科研专属Token Plan"
+    },
+    {
+      "title": "WAIC2026卡奥斯分享工业AI落地路径：从单点到集群，从被动到主动 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SWWVoRDA2SHI3NGR3ckk1VGZJXzBSYUkxWlRZUG1DVWNQMWxRNU9JTF9KTUJQOGZTeGRBdy1XQlRQckxEUFBNWDJXTmNDYU4zTHlYVFZTWHZpenI3Z3dYa05HZjdyc0l0SHU2TEl3TFRlUHE1T05jVVJFYk8?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T08:52:23+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 47,
+      "tags": [
+        "落地"
+      ],
+      "summary": "WAIC2026卡奥斯分享工业AI落地路径：从单点到集群，从被动到主动 新华网"
+    },
+    {
+      "title": "【光明日报】以赛促进，面向高校青年搭建AI创新实践平台 - 大连理工大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oN0NqMUJSekY2ZzZRWkVKRkxTRE00WmZ0TEg5TEdUTUlRM0Y0YVRubVB4M3hpSWFsUVQ1NVJRamZYRl9fN1BWcV9qRDc2NGgxVFcyck9DTU4?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T08:17:38+00:00",
+      "language": "zh",
+      "category": "产品应用",
+      "relevance_score": 47,
+      "tags": [
+        "平台"
+      ],
+      "summary": "【光明日报】以赛促进，面向高校青年搭建AI创新实践平台 大连理工大学新闻网"
+    },
+    {
+      "title": "AI热潮下的全球市场：三重隐忧正在发酵 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOE82NUZRWWRhQ2dDRVdPb2xtZFRLN1plbWcxOWdXbzVjQWpBRFpYZU9TQ0NfXzFCM2M1LXRaQ00zX0ZxTFFoRnBnMnpGNkRMZ0hqc0pMNGdCNkcySEE1dWhiOXVwNDdUUGJBQ3I5TVU0RFMwX3pzNXdzRW5nT0ZqVS1NQ1Jrdw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:54:46+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 47,
+      "tags": [
+        "市场"
+      ],
+      "summary": "AI热潮下的全球市场：三重隐忧正在发酵 新华网"
     },
     {
       "title": "X relaunches a rebuilt Android app after year-long effort",
@@ -2291,6 +3492,22 @@
       "summary": "X says the rebuilt version of its Android app is now available globally."
     },
     {
+      "title": "平头哥正面硬刚CUDA！真武AI芯片软件栈全面开源：打破英伟达生态壁垒 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTm5zX3lrSnR1SkFxSEc1U3dIMnctaHJ6bmdTWWhUa0Frc1VwWEVTRUpDRmdiVFN2amlhUHFIOXdjVVpMZWl6VHQ4NHEzQjkzTEFfcTZJNGFBckV5M1FMbG9WNXFSdlVSQ3RIZXY1aXBZQndiX3RHWXl5NUlrWTNFaTJPeXd1ekkzVlRqY05JUGNCR2NRTGQwXy1kSlJuQ1pjRDgyM1FtVmZlYThwMzJKRUpR?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T08:24:43+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 47,
+      "tags": [
+        "开源",
+        "芯片",
+        "生态"
+      ],
+      "summary": "平头哥正面硬刚CUDA！真武AI芯片软件栈全面开源：打破英伟达生态壁垒 新浪财经"
+    },
+    {
       "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
       "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
       "source": "TechCrunch AI",
@@ -2306,10 +3523,69 @@
       "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast a shadow over OpenAi's much-discussed plans to get into hardware and go public."
     },
     {
+      "title": "端侧AI合规破局！7款手机端侧大模型集中备案 AI智能体产业化或加速(附股) - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05ZzZpWDRCUWEzMDdiMDVyQzU5aHNrc3ZELTBCQnZGT0ZuZ0w2WGIxaHEwSXNPdFphel9ZLWFrZEJyZHFrci03RGpBYnIwN2lqQzRGQnNXeE1XWFUyMW03UGVvUlJxQQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-16T00:50:03+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 47,
+      "tags": [
+        "模型",
+        "智能体",
+        "大模型",
+        "合规",
+        "产业"
+      ],
+      "summary": "端侧AI合规破局！7款手机端侧大模型集中备案 AI智能体产业化或加速(附股) 东方财富"
+    },
+    {
+      "title": "Mullvad and Daniel Berntsson's Failed Cleanup",
+      "url": "https://markwrites.io/mullvad-and-daniel-berntssons-failed-cleanup/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:26:13+00:00",
+      "author": "speckx",
+      "engagement": 25,
+      "category": "产业动态",
+      "relevance_score": 46,
+      "tags": [],
+      "summary": "Mullvad and Daniel Berntsson's Failed Cleanup"
+    },
+    {
+      "title": "第一财经：亮相WAIC2026彰显硬核实力 武汉AI全链生态加速跻身全国第一梯队 - wuhan.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oNkpPSm42NEhHLU96TzVESFFCSVJUYll6QlRZX0huWFVwZzBpX1dLU0lYQ2dIY0ZUUUtoU2M4R3V0MzduYWI3ZzJPSGRKWkRTNEJRQ3NsRFhRU2pJZlFpQTVqSWR3UzdrVFVZS2hNcw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T06:38:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 46,
+      "tags": [
+        "生态"
+      ],
+      "summary": "第一财经：亮相WAIC2026彰显硬核实力 武汉AI全链生态加速跻身全国第一梯队 wuhan.gov.cn"
+    },
+    {
+      "title": "WAIC这场论坛给出判断：AI竞赛，下半场拼的不是模型，是基座 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZVFVaa0FvV3A3TUQ3X2I2NU1oMDRrekNtN3lIUzFHd0V4TVJKQU96bmc0NjZpRVoxTlZvS2ZTZUJSRHlQeEF1TjNqZURITC0yOGpYTU5NdUM0OGUtZnc?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T06:26:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 46,
+      "tags": [
+        "模型"
+      ],
+      "summary": "WAIC这场论坛给出判断：AI竞赛，下半场拼的不是模型，是基座 shobserver.com"
+    },
+    {
       "title": "国内首个！阿里健康氢离子达成NEJM、JAMA、BMJ三大医学顶刊内容合作",
       "url": "https://www.qbitai.com/2026/07/455993.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-21T06:03:10+00:00",
       "language": "zh",
       "category": "产业动态",
@@ -2318,6 +3594,21 @@
         "合作"
       ],
       "summary": "国内首个！阿里健康氢离子达成NEJM、JAMA、BMJ三大医学顶刊内容合作"
+    },
+    {
+      "title": "AI音乐独角兽估值冲上54亿美元 “互联网女皇”基金领投最新融资 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5jSXZPMWZyMUx3eFpwV05lV3FTdzliTFBQZXFUNkgtTC15azhSamp1bTIxTnVPT0ZwU3ZHM3lDeWhQMzdFWWdFXw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T18:31:33+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 46,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "AI音乐独角兽估值冲上54亿美元 “互联网女皇”基金领投最新融资 财联社"
     },
     {
       "title": "Learning Adaptive Safety Margins for Visual Navigation",
@@ -2335,20 +3626,19 @@
       "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based planners propose diver"
     },
     {
-      "title": "Guidance a bit [R]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1pnyj/guidance_a_bit_r/",
-      "source": "Reddit · r/MachineLearning",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T16:02:44+00:00",
-      "author": "u/Known_cutie328",
-      "reddit_community": "MachineLearning",
+      "title": "AMD再获微软力挺！Helios正式打入Azure，AI芯片市场迎来真正挑战者？ - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQb1Q0Y0YtTktLU2NBRmt5aWllUi14M0Jfa2JBd0NrZFZ2X2E1dEpQTjVqUjN6Q2hTTEdQWHl0M0taUThJUUpmQ3QzcjhCbVZMZml4TnBDMEoteThLTk1sb3EzS1h3WEtmTS14cnFTZkxlZjRCSXkwUWJYZHVDNXY5YVJRUzdVZjZ3N1IyZ0d5Zll2cFg5aTRCNFhzLXB5RGd5VjZ3QUVxTzBfbXV2Zk9RWmRNVEdtemlsSFJ6TF9CLTN2XzYwRjg4QjA1SHVpbzcxMFFYSmt6S0d4d3VVdllWUg?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T16:20:00+00:00",
+      "language": "zh",
       "category": "技术研究",
       "relevance_score": 46,
       "tags": [
-        "research",
-        "act"
+        "芯片",
+        "市场"
       ],
-      "summary": "​ I'm actually looking to get an research internship. Can someone help like in guiding I've made some projects like MLp from scratch nn from scratch using numpy le net and alexnet implementation and currently making a project on connect 4 game rl submitted by /u/Known_cutie328 [link] [comments]"
+      "summary": "AMD再获微软力挺！Helios正式打入Azure，AI芯片市场迎来真正挑战者？ TradingKey"
     },
     {
       "title": "Adobe camera app’s new feature will critique your photos using AI",
@@ -2366,30 +3656,60 @@
       "summary": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app."
     },
     {
+      "title": "中国AI模型花48小时跑通芯片设计，美国EDA巨头股价暴跌！Kimi K3搭载2.8万亿参数开源挑战GPT、Claude双雄，马斯克：令人印象深刻 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQMjFncjFCRC1kNWttWWMzV2tQV05zOXlyVG16aWpHc2ZFMzdPeFVwZHY5Z3ZmMTVVUnFRV3NEMUVpRFlXYUpadjJwNlI3UmREcE1mbGktU3lRTFRFVW5jX0E0MDlDdmZ0Ymw5MUQzMW9UUHFCYzY5dTNLS3hwLWV5YS1Kb01yd2NMSjRwdHpCZEtEYnRBMzlZd3U2LVNEXzBjTDcxTjV5a0V1WG5GQnZPTlNmaDJYSkRVQVQyTnlyeEh4ZF9FMU1HS0RRaEVUMTlhU0p2YkQ4d2ppbldnb2tkS1Frb09kemlfVlJhNHhyQVhhTW5UbVFfNU1mZTg4XzZWQURRU2xFdkhBRzdTZTRUMTJHd0tOODR6WnotdHJJcUlGSnA0NXRvZG80bHdZa2dZYWpaSXRzZ1RiX2xuU1djOUFMQlBuNUJOclFHYjNBRHMxcUM1d0V5Mg?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-18T16:51:52+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 46,
+      "tags": [
+        "股价",
+        "模型",
+        "开源",
+        "芯片"
+      ],
+      "summary": "中国AI模型花48小时跑通芯片设计，美国EDA巨头股价暴跌！Kimi K3搭载2.8万亿参数开源挑战GPT、Claude双雄，马斯克：令人印象深刻 新浪财经"
+    },
+    {
+      "title": "Can you see seven states from Lookout Mountain? We traced every sightline",
+      "url": "https://uptowhere.com/blog/seven-states-lookout-mountain/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:29:16+00:00",
+      "author": "tonvilro",
+      "engagement": 6,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Can you see seven states from Lookout Mountain? We traced every sightline"
+    },
+    {
+      "title": "Are 128-bit symmetric keys secure against quantum computers?",
+      "url": "https://kerkour.com/128-bit-keys-post-quantum",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:26:56+00:00",
+      "author": "cold_pizz4",
+      "engagement": 4,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Are 128-bit symmetric keys secure against quantum computers?"
+    },
+    {
       "title": "AI Companies Are Buying Tons of Old Books Because They're Free of AI Slop",
       "url": "https://www.404media.co/ai-companies-are-buying-tons-of-old-books-because-theyre-free-of-ai-slop/",
       "source": "Hacker News",
       "source_type": "技术社区",
       "published_at": "2026-07-21T14:09:37+00:00",
       "author": "speckx",
-      "engagement": 5,
+      "engagement": 4,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
       "summary": "AI Companies Are Buying Tons of Old Books Because They're Free of AI Slop"
-    },
-    {
-      "title": "Mullvad and Daniel Berntsson's Failed Cleanup",
-      "url": "https://markwrites.io/mullvad-and-daniel-berntssons-failed-cleanup/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:26:13+00:00",
-      "author": "speckx",
-      "engagement": 5,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Mullvad and Daniel Berntsson's Failed Cleanup"
     },
     {
       "title": "Gumroad spent equal amounts on AI tokens and human payroll",
@@ -2418,19 +3738,6 @@
       "summary": "Formal verification might solve AI's review bottleneck"
     },
     {
-      "title": "Keeping Cool: The Air Conditioner That Changed America",
-      "url": "https://humanprogress.org/keeping-cool-the-air-conditioner-that-changed-america/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:20:10+00:00",
-      "author": "surprisetalk",
-      "engagement": 4,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Keeping Cool: The Air Conditioner That Changed America"
-    },
-    {
       "title": "Contra George Hotz on \"AI 2040 and the Cult of Intelligence\"",
       "url": "https://antiextinction.substack.com/p/contra-ai-2040-and-the-cult-of-intelligence",
       "source": "Hacker News",
@@ -2444,43 +3751,43 @@
       "summary": "Contra George Hotz on \"AI 2040 and the Cult of Intelligence\""
     },
     {
-      "title": "I asked 6 AIs to pick a database, 430 times – Postgres wins, Oracle is invisible",
-      "url": "https://www.opinion-radar.com/o/which-database-do-ai-assistants-recommend-0d7fb0?lang=en",
+      "title": "A Git hook to prevent committing directly to main",
+      "url": "https://alexwlchan.net/2026/no-main-hook/",
       "source": "Hacker News",
       "source_type": "技术社区",
-      "published_at": "2026-07-21T13:02:30+00:00",
-      "author": "mat6661",
-      "engagement": 3,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "I asked 6 AIs to pick a database, 430 times – Postgres wins, Oracle is invisible"
-    },
-    {
-      "title": "Can you see seven states from Lookout Mountain? We traced every sightline",
-      "url": "https://uptowhere.com/blog/seven-states-lookout-mountain/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:29:16+00:00",
-      "author": "tonvilro",
+      "published_at": "2026-07-21T14:42:04+00:00",
+      "author": "surprisetalk",
       "engagement": 2,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
-      "summary": "Can you see seven states from Lookout Mountain? We traced every sightline"
+      "summary": "A Git hook to prevent committing directly to main"
     },
     {
-      "title": "Are 128-bit symmetric keys secure against quantum computers?",
-      "url": "https://kerkour.com/128-bit-keys-post-quantum",
+      "title": "Where Your AI Lives Matters More Than How Smart It Is – Especially in the UAE",
+      "url": "https://praveenvijayan.substack.com/p/where-your-ai-lives-matters-more",
       "source": "Hacker News",
       "source_type": "技术社区",
-      "published_at": "2026-07-21T14:26:56+00:00",
-      "author": "cold_pizz4",
+      "published_at": "2026-07-21T14:29:41+00:00",
+      "author": "praveenvijayan",
       "engagement": 2,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
-      "summary": "Are 128-bit symmetric keys secure against quantum computers?"
+      "summary": "Where Your AI Lives Matters More Than How Smart It Is – Especially in the UAE"
+    },
+    {
+      "title": "AI Is ThoughtWare, Not Software: The End of Thinking as We Know It",
+      "url": "https://shrsv.hexmos.com/post/ai-is-thoughtware",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:26:47+00:00",
+      "author": "atomicnature",
+      "engagement": 2,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "AI Is ThoughtWare, Not Software: The End of Thinking as We Know It"
     },
     {
       "title": "The oldest domains on the internet, browsable year by year",
@@ -2535,19 +3842,6 @@
       "summary": "Mermaider is a dotnet lib for generating Mermaid diagrams"
     },
     {
-      "title": "Show HN: MyIntelBrief – daily competitive-Intel briefs, white-label for agencies",
-      "url": "https://myintelbrief.com/consultant",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:05:23+00:00",
-      "author": "chooklay",
-      "engagement": 2,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Show HN: MyIntelBrief – daily competitive-Intel briefs, white-label for agencies"
-    },
-    {
       "title": "Control-Theory Taxonomy of Physical AI",
       "url": "https://dreossi.github.io/blog/physical-ai-taxonomy/",
       "source": "Hacker News",
@@ -2559,32 +3853,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "Control-Theory Taxonomy of Physical AI"
-    },
-    {
-      "title": "Where Your AI Lives Matters More Than How Smart It Is – Especially in the UAE",
-      "url": "https://praveenvijayan.substack.com/p/where-your-ai-lives-matters-more",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:29:41+00:00",
-      "author": "praveenvijayan",
-      "engagement": 1,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Where Your AI Lives Matters More Than How Smart It Is – Especially in the UAE"
-    },
-    {
-      "title": "AI Is ThoughtWare, Not Software: The End of Thinking as We Know It",
-      "url": "https://shrsv.hexmos.com/post/ai-is-thoughtware",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:26:47+00:00",
-      "author": "atomicnature",
-      "engagement": 1,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "AI Is ThoughtWare, Not Software: The End of Thinking as We Know It"
     },
     {
       "title": "The first UL 3700-compliant plug-in solar microinverter is now available in US",
@@ -2600,17 +3868,133 @@
       "summary": "The first UL 3700-compliant plug-in solar microinverter is now available in US"
     },
     {
-      "title": "Skyfall plans to buy a small business for an AI CEO test",
-      "url": "https://runtimewire.com/article/skyfall-ai-buy-business-test-ai-ceo",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:00:48+00:00",
-      "author": "ryanmerket",
-      "engagement": 1,
+      "title": "王毅会见东盟秘书长高金洪 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5a2pSc2FPUDAyTlYtVmFIYXJNOU1HcXFMdm1rc1h5OUM0REczMWQ5QkhNMmt1X2xwNVZ2WGxtOGJVeFBQWjlhUTEyNVNnbVZEdFFnZ0xKdnU1QW1GTjNOalhTTkc?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T14:48:00+00:00",
+      "language": "zh",
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
-      "summary": "Skyfall plans to buy a small business for an AI CEO test"
+      "summary": "王毅会见东盟秘书长高金洪 新京报"
+    },
+    {
+      "title": "Kimi的价格，宣布国产AI进入“轻奢时代”丨C视频·唐探 - 四川新闻",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBsMXVuLWU0d3FMWW16UmhlY0JhSFRtZVZPS3Y5Zl83ZGRoUEd6UmhIV3Fxc2l6eGpCMW9mOTRPTl9mVVR2cEI5cGxoWlBHVTEzMk1vZDA5YWJpUmpzRWJ5WHRlNA?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:57:27+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Kimi的价格，宣布国产AI进入“轻奢时代”丨C视频·唐探 四川新闻"
+    },
+    {
+      "title": "央视2026年度AI人物揭晓：10人中6位来自清华 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HWWdWbE9nZ215bFduT2cxM0hUWjRLMWhjS2xEdXpWX1BzM0ptWExSaXdzRUtXQlBaUk5kelg5TnpDRU52Ym1YZG9LbDBmMXgzTG1LYUpEUk1OeW93SE1hZUVvOXhCb0lBdjRuMHZHUS0yTExDVXc?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:31:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "央视2026年度AI人物揭晓：10人中6位来自清华 新浪财经"
+    },
+    {
+      "title": "AI手机来了！谁来为它的“大脑”买单？ - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8yVkd3UGF5MWJGSjNySHZ2RFRMVS1PbkJiMGdpNlZVaVlBc0Jkb0ZNVGgtWWpHZzlrMzB4bG5uMTJXRWVEQ0J0RUV4MGNQM29jRTNYbTRlM1dWM3ZreExTN0Zn?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:32:40+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "AI手机来了！谁来为它的“大脑”买单？ 手机网易网"
+    },
+    {
+      "title": "下半年，北京将布局建设Token工厂 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ERVZTWV83SlU4dGhjcU5aWDRqbXZjNW9SN3RKMGVyd1hxSlRDdXBBRUo5RUhpRS0wRXNIQWZzSUE4UmJUSXBmT05aUG9rckVGTFFZd3JPcmdhU0FlY0dLNmQ2ZVQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:08:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "下半年，北京将布局建设Token工厂 新京报"
+    },
+    {
+      "title": "WAIC大咖说｜面壁智能CEO李大海：AI手机时代来临，未来3至5年内或将迎来端侧AGI - 手机网易网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jX2lKS2U4OHdScElVV25XR3BGdlNacHJsOHhQZTRGN2tCRWluUmJGUXNtOUdEZE84WGdLYXM4R2JwYmZhbHAtVjhWWFRBeGQwODZ6NTEtd1RpbGhScVktYnVR?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T11:59:11+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "WAIC大咖说｜面壁智能CEO李大海：AI手机时代来临，未来3至5年内或将迎来端侧AGI 手机网易网"
+    },
+    {
+      "title": "每天3万步！创投人不看模型参数，看AI能否进入真实场景 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV0lNYWY1aTdQU3Y3YllkZTl2Sk5MUDBFZWRSRVFCbWNsSGh1OU9LMGNsQVA5YXBWcVZCQnJ6VW5mRHFwUkx5NzFmRHFjX0JGeVkzMEVXakNOQzJicWZXQkhfc3ItTkd0UXA1SE05MUJzOGNaNkNxdlhHR3Zra0R4Ym1nTk53RXA5VjgzblVxVURvVUQ3TnMtcmVrdWdIM0RnN2dKM1VlWWVBNVFHcXZ4VmZ3?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T02:06:03+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 45,
+      "tags": [
+        "模型"
+      ],
+      "summary": "每天3万步！创投人不看模型参数，看AI能否进入真实场景 新浪财经"
+    },
+    {
+      "title": "法国世界报 - 中国AI新模型让硅谷不安 - RFI",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNM3NINzFDLXVreDE5cDYyX3BwM3FmcXVpelJFVWNpY1ZlRWs3Yi00TUxlX0NscFNfbTFaSHM2eTJDZlRrRmxzakZtbkdxMU1iSUxTeTNfcWNQQmJJR0ZZdklQSG5sMmlCU3F2a1I5SzJiWnpzUFFVWXFBMlJ1cWJuVUlJbUo2UTM2UDV6UmRsWl9xczloNFdBbkxIajJtYkFJMkVFZzBtRlhEV1lGd25CU01HTGlXMFN1Unl6Ml9tV0xrcl92UUpWa3RSb1lKMlN2WGUyMnl6Q084OG5wZ0R6Qm0wSTl3cElndk1RcXp1UDg2b3U5UGd0YnVJa05ZLWFCWEZsbE41QWdURVlHVktOcE0xbzZxOEE1Znk2MHhqYWtnS1RPcl9XUVRKVG02aG8?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T23:56:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 45,
+      "tags": [
+        "模型"
+      ],
+      "summary": "法国世界报 - 中国AI新模型让硅谷不安 RFI"
+    },
+    {
+      "title": "谷歌研发全新“固化（Frozen）芯片”，大幅提升 AI 模型运行能效 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcXlNX3czYXZwcG9taWtqNkg5VTdabnhGcWtibUZsbmhncDh2QV93SmNBZU5sbTU0QWVwZzZnR1BrZEx3OTNlUTdMNlFoRFAtRTlIM25DZU9IZkd0OUo5eEw4LVAzS2JyNHRvTzlUSXA1SHZCZzJodEZoUXNub19mUGdYZjkxUVdHaVE?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T14:36:24+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 45,
+      "tags": [
+        "模型",
+        "芯片"
+      ],
+      "summary": "谷歌研发全新“固化（Frozen）芯片”，大幅提升 AI 模型运行能效 新浪财经"
+    },
+    {
+      "title": "世界人工智能合作组织(WAICO)推进会成功召开 - ndrc.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGQTJ5ZC04MkJKYTBxZ255b3JmLTg3ZFJGYnJIQWFMQWtYSFNJQ29lU0p4TjkwS2ZNRVNIWGJMd1U0dk9RTWI3dHA2SXJlMTJxcGdEa2Zzek90bEE2RXI0MURFSnpCc3pjVVE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T01:19:59+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [
+        "合作"
+      ],
+      "summary": "世界人工智能合作组织(WAICO)推进会成功召开 ndrc.gov.cn"
     },
     {
       "title": "I automated my job (and it made me a better leader)",
@@ -2704,6 +4088,18 @@
       "summary": "Software may be written in programming languages, but human language is at the heart of developer collaboration. Developers explain how projects work in READMEs. They ask for help in issues. They review, debate, and improve code in pull requests. That collaboration often happens in English—but not always. As AI becomes"
     },
     {
+      "title": "新华视点｜观AI硬核突破 看智造升级之路 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlSXBqMm9yVUFYd2V6cmpfRDVmMi1PVy1qV1pQYWN1a2hrUmlpN1VRUHRkVmQxQWlmUE1UWHVMeTJ4X0ZvQXptcjBLVXJ4YzNqUEw0ODdUZGtfMjZOMzdibFFuRTQ0OTBEdFVra2JVQnljXzZMYTRxRlpMOVJ4Zw?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T10:00:44+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [],
+      "summary": "新华视点｜观AI硬核突破 看智造升级之路 新华网"
+    },
+    {
       "title": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
       "url": "https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/",
       "source": "TechCrunch AI",
@@ -2719,13 +4115,27 @@
       "title": "WAIC重磅成果｜上海市教育算力专区正式开启试运行",
       "url": "https://www.qbitai.com/2026/07/456026.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-21T09:30:03+00:00",
       "language": "zh",
       "category": "产业动态",
       "relevance_score": 44,
       "tags": [],
       "summary": "WAIC重磅成果｜上海市教育算力专区正式开启试运行"
+    },
+    {
+      "title": "314亿配售后七天浮亏44%：智谱两日再蒸发3000亿，万亿叙事退潮拷问AI估值逻辑 - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mTFJKNHY2TmFTYm1INU52SjJaZEJqVFB3amZHck55czVhWWYzdkI4MVljbGZmVHBTazV3WlRackVjTzJqaGxpMDdVTnpabEZPUTFJ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T22:36:45+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 44,
+      "tags": [
+        "估值"
+      ],
+      "summary": "314亿配售后七天浮亏44%：智谱两日再蒸发3000亿，万亿叙事退潮拷问AI估值逻辑 华尔街见闻"
     },
     {
       "title": "AI’s most important protocol is getting a little bit easier to use",
@@ -2742,19 +4152,86 @@
       "summary": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work."
     },
     {
-      "title": "ACL ARR (May 2026)- Updating Reviewer Score post 17 July AoE Deadline? [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1ukpx/acl_arr_may_2026_updating_reviewer_score_post_17/",
-      "source": "Reddit · r/MachineLearning",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T18:58:24+00:00",
-      "author": "u/Forsaken-Order-7376",
-      "reddit_community": "MachineLearning",
+      "title": "世界人工智能大会上的\"乳业身影\"：数智之变如何照进现实 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40bWR0NWp5LUVBNUhneUpGd1FpN090Snp4Z1lDUnhzZmZoX0FEQUpuSEFlVmlfM3cwYzJhQUVsbzBTallqYm1aOHJNWkRNbDV5eFVyME05eEFyM1I0UG1scnNPRm0yRDhlUGFqX3N2RDVvNVFOZWpDYTNjUmhrUQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T07:20:52+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [],
+      "summary": "世界人工智能大会上的\"乳业身影\"：数智之变如何照进现实 新华网"
+    },
+    {
+      "title": "努比亚完成智能体大模型备案，全球首款 AI 智能体手机官宣还将搭载豆包手机助手 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTUpuVFpNdjgzZ2dtTlRQVlBWZUlaYmxUWENXdFd2dXIyS1F5OUFYek9kTy1DeHkwRDJlUlhtQnU5OFBWSzRLcGJkdF9DQjZwM0pTcXRYUTdOd2VLNHU1YVlsMmhwSE96WFFqaU9pUEtwNlhvYVRZYVRpYlRMa2ViTUdrYUpxMWFx?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T11:46:00+00:00",
+      "language": "zh",
       "category": "技术研究",
       "relevance_score": 44,
       "tags": [
-        "paper"
+        "模型",
+        "智能体",
+        "大模型",
+        "助手"
       ],
-      "summary": "Had submitted a paper to ACL ARR May 2026 cycle. Unfortunately, none of the reviewers acknowledged the rebuttal during the author-reviewer discussion I am curious to know from people who had volunteered to review papers this cycle- are you still able to update the ratings, or even your review based on the rebuttal? Als"
+      "summary": "努比亚完成智能体大模型备案，全球首款 AI 智能体手机官宣还将搭载豆包手机助手 新浪财经"
+    },
+    {
+      "title": "AI企业发力智能体手机，阶跃星辰发布大模型原生AI终端品牌 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZZ2UzZTA3Mi16MDFDZHJ4N3BrVko3NlNlRnZkOUJNcE5hTzZGdUZMNkY2Y3JkT09zZkpXTi1kRmVreE45U0N2czA0Q1pxY3dsZ3Vya3NVaURhSDNCRWc?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-14T00:33:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 44,
+      "tags": [
+        "模型",
+        "智能体",
+        "大模型",
+        "发布"
+      ],
+      "summary": "AI企业发力智能体手机，阶跃星辰发布大模型原生AI终端品牌 shobserver.com"
+    },
+    {
+      "title": "上海发布全球首个AI智能体原生系统 大模型手机也来了 美团、百度率先接入 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByX3VoQjdJSnNrUnl4MkotNjhqZUVUR20wWXJIa0RyTTc1Wk81d1NDcklzaVZINTFwajNnbzJabF9Cd0I5cWpVRkNqalQwQXhodjk1bW1NTmdCM3lMRWc5SQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-13T22:52:51+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 44,
+      "tags": [
+        "模型",
+        "智能体",
+        "大模型",
+        "发布"
+      ],
+      "summary": "上海发布全球首个AI智能体原生系统 大模型手机也来了 美团、百度率先接入 东方财富"
+    },
+    {
+      "title": "估值180亿美元！可灵AI落地近30亿美元融资：创全球视频大模型融资新纪录 - thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MbmNGTHRXZFE4UTFtdDZRNzZhUXNKR1pHUDlWTnBQYVNxb19MZHFGa2tCamVZSlY3Um9mVEZDUlc3Um9TS0lUWFl5ZmRteVI3QjN1SGNkZVVUMDJpeHc?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 44,
+      "tags": [
+        "融资",
+        "估值",
+        "paper",
+        "模型",
+        "大模型",
+        "落地"
+      ],
+      "summary": "估值180亿美元！可灵AI落地近30亿美元融资：创全球视频大模型融资新纪录 thepaper.cn"
     },
     {
       "title": "Achieving operational excellence with AI",
@@ -2820,6 +4297,67 @@
       "summary": "Welcome back to GitHub Copilot CLI for Beginners! In this series (available in video and blog format), we’ll give you everything you need to get started using GitHub Copilot CLI . So far in this series, we’ve covered how to get started and when to use interactive and non-interactive modes . In this edition, we’ll learn"
     },
     {
+      "title": "融资超500亿！DeepSeek刷新国产大模型估值纪录，马化腾曾毓群丁磊刘强东抢着塞钱 - 智源社区",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9PSXo5QVVnR2ltZ1R5dWs3dTIzaUIxNWs1V2FIVW9RX01CYXFkeFdZOV83TEx3LU5mMndDeVdqZ1dvc0ltWkFRcA?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-05T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 44,
+      "tags": [
+        "融资",
+        "估值",
+        "模型",
+        "大模型"
+      ],
+      "summary": "融资超500亿！DeepSeek刷新国产大模型估值纪录，马化腾曾毓群丁磊刘强东抢着塞钱 智源社区"
+    },
+    {
+      "title": "NVIDIA 发布面向物理 AI 的开源智能体工具和技能集合 - NVIDIA",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZTIzaTA5SGM2WkVPRDRrVldodnpDR3M3b2FtQTA0Mjh4MlNid3kwWXZtNHBmd0I3alNETkxoVEpQSER6dEVOTUpZai1TZ0R2R1hIUVlvaFJMWXlEREh3VV9JZ0RJT0JnQldLQXIzTXZsU21BSEEwaDJZYjRqUGFJaDNVQzdEMnl5UllBeDl6RWdxZ3I4WW9sYzY1M2hkTFVtWk5qbGdjOVFIWUMybW00cDRLYmhVR3c?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-01T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 44,
+      "tags": [
+        "开源",
+        "智能体",
+        "发布",
+        "工具"
+      ],
+      "summary": "NVIDIA 发布面向物理 AI 的开源智能体工具和技能集合 NVIDIA"
+    },
+    {
+      "title": "智能伙伴来了，“AI”正重塑大学课堂 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVldMM3pRNDhPb1dBazBwdWtva2ZGc0xHM3ZuZUxVcFZWdXVYcGFyUWJLZHBFRXAtZVFmOFFpRHBUd3Y0aFNISm1RQ0p4YXFJSlhpUk16Z21OaW5PY09QeWh2MnhnN1RqNkN6a01ORllRM3ZscV9tUHJvZzk2MG9zVkl3?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T06:29:56+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [],
+      "summary": "智能伙伴来了，“AI”正重塑大学课堂 新华网"
+    },
+    {
+      "title": "ACL ARR (May 2026)- Updating Reviewer Score post 17 July AoE Deadline? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1ukpx/acl_arr_may_2026_updating_reviewer_score_post_17/",
+      "source": "Reddit · r/MachineLearning",
+      "source_type": "Reddit",
+      "published_at": "2026-07-20T18:58:24+00:00",
+      "author": "u/Forsaken-Order-7376",
+      "reddit_community": "MachineLearning",
+      "category": "技术研究",
+      "relevance_score": 43,
+      "tags": [
+        "paper"
+      ],
+      "summary": "Had submitted a paper to ACL ARR May 2026 cycle. Unfortunately, none of the reviewers acknowledged the rebuttal during the author-reviewer discussion I am curious to know from people who had volunteered to review papers this cycle- are you still able to update the ratings, or even your review based on the rebuttal? Als"
+    },
+    {
       "title": "YouTube clarifies policies around AI slop and upsetting videos",
       "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
       "source": "TechCrunch AI",
@@ -2860,18 +4398,82 @@
       "summary": "Grabette: an open system to record robot-manipulation data"
     },
     {
-      "title": "WAIC 2026收官｜范式大会亮点集锦，见证AI 2.0从技术突破走向产业实践",
-      "url": "https://www.qbitai.com/2026/07/455963.html",
-      "source": "量子位",
-      "source_type": "RSS",
-      "published_at": "2026-07-20T10:42:09+00:00",
+      "title": "英国AI新材料初创公司CuspAI获4.5亿美元融资 贝索斯基金、英国政府参投 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5fcUpad2JBeXh0SGEyRWxJbjM5VnNRZlRPczVpQmtENkx3anNFN2hRV0ZWX3VyZkVxZ0ZzanVZNXFJbXFtMFE?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T02:37:00+00:00",
       "language": "zh",
-      "category": "产业动态",
+      "category": "投资商业",
       "relevance_score": 42,
       "tags": [
+        "融资",
+        "公司"
+      ],
+      "summary": "英国AI新材料初创公司CuspAI获4.5亿美元融资 贝索斯基金、英国政府参投 财联社"
+    },
+    {
+      "title": "真武AI芯片累计出货56万片，平头哥开源T-Head SAIL软件栈 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuSkVwc3NpOFpxcHI0UUNEcnpkTnVUbTRPbGYySHlUeFBieElJVnl2WUg2VDduclBROU5KSjhRXzhUYzR6bEtHQ1BDNXNxc0hXTXpF?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T01:40:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 42,
+      "tags": [
+        "开源",
+        "芯片"
+      ],
+      "summary": "真武AI芯片累计出货56万片，平头哥开源T-Head SAIL软件栈 电子工程专辑"
+    },
+    {
+      "title": "“世界模型”火了！李飞飞AI公司融资10亿美元 - 第一财经",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaQkxVNjl3MnpiTGx1bEEtSkRfcjZxaUpDZ0xnVEVBUmJta1Bvbl9OODF1WTc3Y0lxalE5ZE9ackczNVR2emV1WDlwWm1lMXdXN0RV?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-19T13:16:24+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 42,
+      "tags": [
+        "融资",
+        "模型",
+        "公司"
+      ],
+      "summary": "“世界模型”火了！李飞飞AI公司融资10亿美元 第一财经"
+    },
+    {
+      "title": "AI投资机遇如何把握？国泰海通：产业资本运作正当时，短期行情调整似“危”实“机” - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWWhpSHg5S2xsczV3T2NoeG1ENFpBLUd4aThJSkxVclF2b0VWN28wTTlsdWN6cEI5dFE1d1d0MGdPVnhONWZmcUY1OGpUOEs4VGtfNEhGOE1ucU90cmF2ZlM4emYwVktfNURfU1dJWG5oRlZGSXpjdFFQLXRkYUZoYmtIUjc5b2pJejJIZg?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-19T11:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 42,
+      "tags": [
+        "投资",
+        "资本",
         "产业"
       ],
-      "summary": "WAIC 2026收官｜范式大会亮点集锦，见证AI 2.0从技术突破走向产业实践"
+      "summary": "AI投资机遇如何把握？国泰海通：产业资本运作正当时，短期行情调整似“危”实“机” 21财经"
+    },
+    {
+      "title": "国产大模型Kimi K3能自主设计AI芯片：45nm工艺 100Mhz频率 - 电子工程专辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaOVViM2M3ZzRMLWpTUnZJbkZUbGZhRHgyendVSzg4THI1R2plWEk0cFB0M1VIZjF2alAwaktmX2F3MFB2b0JSSUM5OVdnb3I4MW9N?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-18T11:38:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 42,
+      "tags": [
+        "模型",
+        "芯片",
+        "大模型"
+      ],
+      "summary": "国产大模型Kimi K3能自主设计AI芯片：45nm工艺 100Mhz频率 电子工程专辑"
     },
     {
       "title": "Trump’s latest AI czar has already resigned",
@@ -2886,10 +4488,24 @@
       "summary": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar."
     },
     {
+      "title": "WAIC 2026收官｜范式大会亮点集锦，见证AI 2.0从技术突破走向产业实践",
+      "url": "https://www.qbitai.com/2026/07/455963.html",
+      "source": "量子位",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T10:42:09+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 41,
+      "tags": [
+        "产业"
+      ],
+      "summary": "WAIC 2026收官｜范式大会亮点集锦，见证AI 2.0从技术突破走向产业实践"
+    },
+    {
       "title": "当AI进入最依赖“人”的行业：一家四线城市康复机构利润增长40%",
       "url": "https://www.qbitai.com/2026/07/455791.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-20T09:54:33+00:00",
       "language": "zh",
       "category": "投资商业",
@@ -2898,6 +4514,20 @@
         "利润"
       ],
       "summary": "当AI进入最依赖“人”的行业：一家四线城市康复机构利润增长40%"
+    },
+    {
+      "title": "人工智能引领产业变革思客会现场 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeFJlWUNYSFRSTUNEQ2QtcWFBd2w3aDJ1Xy1SWjlxai1tcUtFTGczOG9OQXpSSHVqc0lnbEd5b2Njb3lDT2Y5ZEwydDB0Q2h3WHZUT2JNY0poZDM0N0xqWUpGVF9PT0g2M0pZM3dKbTBGaGw1YW9KUFAwS2FtdVVyR0ZB?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-19T09:42:33+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 41,
+      "tags": [
+        "产业"
+      ],
+      "summary": "人工智能引领产业变革思客会现场 新华网"
     },
     {
       "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
@@ -2913,6 +4543,54 @@
         "company"
       ],
       "summary": "Dave Eggers attends the \"The Turning Point: To Be Destroyed\" premiere. | Image: John Lamparski/Getty Images for Tribeca Festival Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels , screenplays, pieces of journalism, started McSweeney's , "
+    },
+    {
+      "title": "7款手机端侧大模型备案通过 AI智能体手机热度激增 - eeo.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1DcWV4QW81cVVjQXZ2RWxDS19LOXNQYi1YY1VxeEpvRDVFVU9obUxkeFU1QUJ5Rm1ha0dEQVhESEtKZWpiWk9wRzdmNHRSX19TczQwWmJGMA?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-16T12:13:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 41,
+      "tags": [
+        "模型",
+        "智能体",
+        "大模型"
+      ],
+      "summary": "7款手机端侧大模型备案通过 AI智能体手机热度激增 eeo.com.cn"
+    },
+    {
+      "title": "梁文锋成全球AI大模型创始人首富，DeepSeek估值今年已涨6倍 - 腾讯新闻",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBMTmRYSVNYMjZLT0lXWE82cm1jcW9vQkxKN1QwRDFYUXctMmpLSnZFS3pFT3lCWUxYNDZwZ0hlTGl3bUdBTk9NWDA3cFVLY19kNGRNdnM4VQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-16T02:48:43+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 41,
+      "tags": [
+        "估值",
+        "模型",
+        "大模型"
+      ],
+      "summary": "梁文锋成全球AI大模型创始人首富，DeepSeek估值今年已涨6倍 腾讯新闻"
+    },
+    {
+      "title": "努比亚完成智能体大模型备案！全球首款AI智能体手机首发搭载：后天见 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CT1dkakE1bWNvSUpBM2pNcGtVT1NhZm9qUm1nd2dicVRzdlY3OU5PWFJYLW5FMXFPOEhxcnJmX0xLZnAtaHZzZktmUnI3UlUxSF9VTWlWQUlZbUFfeERfc1h0TUM5VER2SFVEeW9Rb1cxSHExMFZ4WWVzVUZRU00?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T13:14:31+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 41,
+      "tags": [
+        "模型",
+        "智能体",
+        "大模型"
+      ],
+      "summary": "努比亚完成智能体大模型备案！全球首款AI智能体手机首发搭载：后天见 新浪财经"
     },
     {
       "title": "The US is advancing AI safety through state and federal action",
@@ -2931,6 +4609,22 @@
         "governance"
       ],
       "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI."
+    },
+    {
+      "title": "努比亚完成智能体大模型备案 将推首款AI智能体手机 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Ob2JISHZNLVhaT0xfbEd1M1QzZ1V0VE11TmtPcU1mSzFSb1JWM1FwRDF3S0NqdmZIX2Z5UjRkUnVJdU1ITTd0Mmp6eEpXQQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T09:49:47+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 41,
+      "tags": [
+        "模型",
+        "智能体",
+        "大模型"
+      ],
+      "summary": "努比亚完成智能体大模型备案 将推首款AI智能体手机 观点网"
     },
     {
       "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
@@ -2953,6 +4647,42 @@
       "summary": "Custom domains make a project feel real. But for many developers, DNS, the last mile, is also the most frustrating: A records, CNAME entries, TTLs, and that long wait where you’re never quite sure if the internet is broken or you are. In this post, I’ll walk through how I took a project from an empty repository to a li"
     },
     {
+      "title": "训练全程由国产芯片完成，万亿级参数大模型 LongCat-2.0 发布 - 美团",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aZzFwZVFMSEZ6SjVob29xdXZKU19YQjEyNEVRWEozNVhOWkhJYmNOVnBaWlFrSkJOS25Gems1QWxfUWlHNUxjVjNvaWdGX0lxSm9rdlo5LXZDZw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-30T15:26:45+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 41,
+      "tags": [
+        "模型",
+        "训练",
+        "芯片",
+        "大模型",
+        "发布"
+      ],
+      "summary": "训练全程由国产芯片完成，万亿级参数大模型 LongCat-2.0 发布 美团"
+    },
+    {
+      "title": "大模型公司面壁智能完成数亿元融资 投后估值迈入独角兽门槛 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1pS3pKazRzZXNqazV2MFY5elE0UWNFZHpyUGZpbXV1bTJwRlhsMVpvUzR2NURnazlWV28xT051dzRfeUVicno2OA?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-04-09T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 41,
+      "tags": [
+        "融资",
+        "估值",
+        "模型",
+        "大模型",
+        "公司"
+      ],
+      "summary": "大模型公司面壁智能完成数亿元融资 投后估值迈入独角兽门槛 财联社"
+    },
+    {
       "title": "Introducing Cosmos 3 Edge",
       "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
       "source": "Hugging Face Blog",
@@ -2965,10 +4695,39 @@
       "summary": "Introducing Cosmos 3 Edge"
     },
     {
+      "title": "从“会回答”到“会执行”，WAIC上的AI Agent正在发生这些变化…… - rmzxw.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZEwzTzdwQ0RqT2JlMGw5eERTMVI0UVVSYmItUXIxSUFMczRUbHVuT0IyeWJZX0poZVFsckNkaktibHM4VEh0T2pmMlprd00zckJuYTJ0QTdOSUV2ZUpFaXd6VHN1T3B5NUVUaVdkU01iZWtYMkJUR0hBS0FfUGhyOEdoWS16OG9vUnA0bEFyUQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T03:49:37+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 40,
+      "tags": [
+        "agent"
+      ],
+      "summary": "从“会回答”到“会执行”，WAIC上的AI Agent正在发生这些变化…… rmzxw.com.cn"
+    },
+    {
+      "title": "Meshy 公布估值超百亿，下一步进军实时互动的多模态内容体验 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBRQ2w1Tnh3dlpsVWM1a3RWYWtQZzAzQWlyOXNISnA0SnJHU1VOSjl0YldBbk51Rk81QVg3RjlWdHdMeVBpdVlpZlZtMFRGMlM3?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-19T11:45:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 39,
+      "tags": [
+        "估值",
+        "多模态"
+      ],
+      "summary": "Meshy 公布估值超百亿，下一步进军实时互动的多模态内容体验 36 Kr"
+    },
+    {
       "title": "全球首发技术路线+全域联盟双轮破局，AI for ADANES释放先进核能新质生产力",
       "url": "https://www.qbitai.com/2026/07/455729.html",
       "source": "量子位",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "published_at": "2026-07-20T09:41:49+00:00",
       "language": "zh",
       "category": "产业动态",
@@ -2977,20 +4736,48 @@
       "summary": "全球首发技术路线+全域联盟双轮破局，AI for ADANES释放先进核能新质生产力"
     },
     {
-      "title": "Kimi: Threat or menace?",
-      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
-      "source": "TechCrunch AI",
-      "source_type": "RSS",
-      "published_at": "2026-07-18T18:51:07+00:00",
-      "language": "en",
+      "title": "WAIC 2026终极盘点：15大核心趋势，看透AI下半场 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UUkM5R1MyLU83bEc1b19ITXFvd1BtUzUzNUtTRXBReTlYY0IxYW9oREJGYjUyQlNlallacHNHc3VRTkFuZWZWd3RmaWlhRHpK?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T08:48:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 38,
+      "tags": [],
+      "summary": "WAIC 2026终极盘点：15大核心趋势，看透AI下半场 36 Kr"
+    },
+    {
+      "title": "搭载蓝芯智通融合CPU 联想推出全球首款开源架构AI服务器 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YcUp3M1U1eTJIaHJ5NE5yNHpJdWR4VklWUkEyMFhFOVVfRGZudUowQU12dnRNdXdIZkpwdHZvQ0Nzak8yRExsLVFwWkRyX3dGQ3RNTk1PWDBGa0M5R0ZzWHY3UzNlZw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-19T07:59:26+00:00",
+      "language": "zh",
       "category": "技术研究",
       "relevance_score": 38,
       "tags": [
-        "model",
-        "release",
-        "company"
+        "架构",
+        "开源"
       ],
-      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\""
+      "summary": "搭载蓝芯智通融合CPU 联想推出全球首款开源架构AI服务器 东方财富"
+    },
+    {
+      "title": "AI创企Etched洽谈融资投后估值目标200亿美元|AI芯片|红杉资本|英伟达|圣何塞|硅谷_手机新浪网 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPOExrQ0VkSHZOZEZJRHZDZWY5ZFhnOVZMTW1jQ05SalhQTVI3YWNBUEU3aUgtQ3VGOUxyUmZQdXJkZU9UVzVwbVgwMEFwcnpQX0Qyb28tQmJIYjhKLU9RSWZKMnR5TEs5WVc0ZlFBWDJOSkRBeU9rWmRhckhZYTVhNm9zcE5IdGJFbUxGSjg3N3NxYlVSdWstMTJobWdxY09HOHQ5U1ZGSl9GMFVKaHhqNV8wN0FaMHQtMWcxTmlSdHZlX0RNWFdxRUk4VVNST29GMW1RSVJlY1RXeHhrempPdXU3RjVJRnZsaEdYblJTMWItVEN5ZVo1TWE0akt1V3l5RUNGSkZvTXVKRzM2RzRTMFBNUFBnU2s2bWxnZmlobU1BYWlhMDFFaGxycnlWd2h5Mk9pcFc3alEzaXNOaWI0c3l4SQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-18T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 38,
+      "tags": [
+        "融资",
+        "估值",
+        "资本",
+        "芯片"
+      ],
+      "summary": "AI创企Etched洽谈融资投后估值目标200亿美元|AI芯片|红杉资本|英伟达|圣何塞|硅谷_手机新浪网 新浪财经"
     },
     {
       "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
@@ -3045,6 +4832,23 @@
       "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety."
     },
     {
+      "title": "30亿美元创视频大模型融资纪录，可灵AI估值180亿，BAT罕见同场入局 - 财富号",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxZXNiWTFQZzkxLW41OXNiUS1HbGMxM0ZmMzNCU1hYbHNEMk1obmlQMHF2cVB5MEJyTkllQ1BuQWY3cFlnVU85UkVtX3RrekJ0dWVNeWp6Q3pnSjRxV01PMFNsNGJZb2s2VTlF?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 38,
+      "tags": [
+        "融资",
+        "估值",
+        "模型",
+        "大模型"
+      ],
+      "summary": "30亿美元创视频大模型融资纪录，可灵AI估值180亿，BAT罕见同场入局 财富号"
+    },
+    {
       "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
       "url": "https://openai.com/index/hp-frontier-partnership",
       "source": "OpenAI News",
@@ -3077,6 +4881,23 @@
         "product"
       ],
       "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
+    },
+    {
+      "title": "破局企业级AI智能体规模化落地难 WorkMate开源发布 - 中国科技网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5OMkt0LTJDbkc3bnVXczZpdXJXRjJKdVBzOXdvekppSzRiZUtISm40a3g4WE8wQ0R2RmtiY2xjeDY2UmdLZC1OcFFhSXpmemFJY0JjdTdwNWwybDEtU3p3ZmVVZEtkSEswazFWdTF2YjQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-24T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 38,
+      "tags": [
+        "开源",
+        "智能体",
+        "发布",
+        "落地"
+      ],
+      "summary": "破局企业级AI智能体规模化落地难 WorkMate开源发布 中国科技网"
     },
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -3145,6 +4966,40 @@
       "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation."
     },
     {
+      "title": "10轮融资、40亿估值 中科闻歌通过港交所聆讯 “通用决策大模型第一股”来了 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBadEQ0WHByVUJuMm9Lc19KaHluR0ZiRkk5a2x3R0UtcFBuRHUzMWdQQTJKc0FsdmJrVXlkdWxhNkYtNmhmclhhZA?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-09T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 38,
+      "tags": [
+        "融资",
+        "估值",
+        "模型",
+        "大模型"
+      ],
+      "summary": "10轮融资、40亿估值 中科闻歌通过港交所聆讯 “通用决策大模型第一股”来了 财联社"
+    },
+    {
+      "title": "深圳国产芯片成功训练万亿级AI大模型 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MckZCaS1MdlBNQnBQQlRlVHNJSWJzaE9Xd0pGOGI1ZlJxakx5YmN6UzY3YXpXTEZwbFh6VVpXaWh3RHdVMGxXU1J2NlUtQQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-05T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 38,
+      "tags": [
+        "模型",
+        "训练",
+        "芯片",
+        "大模型"
+      ],
+      "summary": "深圳国产芯片成功训练万亿级AI大模型 观点网"
+    },
+    {
       "title": "ARR 2026 Meta Review score [D]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v1bd95/arr_2026_meta_review_score_d/",
       "source": "Reddit · r/MachineLearning",
@@ -3158,20 +5013,20 @@
       "summary": "Hey any one experience overall score 2.66 and then Meta score 3 in some previous cycle ?? Or meta reviewer just rounded off 2.66 to 2.5?? Any Meta Reviewer here?? because there are some uninterested reviewers doing AI generated reviews and giving noisy scores. For them overall score gets lowered. submitted by /u/Histor"
     },
     {
-      "title": "Apple’s plot to crush OpenAI",
-      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "source": "The Verge AI",
+      "title": "Kimi: Threat or menace?",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "source": "TechCrunch AI",
       "source_type": "RSS",
-      "published_at": "2026-07-17T17:41:32+00:00",
+      "published_at": "2026-07-18T18:51:07+00:00",
       "language": "en",
       "category": "技术研究",
       "relevance_score": 37,
       "tags": [
-        "api",
-        "app",
-        "law"
+        "model",
+        "release",
+        "company"
       ],
-      "summary": "Apple is suing OpenAI . The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done . So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The Vergecast , Nilay and"
+      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\""
     },
     {
       "title": "The apps, gadgets, and tools every reader needs",
@@ -3200,6 +5055,80 @@
       "relevance_score": 35,
       "tags": [],
       "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
+    },
+    {
+      "title": "“促进全球人工智能朝着向上向善、造福人类的方向发展” - 人民日报",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WOC1HZ0xiVFFoajlJWmNvaFhkQUpWdlExV01TaVl2NXZWNFJ2THplMmZHVm1yY0dKamllekpCQTFOUE1LOW1WWDdrZjVIcTNWeFp2cUtJOThTSC1TYWQzS1ctNDF3MXhNamVMZTdWbllrRlN1UDZrM3FzWGRWcnc?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-18T21:50:39+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 35,
+      "tags": [],
+      "summary": "“促进全球人工智能朝着向上向善、造福人类的方向发展” 人民日报"
+    },
+    {
+      "title": "外交部部长助理刘彬出席人工智能全球治理高级别会议 - mfa.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE05UkZQOTVJSnVHYng0UjdSZWR0cU84SVFvSkctb0wxV0pVSjM4VnV0d045X1p3WVF4UjUyZDdRd2NHNDJHNDhKYm1QTk5Cbm40Rjd3YWh2YlJPRDRWdHJ2ZVhRN09yYkljN0kxYnBJRG5LUQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-18T07:15:00+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 35,
+      "tags": [
+        "治理"
+      ],
+      "summary": "外交部部长助理刘彬出席人工智能全球治理高级别会议 mfa.gov.cn"
+    },
+    {
+      "title": "DeepSeek密集融资估值4800亿 IPO箭在弦上 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT0l2UTBDazVoanFQLTlpM3dBSi1zOWNDN2Y3MV9kTWlhTHRzY3lpSy1LeGdDRi1XdEVLQ0NpanBHakhqNTM5SnhlMGZEai1fdzlCV3kxRWN4N21tdVZlWkdwTDN1d2Z0a000VjRodHZqQWVfSThCY3BvREdhTWQ1Nk1mMk5BZXpFaExLTw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T10:49:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 35,
+      "tags": [
+        "ipo",
+        "融资",
+        "估值"
+      ],
+      "summary": "DeepSeek密集融资估值4800亿 IPO箭在弦上 21财经"
+    },
+    {
+      "title": "国产大模型Kimi K3能自主设计AI芯片：45nm工艺 100Mhz频率 - 驱动之家",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1aY3lKTUFnZ3hUM3dDcXNVVGtJMmVaOElSdTFxRTVzMVQzMjV4U0l2ZkF2WmJuUUVnbExDX2x0R2oxcjluYzdMOEx1SnVPSjlSOElOdlY2MkM?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T04:58:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "模型",
+        "芯片",
+        "大模型"
+      ],
+      "summary": "国产大模型Kimi K3能自主设计AI芯片：45nm工艺 100Mhz频率 驱动之家"
+    },
+    {
+      "title": "国产大模型预训练“换芯” 英伟达的不可替代性正在松动？ - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uQ05GM2EzQm1vMzRSSjA1cjRqUVk1RUk0N1JxWjVzSnNzRUJJVi1VSzktRWVhbWEzbzB4QUV1cnpmZUtDTnF1RUFjSXAwVFROLXNPR1p3d1lpSVFqb211M0tWQmRidw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-13T09:44:17+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "模型",
+        "训练",
+        "大模型"
+      ],
+      "summary": "国产大模型预训练“换芯” 英伟达的不可替代性正在松动？ 东方财富"
     },
     {
       "title": "Separating signal from noise in coding evaluations",
@@ -3250,6 +5179,22 @@
       "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases."
     },
     {
+      "title": "200+AI专家集结北京，共议世界模型、智能体、具身智能等话题，这届智源大会释放什么信号？_投促活动 - 北京市投资促进服务中心",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9NZkl5YmRNYmJpcUJJcjE1QURjZUw4R1RKZDMtMWxSZERZRm95S0FxUnlJR2RUQm9WR0x2YUtLaWJZZGM4dmhKaU9Uc2VUaGVjY1RkbGp0R25reWJjczI0VHlJbnpocE40bUFtbDNlYjFERy1mU3ktMQ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-16T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "投资",
+        "模型",
+        "智能体"
+      ],
+      "summary": "200+AI专家集结北京，共议世界模型、智能体、具身智能等话题，这届智源大会释放什么信号？_投促活动 北京市投资促进服务中心"
+    },
+    {
       "title": "New OpenAI Academy courses for the next era of work",
       "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "source": "OpenAI News",
@@ -3282,6 +5227,79 @@
       "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows."
     },
     {
+      "title": "超越OpenAI！Anthropic估值逼近万亿美元，成全球最有价值AI创企 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtemRGWThvdWk0SVMyT1daX3pHWG5TaURXWlJLZ1VIb1ZsOC1VUDVueHM2bFZHdVNkRzVxTzZyT2k5MTNtb0dhR0VCbkZnUlRaalhxbm1BZDhrZTlu?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-29T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 35,
+      "tags": [
+        "估值"
+      ],
+      "summary": "超越OpenAI！Anthropic估值逼近万亿美元，成全球最有价值AI创企 证券时报"
+    },
+    {
+      "title": "北京发布国内首个开源开放的AI智能体共性基础设施“灵玑OS” - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yVy0yTTVqLW15TS1KR1lZYzBoTl80SHR1NnlVWDB3WUt6ZFRELTh2NVZaUnBLdnFXTC1iakNNOUp3ZE1kaXFCMTIxc2lFVU5hRGtqdXYxWnE0eDh5dXk2aW53?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-15T20:55:20+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "开源",
+        "智能体",
+        "发布"
+      ],
+      "summary": "北京发布国内首个开源开放的AI智能体共性基础设施“灵玑OS” 新京报"
+    },
+    {
+      "title": "AI竞争格局生变！Anthropic最新估值超越OpenAI 年化收入半年内涨4倍 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VM3lZMHdlMGtwZENRODh1M0QxVzd6SFJSQ3IwVXplR1VDenFKRlBocF9oTTN4ckpSLXYwQ3RIM240ZU02VDFiZA?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-15T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 35,
+      "tags": [
+        "估值"
+      ],
+      "summary": "AI竞争格局生变！Anthropic最新估值超越OpenAI 年化收入半年内涨4倍 财联社"
+    },
+    {
+      "title": "国泰海通郁伟君：为AI产业企业提供覆盖“初创—成长—成熟”全生命周期综合金融服务 - 新华网上海频道",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CTy1lNXZfalVQQndCQ0xXMTZlVXdHZFZEVG53b0p0dDhSM2Q0bVZUNk10UHhVck14ODBTb3NlNUVNQ1hLdElEbDExMWlPaklLTzZmYnl2LUFROGdoRnZGaHppQUFyUExfd2x6WGdPaU9Rcm9i?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-19T04:33:03+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 34,
+      "tags": [
+        "产业"
+      ],
+      "summary": "国泰海通郁伟君：为AI产业企业提供覆盖“初创—成长—成熟”全生命周期综合金融服务 新华网上海频道"
+    },
+    {
+      "title": "平头哥开源AI软件栈T-Head SAIL 已全面兼容主流AI生态 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1SLWlvR0ZWUUNPZlF4M3JqYjNlNGdfNTZpTnliQk15cWFDOVJWaU5NZG00OWxYNzhTTE1Yd2dhQWN1Q3l0M3ViUDdxdkZHcXRZdEYtRkcxQnJmOUFfMmtUVA?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-18T18:26:26+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 34,
+      "tags": [
+        "开源",
+        "生态"
+      ],
+      "summary": "平头哥开源AI软件栈T-Head SAIL 已全面兼容主流AI生态 东方财富"
+    },
+    {
       "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
       "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
       "source": "TechCrunch AI",
@@ -3289,7 +5307,7 @@
       "published_at": "2026-07-19T14:52:08+00:00",
       "language": "en",
       "category": "产业动态",
-      "relevance_score": 34,
+      "relevance_score": 33,
       "tags": [],
       "summary": "\"Everybody knows the Greeks are inside.\""
     },
@@ -3306,6 +5324,21 @@
       "summary": "Current AI, a nonprofit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat, and more."
     },
     {
+      "title": "投资文件显示 DeepSeek 估值达 520 亿美元 - IDNFinancials.com",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPR2tXOXJnTnZMM01CWHMzQnNFSDZ0WEZSTTVDdWE2Z2U3RUhiUTUwU09zaWJSZGhYV1d5QTdwM2dVdWJXUmFYcWx2R2Z6akVIemJ3dC1VTlhvbE9Ja0xQYzhnRXZNOFd1UGE4ZUtKb1FFYlhMbUxxbVUxM2tjc3VuYUU5VzNNanlQSTdsSzhwTVRwWndxeDVaNTVxMlRsXzVDRDZkQ1NOZU1kTXBjX3BjUDFUdmJXXzY5MEFDQldQQ0o2T1BtTUFka1V2U0NSY0VIeWllemZ0TUlPa3piUGF1TDVySFRZSnBodTZnQU01UGNuODZIbXNqQ0cyRQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T03:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "估值",
+        "投资"
+      ],
+      "summary": "投资文件显示 DeepSeek 估值达 520 亿美元 IDNFinancials.com"
+    },
+    {
       "title": "How Cars24 scales conversations and builds faster with OpenAI",
       "url": "https://openai.com/index/cars24",
       "source": "OpenAI News",
@@ -3319,6 +5352,66 @@
         "company"
       ],
       "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company."
+    },
+    {
+      "title": "DeepSeek或冲刺IPO 估值超4800亿元 梁文锋成AI圈新首富 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ya0lwY2xqRzVKLUNQajA5YlRRaGZ6ckRKcnJUaGZSbHBvVGhKVkVDcE5UclZra25rZW9qV081ejJmNi1BTktJYkVhOUROOV9NcWc2a1Vic251QVYzSzhKRw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T10:54:46+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "ipo",
+        "估值"
+      ],
+      "summary": "DeepSeek或冲刺IPO 估值超4800亿元 梁文锋成AI圈新首富 东方财富"
+    },
+    {
+      "title": "中兴努比亚AI智能体手机将搭载豆包手机助手 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IeEZtSTR2cU9sdWJHVG5WUC1tTW9qLVdac0dKVGdPZklXSWxENFUzZFJySy1YOWVzRmFvQjZiV1RHa2RkX0pjV1VCVUxqb1pnLXdQZVZNb0NYOElzNVJCcA?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T09:20:06+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "智能体",
+        "助手"
+      ],
+      "summary": "中兴努比亚AI智能体手机将搭载豆包手机助手 东方财富"
+    },
+    {
+      "title": "DeepSeek冲刺IPO，“AI四小强”的估值都要重算了 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE52Ym9YQ19xNU5FanZOaFFPWC1jYWJGMDZtdkdUcmpIUUxZdXhFRDlOT1V4LTRrQnk2R3hMMkUwc1RfMy1ZVFJaNjVFdTBpUQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-14T18:11:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "ipo",
+        "估值"
+      ],
+      "summary": "DeepSeek冲刺IPO，“AI四小强”的估值都要重算了 36 Kr"
+    },
+    {
+      "title": "DeepSeek再启融资，710亿美元估值背后，AI竞争已经变了 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBQUGxWd3hUWTk4RGo0VXlkZ0tzd0oxUUhNYVJrRHBoaTNJdnRCcGJYWVc4QmJEaDQ2M0pNUktfQVFSNHJLUWJyQ0RfXzV1dw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-14T12:33:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "DeepSeek再启融资，710亿美元估值背后，AI竞争已经变了 36 Kr"
     },
     {
       "title": "How to manage AI investments in the agentic era",
@@ -3338,6 +5431,51 @@
       "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows."
     },
     {
+      "title": "手机成大模型竞争新赛场 AI“超级载体”利好哪些硬件环节？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0zV1dyS3NhZUZ4ZWQzQUI1R3pSZ3ZsZ2lWVWxaUEkwTFc5REc4SG5nMFEwMTc2T2l6b01WakFya015X0tHTWdGVw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-12T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "手机成大模型竞争新赛场 AI“超级载体”利好哪些硬件环节？ 财联社"
+    },
+    {
+      "title": "手机成大模型竞争新赛场 AI“超级载体”利好哪些硬件环节？ - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBVTUZVOHRzWjdEMHBnX2NLRzBzVzBHbm9RLU11Nm11MGRRZXhadGhUSzNSM2QyR29ITUdQQWlwbXQ4Vy1oNlE?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-11T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "手机成大模型竞争新赛场 AI“超级载体”利好哪些硬件环节？ 财联社"
+    },
+    {
+      "title": "高盛深度报告：谁将成为中国AI大模型行业的长期赢家？ - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CRVRMUTJiQmpCNW1Nc1RUTzdVU0hQSy1qdTZZQ3J1TnVqSGJ5SzFIOXF0MU05Vl9kT19zeHFYS2FjQkpiQnNFVmVPeUhNSmRxLUJJ?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-10T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "高盛深度报告：谁将成为中国AI大模型行业的长期赢家？ 华尔街见闻"
+    },
+    {
       "title": "ChatGPT is now a partner for your most ambitious work",
       "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
       "source": "OpenAI News",
@@ -3353,6 +5491,38 @@
         "partner"
       ],
       "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work."
+    },
+    {
+      "title": "没有产品、没有营收，这家AI公司如何做到51亿美元估值？ - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QM1NHR180YmFpaFh6QXVoZUtQT1F3WTJUTDFDTDFwNTEyZ0E2bjRzWGdqUmdXUUpKNXI5LXJWVWlRMDhyYkQ2M0ZIOUNWZw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-05T21:40:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "估值",
+        "营收",
+        "产品",
+        "公司"
+      ],
+      "summary": "没有产品、没有营收，这家AI公司如何做到51亿美元估值？ 36 Kr"
+    },
+    {
+      "title": "Vercel 推出开源 AI 智能体开发框架 Eve - Infoq.cn",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PV3pFQXh6enlxMHlGc2FJQkhod3VmOU5OTi1OUWRPTi1sTUZPSjNlQ3ZmaGYwQkVLZnJUbXJjMFFuYldwX2M2Y0JQRVJtQXhndUpKN3JzTm1pRDJQb0E?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-01T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "开源",
+        "智能体"
+      ],
+      "summary": "Vercel 推出开源 AI 智能体开发框架 Eve Infoq.cn"
     },
     {
       "title": "Previewing GPT-5.6 Sol: a next-generation model",
@@ -3417,6 +5587,36 @@
       "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research."
     },
     {
+      "title": "DeepSeek融资超74亿美元，估值在中国AI初创企业中最高 - 华尔街日报中文网",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaVRJRmZQSTFJYWlBRXQyemh4cXVOVGozcUQwd1ZHR0pMVV9MYnViMEVtMVdjY3Z3aWxlbFEwUFVTSlR6QlNiallOeUtPbnFGME92REJxR1d1UHRiejNuVG5BMFRkbHdLZzE1U0ZoUVUzT0xJbDdFdW9UVS1VUnRwN0l1el9IbG9USFFBNVF0Qkc2Y0dwbDVWQkF3MG45VzQ0NzJZdHppSU0zaURxLXJocFJnOU4xOGROQUE?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-17T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "DeepSeek融资超74亿美元，估值在中国AI初创企业中最高 华尔街日报中文网"
+    },
+    {
+      "title": "据报DeepSeek已完成逾70亿美元融资 估值超500亿美元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfWVAyemhsUnBxYWVOOHBHZDd3NkhPY2hYUUZ6Y0ZPYnh0RUpYNjgxYjd1NFBaOG1HMzc4TWQtYlBIM1hydXU2V0gxNW5qTTdFal9fakVIOUpxdlc1azhlVk1n?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-16T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "据报DeepSeek已完成逾70亿美元融资 估值超500亿美元 观点网"
+    },
+    {
       "title": "BBVA puts AI at the core of banking with OpenAI",
       "url": "https://openai.com/index/bbva",
       "source": "OpenAI News",
@@ -3447,6 +5647,36 @@
       "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
     },
     {
+      "title": "估值4000亿、腾讯与宁德时代入局？DeepSeek被曝开启中国AI最大规模融资 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NdHE1OUJ2b29KSUxiOXliUnNxVEozWVh1SXFWQ2gtM19qcmM4T3luRlNuNWNwdlJDQUxMSGhVOTZoQWNnQl9ZTw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-03T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "估值4000亿、腾讯与宁德时代入局？DeepSeek被曝开启中国AI最大规模融资 财联社"
+    },
+    {
+      "title": "AI赋能 | “一站式AI智能体服务门户”中国农业大学智能体广场正式上线 - 中国农业大学新闻网",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lWU50Z21ldm5GeE1acTc2RzFIX1Vob2JwTU1FRWtUWVpiTFVKa2ZicHQ2V3BvWVd1MnpkNTJSaFd0M0pHSnY1Q0VDcUt0Rk43RkdrbjFnXzduTXdHaXVUeXBjRnpaazJSWVpJYzNyNUVwTEF3dGpj?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "智能体",
+        "上线"
+      ],
+      "summary": "AI赋能 | “一站式AI智能体服务门户”中国农业大学智能体广场正式上线 中国农业大学新闻网"
+    },
+    {
       "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
       "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
       "source": "Hugging Face Blog",
@@ -3460,6 +5690,66 @@
         "enterprise"
       ],
       "summary": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic"
+    },
+    {
+      "title": "消息指国家大基金领投DeepSeek首轮融资 投前估值450亿美元 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90UjNHWlhzaHpBWlBvSENnTlpyTHgycjl6YUgxV25lZzRFcDd3SFozZWJpU21fZWphUnAtbWF5S0dNWFdDU0RkanpKTFpWX1VFYi1xVUhHTkQ1Mmdhdk5jQTVR?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-28T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "消息指国家大基金领投DeepSeek首轮融资 投前估值450亿美元 观点网"
+    },
+    {
+      "title": "国产大模型“集体”更新后能力有多强？记者实测 - itaiwannews.cn",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONUZ5anJURXh4Mzl2c1BSMG13TDdtcDU1VnNZQkVxektSTGZ6YTVacDNWeER2bTJVWjhudUE2TGswVURKUWxsSlBtM2t4WVFMUXZEWkI5NWN3ZUFmV2MtZ1djN042dXhkTGRFQnlLUTM3di1lS3hDZFU0OG4yb25xMDZnd1lqdw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-18T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "模型",
+        "大模型"
+      ],
+      "summary": "国产大模型“集体”更新后能力有多强？记者实测 itaiwannews.cn"
+    },
+    {
+      "title": "中国国家基金拟投资DeepSeek，AI明星冲刺500亿美元估值 - 华尔街日报中文网",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQng2ZjRsZXR6XzFmWnVXaHRtSnM1Z19JbFNxSDNmZnppQ2lpUVVRVURSdFlZWmY5b05MajJxT3UyUmVsWkxjY1VBdVByR0s5cU04VHkxUjNmeGJrOE1RQkp1OWJDMmdhWXVLVVY5ZDhJVzVGajcybmN4cVlheWYtRUJiN19tdXp2NWs2cGZsVjlKQQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-07T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "估值",
+        "投资"
+      ],
+      "summary": "中国国家基金拟投资DeepSeek，AI明星冲刺500亿美元估值 华尔街日报中文网"
+    },
+    {
+      "title": "直击WAIC｜平头哥开源真武AI芯片底层软件SAIL - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sOGd4Sm02eUYyaEhFZkJiTzNxeElnM3JER0YzVG41cW5ZNGkyQjRrVG93b0NaT09Xc2U0ZTZWaFp5UlhJUTNLUGktSjlrcHJyZER6YzJ4NXNfMTdkQVJSa3NvT1I?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-18T06:22:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 31,
+      "tags": [
+        "开源",
+        "芯片"
+      ],
+      "summary": "直击WAIC｜平头哥开源真武AI芯片底层软件SAIL 新京报"
     },
     {
       "title": "Neil Rimer thinks the AI money is coming back out",
@@ -3477,6 +5767,34 @@
       "summary": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily."
     },
     {
+      "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVpYbldzanFQQk0ydFZOLWpZUG1QZ0RoUEFKaHROdDN0YjVyakNGTkhjSDMwR0FEcUpucGwza0JfOFJtLTNLaS1BMkc5RVhxaGUwQ3FyS1Z0RldFQ0tTeUl4eXh0czRERXpiQTN0SS1HNFhtWEU2cUhWSTFTM1MyU2FOTU1kcm11d1VOcEVR?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T18:01:46+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 31,
+      "tags": [
+        "治理"
+      ],
+      "summary": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 新华网"
+    },
+    {
+      "title": "近镜头｜共奏人工智能发展全球合作的交响 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNamVQMDloVTZDaHJjOW5memIwbWVTclRPcTdjMGxpZFlNcUM3d1dwTVRubG1GQVJrUGpoc3ppbTI2b2NjQUJDanBrRHlIMmhJMk4xUjhYYlVuQzdWNEZQbDVMYlM3UjVYbk16aHBZTkI0YldHeEZiS0pidzVaeWdKMU5kNC03VjFuNWxwVzlB?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T16:05:29+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 31,
+      "tags": [
+        "合作"
+      ],
+      "summary": "近镜头｜共奏人工智能发展全球合作的交响 新华网"
+    },
+    {
       "title": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
       "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
       "source": "TechCrunch AI",
@@ -3484,7 +5802,7 @@
       "published_at": "2026-07-17T22:55:09+00:00",
       "language": "en",
       "category": "技术研究",
-      "relevance_score": 30,
+      "relevance_score": 29,
       "tags": [
         "agent",
         "act"
@@ -3536,6 +5854,76 @@
       "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
     },
     {
+      "title": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） - 外交部驻港公署",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iNEJ4OUpLbkdXZTBEcFRzMGVVaUZIdHc5ekY4ejVxWDYyRVBlUlRBbWYwQ0ZUdDEtNlI4NVZZX1FoLWNUM045aEFqTkx1Nkduc2lDWTZ6QkFEV3RhdndFX0xfTnd1ZW5kRVlqaTh1Q0lucW8?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T04:56:00+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 29,
+      "tags": [
+        "治理"
+      ],
+      "summary": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） 外交部驻港公署"
+    },
+    {
+      "title": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRWNKMkZoYjZ5WmxTbTYzY0ZBY1ZVVlAwRlVZYkw5b0pNeVhxSW0tb2JsZFY1YkFuQjlhS3lUYUdSR1ZWRnNFYUMzd3pEVGtZTWc1N3M0ZElrVmVOU3dsdjlaam9FMEVVMEJJaG10TldPTFh3c2p4NE96ZUdwb0VZTERfM3VTSVU0Z0FzUHpB?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T04:52:18+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 29,
+      "tags": [
+        "治理"
+      ],
+      "summary": "习近平在2026世界人工智能大会暨人工智能全球治理高级别会议开幕式上的主旨讲话（全文） 新华网"
+    },
+    {
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 常驻联合国代表团",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WWWswUFBySmYwcTI2NzV3LV9sSkRpazM0d25NTGliNjMtT3JEU1JfSUUwSU5iZDJBeUhyOExlU2puNjlLMkxScVI2ZTF1b0ZCSnZUSHlXOHdxNExVRTFlOVgxTVdhTm5BbHVlZGlWSXQ3MGZX?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T04:50:00+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 29,
+      "tags": [
+        "治理"
+      ],
+      "summary": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 常驻联合国代表团"
+    },
+    {
+      "title": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbTVsTy02RWhGU3BsWVpvUDNoOVZIX0ZQcmkxTTZ3Y2hNR0lfbjgtdWNuMGJhbVl5WGpNM29zaERYaFRGc2RDRTVPQ0JrUDBrRmhWdmpjbTZGWjhCdDR0T2hfSVdJRE5yMmM0aXFCWk1DMi1SRVRYRE4yNVIyeXFJM3VyQXFla3RPQy11dURR?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T04:47:56+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 29,
+      "tags": [
+        "治理"
+      ],
+      "summary": "习近平出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话 新华网"
+    },
+    {
+      "title": "三万条聊天记录，养不活一个AI智能体 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxNTm1WNzZEX1RoU0x6bTg1SU8yQlhRWEpvMDVQTDFDQnQtOXZOaFdfZlNwWm5uNjRGQTJvY19vbS1ZV1lnY1U0WWUtd3U2cldVdFFjZU01OFJfRnAtUThUZUxOazVwZzZDdVNIdmcwdGJsSDd3cExQNFYzYkVjcVdaRkFFQjVRaFZTS3FvRHZRakV1Mmg1SG9rR0R5T2Q0OG1wOV84Yll6RlFTSkhvNmJaZk5rcWNRWThSM3RlNXF1eTl1aFQ1a0dkN1Y2ZmUxSV82bEFsZzdhLVZKT2lRd1FxUy1ZSUQtUFEyRFUzZ0VQZWYzb2NDWGdHOFQzRThLMlhxN2ZJdk40bDdyaVJIR2MxbDk5alFHa1lHWGVXRFA2Z2dQWV9YaWEwQ3V6XzJWdHhvSGNGN0VPdjJYMHVIb2FtVU92VU1LZEJOdkJwcXBHUS16NUFjbFoyc25XODZHY1hlLWpXOFZyYjk2NmI1R0JHNlF4dzFrQUVlbnhvdnlZdEMyakpNV19zOVFvalN5UExYUEQ0Vkd3NHpEVG9RSVkyRTBOYmUtTGltUnVXVDlnNlU5QzZYWHUzckp0UC05QVlqcEYxbE9mNE1ENUd2MXpMeHk0SzVGM3dBd2JrUjBVcFZGVmxRU2FrT25MT0sxaW9ZVFk0a09kNG1jSTRrcTlIS2pYeVdqUl9yS1ZIdUxya2R6RHh1SmltR0l1ekc1Zk1aTmNHWmZiUFRYLU5aQzVDdnJEeGZaZVlVN19aNm1zWllQSlhXX0FrRVFyVDZVUVdUdmtjbHJjcHc3LXN2V1Q3MEgwVHVoeG1kaXgzNF9BVkdoT1k?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-16T02:22:38+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "智能体"
+      ],
+      "summary": "三万条聊天记录，养不活一个AI智能体 新浪财经"
+    },
+    {
       "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
       "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
       "source": "OpenAI News",
@@ -3550,6 +5938,38 @@
       "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness."
     },
     {
+      "title": "半年融资超50亿，估值突破200亿，中国最大端侧模型独角兽诞生 - 财富号",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YekxHNFdLazY5cVA4QjVqRFB0eENXdlBNd296eG9SNXBYcjZldlV1Q0tKb0ZlbmVYbVRkcDU4Mjd1QzcycHpoMmQxbXQ3N2JOOGpkNl9sNXk3WS0xM3ladXlkMVJhNGh3Yk9r?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T07:38:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "融资",
+        "估值",
+        "模型"
+      ],
+      "summary": "半年融资超50亿，估值突破200亿，中国最大端侧模型独角兽诞生 财富号"
+    },
+    {
+      "title": "首发| 面壁智能融资超50亿，估值超200亿 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iQXFIb0FaaFhMQjBhR0x1bDZic1ByVVN5WmtfOEJ4bG44QlVkMWtPeGI0bnVCb1NRMTdJQTJIZlAwdXR4bXVsTS11T1VxYi01Um9QWEFR?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T00:59:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "融资",
+        "估值",
+        "投资"
+      ],
+      "summary": "首发| 面壁智能融资超50亿，估值超200亿 投资界"
+    },
+    {
       "title": "Helping K–12 educators build practical AI skills",
       "url": "https://openai.com/index/k-12-educators-practical-skills",
       "source": "OpenAI News",
@@ -3562,6 +5982,36 @@
         "act"
       ],
       "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom."
+    },
+    {
+      "title": "融资68亿！AI芯片独角兽估值冲上740亿 - 智东西",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5keVhLRkNLZzM3b2ttUm5zUG1SN1NCYWdwTDJaNXlNd0RfbVM3NGdFMUE2Y2UtSlN4ZlRSbkFrdWMzTUtGM0dESQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-08T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "融资",
+        "估值",
+        "芯片"
+      ],
+      "summary": "融资68亿！AI芯片独角兽估值冲上740亿 智东西"
+    },
+    {
+      "title": "传DeepSeek要自研AI芯片，且立项已一年 - 观察者",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xUlVtMXBGZzFnX1F2VWNsOXJ5ckVzNVcwWld3eDZiamVxNU9NNUpmZUJvOTdWUGQzSmd6QzRyeGhrTkQ0WW9sLW5vRU45SWkyU2wteTNJRmltUFNfQ18yVjNKclM?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-08T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "芯片"
+      ],
+      "summary": "传DeepSeek要自研AI芯片，且立项已一年 观察者"
     },
     {
       "title": "Native-speed vLLM transformers modeling backend",
@@ -3590,6 +6040,22 @@
         "enterprise"
       ],
       "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
+    },
+    {
+      "title": "0营收，100亿估值：大厂AI高管创业，正在被投资人疯抢 - 风闻",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55WllFaGt5LVNLRVNidXVkRWhzYUJzNUYydWZRZ0NPWGNQWHFaRC11bDRjZldYUlB2NmtGMVFsRlFpQlY3cnlpZEYySDljUDFVNTBxMGFGZzM1TjQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-01T09:15:12+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "估值",
+        "投资",
+        "营收"
+      ],
+      "summary": "0营收，100亿估值：大厂AI高管创业，正在被投资人疯抢 风闻"
     },
     {
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -3652,6 +6118,38 @@
         "app"
       ],
       "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes."
+    },
+    {
+      "title": "自变量机器人C轮融资后估值超200亿 国家AI产投基金、红杉中国等押注 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmOEVBX1c0X1lMRkswOVh4amFWLWtta1hxOGUtNGJnMlhqLUlUd1cxallURi1iSHd0X0tNVHVHbFN4VVYtTGpfQkktcmRmdw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-29T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "融资",
+        "估值",
+        "机器人"
+      ],
+      "summary": "自变量机器人C轮融资后估值超200亿 国家AI产投基金、红杉中国等押注 观点网"
+    },
+    {
+      "title": "openKylin多项成果发布，全景展示AI开源生态布局 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdDhCaExwYUNsVFRrSlVUbjhXUExaeE0tMWk0dU9xdnNDQTIwdnJxb2R3Y1JscDJIMFlSMkhhMnBRWXRjLUc1QjUyQW45TElqVmJzbWFFM3htdXN5TXJxWlV3VHFhZzI5c3ZJdXdrU2xiOWpMa0t3dWtWQ1B1dWRfdHJ3?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-25T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "开源",
+        "发布",
+        "生态"
+      ],
+      "summary": "openKylin多项成果发布，全景展示AI开源生态布局 新华网"
     },
     {
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
@@ -3754,6 +6252,38 @@
       "summary": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI"
     },
     {
+      "title": "投前估值180亿美元 可灵AI被曝启动Pre-IPO轮融资 锚定2027年港股申报 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1jQ0FaMjBaai1FVllJb2IzZHNBcjdSX1Qzck9IbHJid1R3WXVtVG56YWhsMVlLRnJfVUJTc3g3S1pNcWxtU1NNTQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-03T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "ipo",
+        "融资",
+        "估值"
+      ],
+      "summary": "投前估值180亿美元 可灵AI被曝启动Pre-IPO轮融资 锚定2027年港股申报 财联社"
+    },
+    {
+      "title": "快手旗下可灵AI据悉正进行Pre-IPO轮融资 投前估值180亿美元 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56UDNoTEF0TlU3dGY5cGhVcHlYbUY4SjcwTkFoN2toUnVfem5RYnVfNGpNeHJLNzRKVzdncVBXdUw1bC1jN1EyN29WWUNyQ180ZS1aY1lfOVcyR3VlUDZlQQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-03T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "ipo",
+        "融资",
+        "估值"
+      ],
+      "summary": "快手旗下可灵AI据悉正进行Pre-IPO轮融资 投前估值180亿美元 东方财富"
+    },
+    {
       "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
       "source": "Google AI Blog",
@@ -3768,6 +6298,94 @@
       "summary": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
     },
     {
+      "title": "存储三巨头参投 全球AI公司估值天花板触达万亿美金 纯烧钱项目正遭资本摒弃 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5zb3htM1B0LWc2NTdSbUNTUFB6eFpMeXZheGpqM0RxakpNakI4bVFlc2dkMWx5XzNDTGdnczBvcjNRT21LUWpmNw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-29T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "估值",
+        "资本",
+        "公司"
+      ],
+      "summary": "存储三巨头参投 全球AI公司估值天花板触达万亿美金 纯烧钱项目正遭资本摒弃 财联社"
+    },
+    {
+      "title": "登顶全球最值钱AI创企！Anthropic官宣估值升至9650亿美元 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9DT3lOWlVtdmt4NmM5ZVh1X1V5OE00emFjREYzVUFVY0pLVzlUVURCdnJGOTFGVXhTd08yM0U0Z1gzbkFWbUZiSQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-29T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "估值"
+      ],
+      "summary": "登顶全球最值钱AI创企！Anthropic官宣估值升至9650亿美元 财联社"
+    },
+    {
+      "title": "Warp 的重磅布局：依托 GPT-5.5 探索开源构建新模式 - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XTVFRSEZzeWVfeGFCczJfTmdha3JRMlN2bWMxdTROSmZYamR1LWozV1BOdVhVb1huRHlaUFZGQnR3ZVQ2NTBPd3ZQUElvUVBfNFBn?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-27T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "开源"
+      ],
+      "summary": "Warp 的重磅布局：依托 GPT-5.5 探索开源构建新模式 OpenAI"
+    },
+    {
+      "title": "【财经面对面】以智能体破局，解锁AI生产力新范式——专访360集团创始人周鸿祎- 中国金融信息网 - 中国金融信息网",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFeG4wTDhLb2tMX2dIR1FRS1Jtak5rSEtBZ3hQWXJaNUdvSzc0UDNvS00xaktkbWU5TE5TWURjU0tSVVIxVWFpUXUxbkRGWkNpbnFNZWdrU2ljNHJ2b2tUSkZFazgwSllTMXc?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-23T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "智能体"
+      ],
+      "summary": "【财经面对面】以智能体破局，解锁AI生产力新范式——专访360集团创始人周鸿祎- 中国金融信息网 中国金融信息网"
+    },
+    {
+      "title": "快手可灵被传将以200亿美元估值融资 谋求“单飞”上市 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoaTBjR05iYzJWbjhxajZrR04ya1RsQXhlbEVlOVJOR3d5UXpMVGlhU2VEcVZyZHR6Zlk1RW5uc09YdGtld25rRg?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "融资",
+        "估值",
+        "上市"
+      ],
+      "summary": "快手可灵被传将以200亿美元估值融资 谋求“单飞”上市 财联社"
+    },
+    {
+      "title": "智能体：把能力转化为生产力 - 新华网",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tTnhySEc3bzNLT3hwaTlKYTNHVmlOZWVwNGZ3c0dEY3BOc2NYMkdNeDlEUHh4TjU0cDlGUzNta3FsbUFJbkRPWWh1cVZIcWFQQ0MteGlQZjd3ejBDTk5YQTdtSlBCRm9EMGdRS0g4aXRFcW00Rk9MaElrdFNXdw?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-04-02T07:00:00+00:00",
+      "language": "zh",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "智能体"
+      ],
+      "summary": "智能体：把能力转化为生产力 新华网"
+    },
+    {
       "title": "The Zoom hack that says, ‘Don’t record me’",
       "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
       "source": "TechCrunch AI",
@@ -3780,6 +6398,21 @@
         "act"
       ],
       "summary": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?"
+    },
+    {
+      "title": "半年累计融资超50亿、估值破200亿，这家清华系的AI独角兽有什么不同？ - 福布斯中国",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQRy1kOXc1eVVucDBGQXZKU3hOQUFLQmw2YmpZMUFpbXJjZEc2b3pWLWlCUnpUY2NxeUktYnBfbW9QSHA0M2w2Ty1jVkhfX0lHRGxsNGZybFVoRUpCSlQ3dlY0WUJVMlc5Vk9Gck13M1g?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T06:39:22+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "半年累计融资超50亿、估值破200亿，这家清华系的AI独角兽有什么不同？ 福布斯中国"
     },
     {
       "title": "Connect more of your apps to Search",
@@ -3807,6 +6440,18 @@
       "relevance_score": 26,
       "tags": [],
       "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
+    },
+    {
+      "title": "人工智能是否存在泡沫？通过 5个思路寻找答案| 摩根大通私人银行亚洲 - J.P. Morgan Private Bank",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR2taUVBMel9CbVZmOWI5c3drU0lHdXVEZHhfSkdraTZPV0licGdabDZBWmtDUklCbXgtN2NCeFJXSU9OQ1Z6eklSV1E0cmNvaHg2MDJBbzR2Y3g2ZjJibER2c20zMmxyczJQMEdmeEhIUVpZazlfY0VnZDZJa0NOT3dBVDM3TEthb3pIcHRLeWNJelQzcVB1djRGYkwxOXdsV2lIeWU3MXhWUGF3YlJveFhzNzM3bEYwSzY1a0ZtLVh4WmhxUDNkSE9sREdQdw?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-15T07:00:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "人工智能是否存在泡沫？通过 5个思路寻找答案| 摩根大通私人银行亚洲 J.P. Morgan Private Bank"
     },
     {
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -3848,6 +6493,21 @@
       "summary": "Details about the OpenAI Bio Bounty program"
     },
     {
+      "title": "可灵立下的IPO军令状，藏着资本对AI视频赛道的耐心 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2Y0dZRnZ4ejFIT0N4bmVLZmxYOVA4M1RIVGZSVVY2bzU2cGV2RDExbE5NbTVWdVFDcXNBV3lpMTU3dkpEOVQwOUJOM2ctR3RvQkFscGhFWmNoR094?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-08T00:09:53+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "ipo",
+        "资本"
+      ],
+      "summary": "可灵立下的IPO军令状，藏着资本对AI视频赛道的耐心 证券时报"
+    },
+    {
       "title": "Introducing GPT-Live",
       "url": "https://openai.com/index/introducing-gpt-live",
       "source": "OpenAI News",
@@ -3863,6 +6523,66 @@
       "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
     },
     {
+      "title": "快手可灵AI估值150亿美元融资 腾讯、阿里云、百度参投 - 财新",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyNl9VSXFGeEpUTWpPLTIwZVFNWmdiQVVzQTAwX3lGek03anp5NkhNMzZXOW83MjNRdlB2c19vTVhWSXZUaDl0NVFSMkZmQXRPWm5sbE54MjFFZzVqZFNsTTd2M3g?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "快手可灵AI估值150亿美元融资 腾讯、阿里云、百度参投 财新"
+    },
+    {
+      "title": "可灵AI落地近30亿美元融资 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5faDVoUVY3bW5aUDZlNW5JanZ4QnZLeGdwdnFoeHNSWFNNcVFaODJpaGk0bzFpZFJ0REl3STh6eThsdVplVUxvRzdraG1DZzk5blUzbndYWW1tUVlWbUZaTENR?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-03T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "融资",
+        "落地"
+      ],
+      "summary": "可灵AI落地近30亿美元融资 新京报"
+    },
+    {
+      "title": "估值180亿美元！快手可灵AI融资30亿美元，腾讯阿里等加持 - Jiemian.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxRjNxNzZEMF9zLWdUM3U1eDE4T016WDNMNDhDa0w0R194akNHaFFlTG1ZZ1dwek1RUkFqcXVadjJXLS1zWDVpUnNUNEhBNERDZUxwODJn?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-03T01:15:27+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "估值180亿美元！快手可灵AI融资30亿美元，腾讯阿里等加持 Jiemian.com"
+    },
+    {
+      "title": "AI芯片初创Etched估值达50亿美元 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPODIxMUZ0a0o4NFloX0xjaFE0bnhtUlFTTW00Qm9vOEVSRWp0TU9IVW41SlExQWs1SnhNTjllVm5jX0N2eDVMaGw1ckJzZGNPOXdGN1p1R01LcXFsallZWGZBaWR4RXd5UHhyNDRfcmdCN24xLXJ5bl81SXhTVUdab2MxcXYwajZDZGxpOQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-01T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "估值",
+        "芯片"
+      ],
+      "summary": "AI芯片初创Etched估值达50亿美元 21财经"
+    },
+    {
       "title": "How ChatGPT adoption has expanded",
       "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
       "source": "OpenAI News",
@@ -3873,6 +6593,21 @@
       "relevance_score": 26,
       "tags": [],
       "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
+    },
+    {
+      "title": "这家AI视频初创企业洽谈融资，估值拟增至4倍至50亿美元 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU29vc25SY1UxT1phMzVPd3JHR20wLWI5MncwQ1k3WHZ2RXNUOF9aN1h1YlBla21GV1l5UnlFZTRzdVV2TlI3dHNiNHZ6dHhNSFA2ZUJTRGxUVlBUSTA5dExjeU5uZGVSYnYtZ2ZKM1EyeDZiZEZTTlhMVnJQZGppdlI1a2dnczI1TmphTzJKUkJiVE16QzdqYjhiNml6OWRzZlV4V3lERDctd0djeGVOeTFPcFNLLXRwYlJ6RkhyUGItaFlGNk1sa2VsVWw0Um9vRk9NRW5aTlR3Q2lIa3Bz?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "这家AI视频初创企业洽谈融资，估值拟增至4倍至50亿美元 新浪财经"
     },
     {
       "title": "Core dump epidemiology: fixing an 18-year-old bug",
@@ -3974,6 +6709,21 @@
       "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations."
     },
     {
+      "title": "演语科技完成3亿美元新一轮融资，明星资本集体出手 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1iRnM3SWlqdjB3ZnFiRzhtbmRtOExnNDUxVjZuNXl1cE45M2tFSWdxX1d0SVBtTl9HNWNPRklCeVBSZmRaazVKemZFZFlyYWdVUllicEI4bm5UOXBQc2xheHRsa28?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-18T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "融资",
+        "资本"
+      ],
+      "summary": "演语科技完成3亿美元新一轮融资，明星资本集体出手 新京报"
+    },
+    {
       "title": "Introducing LifeSciBench",
       "url": "https://openai.com/index/introducing-life-sci-bench",
       "source": "OpenAI News",
@@ -4046,6 +6796,21 @@
       "summary": "Learn how Googlers used AI to produce Google I/O 2026."
     },
     {
+      "title": "复旦学姐带队，Fireworks AI估值1000亿 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1nTjJDcllEdExkSjZoVkJzWDVfWGNCYkJ6UTZuMm5nRTlHbkpjQ3UyeU1xV2trd0JrZmlxcE1Ra1h6dzQwRk9tYWhjTnJvcFRRcDJRc0JB?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-05-30T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "估值",
+        "投资"
+      ],
+      "summary": "复旦学姐带队，Fireworks AI估值1000亿 投资界"
+    },
+    {
       "title": "Catch up on 12 major I/O 2026 moments",
       "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
       "source": "Google AI Blog",
@@ -4056,6 +6821,62 @@
       "relevance_score": 26,
       "tags": [],
       "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+    },
+    {
+      "title": "英伟达参投Vast Data新一轮融资 估值升至300亿美元 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE91UGE3TUJQWjc0b2VVRnFvTWhId2VHc0RSRzh1QjhucG1jZ2lMSVNieFJyOVRfNlc5U1dtZWxQVXJpbG55TWdUcQ?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-04-23T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "融资",
+        "估值"
+      ],
+      "summary": "英伟达参投Vast Data新一轮融资 估值升至300亿美元 财联社"
+    },
+    {
+      "title": "估值超120亿 两个月连融26亿的生数科技 拟最快上半年启动IPO - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE02MldjanoyWjdBSlRacDV6aWl6eGZvb0FVVEZDWFlvZTNLY2VXZGtUYjBpQzNQRmdKaFhnTW54azRMaGlBSGc?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-04-11T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "ipo",
+        "估值"
+      ],
+      "summary": "估值超120亿 两个月连融26亿的生数科技 拟最快上半年启动IPO 财联社"
+    },
+    {
+      "title": "让 AI 惠及每一个人 - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBucjZCVURzTi1VaURDdVdSTTVFWHpwNmVhTnBLQlVKeXdDeVNhX200SzI3bklGQjhaV2RkMnBmclE4Q01fZkMwQVp2Mms0S09jbDd2cTUtaXpneXdEZVc0MktvaVpyRHlOYnJLYg?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-02-27T08:00:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "让 AI 惠及每一个人 OpenAI"
+    },
+    {
+      "title": "端侧AI爆发前夜，面壁智能估值冲破200亿 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxNSjdnSUk1R1NjTkVoeFRuZ3A1U3ZnYXZySUNTUnhuXzVGWjlYWmR4cmxYVGkxV0RCdHBPdkxUcHp2aXE0b1I5MjNJQU5iY1VpdFFWM3M4MFJQbmFubUtod0RBejJCQzU0dlNQYjlIRHNBVkFNUU9JOThVa01OUUhKUmJmSTBTUHpQLURWa1cyQXZzT1l3bmhqa1l6M181QTBsdDF2UGlOU2NfejVKR0NMYUY1Z2I1eDc1RUhWWW9VamJiaVUzZWVJQWRzWl9TWFl6Qm5ZVURib3RVUWxnc3ZwMXVLSUZUWUxjR2tsSTg2ckRHWGFOMmRmbTN6WDBHNkFrcFU3UXFFZHRNTTMwS2x0WEhYMmZsdmF4eDBVQUdXU0Fyd3oxb2xNWEhBd2JsWnRucmFHUXhyUlpQQ3pndWQtMk9zWVJhRE14VzdrY2dtZ0pZTzI3MmVnc1hJUHVhMEE5UmF0TmpXZE1zNk9vSzdIZ2JlblVJcDdLT0ttUFpRbF9wNGZNNWx2S0d0Mm9ZWHRVdWhKX2dHbW51T09ITnoxRnVIeXhUT2dnaUdRYlExZlRuQWowTDBSdzFkSFhZTGwtbDg1c3RTYS1wTVVtWmpTN2YwZjg1eDV0OGhRU2VZODMtWk1aMlRTZ0JfMVRpcGxaaW9fUEpLWWhvMDRQMktyWkxuQ1hfTTBBcGx1cXhBb01Xa0Z5a0tUbGpvcnhPUUZpMXAzcGZfY0V0bUJTQ3lDT0VYNUljSFkzaDV1UzV3WDRsalFlSW1JdVdjRV9ldG42WmM5bC1IUjVPWGdXVS0yTFpac1UzMFBwWXhxaHV3?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-17T02:28:36+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 23,
+      "tags": [
+        "估值"
+      ],
+      "summary": "端侧AI爆发前夜，面壁智能估值冲破200亿 新浪财经"
     },
     {
       "title": "Newer Models, Same Advantage",
@@ -4154,6 +6975,48 @@
         "cloud"
       ],
       "summary": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot"
+    },
+    {
+      "title": "融资30亿美元，可灵AI为何执意“出走”快手？｜深度 - 国际金融报",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OSjFtVzFBd3R2UmJrN2NFMGtFVnFrUEhBRWczanpORHU1MDlZU1EyVnNLYWJIbHUwZ2VQVXc5TUVRVHFFTm5oOHZrbVEwaHRjRVZfYTYzOWo2T2ZCUkow?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-04T07:00:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 23,
+      "tags": [
+        "融资"
+      ],
+      "summary": "融资30亿美元，可灵AI为何执意“出走”快手？｜深度 国际金融报"
+    },
+    {
+      "title": "BAT全上车，快手可灵AI投后估值达到180亿美元 - 全天候科技",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ET2xYYy1UcER6ejhNQWNyZV8wWTVZOTdPaUxIWWdzOGd1by1Wd0RtMm85b0xTeDV0blVPSzRVQ0tTbHE2ZDdMek5n?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-03T02:45:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 23,
+      "tags": [
+        "估值"
+      ],
+      "summary": "BAT全上车，快手可灵AI投后估值达到180亿美元 全天候科技"
+    },
+    {
+      "title": "快手可灵融资30亿美元，腾讯、阿里、百度参投 - Caijing",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83RG9iUmZvald4djRmbGZaWHppaGthVktndmxFTWQyQlBTbEhCUzlacFJ4TDd2ZW5ZSnc3TEtTUUNiQ29Xak5JTERLV0JYdkJZSnF2ZktmOXpKRmNqZHk3ZHgzamhhWEk?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-02T20:14:20+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 23,
+      "tags": [
+        "融资"
+      ],
+      "summary": "快手可灵融资30亿美元，腾讯、阿里、百度参投 Caijing"
     },
     {
       "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
@@ -4422,6 +7285,18 @@
       "summary": "OlmoEarth v1.1: A more efficient family of Earth observation models"
     },
     {
+      "title": "AI赛道追赶提速？印度一月内诞生第二家AI独角兽企业 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaU1kajd1UFVSNFB2T2xfSENwdE0xSjBfZFpHRE5aWGJkcWFlenFWdXVPLUdfckktTUJCVUZCUmZLS0dPelR2WEozbGpxQ3oycnozQXlUQy1MajFYRE5DRGhBc3JTeHZZXzJpdG9VV0Z4QkRESkYyeU9mOUFxdDU2czJ3Q0FxZDVKdUxBT29vMA?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-16T14:48:59+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "AI赛道追赶提速？印度一月内诞生第二家AI独角兽企业 新浪财经"
+    },
+    {
       "title": "Security incident disclosure — July 2026",
       "url": "https://huggingface.co/blog/security-incident-july-2026",
       "source": "Hugging Face Blog",
@@ -4564,6 +7439,18 @@
       "relevance_score": 20,
       "tags": [],
       "summary": "🤗 Kernels: Major Updates"
+    },
+    {
+      "title": "30亿美元，巨头们“抢搭”可灵AI - 华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1mNlBiUml4dzBlRVNqUW9yQm5nd1h0SXg4LXFEZmd5ZlIwbGhqelJuRWU2MFhHMnl6czBPNmlsQ20xbGVIT1plN3NHRGNKTVBySTVr?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-02T07:00:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "30亿美元，巨头们“抢搭”可灵AI 华尔街见闻"
     },
     {
       "title": "The latest AI news we announced in June 2026",
@@ -4720,6 +7607,18 @@
       "relevance_score": 20,
       "tags": [],
       "summary": "Direct Preference Optimization Beyond Chatbots"
+    },
+    {
+      "title": "中国科大“词元计划”服务师生AI创新实践 - 中国科大新闻网",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5jX0I4SlkxR1J4bV9YMlF4S3Y4cE1ZTEJ5OE1kVmJuWVRmS0hsd1k5bmZQZWUzNXJ1R2tmWE1vSlNETUxaay1qd19aenRiYTRzejV1ZWszNA?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-06-03T10:27:05+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "中国科大“词元计划”服务师生AI创新实践 中国科大新闻网"
     },
     {
       "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
