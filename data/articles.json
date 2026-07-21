@@ -1,9 +1,39 @@
 {
-  "updated_at": "2026-07-21T12:50:20.711647+00:00",
+  "updated_at": "2026-07-21T13:00:07.471839+00:00",
   "count": 160,
   "errors": [
     "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+%22large+language+model%22+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+NVIDIA%29&mode=ArtList&format=json&maxrecords=80&sort=HybridRel&timespan=1d"
   ],
+  "source_status": {
+    "GDELT": {
+      "state": "error",
+      "count": 0,
+      "message": "429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+%22large+language+model%22+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+NVIDIA%29&mode=ArtList&format=json&maxrecords=80&sort=HybridRel&timespan=1d"
+    },
+    "RSS": {
+      "state": "fetched",
+      "count": 80
+    },
+    "arXiv": {
+      "state": "fetched",
+      "count": 40
+    },
+    "Hacker News": {
+      "state": "fetched",
+      "count": 40
+    },
+    "微信": {
+      "state": "fetched",
+      "count": 0
+    },
+    "X": {
+      "enabled": true,
+      "configured": false,
+      "state": "missing_token",
+      "count": 0,
+      "message": "请在GitHub Secrets中配置 X_BEARER_TOKEN"
+    }
+  },
   "articles": [
     {
       "title": "AI is more likely than humans to form biases when hiring",
@@ -397,7 +427,7 @@
       "source_type": "RSS",
       "published_at": "2026-07-17T08:57:32+00:00",
       "category": "投资商业",
-      "relevance_score": 64,
+      "relevance_score": 63,
       "tags": [
         "raised",
         "invest",
@@ -740,7 +770,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T16:52:58+00:00",
       "category": "产品应用",
-      "relevance_score": 56,
+      "relevance_score": 55,
       "tags": [
         "model",
         "feature",
@@ -766,6 +796,21 @@
         "act"
       ],
       "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together wi"
+    },
+    {
+      "title": "Show HN: Glass – a see/act/debug loop over any GUI app for agents (MCP)",
+      "url": "https://github.com/fixed-width/glass",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:49:48+00:00",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "agent",
+        "app",
+        "act"
+      ],
+      "summary": "Show HN: Glass – a see/act/debug loop over any GUI app for agents (MCP)"
     },
     {
       "title": "Show HN: CLI tool that packages data-heavy projects into LLM context windows",
@@ -890,6 +935,34 @@
       "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-ag"
     },
     {
+      "title": "Show HN: I build a project management platform around .md files",
+      "url": "https://www.sfora.ai",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:59:35+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "agent",
+        "platform"
+      ],
+      "summary": "Hey HN, Wanted to show this to get a response! I've built this asynchronous communications platform for my agents. Everything is accessible and readable through a VFS and markdown, so it works well for agents. I use it as a central 'hub' for all of my agents t"
+    },
+    {
+      "title": "A level up on voice interaction with agents – and local",
+      "url": "https://www.narrato.tech",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:55:59+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "agent",
+        "act"
+      ],
+      "summary": "A level up on voice interaction with agents – and local"
+    },
+    {
       "title": "Show HN: DevFortress – open-core credential isolation for APIs and AI agents",
       "url": "https://github.com/duncan982/devfortress-core",
       "source": "Hacker News",
@@ -991,17 +1064,6 @@
       "relevance_score": 51,
       "tags": [],
       "summary": "Responsible LLM Use in Conversations"
-    },
-    {
-      "title": "LLM spambots liked my Show HN post more than real people did",
-      "url": "https://sgnt.ai/p/show-hn-llm-spam/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:22:30+00:00",
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "LLM spambots liked my Show HN post more than real people did"
     },
     {
       "title": "Causal Discovery on Irregular Time Series",
@@ -1228,32 +1290,6 @@
       "summary": "Thinking Machines draws from Chinese rivals in debut AI model"
     },
     {
-      "title": "AI coding agents should optimize for less owned code",
-      "url": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:22:08+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "AI coding agents should optimize for less owned code"
-    },
-    {
-      "title": "Top American AI Execs Sound Alarm on Chinese Models",
-      "url": "https://www.wsj.com/tech/ai/top-american-ai-execs-sound-alarm-on-chinese-models-3c74f8c1",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:16:49+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model"
-      ],
-      "summary": "Top American AI Execs Sound Alarm on Chinese Models"
-    },
-    {
       "title": "Learning Adaptive Safety Margins for Visual Navigation",
       "url": "https://arxiv.org/abs/2607.18200v1",
       "source": "arXiv",
@@ -1266,6 +1302,28 @@
         "safety"
       ],
       "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts u"
+    },
+    {
+      "title": "Designing for AI Optionality with Karl Koch from DuckDuckGo [video]",
+      "url": "https://www.youtube.com/watch?v=xXsRnlYv5eM",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:58:39+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Designing for AI Optionality with Karl Koch from DuckDuckGo [video]"
+    },
+    {
+      "title": "The cost of AI: human and environmental harm",
+      "url": "https://psyll.com/articles/technology/ai-machine-learning/the-real-cost-of-ai-human-and-environmental-harm",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:52:31+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "The cost of AI: human and environmental harm"
     },
     {
       "title": "AI Projects with Raspberry Pi",
@@ -1387,28 +1445,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "Tfgen: configure your Terraform stacks using plain Go"
-    },
-    {
-      "title": "Show HN: An AI podcast on real engineering tradeoffs",
-      "url": "https://medium.com/@aneeshaprasannan/i-found-the-most-honest-ai-podcast-on-youtube-by-accident-and-it-ruined-my-favorite-excuse-4aad47bf6732",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:23:04+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Show HN: An AI podcast on real engineering tradeoffs"
-    },
-    {
-      "title": "Show HN: Turn Excel, CSV and Google Sheets into an AI Chatbot",
-      "url": "https://www.frontierbase.io",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:22:07+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Show HN: Turn Excel, CSV and Google Sheets into an AI Chatbot"
     },
     {
       "title": "Achieving operational excellence with AI",
