@@ -33,22 +33,20 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 应用最新资讯规则
+      - name: 校验程序和配置
         run: |
-          python scripts/apply_freshness_patch.py
-          python scripts/apply_source_freshness.py
-          python scripts/apply_ui_freshness.py
-          python scripts/apply_mainstream_media.py
+          python -m py_compile scripts/fetch_news.py
+          python -m json.tool config/sources.json > /dev/null
 
       - name: 抓取最新公开资讯
         run: python scripts/fetch_news.py
 
-      - name: 保存最新代码与数据
+      - name: 保存最新数据
         run: |
           git config user.name "ai-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add scripts/*.py config/sources.json index.html data/articles.json
-          git diff --cached --quiet || git commit -m "feat: expand current AI news with mainstream media"
+          git add data/articles.json
+          git diff --cached --quiet || git commit -m "chore: update latest AI intelligence data"
           git push || true
 
       - name: 配置Pages
