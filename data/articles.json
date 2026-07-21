@@ -1,6 +1,6 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T14:04:23.081131+00:00",
+  "updated_at": "2026-07-21T14:06:02.290096+00:00",
   "count": 287,
   "errors": [],
   "source_status": {
@@ -448,24 +448,6 @@
         "agent"
       ],
       "summary": "I use Pi coding agent with OpenAI GPT-5.6 Sol but have been finding that GPT-5.6 is slower than Claude Code. Do you use any other model like one of the hosted OSS ones?"
-    },
-    {
-      "title": "Show HN: Redenta – In-browser redaction that deletes text, not just covers it",
-      "url": "https://news.ycombinator.com/item?id=48991516",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:33:57+00:00",
-      "category": "产品应用",
-      "relevance_score": 63,
-      "tags": [
-        "paper",
-        "api",
-        "product",
-        "app",
-        "tool",
-        "act"
-      ],
-      "summary": "https://redenta.app Redenta is a set of document tools that run entirely in the browser — redaction, metadata stripping, and format conversion. Nothing is uploaded, there's no account, and the tools are free. The redaction is the part I actually care about. Most tools that \"redact\" a PDF draw a blac"
     },
     {
       "title": "大模型几个月能力翻番，标准更新却按年算！业界：AI迭代太快，治理没跟上 - 新浪财经",
@@ -1940,6 +1922,19 @@
         "robotics"
       ],
       "summary": "Xpeng loses AI infrastructure chief to OpenAI's robotics push, report says CnEVPost"
+    },
+    {
+      "title": "I paid €2k for an app; a colleague vibe-coded the same one for free",
+      "url": "https://fablesofafailedfounder.substack.com/p/2000-and-nineteen-months-of-almost",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:04:22+00:00",
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "app"
+      ],
+      "summary": "I paid €2k for an app; a colleague vibe-coded the same one for free"
     },
     {
       "title": "TSMC to raise chipmaking prices by up to 10% in 2027, Nikkei Asia reports",
