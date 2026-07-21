@@ -1,6 +1,6 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T15:22:54.599911+00:00",
+  "updated_at": "2026-07-21T15:24:38.556325+00:00",
   "count": 497,
   "errors": [],
   "source_status": {
@@ -781,7 +781,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-21T14:26:47+00:00",
       "author": "atomicnature",
-      "engagement": 2,
+      "engagement": 3,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
@@ -1126,7 +1126,7 @@
       "summary": "I was not a fan of the original Halliday glasses. The Gen 2 are better. | Image: Halliday I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, and my 30-minute demo left me with achy "
     },
     {
-      "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺财经",
+      "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tVWhXZUJacTRkUTcxWmdfd1pkUmU4dTBwV1pULXM5S3FHa2ZtV3lIVDg0Tlpua3MyME9IalNibU9ubGpWVTRrdjlySnZHNDRoQm1DMVh3ZG9yem1FUG4wX0VR?oc=5",
       "source": "中文AI技术开源",
       "source_type": "国内资讯",
@@ -1137,7 +1137,7 @@
       "tags": [
         "发布"
       ],
-      "summary": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 同花顺财经"
+      "summary": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 同花顺"
     },
     {
       "title": "重构工业AI底层逻辑 管网世界模型实现物理状态可交互推演 - 中国科技网",
@@ -1152,6 +1152,20 @@
         "模型"
       ],
       "summary": "重构工业AI底层逻辑 管网世界模型实现物理状态可交互推演 中国科技网"
+    },
+    {
+      "title": "加快建设人工智能发展和治理创新高地 聚力谱写现代化人民城市建设新篇章 - shobserver.com",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGptbTl2SmxycW1ma0lMWHBONDlfSHlCN3I1aW9UZXBoRFlMMDRvLVJiTFg2ZU9jSEMwaDcyTVRpYXo2d0toaVRFa29SS1dPRkN2YVlNc0JPWW4xRXdOVVp5dGFtQ2RrUy13bzFXZzlLbFY4eEVyekpBOHU2Zlh4MFNWNlBlODU3MkRLOGlndUhyQXBYS2ZlbFB5WF9QNXp0anJUQUlOS2duaUk?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T12:40:23+00:00",
+      "language": "zh",
+      "category": "政策治理",
+      "relevance_score": 54,
+      "tags": [
+        "治理"
+      ],
+      "summary": "加快建设人工智能发展和治理创新高地 聚力谱写现代化人民城市建设新篇章 shobserver.com"
     },
     {
       "title": "AI手机来了！谁来为它的“大脑”买单？ - 手机网易网",
@@ -1584,18 +1598,6 @@
       "relevance_score": 50,
       "tags": [],
       "summary": "涨停潮来了！人工智能，关键转折！ 金融界"
-    },
-    {
-      "title": "WAIC 追问 | 让AI辅助管理者做决策，中科闻歌的把握有多大 - DoNews",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NZ0FWZWhObDlISlVPOHdEUVhVbjM4ejFicUpTZFM5VENHekNXUHJTdE4ydDdFUGx6UlBVbWZsWGNfVEIwOEo5REdnS1Zlb25Zd1ZndTFBR29uR1hhU1E?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T09:53:57+00:00",
-      "language": "zh",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "WAIC 追问 | 让AI辅助管理者做决策，中科闻歌的把握有多大 DoNews"
     },
     {
       "title": "瀚高股份亮相2026世界人工智能大会（WAIC），以智能基座平台HigoBase加速AI 规模化创新 - 美通社",
@@ -3556,7 +3558,7 @@
       "published_at": "2026-07-20T15:23:06+00:00",
       "language": "en",
       "category": "投资商业",
-      "relevance_score": 43,
+      "relevance_score": 42,
       "tags": [
         "revenue"
       ],
@@ -5452,7 +5454,7 @@
       "summary": "融资68亿！AI芯片独角兽估值冲上740亿 智东西"
     },
     {
-      "title": "传DeepSeek要自研AI芯片，且立项已一年 - 观察者网",
+      "title": "传DeepSeek要自研AI芯片，且立项已一年 - 观察者",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xUlVtMXBGZzFnX1F2VWNsOXJ5ckVzNVcwWld3eDZiamVxNU9NNUpmZUJvOTdWUGQzSmd6QzRyeGhrTkQ0WW9sLW5vRU45SWkyU2wteTNJRmltUFNfQ18yVjNKclM?oc=5",
       "source": "中文AI技术开源",
       "source_type": "国内资讯",
@@ -5463,7 +5465,7 @@
       "tags": [
         "芯片"
       ],
-      "summary": "传DeepSeek要自研AI芯片，且立项已一年 观察者网"
+      "summary": "传DeepSeek要自研AI芯片，且立项已一年 观察者"
     },
     {
       "title": "可灵立下的IPO军令状，藏着资本对AI视频赛道的耐心 - 证券时报",
