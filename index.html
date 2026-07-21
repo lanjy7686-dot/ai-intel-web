@@ -27,6 +27,7 @@
     .sub{color:var(--muted);font-size:13px;margin-top:5px}
     .status{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px}
     .dot{width:9px;height:9px;border-radius:50%;background:var(--good);box-shadow:0 0 12px var(--good)}
+    .x-state{margin-left:8px;padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#0a1728;color:#bdeeff}
     .toolbar,.panel{background:linear-gradient(180deg,rgba(16,35,58,.92),rgba(13,27,46,.94));
       border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px}
     .toolbar{padding:16px;display:grid;grid-template-columns:2fr repeat(3,1fr) auto;gap:12px;margin-bottom:18px}
@@ -61,6 +62,9 @@
     .rank-title{font-size:13px;line-height:1.5;text-decoration:none}
     .rank-source{font-size:11px;color:var(--muted);margin-top:3px}
     .empty{padding:50px 20px;text-align:center;color:var(--muted)}
+    .notice{display:none;margin:-4px 0 18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,184,77,.45);background:rgba(255,184,77,.09);color:#ffd89a;font-size:13px;line-height:1.65}
+    .notice.show{display:block}
+    .notice strong{color:#fff1cc}
     .footer{color:var(--muted);text-align:center;font-size:12px;margin-top:24px}
     .loading{animation:pulse 1.2s infinite}
     @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
@@ -78,7 +82,7 @@
         <div class="sub">投资 · 技术 · 产品 · 政策 · 产业</div>
       </div>
     </div>
-    <div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span></div>
+    <div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span><span id="xStatus" class="x-state">X：检测中</span></div>
   </header>
 
   <section class="toolbar">
@@ -97,6 +101,8 @@
     </select>
     <button id="refreshBtn">刷新</button>
   </section>
+
+  <div id="sourceNotice" class="notice" role="status"></div>
 
   <section class="stats">
     <div class="stat panel"><div class="label">当前结果</div><div class="value" id="sTotal">0</div></div>
@@ -125,6 +131,7 @@
 <script>
 const fallbackData = {
   updated_at: new Date().toISOString(),
+  source_status:{X:{configured:false,state:"missing_token",count:0}},
   articles: [
     {
       title:"网页端已经可以直接打开",
@@ -152,6 +159,8 @@ const fallbackData = {
 };
 
 let store = fallbackData.articles;
+let sourceStatus = {};
+let dataErrors = [];
 
 const el = id => document.getElementById(id);
 const escapeHtml = s => String(s ?? "").replace(/[&<>"']/g, c => ({
@@ -192,6 +201,32 @@ function render(){
   el("sProduct").textContent = count("产品应用");
   el("sPolicy").textContent = count("政策治理");
 
+  const notice = el("sourceNotice");
+  notice.className = "notice";
+  notice.textContent = "";
+  const selectedSource = el("sourceType").value;
+  const xStatus = sourceStatus.X || {};
+  if(selectedSource === "X" && rows.length === 0){
+    let message = "暂未抓取到X内容。";
+    if(xStatus.state === "missing_token"){
+      message = "X 尚未配置密钥。请在 GitHub Repository secrets 中添加 X_BEARER_TOKEN。";
+    }else if((xStatus.message || "").includes("402") || xStatus.state === "payment_required"){
+      message = "X 密钥已经配置成功，但 X API 返回 402 Payment Required：当前 credits 余额不足。充值后重新运行 GitHub Actions，即可抓取X公开帖子。";
+    }else if(xStatus.state === "error_cached"){
+      message = "X 接口本次请求失败，当前没有可用缓存。请检查 X Developer Console 的 credits、应用权限和 Token。";
+    }else if(xStatus.state === "cached"){
+      message = "X 正在使用缓存；下一轮定时任务会再次请求。";
+    }
+    notice.innerHTML = `<strong>X来源状态：</strong>${escapeHtml(message)}`;
+    notice.classList.add("show");
+  }else if(selectedSource === "全部来源" && dataErrors.length){
+    const hasX402 = dataErrors.some(x => String(x).includes("X: 402"));
+    if(hasX402){
+      notice.innerHTML = "<strong>部分来源提示：</strong>X API 因 credits 不足暂未返回数据；RSS、论文和技术社区内容仍正常更新。";
+      notice.classList.add("show");
+    }
+  }
+
   el("feed").innerHTML = rows.length ? rows.map(a => `
     <article class="card">
       <div class="meta">
@@ -222,10 +257,19 @@ async function loadData(){
     if(!r.ok) throw new Error("data unavailable");
     const data = await r.json();
     store = Array.isArray(data.articles) ? data.articles : [];
+    sourceStatus = data.source_status || {};
+    dataErrors = Array.isArray(data.errors) ? data.errors : [];
     el("updatedAt").textContent = `更新于 ${formatTime(data.updated_at)}`;
+    const xs = sourceStatus.X || {};
+    const isPaymentRequired = String(xs.message || "").includes("402");
+    const labels = {fetched:`X：已抓取 ${xs.count||0} 条`,cached:`X：缓存 ${xs.count||0} 条`,missing_token:"X：待配置密钥",error_cached:isPaymentRequired?"X：余额不足":"X：接口异常",disabled:"X：已关闭"};
+    el("xStatus").textContent = labels[xs.state] || "X：待检测";
   }catch(err){
     store = fallbackData.articles;
+    sourceStatus = {};
+    dataErrors = [];
     el("updatedAt").textContent = "离线预览模式";
+    el("xStatus").textContent = "X：待配置密钥";
   }
   render();
 }
