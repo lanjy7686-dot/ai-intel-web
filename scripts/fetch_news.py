@@ -18,7 +18,8 @@ from dateutil import parser as dateparser
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config/sources.json"
 OUTPUT = ROOT / "data/articles.json"
-UA = "AI-Intel-Radar/1.4 (free public-feed dashboard; contact via GitHub repository)"
+# FRESHNESS_PATCH_V2
+UA = "AI-Intel-Radar/1.5 (free public-feed dashboard; contact via GitHub repository)"
 
 CATEGORY_KEYWORDS = {
     "投资商业": ["funding", "raised", "valuation", "invest", "investment", "venture capital", "ipo", "acquisition", "merger", "revenue", "earnings", "stock", "shares", "融资", "估值", "投资", "并购", "收购", "上市", "财报", "营收", "利润", "股价", "商业化", "资本"],
@@ -36,14 +37,30 @@ def clean(value):
     return re.sub(r"\s+", " ", value).strip()
 
 
-def dt(value, default=None):
+_DATE_DEFAULT = object()
+
+
+def dt(value, default=_DATE_DEFAULT):
     try:
+        if value in (None, "", 0):
+            raise ValueError("missing date")
         parsed = dateparser.parse(str(value))
+        if not parsed:
+            raise ValueError("invalid date")
         if not parsed.tzinfo:
             parsed = parsed.replace(tzinfo=timezone.utc)
         return parsed.astimezone(timezone.utc)
     except Exception:
-        return default or datetime.now(timezone.utc)
+        return datetime.now(timezone.utc) if default is _DATE_DEFAULT else default
+
+
+def is_fresh(published, max_age_hours=168, future_tolerance_hours=6):
+    if not published:
+        return False
+    now = datetime.now(timezone.utc)
+    if published > now + __import__("datetime").timedelta(hours=future_tolerance_hours):
+        return False
+    return published >= now - __import__("datetime").timedelta(hours=max_age_hours)
 
 
 def canonical(url):
@@ -87,6 +104,7 @@ def request_feed(url, *, user_agent=UA, timeout=30):
 
 def rss_collect(config):
     articles = []
+    default_max_age = int(config.get("freshness", {}).get("default_rss_max_age_hours", 168))
     for source in config.get("rss", []):
         if not source.get("enabled", True):
             continue
@@ -94,14 +112,26 @@ def rss_collect(config):
             feed = request_feed(source["url"])
         except Exception:
             feed = feedparser.parse(source["url"])
+        max_age = int(source.get("max_age_hours", default_max_age))
         for entry in feed.entries[: int(source.get("max_items", 50))]:
             title, url = clean(entry.get("title")), entry.get("link", "")
-            if not title or not url:
+            raw_date = entry.get("published") or entry.get("updated") or entry.get("created")
+            published = dt(raw_date, default=None)
+            if not title or not url or not is_fresh(published, max_age):
                 continue
             content = clean(entry.get("summary") or entry.get("description") or "")
             if entry.get("content"):
                 content = clean(" ".join(item.get("value", "") for item in entry.get("content", [])))
-            articles.append({"title": title, "url": url, "source": source.get("name", "RSS"), "source_type": source.get("source_type", "RSS"), "published_at": dt(entry.get("published") or entry.get("updated")).isoformat(), "content": content, "language": source.get("language", "")})
+            articles.append({
+                "title": title,
+                "url": url,
+                "source": source.get("name", "RSS"),
+                "source_type": source.get("source_type", "RSS"),
+                "published_at": published.isoformat(),
+                "content": content,
+                "language": source.get("language", ""),
+                "date_verified": True,
+            })
     return articles
 
 
@@ -328,6 +358,11 @@ def main():
                 source_status[name] = {"state": "error", "count": 0, "message": str(exc)}
     seen, output = set(), []
     for article in all_items:
+        published = dt(article.get("published_at"), default=None)
+        if not is_fresh(published, int(config.get("freshness", {}).get("retention_hours", 720))):
+            continue
+        article["published_at"] = published.isoformat()
+        article["date_verified"] = True
         key = hashlib.sha256((re.sub(r"\W+", "", article.get("title", "").lower()) + "|" + canonical(article.get("url", ""))).encode()).hexdigest()
         if key in seen:
             continue
@@ -338,7 +373,31 @@ def main():
     for item in output:
         source_counts[item.get("source_type", "其他")] = source_counts.get(item.get("source_type", "其他"), 0) + 1
     source_status["来源统计"] = source_counts
-    payload = {"mode": "free", "updated_at": datetime.now(timezone.utc).isoformat(), "count": len(output), "errors": errors, "source_status": source_status, "articles": output[:700]}
+    now = datetime.now(timezone.utc)
+    last_24h = sum(
+        1 for item in output
+        if (dt(item.get("published_at"), default=None) or datetime(1970, 1, 1, tzinfo=timezone.utc))
+        >= now - __import__("datetime").timedelta(hours=24)
+    )
+    last_72h = sum(
+        1 for item in output
+        if (dt(item.get("published_at"), default=None) or datetime(1970, 1, 1, tzinfo=timezone.utc))
+        >= now - __import__("datetime").timedelta(hours=72)
+    )
+    max_output = int(config.get("freshness", {}).get("max_output", 500))
+    payload = {
+        "mode": "free",
+        "updated_at": now.isoformat(),
+        "count": len(output),
+        "errors": errors,
+        "freshness_policy": {
+            "undated_items": "discarded",
+            "last_24h": last_24h,
+            "last_72h": last_72h,
+        },
+        "source_status": source_status,
+        "articles": output[:max_output],
+    }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"count": len(output), "errors": errors, "wechat": source_status.get("微信公众号")}, ensure_ascii=False))
