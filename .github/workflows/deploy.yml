@@ -38,6 +38,7 @@ jobs:
           python scripts/apply_freshness_patch.py
           python scripts/apply_source_freshness.py
           python scripts/apply_ui_freshness.py
+          python scripts/apply_mainstream_media.py
 
       - name: 抓取最新公开资讯
         run: python scripts/fetch_news.py
@@ -46,8 +47,8 @@ jobs:
         run: |
           git config user.name "ai-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add scripts/fetch_news.py config/sources.json index.html data/articles.json
-          git diff --cached --quiet || git commit -m "fix: enforce reliable publication dates and recent windows"
+          git add scripts/*.py config/sources.json index.html data/articles.json
+          git diff --cached --quiet || git commit -m "feat: expand current AI news with mainstream media"
           git push || true
 
       - name: 配置Pages
