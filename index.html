@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="AI情报雷达：聚合全球AI投资、技术、产品、政策与产业资讯。" />
+  <meta name="description" content="AI情报雷达：免费聚合全球AI投资、技术、产品、政策与产业资讯。" />
   <title>AI情报雷达</title>
   <style>
     :root{
@@ -13,29 +13,32 @@
     }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;background:
-      radial-gradient(circle at 8% 0%,rgba(76,201,240,.15),transparent 33%),
-      radial-gradient(circle at 92% 5%,rgba(123,97,255,.17),transparent 30%),
-      var(--bg);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+    body{margin:0;background:radial-gradient(circle at 8% 0%,rgba(76,201,240,.15),transparent 33%),radial-gradient(circle at 92% 5%,rgba(123,97,255,.17),transparent 30%),var(--bg);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
     a{color:inherit}
     .wrap{max-width:1320px;margin:0 auto;padding:28px 20px 60px}
     header{display:flex;gap:20px;justify-content:space-between;align-items:center;margin-bottom:22px}
     .brand{display:flex;gap:14px;align-items:center}
-    .logo{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:27px;
-      background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 8px 30px rgba(76,201,240,.24)}
+    .logo{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:27px;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 8px 30px rgba(76,201,240,.24)}
     h1{font-size:28px;margin:0;letter-spacing:.5px}
     .sub{color:var(--muted);font-size:13px;margin-top:5px}
     .status{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px}
     .dot{width:9px;height:9px;border-radius:50%;background:var(--good);box-shadow:0 0 12px var(--good)}
-    .x-state{margin-left:8px;padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#0a1728;color:#bdeeff}
-    .toolbar,.panel{background:linear-gradient(180deg,rgba(16,35,58,.92),rgba(13,27,46,.94));
-      border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px}
+    .free-badge{padding:5px 9px;border:1px solid rgba(67,209,122,.35);border-radius:999px;background:rgba(67,209,122,.09);color:#9af0bd;font-weight:700}
+    .toolbar,.panel,.x-panel{background:linear-gradient(180deg,rgba(16,35,58,.92),rgba(13,27,46,.94));border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px}
     .toolbar{padding:16px;display:grid;grid-template-columns:2fr repeat(3,1fr) auto;gap:12px;margin-bottom:18px}
-    input,select,button{border-radius:12px;border:1px solid var(--line);background:#0a1728;color:var(--text);
-      padding:12px 13px;font-size:14px;outline:none}
+    input,select,button{border-radius:12px;border:1px solid var(--line);background:#0a1728;color:var(--text);padding:12px 13px;font-size:14px;outline:none}
     input:focus,select:focus{border-color:var(--accent)}
     button{cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;font-weight:700}
     button.secondary{background:#0a1728;border:1px solid var(--line)}
+    .x-panel{padding:18px;margin-bottom:18px}
+    .x-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:14px}
+    .x-head h2{margin:0 0 5px;font-size:18px}
+    .x-head p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+    .x-mark{font-weight:900;font-size:20px;border:1px solid var(--line);border-radius:12px;padding:8px 12px;background:#05080d}
+    .x-search-row{display:grid;grid-template-columns:1fr auto;gap:10px}
+    .quick-searches{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    .quick-searches button{background:#0a1728;border:1px solid var(--line);font-weight:600;padding:9px 11px}
+    .quick-searches button:hover{border-color:var(--accent);color:#bdeeff}
     .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:18px}
     .stat{padding:18px}
     .stat .label{font-size:12px;color:var(--muted)}
@@ -62,14 +65,13 @@
     .rank-title{font-size:13px;line-height:1.5;text-decoration:none}
     .rank-source{font-size:11px;color:var(--muted);margin-top:3px}
     .empty{padding:50px 20px;text-align:center;color:var(--muted)}
-    .notice{display:none;margin:-4px 0 18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,184,77,.45);background:rgba(255,184,77,.09);color:#ffd89a;font-size:13px;line-height:1.65}
+    .notice{display:none;margin:0 0 18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,184,77,.45);background:rgba(255,184,77,.09);color:#ffd89a;font-size:13px;line-height:1.65}
     .notice.show{display:block}
-    .notice strong{color:#fff1cc}
     .footer{color:var(--muted);text-align:center;font-size:12px;margin-top:24px}
     .loading{animation:pulse 1.2s infinite}
     @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
     @media(max-width:980px){.toolbar{grid-template-columns:1fr 1fr}.stats{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.side{position:static}}
-    @media(max-width:620px){header{align-items:flex-start}.status{display:none}.toolbar{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.wrap{padding:18px 12px 40px}.title{font-size:17px}}
+    @media(max-width:620px){header{align-items:flex-start}.status{display:none}.toolbar,.x-search-row{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.wrap{padding:18px 12px 40px}.title{font-size:17px}}
   </style>
 </head>
 <body>
@@ -82,7 +84,7 @@
         <div class="sub">投资 · 技术 · 产品 · 政策 · 产业</div>
       </div>
     </div>
-    <div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span><span id="xStatus" class="x-state">X：检测中</span></div>
+    <div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span><span class="free-badge">完全免费模式</span></div>
   </header>
 
   <section class="toolbar">
@@ -92,7 +94,7 @@
       <option>产品应用</option><option>政策治理</option><option>产业动态</option>
     </select>
     <select id="sourceType">
-      <option>全部来源</option><option>全球新闻</option><option>X</option><option>论文</option>
+      <option>全部来源</option><option>全球新闻</option><option>论文</option>
       <option>技术社区</option><option>微信公众号</option><option>RSS</option>
     </select>
     <select id="timeRange">
@@ -100,6 +102,28 @@
       <option value="7" selected>近7天</option><option value="30">近30天</option>
     </select>
     <button id="refreshBtn">刷新</button>
+  </section>
+
+  <section class="x-panel">
+    <div class="x-head">
+      <div>
+        <h2>X 实时搜索（免费）</h2>
+        <p>不调用X API、不消耗credits。点击后直接进入X查看实时公开结果，可能需要登录X账号。</p>
+      </div>
+      <div class="x-mark">𝕏</div>
+    </div>
+    <div class="x-search-row">
+      <input id="xQuery" placeholder="输入要在X搜索的关键词，如：AI机器人、OpenAI融资…" />
+      <button id="xSearchBtn">在X实时搜索</button>
+    </div>
+    <div class="quick-searches">
+      <button data-x-query="OpenAI OR Anthropic OR DeepSeek OR Gemini OR Claude OR NVIDIA OR 人工智能 OR 大模型">AI综合</button>
+      <button data-x-query="(AI OR 人工智能 OR 大模型) (funding OR investment OR valuation OR 融资 OR 投资 OR 估值)">AI投资融资</button>
+      <button data-x-query="(OpenAI OR Anthropic OR DeepSeek OR Gemini OR Claude) (release OR launch OR model OR 发布 OR 新模型)">大模型发布</button>
+      <button data-x-query="(AI OR 人工智能) (NVIDIA OR GPU OR chip OR 芯片 OR 算力)">AI芯片算力</button>
+      <button data-x-query="(AI OR 人工智能) (robotics OR robot OR 机器人)">AI机器人</button>
+      <button data-x-query="人工智能 OR 大模型 OR 智能体 OR AIGC lang:zh">中文AI动态</button>
+    </div>
   </section>
 
   <div id="sourceNotice" class="notice" role="status"></div>
@@ -125,77 +149,66 @@
     </aside>
   </main>
 
-  <div class="footer">内容仅作信息聚合，不构成投资建议。微信公众号与X请遵守平台规则和授权要求。</div>
+  <div class="footer">内容仅作信息聚合，不构成投资建议。免费模式不调用X API；公众号及网站内容请遵守平台规则和版权要求。</div>
 </div>
 
 <script>
 const fallbackData = {
   updated_at: new Date().toISOString(),
-  source_status:{X:{configured:false,state:"missing_token",count:0}},
-  articles: [
-    {
-      title:"网页端已经可以直接打开",
-      url:"#",
-      source:"系统示例",
-      source_type:"RSS",
-      published_at:new Date().toISOString(),
-      category:"产品应用",
-      relevance_score:88,
-      summary:"这是离线预览数据。部署到 GitHub Pages 后，GitHub Actions 会定时更新 data/articles.json。",
-      tags:["网页端","自动更新"]
-    },
-    {
-      title:"配置X官方API后可抓取最近AI动态",
-      url:"#",
-      source:"系统示例",
-      source_type:"X",
-      published_at:new Date(Date.now()-3600000).toISOString(),
-      category:"技术研究",
-      relevance_score:82,
-      summary:"在仓库 Secrets 中添加 X_BEARER_TOKEN，定时任务会自动接入X最近搜索接口。",
-      tags:["X API","AI动态"]
-    }
-  ]
+  mode: "free",
+  articles: [{
+    title:"AI情报雷达已切换为完全免费模式",
+    url:"#",
+    source:"系统示例",
+    source_type:"RSS",
+    published_at:new Date().toISOString(),
+    category:"产品应用",
+    relevance_score:88,
+    summary:"自动聚合免费公开资讯；X改为一键实时搜索，不再调用付费API。",
+    tags:["免费模式","X实时搜索"]
+  }]
 };
 
 let store = fallbackData.articles;
-let sourceStatus = {};
 let dataErrors = [];
-
 const el = id => document.getElementById(id);
-const escapeHtml = s => String(s ?? "").replace(/[&<>"']/g, c => ({
-  "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-}[c]));
+const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
 
 function formatTime(iso){
-  const d = new Date(iso);
-  if(Number.isNaN(d.getTime())) return "";
-  return new Intl.DateTimeFormat("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}).format(d);
+  const date = new Date(iso);
+  if(Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}).format(date);
+}
+
+function openXSearch(query){
+  const text = String(query || "").trim();
+  if(!text){ el("xQuery").focus(); return; }
+  const url = `https://x.com/search?q=${encodeURIComponent(text)}&src=typed_query&f=live`;
+  window.open(url,"_blank","noopener,noreferrer");
 }
 
 function filtered(){
-  const q = el("keyword").value.trim().toLowerCase();
-  const cat = el("category").value;
-  const src = el("sourceType").value;
+  const query = el("keyword").value.trim().toLowerCase();
+  const category = el("category").value;
+  const source = el("sourceType").value;
   const days = Number(el("timeRange").value);
-  const cutoff = Date.now() - days*86400000;
-  return store.filter(a => {
-    const text = [a.title,a.summary,a.source,(a.tags||[]).join(" ")].join(" ").toLowerCase();
-    const matchQ = !q || text.includes(q);
-    const matchCat = cat === "全部分类" || a.category === cat;
-    const matchSrc = src === "全部来源" || a.source_type === src;
-    const t = new Date(a.published_at).getTime();
-    const matchTime = Number.isNaN(t) || t >= cutoff;
-    return matchQ && matchCat && matchSrc && matchTime;
-  }).sort((a,b)=>(b.relevance_score||0)-(a.relevance_score||0) ||
-                  new Date(b.published_at)-new Date(a.published_at));
+  const cutoff = Date.now() - days * 86400000;
+  return store.filter(article => {
+    const text = [article.title,article.summary,article.source,(article.tags||[]).join(" ")].join(" ").toLowerCase();
+    const matchesQuery = !query || text.includes(query);
+    const matchesCategory = category === "全部分类" || article.category === category;
+    const matchesSource = source === "全部来源" || article.source_type === source;
+    const timestamp = new Date(article.published_at).getTime();
+    const matchesTime = Number.isNaN(timestamp) || timestamp >= cutoff;
+    return matchesQuery && matchesCategory && matchesSource && matchesTime;
+  }).sort((a,b)=>(b.relevance_score||0)-(a.relevance_score||0) || new Date(b.published_at)-new Date(a.published_at));
 }
 
 function render(){
   const rows = filtered();
   el("resultCount").textContent = `${rows.length} 条`;
   el("sTotal").textContent = rows.length;
-  const count = c => rows.filter(x=>x.category===c).length;
+  const count = category => rows.filter(item => item.category === category).length;
   el("sInvest").textContent = count("投资商业");
   el("sTech").textContent = count("技术研究");
   el("sProduct").textContent = count("产品应用");
@@ -203,81 +216,56 @@ function render(){
 
   const notice = el("sourceNotice");
   notice.className = "notice";
-  notice.textContent = "";
-  const selectedSource = el("sourceType").value;
-  const xStatus = sourceStatus.X || {};
-  if(selectedSource === "X" && rows.length === 0){
-    let message = "暂未抓取到X内容。";
-    if(xStatus.state === "missing_token"){
-      message = "X 尚未配置密钥。请在 GitHub Repository secrets 中添加 X_BEARER_TOKEN。";
-    }else if((xStatus.message || "").includes("402") || xStatus.state === "payment_required"){
-      message = "X 密钥已经配置成功，但 X API 返回 402 Payment Required：当前 credits 余额不足。充值后重新运行 GitHub Actions，即可抓取X公开帖子。";
-    }else if(xStatus.state === "error_cached"){
-      message = "X 接口本次请求失败，当前没有可用缓存。请检查 X Developer Console 的 credits、应用权限和 Token。";
-    }else if(xStatus.state === "cached"){
-      message = "X 正在使用缓存；下一轮定时任务会再次请求。";
-    }
-    notice.innerHTML = `<strong>X来源状态：</strong>${escapeHtml(message)}`;
+  if(dataErrors.length){
+    notice.textContent = "部分免费来源本轮暂时无法访问，其他来源仍正常更新；系统会在下一轮自动重试。";
     notice.classList.add("show");
-  }else if(selectedSource === "全部来源" && dataErrors.length){
-    const hasX402 = dataErrors.some(x => String(x).includes("X: 402"));
-    if(hasX402){
-      notice.innerHTML = "<strong>部分来源提示：</strong>X API 因 credits 不足暂未返回数据；RSS、论文和技术社区内容仍正常更新。";
-      notice.classList.add("show");
-    }
   }
 
-  el("feed").innerHTML = rows.length ? rows.map(a => `
+  el("feed").innerHTML = rows.length ? rows.map(article => `
     <article class="card">
       <div class="meta">
-        <span class="badge">${escapeHtml(a.category || "其他")}</span>
-        <span>${escapeHtml(a.source || "")}</span>
-        <span>·</span><span>${escapeHtml(a.source_type || "")}</span>
-        <span>·</span><span>${formatTime(a.published_at)}</span>
-        <span class="score">相关度 ${Number(a.relevance_score||0)}</span>
+        <span class="badge">${escapeHtml(article.category || "其他")}</span>
+        <span>${escapeHtml(article.source || "")}</span><span>·</span>
+        <span>${escapeHtml(article.source_type || "")}</span><span>·</span>
+        <span>${formatTime(article.published_at)}</span>
+        <span class="score">相关度 ${Number(article.relevance_score||0)}</span>
       </div>
-      <a class="title" href="${escapeHtml(a.url || "#")}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>
-      <p class="summary">${escapeHtml(a.summary || "")}</p>
-      <div class="tags">${(a.tags||[]).slice(0,8).map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join("")}</div>
+      <a class="title" href="${escapeHtml(article.url || "#")}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>
+      <p class="summary">${escapeHtml(article.summary || "")}</p>
+      <div class="tags">${(article.tags||[]).slice(0,8).map(tag=>`<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
     </article>`).join("") : `<div class="empty">没有符合条件的资讯</div>`;
 
-  el("ranking").innerHTML = rows.slice(0,8).map((a,i)=>`
+  el("ranking").innerHTML = rows.slice(0,8).map((article,index)=>`
     <div class="rank-item">
-      <div class="rank-num">${i+1}</div>
+      <div class="rank-num">${index+1}</div>
       <div>
-        <a class="rank-title" href="${escapeHtml(a.url||"#")}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a>
-        <div class="rank-source">${escapeHtml(a.source||"")} · ${Number(a.relevance_score||0)}</div>
+        <a class="rank-title" href="${escapeHtml(article.url||"#")}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>
+        <div class="rank-source">${escapeHtml(article.source||"")} · ${Number(article.relevance_score||0)}</div>
       </div>
     </div>`).join("");
 }
 
 async function loadData(){
   try{
-    const r = await fetch(`data/articles.json?t=${Date.now()}`,{cache:"no-store"});
-    if(!r.ok) throw new Error("data unavailable");
-    const data = await r.json();
-    store = Array.isArray(data.articles) ? data.articles : [];
-    sourceStatus = data.source_status || {};
-    dataErrors = Array.isArray(data.errors) ? data.errors : [];
+    const response = await fetch(`data/articles.json?t=${Date.now()}`,{cache:"no-store"});
+    if(!response.ok) throw new Error("data unavailable");
+    const data = await response.json();
+    store = Array.isArray(data.articles) ? data.articles.filter(item => item.source_type !== "X") : [];
+    dataErrors = Array.isArray(data.errors) ? data.errors.filter(item => !String(item).startsWith("X:")) : [];
     el("updatedAt").textContent = `更新于 ${formatTime(data.updated_at)}`;
-    const xs = sourceStatus.X || {};
-    const isPaymentRequired = String(xs.message || "").includes("402");
-    const labels = {fetched:`X：已抓取 ${xs.count||0} 条`,cached:`X：缓存 ${xs.count||0} 条`,missing_token:"X：待配置密钥",error_cached:isPaymentRequired?"X：余额不足":"X：接口异常",disabled:"X：已关闭"};
-    el("xStatus").textContent = labels[xs.state] || "X：待检测";
-  }catch(err){
+  }catch(error){
     store = fallbackData.articles;
-    sourceStatus = {};
     dataErrors = [];
     el("updatedAt").textContent = "离线预览模式";
-    el("xStatus").textContent = "X：待配置密钥";
   }
   render();
 }
 
-["keyword","category","sourceType","timeRange"].forEach(id=>{
-  el(id).addEventListener(id==="keyword"?"input":"change",render);
-});
+["keyword","category","sourceType","timeRange"].forEach(id=>el(id).addEventListener(id==="keyword"?"input":"change",render));
 el("refreshBtn").addEventListener("click",loadData);
+el("xSearchBtn").addEventListener("click",()=>openXSearch(el("xQuery").value));
+el("xQuery").addEventListener("keydown",event=>{if(event.key==="Enter") openXSearch(event.currentTarget.value);});
+document.querySelectorAll("[data-x-query]").forEach(button=>button.addEventListener("click",()=>openXSearch(button.dataset.xQuery)));
 loadData();
 </script>
 </body>
