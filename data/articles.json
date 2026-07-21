@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T13:37:04.464577+00:00",
+  "updated_at": "2026-07-21T13:50:45.466775+00:00",
   "count": 160,
   "errors": [
     "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+%22large+language+model%22+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+NVIDIA%29&mode=ArtList&format=json&maxrecords=80&sort=HybridRel&timespan=1d",
@@ -278,24 +278,6 @@
       "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sa"
     },
     {
-      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
-      "url": "https://arxiv.org/abs/2607.18199v1",
-      "source": "arXiv",
-      "source_type": "论文",
-      "published_at": "2026-07-20T17:38:38+00:00",
-      "category": "技术研究",
-      "relevance_score": 65,
-      "tags": [
-        "model",
-        "paper",
-        "training",
-        "reasoning",
-        "app",
-        "act"
-      ],
-      "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics,"
-    },
-    {
       "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
       "url": "https://arxiv.org/abs/2607.18127v1",
       "source": "arXiv",
@@ -316,6 +298,24 @@
         "cloud"
       ],
       "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. "
+    },
+    {
+      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+      "url": "https://arxiv.org/abs/2607.18199v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:38:38+00:00",
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "model",
+        "paper",
+        "training",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics,"
     },
     {
       "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
@@ -613,7 +613,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:47:44+00:00",
       "category": "技术研究",
-      "relevance_score": 59,
+      "relevance_score": 58,
       "tags": [
         "benchmark",
         "inference",
@@ -751,7 +751,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:37:57+00:00",
       "category": "技术研究",
-      "relevance_score": 56,
+      "relevance_score": 55,
       "tags": [
         "model",
         "api",
@@ -794,6 +794,21 @@
         "act"
       ],
       "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together wi"
+    },
+    {
+      "title": "Show HN: BlurShield – Automatically blur sensitive info during screen share",
+      "url": "https://chromewebstore.google.com/detail/blurshield-â-prevent-scre/dgpihknippnloandcngnipbponnnlhmd",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:41:21+00:00",
+      "category": "产品应用",
+      "relevance_score": 54,
+      "tags": [
+        "api",
+        "feature",
+        "app"
+      ],
+      "summary": "I Built BlurShield how easy it is to expose email address,Phone No,API Key and other important info. BlurShield is a browser extension which detects and blur the sensitive info automatically. It includes the custom blur options also and also user can keep thei"
     },
     {
       "title": "Show HN: WiFi-LLM",
@@ -888,7 +903,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:38:12+00:00",
       "category": "技术研究",
-      "relevance_score": 53,
+      "relevance_score": 52,
       "tags": [
         "model",
         "github",
@@ -1080,7 +1095,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:45:04+00:00",
       "category": "技术研究",
-      "relevance_score": 50,
+      "relevance_score": 49,
       "tags": [
         "model",
         "paper",
@@ -1095,7 +1110,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:44:57+00:00",
       "category": "技术研究",
-      "relevance_score": 50,
+      "relevance_score": 49,
       "tags": [
         "model",
         "paper",
@@ -1164,6 +1179,19 @@
       "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms i"
     },
     {
+      "title": "TSMC to raise chipmaking prices by up to 10% in 2027, Nikkei Asia reports",
+      "url": "https://www.reuters.com/world/asia-pacific/tsmc-raise-chipmaking-prices-by-up-10-2027-nikkei-asia-reports-2026-07-21/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:48:57+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "chip"
+      ],
+      "summary": "TSMC to raise chipmaking prices by up to 10% in 2027, Nikkei Asia reports"
+    },
+    {
       "title": "Show HN: Maith – open math research with AI",
       "url": "https://github.com/clidey/maith",
       "source": "Hacker News",
@@ -1229,26 +1257,13 @@
       "summary": "Eliminate Dead Air in AI Voice Assistants with Filler Messages"
     },
     {
-      "title": "The year of sustainable indie products",
-      "url": "https://olly.world/the-year-of-sustainable-indie-products",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:18:23+00:00",
-      "category": "产品应用",
-      "relevance_score": 48,
-      "tags": [
-        "product"
-      ],
-      "summary": "The year of sustainable indie products"
-    },
-    {
       "title": "Learning Adaptive Safety Margins for Visual Navigation",
       "url": "https://arxiv.org/abs/2607.18200v1",
       "source": "arXiv",
       "source_type": "论文",
       "published_at": "2026-07-20T17:40:25+00:00",
       "category": "技术研究",
-      "relevance_score": 47,
+      "relevance_score": 46,
       "tags": [
         "dataset",
         "safety"
@@ -1430,17 +1445,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "Most engineers fail behavioral interviews because they prepare wrong. Here's"
-    },
-    {
-      "title": "US banks insulated from AI data centre downturn",
-      "url": "https://www.thebanker.com/content/db39aacf-703b-4fc2-8501-eebb5a831f0a",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:19:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "US banks insulated from AI data centre downturn"
     },
     {
       "title": "Achieving operational excellence with AI",
