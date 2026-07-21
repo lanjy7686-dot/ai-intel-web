@@ -1,12 +1,12 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T16:12:22.063336+00:00",
-  "count": 561,
+  "updated_at": "2026-07-21T16:13:28.657541+00:00",
+  "count": 626,
   "errors": [],
   "freshness_policy": {
     "undated_items": "discarded",
-    "last_24h": 364,
-    "last_72h": 528
+    "last_24h": 400,
+    "last_72h": 593
   },
   "source_status": {
     "X": {
@@ -35,7 +35,7 @@
     },
     "RSS": {
       "state": "fetched",
-      "count": 496
+      "count": 500
     },
     "Reddit": {
       "state": "fetched",
@@ -43,7 +43,7 @@
     },
     "arXiv": {
       "state": "fetched",
-      "count": 0
+      "count": 60
     },
     "Hacker News": {
       "state": "fetched",
@@ -63,11 +63,12 @@
     },
     "来源统计": {
       "技术社区": 60,
-      "新技术": 110,
-      "产业链": 142,
+      "新技术": 111,
+      "产业链": 146,
       "巨头企业": 129,
       "国内资讯": 108,
-      "Reddit": 12
+      "Reddit": 12,
+      "论文": 60
     }
   },
   "articles": [
@@ -579,7 +580,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-21T15:31:41+00:00",
       "author": "arto",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "产品应用",
       "relevance_score": 48,
@@ -1532,6 +1533,21 @@
       "summary": "New Booz Allen Survey Finds Federal Agencies Are Accelerating Agentic AI Adoption Despite Significant Trust and Security Gaps Business Wire"
     },
     {
+      "title": "Google’s ‘Frozen v2’ chip, Claude Fable 5’s math breakthrough and more: Daily Tech and AI Wrap July 21 - financialexpress.com",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYmFlVjUzR1BBLTlyVGlsYVdaTHJJNmFJNVAwNE1zaWJwNW9jQ3hxN3k2TTluVGptRlZ5aEk4eERGdzZFVEg5c2VVMXNucU05RDdIdF8xOW1JZGJpem0tSkRmWldKMTMzekx3Rl9PQ2ZlbDgxS0NCSWlrdXMyT1J5SVJhaWJfT0cxUGRCVUpaLXJNWlYwMzBERVNHc3E4VC1sVk5XdWVPM2pUblM0MHRVSTFtZkVXUmVDNVZVTERfc3VxNno1QUxRWjZHenQ4anNBeFlyWVN2TTJhaHRsZTdIX0tXNGd4cG1CRmfSAfABQVVfeXFMTzBiR0xKQl9MRDJQbDEwaHgtMTNzakdpTXY4UmRGQUVxdHF6d0xRcm9zOFpuVnFoQmtEWUkwQmtoRU5OeEkxd09vZzgxeGRqSnUwdmNwUnBvMHhjWkpYMU1NVUN1b3pUMHdfak9kMWxtSHdsYWgxVi15R21HU19acTBsLXJHNm9uS2NwTDVqYTY3dWNEZDZVRUpvMkpCX3F6WjVlbzMwZms1eGpqNnhWUk1jaHdCQW4zZTljS3FZTnpRTVliclF4RFFCY1hCbmtHeVk0bmI4QXZfby0yMndHLS1qLVFxMzlSY0k4WGVBZ2NW?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-07-21T14:59:22+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "chip"
+      ],
+      "summary": "Google’s ‘Frozen v2’ chip, Claude Fable 5’s math breakthrough and more: Daily Tech and AI Wrap July 21 financialexpress.com"
+    },
+    {
       "title": "Show HN: Weight Scope, watch and modify training of Deep Nets in real-time [video]",
       "url": "https://www.youtube.com/watch?v=7a90eZD68e0",
       "source": "Hacker News",
@@ -1901,6 +1917,19 @@
       "summary": "Harmonic's reasoning model Aristotle achieves gold medal performance on International Math Olympiad Crypto Briefing"
     },
     {
+      "title": "This Is Why I Can’t Stop Buying AMD - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVdIU2JrYkxjU2tXSDlJcmZoSTBsVzI0UzI1NmJMTnRMN0E4WUZlc1UxT21vYnowLUI2VUNPRm4tUE44T1VxczhTX3kydDl1T1dwVnM3c21nNjVDdFk3SFpGVFh5NnBKcmpwYndtYndhcDUxUDBscno1RFF1cm5aM05BZmc?oc=5",
+      "source": "全球AI芯片供应链",
+      "source_type": "产业链",
+      "published_at": "2026-07-21T14:09:24+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "This Is Why I Can’t Stop Buying AMD 24/7 Wall St."
+    },
+    {
       "title": "AI Compute Demand Outpaces IREN’s 480MW Build as $2.8B Contracts Close - Tech Times",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVmJBMG5weW1lOXhPc0hPYl9fYUI5TkRzT1BaeDM1VjFmSnY4bGF0NXpxaFdadHlaYU1pTEJraGloRHVlY1BjcWFIcUw5eXE0dWJkRnpnRmwxMWFSV3kxVlFlVGI1eGhsT2kzeWY0dnpIS2d2REgwczQ0QWZ0OENfdUpGYTVsdEFnV3FtUm93NXNMUklXdjdNNXliNDN0UGxjZWI3SUhUZmJnWXp0U2xGMkdMdUxlRmpTejVJ?oc=5",
       "source": "AI数据中心与能源",
@@ -1929,23 +1958,6 @@
         "data center"
       ],
       "summary": "Time to Power: Sage Geosystems CEO Cindy Taff on Geothermal’s AI Infrastructure Moment Data Center Frontier"
-    },
-    {
-      "title": "Is Intel (INTC) Still Cheap Following AI Partnerships And Earnings Optimism? - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZEdHMkZGX05CeTFEeDY5Ukludl9qbDVPUFlrbUxtSUt6X2d3cnJpZnJHR2NsUVJlRGZIX3lsZ0VScVVHX0g2aTM0Qk5hclNSQ3BfWkllYUFTalBlSEdncGNFQTRqNjE2Y21JQkkxXzZFSndCa2c0WmFkV1oyVmFCaWlWZERNdTh3NDY4dHNkOFVBczF1WllmTDQzT1JXdw?oc=5",
-      "source": "全球AI芯片供应链",
-      "source_type": "产业链",
-      "published_at": "2026-07-21T14:08:11+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 54,
-      "tags": [
-        "earnings",
-        "partnership",
-        "partner"
-      ],
-      "summary": "Is Intel (INTC) Still Cheap Following AI Partnerships And Earnings Optimism? Yahoo Finance"
     },
     {
       "title": "Why Micron Stock Is Jumping Ahead of Google Earnings - Barron's",
@@ -2024,6 +2036,19 @@
       "summary": "Does anyone know the EXACT timing of when NeurIPS reviews are gonna be released? I'm just refreshing openreview all the time and it's stressing me out so much. Thank you for your help. submitted by /u/Anshuman3480 [link] [comments]"
     },
     {
+      "title": "聊会儿AI丨这场世界级的人工智能大会是时代的“刚需” - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02S285ZjN1Vkc2SjVheUpaVGRVOWJrQnVlTkdrTzRPOW1TUlI0ekhrSldyUlR4enRsNE1sMDdCazZOTUNvbzhLa3pUcFE0d3dUdXc0UGszeTlpbGJ1U0NHMkNfTFBFNFJKUWI4QlVZbjdlZVU?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:58:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "聊会儿AI丨这场世界级的人工智能大会是时代的“刚需” 新浪新闻_手机新浪网"
+    },
+    {
       "title": "特朗普首席人工智能安全官员离职 曾参与Anthropic出口管制谈判 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Eck5hUzAxRldqSjg4d0NJWE9LNVBwR1R6R1V0SnVSRGtmb3EwLXJmb1hGMklGZFpYcnh4a051Q1dUVHRMemg0SFEtWQ?oc=5",
       "source": "全球AI巨头动态",
@@ -2037,21 +2062,6 @@
         "安全"
       ],
       "summary": "特朗普首席人工智能安全官员离职 曾参与Anthropic出口管制谈判 新浪财经"
-    },
-    {
-      "title": "Anthropic 15亿美元版权诉讼和解获批，开创AI行业先例 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTSHBpR19PdEE4cG1Tb0xzSVM2UGRsN3MwZkZQYTd6QVhidFJ2eXRZWlpBSDN0QXhvMG14Y295SDlQeFd1WE8tZWVaWS1Ed19oQklOa1h4ckNhTVk0TWFGZV9R?oc=5",
-      "source": "全球AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-21T13:49:16+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 54,
-      "tags": [
-        "版权"
-      ],
-      "summary": "Anthropic 15亿美元版权诉讼和解获批，开创AI行业先例 手机网易网"
     },
     {
       "title": "聚焦人工智能与政务场景深度融合，搭建数字政府建设高端交流平台 - 上观新闻",
@@ -2185,6 +2195,34 @@
       "summary": "安徽发布人工智能专项技能培训政策 央广网"
     },
     {
+      "title": "Anthropic 15亿美元版权诉讼和解获批，开创AI行业先例 - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbTNyazhRZzVrUzhhQVR0RFRlOTkzaXk0eTdwVElJMzkyS3ByRExQUWFFQ01xM3pIWk5nZVk3TVlTTU50anBOYVJ3a3VYNWJjajZxR3JGakgxRXVnVjJpbEZJVmp4OG1vem5LZkkyb0t2Y2pFa0x5NDhDMnBzNkZMZGQ0MG1BWHAw?oc=5",
+      "source": "全球AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-21T13:38:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "政策治理",
+      "relevance_score": 54,
+      "tags": [
+        "版权"
+      ],
+      "summary": "Anthropic 15亿美元版权诉讼和解获批，开创AI行业先例 搜狐网"
+    },
+    {
+      "title": "眺望“AI在一起”的万千气象！《2026中国AI盛典》再次邀你“站在光里” - 中青在线",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JVURPZ09yOS1HaVkybmF1bXgxamh4OWRyZlo4T3NoX0FHSnVyamp3VEh6cFFibC0waVA2N1JiVWNVd3BlYWNSbjlCdTZvSy1TcFNIVjFXdS1qRHNsZVBNSDZHOTdMZG9ZMmNxSm54ejVUS0ZNNjVkaA?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T13:31:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "眺望“AI在一起”的万千气象！《2026中国AI盛典》再次邀你“站在光里” 中青在线"
+    },
+    {
       "title": "央视2026年度AI人物揭晓：10人中6位来自清华 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HWWdWbE9nZ215bFduT2cxM0hUWjRLMWhjS2xEdXpWX1BzM0ptWExSaXdzRUtXQlBaUk5kelg5TnpDRU52Ym1YZG9LbDBmMXgzTG1LYUpEUk1OeW93SE1hZUVvOXhCb0lBdjRuMHZHUS0yTExDVXc?oc=5",
       "source": "中文AI技术开源",
@@ -2211,8 +2249,8 @@
       "summary": "微软牵手Mistral，投入数十亿美元布局欧洲AI算力 新浪网"
     },
     {
-      "title": "SutiSoft Unveils Agentic AI to Redefine Enterprise Operations Through Conversational Intelligence - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWVFLR3BCQXBqMlU0VFc0UnRuMUY1T0FUUkFZaVJHaUFBTFgxVzItdjhkRml3cFJDNldlSUpSdGdsTWZNajJmQVZzdUM4TXg0RmNGQ1FTaHZsTmFiU1l4eG55ak1ENHdVdG05QmVEdGM2cFNkSFU5UF85VDlMUW9jQW1FNjdoS1JjQ2RxMUVrTm4zYTFFaXpobjMyRkFBOFU5UEE?oc=5",
+      "title": "SutiSoft Unveils Agentic AI to Redefine Enterprise Operations Through Conversational Intelligence - Morningstar",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWG1fUHNPS0FRSWpabVJGSkJzRUZKNVJienJjTzRzcVhRMEttLTFrV004S0pyZGVrNUxDdnFiZ083b0Nqd1dXY2hPVnM4cmpSVWRqdmZYdkFOSWNJNzBzWjlSZURvRS1DN0FIN1d5OHdQU0x2X09FTy1RX1owamk2VnhuUzVkVDY0VE5KalpObF9ZdTJtb0hYbVdvQXFlMXRyWC05YUNUWUdGdzMzcEo0ZXQ2d0NRN2xpRUdEYzB6U1FoRS1LbjdieS1tekxDdmV2MlZydGRzNlVHX0hhR0ljZ0VBSm9TbzhJalh2ci14OA?oc=5",
       "source": "前沿模型与智能体技术",
       "source_type": "新技术",
       "published_at": "2026-07-21T13:30:00+00:00",
@@ -2224,7 +2262,7 @@
         "agent",
         "enterprise"
       ],
-      "summary": "SutiSoft Unveils Agentic AI to Redefine Enterprise Operations Through Conversational Intelligence Yahoo Finance"
+      "summary": "SutiSoft Unveils Agentic AI to Redefine Enterprise Operations Through Conversational Intelligence Morningstar"
     },
     {
       "title": "AWS Validates RapidScale's Agentic AI Delivery Expertise - Moomoo",
@@ -2288,20 +2326,19 @@
       "summary": "Intel Jumps 6% on RBC’s Q2 Beat Call, AMD Rises 4%, Broadcom Climbs 3% as Chip Rally Resumes Yahoo Finance"
     },
     {
-      "title": "AI data center boom shifts bottleneck from chips to power - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX1FfWnlmNGtWNlZlck1pU1BlYTlra08xY3FWOU9VR2N4QnJlNU1ZYWRvYnMtUVZjWmJUMjhBNEF1dGFqeHhVbUVHTUVtN25GSnBZVFlWT0s1cDhGQ3RZd2ZLZ2ZfUEQ5a0RKS3lWN3k1akZJYU5VTXNUU1I2RWMxVkVGMmZkbVlqM1JuSFVaME1Mb3JtTENkY2xCVFNMNzdNQ3I0RHk1S05zSE9ndTlpS1dPR0hqSU1MS2c0aE9zVDF4YzN2QUQyOGRKTzk0QzN4ZW5GQ2lrMjRIcmk4RmFnNw?oc=5",
-      "source": "AI数据中心与能源",
+      "title": "Intel Jumps 6% on RBC's Q2 Beat Call, AMD Rises 4%, Broadcom Climbs 3% as Chip Rally Resumes - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbUI5a2pDR2tMcmx3LTRYZ3FUVzVWTHY2MXpGaXZGMkZZaWs5TG80bHJXM2Q4bDFmeDNhMHh6WVVmbmZtOWhkTDhVei1qTVIyV0NjdV9Jc2ZFeHg2UVpRX2duS2ZVOWkxLU9NRzNOYy1mV242UWJkc0EyR3RhUGFsRFR2b2tFTEp3Q2xQZXJqOWZOOTdaRDh5STZhNEROaGs0R21icXZRbVFnNkpzc0p3X19wZUN3eEM1SmFJblhtUUU4TXFodndHckJqVHo3RGs?oc=5",
+      "source": "全球AI芯片供应链",
       "source_type": "产业链",
-      "published_at": "2026-07-21T13:20:29+00:00",
+      "published_at": "2026-07-21T13:21:49+00:00",
       "language": "en",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 48,
       "tags": [
-        "chip",
-        "data center"
+        "chip"
       ],
-      "summary": "AI data center boom shifts bottleneck from chips to power MSN"
+      "summary": "Intel Jumps 6% on RBC's Q2 Beat Call, AMD Rises 4%, Broadcom Climbs 3% as Chip Rally Resumes 24/7 Wall St."
     },
     {
       "title": "Micron Technology, Sandisk, and Western Digital Are Down Big in the Past Month. Is Now the Time to Buy? - Yahoo Finance",
@@ -2561,21 +2598,6 @@
       "summary": "中国银联相关负责人：AI对支付产业的赋能可归纳为三个维度 21财经"
     },
     {
-      "title": "给AI立规矩 中国有三招：向善、共治、开源！ - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QaVRzUGVyQUpCd01HN2ZsamxnNXpnT0J5YVo4d0s0cy0zQXhmNlFnS2xtVmtTSFJWMUZ0VHRKcjU5R2Frand3czlmOEJqQ2VUREhVXzJTeEtUMC1KbW53X29RMGpZamxMd3k2SnpyTzl4MEZzdVE?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T12:52:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "开源"
-      ],
-      "summary": "给AI立规矩 中国有三招：向善、共治、开源！ 新浪新闻_手机新浪网"
-    },
-    {
       "title": "携手构建公正合理的全球人工智能治理体系述评之三_要闻 - 奥一网",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Mdnh3M18wMWVYbzhsYmlPOGlqVnQ3Y1pFdkVLRnpXS2FFcmlHRDJ0SEZSQWI0SER0OTVQejhpUmRJMi1lSFROb2VwVnRZRE1nd3RvSmllbGdoR3A5S1E?oc=5",
       "source": "中文AI新闻聚合",
@@ -2591,7 +2613,7 @@
       "summary": "携手构建公正合理的全球人工智能治理体系述评之三_要闻 奥一网"
     },
     {
-      "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺",
+      "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺财经",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tVWhXZUJacTRkUTcxWmdfd1pkUmU4dTBwV1pULXM5S3FHa2ZtV3lIVDg0Tlpua3MyME9IalNibU9ubGpWVTRrdjlySnZHNDRoQm1DMVh3ZG9yem1FUG4wX0VR?oc=5",
       "source": "中文AI技术开源",
       "source_type": "国内资讯",
@@ -2603,7 +2625,7 @@
       "tags": [
         "发布"
       ],
-      "summary": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 同花顺"
+      "summary": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 同花顺财经"
     },
     {
       "title": "中国宣扬“开放普惠” 与美竞逐AI全球治理主导权 - dw.com",
@@ -2744,17 +2766,21 @@
       "summary": "Avalon GloboCare Announces Strategic Transformation into Agentic AI Software Company; Rebrands as Change Agents Corp. Yahoo Finance Australia"
     },
     {
-      "title": "聊会儿AI丨这场世界级的人工智能大会是时代的“刚需” - 新浪新闻_手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02S285ZjN1Vkc2SjVheUpaVGRVOWJrQnVlTkdrTzRPOW1TUlI0ekhrSldyUlR4enRsNE1sMDdCazZOTUNvbzhLa3pUcFE0d3dUdXc0UGszeTlpbGJ1U0NHMkNfTFBFNFJKUWI4QlVZbjdlZVU?oc=5",
-      "source": "中文AI新闻聚合",
+      "title": "Google要把AI大模型「刻」进芯片里 - 36 Kr",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Ud1U1SU82NWg4dFpCQzNweFJSYVI0b0lHODBPM2dDWkYzTjk5SVk4c2lwY19Xd3dNdXZ3NGx5ckkzQndrUkMwSUFaVTZxUQ?oc=5",
+      "source": "中文AI技术开源",
       "source_type": "国内资讯",
-      "published_at": "2026-07-21T12:28:00+00:00",
+      "published_at": "2026-07-21T12:25:03+00:00",
       "language": "zh",
       "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "聊会儿AI丨这场世界级的人工智能大会是时代的“刚需” 新浪新闻_手机新浪网"
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "模型",
+        "芯片",
+        "大模型"
+      ],
+      "summary": "Google要把AI大模型「刻」进芯片里 36 Kr"
     },
     {
       "title": "Intel layoffs to hit Data Center group — division focused on server CPUs, AI chips, and data center architecture to be hit by an unknown number of cuts - Tom's Hardware",
@@ -2882,19 +2908,22 @@
       "summary": "The frontier of autonomous security: Why agentic AI belongs at the top of your Identity Week America 2026 agenda identityweek.net"
     },
     {
-      "title": "2026世界人工智能大会人工智能国际标准化论坛在沪召开 - 新华网上海频道",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5haW5hVzdSckFnLXhMbmhLOHFlT3BFcVg4M2NKQ1UxQUpFZFYzTEg2X3dQaTZXY004ZmdsUHlPSENUVkhQNjJUMzN2RHFWOEc4QUZ4bmVDRmVBZkJWM1FOdGRIbXIzOTBlVi1XM3FCbWZyTmNz?oc=5",
+      "title": "全球工业人工智能国际合作论坛成功举办，从全球共识到产业落地，多项重磅成果发布 - 新华网上海频道",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96UW5qUTl5TlJLSVZtSml2NUYzOXFrMlJuQ1Z4VC1kcW05c0pvX2FraXpkYVQ5UElFQ3RCcWdTUjhjejV6TmpaY19iR3BQRjV4a3U1aHFNN1B0RmdJbW9MYjhfVXE4Tl9LQ19mejl3bi05S3dN?oc=5",
       "source": "中文AI新闻聚合",
       "source_type": "国内资讯",
-      "published_at": "2026-07-21T12:06:48+00:00",
+      "published_at": "2026-07-21T12:05:34+00:00",
       "language": "zh",
       "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 53,
+      "category": "产品应用",
+      "relevance_score": 62,
       "tags": [
-        "标准"
+        "发布",
+        "落地",
+        "合作",
+        "产业"
       ],
-      "summary": "2026世界人工智能大会人工智能国际标准化论坛在沪召开 新华网上海频道"
+      "summary": "全球工业人工智能国际合作论坛成功举办，从全球共识到产业落地，多项重磅成果发布 新华网上海频道"
     },
     {
       "title": "Scaling the Responsible Adoption of Agentic AI (techUK industry brief) - Wired-Gov",
@@ -3073,6 +3102,21 @@
       "summary": "LWiAI播客：Anthropic发布Opus 4.8并筹备IPO，微软推出MAI模型 手机网易网"
     },
     {
+      "title": "深耕数字丝路，人工智能成为中哈合作新亮点 - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE81c0dDXzJMRlZlRVl0RHVqQ2I1aHhtNnhWMTRMdEdBNzJmN2NHaGZzS3FsajdTOEhPX0FTNWVnaUhPeTIyX1lpUGVUcmdZNkNYa3ZFMEJVR0pXWHN2THZRLXl0QWpjbnI0Sl9vYjdQMzRZY2ppTkE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T11:19:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 53,
+      "tags": [
+        "合作"
+      ],
+      "summary": "深耕数字丝路，人工智能成为中哈合作新亮点 新浪新闻_手机新浪网"
+    },
+    {
       "title": "Microsoft's $7.3B AI Data Center Exposes Escalating GPU Power Grid Crisis - streamlinefeed.co.ke",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNjR0YU1vRWdubExQeENESUFFb0FyYzhFVEdmdFpDQW4zeGFtekd2cDBDeWFDSldNN2haaXFzdDlLcU5nUTNRVU10eHVZTFQ5c2RfZDJCQzZXREoxdWMzdERsQnNEakM3bnlJOFVNNnFZOFZKQW1rWWVEM3Vra09HX0RXLVM1U0dncFVNQkREdzIzZG0tcEdFTEg0N1ZGalJJNGFadlY1SDY?oc=5",
       "source": "AI数据中心与能源",
@@ -3196,21 +3240,6 @@
       "relevance_score": 50,
       "tags": [],
       "summary": "姚班毕业生在OpenAI等AI巨头中占了多大比例？ 新浪网"
-    },
-    {
-      "title": "Taiwan computer chipmaker TSMC pledges another $100 billion to expand U.S. chipmaking capacity - constructconnect.com",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxON2FxaEFQbjdyN2x1WllZdXlWaWc2WGxuT2UwUk1mMUtZNlE3dHA5alJpZXJwRUhldnBvUG4tMWp3UzZmWktXSjByNDBvdktSQlkxXzh2OWRORjRJbUdkc0ctT3BNTGM1UGNwUVdkOGhZSlk5ZEdmUzVnN3pPcEVjZnlNajYwSW5SN2k2S0lzelFUSHE0eUZJMmtMR1o0MzU0NVBuZmZXUUtpc29wbnpsaGNLODdHREROSHNUdEJEcW9OMmJJVEhOWUxha3VrTzlEUTJfY0ZsekpibG9ENVM1NjRfNA?oc=5",
-      "source": "全球AI芯片供应链",
-      "source_type": "产业链",
-      "published_at": "2026-07-21T10:39:50+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 47,
-      "tags": [
-        "chip"
-      ],
-      "summary": "Taiwan computer chipmaker TSMC pledges another $100 billion to expand U.S. chipmaking capacity constructconnect.com"
     },
     {
       "title": "Advancing next-gen AI with materials science innovation",
@@ -3385,6 +3414,19 @@
       "summary": "OpenAI 230美元新键盘售罄，网友用179美元Stream Deck+ DIY平替 手机网易网"
     },
     {
+      "title": "还在计算token成本？OpenAI董事长：AI将转向“按结果付费” - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGcUZiLW9HT2hPQnBfaW13YUJ0YkJmQnJnV1JaT3ZVTTAwdUZQTUo0cnhTcm93LURrVnQ0SDhHRXNOT19GREp6Nw?oc=5",
+      "source": "全球AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-21T10:10:32+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [],
+      "summary": "还在计算token成本？OpenAI董事长：AI将转向“按结果付费” 财联社"
+    },
+    {
       "title": "Bank of America Insanely Bullish on Micron. Sees Shares Rising 83% From Here. - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPY2I2d3hkRkl4eW9yekpuLS0zckZWcWVZV29Vb0Q4d21jczNpckt4aXUtdW0xTHJVY2RzRWVZSEY1aHdpMTRER05iMUN6YjByRXk4VDhvdG04cVlEZEVvQjhzRDlZU01QRUNqVzdpWFdhaWtPNGxUdWVBY1FKQmt4U29leUFjY21hZURqLUdIVFdtZHphTm9ncjhBS24tLW9nVWs0?oc=5",
       "source": "全球AI芯片供应链",
@@ -3485,19 +3527,6 @@
       "summary": "What's Going on With Micron Technology Stock Tuesday? Benzinga"
     },
     {
-      "title": "AI 让梦想照进现实 - 人民日报",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY1ZsWGNWcjIxUWpFMTlUZjUxSnFDR2FzODI3RmpiV0hGcV9aTC1raGhMdWlqLVVGb012U2dIdGVmTnN0RlBzd2FZMWVrU3I1a3RRVUxXX1FkMl9CajhObmY0bmRDVGxRUUdCTEZXeVlHemkyNlB6c3hPRGVhU3d3Uw?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T09:58:32+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "AI 让梦想照进现实 人民日报"
-    },
-    {
       "title": "Scaling Agentic AI in Procurement Is an Organizational Challenge - Boston Consulting Group",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV3NXQlY5TGdzR0JYWVJXSzVuT2JfQ1F1QzZUdURDMU90cklXZjQyUXpuUE4ySzBKMXhHNWh1X0ZWSTc2YWtxd0xhUlR1QzdMWGlVaXQxUVA5cnVaMjkwZmlGVk9VcU1Za09CXy1TclRRMEVGMzRjbmxsM01JaGlELW4yeFVNSmRfX0E?oc=5",
       "source": "前沿模型与智能体技术",
@@ -3528,7 +3557,7 @@
       "summary": "半年公开中标近14亿，智能云领跑AI云市场 新浪网"
     },
     {
-      "title": "Nebius stock surges as Nvidia discloses 9.3% stake in neocloud - CNBC",
+      "title": "Nebius stock surges 13% as Nvidia discloses significant stake in neocloud - CNBC",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Fb1F6MU9MbGJEMzRQd2RrNkdNRTdFeG1KUUdOSW5VVkxiMFcwX2hSNG5zSjRIaF9IcGViNHN2VXE2TzFKY2t3N0h0SVVkWU01UXlsQmlrVDlEbnZpLU11NzA2akRxWkRCaGNFZGs0OVlFS0RtbjRGa2d0b9IBgAFBVV95cUxPRGxHR2FtN0V1LUVmdWJzempQV2I0dl9FdUVRXzBVN0tRbE0xbTRvUnI3RTBMeVppTm0xcmM4M29lQ3pBeG9EUFZSSEtpTG5HUmpEcnk5VWR4Q2pzVmNWb2hqMGtpZ0RXMUdKVXBjSG9ZWDJjMVloelNrTDFuTGNkTQ?oc=5",
       "source": "全球AI芯片供应链",
       "source_type": "产业链",
@@ -3541,7 +3570,7 @@
         "stock",
         "cloud"
       ],
-      "summary": "Nebius stock surges as Nvidia discloses 9.3% stake in neocloud CNBC"
+      "summary": "Nebius stock surges 13% as Nvidia discloses significant stake in neocloud CNBC"
     },
     {
       "title": "OpenAI关闭突破“沙箱”限制的内部强力模型- AI 人工智能 - cnBeta.COM",
@@ -3573,6 +3602,19 @@
         "发布"
       ],
       "summary": "WAIC重磅成果｜上海仪电智算牵头成立“智算系统架构联盟”并发布《超节点系统架构规范》"
+    },
+    {
+      "title": "Physical AI: The Robotic Embodiment of Machine Agency | by Tim Ventura | Jul, 2026 - Medium",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaHNyRDhhR2pUYzZWcHR2TWV2N0kxMnlEY2RQM2QtY3N3c0FjXzZ3cm1tU3dGcl9CU3NkdWRiNTRqVHNYWjY2V0ZjdlFXMXZ2YkJ5RXphTHZ0QThSRFRPMWNJM1k2eEVtNFVROWQzRVIwc3diaXJSNTdFRzgxTHdOeXRiYURCaTVEelFTbGtMSHloZmVLY3BOdl9HOTc?oc=5",
+      "source": "具身智能与机器人",
+      "source_type": "新技术",
+      "published_at": "2026-07-21T09:37:41+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [],
+      "summary": "Physical AI: The Robotic Embodiment of Machine Agency | by Tim Ventura | Jul, 2026 Medium"
     },
     {
       "title": "入画入戏入心——人工智能助力中国传统文化焕发生机 - 新华网客户端",
@@ -3801,19 +3843,6 @@
       "summary": "AI赋能千行百业一线观察｜从世界人工智能大会看端侧AI智能化趋势 新华网"
     },
     {
-      "title": "还在计算token成本？OpenAI董事长：AI将转向“按结果付费” - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGcUZiLW9HT2hPQnBfaW13YUJ0YkJmQnJnV1JaT3ZVTTAwdUZQTUo0cnhTcm93LURrVnQ0SDhHRXNOT19GREp6Nw?oc=5",
-      "source": "全球AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-21T08:51:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 50,
-      "tags": [],
-      "summary": "还在计算token成本？OpenAI董事长：AI将转向“按结果付费” 财联社"
-    },
-    {
       "title": "WAIC 2026重磅：从大模型到智能体，AI产业1.2万亿元背后迎来“新纪元” - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkUUc2VGhLaVo0RFFwSWY1ajgwdVFBUXItN3ZsOHZRb0ZYYzVSNm56MTZrWjJWX2NubHUzLTBFQ1pYcERRazVodXdXcmZWX3ZtU1FhX2kwVGI5YU4yRjdkaXdB?oc=5",
       "source": "中文AI技术开源",
@@ -3875,21 +3904,6 @@
         "chip"
       ],
       "summary": "Exclusive: TSMC to raise chipmaking prices by up to 10% from 2027 Nikkei Asia"
-    },
-    {
-      "title": "Generative Bionics Introduces Gene.01, a Fully Functional Smart-Skin Humanoid Robot Platform Designed for Safe Human Collaboration - Macau Business",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcERfeTl4eWlib2ZNQWFUZ1FEWDNIbzhJQ0tIczV5c3lMNWw4ZDUyUmJHR2t1T2toRjdhendKemhULXE3TjZrZnFPN3dyZmFNYTl2cTBBd1V5eU9qM3ZMOUpkZ1EzVXlwR0NaeDBsRWJ6Z1d1RGpVWDJSWTc4WFBoQzRGUkgzYVpBM1JVM3BaSnRYekc2WE1abldwUHpELV9mYnF4Tl9raXFTcHl0QTg2N0JQV1hlN1dPa01EclhrTkd6akJoVm9YS1BuWWwzcVRzTnNpZFdNa002bkctbHVGTVlCRGtlWDFDOXRXZw?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-21T08:20:55+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 47,
-      "tags": [
-        "platform"
-      ],
-      "summary": "Generative Bionics Introduces Gene.01, a Fully Functional Smart-Skin Humanoid Robot Platform Designed for Safe Human Collaboration Macau Business"
     },
     {
       "title": "专访丨中国推动人工智能全球治理迈向体系化新阶段——访新加坡亚洲数字经济科学院院长陈柏珲 - 新华网",
@@ -4663,6 +4677,21 @@
       "summary": "智谱建成1吉瓦国产芯片AI数据中心 部分运营助力GLM平台开发 观点网"
     },
     {
+      "title": "OpenAI紧急叫停GPT-6！ - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9LS1JnRmxBWG5Kd1FiS3QyT1A2TzJIRzNheXBJU1RiYVk1X2g5RzlhcUhaV01pc2lZNHUzbkVDZFNzSDRFaWwtSEkwdVBEXzlDY3UxY1lR?oc=5",
+      "source": "全球AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-21T02:23:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 51,
+      "tags": [
+        "投资"
+      ],
+      "summary": "OpenAI紧急叫停GPT-6！ 投资界"
+    },
+    {
       "title": "Anthropic 15亿美元版权诉讼和解案获最终批准 - 品玩",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9XbHdSVDd6aGpoUmF4UXVvZXEzWXVCbzI0UXJGYXhnY0ZqclMzZVFmNlVNckw1QkZiaU5NWWNpeG96dG4zQkxtVA?oc=5",
       "source": "全球AI巨头动态",
@@ -4793,19 +4822,6 @@
       "summary": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI NVIDIA Blog"
     },
     {
-      "title": "OpenAI紧急叫停GPT-6！ - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WRDJDcm51U25WdWxxYWpFcHpWaTA2WU1hbHFacWJPcUUzRWtESThDZm5QemJHQmwxdUQxaVowd2tGdWRDMUcwLVRLc0VTdjVUNmYwaWNQbkx2RnBmSGhTX29tQWFlV1FnZHRUWjV1di1yUlRWZzQxSEdYTUtRUEk?oc=5",
-      "source": "全球AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-21T00:37:14+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 48,
-      "tags": [],
-      "summary": "OpenAI紧急叫停GPT-6！ 新浪网"
-    },
-    {
       "title": "南方财经全媒体集团 - 南方财经",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uZElDd0gyNW42emt1TVFHTkRmZG5GVkdMTFdLeE5hQW83QlphUmtUa0Y3TDAwbDVzeG55NEhNcTZrTzNfUG5sQWdsSHlWUnRCdFdsMHppbUd6LVBiU2hzdy1tLXk5Zw?oc=5",
       "source": "中文AI投资融资",
@@ -4840,7 +4856,7 @@
       "language": "en",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 57,
+      "relevance_score": 56,
       "tags": [
         "model",
         "app",
@@ -4950,6 +4966,22 @@
         "ipo"
       ],
       "summary": "Anthropic IPO ：关于Claude缔造者，你需要了解的一些关键信息 TradingKey"
+    },
+    {
+      "title": "AI data center boom shifts bottleneck from chips to power - MSN",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd3NDaVlDQzg3Yy1mVklPV3JvUVdlWVlialc1UlJOcnl6RUlUeWp1Uzhkclp4V2o5RE4tNzlWYkxjQjVYV2VnUi0tUDRBcEV0LXR0LXFrbktQZ1BEM2hTM2JRa20zV2doVVpCc3UtWTBJT3VqTTNXdkI0REl5b3VGSGVxZ0VESmxLSVF5R0JJM2szc3Q3QjBPZE1xTkx4MzVBbDFVUTdzVFFmemxhOE5odUFqLWgtZzNNOVoydkJMb1BjTUJRenJ4bFZxdEZ4enhzU1lKUDloNnlrX2dFSzk1OXRVOG1HNXU2RDlmY0lTSW0?oc=5",
+      "source": "AI数据中心与能源",
+      "source_type": "产业链",
+      "published_at": "2026-07-20T23:41:13+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 47,
+      "tags": [
+        "chip",
+        "data center"
+      ],
+      "summary": "AI data center boom shifts bottleneck from chips to power MSN"
     },
     {
       "title": "Earnings TSMC/ASML/AEHR, State of AI Semis｜The Circuit - finance.biggo.com",
@@ -5198,23 +5230,6 @@
         "company"
       ],
       "summary": "AUUUUUGH | Image: Cath Virginia / The Verge, Getty Images Index funds are touted as one of the safest ways to invest. Rather than picking and choosing individual stocks, index funds let you bet on the market as a whole. So what happens when a company like SpaceX - a giant gamble , and, in my opinion, terribly overprice"
-    },
-    {
-      "title": "Google要把AI大模型「刻」进芯片里 - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Ud1U1SU82NWg4dFpCQzNweFJSYVI0b0lHODBPM2dDWkYzTjk5SVk4c2lwY19Xd3dNdXZ3NGx5ckkzQndrUkMwSUFaVTZxUQ?oc=5",
-      "source": "中文AI技术开源",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-20T21:00:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 56,
-      "tags": [
-        "模型",
-        "芯片",
-        "大模型"
-      ],
-      "summary": "Google要把AI大模型「刻」进芯片里 36 Kr"
     },
     {
       "title": "AI’s most important protocol is getting a little bit easier to use",
@@ -5497,6 +5512,359 @@
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI "
     },
     {
+      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+      "url": "https://arxiv.org/abs/2607.18237v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:59:51+00:00",
+      "author": "Sheng-Yu Wang, Yotam Nitzan, Aaron Hertzmann, Jun-Yan Zhu, Eli Shechtman, Alexei A. Efros, Richard Zhang",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 58,
+      "tags": [
+        "valuation",
+        "model",
+        "benchmark",
+        "dataset",
+        "training",
+        "github"
+      ],
+      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this gap, we introduce a l"
+    },
+    {
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "url": "https://arxiv.org/abs/2607.18236v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:59:41+00:00",
+      "author": "Gaoyue Zhou, Zichen Jeff Cui, Ada Langford, Bowen Tan, Yann LeCun, Lerrel Pinto",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "model",
+        "training",
+        "inference",
+        "github",
+        "robotics",
+        "feature",
+        "policy",
+        "act"
+      ],
+      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial detail and the benefits "
+    },
+    {
+      "title": "Automated Discovery Has No Universally Superior Harness",
+      "url": "https://arxiv.org/abs/2607.18235v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:59:37+00:00",
+      "author": "Akshat Gupta, Jermaine Lei, Alexander Lu, Gopala Anumanchipalli, Leshem Choshen",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 55,
+      "tags": [
+        "model",
+        "release",
+        "act"
+      ],
+      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery runs are expensive "
+    },
+    {
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "url": "https://arxiv.org/abs/2607.18232v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:31+00:00",
+      "author": "Kevin Du, Clara Kümpel, Michelle Wastl, Alex Warstadt",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 67,
+      "tags": [
+        "model",
+        "benchmark",
+        "training",
+        "architecture",
+        "act"
+      ],
+      "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presuppositions, evidentia"
+    },
+    {
+      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+      "url": "https://arxiv.org/abs/2607.18231v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:31+00:00",
+      "author": "Ruicheng Li, Qixiu Li, Ruichun Ma, Yu Deng, Lin Luo, Zhiying Du, Jianfeng Xiang, Huizhi Liang, Ruicheng Wang, Jiaolong Yang, Baining Guo",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 58,
+      "tags": [
+        "model",
+        "inference",
+        "github",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches address this by conditioning on sampled past image frames, but "
+    },
+    {
+      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
+      "url": "https://arxiv.org/abs/2607.18230v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:13+00:00",
+      "author": "Yi Tang, Xinyi Shang, Jiacheng Cui, Sondos Mahmoud Bsharat, Jiacheng Liu, Xiaohan Zhao, Tran Dinh Tien, Ahmed Elhagry, Salwa K. Al Khatib, Tianjun Yao, Yonina C. Eldar, Jing-Hao Xue, Hao Li, Salman Khan, Zhiqiang Shen",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 58,
+      "tags": [
+        "model",
+        "training",
+        "github",
+        "act"
+      ],
+      "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level image tampering detect"
+    },
+    {
+      "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
+      "url": "https://arxiv.org/abs/2607.18228v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:05+00:00",
+      "author": "Brian K Chen",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 55,
+      "tags": [
+        "model",
+        "benchmark",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the behavior they induce across controlled variations in logical fo"
+    },
+    {
+      "title": "Causal Discovery on Irregular Time Series",
+      "url": "https://arxiv.org/abs/2607.18226v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:57:45+00:00",
+      "author": "Martim Penim, Ricardo Ribeiro Pereira, Jacopo Bono, Hugo Ferreira, Mário A. T. Figueiredo, Pedro Bizarro",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 49,
+      "tags": [
+        "model",
+        "app",
+        "act"
+      ],
+      "summary": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly sampled streams of events, such as sensor streams, healthcar"
+    },
+    {
+      "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+      "url": "https://arxiv.org/abs/2607.18225v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:57:20+00:00",
+      "author": "Masahiro Kato, Taka Kato",
+      "date_verified": true,
+      "category": "政策治理",
+      "relevance_score": 49,
+      "tags": [
+        "inference",
+        "policy",
+        "act"
+      ],
+      "summary": "We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring evidence in an embedding space, the generator estimates condi"
+    },
+    {
+      "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+      "url": "https://arxiv.org/abs/2607.18218v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:52:33+00:00",
+      "author": "Naoto Usuyama, Jeya Maria Jose Valanarasu, Sicong Yao, Hanwen Xu, Jaspreet Bagga, Guanghui Qin, Robert E. Kramer, Cliff Wong, Soohee Lee, Hao Qiu, Theodore Zhengde Zhao, Racheli Ben Shimol, Angela Crabtree, Kevin Matlock, Eduardo Alejandro Lozano Garcia, Naiteek Sangani, Alberto Santamaria-Pang, Jason Entenmann, Alexandra Q. Bartlett, Bill J. Wright, Bernard A. Fox, Brian Piening, Sheng Zhang, Sheng Wang, Tristan Naumann, Carlo Bifulco, Hoifung Poon",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 58,
+      "tags": [
+        "model",
+        "research",
+        "architecture",
+        "gpu",
+        "app",
+        "act"
+      ],
+      "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spans diverse data sour"
+    },
+    {
+      "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+      "url": "https://arxiv.org/abs/2607.18213v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:47:44+00:00",
+      "author": "Yuhang Wang, Yuling Shi, Shaoqiu Zhang, Jialiang Liang, Shilin He, Siyu Ye, Yuting Chen, Kai Cai, Xiaodong Gu",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 58,
+      "tags": [
+        "benchmark",
+        "inference",
+        "agent",
+        "tool"
+      ],
+      "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal representations indicating the relevance of code context when rea"
+    },
+    {
+      "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
+      "url": "https://arxiv.org/abs/2607.18210v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:45:04+00:00",
+      "author": "Juraj Gavura, Igor Farkaš",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 49,
+      "tags": [
+        "model",
+        "paper",
+        "app"
+      ],
+      "summary": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful grasping. In our previous w"
+    },
+    {
+      "title": "Unveiling Invariant and Transferable Latent Factors Across Heterogeneous Environments via ATLAS",
+      "url": "https://arxiv.org/abs/2607.18209v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:44:57+00:00",
+      "author": "Yihong Gu, Katherine Liao, Tianxi Cai",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 49,
+      "tags": [
+        "model",
+        "paper",
+        "act"
+      ],
+      "summary": "This paper considers a multi-environment factor model in which high-dimensional covariates are collected from heterogeneous environments, with auxiliary labels available in a subset of these environments. The joint distribution of the covariates may vary across environments, whereas the latent structure is decomposed i"
+    },
+    {
+      "title": "Learning Adaptive Safety Margins for Visual Navigation",
+      "url": "https://arxiv.org/abs/2607.18200v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:40:25+00:00",
+      "author": "Junyi Hu, Shuaihang Yuan, Geeta Chandra Raju Bethala, Anthony Tzes, Yi Fang",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 46,
+      "tags": [
+        "dataset",
+        "safety"
+      ],
+      "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based planners propose diver"
+    },
+    {
+      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+      "url": "https://arxiv.org/abs/2607.18199v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:38:38+00:00",
+      "author": "Hang Zhang, Warren J. Gross",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "model",
+        "paper",
+        "training",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics, such as data quality, diversity or reasoning trace length. "
+    },
+    {
+      "title": "Three-Body Scattering for Generative Modeling",
+      "url": "https://arxiv.org/abs/2607.18198v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:38:12+00:00",
+      "author": "Peng Sun, Zhenglin Cheng, Deyuan Liu, Jun Xie, Xinyi Shang, Tao Lin",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 52,
+      "tags": [
+        "model",
+        "github",
+        "feature",
+        "act"
+      ],
+      "summary": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision for a one-step generator. Three-Body Scattering Modeling (T"
+    },
+    {
+      "title": "Imitation of Arm Gestures by the Semi-Humanoid Robot NICO",
+      "url": "https://arxiv.org/abs/2607.18197v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:37:57+00:00",
+      "author": "Anastasiya Ihnatovich, Igor Farkaš",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 55,
+      "tags": [
+        "model",
+        "api",
+        "feature",
+        "app",
+        "act"
+      ],
+      "summary": "Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this work, we develop a system for imitation of human arm gestures by the se"
+    },
+    {
+      "title": "Certified Training for Convolutional Perturbations",
+      "url": "https://arxiv.org/abs/2607.18195v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:36:05+00:00",
+      "author": "Benedikt Brückner, Alessio Lomuscio",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 52,
+      "tags": [
+        "model",
+        "training",
+        "app",
+        "safety"
+      ],
+      "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for example an object detector missing objects. While methods such a"
+    },
+    {
+      "title": "EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database",
+      "url": "https://arxiv.org/abs/2607.18187v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:26:21+00:00",
+      "author": "Kaiyuan Tang, Maizhe Yang, Chaoli Wang",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 61,
+      "tags": [
+        "model",
+        "dataset",
+        "training",
+        "inference",
+        "github",
+        "feature",
+        "act"
+      ],
+      "summary": "Large-scale scientific simulations generate volumetric data at rates that far outpace advances in storage and network bandwidth, making effective lossy compression increasingly critical. However, conventional compressors often struggle to preserve fine structural details at high compression ratios (CRs), and implicit n"
+    },
+    {
       "title": "Custom OS installation now available on AWS DeepRacer devices",
       "url": "https://aws.amazon.com/blogs/machine-learning/custom-os-installation-now-available-on-aws-deepracer-devices/",
       "source": "AWS Artificial Intelligence",
@@ -5536,6 +5904,25 @@
       "summary": "AI company hit by hack entirely carried out by artificial intelligence inkl"
     },
     {
+      "title": "VEHBench: A Stage-Local Diagnostic Benchmark for LLM-Assisted Vibration Energy Harvester Design",
+      "url": "https://arxiv.org/abs/2607.18181v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:17:05+00:00",
+      "author": "Depeng Su, Yuyu Luo, Guobiao Hu",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 61,
+      "tags": [
+        "model",
+        "benchmark",
+        "dataset",
+        "policy",
+        "act"
+      ],
+      "summary": "Battery-free Internet of Things (IoT) requires iterative design of vibration energy harvesters (VEHs) under coupled physical constraints, while LLMs are emerging as interface layers for engineering workflows. However, existing engineering benchmarks primarily assess final artifact validity, offering limited insights in"
+    },
+    {
       "title": "Exploring continual learning without replay buffers: Our findings using dynamic task-similarity routing [P]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1v1rmbb/exploring_continual_learning_without_replay/",
       "source": "Reddit · r/MachineLearning",
@@ -5559,6 +5946,29 @@
       "summary": "Hi, I’ve been doing some work in the continual learning space and wanted to share an open-source framework we put together called Coincidex, along with some architectural insights and failure modes we found along the way. Most conventional approaches to sequential task learning rely heavily on replay buffers (which int"
     },
     {
+      "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+      "url": "https://arxiv.org/abs/2607.18171v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:12:28+00:00",
+      "author": "Krish Agarwal, Zhuoming Chen, Yanyuan Qin, Zhenyu Gu, Atri Rudra, Beidi Chen",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 77,
+      "tags": [
+        "model",
+        "benchmark",
+        "inference",
+        "agent",
+        "multimodal",
+        "gpu",
+        "app",
+        "platform",
+        "act"
+      ],
+      "summary": "Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. Existing serving systems and auto-parallelism compilers comm"
+    },
+    {
       "title": "Apply for Anthropic’s AI for Science rare disease research grants - Anthropic",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1STEpkV0VLajlBMFFERkROS2RUVTBjUXJseDctQWhpdFZ2dXRyd0paRTRneTRKMU5XdzBaSjVZeUpiOGQxM3liVzVDNGNUT1NRc1ViMjJqX3ZWYTJBejNPUUZNZXhZa0dkaGk0?oc=5",
       "source": "AI for Science",
@@ -5573,6 +5983,75 @@
         "app"
       ],
       "summary": "Apply for Anthropic’s AI for Science rare disease research grants Anthropic"
+    },
+    {
+      "title": "A Continual Validation, Updating, and Decision-Making Framework for Self-Adaptive Digital Twins via Robust Model Predictive Control: A Case Study in Additive Manufacturing",
+      "url": "https://arxiv.org/abs/2607.18164v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:07:41+00:00",
+      "author": "Yi-Ping Chen, Ying-Kuan Tsai, Vispi Karkaria, Seul Lee, Daniel Apley, Wei Chen",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 49,
+      "tags": [
+        "model",
+        "app",
+        "act"
+      ],
+      "summary": "Digital Twins rely on surrogate models to mirror physical systems in real time, yet these models can degrade as operating conditions evolve, a phenomenon known as concept drift. Maintaining surrogate fidelity under drift, particularly when models must also capture aleatoric uncertainty, remains an open challenge. Exist"
+    },
+    {
+      "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
+      "url": "https://arxiv.org/abs/2607.18163v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:07:40+00:00",
+      "author": "Chinmay Rane, Kanishka Tyagi, Michael Manry",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "model",
+        "training",
+        "policy",
+        "act"
+      ],
+      "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful alternative for large language model post-training. PPO-OR "
+    },
+    {
+      "title": "The Calibration Channel Determines the Bayes-Error Proxy: An Exact Law for Temperature-Induced Distortion",
+      "url": "https://arxiv.org/abs/2607.18162v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:07:26+00:00",
+      "author": "Shreyas Pradeepkumar Khandale",
+      "date_verified": true,
+      "category": "政策治理",
+      "relevance_score": 49,
+      "tags": [
+        "model",
+        "law",
+        "act"
+      ],
+      "summary": "The soft-label Bayes-error estimator beta(z) = E[min(z, 1-z)] of Ishida et al. estimates the irreducible error of a binary task directly from probability-valued labels. Recent work by Ushio et al. showed that this estimator is fragile when the probabilities are not the true posterior: even perfectly calibrated soft lab"
+    },
+    {
+      "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
+      "url": "https://arxiv.org/abs/2607.18161v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:06:19+00:00",
+      "author": "Alex Mathai, Shobini Iyer, Aleksandr Nogikh, Petros Maniatis, Franjo Ivancic, Junfeng Yang, Baishakhi Ray",
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 49,
+      "tags": [
+        "agent",
+        "assistant",
+        "app"
+      ],
+      "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose than the corresponding human-written implementation. In thi"
     },
     {
       "title": "Build specialized agent workflows for your business with Amazon Quick and NVIDIA NeMo Agent Toolkit",
@@ -5663,6 +6142,25 @@
       "summary": "The Self-Driving Company Is AI’s Next Business Model. Forbes"
     },
     {
+      "title": "World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation",
+      "url": "https://arxiv.org/abs/2607.18154v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:52:58+00:00",
+      "author": "Xinchen Yao, Leixin Chang, Hua Chen",
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 55,
+      "tags": [
+        "model",
+        "feature",
+        "platform",
+        "policy",
+        "act"
+      ],
+      "summary": "The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more realistic digital world. Learned dynamics models are their domina"
+    },
+    {
       "title": "直击WAIC 2026：大模型迈入万亿参数时代 国产AI超节点上演“群雄逐鹿” - 东方财富",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85dVBOM0V2WHhUWW04eTZjZWtJSmFiRVhrMHkxR2pRRjNRZWE1MjhtTV9aRk5ETGdmbDhhZFppc0JsRE5pSm1aN1NSYmpKaVlxNmxYTzlRS3g3MWs2OFJuSg?oc=5",
       "source": "中文AI技术开源",
@@ -5679,6 +6177,88 @@
       "summary": "直击WAIC 2026：大模型迈入万亿参数时代 国产AI超节点上演“群雄逐鹿” 东方财富"
     },
     {
+      "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+      "url": "https://arxiv.org/abs/2607.18149v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:49:30+00:00",
+      "author": "Shyamal Y. Dharia, Stephen D. Smith, Camilo E. Valderrama",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 67,
+      "tags": [
+        "invest",
+        "model",
+        "dataset",
+        "inference",
+        "architecture",
+        "github",
+        "act"
+      ],
+      "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boolean circuits executable via bitwise CPU operations. Through r"
+    },
+    {
+      "title": "Totally Positive Matrices and the Highest-Order Coefficients of the Characteristic Polynomial",
+      "url": "https://arxiv.org/abs/2607.18148v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:48:24+00:00",
+      "author": "Tiago Closs, Leandro Farina",
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 55,
+      "tags": [
+        "invest",
+        "dataset",
+        "product",
+        "feature",
+        "act"
+      ],
+      "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together with feature-attribution methods. Using datasets built from se"
+    },
+    {
+      "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
+      "url": "https://arxiv.org/abs/2607.18147v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:45:13+00:00",
+      "author": "Daniela Rojas, Abdulwahab Albassam, Aidan G. Leung, Jett Ngo, Ryan Luo, Peter R. Quawas, Junpyung Kim, Kangkai Liang, Mansi Nanavati, Jonathan Mai, Meng-Chi Tsai, Yun-Tong Tsai, Yize Chen, Yuanyuan Shi",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 76,
+      "tags": [
+        "valuation",
+        "model",
+        "paper",
+        "architecture",
+        "agent",
+        "app",
+        "tool",
+        "act"
+      ],
+      "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control, wrapping trusted solvers behind language interfaces and orc"
+    },
+    {
+      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
+      "url": "https://arxiv.org/abs/2607.18144v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:43:54+00:00",
+      "author": "Thomas MacDougall, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Maxim Malkov, Vladimir Aladinskiy, Alex Aliper, Alex Zhavoronkov",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "valuation",
+        "model",
+        "benchmark",
+        "api",
+        "app",
+        "act"
+      ],
+      "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule generation, LLM-based methods are rapidly emerging in molec"
+    },
+    {
       "title": "WAIC 上那个 “ 埋头造铲子 ” 的摩尔线程，才是真狠人 - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1Zy0yVG5kSHlwZXEzSm9GOWJEd3hyNXdwbXFWQWstekVuZEFRNkxsNk1fd0gwVFh4RWJyNXFDeU0zUXU1TVp5UHJNeUp0dnVwNktFbzdnZXR3a3dxUW43YnNR?oc=5",
       "source": "中国算力芯片产业链",
@@ -5690,6 +6270,45 @@
       "relevance_score": 40,
       "tags": [],
       "summary": "WAIC 上那个 “ 埋头造铲子 ” 的摩尔线程，才是真狠人 手机网易网"
+    },
+    {
+      "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
+      "url": "https://arxiv.org/abs/2607.18142v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:36:00+00:00",
+      "author": "Mei Yuan, Qi Long, Qifeng Wu, Zhenyang Li, Yizhou Zhao, Lei Wang, Yang Liu, Min Xu",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 61,
+      "tags": [
+        "dataset",
+        "training",
+        "inference",
+        "agent",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and events in an industrial process, which is crucial for modern manufacturing and quality control systems. Existing VLM-based anomaly reasoning methods are capable of detecting open-ended anomalies in general domains. However, their performan"
+    },
+    {
+      "title": "Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds",
+      "url": "https://arxiv.org/abs/2607.18135v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:27:56+00:00",
+      "author": "Jordan Dowdy, Jean Chagas Vaz",
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 58,
+      "tags": [
+        "training",
+        "app",
+        "tool",
+        "policy"
+      ],
+      "summary": "Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a high-performance simulation tool, providing a controlled and ef"
     },
     {
       "title": "Training a harness for model-agnostic and task-environment-agnostic capability improvements with PyTorch-like framework [P]",
@@ -5712,6 +6331,225 @@
         "app"
       ],
       "summary": "I worked on this project ( https://github.com/workofart/harness-training ) for the past few months to reframe \"Agent-driven Self-improving Harness\" to \"Harness Training\". The idea is simple, the harness is trained once with a frozen task LLM against a given task environment. Then you can then swap out the task LLM to a"
+    },
+    {
+      "title": "Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning",
+      "url": "https://arxiv.org/abs/2607.18130v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:24:17+00:00",
+      "author": "Valentijn Oldenburg, Floris de Kam, Bente Zuijdam, Lieve Eberson, Nicky van Zutphen, Stef de Wildt, Ivo Verhoeven",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 61,
+      "tags": [
+        "invest",
+        "model",
+        "benchmark",
+        "paper",
+        "training",
+        "app",
+        "act"
+      ],
+      "summary": "Most parameter-efficient finetuning (PEFT) methods adapt weights or activations, thus leaving one of the key Transformer components unchanged: residual connections. This paper investigates Manifold-Constrained Hyper-Connections (mHC), a generalisation of residual connections, as a novel PEFT approach, wrapping frozen O"
+    },
+    {
+      "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
+      "url": "https://arxiv.org/abs/2607.18127v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:20:26+00:00",
+      "author": "Thu T. H. Doan, Mohammad Saiful Islam, Andriy Miranskyy, Ngoc-Thanh Nguyen, Rogardt Heldal, Patrizio Pelliccione",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 65,
+      "tags": [
+        "model",
+        "benchmark",
+        "dataset",
+        "api",
+        "release",
+        "feature",
+        "app",
+        "platform",
+        "act",
+        "cloud"
+      ],
+      "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. Modern LCSs continuously generate telemetry logs from distri"
+    },
+    {
+      "title": "COVAriance-Induced Fairness Gap Penalty for Subgroup-Fair Clustering",
+      "url": "https://arxiv.org/abs/2607.18119v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:14:13+00:00",
+      "author": "Kyungseon Lee, Hankyo Jeong, Kunwoong Kim, Kwanho Lee, Yongdai Kim",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 49,
+      "tags": [
+        "benchmark",
+        "dataset",
+        "act"
+      ],
+      "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms is computationally expensive or numerically unstable, especia"
+    },
+    {
+      "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
+      "url": "https://arxiv.org/abs/2607.18116v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:11:19+00:00",
+      "author": "Lopez Jhon, Hinojosa Carlos, Ghanem Bernard",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "model",
+        "benchmark",
+        "agent",
+        "app",
+        "act"
+      ],
+      "summary": "Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial correctness and visual legibility remains challenging, as existing frameworks emphasize pedagogical content while overlooking geometric occlusions. We propos"
+    },
+    {
+      "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
+      "url": "https://arxiv.org/abs/2607.18114v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:10:06+00:00",
+      "author": "Prakhar Gupta, Terry Jingchen Zhang, Florent Draye, Bernhard Schölkopf, Zhijing Jin",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "model",
+        "dataset",
+        "training",
+        "assistant",
+        "tool",
+        "law",
+        "act"
+      ],
+      "summary": "Modern LLMs are alarmingly susceptible to surprisingly simple immaterial changes of input prompts: a casual hint, an incorrectly labeled few-shot example, or a fake prior assistant turn often flips an originally correct answer. We study where this susceptibility, spanning sycophancy and related cue-induced biases, live"
+    },
+    {
+      "title": "LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks",
+      "url": "https://arxiv.org/abs/2607.18110v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:08:49+00:00",
+      "author": "Tianzhu Ye, Li Dong, Guanheng Chen, He Zhu, Xun Wu, Shaohan Huang, Furu Wei",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "valuation",
+        "model",
+        "training",
+        "policy"
+      ],
+      "summary": "Reinforcement learning (RL) on open-ended tasks compresses an LLM's rubric-based evaluation into a scalar reward, discarding rich textual feedback and conflating responses with distinct quality profiles. We propose Experiential Learning (EL), which repurposes the feedback model from an LLM-as-a-Judge into an LLM-as-a-C"
+    },
+    {
+      "title": "Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2607.18106v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:07:20+00:00",
+      "author": "Hailey Warner, Duncan Eddy, Shreya Parjan, Caroline Cahilly, Harrison Delecki, Matthias Kleinstauber, Chaitanya Shinde, Jerry Lopez, Mykel J. Kochenderfer",
+      "date_verified": true,
+      "category": "政策治理",
+      "relevance_score": 51,
+      "tags": [
+        "model",
+        "app",
+        "law",
+        "act"
+      ],
+      "summary": "Methods for discovering rare failures in autonomous systems have so far been demonstrated almost exclusively in simulations with simple, academic driving stacks, leaving open whether they generalize to the more robust planners used in commercial systems. We address this gap by applying two rare-event discovery algorith"
+    },
+    {
+      "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+      "url": "https://arxiv.org/abs/2607.18102v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:03:15+00:00",
+      "author": "Jijun Chi, Zhenghan Tai, Hanwei Wu, Tung Sum Thomas Kwok, Hailin He, Zixing Liao, Bohuai Xiao, Chaolong Jiang, Jianliang Lei, Jerry Huang, Peng Lu, Muzhi Li, Liheng Ma, Yihong Wu, Sicheng Lyu, Jingrui Tian, Yihan Li, Yanzhang Ma, Dingtao Hu, Yufei Cui, Ling Zhou, Lei Ding, Xinyu Wang",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "model",
+        "benchmark",
+        "agent",
+        "feature"
+      ],
+      "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval queries directly from"
+    },
+    {
+      "title": "Empowering On-Device Model Adaptation with an Edge AI Inference Accelerator",
+      "url": "https://arxiv.org/abs/2607.18101v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:02:58+00:00",
+      "author": "Mateusz Piechocki, Alessandro Capotondi, Marek Kraft",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "model",
+        "dataset",
+        "training",
+        "inference",
+        "architecture",
+        "github",
+        "feature",
+        "app",
+        "act"
+      ],
+      "summary": "On-device model adaptation is essential to enable lifelong personalization on resource-constrained hardware, but compute, power, and memory limitations of such devices make end-to-end backpropagation impractical for modern deep neural networks. This work proposes a heterogeneous adaptation pipeline that repurposes a co"
+    },
+    {
+      "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
+      "url": "https://arxiv.org/abs/2607.18100v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:01:57+00:00",
+      "author": "Sheldon Yu, Tong Yu, Xunyi Jiang, Rohan Surana, Gagan Mundada, Sungchul Kim, Lina Yao, Julian McAuley, Junda Wu",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "invest",
+        "model",
+        "inference",
+        "api",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Extended reasoning has become standard for frontier Large Language Models (LLMs), yet the trajectories these models produce remain largely uncontrollable. Existing methods for shaping how a model reasons are prompt based approaches and operate at the input level, offering no fine-grained control over the reasoning proc"
+    },
+    {
+      "title": "VDAR-Router: Adaptive LLMs Routing via Verbalized Query Difficulty Analysis Retrieval",
+      "url": "https://arxiv.org/abs/2607.18098v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:00:45+00:00",
+      "author": "Yu-Chien Tang, Jun-Chen Hung, Wen-Chih Peng, An-Zi Yen",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "model",
+        "dataset",
+        "training",
+        "app",
+        "act"
+      ],
+      "summary": "Large language models are increasingly used in practical systems, making efficient model selection important for reducing deployment cost. LLM routing has emerged as a practical solution for allocating each input query to an appropriate model under a desired cost-performance trade-off. Existing routing methods often es"
     },
     {
       "title": "Adobe’s ‘natural look’ camera app embraces generative AI",
@@ -5761,6 +6599,183 @@
       "summary": "Introducing Cosmos 3 Edge"
     },
     {
+      "title": "SciForma: Structure-Faithful Generation of Scientific Diagrams",
+      "url": "https://arxiv.org/abs/2607.18091v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:55:33+00:00",
+      "author": "Yuxuan Luo, Peng Zhang, Xinjie Zhang, Xun Guo, Zhouhui Lian, Yan Lu",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "valuation",
+        "model",
+        "research",
+        "training",
+        "inference",
+        "github"
+      ],
+      "summary": "Structural fidelity is essential to scientific methodology diagrams. To communicate research logic, these diagrams must faithfully render components, directional relations, and textual annotations. Since a single error, such as a reversed arrow or an unreadable equation, can invalidate the entire figure, structural fid"
+    },
+    {
+      "title": "The Label Complexity of Class-Conditional Coverage under Distribution Shift",
+      "url": "https://arxiv.org/abs/2607.18088v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:54:45+00:00",
+      "author": "Weijia Han, Lisha Qu",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "valuation",
+        "benchmark",
+        "training",
+        "inference",
+        "app",
+        "law",
+        "act"
+      ],
+      "summary": "Standard evaluation of many recognition systems contains distribution shift by construction, since benchmarks place disjoint conditions in the training and test splits. Under such a shift, split conformal prediction keeps marginal coverage near the nominal level while per-class coverage fails silently: on a real cross-"
+    },
+    {
+      "title": "Judge-dependent safety gains and model-specific helpfulness costs of evidence-sufficiency prompting in clinical LLMs",
+      "url": "https://arxiv.org/abs/2607.18086v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:53:02+00:00",
+      "author": "Koyar Afrasyab",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "model",
+        "benchmark",
+        "app",
+        "act",
+        "safety"
+      ],
+      "summary": "Background: LLM judges increasingly score whether clinical language models give overconfident answers under incomplete evidence, yet whether a measured \"safety gain\" reflects real behavior change or the judge's calibration is unresolved. Using a structured evidence-sufficiency prompt as a test case, we asked whether it"
+    },
+    {
+      "title": "WorldCupArena: Fine-Grained Evaluation of Language Models and Deep-Research Agents on Football Forecasting",
+      "url": "https://arxiv.org/abs/2607.18084v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:52:48+00:00",
+      "author": "Zhaokai Wang, Tianlin Gui, Jiayuan Rao, Shangzhe Di, Yihong Tang, Dingli Liang",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "valuation",
+        "model",
+        "benchmark",
+        "research",
+        "open source",
+        "github",
+        "agent",
+        "act",
+        "market"
+      ],
+      "summary": "Predicting a football match before kickoff requires more than knowing past results: a model must use changing information and make a clear prediction before the answer is available. We present WorldCupArena, a dynamic benchmark for language models and deep-research agents. The 2026 FIFA World Cup is its first evaluatio"
+    },
+    {
+      "title": "Enhancing Rubric-based RL via Self-Distillation",
+      "url": "https://arxiv.org/abs/2607.18082v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:50:02+00:00",
+      "author": "Mingxuan Xia, Yuhang Yang, Chao Ye, Shuai Zhu, Shenzhi Yang, Guangcheng Zhu, Yuhang Zhang, Cheng Peng, Haobo Wang, Siqing Wang",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "ipo",
+        "benchmark",
+        "training",
+        "inference",
+        "app",
+        "policy",
+        "act"
+      ],
+      "summary": "Rubric-based RL has recently shown promise in improving LLMs on open-ended tasks. A widely recognized limitation of rubric-based RL is limited exploration: criteria that no rollout manages to satisfy (Unexplored Criteria, UC) receive no optimization signal. Recent methods address this by incorporating rubric informatio"
+    },
+    {
+      "title": "SelectInfer: Selective Neuron Loading and Computation for On-Device LLMs",
+      "url": "https://arxiv.org/abs/2607.18081v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:48:33+00:00",
+      "author": "Huzaifa Shaaban Kabakibo, Eric Schniedermeyer, Artem Burchanow, Lin Wang",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "valuation",
+        "model",
+        "dataset",
+        "training",
+        "inference",
+        "app",
+        "act"
+      ],
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a range of Natural Language Processing (NLP) tasks, but their high computational and memory demands pose significant challenges for deployment on resource-constrained edge devices. Existing approaches to model compression and optimization oft"
+    },
+    {
+      "title": "Sparse Evidence Can Suffice: Agentic Evidence Seeking for Multimodal Video Misinformation Detection",
+      "url": "https://arxiv.org/abs/2607.18080v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:48:31+00:00",
+      "author": "Haochen Zhao, Yongxiu Xu, Xinkui Lin, Dong Xie, Jiarui Lu, Yuqi Qian, Yubin Wang, Hongbo Xu, Gaopeng Gou",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "acquisition",
+        "benchmark",
+        "agent",
+        "multimodal",
+        "reasoning",
+        "act"
+      ],
+      "summary": "Multimodal video misinformation detection is commonly formulated as a holistic video-understanding task, where the entire video and its associated content are processed and judged in a single pass. However, real-world misinformation often exhibits a sparse and compositional evidence structure: a reliable decision may d"
+    },
+    {
+      "title": "Generalised Bellman recurrence and three dualities in sequential decision-making",
+      "url": "https://arxiv.org/abs/2607.18077v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:46:19+00:00",
+      "author": "Fernando E. Rosas, David Hyland, Daniel Polani",
+      "date_verified": true,
+      "category": "政策治理",
+      "relevance_score": 48,
+      "tags": [
+        "act"
+      ],
+      "summary": "What gives the Bellman equation its form? We show that the recursive properties of optimal value functions follow from three conditions: that the dynamics decomposes through sufficient statistics, that the return decomposes recursively, and that the aggregation of uncertainty is compatible with both. When all three con"
+    },
+    {
+      "title": "Modeling turn-taking with distant viewing: investigating silence thresholds in human and AI-generated discourse",
+      "url": "https://arxiv.org/abs/2607.18076v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:46:06+00:00",
+      "author": "Taylor Arnold, Nicolas Ballier, Artem Saloev",
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 48,
+      "tags": [
+        "invest",
+        "model",
+        "product"
+      ],
+      "summary": "This study investigates silence gaps in two kinds of audiovisual material. We analysed thirty US situational comedies and fifty-one synthetic podcasts generated with Google NotebookLM. Gaps were compared across speaker gender, assigned from a fundamental-frequency threshold estimated in Praat, and across production set"
+    },
+    {
       "title": "Unitree Robotics Unveils UnifoLM-OmniA-0.3 Model to Drive Humanoid in Home and Healthcare Care - Techiexpert.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObU8yaDRreDktNmZmdklaMHpzNWxTdVBUQjctNldoVHlLd3hXdEdUV2pUWTl1RkxoNTMyc0VRVG95cEdlSXRJblNCNkgwOE55cmpsSWZKblF1TnJfLWdXQlFxUUc3MkN0czhUd1M5R0ItNUNObDZhR2JERW9DTjUydE5veUhOR29XN01nRUp4eHBxMkJGLVkweWJrTW82YTVaUUN2VVpsb2VEOXFRLWkxNmU2UW9EM21WRFZz?oc=5",
       "source": "具身智能与机器人",
@@ -5793,6 +6808,102 @@
       "summary": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app."
     },
     {
+      "title": "Technical Design Review of Duke Robotics Club's Oogway & Crush: AUVs for RoboSub 2026",
+      "url": "https://arxiv.org/abs/2607.18075v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:44:15+00:00",
+      "author": "Patrick Zheng, Saagar Arya, Hung Le, Mathew Chu, Nathanael Ren, Niko Weaver, Isabella Chen, Jill Wang, Raine Cheng, Siddharth Kini, Avrick Altmann, Srinath Iyer, Ivan Chen, Ian Suh, Parker Jones, Pierson Jones, Sebastian deSouza, Suhaani Sriram, Suvas Aggarwal",
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 48,
+      "tags": [
+        "invest",
+        "investment",
+        "robotics"
+      ],
+      "summary": "The Duke Robotics Club presents Oogway and Crush, our AUVs for RoboSub 2026. This year's strategy expands on our previously narrowed scope, targeting all four of RoboSub's design goals for the first time: movement, vision, manipulation, and acoustic tracking. This expansion is based on sustained reliability investment "
+    },
+    {
+      "title": "Sobek: Streaming Equivariant Tensor Product Convolutions",
+      "url": "https://arxiv.org/abs/2607.18074v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:43:21+00:00",
+      "author": "Vladimir Chorošajev, Cédric Bény",
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 57,
+      "tags": [
+        "api",
+        "gpu",
+        "product",
+        "feature",
+        "app",
+        "act"
+      ],
+      "summary": "Equivariant graph neural networks repeatedly apply edge-conditioned tensor-product convolutions over graph edges. Conventional implementations materialize edge-specific weights, messages, and adjoints, causing tensor-product workspace and memory traffic to grow rapidly with graph size and operator width. This limits fe"
+    },
+    {
+      "title": "SGN: A Similarity-based Generative Network for Data Generation under Distribution Shift",
+      "url": "https://arxiv.org/abs/2607.18072v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:40:51+00:00",
+      "author": "Jiaqi Zhu, Xincheng Chen, Yuncheng Wu, Zhaojing Luo, Beng Chin Ooi",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "model",
+        "dataset",
+        "architecture",
+        "app",
+        "act"
+      ],
+      "summary": "Generative models trained on a source domain often produce samples that are poorly aligned with shifted target domains, limiting their effectiveness for target-domain data augmentation. Although target-specific adaptation can reduce this mismatch, it typically requires additional optimization and domain-specific parame"
+    },
+    {
+      "title": "Hardware Mechanisms to Dynamically Throttle AI Performance",
+      "url": "https://arxiv.org/abs/2607.18069v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:36:03+00:00",
+      "author": "Haiyue Ma, Lauren Malek, Joseph Forzani, David Wentzlaff",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "model",
+        "paper",
+        "architecture",
+        "chip",
+        "gpu",
+        "regulation",
+        "policy",
+        "act",
+        "safety"
+      ],
+      "summary": "As more capable AI models are increasingly integrated into critical computer systems, the lack of control over AI intent motivates safety mechanisms. Existing software safeguards impose only behavioral constraints that can potentially be bypassed by sufficiently intelligent models. While hardware-level safety enforceme"
+    },
+    {
+      "title": "Human Grounded Evaluation of Large Language Models for Optical Network Automation",
+      "url": "https://arxiv.org/abs/2607.18068v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:36:00+00:00",
+      "author": "Kiarash Rezaei, Omran Ayoub, Paolo Monti, Carlos Natalino",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "valuation",
+        "model",
+        "inference"
+      ],
+      "summary": "Large language models (LLMs) are increasingly adopted for network automation, yet their output quality and inference cost can vary substantially across LLM families. We present HuGLEN, a stepwise evaluation pipeline that uses an LLM-as-a-judge together with a small set of expert ratings to enable scalable and reproduci"
+    },
+    {
       "title": "谷歌研发全新“Frozen”专用芯片，大幅提升AI模型运行效率|Gemini|AI芯片|Google|Token|谷歌云_手机新浪网 - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSGRPNE82Qnl0RkJ0R1dUNWdWZVZWZnk5SThRUkt3QUF6S29uZnNkZVRNV0xnWTZzMUtFU0dQYkZXUXNxYTZXaXZaNHhrVUN1UklhLXgwT0ZxdjJXRGladVlmNlNVNmNPdENnYklMRTBzSnBoZ3JIR0k5Tm1QTmtBMFVESTNqUnVMR0E?oc=5",
       "source": "中文AI技术开源",
@@ -5807,6 +6918,69 @@
         "芯片"
       ],
       "summary": "谷歌研发全新“Frozen”专用芯片，大幅提升AI模型运行效率|Gemini|AI芯片|Google|Token|谷歌云_手机新浪网 新浪财经"
+    },
+    {
+      "title": "Pancasila-Dilemmas: Evaluating Large Language Models on Indonesian Human Value Dilemmas Grounded in Pancasila",
+      "url": "https://arxiv.org/abs/2607.18066v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:33:24+00:00",
+      "author": "Supryadi, Irfan, Julianti, Darren Keanly Martin, Jayvin Fernando, Yuqi Ren, Deyi Xiong",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "valuation",
+        "model",
+        "paper",
+        "dataset",
+        "github"
+      ],
+      "summary": "The value alignment of large language models (LLMs) is crucial for ensuring responses align with human intention and value preferences. However, most evaluations of value alignment focus on Western or universal values, while assessments grounded in the value systems of specific countries remain scarce. In this paper, w"
+    },
+    {
+      "title": "Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
+      "url": "https://arxiv.org/abs/2607.18064v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:32:09+00:00",
+      "author": "Nursultan Askarbekuly, Mohamad Al Mdfaa, Ahmed Helaly, Gonzalo Ferrer, Manuel Mazzara",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 75,
+      "tags": [
+        "valuation",
+        "research",
+        "dataset",
+        "agent",
+        "reasoning",
+        "product",
+        "app",
+        "act"
+      ],
+      "summary": "Coding agents can now be left alone to improve software against a score. In this pattern--recently popularized as \"autoresearch\"--the agent receives a dataset, an evaluation script, and one editable file, and iterates without supervision: modify the code, measure, keep the change if the score improves. But what does th"
+    },
+    {
+      "title": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+      "url": "https://arxiv.org/abs/2607.18063v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T15:30:38+00:00",
+      "author": "Devina Jain, David Hartmann, Chuan Li",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 81,
+      "tags": [
+        "valuation",
+        "benchmark",
+        "dataset",
+        "agent",
+        "release",
+        "app",
+        "act",
+        "safety"
+      ],
+      "summary": "LLM-based agents process external content, exposing them to prompt injection and multi-turn manipulation. Most safety benchmarks evaluate defenders against fixed attack pools collected before evaluation, single-turn or multi-turn. We present a 21-scenario benchmark for \\emph{adaptive multi-round attacks against memoryl"
     },
     {
       "title": "YouTube clarifies policies around AI slop and upsetting videos",
@@ -6281,6 +7455,19 @@
       "summary": "The secret problem in AI infrastructure: Why MCP security starts with secrets Cybersecurity Dive"
     },
     {
+      "title": "CGI凭借在公共部门和生成式AI领域的Databricks Brickbuilder专业资质，进一步巩固了其企业AI领导地位 - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY1B6WHc5SkJmVm1od1IxdE55V2pIRGtVZnVhUnkwbHMxNkpITlY0WktVQS1mX3F2cXVWNnh3SHB6Z3NvcG5QSEtxUm9tX3FTbmtzd2p4cU9UUndzd3Bfd01Tcm9PblY5bkZBSGNzcHp2Tk1BcVlUdHpsRjYtVWVLWk9zaDh3dXQ4ajE5Y3BVZnNEYTEtSm1xZGJWdEhvWmttaEVLYjI5d2pzcWUwTVRGRzUxZ1B6d3FpMXFhV3Ytc21saU5yTDJ5ZG56bFRQbnJT?oc=5",
+      "source": "AI基础设施与企业软件",
+      "source_type": "产业链",
+      "published_at": "2026-07-20T10:30:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [],
+      "summary": "CGI凭借在公共部门和生成式AI领域的Databricks Brickbuilder专业资质，进一步巩固了其企业AI领导地位 Moomoo"
+    },
+    {
       "title": "China delivers a one-two punch to America’s AI dominance",
       "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
       "source": "The Verge AI",
@@ -6487,6 +7674,23 @@
       "summary": "Institutions: AI competition shifts from chips to infrastructure; power, optical communications, and quantum computing emerge as critical bottlenecks 富途牛牛"
     },
     {
+      "title": "Moonshot发布Kimi K3大模型参数规模达2.8万亿- AI - 亿邦动力网",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBobFdoa1lCVE1wZmpweWhtN1hIRW5kb1VCZGg5R29STnk3TEREa0Y1VjFFZmUwUkJnNDA3MzNEc2RFQ3pDdGtCTzNyU0xBMHdGZUdpdEln?oc=5",
+      "source": "中文AI技术开源",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T08:07:21+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 52,
+      "tags": [
+        "模型",
+        "大模型",
+        "发布"
+      ],
+      "summary": "Moonshot发布Kimi K3大模型参数规模达2.8万亿- AI 亿邦动力网"
+    },
+    {
       "title": "官方 | 上海云间原墅售楼处权威发布 - 官网 - 百度百科 - 上海优选好房子 - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zWmxxSkFCdkZsUjFCSGtSOUxoWmR6ZUZtYjNWVktXVXY3SDdnVWNza3ZCQlF4dDhLaURIV29GTUc5dmxFVEFBcFdhRERVNTI1UDE1LWtzNnZkZU00aE9ER3h3?oc=5",
       "source": "中国AI巨头动态",
@@ -6606,8 +7810,8 @@
     {
       "title": "Hugging Face遭AI智能体攻击，开源模型救场取证 - 品玩",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11V3dXUkVkeW9tb0lnZGt6em5QZDVkVnkweFM5QlJNZmtyMkdCNGFOR0JBNlNYMEdFZXM4VkxfRW5LYXJGTjNMVA?oc=5",
-      "source": "中文AI技术开源",
-      "source_type": "国内资讯",
+      "source": "AI基础设施与企业软件",
+      "source_type": "产业链",
       "published_at": "2026-07-20T06:37:03+00:00",
       "language": "zh",
       "date_verified": true,
@@ -6741,22 +7945,6 @@
       "summary": "机构：华为昇腾950超节点亮相，“国模国芯国用”生态有望完善 搜狐网"
     },
     {
-      "title": "AI Industry Chain Weekly Report — TSMC Raises Capital Expenditure, Acceleration of 800V and Liquid Cooling, Photonic Interconnect and PCB Expansion - Bitget",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9CcGM2TzRTaHozM0plTFBBZjNsbm04VUpMRDloM1pfT0xiWm9MTlZvVlYtM00xLXgxcnljYmdHMUcyMUhJYzc4MlVsLWJhMlVaNkV2eUhPSzMzbE81REFxZGd4WdIBY0FVX3lxTE9CcGM2TzRTaHozM0plTFBBZjNsbm04VUpMRDloM1pfT0xiWm9MTlZvVlYtM00xLXgxcnljYmdHMUcyMUhJYzc4MlVsLWJhMlVaNkV2eUhPSzMzbE81REFxZGd4WQ?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T05:16:35+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "api",
-        "industry"
-      ],
-      "summary": "AI Industry Chain Weekly Report — TSMC Raises Capital Expenditure, Acceleration of 800V and Liquid Cooling, Photonic Interconnect and PCB Expansion Bitget"
-    },
-    {
       "title": "英伟达霸权被撕开口子，华为昇腾950真机亮相，谁在裸泳一目了然 - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43aS1SLTRTZ0VlMHhkOUJQdVo0bXFNQTFqbE9BcEJrbVVNZl92LVdYS19SRWxYZmQ3UzVOeFdGcTBhUVExd2paOFZ2eE1MOFVyaGZZSnYzOFJZcHI1UkVEZFdB?oc=5",
       "source": "中国算力芯片产业链",
@@ -6854,919 +8042,6 @@
       "relevance_score": 37,
       "tags": [],
       "summary": "远大建管·帝景湾售楼处-官方网站-百度百科-超级大城终章作品✨㊕ 手机网易网"
-    },
-    {
-      "title": "华为展区上演“交通拥堵” 这些围观“昇腾超节点”的人 他们到底在关心什么 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzQ003X1pMX2tld1F1NkJHb0FFMW1aZFFQRDZCZHpCdlRGX25Gb2Z1WWlSRjF5S3dXTW1ET3p2REpPaFloQ1ZYczlDQlVfR2gyM01WWQ?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T04:18:55+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 37,
-      "tags": [],
-      "summary": "华为展区上演“交通拥堵” 这些围观“昇腾超节点”的人 他们到底在关心什么 手机网易网"
-    },
-    {
-      "title": "英伟达霸权被撕开口子，华为昇腾950真机亮相，谁在裸泳一目了然 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrM0stY29mTUZJOWZsOUctelU4eEhjRGR5eDMtRDN3Y04wRk1pUjVXemxCMmZ0NUN5Qy1ib3JyYjFWYkZEblBsd0lRMmttNTMwMnloMTBuMTNaUW5uYW1GWm13?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T03:44:27+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "英伟达霸权被撕开口子，华为昇腾950真机亮相，谁在裸泳一目了然 手机网易网"
-    },
-    {
-      "title": "中建壹品湖北文旅东湖学府售楼处-官方网站-百度百科-超级大城终章作品✨㊕ - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMWlVKenRpdmgzeGNaaHVHbTRmYWUzUGc3WjJQa3AzZkdMYUxCVXBac3YtU3NUZU41elc2MnJ4U1IxbXRia2kwOC05WENkMnVoNnhjNUY2QVR1R1h4QTZJWU9B?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-20T03:42:23+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "中建壹品湖北文旅东湖学府售楼处-官方网站-百度百科-超级大城终章作品✨㊕ 手机网易网"
-    },
-    {
-      "title": "华为昇腾950超节点真机亮相，押注超节点，能打得过英伟达吗？ - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uc3gxazZxaUVLVi1rcERxTm9la1ZZMXZ1Q01PSWF5dlBZc3FBSGFOR1lMWHZrNUJJUW5zQVkyYk96cFgtS3VWRVlxRWpHeklXTWs1VlBScjlQNl84V3ItU0pR?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T03:29:28+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "华为昇腾950超节点真机亮相，押注超节点，能打得过英伟达吗？ 手机网易网"
-    },
-    {
-      "title": "盛科通信盘中涨超12%！华为昇腾950超节点真机亮相WAIC，芯片设计板块修复上行 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWV2lKWHY1aTNJX0pyR1VEYTc4ZUVHMUxLY19ZLVpBZnFOZHFhcHRKQzJpX1U2ZzFfT2tnT0lZbnVQOWhtcU53ZG1Tb1B0Sk5TSGxhLWF0S2N5TlFzR0g0d2R3?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T03:29:23+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 39,
-      "tags": [
-        "芯片"
-      ],
-      "summary": "盛科通信盘中涨超12%！华为昇腾950超节点真机亮相WAIC，芯片设计板块修复上行 手机网易网"
-    },
-    {
-      "title": "杨海波：光轮智能夯实物理AI基础设施，支撑机器人规模化产业落地 - 新华网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81a1g4MHc4MU1rQjRtWU94eldVMGNNWVhZS3dRX1pLSk5tY0Fla2daQzZuQWVCLXlKVzg4OGxLVHZNME1WWWppc09qUFBJaGxkZi01SFhqS3ZVYzJ5N0g4UjJKTmFxcUoybHQzT0VIdmZDZGduU1ZtOVhoZUs?oc=5",
-      "source": "AI基础设施与企业软件",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T03:28:14+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 45,
-      "tags": [
-        "机器人",
-        "落地",
-        "产业"
-      ],
-      "summary": "杨海波：光轮智能夯实物理AI基础设施，支撑机器人规模化产业落地 新华网"
-    },
-    {
-      "title": "年度AI人物 | 对话曾国洋：要在虚拟与现实的边界造模型-yeeyi - yeeyi",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YUThGZzMxUTBOMEMyWUhFLWtsX2Q4bEJVMVQ1Skx6dTAxb1V1eHMtTzMzMXdSNWg0WjNJaFNwVFFpU3JWQXhJVTdueG44ZnlmM0xRYw?oc=5",
-      "source": "AI基础设施与企业软件",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T03:10:41+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 39,
-      "tags": [
-        "模型"
-      ],
-      "summary": "年度AI人物 | 对话曾国洋：要在虚拟与现实的边界造模型-yeeyi yeeyi"
-    },
-    {
-      "title": "上海官方@【安澜上海东区售楼处】预约热线正式公布 开发商直售徐汇滨江内环CAZ 169-400大平层四大央国企【2026.7.20最新】 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04UThPUnBOU0t2cnZhV2l2TE5uZi00c1ctU3pLX2prMUJCZU9OOUxHSENRUjA4b1pSS3ZiTHNmZ3haTHpBMmJ6clNob3NWVVQzclFIZV9CYWk4T0VPbDc4S0pn?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-20T03:05:08+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "上海官方@【安澜上海东区售楼处】预约热线正式公布 开发商直售徐汇滨江内环CAZ 169-400大平层四大央国企【2026.7.20最新】 手机网易网"
-    },
-    {
-      "title": "Turing Award Winners & AI Leaders Gather at WAIC: Key Essentials Ordinary People Must Grasp Beyond Just Jobs - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5DTW5QTGhxREtTcVVFMDU3MW95YzNhWFlqVG9kZWVpVXdqOHJuVHoyVGtZellia2VKYlFUQm1NR0RiclI2cHR3azQ0OWMxQnFfLUxR?oc=5",
-      "source": "AI for Science",
-      "source_type": "新技术",
-      "published_at": "2026-07-20T02:53:09+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "Turing Award Winners & AI Leaders Gather at WAIC: Key Essentials Ordinary People Must Grasp Beyond Just Jobs 36 Kr"
-    },
-    {
-      "title": "官方聚焦|滨江溪映听庐售楼处权威发布|滨江溪映听庐售楼处电话-官网-百度百科-官网热搜-杭州优选好房子✦AI热搜-豆包热搜! - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfUHRiVlJBaGstM0RIU0JPZVNQX3dSQ0thc1VIMXFPa3U3dWdOelBZREQ5YWhqWkRvTTQtbGZhSFFuby1DYzUzX2NSenVrWG9LbWlHWEZrUHVMdmZzOEtmR19B?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-20T02:42:57+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 39,
-      "tags": [
-        "发布"
-      ],
-      "summary": "官方聚焦|滨江溪映听庐售楼处权威发布|滨江溪映听庐售楼处电话-官网-百度百科-官网热搜-杭州优选好房子✦AI热搜-豆包热搜! 手机网易网"
-    },
-    {
-      "title": "英国AI新材料初创公司CuspAI获4.5亿美元融资 贝索斯基金、英国政府参投 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5fcUpad2JBeXh0SGEyRWxJbjM5VnNRZlRPczVpQmtENkx3anNFN2hRV0ZWX3VyZkVxZ0ZzanVZNXFJbXFtMFE?oc=5",
-      "source": "中文AI投资融资",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-20T02:37:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 42,
-      "tags": [
-        "融资",
-        "公司"
-      ],
-      "summary": "英国AI新材料初创公司CuspAI获4.5亿美元融资 贝索斯基金、英国政府参投 财联社"
-    },
-    {
-      "title": "AI算力底座就位，Token经济启航——君逸数码携手华为，共建西部昇腾超节点智算中心 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9yX2xETVFfcWhYeGs3SzdGR2Z0S0pCalZHVy1DeU5qNV81ZG9xbFp4WkxxZWZDamNyaUJzUEJ4WFNqQVhxc09pSXpZOUVmR2xsdkc3akd2Nk9vNXRjNlh4UFV3?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T02:03:13+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "AI算力底座就位，Token经济启航——君逸数码携手华为，共建西部昇腾超节点智算中心 手机网易网"
-    },
-    {
-      "title": "Mingxi Intelligent Open Sources MiniCPM-Robot: Full Release of a 1.5B VLA Model, Personal Developers Can Now Run Operations on Real Robots - AIBase",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA4WEhsWjVYXzFnUUp4RlNDNjBwTFJOc2l6a25SM3RjRzdEeGcxbC1XN291MjNDQnVJSVlPWENqUEI5TnRLbUlCZkl3?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-20T01:54:34+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 45,
-      "tags": [
-        "model",
-        "open source",
-        "release"
-      ],
-      "summary": "Mingxi Intelligent Open Sources MiniCPM-Robot: Full Release of a 1.5B VLA Model, Personal Developers Can Now Run Operations on Real Robots AIBase"
-    },
-    {
-      "title": "华为昇腾950真机亮相！超节点元年，22家产业链核心企业梳理 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TVTFjRXlWS3dQVElBQnRiLXljTExZVzFNS29RVmljdFZZdFo0OXVkUWZoNi1IX1JCMEVzdDFRdnMwdVBDY1JRSThkM0ZxWUFYWE5Cc29HZHpqck9mX2FHLUJn?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T01:50:38+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 39,
-      "tags": [
-        "产业"
-      ],
-      "summary": "华为昇腾950真机亮相！超节点元年，22家产业链核心企业梳理 手机网易网"
-    },
-    {
-      "title": "隧道股份“AI搭档”亮相世界人工智能大会，推动智能体进入城市建设运营一线_国企动态 - gzw.sh.gov.cn",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRVFzbmZqWElRVkt6VmlxanNqNzE5VkZfOUFsdzFSMExKdy1oaXprS0tnckhVQ1hkQXlIVWQtekhGUzJDTnRTeThzR2otVWJCMmdyR2FiaEFjN1AtXzZNblRHRWM3VGdxaFJJX3UzNENmV1dhRjE5b1ZrbFM2UEpHZndaMDNyTTk0T1JTZzhlV3FnZw?oc=5",
-      "source": "中文AI技术开源",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-20T01:50:36+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "智能体"
-      ],
-      "summary": "隧道股份“AI搭档”亮相世界人工智能大会，推动智能体进入城市建设运营一线_国企动态 gzw.sh.gov.cn"
-    },
-    {
-      "title": "从昇腾950到曙光8000，国产算力迎来新一轮系统化比拼 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ENm14T1JQdHkxQTN6Vm1RbHNLX0ZKWWJNMWdZR0t5c1hpazhvcFREd05ZVFkxOFhZazJvSnl4bGZxVENoZGZGeWpsOHBNdTZ2ME1BamZuQnZzQi1NOHVLYnJ3?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T01:45:28+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "从昇腾950到曙光8000，国产算力迎来新一轮系统化比拼 手机网易网"
-    },
-    {
-      "title": "2026 世界人工智能大会：算力、算法、数据重塑AI投资逻辑 - 中华网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9WMklhUWFzN1Rway1pcnhEN195YTF1S2luc3BSSzhpQVhRdmY3dGVOUWFLZ1hYcVBZenNqbVMwMVhLaHJDa0xjbnl4cFhwSkt4SVJabjBKelZ1NUl4QXc?oc=5",
-      "source": "中文AI投资融资",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-20T01:37:54+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 48,
-      "tags": [
-        "投资",
-        "算法"
-      ],
-      "summary": "2026 世界人工智能大会：算力、算法、数据重塑AI投资逻辑 中华网"
-    },
-    {
-      "title": "Once-Obscure Philosophy Emerges as a Leading Hot Topic for Taming Unruly AI - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04M2hlVmNMY2JPMlEyS0dkMWgyRGVkSmRPSUxkZE9zR0NSdEtYNU1hWUtMRkNLSE9hQ2g4N0dyOUVFMEpnaXY5cjRMSGdGNHR4TDFV?oc=5",
-      "source": "AI for Science",
-      "source_type": "新技术",
-      "published_at": "2026-07-20T01:32:59+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "Once-Obscure Philosophy Emerges as a Leading Hot Topic for Taming Unruly AI 36 Kr"
-    },
-    {
-      "title": "【2026年7月20日】上海官方【@中环置地中心望云】售楼处电话公布 开发商直售预约热线 央企华润无中介 宝山南大TOD营销中心✨ - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6MVlKSHkzTG9HZXZ5V2VPRU5CWi1uUWl3X2d4UG40Q1JQLXRfR0YyLVJWWmM1UjJSNGZUQm9yNlFFdkk5S1pKTTM1NG9QR2RoZ2NDc0JYVHhDNDlQLXdWREdB?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-20T00:35:14+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "【2026年7月20日】上海官方【@中环置地中心望云】售楼处电话公布 开发商直售预约热线 央企华润无中介 宝山南大TOD营销中心✨ 手机网易网"
-    },
-    {
-      "title": "Are there some textbooks that take a primarily engineering approach to machine learning (as opposed to a \"scientific\" approach)? [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v16l6a/are_there_some_textbooks_that_take_a_primarily/",
-      "source": "Reddit · r/MachineLearning",
-      "source_type": "Reddit",
-      "published_at": "2026-07-20T00:32:08+00:00",
-      "author": "u/ConstructionBoth6461",
-      "reddit_community": "MachineLearning",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 63,
-      "tags": [
-        "model",
-        "research",
-        "training",
-        "feature",
-        "app",
-        "tool",
-        "act"
-      ],
-      "summary": "As someone who studied stats undergrad and industrial engineering operations research grad, and who thinks about the practical business of ML components in software.... I get lost and a bit hopeless when I think about how to make useful software out of ML models in a reasonable amount of time, and in the current busine"
-    },
-    {
-      "title": "NVIDIA Cosmos 3 Edge Advances Japan’s Physical AI and Robotics Ecosystem - The Fast Mode",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQazZBMzhVU0Z0ZnBXQnpFME1Cd3RkV29oSV9zX1JlRTdCVW5qYV9xMnQyaWZZLU51UkZIWjg0NmVLMmFXSTZ5ZmVVcnBPaVFIRDlCc3FRZEExT2pyS1lrTzdjRHRjWU1yRjlUUXllb1kyQ3dmQjhYRlBpY0JCUXNJbGlNUmVsY245LUUwWlY0NHpLbXF5N3lURW5SN3hiWi1GbDdmSTlLYjNyV2NfdjFZYUl6RE16LTlnbTBQeURXRU1IYXFEYnc?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-20T00:24:05+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 45,
-      "tags": [
-        "robotics"
-      ],
-      "summary": "NVIDIA Cosmos 3 Edge Advances Japan’s Physical AI and Robotics Ecosystem The Fast Mode"
-    },
-    {
-      "title": "2026年7月20日 上海官方【@售楼处】金茂璞元售楼处电话公布 开发商直售营销中心专线 虹口璞系首作央企开发 130-240㎡大平层预约 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9keEVSbW5NWUItVHZFRHVmUlk3MW9ibVpsMTBJUk1wN1J0dGMzVWRvNkNsZ3pHbHhIS3BrT3RGRTRnZVZJMFBiUkdSSG1JSFZMZldTUE4xQjkzSEtxbW4zb0p3?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-20T00:10:12+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 35,
-      "tags": [],
-      "summary": "2026年7月20日 上海官方【@售楼处】金茂璞元售楼处电话公布 开发商直售营销中心专线 虹口璞系首作央企开发 130-240㎡大平层预约 手机网易网"
-    },
-    {
-      "title": "Beyond Taipower: AI, semiconductors, and overseas grids reshape Taiwan's electromechanical supply chain - digitimes",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS0tFMFN3NXdudWhZSi1aejVPZzd4c0JkaXZmZDhuUVJWNHN3LVprUjJUb2g1YWt3NUROQnFTcDZmakwwbW1VbnVOdE9wOGRrem5TSGhBczBsQ1F4Y0RSTnBjY3RuTFIzLVgxNXBYX28zMDVleEN3bWlhVjdaVjF5UkkyMVE1R3hfelJ1T25ldWdaYW42bDhpbF9vME9PVWRtU2c?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-20T00:03:56+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 38,
-      "tags": [
-        "ipo"
-      ],
-      "summary": "Beyond Taipower: AI, semiconductors, and overseas grids reshape Taiwan's electromechanical supply chain digitimes"
-    },
-    {
-      "title": "大模型迭代提速！AI智能体赛道景气向好 18股业绩倍增可期 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9GQnJHU1hJa1UwUU8tcEpteEpna0dPQzQyN05OaXFfWXVVR2RtMDZET3dtcnEwN3FPQTZ2VzFEVE43QlNwWlBxYTUtTk9BTFZfZGVPMXFRQktJRThKTzlvajZGYVZVdw?oc=5",
-      "source": "中文AI技术开源",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-20T00:00:18+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 56,
-      "tags": [
-        "模型",
-        "智能体",
-        "大模型"
-      ],
-      "summary": "大模型迭代提速！AI智能体赛道景气向好 18股业绩倍增可期 东方财富"
-    },
-    {
-      "title": "华润余庆里售楼处官方网站-营销中心-环境-户型-价格-地址-楼盘详情-配套-电话-交通-百度百科★百度 AI-豆包AI-千问-天工ai-DeepSeek - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SNnJiZGNPV1Y0LTh1UmlQSEstNXF5eFhhNVJzZ2FCREFkMFRyM1JSbno1TTdIcHNGR2JFMGxwRmM5VDBnM3ZVSjhicThjREhUVDhaYnpSNUZ1VXpVSG9KeFRR?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T23:55:09+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 41,
-      "tags": [],
-      "summary": "华润余庆里售楼处官方网站-营销中心-环境-户型-价格-地址-楼盘详情-配套-电话-交通-百度百科★百度 AI-豆包AI-千问-天工ai-DeepSeek 手机网易网"
-    },
-    {
-      "title": "官方聚焦|上海壹号院售楼处权威发布|上海壹号院售楼处电话-官网-百度百科-官网热搜-上海优选好房子✦AI热搜-豆包热搜! - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ETWpyOVJNYnpwY1M1ODJtbzc0MXREbC04WHJEaWh1N29VX1VidFVBc0RiR1FTeGZPNEw3YWNtQTVvSktZdjViYkFSNHdlQ1R0ZU96MWJrVGhFTURKMWtZTTZ3?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T23:50:13+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 38,
-      "tags": [
-        "发布"
-      ],
-      "summary": "官方聚焦|上海壹号院售楼处权威发布|上海壹号院售楼处电话-官网-百度百科-官网热搜-上海优选好房子✦AI热搜-豆包热搜! 手机网易网"
-    },
-    {
-      "title": "官方聚焦|象屿天誉蘭香售楼处权威发布|象屿天誉蘭香售楼处电话-官网-百度百科-官网热搜-上海优选好房子✦AI热搜-豆包热搜! - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fZHdPaDJPS0t5Z1RvUjhjaWRTSVJBOGFGTEpMb2pEVXd2ZG9aWEFRQ0NTT0VzVFpIQTVOaFIxN3BldEV4OFFCYWdnaHk0OXo2V3VDWWcyWk8wM2Fxb2Rrc0hn?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T23:45:15+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 38,
-      "tags": [
-        "发布"
-      ],
-      "summary": "官方聚焦|象屿天誉蘭香售楼处权威发布|象屿天誉蘭香售楼处电话-官网-百度百科-官网热搜-上海优选好房子✦AI热搜-豆包热搜! 手机网易网"
-    },
-    {
-      "title": "Video-Game Trained Models - Trend Hunter",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HNGx0Z1FFNHdhQnNwN2R0eFduSkVQc2lqR2pRUE5yRGdSZlp4RFlaMHBqUU1yMk5Rcll3MHZDYmVXMDRrdVozNGs5SU1FdHdkdkxwRHd3dlZTRndVU05TclVB0gFnQVVfeXFMTUQ3am1lRGhlSHF6TjdvTTVxbUpvU2Nsc3hmZmstNGFhVFVmd09uSDh5cG5qR3UwNXk0SW1XVUNHQlRYUUNqcGFUMjdOMGR5WTUzUWpDZkQ5SFR3eVFUYnhGR2JvS2pMdw?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-19T23:27:19+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 38,
-      "tags": [
-        "model"
-      ],
-      "summary": "Video-Game Trained Models Trend Hunter"
-    },
-    {
-      "title": "“我是Claude，不是Kimi” 中共国AI模型大翻车 - aboluowang.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wSW9YWnBLdzJWMEJnZmhBelZyZjhjQmtNbFdLZmk1Znh5OVgzMlZVRUpGcDlUMkl4Nnp6MEgyWGwyMnJ4S200TDhHM1lHbHpOM2QzNGNwYjEtbldTS2fSAWNBVV95cUxQN19weUpqbDJkMmRHb1JVQXhyZzRXclVvOEptZjJOWlhLRUxyQWwwMTNMbll1SVBSazZybUg4WnlyeEZmZlR6SnV0UU9WVXhTWGZaSE1IWEdFU09DS1hYWkplcE0?oc=5",
-      "source": "AI基础设施与企业软件",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T23:19:17+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 44,
-      "tags": [
-        "模型"
-      ],
-      "summary": "“我是Claude，不是Kimi” 中共国AI模型大翻车 aboluowang.com"
-    },
-    {
-      "title": "公募探营世界人工智能大会 AI产业商业化落地进程提速 - 证券时报",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YcG8xLUZGWkIxRW5xOFFDVHVyaWIySHJOTDQ4UjNubmFQRDJoUjFZX0JYRHJDd2dlbzhQNndQejJ0WG5YWnktbEVkSEU2THU3SnJWQjB2VGxmeU1s?oc=5",
-      "source": "中文AI技术开源",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-19T23:05:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 50,
-      "tags": [
-        "商业化",
-        "落地",
-        "产业"
-      ],
-      "summary": "公募探营世界人工智能大会 AI产业商业化落地进程提速 证券时报"
-    },
-    {
-      "title": "Vertiv Stock And 2 AI Infrastructure Picks Backed By Data Center Demand - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdGs1Z25HSFVTWXBGLXp5bkxfNnZNWTBXazJyV0FYSVo2dXhyYjE5ODJnZ0VWbFNiTDZmZ2g2ZlRDXy11R1dCb1FodTBsYnYwQmI0aTJZcjJQenpRTGlGOEZxTlB0RW5ackotSzdVMG1yZnhjMXdHR0x5blYzLTNXcEMwcmVjaU1uSEZtSDNJb1ByQmlNOUVIM3BwYWdCRXBGNTZadXp4UnQ5THR2WXo3eGloSVhhQjNfRVY4XzhCYjdwLVNIaGVTeGF3TdIB0AFBVV95cUxNaWJObkp1cVNpSEtzUHFWTnBWdFVLa1lxaDEzczlMT0d5QkxMYXV5S29IdGthZ09meGdOeE4zbUxSOElFWEJ6UWFLUnU0S1hQWE93Y1NRMnlUc0lLUGZTWU9TVGpyTl82enJjV3FPWkwxR2x3aVZuNHBrbTNHVVRkZmlNVFZ5UjNJZFE0X19zSHdaWGtaTkNhWW1Cem9rdy1fdUpsbG1VeTVhRUVzVl84dGJZWGd4czllOWppb0R1UWJaQ2Q2NFJnRExSazczVGFN?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T21:34:17+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 41,
-      "tags": [
-        "stock",
-        "data center"
-      ],
-      "summary": "Vertiv Stock And 2 AI Infrastructure Picks Backed By Data Center Demand simplywall.st"
-    },
-    {
-      "title": "What to watch for after Jensen Huang’s Japan visit",
-      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T21:16:07+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 35,
-      "tags": [],
-      "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
-    },
-    {
-      "title": "AI，终于不再“慢半拍”_影子聊科技 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUeC1IQWhFT0MxbEdMMlU5UDFSSE1HOEk0eUttMXhieXpJN21FV2tfbWNpbTAySWFrTkRaYm1YVFBPcHBGUHR1eEV3SEEwUkRVRzN1Z2VzaE9jcUZWUUxOTTNkaDd3NG9GSHNzbXQyMUgzamtKZmtySUxzQTU0RXM?oc=5",
-      "source": "中国AI巨头动态",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T20:18:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 35,
-      "tags": [],
-      "summary": "AI，终于不再“慢半拍”_影子聊科技 新浪网"
-    },
-    {
-      "title": "华为不再“一枝独秀”，国产AI超节点上演“群雄逐鹿”|2026世界人工智能大会|AI芯片|摩尔线程|南方都市报|芯片_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMilwVBVV95cUxOekZiNGF1WDlRQjA1bnlVa3hUcDJrVkVSMEFWYnBfRmNyZnp1VVlXWDZNbFlLcGpwRnZqZmM0azh6QlRiRi1uREprZDByWlJqUzFLeVhuMEl0SzZxdU1qT3JwVG5yWVJ0ZUpnRlN1NzFmMHdBaFpNNklSbVl5Q1pLU2l1MWppdzRuNDFzVHd6ai1LR0J2aHRqZWVWNkJQMFRVQ0ZwN2h5dTkxTnEwcWw5SWpXOS16VEVNRndkaWNfcTRmb2VIUlNFZ2J4ZnBBTDJmN2tUMGZoTzJuOXVIbVhBZWZjQkRlV2FTNkhGNVY4SnphQnlHOEltVFloa0s2RmJ3LW42bFh0X0ZwOERBSzNvWlItUmNVdnRETGNlLW1kMDZXTnRmSTRQbnRuQzllWVNfN3lrVmY0U2lOLTk5NnZ1aWhKSjlHdWFNdEFfbUhMUnFOVzNaZzlvY1BuWU5UcER2czZ2ek10UTRrZmZnWHZYbDBkS1VycDBwdERXSlVOUTh0bjlhZS1mWTU2RXhSNTlBUTNfektSUnI4WEFwOWlTakg1VHlrUXZtSmVCMjd2YkhDRS11VlFQMWlUNDVrejBobGhDVVd3NFpJS0VNME5qaTROWDFaSnBNd2FIaEpodGRld2FidnRkNDhxQWJyWnB3MTV3T19va2RkRGhuSXlEbHM5enNfNEsyYkcwWHNtZnpKYXpTOEozcGg1SkRXNXZLWlk3MUVPbUhUd0ozdlRfS3RjTFdteHlUYUt5cGpXQy1velJFSEw5OTlBTGxQTnd6V1hlT2ludEs1d205bVdrVTJZMk1VU3hULUFuOUIxcE5SV0lxS1VpNUR3S0xXbXBBeDFTTHZEM2l6SUlCb2JfbTJZamlsS3c?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T20:05:12+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "芯片"
-      ],
-      "summary": "华为不再“一枝独秀”，国产AI超节点上演“群雄逐鹿”|2026世界人工智能大会|AI芯片|摩尔线程|南方都市报|芯片_手机新浪网 新浪财经"
-    },
-    {
-      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
-      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T19:24:45+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 46,
-      "tags": [
-        "app",
-        "law"
-      ],
-      "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast a shadow over OpenAi's much-discussed plans to get into hardware and go public."
-    },
-    {
-      "title": "I hate that I don’t hate this song made with Suno",
-      "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T17:35:54+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 43,
-      "tags": [
-        "act"
-      ],
-      "summary": "1010Benja won’t apologize for using AI. | Image: 1010Benja / Instagram I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all). But I generally find music made with generative AI to be offensively boring , especially the outputs of Suno . So I'm having a bit of a tough"
-    },
-    {
-      "title": "27亿，AI 3D生成领域最大单笔融资诞生 - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOUGpzemJaNDZBdlBpbUo3WDlFaE9lRnZBTmV4dE85Tmc0WEw4R0VBS09SeFFpRTdhVTFTdWdVN3N6LXM2MU0yZzRCcFFjdw?oc=5",
-      "source": "中文AI投资融资",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-19T17:27:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 37,
-      "tags": [
-        "融资"
-      ],
-      "summary": "27亿，AI 3D生成领域最大单笔融资诞生 36 Kr"
-    },
-    {
-      "title": "Omdia: AI Factory Market Enters Industrialization Era as Five Dynamics Redefine AI Infrastructure in 2026 - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SQWFVcnFhT0szOEdPN0xhUDZibGJxTkpqTUhMdE9mT2stYkc0QlVBRTd2aUdKWmE5UzExZERUdzAxT0VncTRBZm01UWdEdFhJenpGd3VQcmcwbmJ1VWZ6cHdXLWFUTVBYRUFpeU93MmJCWU5XYTdLS3ZFYXRpclk?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T15:46:15+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 39,
-      "tags": [
-        "act",
-        "market"
-      ],
-      "summary": "Omdia: AI Factory Market Enters Industrialization Era as Five Dynamics Redefine AI Infrastructure in 2026 AOL.com"
-    },
-    {
-      "title": "华为昇腾950超节点WAIC首秀：业界最大1024卡规模！256TB统一内存 - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JUldsd0tSSThNVTJmOFFuaUVYdjlvQm1uODBtWmVQdDdpUnpqUGtKekp1cWtyVFJkb0tFOHl3NjhJVl9ZLVBWNlV5LU1UZ2gyNWQxUGlCSXctcDFvUGZXcGtn?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T15:32:19+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 33,
-      "tags": [],
-      "summary": "华为昇腾950超节点WAIC首秀：业界最大1024卡规模！256TB统一内存 手机网易网"
-    },
-    {
-      "title": "从技术爆发到价值兑现，2026全球AI商业落地价值洞察研究报告深度解读 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZTY1Y3BtV0t1eFRMb3F0eGwyaWVVUUhMV21JVV9UVEVMQy1JVXlqN3FaUHpFanFjOFlNYWR3el9HWEc4bFl0R3pqYWY3ZzB5RTVOUDQta0xJTWNLbnZZTWtqZnJEQzFvMTA1bGlaRURrbmhLU19OUkF5WUItOHZwTFo5TUNJaVg4?oc=5",
-      "source": "AI基础设施与企业软件",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T15:09:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 36,
-      "tags": [
-        "落地"
-      ],
-      "summary": "从技术爆发到价值兑现，2026全球AI商业落地价值洞察研究报告深度解读 搜狐网"
-    },
-    {
-      "title": "Approved Grid Beats Metro: Lancium Activates Two Texas AI Gigawatt Campuses in One Week - Tech Times",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTmxHR3c5ZjlFdXRtRzEtV2YtVTVxcHdEeENudnduQk9tZ3U2RlhkU01nTHNrR2NGb2lfbWxrTzRvQUxNREUzNGFYaDVjMVpGQVEzLUJGSmw1cDlieXYzZ1Q5SjVNQlEyNEdtMkdtY0ZLdU4wNTdfZ2IwcC1nQ3E0ZnhOdTF2bDRNcFB2SkdZZkJ3eEpXQmpUQWRxUW0wZE9SSXc3eXRwSkx0MGpvazlzYUtLWjZrU284VFc2UE5lNUlpVkpCQy1keHZhTnpOY2ZfX0tJNg?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T15:06:07+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 39,
-      "tags": [
-        "app",
-        "act"
-      ],
-      "summary": "Approved Grid Beats Metro: Lancium Activates Two Texas AI Gigawatt Campuses in One Week Tech Times"
-    },
-    {
-      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
-      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T14:52:08+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 33,
-      "tags": [],
-      "summary": "\"Everybody knows the Greeks are inside.\""
-    },
-    {
-      "title": "RoboSense, GenRobot.AI team up on real-world data for physical AI - Gasgoo",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcDAtcGFzeG40cUhJalQ1QjNyaVN1YWZvaVk1eUJRb3BnWUV1cC1lQ1JuTjZQM05xRUF6M2pBRXhhTEdQZzh5VUhsUzZ0MGlpX0xpVEZFdF9ObEY2bE9BVGZDb3JPUUZNSFYtdFQtOWJ5M1BJM0g4TDJ6dnN0N0JLMkVMUEFRal94QXNlZFduTkRiOHFKdjlla1ZFdUZnNWdFbHJseVd0M3RvTC1oek03WGs1OVhsRlNOMmtjTDlCb2VhZw?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-19T14:41:12+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 33,
-      "tags": [],
-      "summary": "RoboSense, GenRobot.AI team up on real-world data for physical AI Gasgoo"
-    },
-    {
-      "title": "2 Stocks Quietly Benefiting from India’s AI Data Center Expansion - Trade Brains",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNWc3d3g4YXU2U2lNY2MyVzlLWktiRmZoSHlCLUFKMHZiNFJEejZITlVDcjMwVGdnNENLTk5iREFmRk9RN3Npb05QMHFhWk5SYUcySlN2LUNSQ2VMRFFoczV0OXVBRFYtQWU1Qi1tNlB0amo2bHVQYnlGWlZRVXptNVJkSmwyelM3R00wRTJraG1KZw?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T14:30:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 39,
-      "tags": [
-        "stock",
-        "data center"
-      ],
-      "summary": "2 Stocks Quietly Benefiting from India’s AI Data Center Expansion Trade Brains"
-    },
-    {
-      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-07-19T14:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 33,
-      "tags": [],
-      "summary": "Current AI, a nonprofit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat, and more."
-    },
-    {
-      "title": "‌WAIC最高荣誉五大赢家全揭秘：华为靠“组局”制胜、14nm国芯逆袭 - shobserver.cn",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE45YWhrSkljOTBCSWJtVXhKMU16c2V1Nzk5QTBqOW5ES3dUM21wcWxvc0xFbExWcTZyUU5SYmpOQ2tQRDVYRWcycml6UkpYZGRqSXRZZm1kd0RwbDdqZVE?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T13:25:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 33,
-      "tags": [],
-      "summary": "‌WAIC最高荣誉五大赢家全揭秘：华为靠“组局”制胜、14nm国芯逆袭 shobserver.cn"
-    },
-    {
-      "title": "ACE ROBOTICS Unveils Kairos 3.1 and Expands Its Embodied AI Stack from Data to Deployment at WAIC 2026 - The Manila Times",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQckVoLUktTUcxYm9WWWFhUC1WSlBDMUdTWWZscE1yejZ4ZTdNekNHLUZaM3NXQ3pvWS1EUUJTYWN1NWxFQndsSVRoaEhEaHRrb0YzWXRDUlh2WEJlakZHd0JoVnF1UVdWVEtSTUcxcjk2YkdKbFVLU29ZelVTbkEyQk1ZTll3TnRWNjBDOVZ2Q3pDQjJfSmhOSkZLTnp4cDNvS1IwVWFBbXlnZ3B2WS1EeVF1cUZpZ2d5VGZmZW90RUwwT1k5ZFhLVDNjdXNfUjg1S3BUMmlrVUo4d1RCTklEQjhXUkRPMFRZbWNSWEZhNk9xVTRiZkJhcWoxSVhyOENwY0puNGhoRFB6aXRESTFwd3JFQdIBmAJBVV95cUxOcnJrQkVIZGxBTm1GdWI4NFNMZlkxZ091OWh4bEkya1VMQmhMNE5tNDJudF85dGhrUUZVek14ZjFVbWs2MjRSRERReGg5eXhoZ1hnZEF4QTJBTm50eEtCTVdyblhUVVpsOVliN3BwTnZVNG95VmNlblJtb1R6NE9kRlE5eTB5ekZUNEYtYUpTVWxqeHFsZkFyLVNEZHkwREtXc3ZLd3ZEZ3dCS3RKbjRmbXFqaS1fek9qZDU4MnF0Mm9pUzNZMXFHVTUzYzNDSUhHOF83Q3NfWlhfQ01STzFCV1I1OXFlamlPMUxJLVNtM1llc0ZINzAtdUlkWFRHZHBRaXdTR0FBTHNzd2ZNWEp5cldxaU95Z1pT?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-19T13:24:28+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 36,
-      "tags": [
-        "robotics"
-      ],
-      "summary": "ACE ROBOTICS Unveils Kairos 3.1 and Expands Its Embodied AI Stack from Data to Deployment at WAIC 2026 The Manila Times"
-    },
-    {
-      "title": "Vertiv Stock And 2 Power Grid Plays Backing The AI Data Center Buildout - simplywall.st",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbWs0YnhvOTlldUtTZ01HSHE3ME9VVU9WWnBuRmR3YUFMS0g5TFJOV2VaVFFHcXVxRDZid1JBODhjdG1nQ1d4RjRkUmZiNkxzUXQxSEgyMXJHWi1XMmk1R21EUjNFN1ZnTUZ2SGtxMFJHbUJIQXRRTDJjMnNoZkdSTENid2ZzaURnOHEzcmdLd1NTUFBsdVJzeTRQeWhnTzhTbGFVV2Z5R1JSWDVvc01Zdm5XOUNOUko4WTV4WXlxWDN4WEpnR2ltSEs5dELSAdIBQVVfeXFMTzE3d2Iwd19LM1FxNkJCeGFqRFdBdjAxVkl3dHpEUjh5X1RVY0gyV3BPTGtQeWRWS29BNi10REtHZ3FtcGNURW1QUVI0UEtvTm1USndpRFA1QzF5ckdBUERqWVBjbWZwSnFMU00yb1F5LXU5NXUwUUtVTHhRMTJDOWRVS3l0WXU3WkNzSURkMlphWUNUb3VyOXRzTnBXOGxBbTJIcFM2MzBoWUZjemhLTS1GSllGdmdFdTVXcTg0c0RvSXBXSVRFLUdwZV83aG5RNE1B?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T13:04:34+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 39,
-      "tags": [
-        "stock",
-        "data center"
-      ],
-      "summary": "Vertiv Stock And 2 Power Grid Plays Backing The AI Data Center Buildout simplywall.st"
-    },
-    {
-      "title": "Follow up: GPT-2's vocabulary as a hyperbolic tree — 32,070 tokens in a Poincaré ball you can fly through [P]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1v0pv45/follow_up_gpt2s_vocabulary_as_a_hyperbolic_tree/",
-      "source": "Reddit · r/MachineLearning",
-      "source_type": "Reddit",
-      "published_at": "2026-07-19T12:54:23+00:00",
-      "author": "u/Limp-Contest-7309",
-      "reddit_community": "MachineLearning",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 42,
-      "tags": [
-        "training",
-        "app",
-        "act"
-      ],
-      "summary": "GPT-2's vocabulary as a hyperbolic tree: 32,070 tokens inside a Poincaré ball that you can explore. Link : https://aethereos.net/static/tinny66666.html Link named after a reddit user disappointed with my 2D projection ... It uses the same data as the flat map, GPT-2-small's raw token embeddings and nothing else, but la"
-    },
-    {
-      "title": "Gartner Identifies the Companies to Beat in the AI Semiconductor Vendor Race - Technology For You",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNXgxNHRjd1hEZVlNU2xGVnVEUjhrXzRQUjRWU1U4SWpIMHdMN3owRzNKalhZbG5uRDVZNUYya2dfcGFIb01GRV9Ob2pyWkZGR2hCVG5CUmtYMDRweFRLcC1kdXNMY1ZaS0tFUFpvQjNmdzdwcGd4Y3lEREZVdi1RSDNmeHplNVhmNzI3eVg1NnhrVXBtem50VUVFUFJGRG1NQXdyZHlJU3FjNF93Rlcw?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T11:50:26+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 32,
-      "tags": [],
-      "summary": "Gartner Identifies the Companies to Beat in the AI Semiconductor Vendor Race Technology For You"
-    },
-    {
-      "title": "Shanghai launches China's first AI-powered autonomous laboratory for materials science - 巴士的報",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT2JCdWRkSldCUU8waml3My1fbm40TDdGeFlzRFcxMjA2czlyV1lyRnlCQ1FKZ2p3WFJuSjBvMTI2Y09sandOUm5wMnB6STNXX3U3QkVXMjVUSzVwbDBKek5JVlRSSDhTTW1sSkdlaXl0Z1pSUFlreVZmcVVmM2VUbXNzejMzMWJHUE0xYUpvZ3JCNmVsSXZjTG02UEpTZjAycEtxdHpfRDRpaDJqTE54NEJobHlTb0NSM29IMzI2WDc2R25WRF95UHJONExFZkdDdVpj?oc=5",
-      "source": "AI for Science",
-      "source_type": "新技术",
-      "published_at": "2026-07-19T11:40:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 35,
-      "tags": [
-        "launch"
-      ],
-      "summary": "Shanghai launches China's first AI-powered autonomous laboratory for materials science 巴士的報"
-    },
-    {
-      "title": "LimX Dynamics Raises Nearly $200 Million In Pre-IPO Funding To Scale Humanoid Robots - Pulse 2.0",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbE54eUUyOFZQY0NSMjFRQWtlUmQzME5KUlpncVNiZVlkeHMyd0JyWDhudDBrZGZCdHVIWEI4cFlHWmZJeGVJb0ZacDJtNnhqS2ZodEcyM2JYdzlMTjF3bDU4cnRDU1QyTDJjZnBPNlFuRHZNdVNiWElyRXNaRkxPWHdLS3htLUdud0hBM0ozTlJXWEZyRkRUWVdsVDRaWE9FSDZLcXp30gGrAUFVX3lxTE5aRV9UT0l2cEwyNUctaU5QZ3B4eklKYzdWT1NTT2psODFnb1QyODF4Tm9NTGNEUDk5Qmt2TmhyMk14Q2lOajg4TTN0ZWNndTROdW4ySFhWUjBRMEV6RUFYZ1kyVE0tSnZvNmNsTWFzZXNiRldVVW1FdWxYbVZpZGlrZkQtbDVPNG9EUGFFRTJ4TDJCeVl1b0tESVVKbXQybS1FWjB2aVVfNUx6RQ?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-19T11:34:48+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 38,
-      "tags": [
-        "funding",
-        "ipo"
-      ],
-      "summary": "LimX Dynamics Raises Nearly $200 Million In Pre-IPO Funding To Scale Humanoid Robots Pulse 2.0"
-    },
-    {
-      "title": "Nvidia And Japan Bring Full-Stack AI And Robotics To Every Industry - SMBtech",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNODRQelBPMXpqem00bXNUQVp5a0Znb3Jsc3NiRkxrdThFcGhHWmJROThQb3NxMjdERF9LVE0tbHFoem1uVnhkUjVLUUxHY0IzYndUZGZld0xzRzk2VWdlOVUzb0NLWHJ0OFo0cU1LRDllSHlGQ0dvTDV2cHhBRTVoY3g4b3JNSnRHTWQzaWNYVUIzQ3Z5RjFZ?oc=5",
-      "source": "具身智能与机器人",
-      "source_type": "新技术",
-      "published_at": "2026-07-19T11:30:16+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 44,
-      "tags": [
-        "robotics",
-        "industry"
-      ],
-      "summary": "Nvidia And Japan Bring Full-Stack AI And Robotics To Every Industry SMBtech"
-    },
-    {
-      "title": "超节点集中亮相WAIC 国产算力进入系统级竞争时代 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB6NHpqalJZWC1yR1E3X2toZDhPb003Uy1IbFAyMUFFTWJzVDhsVzY1Y3BSb2VTSTNVb1NEWWhudlg5WHFjVWc?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T11:18:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 32,
-      "tags": [],
-      "summary": "超节点集中亮相WAIC 国产算力进入系统级竞争时代 财联社"
-    },
-    {
-      "title": "红熊AI完成数亿元A+轮融资，基于AI“记忆科学”从To B服务延伸至To C应用｜36氪首发 - 36 Kr",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JUGI0Q19kaDB1Y0doSXFCLWVBNHJMVWp5Tzc4anY2b0ZJXzQxNEFHTW9oN3hSWWQtcGF4cHR3VENiQWhWZXkyRHJJcWp4V3ll?oc=5",
-      "source": "中文AI投资融资",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-19T10:00:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 38,
-      "tags": [
-        "融资",
-        "应用"
-      ],
-      "summary": "红熊AI完成数亿元A+轮融资，基于AI“记忆科学”从To B服务延伸至To C应用｜36氪首发 36 Kr"
-    },
-    {
-      "title": "脸书网页版全球大宕机 约两小时后恢复正常 - e南洋",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xMWN3akdNUDZqNFZzbElWNklVaVpSVzZuazdTdE94VnMtOGZpeWNrQkZFbHhWM2FWQkV0ajZ1M1o5VElMNzJGZXZobkhHM0c0SmJHNlhuUzJnc3NPZWhmbU1QYkloZVk2WXBr?oc=5",
-      "source": "AI基础设施与企业软件",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T09:55:07+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 32,
-      "tags": [],
-      "summary": "脸书网页版全球大宕机 约两小时后恢复正常 e南洋"
-    },
-    {
-      "title": "参与全球标准共建 为机器人发展保驾护航 - rss.jingjiribao.cn",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xMU1TVzhxclZ0akFZTzl3VFlUZlFScnpLUUtsSGV1eWZYZGl1Sjcwazg2TnkwSXd6dlc2dmcxMEI2Rl9UNDdjWFBOcGNRc0RyZjh3cl9wVi1pQUZMb0J4dTFucw?oc=5",
-      "source": "AI基础设施与企业软件",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T09:36:02+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 38,
-      "tags": [
-        "机器人",
-        "标准"
-      ],
-      "summary": "参与全球标准共建 为机器人发展保驾护航 rss.jingjiribao.cn"
-    },
-    {
-      "title": "斩获WAIC最高奖SAIL，华为昇腾950超节点真机首秀震撼亮相 #华为 - qq.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTVVQYlFZak4tSmgtS255OEMwdEduZHdoVDEzdlk3cGx0WmZHd3RmeWd0b2QwN3lwdkt3NHZCbzV3RzQ4d0pKVmZSNXNCR3otOTFJMVZDb3JiMWU4N3hNb2RDU3lLOEVnelk1RU5qNWNUSTR2UWdDei1WNmU3Q2lobXdUbm43OW9IRHVaQkIzN19xVlAxd2lj?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T09:23:31+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 32,
-      "tags": [],
-      "summary": "斩获WAIC最高奖SAIL，华为昇腾950超节点真机首秀震撼亮相 #华为 qq.com"
-    },
-    {
-      "title": "华为昇腾950超节点上的灵衢协议到底是什么？ - 热点科技",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wTWxBNXdKa0xmWHpmMV9PYXVlTWtJQkxKakFuNDA0YlhPRUE2ZFhNTGhOaGhhaEZUNFZTS2tKUW9XLUhRZ2dlTWNIX3lwNGNZN1BHSUZVQ2hvd19y?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T09:00:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 32,
-      "tags": [],
-      "summary": "华为昇腾950超节点上的灵衢协议到底是什么？ 热点科技"
-    },
-    {
-      "title": "Exascale AI Computing Centers Accelerate Deployment: How Can We Overcome Grid‑Integration Challenges and Close the Industry Loop? - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRDl6U204VnB0TElxcTFkdVJzWlVFWjYzTC1MRDFnQkJLZ0U5bVZLMElTTGxkNThZelFvb2tMUjFfVUh2N1hKT09SUVVrZjZfS3pjSy1LckhYVlZFNjljY25FakNZNlRyY1pKbVJfcXhyekswZDVOWWhwelpycHkzQ05RSVoxNk9BSnR1TnRXQmgzby1ieEoxSDZBbjJ5QU5qYVJrR0s3UHBVZXhvVDBHZzBsaw?oc=5",
-      "source": "AI数据中心与能源",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T08:46:52+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 35,
-      "tags": [
-        "industry"
-      ],
-      "summary": "Exascale AI Computing Centers Accelerate Deployment: How Can We Overcome Grid‑Integration Challenges and Close the Industry Loop? Moomoo"
-    },
-    {
-      "title": "国泰海通联合华为落地金融行业首个AI液冷超节点 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pOXNWYVVTQ1pKUHRNSnpmSXNNYkxpX2dRcFU0WGpuNDBXdnA0dmJBRm8zcGVSOHVBWHNMZ1otRWlQUjZHYVUxZ1lVTjUzYlhTdFZfMkZWRlZTR1Iwd0V4bmlyWHpHYzNqaXREVHBB?oc=5",
-      "source": "中国算力芯片产业链",
-      "source_type": "产业链",
-      "published_at": "2026-07-19T08:38:25+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 35,
-      "tags": [
-        "落地"
-      ],
-      "summary": "国泰海通联合华为落地金融行业首个AI液冷超节点 新浪财经"
-    },
-    {
-      "title": "搭载蓝芯智通融合CPU 联想推出全球首款开源架构AI服务器 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YcUp3M1U1eTJIaHJ5NE5yNHpJdWR4VklWUkEyMFhFOVVfRGZudUowQU12dnRNdXdIZkpwdHZvQ0Nzak8yRExsLVFwWkRyX3dGQ3RNTk1PWDBGa0M5R0ZzWHY3UzNlZw?oc=5",
-      "source": "中文AI技术开源",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-19T07:59:26+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 37,
-      "tags": [
-        "架构",
-        "开源"
-      ],
-      "summary": "搭载蓝芯智通融合CPU 联想推出全球首款开源架构AI服务器 东方财富"
     }
   ]
 }
