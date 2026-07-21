@@ -1,6 +1,6 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T14:36:34.557538+00:00",
+  "updated_at": "2026-07-21T14:37:13.248090+00:00",
   "count": 299,
   "errors": [],
   "source_status": {
@@ -1801,21 +1801,6 @@
       "summary": "Does anyone know the EXACT timing of when NeurIPS reviews are gonna be released? I'm just refreshing openreview all the time and it's stressing me out so much. Thank you for your help. submitted by /u/Anshuman3480 [link] [comments]"
     },
     {
-      "title": "Halliday’s latest smart glasses feature a much-improved display",
-      "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
-      "source": "The Verge AI",
-      "source_type": "RSS",
-      "published_at": "2026-07-21T13:00:00+00:00",
-      "language": "en",
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "feature",
-        "app"
-      ],
-      "summary": "I was not a fan of the original Halliday glasses. The Gen 2 are better. | Image: Halliday I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, and my 30-minute demo left me with achy "
-    },
-    {
       "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
       "url": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
       "source": "VentureBeat AI",
@@ -3171,6 +3156,22 @@
       "relevance_score": 37,
       "tags": [],
       "summary": "Hey any one experience overall score 2.66 and then Meta score 3 in some previous cycle ?? Or meta reviewer just rounded off 2.66 to 2.5?? Any Meta Reviewer here?? because there are some uninterested reviewers doing AI generated reviews and giving noisy scores. For them overall score gets lowered. submitted by /u/Histor"
+    },
+    {
+      "title": "Apple’s plot to crush OpenAI",
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "source": "The Verge AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-17T17:41:32+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 37,
+      "tags": [
+        "api",
+        "app",
+        "law"
+      ],
+      "summary": "Apple is suing OpenAI . The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done . So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The Vergecast , Nilay and"
     },
     {
       "title": "The apps, gadgets, and tools every reader needs",
