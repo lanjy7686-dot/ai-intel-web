@@ -28,8 +28,9 @@
   },
   "x": {
     "enabled": true,
-    "max_items": 100,
-    "query": "(AI OR \"artificial intelligence\" OR LLM OR OpenAI OR Anthropic OR DeepSeek OR NVIDIA OR 人工智能 OR 大模型) -is:retweet"
+    "max_items": 10,
+    "fetch_interval_minutes": 180,
+    "query": "(OpenAI OR Anthropic OR DeepSeek OR Gemini OR Claude OR NVIDIA OR \"artificial intelligence\" OR LLM OR 人工智能 OR 大模型 OR 智能体) (funding OR valuation OR investment OR IPO OR earnings OR launch OR release OR benchmark OR model OR agent OR chip OR robotics OR 融资 OR 投资 OR 发布 OR 芯片 OR 机器人) -is:retweet -is:reply"
   },
   "rss": [
     {
