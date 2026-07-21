@@ -1,81 +1,110 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="AI情报雷达：聚合全球AI投资、技术、产品、政策、论文和社区资讯。" />
-  <title>AI情报雷达</title>
-  <style>
-    :root{--bg:#07111f;--panel:#0d1b2e;--panel2:#10233a;--text:#eef5ff;--muted:#94a8c2;--line:#1d3653;--accent:#59b9ff;--accent2:#8b6cff;--good:#58d68d;--warn:#ffbe63;--shadow:0 16px 50px rgba(0,0,0,.25)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}
-    body{margin:0;background:radial-gradient(circle at 8% 0%,rgba(89,185,255,.14),transparent 32%),radial-gradient(circle at 92% 5%,rgba(139,108,255,.17),transparent 30%),var(--bg);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
-    a{color:inherit}.wrap{max-width:1360px;margin:0 auto;padding:28px 20px 60px}
-    header{display:flex;gap:18px;justify-content:space-between;align-items:center;margin-bottom:22px}.brand{display:flex;gap:14px;align-items:center}
-    .logo{width:54px;height:54px;border-radius:17px;display:grid;place-items:center;font-size:28px;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 8px 30px rgba(89,185,255,.22)}
-    h1{font-size:29px;margin:0}.sub{color:var(--muted);font-size:13px;margin-top:5px}.status{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px;flex-wrap:wrap;justify-content:flex-end}
-    .dot{width:9px;height:9px;border-radius:50%;background:var(--good);box-shadow:0 0 12px var(--good)}.pill{padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:#0a1728;color:#cbeaff}
-    .panel,.toolbar,.search-panel{background:linear-gradient(180deg,rgba(16,35,58,.92),rgba(13,27,46,.94));border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px}
-    .toolbar{padding:16px;display:grid;grid-template-columns:2fr repeat(3,1fr) auto;gap:12px;margin-bottom:16px}
-    input,select,button{border-radius:12px;border:1px solid var(--line);background:#0a1728;color:var(--text);padding:12px 13px;font-size:14px;outline:none}input:focus,select:focus{border-color:var(--accent)}
-    button{cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;font-weight:700}button:hover{filter:brightness(1.08)}
-    .search-panel{padding:16px;margin-bottom:18px}.search-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.search-head h2{font-size:16px;margin:0}.search-note{font-size:12px;color:var(--muted)}
-    .search-grid{display:flex;gap:8px;flex-wrap:wrap}.search-link{display:inline-flex;align-items:center;gap:7px;text-decoration:none;padding:9px 12px;border-radius:11px;border:1px solid var(--line);background:#0a1728;font-size:13px;color:#dcecff;cursor:pointer}.search-link:hover{border-color:var(--accent);color:white}
-    .stats{display:grid;grid-template-columns:repeat(6,1fr);gap:13px;margin-bottom:18px}.stat{padding:17px}.stat .label{font-size:12px;color:var(--muted)}.stat .value{font-size:27px;font-weight:800;margin-top:7px}
-    .layout{display:grid;grid-template-columns:1fr 335px;gap:18px}.feed{padding:18px}.feed-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.feed-head h2,.side h2{margin:0;font-size:18px}.count{font-size:12px;color:var(--muted)}
-    .card{padding:18px 0;border-bottom:1px solid var(--line)}.card:last-child{border-bottom:0}.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px;margin-bottom:8px}
-    .badge{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#0a1728}.source-reddit{color:#ffbc8a}.score{color:#bdeeff}.title{font-size:19px;font-weight:760;line-height:1.45;text-decoration:none}.title:hover{color:var(--accent)}
-    .summary{color:#c8d6e7;line-height:1.75;font-size:14px;margin:9px 0 0}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:11px}.tag{font-size:11px;color:#b7c7d9;background:#0a1728;padding:4px 8px;border-radius:8px;border:1px solid #17304d}
-    .side{padding:18px;height:max-content;position:sticky;top:18px}.rank{margin-top:14px;display:grid;gap:12px}.rank-item{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}.rank-num{width:26px;height:26px;border-radius:9px;display:grid;place-items:center;background:#0a1728;border:1px solid var(--line);font-weight:800;font-size:12px}.rank-title{font-size:13px;line-height:1.5;text-decoration:none}.rank-source{font-size:11px;color:var(--muted);margin-top:3px}
-    .source-list{display:grid;gap:10px;margin-top:14px}.source-row{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:#cbd8e7}.source-row span:last-child{color:#91d8ff;font-weight:700}
-    .empty{padding:50px 20px;text-align:center;color:var(--muted)}.notice{display:none;margin-bottom:18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,190,99,.45);background:rgba(255,190,99,.09);color:#ffd89a;font-size:13px;line-height:1.65}.notice.show{display:block}.footer{color:var(--muted);text-align:center;font-size:12px;margin-top:24px}.loading{animation:pulse 1.2s infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
-    @media(max-width:1060px){.toolbar{grid-template-columns:1fr 1fr}.stats{grid-template-columns:repeat(3,1fr)}.layout{grid-template-columns:1fr}.side{position:static}}@media(max-width:640px){header{align-items:flex-start}.status{display:none}.toolbar{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.wrap{padding:18px 12px 40px}.title{font-size:17px}.search-head{align-items:flex-start;flex-direction:column}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AI情报雷达：聚合国内外AI投资、技术、产品、政策、论文与社交平台公开资讯。">
+<title>AI情报雷达</title>
+<style>
+:root{--bg:#07111f;--panel:#0d1b2e;--panel2:#10233a;--text:#eef5ff;--muted:#94a8c2;--line:#1d3653;--accent:#4cc9f0;--accent2:#7b61ff;--good:#43d17a;--warn:#ffb84d;--shadow:0 16px 50px rgba(0,0,0,.26)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 8% 0%,rgba(76,201,240,.15),transparent 33%),radial-gradient(circle at 92% 5%,rgba(123,97,255,.17),transparent 30%),var(--bg);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}a{color:inherit}.wrap{max-width:1380px;margin:0 auto;padding:28px 20px 60px}header{display:flex;gap:20px;justify-content:space-between;align-items:center;margin-bottom:22px}.brand{display:flex;gap:14px;align-items:center}.logo{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:27px;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 8px 30px rgba(76,201,240,.24)}h1{font-size:28px;margin:0;letter-spacing:.5px}.sub{color:var(--muted);font-size:13px;margin-top:5px}.status{display:flex;gap:8px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:13px}.dot{width:9px;height:9px;border-radius:50%;background:var(--good);box-shadow:0 0 12px var(--good)}.pill{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#0a1728;color:#bdeeff}.toolbar,.panel,.search-panel{background:linear-gradient(180deg,rgba(16,35,58,.92),rgba(13,27,46,.94));border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px}.toolbar{padding:16px;display:grid;grid-template-columns:2fr repeat(3,1fr) auto;gap:12px;margin-bottom:18px}input,select,button{border-radius:12px;border:1px solid var(--line);background:#0a1728;color:var(--text);padding:12px 13px;font-size:14px;outline:none}input:focus,select:focus{border-color:var(--accent)}button{cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;font-weight:700}.search-panel{padding:18px;margin-bottom:18px}.search-head{display:flex;gap:12px;justify-content:space-between;align-items:flex-start;margin-bottom:14px}.search-head h2{margin:0;font-size:18px}.search-note{font-size:12px;color:var(--muted);max-width:720px;line-height:1.6}.platform-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.platform-tab{border:1px solid var(--line);background:#0a1728;padding:8px 11px;border-radius:999px;font-size:12px;cursor:pointer}.platform-tab.active{background:linear-gradient(135deg,var(--accent),var(--accent2));border:0}.search-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.search-link{display:block;padding:12px;border-radius:12px;background:#0a1728;border:1px solid var(--line);text-decoration:none;cursor:pointer;font-size:13px;line-height:1.45}.search-link:hover{border-color:var(--accent);color:var(--accent)}.custom-search{display:grid;grid-template-columns:160px 1fr auto;gap:10px;margin-top:12px}.notice{display:none;margin:-4px 0 18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,184,77,.45);background:rgba(255,184,77,.09);color:#ffd89a;font-size:13px;line-height:1.65}.notice.show{display:block}.notice strong{color:#fff1cc}.stats{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-bottom:18px}.stat{padding:16px}.stat .label{font-size:12px;color:var(--muted)}.stat .value{font-size:26px;font-weight:800;margin-top:7px}.layout{display:grid;grid-template-columns:1fr 340px;gap:18px}.feed{padding:18px}.feed-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.feed-head h2,.side h2{margin:0;font-size:18px}.count{font-size:12px;color:var(--muted)}.card{padding:18px 0;border-bottom:1px solid var(--line)}.card:last-child{border-bottom:0}.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px;margin-bottom:8px}.badge{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#0a1728}.score{color:#bdeeff}.title{font-size:19px;font-weight:760;line-height:1.45;text-decoration:none}.title:hover{color:var(--accent)}.summary{color:#c8d6e7;line-height:1.75;font-size:14px;margin:9px 0 0}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:11px}.tag{font-size:11px;color:#b7c7d9;background:#0a1728;padding:4px 8px;border-radius:8px;border:1px solid #17304d}.side{padding:18px;height:max-content;position:sticky;top:18px}.rank{margin-top:14px;display:grid;gap:12px}.rank-item{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}.rank-num{width:26px;height:26px;border-radius:9px;display:grid;place-items:center;background:#0a1728;border:1px solid var(--line);font-weight:800;font-size:12px}.rank-title{font-size:13px;line-height:1.5;text-decoration:none}.rank-source{font-size:11px;color:var(--muted);margin-top:3px}.source-list{display:grid;gap:8px;margin-top:12px}.source-row{display:flex;justify-content:space-between;padding:8px 10px;background:#0a1728;border:1px solid var(--line);border-radius:10px;font-size:12px}.empty{padding:50px 20px;text-align:center;color:var(--muted)}.footer{color:var(--muted);text-align:center;font-size:12px;margin-top:24px}.loading{animation:pulse 1.2s infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}.source-domestic{color:#ffd89a}.source-wechat{color:#7cf0a7}.source-xhs{color:#ff9db5}.source-douyin{color:#7ad9ff}
+@media(max-width:1100px){.stats{grid-template-columns:repeat(4,1fr)}.search-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:980px){.toolbar{grid-template-columns:1fr 1fr}.layout{grid-template-columns:1fr}.side{position:static}.search-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:680px){header{align-items:flex-start}.status{display:none}.toolbar{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.search-grid{grid-template-columns:1fr}.custom-search{grid-template-columns:1fr}.wrap{padding:18px 12px 40px}.title{font-size:17px}}
+</style>
 </head>
 <body>
 <div class="wrap">
-  <header><div class="brand"><div class="logo">📡</div><div><h1>AI情报雷达</h1><div class="sub">投资 · 技术 · 产品 · 政策 · 论文 · 全球社区</div></div></div><div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span><span class="pill">完全免费模式</span><span id="redditStatus" class="pill">Reddit：检测中</span></div></header>
+<header>
+  <div class="brand"><div class="logo">📡</div><div><h1>AI情报雷达</h1><div class="sub">国内外资讯 · 投资 · 技术 · 产品 · 政策 · 论文 · 社交平台</div></div></div>
+  <div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span><span class="pill">完全免费模式</span><span id="domesticStatus" class="pill">国内资讯：检测中</span></div>
+</header>
 
-  <section class="toolbar">
-    <input id="keyword" placeholder="搜索公司、模型、融资、芯片、机器人、社区话题…" />
-    <select id="category"><option>全部分类</option><option>投资商业</option><option>技术研究</option><option>产品应用</option><option>政策治理</option><option>产业动态</option></select>
-    <select id="sourceType"><option>全部来源</option><option>Reddit</option><option>RSS</option><option>论文</option><option>技术社区</option><option>微信公众号</option><option>全球新闻</option></select>
-    <select id="timeRange"><option value="1">近24小时</option><option value="3">近3天</option><option value="7" selected>近7天</option><option value="30">近30天</option></select>
-    <button id="refreshBtn">刷新</button>
-  </section>
+<section class="toolbar">
+  <input id="keyword" placeholder="搜索公司、模型、融资、芯片、机器人、AI工具…" />
+  <select id="category"><option>全部分类</option><option>投资商业</option><option>技术研究</option><option>产品应用</option><option>政策治理</option><option>产业动态</option></select>
+  <select id="sourceType"><option>全部来源</option><option>国内资讯</option><option>微信公众号</option><option>小红书</option><option>抖音</option><option>Reddit</option><option>RSS</option><option>论文</option><option>技术社区</option><option>全球新闻</option></select>
+  <select id="timeRange"><option value="1">近24小时</option><option value="3">近3天</option><option value="7" selected>近7天</option><option value="30">近30天</option></select>
+  <button id="refreshBtn">刷新</button>
+</section>
 
-  <section class="search-panel"><div class="search-head"><h2>免费实时搜索入口</h2><div class="search-note">X不调用付费API；Reddit除自动RSS聚合外，也可直接打开站内最新搜索。</div></div><div class="search-grid">
-    <a class="search-link" data-platform="x" data-query="artificial intelligence OR AI OR LLM">𝕏 AI综合</a>
-    <a class="search-link" data-platform="x" data-query="AI funding OR AI investment OR AI valuation">𝕏 投资融资</a>
-    <a class="search-link" data-platform="x" data-query="AI model launch OR LLM release OR AI agent">𝕏 模型发布</a>
-    <a class="search-link" data-platform="reddit" data-query="AI funding investment">Reddit 投资讨论</a>
-    <a class="search-link" data-platform="reddit" data-query="LLM model release benchmark">Reddit 模型技术</a>
-    <a class="search-link" data-platform="reddit" data-query="AI agent robotics">Reddit 智能体机器人</a>
-    <a class="search-link" id="customSearch">搜索输入框关键词</a>
-  </div></section>
+<section class="search-panel">
+  <div class="search-head"><div><h2>国内外平台实时搜索</h2><div class="sub">点击后直接打开对应平台搜索，不调用付费API。</div></div><div class="search-note">微信公众号、小红书和抖音没有适合匿名全站抓取的稳定免费通用接口，因此采用“自动聚合国内新闻 + 平台实时搜索 + 公开链接收藏”组合。</div></div>
+  <div class="platform-tabs">
+    <button class="platform-tab active" data-filter="all">全部</button>
+    <button class="platform-tab" data-filter="wechat">微信公众号</button>
+    <button class="platform-tab" data-filter="xhs">小红书</button>
+    <button class="platform-tab" data-filter="douyin">抖音</button>
+    <button class="platform-tab" data-filter="reddit">Reddit</button>
+    <button class="platform-tab" data-filter="x">X</button>
+  </div>
+  <div class="search-grid">
+    <a class="search-link" data-group="wechat" data-platform="wechat" data-query="人工智能 大模型 最新">微信 AI最新资讯</a>
+    <a class="search-link" data-group="wechat" data-platform="wechat" data-query="AI 投资 融资 估值">微信 AI投资融资</a>
+    <a class="search-link" data-group="wechat" data-platform="wechat" data-query="AI工具 教程 智能体">微信 AI工具教程</a>
+    <a class="search-link" data-group="wechat" data-platform="wechat" data-query="AI芯片 机器人 算力">微信 芯片机器人</a>
+    <a class="search-link" data-group="xhs" data-platform="xhs" data-query="AI工具">小红书 AI工具</a>
+    <a class="search-link" data-group="xhs" data-platform="xhs" data-query="大模型 最新发布">小红书 大模型发布</a>
+    <a class="search-link" data-group="xhs" data-platform="xhs" data-query="AI副业 效率">小红书 AI应用副业</a>
+    <a class="search-link" data-group="xhs" data-platform="xhs" data-query="AI投资 人工智能公司">小红书 AI投资讨论</a>
+    <a class="search-link" data-group="douyin" data-platform="douyin" data-query="人工智能 最新资讯">抖音 AI最新资讯</a>
+    <a class="search-link" data-group="douyin" data-platform="douyin" data-query="AI工具 教程">抖音 AI工具教程</a>
+    <a class="search-link" data-group="douyin" data-platform="douyin" data-query="大模型 DeepSeek">抖音 大模型动态</a>
+    <a class="search-link" data-group="douyin" data-platform="douyin" data-query="机器人 AI芯片">抖音 机器人芯片</a>
+    <a class="search-link" data-group="reddit" data-platform="reddit" data-query="AI funding investment">Reddit 投资讨论</a>
+    <a class="search-link" data-group="reddit" data-platform="reddit" data-query="LLM model release benchmark">Reddit 模型技术</a>
+    <a class="search-link" data-group="x" data-platform="x" data-query="AI funding OR AI investment OR AI valuation">X 投资融资</a>
+    <a class="search-link" data-group="x" data-platform="x" data-query="AI model launch OR LLM release OR AI agent">X 模型发布</a>
+  </div>
+  <div class="custom-search">
+    <select id="customPlatform"><option value="wechat">微信公众号</option><option value="xhs">小红书</option><option value="douyin">抖音</option><option value="reddit">Reddit</option><option value="x">X</option><option value="baidu">百度全网</option></select>
+    <input id="platformKeyword" placeholder="输入自定义关键词，如：AI建筑、无人机检测、AI投资" />
+    <button id="customSearchBtn">实时搜索</button>
+  </div>
+</section>
 
-  <div id="sourceNotice" class="notice" role="status"></div>
-  <section class="stats">
-    <div class="stat panel"><div class="label">当前结果</div><div class="value" id="sTotal">0</div></div><div class="stat panel"><div class="label">投资商业</div><div class="value" id="sInvest">0</div></div><div class="stat panel"><div class="label">技术研究</div><div class="value" id="sTech">0</div></div><div class="stat panel"><div class="label">产品应用</div><div class="value" id="sProduct">0</div></div><div class="stat panel"><div class="label">政策治理</div><div class="value" id="sPolicy">0</div></div><div class="stat panel"><div class="label">Reddit</div><div class="value" id="sReddit">0</div></div>
-  </section>
+<div id="sourceNotice" class="notice" role="status"></div>
 
-  <main class="layout"><section class="feed panel"><div class="feed-head"><h2>最新资讯</h2><span class="count" id="resultCount">0 条</span></div><div id="feed"><div class="empty loading">正在加载最新AI资讯…</div></div></section><aside class="side panel"><h2>重点关注</h2><div class="sub">按相关度与新鲜度排序</div><div id="ranking" class="rank"></div><h2 style="margin-top:24px">来源概览</h2><div id="sourceOverview" class="source-list"></div></aside></main>
-  <div class="footer">内容仅作公开信息聚合，不构成投资建议。Reddit内容保留来源、作者与原帖链接；X使用免费站内搜索入口。</div>
+<section class="stats">
+  <div class="stat panel"><div class="label">当前结果</div><div class="value" id="sTotal">0</div></div>
+  <div class="stat panel"><div class="label">投资商业</div><div class="value" id="sInvest">0</div></div>
+  <div class="stat panel"><div class="label">技术研究</div><div class="value" id="sTech">0</div></div>
+  <div class="stat panel"><div class="label">国内资讯</div><div class="value" id="sDomestic">0</div></div>
+  <div class="stat panel"><div class="label">微信公众号</div><div class="value" id="sWechat">0</div></div>
+  <div class="stat panel"><div class="label">小红书</div><div class="value" id="sXhs">0</div></div>
+  <div class="stat panel"><div class="label">抖音</div><div class="value" id="sDouyin">0</div></div>
+</section>
+
+<main class="layout">
+  <section class="feed panel"><div class="feed-head"><h2>最新资讯</h2><span class="count" id="resultCount">0 条</span></div><div id="feed"><div class="empty loading">正在加载最新AI资讯…</div></div></section>
+  <aside class="side panel"><h2>重点关注</h2><div class="sub">按相关度与新鲜度排序</div><div id="ranking" class="rank"></div><h2 style="margin-top:24px">来源概览</h2><div id="sourceOverview" class="source-list"></div></aside>
+</main>
+
+<div class="footer">内容仅作公开信息聚合，不构成投资建议。微信公众号、小红书、抖音采用公开链接和站内搜索，不模拟登录、不绕过验证码。</div>
 </div>
 
 <script>
-const fallbackData={updated_at:new Date().toISOString(),source_status:{Reddit:{state:"preview",count:0}},articles:[{title:"网页端正在等待最新数据",url:"#",source:"系统示例",source_type:"RSS",published_at:new Date().toISOString(),category:"产品应用",relevance_score:80,summary:"部署完成后，GitHub Actions会自动更新RSS、Reddit、arXiv和Hacker News资讯。",tags:["免费模式"]}]};
+const fallbackData={updated_at:new Date().toISOString(),source_status:{},articles:[{title:"网页端正在等待最新数据",url:"#",source:"系统示例",source_type:"国内资讯",published_at:new Date().toISOString(),category:"产品应用",relevance_score:80,summary:"GitHub Actions会自动更新国内外RSS、Reddit、arXiv和Hacker News资讯。",tags:["免费模式"]}]};
 let store=fallbackData.articles,sourceStatus={},dataErrors=[];
-const el=id=>document.getElementById(id);const escapeHtml=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const el=id=>document.getElementById(id);
+const escapeHtml=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function formatTime(iso){const d=new Date(iso);if(Number.isNaN(d.getTime()))return "";return new Intl.DateTimeFormat("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}).format(d)}
-function openPlatformSearch(platform,query){const q=encodeURIComponent((query||"artificial intelligence").trim());const url=platform==="reddit"?`https://www.reddit.com/search/?q=${q}&sort=new`:`https://x.com/search?q=${q}&src=typed_query&f=live`;window.open(url,"_blank","noopener")}
-function filtered(){const q=el("keyword").value.trim().toLowerCase(),cat=el("category").value,src=el("sourceType").value,days=Number(el("timeRange").value),cutoff=Date.now()-days*86400000;return store.filter(a=>{const text=[a.title,a.summary,a.source,a.author,(a.tags||[]).join(" ")].join(" ").toLowerCase();const t=new Date(a.published_at).getTime();return(!q||text.includes(q))&&(cat==="全部分类"||a.category===cat)&&(src==="全部来源"||a.source_type===src)&&(Number.isNaN(t)||t>=cutoff)}).sort((a,b)=>(b.relevance_score||0)-(a.relevance_score||0)||new Date(b.published_at)-new Date(a.published_at))}
-function render(){const rows=filtered();el("resultCount").textContent=`${rows.length} 条`;el("sTotal").textContent=rows.length;const count=c=>rows.filter(x=>x.category===c).length;el("sInvest").textContent=count("投资商业");el("sTech").textContent=count("技术研究");el("sProduct").textContent=count("产品应用");el("sPolicy").textContent=count("政策治理");el("sReddit").textContent=rows.filter(x=>x.source_type==="Reddit").length;
-  const notice=el("sourceNotice");notice.className="notice";notice.textContent="";const selected=el("sourceType").value,reddit=sourceStatus.Reddit||{};if(selected==="Reddit"&&rows.length===0){const reason=reddit.state==="error"?`Reddit自动订阅本轮暂时失败：${reddit.message||"可能触发访问频率限制"}。`:"近期开启的社区中暂未匹配到内容。";notice.innerHTML=`<strong>Reddit提示：</strong>${escapeHtml(reason)} 可使用上方“Reddit实时搜索”直接查看最新讨论。`;notice.classList.add("show")}else if(dataErrors.some(x=>String(x).includes("Reddit"))){notice.innerHTML="<strong>部分来源提示：</strong>Reddit本轮可能受频率限制，其他免费来源仍正常更新。";notice.classList.add("show")}
-  el("feed").innerHTML=rows.length?rows.map(a=>`<article class="card"><div class="meta"><span class="badge">${escapeHtml(a.category||"其他")}</span><span class="${a.source_type==="Reddit"?"source-reddit":""}">${escapeHtml(a.source||"")}</span>${a.author?`<span>· ${escapeHtml(a.author)}</span>`:""}<span>· ${escapeHtml(a.source_type||"")}</span><span>· ${formatTime(a.published_at)}</span><span class="score">相关度 ${Number(a.relevance_score||0)}</span></div><a class="title" href="${escapeHtml(a.url||"#")}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a><p class="summary">${escapeHtml(a.summary||"")}</p><div class="tags">${(a.tags||[]).slice(0,8).map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join("")}</div></article>`).join(""):`<div class="empty">没有符合条件的资讯</div>`;
+function openPlatformSearch(platform,query){const raw=(query||"人工智能").trim(),q=encodeURIComponent(raw);let url="";if(platform==="wechat")url=`https://weixin.sogou.com/weixin?type=2&query=${q}`;else if(platform==="xhs")url=`https://www.xiaohongshu.com/search_result?keyword=${q}&source=web_search_result_notes`;else if(platform==="douyin")url=`https://www.douyin.com/search/${q}?type=general`;else if(platform==="reddit")url=`https://www.reddit.com/search/?q=${q}&sort=new`;else if(platform==="x")url=`https://x.com/search?q=${q}&src=typed_query&f=live`;else url=`https://www.baidu.com/s?wd=${q}`;window.open(url,"_blank","noopener")}
+function filtered(){const q=el("keyword").value.trim().toLowerCase(),cat=el("category").value,src=el("sourceType").value,days=Number(el("timeRange").value),cutoff=Date.now()-days*86400000;return store.filter(a=>{const text=[a.title,a.summary,a.source,a.author,(a.tags||[]).join(" ")].join(" ").toLowerCase(),t=new Date(a.published_at).getTime();return(!q||text.includes(q))&&(cat==="全部分类"||a.category===cat)&&(src==="全部来源"||a.source_type===src)&&(Number.isNaN(t)||t>=cutoff)}).sort((a,b)=>(b.relevance_score||0)-(a.relevance_score||0)||new Date(b.published_at)-new Date(a.published_at))}
+function sourceClass(type){if(type==="国内资讯")return"source-domestic";if(type==="微信公众号")return"source-wechat";if(type==="小红书")return"source-xhs";if(type==="抖音")return"source-douyin";return""}
+function render(){const rows=filtered();el("resultCount").textContent=`${rows.length} 条`;el("sTotal").textContent=rows.length;const countCategory=c=>rows.filter(x=>x.category===c).length,countType=t=>rows.filter(x=>x.source_type===t).length;el("sInvest").textContent=countCategory("投资商业");el("sTech").textContent=countCategory("技术研究");el("sDomestic").textContent=countType("国内资讯");el("sWechat").textContent=countType("微信公众号");el("sXhs").textContent=countType("小红书");el("sDouyin").textContent=countType("抖音");
+  const selected=el("sourceType").value,notice=el("sourceNotice");notice.className="notice";notice.textContent="";
+  if(["微信公众号","小红书","抖音"].includes(selected)&&rows.length===0){const messages={"微信公众号":"尚未在链接清单中加入公众号文章。可使用上方微信实时搜索找到文章，再把公开链接加入 config/wechat_urls.txt。","小红书":"小红书不提供免费的匿名全站搜索API。请使用上方站内搜索；需要收藏的公开笔记可加入 config/xiaohongshu_urls.txt。","抖音":"抖音免费模式不调用需要申请权限的官方搜索API。请使用上方站内搜索；需要收藏的公开内容可加入 config/douyin_urls.txt。"};notice.innerHTML=`<strong>${escapeHtml(selected)}提示：</strong>${escapeHtml(messages[selected])}`;notice.classList.add("show")}
+  if(dataErrors.length&&selected==="全部来源"){notice.innerHTML=`<strong>部分来源提示：</strong>${escapeHtml(dataErrors.slice(0,2).join("；"))}`;notice.classList.add("show")}
+  el("feed").innerHTML=rows.length?rows.map(a=>`<article class="card"><div class="meta"><span class="badge">${escapeHtml(a.category||"其他")}</span><span class="${sourceClass(a.source_type)}">${escapeHtml(a.source||"")}</span>${a.author?`<span>· ${escapeHtml(a.author)}</span>`:""}<span>· ${escapeHtml(a.source_type||"")}</span><span>· ${formatTime(a.published_at)}</span><span class="score">相关度 ${Number(a.relevance_score||0)}</span></div><a class="title" href="${escapeHtml(a.url||"#")}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a><p class="summary">${escapeHtml(a.summary||"")}</p><div class="tags">${(a.tags||[]).slice(0,8).map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join("")}</div></article>`).join(""):`<div class="empty">没有符合条件的资讯</div>`;
   el("ranking").innerHTML=rows.slice(0,8).map((a,i)=>`<div class="rank-item"><div class="rank-num">${i+1}</div><div><a class="rank-title" href="${escapeHtml(a.url||"#")}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a><div class="rank-source">${escapeHtml(a.source||"")} · ${Number(a.relevance_score||0)}</div></div></div>`).join("");
-  const sourceCounts={};store.forEach(a=>sourceCounts[a.source_type||"其他"]=(sourceCounts[a.source_type||"其他"]||0)+1);el("sourceOverview").innerHTML=Object.entries(sourceCounts).sort((a,b)=>b[1]-a[1]).map(([name,n])=>`<div class="source-row"><span>${escapeHtml(name)}</span><span>${n}</span></div>`).join("")}
-async function loadData(){try{const response=await fetch(`data/articles.json?t=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw new Error("data unavailable");const data=await response.json();store=Array.isArray(data.articles)?data.articles:[];sourceStatus=data.source_status||{};dataErrors=Array.isArray(data.errors)?data.errors:[];el("updatedAt").textContent=`更新于 ${formatTime(data.updated_at)}`;const reddit=sourceStatus.Reddit||{};el("redditStatus").textContent=reddit.state==="fetched"?`Reddit：${reddit.count||0} 条`:"Reddit：待更新"}catch(error){store=fallbackData.articles;sourceStatus={};dataErrors=[];el("updatedAt").textContent="离线预览模式";el("redditStatus").textContent="Reddit：待更新"}render()}
-["keyword","category","sourceType","timeRange"].forEach(id=>el(id).addEventListener(id==="keyword"?"input":"change",render));document.querySelectorAll(".search-link[data-platform]").forEach(link=>link.addEventListener("click",()=>openPlatformSearch(link.dataset.platform,link.dataset.query)));el("customSearch").addEventListener("click",()=>openPlatformSearch("reddit",el("keyword").value.trim()||"artificial intelligence"));el("refreshBtn").addEventListener("click",loadData);loadData();
+  const sourceCounts={};store.forEach(a=>sourceCounts[a.source_type||"其他"]=(sourceCounts[a.source_type||"其他"]||0)+1);el("sourceOverview").innerHTML=Object.entries(sourceCounts).sort((a,b)=>b[1]-a[1]).map(([name,n])=>`<div class="source-row"><span>${escapeHtml(name)}</span><span>${n}</span></div>`).join("")
+}
+async function loadData(){try{const response=await fetch(`data/articles.json?t=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw new Error("data unavailable");const data=await response.json();store=Array.isArray(data.articles)?data.articles:[];sourceStatus=data.source_status||{};dataErrors=Array.isArray(data.errors)?data.errors:[];el("updatedAt").textContent=`更新于 ${formatTime(data.updated_at)}`;const domestic=store.filter(a=>["国内资讯","微信公众号","小红书","抖音"].includes(a.source_type)).length;el("domesticStatus").textContent=`国内来源：${domestic} 条`}catch(error){store=fallbackData.articles;sourceStatus={};dataErrors=[];el("updatedAt").textContent="离线预览模式";el("domesticStatus").textContent="国内来源：待更新"}render()}
+["keyword","category","sourceType","timeRange"].forEach(id=>el(id).addEventListener(id==="keyword"?"input":"change",render));
+document.querySelectorAll(".search-link").forEach(link=>link.addEventListener("click",()=>openPlatformSearch(link.dataset.platform,link.dataset.query)));
+document.querySelectorAll(".platform-tab").forEach(tab=>tab.addEventListener("click",()=>{document.querySelectorAll(".platform-tab").forEach(x=>x.classList.remove("active"));tab.classList.add("active");const group=tab.dataset.filter;document.querySelectorAll(".search-link").forEach(link=>link.style.display=(group==="all"||link.dataset.group===group)?"block":"none")}));
+el("customSearchBtn").addEventListener("click",()=>openPlatformSearch(el("customPlatform").value,el("platformKeyword").value||el("keyword").value||"人工智能"));
+el("platformKeyword").addEventListener("keydown",e=>{if(e.key==="Enter")el("customSearchBtn").click()});
+el("refreshBtn").addEventListener("click",loadData);loadData();
 </script>
 </body>
 </html>
