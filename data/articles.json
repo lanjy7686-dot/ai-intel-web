@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-07-21T13:00:07.471839+00:00",
+  "updated_at": "2026-07-21T13:37:04.464577+00:00",
   "count": 160,
   "errors": [
-    "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+%22large+language+model%22+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+NVIDIA%29&mode=ArtList&format=json&maxrecords=80&sort=HybridRel&timespan=1d"
+    "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+%22large+language+model%22+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+NVIDIA%29&mode=ArtList&format=json&maxrecords=80&sort=HybridRel&timespan=1d",
+    "X: 402 Client Error: Payment Required for url: https://api.x.com/2/tweets/search/recent?query=%28OpenAI+OR+Anthropic+OR+DeepSeek+OR+Gemini+OR+Claude+OR+NVIDIA+OR+%22artificial+intelligence%22+OR+LLM+OR+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+OR+%E6%99%BA%E8%83%BD%E4%BD%93%29+%28funding+OR+valuation+OR+investment+OR+IPO+OR+earnings+OR+launch+OR+release+OR+benchmark+OR+model+OR+agent+OR+chip+OR+robotics+OR+%E8%9E%8D%E8%B5%84+OR+%E6%8A%95%E8%B5%84+OR+%E5%8F%91%E5%B8%83+OR+%E8%8A%AF%E7%89%87+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29+-is%3Aretweet+-is%3Areply&max_results=10&tweet.fields=created_at%2Cauthor_id%2Clang%2Cpublic_metrics%2Cpossibly_sensitive&expansions=author_id&user.fields=name%2Cusername%2Cverified%2Cpublic_metrics"
   ],
   "source_status": {
     "GDELT": {
@@ -28,10 +29,11 @@
     },
     "X": {
       "enabled": true,
-      "configured": false,
-      "state": "missing_token",
+      "configured": true,
+      "state": "error_cached",
       "count": 0,
-      "message": "请在GitHub Secrets中配置 X_BEARER_TOKEN"
+      "message": "402 Client Error: Payment Required for url: https://api.x.com/2/tweets/search/recent?query=%28OpenAI+OR+Anthropic+OR+DeepSeek+OR+Gemini+OR+Claude+OR+NVIDIA+OR+%22artificial+intelligence%22+OR+LLM+OR+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+OR+%E6%99%BA%E8%83%BD%E4%BD%93%29+%28funding+OR+valuation+OR+investment+OR+IPO+OR+earnings+OR+launch+OR+release+OR+benchmark+OR+model+OR+agent+OR+chip+OR+robotics+OR+%E8%9E%8D%E8%B5%84+OR+%E6%8A%95%E8%B5%84+OR+%E5%8F%91%E5%B8%83+OR+%E8%8A%AF%E7%89%87+OR+%E6%9C%BA%E5%99%A8%E4%BA%BA%29+-is%3Aretweet+-is%3Areply&max_results=10&tweet.fields=created_at%2Cauthor_id%2Clang%2Cpublic_metrics%2Cpossibly_sensitive&expansions=author_id&user.fields=name%2Cusername%2Cverified%2Cpublic_metrics",
+      "last_fetch_at": null
     }
   },
   "articles": [
@@ -86,7 +88,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:12:28+00:00",
       "category": "技术研究",
-      "relevance_score": 78,
+      "relevance_score": 77,
       "tags": [
         "model",
         "benchmark",
@@ -141,45 +143,6 @@
         "act"
       ],
       "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control,"
-    },
-    {
-      "title": "Show HN: ChatPanel, A Privacy-first AI Agent browser side panel",
-      "url": "https://chatpanel.net/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:56:19+00:00",
-      "category": "技术研究",
-      "relevance_score": 75,
-      "tags": [
-        "model",
-        "open source",
-        "agent",
-        "feature",
-        "assistant",
-        "app",
-        "act",
-        "privacy"
-      ],
-      "summary": "I needed an AI agent that understands my work better (meetings, notes, chats and lives where I access the web) and gives me flexibility to use the model of choice. So, I built this and I am a 100x engineer now. A few features to highlight. - You bring your own"
-    },
-    {
-      "title": "Show HN: Competiflow – monitor competitor pricing, changelogs, blogs",
-      "url": "https://competiflow.com/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:15:35+00:00",
-      "category": "产品应用",
-      "relevance_score": 72,
-      "tags": [
-        "api",
-        "launch",
-        "product",
-        "feature",
-        "app",
-        "tool",
-        "act"
-      ],
-      "summary": "Hi, I'm the author. I run two small products I launched this year and as a daily task I was keeping an eye on my competitors. Two things that I was particularly curious about were: the new features they are launching and the content they are posting. I was ini"
     },
     {
       "title": "Anthropic found a hidden space where Claude puzzles over concepts",
@@ -295,38 +258,6 @@
       "summary": "Modern LLMs are alarmingly susceptible to surprisingly simple immaterial changes of input prompts: a casual hint, an incorrectly labeled few-shot example, or a fake prior assistant turn often flips an originally correct answer. We study where this susceptibili"
     },
     {
-      "title": "Ask HN: Have you noticed convincing AI comments on Product Hunt?",
-      "url": "https://news.ycombinator.com/item?id=48991063",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:53:16+00:00",
-      "category": "产品应用",
-      "relevance_score": 66,
-      "tags": [
-        "launch",
-        "product",
-        "feature",
-        "tool",
-        "platform"
-      ],
-      "summary": "A few days ago, I launched my tool on Product Hunt for the first time. Although it didn't rank high, I received four comments and a few upvotes. I felt a small but genuine sense of accomplishment. Naturally, I replied to each comment with care. However, I late"
-    },
-    {
-      "title": "Ask HN: Will Anthropic or OpenAI start offering Chinese open source models?",
-      "url": "https://news.ycombinator.com/item?id=48990892",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:34:26+00:00",
-      "category": "技术研究",
-      "relevance_score": 66,
-      "tags": [
-        "model",
-        "open source",
-        "market"
-      ],
-      "summary": "Do you think there could exist a situation in the market where either Anthropic or OpenAI will offer chinese models for their clients?"
-    },
-    {
       "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
       "url": "https://arxiv.org/abs/2607.18236v1",
       "source": "arXiv",
@@ -365,22 +296,6 @@
       "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics,"
     },
     {
-      "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
-      "url": "https://arxiv.org/abs/2607.18163v1",
-      "source": "arXiv",
-      "source_type": "论文",
-      "published_at": "2026-07-20T17:07:40+00:00",
-      "category": "技术研究",
-      "relevance_score": 65,
-      "tags": [
-        "model",
-        "training",
-        "policy",
-        "act"
-      ],
-      "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful"
-    },
-    {
       "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
       "url": "https://arxiv.org/abs/2607.18127v1",
       "source": "arXiv",
@@ -403,6 +318,22 @@
       "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. "
     },
     {
+      "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
+      "url": "https://arxiv.org/abs/2607.18163v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:07:40+00:00",
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "model",
+        "training",
+        "policy",
+        "act"
+      ],
+      "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful"
+    },
+    {
       "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
       "url": "https://arxiv.org/abs/2607.18144v1",
       "source": "arXiv",
@@ -419,6 +350,56 @@
         "act"
       ],
       "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule"
+    },
+    {
+      "title": "Ask HN: To lead with, or bury, AI in product marketing",
+      "url": "https://news.ycombinator.com/item?id=48992019",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:24:36+00:00",
+      "category": "产品应用",
+      "relevance_score": 63,
+      "tags": [
+        "research",
+        "product",
+        "feature",
+        "app",
+        "act",
+        "market"
+      ],
+      "summary": "Howdy dear folks. Here on hackernews there seems to be very little other than AI related stories. Maybe not all too strange given the crowd who frequents this site. From what I gather the mostly positive sentiment isn't as widely shared among the general popul"
+    },
+    {
+      "title": "Ask HN: Which model do you use with Pi coding agent?",
+      "url": "https://news.ycombinator.com/item?id=48991997",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:23:04+00:00",
+      "category": "技术研究",
+      "relevance_score": 63,
+      "tags": [
+        "model",
+        "agent"
+      ],
+      "summary": "I use Pi coding agent with OpenAI GPT-5.6 Sol but have been finding that GPT-5.6 is slower than Claude Code. Do you use any other model like one of the hosted OSS ones?"
+    },
+    {
+      "title": "Show HN: Redenta – In-browser redaction that deletes text, not just covers it",
+      "url": "https://news.ycombinator.com/item?id=48991516",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:33:57+00:00",
+      "category": "产品应用",
+      "relevance_score": 63,
+      "tags": [
+        "paper",
+        "api",
+        "product",
+        "app",
+        "tool",
+        "act"
+      ],
+      "summary": "https://redenta.app Redenta is a set of document tools that run entirely in the browser — redaction, metadata stripping, and format conversion. Nothing is uploaded, there's no account, and the tools are free. The redaction is the part I actually care about. Mo"
     },
     {
       "title": "The risk of weather data sabotage is rising",
@@ -471,7 +452,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:26:21+00:00",
       "category": "技术研究",
-      "relevance_score": 62,
+      "relevance_score": 61,
       "tags": [
         "model",
         "dataset",
@@ -490,7 +471,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:17:05+00:00",
       "category": "技术研究",
-      "relevance_score": 62,
+      "relevance_score": 61,
       "tags": [
         "model",
         "benchmark",
@@ -537,6 +518,23 @@
         "act"
       ],
       "summary": "Most parameter-efficient finetuning (PEFT) methods adapt weights or activations, thus leaving one of the key Transformer components unchanged: residual connections. This paper investigates Manifold-Constrained Hyper-Connections (mHC), a generalisation of resid"
+    },
+    {
+      "title": "Show HN: Neverbell, an AI agent that analyzes markets and executes trades",
+      "url": "https://neverbell.com",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:20:58+00:00",
+      "category": "产品应用",
+      "relevance_score": 60,
+      "tags": [
+        "agent",
+        "product",
+        "app",
+        "act",
+        "market"
+      ],
+      "summary": "Hi HN, we're developing Neverbell, an AI agent that combines market analysis with trade execution. One of our beta testers said to Neverbell: “Protect my downside, but don’t be too conservative.” Volatility increased a few days later, and the agent decreased t"
     },
     {
       "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
@@ -798,6 +796,49 @@
       "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together wi"
     },
     {
+      "title": "Show HN: WiFi-LLM",
+      "url": "https://github.com/bertaye/wifi-llm",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:32:07+00:00",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "inference"
+      ],
+      "summary": "Hello, while I was learning LLM Inference basics I realized with few tricks I could use my ESP32 for inference if I stream the weights only when they are needed from a host over WiFi. Speed? Really bad. Lol. But this is just a technical demo of how it can be d"
+    },
+    {
+      "title": "Show HN: An interactive network graph of every Stanley Cup champion",
+      "url": "https://puckstory.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:12:38+00:00",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "github",
+        "app",
+        "act"
+      ],
+      "summary": "I built a network of all 1306 players and 110 rosters engraved on the Cup since 1915. Surprisingly there's no islands, every team has somehow had at least one player who's won it again, there's several close calls where the connection almost broke. A few times"
+    },
+    {
+      "title": "Show HN: Pinpoint – Visual feedback for AI coding agents",
+      "url": "https://pinpoint.maferland.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:12:10+00:00",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "github",
+        "agent",
+        "product"
+      ],
+      "summary": "I built Pinpoint because I was tired of typing out feedback on the visual work my AI agent did. I want my agent to be autonomous, so having it ask for feedback through a UI felt genuinely better. Dropping a contextual comment on each screenshot is much closer "
+    },
+    {
       "title": "Show HN: Glass – a see/act/debug loop over any GUI app for agents (MCP)",
       "url": "https://github.com/fixed-width/glass",
       "source": "Hacker News",
@@ -824,36 +865,6 @@
         "tool"
       ],
       "summary": "Show HN: CLI tool that packages data-heavy projects into LLM context windows"
-    },
-    {
-      "title": "HugstonOne Architecture, Capability, Benchmark to Privacy Local AI Workstation",
-      "url": "https://zenodo.org/records/21471816",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:14:07+00:00",
-      "category": "技术研究",
-      "relevance_score": 54,
-      "tags": [
-        "benchmark",
-        "architecture",
-        "privacy"
-      ],
-      "summary": "HugstonOne Architecture, Capability, Benchmark to Privacy Local AI Workstation"
-    },
-    {
-      "title": "Show HN: Enlarger • A local upscaler that keeps detail instead of smoothing it",
-      "url": "https://enlarger.app/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:31:36+00:00",
-      "category": "技术研究",
-      "relevance_score": 54,
-      "tags": [
-        "open source",
-        "app",
-        "market"
-      ],
-      "summary": "Hey everyone! I know there are gazillion alternatives out there especially with AI and all, but this nevertheless is my take on it. I created it because I was frustrated with the options I was seeing in the market. Too heavy, too complex, UX was meh, the outpu"
     },
     {
       "title": "Safety and alignment in an era of long-horizon models",
@@ -893,7 +904,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:36:05+00:00",
       "category": "技术研究",
-      "relevance_score": 53,
+      "relevance_score": 52,
       "tags": [
         "model",
         "training",
@@ -933,6 +944,34 @@
         "feature"
       ],
       "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-ag"
+    },
+    {
+      "title": "OSS ChatGPT WebUI v4 – Projects, Agent Profiles, Server Tools, 1-Click Sharing",
+      "url": "https://llmspy.org",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:25:53+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "summary": "OSS ChatGPT WebUI v4 – Projects, Agent Profiles, Server Tools, 1-Click Sharing"
+    },
+    {
+      "title": "Show HN: Improved Search for WordPress",
+      "url": "https://searchcue.com/integrations/wordpress/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:00:54+00:00",
+      "category": "产品应用",
+      "relevance_score": 51,
+      "tags": [
+        "product",
+        "app"
+      ],
+      "summary": "Hi, I know you to be a discerning bunch of tech savvy people, but since that doesn't stop 50% of the web being powered by WordPress, I want to share how one can vastly improve the search experience on WordPress sites: SearchCue! It's a product we built after b"
     },
     {
       "title": "Show HN: I build a project management platform around .md files",
@@ -1005,67 +1044,6 @@
       "summary": "I asked an AI agent to delete a folder my tool was guarding"
     },
     {
-      "title": "Tell HN: GitHub notifications email is full",
-      "url": "https://news.ycombinator.com/item?id=48991146",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:03:48+00:00",
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "github",
-        "app"
-      ],
-      "summary": "I just replied by email to a Github issue notification, as I usually do, and I got an error from postmaster@microsoft.com telling me that notifications@github.com and notifications-bot@github.com mailboxes are full… I don’t think that’s supposed to happen. Has"
-    },
-    {
-      "title": "Chinese LLMs write more vulnerable code when prompted as U.S. officials",
-      "url": "https://www.boozallen.com/expertise/cybersecurity/whats-in-americas-code.html",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:59:37+00:00",
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "Chinese LLMs write more vulnerable code when prompted as U.S. officials"
-    },
-    {
-      "title": "Show HN: Tool that turns a CSV into an agent-run, searchable paywalled directory",
-      "url": "https://medspas.shipmore.io",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:58:10+00:00",
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "agent",
-        "tool"
-      ],
-      "summary": "Show HN: Tool that turns a CSV into an agent-run, searchable paywalled directory"
-    },
-    {
-      "title": "LLMs Are Surprisingly Bad Blog Authors",
-      "url": "https://wakamoleguy.com/p/llms-are-surprisingly-bad-blog-authors",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:38:17+00:00",
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "LLMs Are Surprisingly Bad Blog Authors"
-    },
-    {
-      "title": "Responsible LLM Use in Conversations",
-      "url": "https://marcdix.de/blog/responsible-llm-use-in-conversations.html",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:31:17+00:00",
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "Responsible LLM Use in Conversations"
-    },
-    {
       "title": "Causal Discovery on Irregular Time Series",
       "url": "https://arxiv.org/abs/2607.18226v1",
       "source": "arXiv",
@@ -1132,7 +1110,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:07:41+00:00",
       "category": "技术研究",
-      "relevance_score": 50,
+      "relevance_score": 49,
       "tags": [
         "model",
         "app",
@@ -1147,7 +1125,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:07:26+00:00",
       "category": "政策治理",
-      "relevance_score": 50,
+      "relevance_score": 49,
       "tags": [
         "model",
         "law",
@@ -1162,7 +1140,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T17:06:19+00:00",
       "category": "产品应用",
-      "relevance_score": 50,
+      "relevance_score": 49,
       "tags": [
         "agent",
         "assistant",
@@ -1184,6 +1162,58 @@
         "act"
       ],
       "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms i"
+    },
+    {
+      "title": "Show HN: Maith – open math research with AI",
+      "url": "https://github.com/clidey/maith",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:35:11+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "research"
+      ],
+      "summary": "If AI got lucky or not, AI is surely going to assist in solving serious math problems. If you want to spend your resources/weekends contributing, this repository is full of math problems where you can add your thoughts (or proofs - for you Good Will Hunting ty"
+    },
+    {
+      "title": "AI physics on vacation turned into real research in quantum mechanics",
+      "url": "https://nutfieldsecurity.com/posts/ai-vacation-physics/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:26:38+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "research"
+      ],
+      "summary": "AI physics on vacation turned into real research in quantum mechanics"
+    },
+    {
+      "title": "Show HN: Neat, Static code and OTel fused into one graph for agents (OSS)",
+      "url": "https://github.com/neat-technologies/neat",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:23:11+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "Our website: https://neat.is Thank you all for reading."
+    },
+    {
+      "title": "PartialString – A finite-difference time-domain physical modelling synthesiser",
+      "url": "https://differentinstruments.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:19:13+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "model"
+      ],
+      "summary": "PartialString – A finite-difference time-domain physical modelling synthesiser"
     },
     {
       "title": "Eliminate Dead Air in AI Voice Assistants with Filler Messages",
@@ -1212,84 +1242,6 @@
       "summary": "The year of sustainable indie products"
     },
     {
-      "title": "We spent months building AI agents. Then we deleted them",
-      "url": "https://runnit.io/articles/we-spent-months-building-ai-agents-into-runnit-then-we-deleted-them",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:10:05+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "We spent months building AI agents. Then we deleted them"
-    },
-    {
-      "title": "Hugging Face turns to GLM 5.2 to fend off AI agent attack",
-      "url": "https://venturebeat.com/security/safety-guardrails-blocked-hugging-faces-defenders-not-the-attacker-when-an-ai-agent-breached-its-systems",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:03:37+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "Hugging Face turns to GLM 5.2 to fend off AI agent attack"
-    },
-    {
-      "title": "Show HN: Shellink – let AI agents run commands on servers behind jump hosts",
-      "url": "https://github.com/jie123108/Shellink",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:02:43+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "Show HN: Shellink – let AI agents run commands on servers behind jump hosts"
-    },
-    {
-      "title": "Show HN: Open-Kritt – Open-source infrastructure for AI-based security research",
-      "url": "https://github.com/Kritt-ai/open-kritt",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:32:04+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "research"
-      ],
-      "summary": "Show HN: Open-Kritt – Open-source infrastructure for AI-based security research"
-    },
-    {
-      "title": "Tesla cash burn to test investor faith in AI bets",
-      "url": "https://www.reuters.com/business/autos-transportation/tesla-cash-burn-test-investor-faith-ai-bets-2026-07-21/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:25:46+00:00",
-      "category": "投资商业",
-      "relevance_score": 48,
-      "tags": [
-        "invest"
-      ],
-      "summary": "Tesla cash burn to test investor faith in AI bets"
-    },
-    {
-      "title": "Thinking Machines draws from Chinese rivals in debut AI model",
-      "url": "https://www.ft.com/content/ef486929-d2c2-480b-8b00-9cb98bda6acf",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:23:30+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model"
-      ],
-      "summary": "Thinking Machines draws from Chinese rivals in debut AI model"
-    },
-    {
       "title": "Learning Adaptive Safety Margins for Visual Navigation",
       "url": "https://arxiv.org/abs/2607.18200v1",
       "source": "arXiv",
@@ -1302,6 +1254,127 @@
         "safety"
       ],
       "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts u"
+    },
+    {
+      "title": "Show HN: TZRO – A Free Local AI Task Offloader",
+      "url": "https://github.com/The18thWarrior/tzro",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:34:42+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Show HN: TZRO – A Free Local AI Task Offloader"
+    },
+    {
+      "title": "Show HN: Mini Golf Club – a 3D multiplayer mini-golf game in the browser",
+      "url": "https://minigolfclub.io/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:31:20+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "The game supports up to 10 players in online mode, friend invites in private games, offline career game mode, daily challenges, and hundreds of user-created or handcrafted holes."
+    },
+    {
+      "title": "Contra George Hotz on \"AI 2040 and the Cult of Intelligence\"",
+      "url": "https://antiextinction.substack.com/p/contra-ai-2040-and-the-cult-of-intelligence",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:26:35+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Contra George Hotz on \"AI 2040 and the Cult of Intelligence\""
+    },
+    {
+      "title": "Mullvad and Daniel Berntsson's Failed Cleanup",
+      "url": "https://markwrites.io/mullvad-and-daniel-berntssons-failed-cleanup/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:26:13+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Mullvad and Daniel Berntsson's Failed Cleanup"
+    },
+    {
+      "title": "The first UL 3700-compliant plug-in solar microinverter is now available in US",
+      "url": "https://www.engadget.com/2219291/the-first-ul-3700-compliant-plug-in-solar-microinverter-is-now-available-in-the-us/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:21:58+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "The first UL 3700-compliant plug-in solar microinverter is now available in US"
+    },
+    {
+      "title": "Formal verification might solve AI's review bottleneck",
+      "url": "https://georgwiese.github.io/posts/formal-verification-ai/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:21:50+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Formal verification might solve AI's review bottleneck"
+    },
+    {
+      "title": "Mermaider is a dotnet lib for generating Mermaid diagrams",
+      "url": "https://github.com/nullean/mermaider",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:20:20+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Mermaider is a dotnet lib for generating Mermaid diagrams"
+    },
+    {
+      "title": "Keeping Cool: The Air Conditioner That Changed America",
+      "url": "https://humanprogress.org/keeping-cool-the-air-conditioner-that-changed-america/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:20:10+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Keeping Cool: The Air Conditioner That Changed America"
+    },
+    {
+      "title": "Show HN: MyIntelBrief – daily competitive-Intel briefs, white-label for agencies",
+      "url": "https://myintelbrief.com/consultant",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:05:23+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Show HN: MyIntelBrief – daily competitive-Intel briefs, white-label for agencies"
+    },
+    {
+      "title": "I asked 6 AIs to pick a database, 430 times – Postgres wins, Oracle is invisible",
+      "url": "https://www.opinion-radar.com/o/which-database-do-ai-assistants-recommend-0d7fb0?lang=en",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:02:30+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "I asked 6 AIs to pick a database, 430 times – Postgres wins, Oracle is invisible"
+    },
+    {
+      "title": "Skyfall plans to buy a small business for an AI CEO test",
+      "url": "https://runtimewire.com/article/skyfall-ai-buy-business-test-ai-ceo",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T13:00:48+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Skyfall plans to buy a small business for an AI CEO test"
     },
     {
       "title": "Designing for AI Optionality with Karl Koch from DuckDuckGo [video]",
@@ -1368,83 +1441,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "US banks insulated from AI data centre downturn"
-    },
-    {
-      "title": "Show HN: Wordgem, a Daily Word Game",
-      "url": "https://wordgem.xyz",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:15:20+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Create words using the letters in the grid. Use all of the letters to solve, and solve in as few words as possible"
-    },
-    {
-      "title": "We built the delivery evidence chain",
-      "url": "https://www.appaloft.com/blog/delivery-evidence-chain/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:07:45+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "We built the delivery evidence chain"
-    },
-    {
-      "title": "Stagehand: The AI-Driven Browser Automation Framework",
-      "url": "https://www.akashtandon.in/interactive-explainers/stagehand/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T12:03:52+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Stagehand: The AI-Driven Browser Automation Framework"
-    },
-    {
-      "title": "Tech ain't that deep – and that's a problem",
-      "url": "https://deadsimpletech.com/blog/tech-aint-deep",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:42:04+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Tech ain't that deep – and that's a problem"
-    },
-    {
-      "title": "Software and AI – Plotting vs. Pantsing",
-      "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:30:30+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Software and AI – Plotting vs. Pantsing"
-    },
-    {
-      "title": "Show HN: openmog – a social network whose AI treats every post as absolute truth",
-      "url": "https://www.openmog.com/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:30:06+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Show HN: openmog – a social network whose AI treats every post as absolute truth"
-    },
-    {
-      "title": "Tfgen: configure your Terraform stacks using plain Go",
-      "url": "https://ably.com/blog/cdktf-migration-tfgen",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T11:29:03+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Tfgen: configure your Terraform stacks using plain Go"
     },
     {
       "title": "Achieving operational excellence with AI",
