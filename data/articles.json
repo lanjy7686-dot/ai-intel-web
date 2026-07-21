@@ -1,7 +1,7 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T15:00:22.681196+00:00",
-  "count": 497,
+  "updated_at": "2026-07-21T15:04:09.799996+00:00",
+  "count": 509,
   "errors": [],
   "source_status": {
     "X": {
@@ -34,7 +34,7 @@
     },
     "Reddit": {
       "state": "fetched",
-      "count": 12
+      "count": 24
     },
     "arXiv": {
       "state": "fetched",
@@ -61,7 +61,7 @@
       "国内资讯": 208,
       "论文": 50,
       "技术社区": 50,
-      "Reddit": 12
+      "Reddit": 24
     }
   },
   "articles": [
@@ -287,7 +287,7 @@
       "author": "u/Rich-Fruit-326",
       "reddit_community": "MachineLearning",
       "category": "技术研究",
-      "relevance_score": 74,
+      "relevance_score": 73,
       "tags": [
         "valuation",
         "benchmark",
@@ -382,6 +382,27 @@
       "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across a range of Natural Language Processing (NLP) tasks, but their high computational and memory demands pose significant challenges for deployment on resource-constrained edge devices. Existing approaches to model compression and optimization oft"
     },
     {
+      "title": "Show HN: OpenAI-Compatible Cloudflare AI Endpoint Generator",
+      "url": "https://open.notebooker.ai",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:03:30+00:00",
+      "author": "mistakevin",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "model",
+        "github",
+        "api",
+        "release",
+        "feature",
+        "app",
+        "cloud"
+      ],
+      "summary": "An OpenAI-compatible API generator backed by Cloudflare Workers AI — chat, speech, vision, embeddings — deployed to your account in one click and with a testing dashboard. No login, just need a Cloudflare account and a single-use CF token to deploy. I'm a big fan of testing the latest models deployed on Cloudflare, and"
+    },
+    {
       "title": "倒计时1天！《人工智能 智能体互联》系列国家标准应用推广专题会 - 智源社区",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBNX1RBSl9reHFQOTVDOHM5eEt0eTJWVEVKY2xsbExBbWRPS2pRTGdaRzdUMHdWVmgyTE9LdHFQUC0xRjhjSEp2Nw?oc=5",
       "source": "中文AI新闻聚合",
@@ -453,6 +474,26 @@
         "platform"
       ],
       "summary": "Hi All, In the past I used to make games as an hobby. I wanted do something different this time. After having spent ~10Y working on SmarTeam, ENOVIA and 3DExperience Platform. And recently using Azure Devops and Salesforce. Seeing all the complexity, engineering that went into it, I was itching to create something simi"
+    },
+    {
+      "title": "Update: my open-source AI whiteboard can now respond with interactive animations",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2kyyy/update_my_opensource_ai_whiteboard_can_now/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T15:01:48+00:00",
+      "author": "u/Civil-Direction-6981",
+      "reddit_community": "OpenAI",
+      "category": "技术研究",
+      "relevance_score": 69,
+      "tags": [
+        "model",
+        "open source",
+        "github",
+        "api",
+        "feature",
+        "act"
+      ],
+      "summary": "Last week I shared PenEcho, an open-source canvas where AI can understand handwriting, equations, diagrams, and spatial context. I have been experimenting with a new type of response: instead of returning only static text or images, the model can now generate structured instructions that PenEcho renders as interactive,"
     },
     {
       "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
@@ -994,6 +1035,24 @@
       "summary": "Howdy dear folks. Here on hackernews there seems to be very little other than AI related stories. Maybe not all too strange given the crowd who frequents this site. From what I gather the mostly positive sentiment isn't as widely shared among the general population (0: 50% of americans are more concerned than excited a"
     },
     {
+      "title": "Show HN: Neverclick – Keyboard-driven mouse control using local computer vision",
+      "url": "https://www.neverclick.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:01:13+00:00",
+      "author": "lazov",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 63,
+      "tags": [
+        "api",
+        "gpu",
+        "app",
+        "act"
+      ],
+      "summary": "Hello, Neverclick is a desktop application that I created when I was suffering from RSI. It uses local computer vision to detect clickable UI elements on your screen so that you can use your keyboard to perform mouse actions. Most software in this space relies on accessibility APIs but Neverclick uses computer vision. "
+    },
+    {
       "title": "Ask HN: Which model do you use with Pi coding agent?",
       "url": "https://news.ycombinator.com/item?id=48991997",
       "source": "Hacker News",
@@ -1008,6 +1067,26 @@
         "agent"
       ],
       "summary": "I use Pi coding agent with OpenAI GPT-5.6 Sol but have been finding that GPT-5.6 is slower than Claude Code. Do you use any other model like one of the hosted OSS ones?"
+    },
+    {
+      "title": "The Outreach Strategy Behind My Web Agency",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2fk06/the_outreach_strategy_behind_my_web_agency/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T11:20:53+00:00",
+      "author": "u/Murky_Explanation_73",
+      "reddit_community": "OpenAI",
+      "category": "产业动态",
+      "relevance_score": 63,
+      "tags": [
+        "app",
+        "tool",
+        "act",
+        "partner",
+        "market",
+        "company"
+      ],
+      "summary": "There is a new approach I started using in my web agency that completely changed my results. For years, I did what most people tell web designers to do. Go on Google Maps, find businesses without websites, and contact them. What I started doing differently was targeting businesses that already had websites. The reason "
     },
     {
       "title": "开源AI智能体OpenClaw引爆市场！甲骨文财报能否撑起AI基建的万亿野心？苹果入局折叠屏备货上调20%丨20260310从华尔街到陆家嘴 - 第一财经",
@@ -1116,21 +1195,6 @@
         "company"
       ],
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altm"
-    },
-    {
-      "title": "安徽发布人工智能专项技能培训政策 - 搜狐网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ1p1VmdzeE0yWWRhR0x1bmJLdTZ3WVZMS01SdVU4Qml1QV9HRVNGaUY5NnFjbkpqRGpNX2ZjeEE5ZTV0eE9WazA0YVlvVGJkYWtEb2pDYkkwTzkyOFNZWkpGalQwVFBZbVFxSVpMN0pvYzBsamY5ZEFfYjlOalpwMGViZzI5LXZf?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T13:40:01+00:00",
-      "language": "zh",
-      "category": "产品应用",
-      "relevance_score": 62,
-      "tags": [
-        "发布",
-        "政策"
-      ],
-      "summary": "安徽发布人工智能专项技能培训政策 搜狐网"
     },
     {
       "title": "GOAI 世界人工智能开源大赛四大赛道正式发布 - Infoq.cn",
@@ -1339,25 +1403,6 @@
       "summary": "Standard evaluation of many recognition systems contains distribution shift by construction, since benchmarks place disjoint conditions in the training and test splits. Under such a shift, split conformal prediction keeps marginal coverage near the nominal level while per-class coverage fails silently: on a real cross-"
     },
     {
-      "title": "Show HN: Neverbell, an AI agent that analyzes markets and executes trades",
-      "url": "https://neverbell.com",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:20:58+00:00",
-      "author": "alexcordina",
-      "engagement": 6,
-      "category": "产品应用",
-      "relevance_score": 60,
-      "tags": [
-        "agent",
-        "product",
-        "app",
-        "act",
-        "market"
-      ],
-      "summary": "Hi HN, we're developing Neverbell, an AI agent that combines market analysis with trade execution. One of our beta testers said to Neverbell: “Protect my downside, but don’t be too conservative.” Volatility increased a few days later, and the agent decreased their exposure. Our tester wasn’t happy. The interesting part"
-    },
-    {
       "title": "世界人工智能大会2026官宣：万亿级AI产业爆发前夜 - 新浪网",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RaUpFUjdQVTlPT3NPb0hLQ2MzdUdFRHhLQ3htU0tPLVJoWloyOHJNbUNfNUxGNl9BZzRqUFpyRXB5OWxPWlRIelhOTXZuQ2hmNE4zNm1uUXhuLU5aZ1ZKRHpNUkxZN2JJaG1uU196NF9RZEtzNkd1OGhMR1hUWTQ?oc=5",
       "source": "中文AI新闻聚合",
@@ -1510,6 +1555,23 @@
         "合作"
       ],
       "summary": "总台记者专访丨俄专家：合作对人工智能发展至关重要 群众新闻网"
+    },
+    {
+      "title": "Unexpectedly Downgraded to Plus and Unable to Upgrade Back to Pro",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2et94/unexpectedly_downgraded_to_plus_and_unable_to/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T10:43:43+00:00",
+      "author": "u/More-Mammoth9617",
+      "reddit_community": "OpenAI",
+      "category": "技术研究",
+      "relevance_score": 59,
+      "tags": [
+        "model",
+        "app",
+        "act"
+      ],
+      "summary": "I tried to cancel a scheduled downgrade so I could keep using ChatGPT Pro. Instead, my account was immediately switched to Plus. Ever since then, every attempt to upgrade back to Pro has failed at checkout. The explanation from support has also changed with almost every reply. First I was told Pro would start on July 1"
     },
     {
       "title": "SpaceX in your index fund, explained",
@@ -1827,20 +1889,6 @@
         "release"
       ],
       "summary": "It's now easier to prompt an AI for a specific problem and later release the code on git, without thinking or researching a bigger goal that there could be an existing project where my contribution would be much more meaningful and sustainable... How could this fragmentation be saved in favor of existing projects?"
-    },
-    {
-      "title": "展会资讯|实丰文化旗下产品参展世界人工智能大会 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUbVM2cnd0cUVfeHNKdHFFeW1qOEIyNnE0RVZDWERzZ002RnhLSzlpeHVhZDJxOWFEdFpTcXRsZTk5SjctOW1aWmRNdVVzWkdUMU1pSUNfc1VmNHQ1cnd1YzhpMFlMZ2tYaUxqUFQwWm1PTWphLXc?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T06:58:00+00:00",
-      "language": "zh",
-      "category": "产品应用",
-      "relevance_score": 57,
-      "tags": [
-        "产品"
-      ],
-      "summary": "展会资讯|实丰文化旗下产品参展世界人工智能大会 新浪财经"
     },
     {
       "title": "智税宝亮相2026世界人工智能大会｜中税网智慧科技入驻国家级中小企业数字服务平台 - 新华报业网",
@@ -2520,6 +2568,23 @@
       "summary": "Hello, while I was learning LLM Inference basics I realized with few tricks I could use my ESP32 for inference if I stream the weights only when they are needed from a host over WiFi. Speed? Really bad. Lol. But this is just a technical demo of how it can be done. I really enjoyed while coding it. It has a sliding wind"
     },
     {
+      "title": "Free browser-based tools – no account, no server uploads, all local",
+      "url": "https://ailearninggym.com",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:00:34+00:00",
+      "author": "nrkoka1",
+      "engagement": 1,
+      "category": "产品应用",
+      "relevance_score": 54,
+      "tags": [
+        "app",
+        "tool",
+        "act"
+      ],
+      "summary": "I built a collection of 27 free utility tools that run entirely in the browser. JSON formatter, Base64 encoder/decoder, AI content detector, password generator, loan amortization calculator, sleep cycle planner, Pomodoro timer, BMR calculator, and more. Nothing is sent to a server — all processing happens locally in yo"
+    },
+    {
       "title": "What kind of iOS app do you wish existed?",
       "url": "https://news.ycombinator.com/item?id=48992608",
       "source": "Hacker News",
@@ -2554,6 +2619,57 @@
       "summary": "I Built BlurShield how easy it is to expose email address,Phone No,API Key and other important info. BlurShield is a browser extension which detects and blur the sensitive info automatically. It includes the custom blur options also and also user can keep their own custom patterns in it and a lot of features . I would "
     },
     {
+      "title": "Kinda misleading UI no?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2kslg/kinda_misleading_ui_no/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T14:55:32+00:00",
+      "author": "u/I-A-S-",
+      "reddit_community": "OpenAI",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "model",
+        "api",
+        "act"
+      ],
+      "summary": "https://preview.redd.it/pyg8f528jleh1.png?width=565&format=png&auto=webp&s=ad301f66e38627b870534e20cfe52cb37611f13a Button is labeled \"Retry\" not \"Switch\", at first glance I thought my work had stopped due to a model/API error and codex wanted me to click retry so it would continue work. When I read it, it is actually "
+    },
+    {
+      "title": "I built a tool that tells you who already tried your startup idea, and how they died",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2kcoz/i_built_a_tool_that_tells_you_who_already_tried/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T14:39:08+00:00",
+      "author": "u/Sea-Assignment6371",
+      "reddit_community": "OpenAI",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "research",
+        "tool",
+        "act"
+      ],
+      "summary": "Every time I had a “new” idea, I’d eventually discover three dead startups around the exact same thing. Usually after days :) So I built Déjà View. You describe an idea, and it researches its real-world predecessors: companies that tried it before, when they operated, when they shut down and who survived. It’s live at "
+    },
+    {
+      "title": "Ask ChatGPT if a wall is tilting, get a lecture on masonry instead of an answer",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2k3s3/ask_chatgpt_if_a_wall_is_tilting_get_a_lecture_on/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T14:29:58+00:00",
+      "author": "u/Aware-sky-3489",
+      "reddit_community": "OpenAI",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "reasoning",
+        "launch",
+        "act"
+      ],
+      "summary": "A while ago I noticed ChatGPT's \"fear of commitment\" — endless caveats before a final answer. Recently I think that may only be the surface symptom. The deeper issue is that it misses the first reasoning step: checking whether the observation itself makes sense. Human reasoning usually looks like: Observation → Common-"
+    },
+    {
       "title": "让AI参与真实世界决策！业界首个完整AI决策产品体系发布—— - ncsti.gov.cn",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RQl96R3hoY0ZhTjFrTUxaaFptLURkbktDVzRjTXFBejhUQmV1RTEyZVBXUklacW5lTkM1S20xZV9ZWXVtUzdBLWU3NEpiR2VXMlpmOTVTWTE2MmxmWERITEw2QkUwWTh4UHBBYWhvTkllQ2pFU2Vn?oc=5",
       "source": "中文AI新闻聚合",
@@ -2567,6 +2683,18 @@
         "产品"
       ],
       "summary": "让AI参与真实世界决策！业界首个完整AI决策产品体系发布—— ncsti.gov.cn"
+    },
+    {
+      "title": "东风汽车两项人工智能项目入选国家级榜单 - 湖北省经济和信息化厅",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE95eW5CR0NaN0YtN2s3ZFE5QVZLVG1DVDFmempKS3JDdnk0bEZrTXVObVpqS0gzNW1WTmd0VHVpQ1hTZFJKVkwwSTVYNzlvanA5NjJtajNOTUpmVTVNNUt3MEgwVzJ4Q0gwSHdGa2ZtT0EyUQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T06:01:00+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 54,
+      "tags": [],
+      "summary": "东风汽车两项人工智能项目入选国家级榜单 湖北省经济和信息化厅"
     },
     {
       "title": "聆思科技完成近5亿元B轮融资，安徽省及合肥市多家国资平台联合领投 - 新浪财经",
@@ -2609,18 +2737,6 @@
       "relevance_score": 54,
       "tags": [],
       "summary": "华泰证券携手2026世界人工智能大会：转型加速度 AI重塑金融生产方式 新华网客户端"
-    },
-    {
-      "title": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 - 央视网",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BOHA4a3pLcVViU3hmbWczZkM3MnRqS0xTbTZvSHBHU1R1aGNOYnV0UGtJdFV6THNNSzZSdDhmNkpqODBiOXdRUENMSlN5bGQ0ZzRVRFlLLWlmM1ZnbU5VOGNSS3UwUVJ3OUstVDA1cjFSY1NZSnJaUQ?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T03:03:54+00:00",
-      "language": "zh",
-      "category": "产业动态",
-      "relevance_score": 54,
-      "tags": [],
-      "summary": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 央视网"
     },
     {
       "title": "中国成为全球AI治理可信引领者——国际社会积极评价2026世界人工智能大会 - 中国科技网",
@@ -2719,6 +2835,52 @@
         "发布"
       ],
       "summary": "《中国智·惠世界（2026）》案例集发布 诠释全球AI普惠共赢新图景 中国农业大学新闻网"
+    },
+    {
+      "title": "Enterprise Agreement, Credits and Codex",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2e4gt/enterprise_agreement_credits_and_codex/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T10:06:30+00:00",
+      "author": "u/Distinct_Relation_62",
+      "reddit_community": "OpenAI",
+      "category": "产品应用",
+      "relevance_score": 53,
+      "tags": [
+        "github",
+        "copilot",
+        "enterprise"
+      ],
+      "summary": "We're a relatively small business with an Enterprise Agreement covering pooled credits and seats. We've noticed a large and increasing credit consumption — one particular area is an IT developer using large amounts of tokens and credits for Codex and code writing. Our question is whether we should move this developer t"
+    },
+    {
+      "title": "Security monitoring",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2dkz3/security_monitoring/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T09:36:18+00:00",
+      "author": "u/Skippy_thekangaroo",
+      "reddit_community": "OpenAI",
+      "category": "产品应用",
+      "relevance_score": 53,
+      "tags": [
+        "app",
+        "tool",
+        "company"
+      ],
+      "summary": "Hey based in Aus - trying to put together an app for my firm but its not first tine doing this and not my primary area of work - trying to fix up my company website and automate some processes. I had this show up in a linkedin ad https://assay.blackshard.com.au/ Would something like these monitoring tools be worth sett"
+    },
+    {
+      "title": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BOHA4a3pLcVViU3hmbWczZkM3MnRqS0xTbTZvSHBHU1R1aGNOYnV0UGtJdFV6THNNSzZSdDhmNkpqODBiOXdRUENMSlN5bGQ0ZzRVRFlLLWlmM1ZnbU5VOGNSS3UwUVJ3OUstVDA1cjFSY1NZSnJaUQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T03:03:54+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 53,
+      "tags": [],
+      "summary": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 央视网"
     },
     {
       "title": "AI融资周报 丨 爱诗科技百亿估值领跑，曦诺未来跻身独角兽 - 新浪财经",
@@ -3061,6 +3223,19 @@
       "summary": "Does anyone know the EXACT timing of when NeurIPS reviews are gonna be released? I'm just refreshing openreview all the time and it's stressing me out so much. Thank you for your help. submitted by /u/Anshuman3480 [link] [comments]"
     },
     {
+      "title": "‎Gemini - Decoding Gay Signals in the South",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2i7sk/gemini_decoding_gay_signals_in_the_south/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T13:18:20+00:00",
+      "author": "u/Ai-GothGirl",
+      "reddit_community": "OpenAI",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "Ai is needed for us to ask the questions we were all trained as people to not ask. We should collectively ask what we always wanted to know. Also....pretty sure I would scare people by being me...so this is great . Tinkler Out! submitted by /u/Ai-GothGirl [link] [comments]"
+    },
+    {
       "title": "Halliday’s latest smart glasses feature a much-improved display",
       "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
       "source": "The Verge AI",
@@ -3357,6 +3532,20 @@
         "模型"
       ],
       "summary": "每天3万步！创投人不看模型参数，看AI能否进入真实场景 新浪财经"
+    },
+    {
+      "title": "300余款新品首发 AI盛会“剧透”产业新图景 - 新华网上海频道",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRko2MFRoZzBhQXRmUE1NZDNmMVNiTHhMTDZVV3VRU3lOT0pnSFpNNHYzdkprZm5vd3A5WHZ3cG11VnNUWTduUHpZOENydjJoYjZ3RUFKVXoxcWhqNEZUbHhKZXctZGRHbzlHMUhlM3duck1HU2w4Z3ZTTU5ELUVucWtR?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T00:58:16+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 50,
+      "tags": [
+        "产业"
+      ],
+      "summary": "300余款新品首发 AI盛会“剧透”产业新图景 新华网上海频道"
     },
     {
       "title": "法国世界报 - 中国AI新模型让硅谷不安 - RFI",
@@ -3855,6 +4044,21 @@
       "summary": "AI physics on vacation turned into real research in quantum mechanics"
     },
     {
+      "title": "Prediction markets: You're always betting against the house",
+      "url": "https://muddy.jprs.me/posts/2026-07-19-prediction-markets-you-re-always-betting-against-the-house/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:00:20+00:00",
+      "author": "akktor",
+      "engagement": 1,
+      "category": "产业动态",
+      "relevance_score": 48,
+      "tags": [
+        "market"
+      ],
+      "summary": "Prediction markets: You're always betting against the house"
+    },
+    {
       "title": "Show HN: Weight Scope, watch and modify training of Deep Nets in real-time [video]",
       "url": "https://www.youtube.com/watch?v=7a90eZD68e0",
       "source": "Hacker News",
@@ -3966,6 +4170,36 @@
       "relevance_score": 48,
       "tags": [],
       "summary": "全球AI人才看过来！杭州这些赛事值得关注 新蓝网"
+    },
+    {
+      "title": "Usage limit bug/ cut?",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2e8dr/usage_limit_bug_cut/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T10:12:35+00:00",
+      "author": "u/PM__me_sth",
+      "reddit_community": "OpenAI",
+      "category": "产品应用",
+      "relevance_score": 47,
+      "tags": [
+        "app"
+      ],
+      "summary": "I had 50% usage left on pro, it dropped in an instant yesterday to 5%, today is 0%. New account, not shared, unique password saved in password manager. Is something ongoing happening? submitted by /u/PM__me_sth [link] [comments]"
+    },
+    {
+      "title": "'This one was different from anything we had handled before': Hugging Face confirms it was hit by cyberattack powered by an AI agent",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2e7e6/this_one_was_different_from_anything_we_had/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T10:11:06+00:00",
+      "author": "u/EchoOfOppenheimer",
+      "reddit_community": "OpenAI",
+      "category": "技术研究",
+      "relevance_score": 47,
+      "tags": [
+        "agent"
+      ],
+      "summary": "submitted by /u/EchoOfOppenheimer [link] [comments]"
     },
     {
       "title": "X relaunches a rebuilt Android app after year-long effort",
@@ -4300,32 +4534,6 @@
       "summary": "Gumroad spent equal amounts on AI tokens and human payroll"
     },
     {
-      "title": "Formal verification might solve AI's review bottleneck",
-      "url": "https://georgwiese.github.io/posts/formal-verification-ai/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:21:50+00:00",
-      "author": "georgwiese",
-      "engagement": 4,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Formal verification might solve AI's review bottleneck"
-    },
-    {
-      "title": "Keeping Cool: The Air Conditioner That Changed America",
-      "url": "https://humanprogress.org/keeping-cool-the-air-conditioner-that-changed-america/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:20:10+00:00",
-      "author": "surprisetalk",
-      "engagement": 4,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Keeping Cool: The Air Conditioner That Changed America"
-    },
-    {
       "title": "Contra George Hotz on \"AI 2040 and the Cult of Intelligence\"",
       "url": "https://antiextinction.substack.com/p/contra-ai-2040-and-the-cult-of-intelligence",
       "source": "Hacker News",
@@ -4415,19 +4623,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "The game supports up to 10 players in online mode, friend invites in private games, offline career game mode, daily challenges, and hundreds of user-created or handcrafted holes."
-    },
-    {
-      "title": "Mermaider is a dotnet lib for generating Mermaid diagrams",
-      "url": "https://github.com/nullean/mermaider",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T13:20:20+00:00",
-      "author": "cek",
-      "engagement": 2,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Mermaider is a dotnet lib for generating Mermaid diagrams"
     },
     {
       "title": "Control-Theory Taxonomy of Physical AI",
@@ -4559,6 +4754,19 @@
         "app"
       ],
       "summary": "Software may be written in programming languages, but human language is at the heart of developer collaboration. Developers explain how projects work in READMEs. They ask for help in issues. They review, debate, and improve code in pull requests. That collaboration often happens in English—but not always. As AI becomes"
+    },
+    {
+      "title": "Chatgpt just cooked this beauty up",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1v2e14n/chatgpt_just_cooked_this_beauty_up/",
+      "source": "Reddit · r/OpenAI",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T10:01:32+00:00",
+      "author": "u/Creamy-Sundae-9991",
+      "reddit_community": "OpenAI",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [],
+      "summary": "https://www.reddit.com/r/ThroughTheVeil/s/HTp52elQ8z submitted by /u/Creamy-Sundae-9991 [link] [comments]"
     },
     {
       "title": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
@@ -5777,7 +5985,7 @@
       "summary": "融资68亿！AI芯片独角兽估值冲上740亿 智东西"
     },
     {
-      "title": "传DeepSeek要自研AI芯片，且立项已一年 - 观察者网",
+      "title": "传DeepSeek要自研AI芯片，且立项已一年 - 观察者",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xUlVtMXBGZzFnX1F2VWNsOXJ5ckVzNVcwWld3eDZiamVxNU9NNUpmZUJvOTdWUGQzSmd6QzRyeGhrTkQ0WW9sLW5vRU45SWkyU2wteTNJRmltUFNfQ18yVjNKclM?oc=5",
       "source": "中文AI技术开源",
       "source_type": "国内资讯",
@@ -5788,7 +5996,7 @@
       "tags": [
         "芯片"
       ],
-      "summary": "传DeepSeek要自研AI芯片，且立项已一年 观察者网"
+      "summary": "传DeepSeek要自研AI芯片，且立项已一年 观察者"
     },
     {
       "title": "自变量机器人C轮融资后估值超200亿 国家AI产投基金、红杉中国等押注 - 观点网",
