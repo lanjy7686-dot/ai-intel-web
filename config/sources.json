@@ -1,0 +1,58 @@
+{
+  "gdelt": {
+    "enabled": true,
+    "query": "(\"artificial intelligence\" OR \"generative AI\" OR \"large language model\" OR OpenAI OR Anthropic OR DeepSeek OR NVIDIA)",
+    "timespan": "1d",
+    "max_items": 80
+  },
+  "arxiv": {
+    "enabled": true,
+    "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.RO",
+    "max_items": 40
+  },
+  "hackernews": {
+    "enabled": true,
+    "scan_items": 200,
+    "max_items": 40,
+    "keywords": [
+      "AI",
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "DeepSeek",
+      "NVIDIA",
+      "robotics",
+      "agent",
+      "machine learning"
+    ]
+  },
+  "x": {
+    "enabled": true,
+    "max_items": 100,
+    "query": "(AI OR \"artificial intelligence\" OR LLM OR OpenAI OR Anthropic OR DeepSeek OR NVIDIA OR 人工智能 OR 大模型) -is:retweet"
+  },
+  "rss": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "source_type": "RSS",
+      "language": "en",
+      "enabled": true
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/rss/",
+      "source_type": "RSS",
+      "language": "en",
+      "enabled": true
+    },
+    {
+      "name": "MIT Technology Review AI",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "source_type": "RSS",
+      "language": "en",
+      "enabled": true
+    }
+  ],
+  "wechat_urls_file": "config/wechat_urls.txt"
+}
