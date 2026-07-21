@@ -1,7 +1,9 @@
 {
-  "updated_at": "2026-07-21T12:31:50.192896+00:00",
-  "count": 239,
-  "errors": [],
+  "updated_at": "2026-07-21T12:50:20.711647+00:00",
+  "count": 160,
+  "errors": [
+    "GDELT: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=%28%22artificial+intelligence%22+OR+%22generative+AI%22+OR+%22large+language+model%22+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+NVIDIA%29&mode=ArtList&format=json&maxrecords=80&sort=HybridRel&timespan=1d"
+  ],
   "articles": [
     {
       "title": "AI is more likely than humans to form biases when hiring",
@@ -10,7 +12,7 @@
       "source_type": "RSS",
       "published_at": "2026-07-20T08:39:01+00:00",
       "category": "技术研究",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "model",
         "paper",
@@ -69,26 +71,6 @@
       "summary": "Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. "
     },
     {
-      "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
-      "url": "https://arxiv.org/abs/2607.18147v1",
-      "source": "arXiv",
-      "source_type": "论文",
-      "published_at": "2026-07-20T16:45:13+00:00",
-      "category": "技术研究",
-      "relevance_score": 77,
-      "tags": [
-        "valuation",
-        "model",
-        "paper",
-        "architecture",
-        "agent",
-        "app",
-        "tool",
-        "act"
-      ],
-      "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control,"
-    },
-    {
       "title": "Advancing next-gen AI with materials science innovation",
       "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
       "source": "MIT Technology Review AI",
@@ -109,6 +91,26 @@
         "act"
       ],
       "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advance"
+    },
+    {
+      "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
+      "url": "https://arxiv.org/abs/2607.18147v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:45:13+00:00",
+      "category": "技术研究",
+      "relevance_score": 76,
+      "tags": [
+        "valuation",
+        "model",
+        "paper",
+        "architecture",
+        "agent",
+        "app",
+        "tool",
+        "act"
+      ],
+      "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control,"
     },
     {
       "title": "Show HN: ChatPanel, A Privacy-first AI Agent browser side panel",
@@ -188,25 +190,6 @@
       "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take lin"
     },
     {
-      "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
-      "url": "https://arxiv.org/abs/2607.18149v1",
-      "source": "arXiv",
-      "source_type": "论文",
-      "published_at": "2026-07-20T16:49:30+00:00",
-      "category": "技术研究",
-      "relevance_score": 68,
-      "tags": [
-        "invest",
-        "model",
-        "dataset",
-        "inference",
-        "architecture",
-        "github",
-        "act"
-      ],
-      "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boole"
-    },
-    {
       "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
       "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
       "source": "MIT Technology Review AI",
@@ -225,6 +208,25 @@
         "company"
       ],
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publis"
+    },
+    {
+      "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+      "url": "https://arxiv.org/abs/2607.18149v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:49:30+00:00",
+      "category": "技术研究",
+      "relevance_score": 67,
+      "tags": [
+        "invest",
+        "model",
+        "dataset",
+        "inference",
+        "architecture",
+        "github",
+        "act"
+      ],
+      "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boole"
     },
     {
       "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
@@ -349,24 +351,6 @@
       "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful"
     },
     {
-      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
-      "url": "https://arxiv.org/abs/2607.18144v1",
-      "source": "arXiv",
-      "source_type": "论文",
-      "published_at": "2026-07-20T16:43:54+00:00",
-      "category": "技术研究",
-      "relevance_score": 65,
-      "tags": [
-        "valuation",
-        "model",
-        "benchmark",
-        "api",
-        "app",
-        "act"
-      ],
-      "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule"
-    },
-    {
       "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
       "url": "https://arxiv.org/abs/2607.18127v1",
       "source": "arXiv",
@@ -387,6 +371,24 @@
         "cloud"
       ],
       "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. "
+    },
+    {
+      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
+      "url": "https://arxiv.org/abs/2607.18144v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:43:54+00:00",
+      "category": "技术研究",
+      "relevance_score": 64,
+      "tags": [
+        "valuation",
+        "model",
+        "benchmark",
+        "api",
+        "app",
+        "act"
+      ],
+      "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule"
     },
     {
       "title": "The risk of weather data sabotage is rising",
@@ -475,7 +477,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T16:36:00+00:00",
       "category": "技术研究",
-      "relevance_score": 62,
+      "relevance_score": 61,
       "tags": [
         "dataset",
         "training",
@@ -505,21 +507,6 @@
         "act"
       ],
       "summary": "Most parameter-efficient finetuning (PEFT) methods adapt weights or activations, thus leaving one of the key Transformer components unchanged: residual connections. This paper investigates Manifold-Constrained Hyper-Connections (mHC), a generalisation of resid"
-    },
-    {
-      "title": "Nvidia Reveals 9 . 3 % Stake in AI Cloud Firm Nebius Following $2 Billion Investment",
-      "url": "http://www.econotimes.com/Nvidia-Reveals-93-Stake-in-AI-Cloud-Firm-Nebius-Following-2-Billion-Investment-1747254",
-      "source": "econotimes.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T06:45:00+00:00",
-      "category": "投资商业",
-      "relevance_score": 59,
-      "tags": [
-        "invest",
-        "investment",
-        "cloud"
-      ],
-      "summary": "Nvidia Reveals 9 . 3 % Stake in AI Cloud Firm Nebius Following $2 Billion Investment"
     },
     {
       "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
@@ -608,19 +595,6 @@
       "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal repre"
     },
     {
-      "title": "Anthropic Follows SpaceX Playbook , Claude - Parent Reportedly Pursuing Multibillion - Dollar Credit Lines Ahead of IPO",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-follows-spacex-playbook-claude-143101207.html",
-      "source": "finance.yahoo.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T02:15:00+00:00",
-      "category": "投资商业",
-      "relevance_score": 58,
-      "tags": [
-        "ipo"
-      ],
-      "summary": "Anthropic Follows SpaceX Playbook , Claude - Parent Reportedly Pursuing Multibillion - Dollar Credit Lines Ahead of IPO"
-    },
-    {
       "title": "Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds",
       "url": "https://arxiv.org/abs/2607.18135v1",
       "source": "arXiv",
@@ -653,18 +627,18 @@
       "summary": "Reinforcement learning (RL) on open-ended tasks compresses an LLM's rubric-based evaluation into a scalar reward, discarding rich textual feedback and conflating responses with distinct quality profiles. We propose Experiential Learning (EL), which repurposes "
     },
     {
-      "title": "Prediction markets favour Nvidia to stay on top despite Apple charge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-markets-favour-nvidia-stay-100100824.html",
-      "source": "finance.yahoo.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T11:00:00+00:00",
-      "category": "产品应用",
+      "title": "Alphabet shares fall on report its AI model Gemini 3.5 Pro is delayed",
+      "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:42:15+00:00",
+      "category": "投资商业",
       "relevance_score": 57,
       "tags": [
-        "app",
-        "market"
+        "shares",
+        "model"
       ],
-      "summary": "Prediction markets favour Nvidia to stay on top despite Apple charge"
+      "summary": "Alphabet shares fall on report its AI model Gemini 3.5 Pro is delayed"
     },
     {
       "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
@@ -709,20 +683,6 @@
         "reasoning"
       ],
       "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove"
-    },
-    {
-      "title": "Artificial intelligence : markets hit by new model",
-      "url": "https://www.abc.net.au/listen/programs/worldtoday/artificial-intelligence-markets-hit-by-new-model/106940132",
-      "source": "abc.net.au",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T06:30:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 56,
-      "tags": [
-        "model",
-        "market"
-      ],
-      "summary": "Artificial intelligence : markets hit by new model"
     },
     {
       "title": "Automated Discovery Has No Universally Superior Harness",
@@ -797,7 +757,7 @@
       "source_type": "论文",
       "published_at": "2026-07-20T16:48:24+00:00",
       "category": "产品应用",
-      "relevance_score": 56,
+      "relevance_score": 55,
       "tags": [
         "invest",
         "dataset",
@@ -808,17 +768,17 @@
       "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together wi"
     },
     {
-      "title": "New Chinese AI model Kimi K3 challenges OpenAI and Anthropic",
-      "url": "https://www.techcentral.ie/new-chinese-ai-model-kimi-k3-challenges-openai-and-anthropic/",
-      "source": "techcentral.ie",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T13:30:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 55,
+      "title": "Show HN: CLI tool that packages data-heavy projects into LLM context windows",
+      "url": "https://github.com/arianmokhtariha/data2prompt",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:48:31+00:00",
+      "category": "产品应用",
+      "relevance_score": 54,
       "tags": [
-        "model"
+        "tool"
       ],
-      "summary": "New Chinese AI model Kimi K3 challenges OpenAI and Anthropic"
+      "summary": "Show HN: CLI tool that packages data-heavy projects into LLM context windows"
     },
     {
       "title": "HugstonOne Architecture, Capability, Benchmark to Privacy Local AI Workstation",
@@ -851,32 +811,6 @@
       "summary": "Hey everyone! I know there are gazillion alternatives out there especially with AI and all, but this nevertheless is my take on it. I created it because I was frustrated with the options I was seeing in the market. Too heavy, too complex, UX was meh, the outpu"
     },
     {
-      "title": "I moved Agentique's LLM layer to BAML",
-      "url": "https://agentique.ch/blog/why-i-moved-agentiques-llm-layer-to-baml/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T10:46:45+00:00",
-      "category": "技术研究",
-      "relevance_score": 54,
-      "tags": [
-        "agent"
-      ],
-      "summary": "I moved Agentique's LLM layer to BAML"
-    },
-    {
-      "title": "2 Reason ( s ) to Buy Warren Buffett Favorite Artificial Intelligence ( AI ) Stock and Never Sell",
-      "url": "https://finance.yahoo.com/technology/ai/articles/2-reason-buy-warren-buffetts-090500280.html",
-      "source": "finance.yahoo.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T10:15:00+00:00",
-      "category": "投资商业",
-      "relevance_score": 54,
-      "tags": [
-        "stock"
-      ],
-      "summary": "2 Reason ( s ) to Buy Warren Buffett Favorite Artificial Intelligence ( AI ) Stock and Never Sell"
-    },
-    {
       "title": "Safety and alignment in an era of long-horizon models",
       "url": "https://openai.com/index/safety-alignment-long-horizon-models",
       "source": "OpenAI News",
@@ -890,30 +824,6 @@
         "safety"
       ],
       "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
-    },
-    {
-      "title": "Google new AI chip could make Gemini up to 10 times more efficient",
-      "url": "https://www.samaa.tv/2087353932-google-s-new-ai-chip-could-make-gemini-up-to-10-times-more-efficient",
-      "source": "samaa.tv",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T08:00:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 53,
-      "tags": [
-        "chip"
-      ],
-      "summary": "Google new AI chip could make Gemini up to 10 times more efficient"
-    },
-    {
-      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
-      "url": "http://www.laosnews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
-      "source": "laosnews.net",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 53,
-      "tags": [],
-      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
     },
     {
       "title": "Three-Body Scattering for Generative Modeling",
@@ -948,50 +858,6 @@
       "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for exam"
     },
     {
-      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
-      "url": "http://www.thailandnews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
-      "source": "thailandnews.net",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 53,
-      "tags": [],
-      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
-    },
-    {
-      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
-      "url": "http://www.myanmarnews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
-      "source": "myanmarnews.net",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 53,
-      "tags": [],
-      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
-    },
-    {
-      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
-      "url": "http://www.afghanistannews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
-      "source": "afghanistannews.net",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 52,
-      "tags": [],
-      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
-    },
-    {
-      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
-      "url": "http://www.calcuttanews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
-      "source": "calcuttanews.net",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 52,
-      "tags": [],
-      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
-    },
-    {
       "title": "Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles",
       "url": "https://arxiv.org/abs/2607.18106v1",
       "source": "arXiv",
@@ -1022,6 +888,34 @@
         "feature"
       ],
       "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-ag"
+    },
+    {
+      "title": "Show HN: DevFortress – open-core credential isolation for APIs and AI agents",
+      "url": "https://github.com/duncan982/devfortress-core",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:45:58+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "api",
+        "agent"
+      ],
+      "summary": "Show HN: DevFortress – open-core credential isolation for APIs and AI agents"
+    },
+    {
+      "title": "Show HN: Assembly Chat – Chat with Any .NET",
+      "url": "https://products.documentize.ai/assembly-chat",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:34:03+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "architecture",
+        "api"
+      ],
+      "summary": "Upload a DLL or select NuGet package. Ask questions about the API in plain English. Gets you code samples, architecture views, and diffs between versions."
     },
     {
       "title": "I asked an AI agent to delete a folder my tool was guarding",
@@ -1108,44 +1002,6 @@
       "relevance_score": 51,
       "tags": [],
       "summary": "LLM spambots liked my Show HN post more than real people did"
-    },
-    {
-      "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
-      "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T10:42:26+00:00",
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?"
-    },
-    {
-      "title": "Show HN: Friday – a local-first desktop AI assistant that can use tools",
-      "url": "https://friday.haraldbregu.com/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T10:34:06+00:00",
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "assistant",
-        "tool"
-      ],
-      "summary": "Show HN: Friday – a local-first desktop AI assistant that can use tools"
-    },
-    {
-      "title": "Kimi K3 Hit a GPU Wall . Why Nvidia and Microsoft May Be the Real Winners",
-      "url": "https://www.insidermonkey.com/blog/kimi-k3-hit-a-gpu-wall-why-nvidia-and-microsoft-may-be-the-real-winners-1803061/",
-      "source": "insidermonkey.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T21:45:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "gpu"
-      ],
-      "summary": "Kimi K3 Hit a GPU Wall . Why Nvidia and Microsoft May Be the Real Winners"
     },
     {
       "title": "Causal Discovery on Irregular Time Series",
@@ -1253,19 +1109,6 @@
       "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose"
     },
     {
-      "title": "Scott Galloway Predicts Sam Altman Is Out as OpenAI CEO Within 6 Months - Apple ( NASDAQ : AAPL ), Microsoft",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60557060/scott-galloway-predicts-sam-altman-is-out-as-openai-ceo-within-6-months-hes-an-innovator-not-an-operator",
-      "source": "benzinga.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:15:00+00:00",
-      "category": "产品应用",
-      "relevance_score": 49,
-      "tags": [
-        "app"
-      ],
-      "summary": "Scott Galloway Predicts Sam Altman Is Out as OpenAI CEO Within 6 Months - Apple ( NASDAQ : AAPL ), Microsoft"
-    },
-    {
       "title": "COVAriance-Induced Fairness Gap Penalty for Subgroup-Fair Clustering",
       "url": "https://arxiv.org/abs/2607.18119v1",
       "source": "arXiv",
@@ -1279,6 +1122,19 @@
         "act"
       ],
       "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms i"
+    },
+    {
+      "title": "Eliminate Dead Air in AI Voice Assistants with Filler Messages",
+      "url": "https://lowlatencyclub.ai/blog/posts/ai-assistant-filler-messages-demo-python",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:41:46+00:00",
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "assistant"
+      ],
+      "summary": "Eliminate Dead Air in AI Voice Assistants with Filler Messages"
     },
     {
       "title": "The year of sustainable indie products",
@@ -1398,84 +1254,6 @@
       "summary": "Top American AI Execs Sound Alarm on Chinese Models"
     },
     {
-      "title": "What is China Moonshot AI and why is it roiling markets ?",
-      "url": "https://www.businesstimes.com.sg/companies-markets/what-chinas-moonshot-ai-and-why-it-roiling-markets",
-      "source": "businesstimes.com.sg",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T09:30:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 48,
-      "tags": [
-        "market"
-      ],
-      "summary": "What is China Moonshot AI and why is it roiling markets ?"
-    },
-    {
-      "title": "TCS Acquires Land in Vizag , Pune for OpenAI Data Sites",
-      "url": "https://economictimes.indiatimes.com/et-front/tcs-acquires-land-in-vizag-pune-for-openai-data-sites/articleshow/132524167.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T00:30:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 48,
-      "tags": [],
-      "summary": "TCS Acquires Land in Vizag , Pune for OpenAI Data Sites"
-    },
-    {
-      "title": "China Open - Weight AI Models Now Match Top U . S . Systems in Benchmarks",
-      "url": "https://www.radioseoul1650.com/archives/147927",
-      "source": "radioseoul1650.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T23:00:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model",
-        "benchmark"
-      ],
-      "summary": "China Open - Weight AI Models Now Match Top U . S . Systems in Benchmarks"
-    },
-    {
-      "title": "Hugging Face turned to Chinese open source AI model after experiencing autonomous cyber attack",
-      "url": "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
-      "source": "fortune.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T21:00:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model",
-        "open source"
-      ],
-      "summary": "Hugging Face turned to Chinese open source AI model after experiencing autonomous cyber attack"
-    },
-    {
-      "title": "China new AI model halts new subscriptions as demand swamps capacity",
-      "url": "https://www.thestar.com.my/tech/tech-news/2026/07/21/china039s-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity",
-      "source": "thestar.com.my",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T05:15:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 47,
-      "tags": [
-        "model"
-      ],
-      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
-    },
-    {
-      "title": "Kimi K3 gets high evaluation scores",
-      "url": "http://global.chinadaily.com.cn/a/202607/20/WS6a5e33f4a310986e2b46648e.html",
-      "source": "global.chinadaily.com.cn",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T05:15:00+00:00",
-      "category": "投资商业",
-      "relevance_score": 47,
-      "tags": [
-        "valuation"
-      ],
-      "summary": "Kimi K3 gets high evaluation scores"
-    },
-    {
       "title": "Learning Adaptive Safety Margins for Visual Navigation",
       "url": "https://arxiv.org/abs/2607.18200v1",
       "source": "arXiv",
@@ -1490,70 +1268,26 @@
       "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts u"
     },
     {
-      "title": "Apple Reclaims World Most Valuable Company Title at $4 . 9 Trillion",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-reclaims-worlds-most-valuable-163952633.html",
-      "source": "finance.yahoo.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:00:00+00:00",
-      "category": "产品应用",
-      "relevance_score": 47,
-      "tags": [
-        "app",
-        "company"
-      ],
-      "summary": "Apple Reclaims World Most Valuable Company Title at $4 . 9 Trillion"
+      "title": "AI Projects with Raspberry Pi",
+      "url": "https://www.raspberrypi.com/news/ai-projects-with-raspberry-pi-out-now/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:46:22+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "AI Projects with Raspberry Pi"
     },
     {
-      "title": "Top American AI execs sound alarm on Chinese models",
-      "url": "https://www.livemint.com/ai/top-american-ai-execs-sound-alarm-on-chinese-models-11784596256576.html",
-      "source": "livemint.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T03:30:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 46,
-      "tags": [
-        "model"
-      ],
-      "summary": "Top American AI execs sound alarm on Chinese models"
-    },
-    {
-      "title": "China new AI model halts new subscriptions as demand swamps capacity",
-      "url": "https://www.asiaone.com/digital/chinas-new-ai-model-halts-new-subscriptions-demand-swamps-capacity",
-      "source": "asiaone.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T03:30:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 46,
-      "tags": [
-        "model"
-      ],
-      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
-    },
-    {
-      "title": "Kimi K3 gets high evaluation scores",
-      "url": "http://usa.chinadaily.com.cn/a/202607/20/WS6a5e33f4a310986e2b46648e.html",
-      "source": "usa.chinadaily.com.cn",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T02:45:00+00:00",
-      "category": "投资商业",
-      "relevance_score": 46,
-      "tags": [
-        "valuation"
-      ],
-      "summary": "Kimi K3 gets high evaluation scores"
-    },
-    {
-      "title": "Kimi K3 gets high evaluation scores",
-      "url": "http://europe.chinadaily.com.cn/a/202607/20/WS6a5e33f4a310986e2b46648e.html",
-      "source": "europe.chinadaily.com.cn",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T02:15:00+00:00",
-      "category": "投资商业",
-      "relevance_score": 46,
-      "tags": [
-        "valuation"
-      ],
-      "summary": "Kimi K3 gets high evaluation scores"
+      "title": "Plain Language Guide Series",
+      "url": "https://digital.gov/guides/plain-language",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:33:15+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Plain Language Guide Series"
     },
     {
       "title": "Most engineers fail behavioral interviews because they prepare wrong. Here's",
@@ -1633,7 +1367,7 @@
       "summary": "Software and AI – Plotting vs. Pantsing"
     },
     {
-      "title": "Show HN: openmog – an AI that only knows what you post",
+      "title": "Show HN: openmog – a social network whose AI treats every post as absolute truth",
       "url": "https://www.openmog.com/",
       "source": "Hacker News",
       "source_type": "技术社区",
@@ -1641,7 +1375,7 @@
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
-      "summary": "Show HN: openmog – an AI that only knows what you post"
+      "summary": "Show HN: openmog – a social network whose AI treats every post as absolute truth"
     },
     {
       "title": "Tfgen: configure your Terraform stacks using plain Go",
@@ -1677,536 +1411,6 @@
       "summary": "Show HN: Turn Excel, CSV and Google Sheets into an AI Chatbot"
     },
     {
-      "title": "Boeing asks US to intervene over record EU loan to Airbus",
-      "url": "https://www.reuters.com/business/aerospace-defense/boeing-asks-us-intervene-over-record-eu-loan-airbus-2026-07-21/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T10:48:40+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Boeing asks US to intervene over record EU loan to Airbus"
-    },
-    {
-      "title": "Chelsea's Defensive Rebuild Gains Momentum as Lacroix Emerges as Priority Target",
-      "url": "https://predx-article.fika.bar/chelsea-s-defensive-rebuild-gains-momentum-as-maxence-lacroi-01KY15FE68Z32G954W1AA0QPRS",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T10:48:39+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Chelsea's Defensive Rebuild Gains Momentum as Lacroix Emerges as Priority Target"
-    },
-    {
-      "title": "iOS 27 jailbreak with usbliter8 exploit",
-      "url": "https://github.com/34306/usbliter8-fun",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T10:46:05+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "iOS 27 jailbreak with usbliter8 exploit"
-    },
-    {
-      "title": "South Korea promises free homegrown AI chatbot this year",
-      "url": "https://www.bssnews.net/international/407578",
-      "source": "bssnews.net",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T09:30:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "South Korea promises free homegrown AI chatbot this year"
-    },
-    {
-      "title": "South Korea promises free homegrown AI chatbot this year",
-      "url": "https://www.freemalaysiatoday.com/category/business/2026/07/21/south-korea-promises-free-homegrown-ai-chatbot-this-year",
-      "source": "freemalaysiatoday.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T09:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "South Korea promises free homegrown AI chatbot this year"
-    },
-    {
-      "title": "South Korea promises free homegrown AI chatbot this year",
-      "url": "https://www.channelnewsasia.com/east-asia/south-korea-free-ai-chatbot-6267671",
-      "source": "channelnewsasia.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T09:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "South Korea promises free homegrown AI chatbot this year"
-    },
-    {
-      "title": "South Korea promises free homegrown AI chatbot this year",
-      "url": "https://www.thestar.com.my/tech/tech-news/2026/07/21/south-korea-promises-free-homegrown-ai-chatbot-this-year",
-      "source": "thestar.com.my",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T08:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "South Korea promises free homegrown AI chatbot this year"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.vietnamtribune.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "vietnamtribune.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T22:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.shanghaisun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "shanghaisun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T21:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.bangladeshsun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "bangladeshsun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T21:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.pakistantelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "pakistantelegraph.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T21:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.baltimorestar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "baltimorestar.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T21:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "Entry - level FDEs earn up to 7 times more than software developers , starting at Rs 18 lakh",
-      "url": "https://www.moneycontrol.com/artificial-intelligence/entry-level-fdes-earn-up-to-7-times-more-than-software-developers-starting-at-rs-18-lakh-article-13979349.html",
-      "source": "moneycontrol.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T08:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "Entry - level FDEs earn up to 7 times more than software developers , starting at Rs 18 lakh"
-    },
-    {
-      "title": "Head of federal A . I . safety organization calls it quits * WorldNetDaily * by Elizabeth Troutman Mitchell , The Daily Signal",
-      "url": "https://www.wnd.com/2026/07/head-federal-i-safety-organization-calls-it-quits/",
-      "source": "wnd.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:30:00+00:00",
-      "category": "政策治理",
-      "relevance_score": 44,
-      "tags": [
-        "safety"
-      ],
-      "summary": "Head of federal A . I . safety organization calls it quits * WorldNetDaily * by Elizabeth Troutman Mitchell , The Daily Signal"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.sierraleonetimes.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "sierraleonetimes.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.haitisun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "haitisun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.dallassun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "dallassun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China new AI model halts new subscriptions as demand swamps capacity – One America News Network",
-      "url": "https://www.oann.com/tech/chinas-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity/",
-      "source": "oann.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:15:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 44,
-      "tags": [
-        "model"
-      ],
-      "summary": "China new AI model halts new subscriptions as demand swamps capacity – One America News Network"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.phoenixherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "phoenixherald.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.theusnews.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "theusnews.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.torontotelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "torontotelegraph.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.saltlakecitysun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "saltlakecitysun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T19:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.israelherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "israelherald.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T18:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.stlouisstar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "stlouisstar.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T18:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.milwaukeesun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "milwaukeesun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T18:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.brazilsun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "brazilsun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.mainemirror.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "mainemirror.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.taiwansun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "taiwansun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "Wall Street holds steadier as chip companies swing back upward",
-      "url": "https://www.wwaytv3.com/wall-street-holds-steadier-as-chip-companies-swing-back-upward/",
-      "source": "wwaytv3.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:45:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 44,
-      "tags": [
-        "chip"
-      ],
-      "summary": "Wall Street holds steadier as chip companies swing back upward"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.parisguardian.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "parisguardian.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:30:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "Alabama ChatGPT Wrongful Death Lawsuit : Accused in Suicide",
-      "url": "https://techstory.in/the-lethal-delusion-lawsuit-alleges-chatgpt-incited-alabama-woman-to-end-her-life/",
-      "source": "techstory.in",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:30:00+00:00",
-      "category": "政策治理",
-      "relevance_score": 44,
-      "tags": [
-        "law"
-      ],
-      "summary": "Alabama ChatGPT Wrongful Death Lawsuit : Accused in Suicide"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.floridastatesman.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "floridastatesman.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "Chinese Startup Moonshot Kimi K3 AI Model Halts New Subscription As Demand Swaps Capacity",
-      "url": "https://www.chinatechnews.com/2026/07/20/125956-chinese-startup-moonshots-kimi-k3-ai-model-halts-new-subscription-as-demand-swaps-capacity",
-      "source": "chinatechnews.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:15:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 44,
-      "tags": [
-        "model"
-      ],
-      "summary": "Chinese Startup Moonshot Kimi K3 AI Model Halts New Subscription As Demand Swaps Capacity"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.californiatelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "californiatelegraph.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.indiagazette.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "indiagazette.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.utahindependent.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "utahindependent.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T17:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.nashvilleherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "nashvilleherald.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.memphissun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "memphissun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.northkoreatimes.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "northkoreatimes.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.malaysiasun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "malaysiasun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.birminghamstar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "birminghamstar.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.londonmercury.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "londonmercury.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
       "title": "Achieving operational excellence with AI",
       "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
       "source": "MIT Technology Review AI",
@@ -2227,184 +1431,6 @@
       "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality contro"
     },
     {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.sydneysun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "sydneysun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.newjerseytelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "newjerseytelegraph.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.cincinnatisun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "cincinnatisun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T16:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.oklahomacitysun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "oklahomacitysun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.irishsun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "irishsun.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China AI Companies Are Winning Over Developers With Cheaper Models . Silicon Valley Biggest Advantage Is Facing New Pressure .",
-      "url": "https://www.ibtimes.com/chinas-ai-companies-are-winning-over-developers-cheaper-models-silicon-valleys-biggest-3805494",
-      "source": "ibtimes.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:15:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "model"
-      ],
-      "summary": "China AI Companies Are Winning Over Developers With Cheaper Models . Silicon Valley Biggest Advantage Is Facing New Pressure ."
-    },
-    {
-      "title": "China new AI model halts new subscriptions as demand swamps capacity",
-      "url": "https://www.ksat.com/tech/2026/07/20/chinas-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity/",
-      "source": "ksat.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:15:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "model"
-      ],
-      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.russiaherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "russiaherald.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China Kimi K3 surprises US AI industry with strong debut",
-      "url": "http://www.argentinastar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
-      "source": "argentinastar.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "industry"
-      ],
-      "summary": "China Kimi K3 surprises US AI industry with strong debut"
-    },
-    {
-      "title": "China new AI model halts new subscriptions as demand swamps capacity",
-      "url": "https://abcnews.com/Technology/wireStory/chinas-new-ai-model-halts-new-subscriptions-demand-134909820",
-      "source": "abcnews.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:00:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "model"
-      ],
-      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
-    },
-    {
-      "title": "Wall Street holds steadier as chip companies swing back upward",
-      "url": "https://www.sun-sentinel.com/2026/07/20/wall-street-oil-gas-prices/",
-      "source": "sun-sentinel.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T14:00:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "chip"
-      ],
-      "summary": "Wall Street holds steadier as chip companies swing back upward"
-    },
-    {
-      "title": "China new AI model halts new subscriptions as demand swamps capacity",
-      "url": "https://www.clickorlando.com/tech/2026/07/20/chinas-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity/",
-      "source": "clickorlando.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T13:00:00+00:00",
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "model"
-      ],
-      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
-    },
-    {
-      "title": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial",
-      "url": "http://global.chinadaily.com.cn/a/202607/20/WS6a5e3cdaa310986e2b466493.html",
-      "source": "global.chinadaily.com.cn",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T00:15:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 42,
-      "tags": [],
-      "summary": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial"
-    },
-    {
-      "title": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial",
-      "url": "http://usa.chinadaily.com.cn/a/202607/20/WS6a5e3cdaa310986e2b466493.html",
-      "source": "usa.chinadaily.com.cn",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T00:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 42,
-      "tags": [],
-      "summary": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial"
-    },
-    {
       "title": "The US is advancing AI safety through state and federal action",
       "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
       "source": "OpenAI News",
@@ -2420,28 +1446,6 @@
         "governance"
       ],
       "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI."
-    },
-    {
-      "title": "Moonshot AI pauses subscriptions after users swarm to test Kimi K3",
-      "url": "https://www.siliconrepublic.com/business/moonshot-ai-pauses-subscriptions-after-users-swarm-to-test-kimi-k3",
-      "source": "siliconrepublic.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T15:45:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 40,
-      "tags": [],
-      "summary": "Moonshot AI pauses subscriptions after users swarm to test Kimi K3"
-    },
-    {
-      "title": "AMD Just Got a Potential AI Heavyweight Customer . Here The New Price Target",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amd-just-got-potential-ai-133035921.html",
-      "source": "finance.yahoo.com",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-20T14:00:00+00:00",
-      "category": "产业动态",
-      "relevance_score": 40,
-      "tags": [],
-      "summary": "AMD Just Got a Potential AI Heavyweight Customer . Here The New Price Target"
     },
     {
       "title": "Why teens deserve access to safe AI",
