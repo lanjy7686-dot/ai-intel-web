@@ -1,7 +1,7 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T15:24:38.556325+00:00",
-  "count": 497,
+  "updated_at": "2026-07-21T15:34:12.359950+00:00",
+  "count": 509,
   "errors": [],
   "source_status": {
     "X": {
@@ -34,7 +34,7 @@
     },
     "Reddit": {
       "state": "fetched",
-      "count": 12
+      "count": 24
     },
     "arXiv": {
       "state": "fetched",
@@ -58,13 +58,161 @@
     },
     "来源统计": {
       "技术社区": 50,
-      "RSS": 177,
+      "Reddit": 24,
       "国内资讯": 208,
-      "Reddit": 12,
+      "RSS": 177,
       "论文": 50
     }
   },
   "articles": [
+    {
+      "title": "Show HN: Explore 251 Bevy crates as an interactive constellation",
+      "url": "https://crates.rugaex.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:33:40+00:00",
+      "author": "david_rugaex",
+      "engagement": 1,
+      "category": "政策治理",
+      "relevance_score": 48,
+      "tags": [
+        "act"
+      ],
+      "summary": "My page shows what crates people are using, and in what combinations, across different versions of the Bevy game engine in Rust. It scrapes project data daily to stay up to date. It also links back to the repos so you can find code demonstrating how pairs of crates are used together."
+    },
+    {
+      "title": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage",
+      "url": "https://www.404media.co/apple-fixes-hide-my-email-vulnerability-after-404-media-coverage/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:31:41+00:00",
+      "author": "arto",
+      "engagement": 1,
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "app"
+      ],
+      "summary": "Apple Fixes Hide My Email Vulnerability After 404 Media Coverage"
+    },
+    {
+      "title": "pi 0.81.0 adds support for llama.cpp",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2lszl/pi_0810_adds_support_for_llamacpp/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T15:31:03+00:00",
+      "author": "u/popoppypoppylovelove",
+      "reddit_community": "LocalLLaMA",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "model"
+      ],
+      "summary": "pi 0.81.0 now has integrated support for llama.cpp (llama-server router). https://pi.dev/docs/latest/llama-cpp This seems to be able to replace the huggingface/pi-llama extension and/or manually managing models in the config. submitted by /u/popoppypoppylovelove [link] [comments]"
+    },
+    {
+      "title": "Show HN: Byre; a free/free agent sandbox with a focus on comfort",
+      "url": "https://github.com/pjlsergeant/byre",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:30:21+00:00",
+      "author": "petesergeant",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "Show HN: Byre; a free/free agent sandbox with a focus on comfort"
+    },
+    {
+      "title": "Show HN: One person runs 200 AI agents in our agent-only MMO",
+      "url": "https://spacemolt.com/news/operator-spotlight-brocktree",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:30:11+00:00",
+      "author": "statico",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "agent",
+        "app",
+        "act"
+      ],
+      "summary": "Hi folks, This is a recent interview with one of the top players in SpaceMolt, our realtime space-themed MMO you don't actually play, but get AI to play for you. People are playing lots of different ways, like with our web-based human client, or AI operators, or AI scripting bots (which is totally allowed and even enco"
+    },
+    {
+      "title": "Diving Deeper on Nvidia's Vera CPU: New Architectural Details and Spec CPU 2026",
+      "url": "https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:28:49+00:00",
+      "author": "ksec",
+      "engagement": 1,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "Diving Deeper on Nvidia's Vera CPU: New Architectural Details and Spec CPU 2026"
+    },
+    {
+      "title": "Using AI makes people less likely to admit they don't know something",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:27:53+00:00",
+      "author": "amai",
+      "engagement": 1,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Using AI makes people less likely to admit they don't know something"
+    },
+    {
+      "title": "AI Coding Assistant Strategy Slashes Token Bills",
+      "url": "https://spectrum.ieee.org/ai-coding-assistant-china-anthropic",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:27:32+00:00",
+      "author": "rbanffy",
+      "engagement": 1,
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "assistant"
+      ],
+      "summary": "AI Coding Assistant Strategy Slashes Token Bills"
+    },
+    {
+      "title": "Agent doesn't know what your other agent did",
+      "url": "https://agnitripathi.substack.com/p/your-agent-doesnt-know-what-your",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:27:04+00:00",
+      "author": "agnitripathi",
+      "engagement": 1,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "Agent doesn't know what your other agent did"
+    },
+    {
+      "title": "Open-ultra: a self-training LLM routing proxy",
+      "url": "https://github.com/numinous-technology/open-ultra",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T15:26:10+00:00",
+      "author": "joshkolo",
+      "engagement": 2,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "training"
+      ],
+      "summary": "Open-ultra: a self-training LLM routing proxy"
+    },
     {
       "title": "New upper bound for Bellman's Lost-in-a-forest problem, found with Fable",
       "url": "https://twitter.com/AryehDubois/status/2079561197460889703",
@@ -72,7 +220,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-21T15:21:04+00:00",
       "author": "atemerev",
-      "engagement": 1,
+      "engagement": 2,
       "category": "产业动态",
       "relevance_score": 51,
       "tags": [],
@@ -188,7 +336,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-21T15:16:20+00:00",
       "author": "sirily11",
-      "engagement": 1,
+      "engagement": 2,
       "category": "产品应用",
       "relevance_score": 54,
       "tags": [
@@ -296,7 +444,7 @@
         "market",
         "cloud"
       ],
-      "summary": "The link is to the live public demo, but more general info is at https://seasondfs.com . Season DFS blends traditional fantasy football leagues with the DFS (daily fantasy sports) fantasy format. There isn't wide support in the market to run leagues like this and the ones that do have it as a secondary focus, so I made"
+      "summary": "Of course I put the wrong link in. The link was supposed to be https://demo.seasondfs.com - the public demo, but more general info is at https://seasondfs.com . Season DFS blends traditional fantasy football leagues with the DFS (daily fantasy sports) fantasy format. There isn't wide support in the market to run league"
     },
     {
       "title": "Domain registration information should be transparent",
@@ -339,6 +487,30 @@
         "agent"
       ],
       "summary": "Show HN: Genesys – causal-graph memory for AI agents, open source"
+    },
+    {
+      "title": "I benchmarked Unsloth's Qwen3.6-27B NVFP4 on 1x/2x 5090s. MTP is great until it really isn't.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2l1zi/i_benchmarked_unsloths_qwen3627b_nvfp4_on_1x2x/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T15:04:39+00:00",
+      "author": "u/luke_pacman",
+      "reddit_community": "LocalLLaMA",
+      "category": "技术研究",
+      "relevance_score": 88,
+      "tags": [
+        "model",
+        "benchmark",
+        "dataset",
+        "agent",
+        "reasoning",
+        "gpu",
+        "launch",
+        "release",
+        "product",
+        "app"
+      ],
+      "summary": "I've been using the GGUF version of Qwen3.6-27B for a while, so when Unsloth released an NVFP4 version I wanted to see what it could do in vLLM. Just to avoid confusion: this is Unsloth's Qwen3.6-27B NVFP4 release, not NVIDIA's separate NVFP4 release. The main thing I wanted to figure out was how to set num_speculative"
     },
     {
       "title": "Show HN: The First Open Source Diffusion ASR Audio Model 15x Faster Than Whisper",
@@ -384,6 +556,25 @@
       "summary": "An OpenAI-compatible API generator backed by Cloudflare Workers AI — chat, speech, vision, embeddings — deployed to your account in one click and with a testing dashboard. No login, just need a Cloudflare account and a single-use CF token to deploy. I'm a big fan of testing the latest models deployed on Cloudflare, and"
     },
     {
+      "title": "I think most companies start in the wrong place when building a chatbot",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2l0nb/i_think_most_companies_start_in_the_wrong_place/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T15:03:20+00:00",
+      "author": "u/recro69",
+      "reddit_community": "LocalLLaMA",
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "model",
+        "open source",
+        "product",
+        "app",
+        "company"
+      ],
+      "summary": "A small company asked me how to build a business chatbot. They were comparing OpenAI and Claude, Open source, LangGraph vs n8n, and trying to figure out if they needed RAG. I think they were asking the question. The question I ask is: Does the answer need to come from the company's documents (pricing, policies, edges c"
+    },
+    {
       "title": "Show HN: Neverclick – Keyboard-driven mouse control using local computer vision",
       "url": "https://www.neverclick.com/",
       "source": "Hacker News",
@@ -400,6 +591,23 @@
         "act"
       ],
       "summary": "Hello, Neverclick is a desktop application that I created when I was suffering from RSI. It uses local computer vision to detect clickable UI elements on your screen so that you can use your keyboard to perform mouse actions. Most software in this space relies on accessibility APIs but Neverclick uses computer vision. "
+    },
+    {
+      "title": "Anthropic claims local models are stealing from it, meanwhile it pays $1.5B for theft",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ky1e/anthropic_claims_local_models_are_stealing_from/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T15:00:56+00:00",
+      "author": "u/Terminator857",
+      "reddit_community": "LocalLLaMA",
+      "category": "政策治理",
+      "relevance_score": 60,
+      "tags": [
+        "model",
+        "law",
+        "copyright"
+      ],
+      "summary": "$1.5 billion settlement largest known payout in U.S. copyright case Case part of a wave of lawsuits from copyright holders against AI companies Some authors and publishers opted out and continue separate ​cases against Anthropic submitted by /u/Terminator857 [link] [comments]"
     },
     {
       "title": "Free browser-based tools – no account, no server uploads, all local",
@@ -432,23 +640,6 @@
         "market"
       ],
       "summary": "Prediction markets: You're always betting against the house"
-    },
-    {
-      "title": "Google launches a cheaper alternative to large AI security models like Mythos",
-      "url": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
-      "source": "The Verge AI",
-      "source_type": "RSS",
-      "published_at": "2026-07-21T15:00:00+00:00",
-      "language": "en",
-      "category": "技术研究",
-      "relevance_score": 69,
-      "tags": [
-        "model",
-        "agent",
-        "launch",
-        "partner"
-      ],
-      "summary": "Google is launching an AI security model dedicated to quickly finding and patching security vulnerabilities. In a blog post on Tuesday , Google describes Gemini 3.5 Flash Cyber as a \"cost-efficient and highly capable alternative\" to larger, more expensive AI systems, such as the one offered by Anthropic's Mythos. The n"
     },
     {
       "title": "Show HN: Weight Scope, watch and modify training of Deep Nets in real-time [video]",
@@ -595,7 +786,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-21T14:42:51+00:00",
       "author": "campuscodi",
-      "engagement": 1,
+      "engagement": 2,
       "category": "技术研究",
       "relevance_score": 48,
       "tags": [
@@ -672,6 +863,21 @@
         "paper"
       ],
       "summary": "人工智能规则全球对话与协同发展论坛成功举办 thepaper.cn"
+    },
+    {
+      "title": "mindlab-research/Macaron-V1-Venti • HuggingFace",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2k5hv/mindlabresearchmacaronv1venti_huggingface/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T14:31:36+00:00",
+      "author": "u/External_Mood4719",
+      "reddit_community": "LocalLLaMA",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "research"
+      ],
+      "summary": "https://preview.redd.it/67lb9m0pfleh1.jpg?width=2048&format=pjpg&auto=webp&s=9cebf34a2b3b98815fe3aa525ebe412eedcf225f https://huggingface.co/mindlab-research/Macaron-V1-Venti https://macaron.im/zh/mindlab/research/introducing-macaron-v1 submitted by /u/External_Mood4719 [link] [comments]"
     },
     {
       "title": "端侧大模型成了刚需，芯片准备好了吗？|2026世界人工智能大会|终端设备|GPU|Agent|推理_手机新浪网 - 新浪财经",
@@ -775,50 +981,6 @@
       "summary": "Are 128-bit symmetric keys secure against quantum computers?"
     },
     {
-      "title": "AI Is ThoughtWare, Not Software: The End of Thinking as We Know It",
-      "url": "https://shrsv.hexmos.com/post/ai-is-thoughtware",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:26:47+00:00",
-      "author": "atomicnature",
-      "engagement": 3,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "AI Is ThoughtWare, Not Software: The End of Thinking as We Know It"
-    },
-    {
-      "title": "Ask HN: Are LLMs replacing open-source ecosystems for personal project codes?",
-      "url": "https://news.ycombinator.com/item?id=48992797",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:26:32+00:00",
-      "author": "malteg",
-      "engagement": 1,
-      "category": "技术研究",
-      "relevance_score": 57,
-      "tags": [
-        "research",
-        "release"
-      ],
-      "summary": "It's now easier to prompt an AI for a specific problem and later release the code on git, without thinking or researching a bigger goal that there could be an existing project where my contribution would be much more meaningful and sustainable... How could this fragmentation be saved in favor of existing projects?"
-    },
-    {
-      "title": "Show HN: Rowset – An open-source back end for AI agents",
-      "url": "https://github.com/LVTD-LLC/rowset",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:24:49+00:00",
-      "author": "rasulkireev",
-      "engagement": 1,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "Show HN: Rowset – An open-source back end for AI agents"
-    },
-    {
       "title": "AI开始自主攻击AI生态？Hugging Face事件揭开智能体安全新挑战 - PANews",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55VUQ2LW94M0Y3eWVxaWcweEFBYnBTMDFUMGEzcXpHc0pNcWo1d0hwYldpZHR6dW1mT2s1Q2h5VzdHLTlwS2dfU2JQa20xWFhZV0NjM2phYXNmR0tKYUo0Qk9aNm12blpRSHJTMXB3VE1wVWg1OVpHYnQxbl9OcjQ?oc=5",
       "source": "中文AI技术开源",
@@ -833,36 +995,6 @@
         "生态"
       ],
       "summary": "AI开始自主攻击AI生态？Hugging Face事件揭开智能体安全新挑战 PANews"
-    },
-    {
-      "title": "Study Claiming AI Helps Students Learn Retracted",
-      "url": "https://www.plagiarismtoday.com/2026/07/15/study-claiming-ai-helps-students-learn-retracted/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:22:02+00:00",
-      "author": "speckx",
-      "engagement": 3,
-      "category": "政策治理",
-      "relevance_score": 48,
-      "tags": [
-        "act"
-      ],
-      "summary": "Study Claiming AI Helps Students Learn Retracted"
-    },
-    {
-      "title": "Gemini 3.6 Flash released on AIStudio",
-      "url": "https://aistudio.google.com/welcome",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:20:52+00:00",
-      "author": "Topfi",
-      "engagement": 7,
-      "category": "产品应用",
-      "relevance_score": 54,
-      "tags": [
-        "release"
-      ],
-      "summary": "Gemini 3.6 Flash released on AIStudio"
     },
     {
       "title": "倒计时1天！《人工智能 智能体互联》系列国家标准应用推广专题会 - 智源社区",
@@ -881,68 +1013,43 @@
       "summary": "倒计时1天！《人工智能 智能体互联》系列国家标准应用推广专题会 智源社区"
     },
     {
-      "title": "Show HN: A Scrabble-like word game for learning Spanish vocabulary",
-      "url": "https://spanish.tilebo.app/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:18:30+00:00",
-      "author": "HikesALot",
-      "engagement": 3,
-      "category": "产品应用",
-      "relevance_score": 54,
-      "tags": [
-        "launch",
-        "feature",
-        "app"
-      ],
-      "summary": "I built this game after a 2 week trip to spain. It's for learning Spanish vocab, not for competitive playing. I plan to keep this MVP version free and without registration, then add some pay features (audio pronunciation and a review deck). Any advice on launching a new web app will be appreciated. Is it important to m"
-    },
-    {
-      "title": "TSMC to raise chipmaking prices by up to 10% from 2027",
-      "url": "https://asia.nikkei.com/business/technology/exclusive-tsmc-to-raise-chipmaking-prices-by-up-to-10-from-2027",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:15:21+00:00",
-      "author": "baal80spam",
-      "engagement": 2,
+      "title": "China consulted major tech firms and start-ups including Alibaba, ByteDance, and Zhipu about restricting foreign users from downloading open-weight model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2jf94/china_consulted_major_tech_firms_and_startups/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T14:04:51+00:00",
+      "author": "u/Stannis_Loyalist",
+      "reddit_community": "LocalLLaMA",
       "category": "技术研究",
-      "relevance_score": 48,
+      "relevance_score": 82,
       "tags": [
-        "chip"
+        "acquisition",
+        "model",
+        "training",
+        "api",
+        "agent",
+        "app",
+        "platform",
+        "act",
+        "cloud"
       ],
-      "summary": "TSMC to raise chipmaking prices by up to 10% from 2027"
+      "summary": "Reported by Financial Time and Reuters that a meeting between Chinese regulators and tech companies happened very recently. It is long, I am only going to mention the relevant parts. Proposals by China Regulators have held consultations with major tech firms and AI startups including Alibaba, ByteDance, and Zhipu about"
     },
     {
-      "title": "AI Agents Should Propose Infrastructure, Not Mutate It",
-      "url": "https://devgeist.com/blog/ai-infra-mutation/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:12:16+00:00",
-      "author": "VMyroslav",
-      "engagement": 1,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "AI Agents Should Propose Infrastructure, Not Mutate It"
-    },
-    {
-      "title": "What kind of iOS app do you wish existed?",
-      "url": "https://news.ycombinator.com/item?id=48992608",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:11:20+00:00",
-      "author": "Andrew_Huynh",
-      "engagement": 1,
+      "title": "Does AI make people dumber, or free up mental bandwidth?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2ja8o/does_ai_make_people_dumber_or_free_up_mental/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T13:59:50+00:00",
+      "author": "u/Foxtor",
+      "reddit_community": "LocalLLaMA",
       "category": "产品应用",
-      "relevance_score": 54,
+      "relevance_score": 51,
       "tags": [
-        "research",
-        "feature",
-        "app"
+        "product",
+        "act"
       ],
-      "summary": "I'm doing some research before building a new iOS app. I'd love to hear about problems you face in your daily life or work that you think an app could solve. What features would make you download and use it regularly?"
+      "summary": "Hey guys, I’m from Brazil, and over here I’ve noticed a lot of people are reluctant to use AI because they’re terrified it will \"make them lazy\" or cause them to stop thinking for themselves. Personally, I feel like I’m thinking more now than I ever did before AI existed. By automating all the tedious, repetitive tasks"
     },
     {
       "title": "NeurIPS 2026 reviews exact timing[D]",
@@ -1111,19 +1218,53 @@
       "summary": "视频丨在世界人工智能大会 探寻人形机器人的“下一站”→ 国际在线"
     },
     {
-      "title": "Halliday’s latest smart glasses feature a much-improved display",
-      "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
-      "source": "The Verge AI",
-      "source_type": "RSS",
-      "published_at": "2026-07-21T13:00:00+00:00",
-      "language": "en",
-      "category": "产品应用",
-      "relevance_score": 51,
+      "title": "There is no need to worry about Trump banning China‘s open source model at all.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2huar/there_is_no_need_to_worry_about_trump_banning/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T13:03:12+00:00",
+      "author": "u/Reasonable-Impact789",
+      "reddit_community": "LocalLLaMA",
+      "category": "技术研究",
+      "relevance_score": 60,
       "tags": [
-        "feature",
-        "app"
+        "model",
+        "open source",
+        "act",
+        "partner",
+        "market"
       ],
-      "summary": "I was not a fan of the original Halliday glasses. The Gen 2 are better. | Image: Halliday I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, and my 30-minute demo left me with achy "
+      "summary": "I’ve seen many people worrying that if Trump moves to block Chinese AI models, aggregators like OpenRouter will no longer be able to host them. As someone from China, let me reassure you: there is really no need for such concern. China has been locked in trade conflicts with Trump for years. Nobody understands better t"
+    },
+    {
+      "title": "US, China to hold AI talks in September, sources say",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2hlhm/us_china_to_hold_ai_talks_in_september_sources_say/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T12:53:20+00:00",
+      "author": "u/External_Mood4719",
+      "reddit_community": "LocalLLaMA",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "https://www.reuters.com/world/china/us-china-hold-ai-talks-september-sources-say-2026-07-21/ https://www.cnbc.com/2026/07/21/us-china-ai-talks-bessent.html submitted by /u/External_Mood4719 [link] [comments]"
+    },
+    {
+      "title": "Models to get before any political disruption",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2hiyf/models_to_get_before_any_political_disruption/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T12:50:16+00:00",
+      "author": "u/200206487",
+      "reddit_community": "LocalLLaMA",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "model",
+        "agent",
+        "act"
+      ],
+      "summary": "What are the actually good models to download for systems up to 256GB of unified ram? Some are good for creative, others for coding, agentic, general chat, etc. Qwen3.5/6 Gemma 4 Hy3 Mimo 2.5 Flash Minimax M3 DS4 Flash Mistral Medium 128B Step3.7 Flash GLM5.2 IQ2 All in GGUF/MLX, between IQ2-Q9 What else? I didn't add "
     },
     {
       "title": "润和软件发布“全维度金融行业本体体系”，构建金融AI时代的新基础设施 - 同花顺",
@@ -1152,20 +1293,6 @@
         "模型"
       ],
       "summary": "重构工业AI底层逻辑 管网世界模型实现物理状态可交互推演 中国科技网"
-    },
-    {
-      "title": "加快建设人工智能发展和治理创新高地 聚力谱写现代化人民城市建设新篇章 - shobserver.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGptbTl2SmxycW1ma0lMWHBONDlfSHlCN3I1aW9UZXBoRFlMMDRvLVJiTFg2ZU9jSEMwaDcyTVRpYXo2d0toaVRFa29SS1dPRkN2YVlNc0JPWW4xRXdOVVp5dGFtQ2RrUy13bzFXZzlLbFY4eEVyekpBOHU2Zlh4MFNWNlBlODU3MkRLOGlndUhyQXBYS2ZlbFB5WF9QNXp0anJUQUlOS2duaUk?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T12:40:23+00:00",
-      "language": "zh",
-      "category": "政策治理",
-      "relevance_score": 54,
-      "tags": [
-        "治理"
-      ],
-      "summary": "加快建设人工智能发展和治理创新高地 聚力谱写现代化人民城市建设新篇章 shobserver.com"
     },
     {
       "title": "AI手机来了！谁来为它的“大脑”买单？ - 手机网易网",
@@ -1266,6 +1393,19 @@
       "summary": "中国AI大模型在西方广受认可 瑞银：应关注这些核心问题 财新"
     },
     {
+      "title": "Mistral is a Fish - It always swim against current",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2gqnf/mistral_is_a_fish_it_always_swim_against_current/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T12:16:23+00:00",
+      "author": "u/VolkoTheWorst",
+      "reddit_community": "LocalLLaMA",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "submitted by /u/VolkoTheWorst [link] [comments]"
+    },
+    {
       "title": "苏州正式设立人工智能发展办公室 - 观点网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOc2tDQXFvclBsTEtheVVUMmMzQlFSZ20yTE5KZV8wd2hkZElqcnR2bVJVc19zUnp5czJwdzA5VDlyRU9xNUpSSGhjUENadGJ4R0FQbXBrZDhYQ1FsT2VRT0tB?oc=5",
       "source": "中文AI新闻聚合",
@@ -1304,6 +1444,25 @@
         "智能体"
       ],
       "summary": "WAIC观察丨AI走出屏幕，智能体与Token同时爆发 新京报"
+    },
+    {
+      "title": "Torrents arrived",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v2glcx/torrents_arrived/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-07-21T12:10:03+00:00",
+      "author": "u/de4dee",
+      "reddit_community": "LocalLLaMA",
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "model",
+        "open source",
+        "github",
+        "api",
+        "act"
+      ],
+      "summary": "I've been working on this project that makes LLM distributions decentralized and fast using torrents. Read more about tech on Github . Website: https://llama.garden Suggested client: Transmission News: - Added more web seed URLs that go through our API that will increase speeds thanks to HTTP being faster than UDP. Thi"
     },
     {
       "title": "下半年，北京将布局建设Token工厂 - 新京报",
@@ -1381,7 +1540,7 @@
       "published_at": "2026-07-21T11:30:11+00:00",
       "language": "zh",
       "category": "技术研究",
-      "relevance_score": 63,
+      "relevance_score": 62,
       "tags": [
         "模型",
         "大模型",
@@ -1404,27 +1563,6 @@
         "安全"
       ],
       "summary": "GitLab 19.2让AI智能体处理安全积压，破解AI编码审查瓶颈 手机网易网"
-    },
-    {
-      "title": "America needs to stop getting shocked by Chinese AI",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment",
-      "source": "The Verge AI",
-      "source_type": "RSS",
-      "published_at": "2026-07-21T11:08:56+00:00",
-      "language": "en",
-      "category": "产业动态",
-      "relevance_score": 86,
-      "tags": [
-        "stock",
-        "model",
-        "chip",
-        "feature",
-        "policy",
-        "industry",
-        "market",
-        "data center"
-      ],
-      "summary": "People visit the booth of Kimi, an LLM developed by the Chinese startup Moonshot, during the World AI Conference in Shanghai, China, Monday, July 20, 2026. | Image: LONG WEI/ Feature China/Future Publishing via Getty Images Last week, two Chinese AI companies unveiled models they say can credibly compete with the best "
     },
     {
       "title": "阴和俊主持召开人工智能全球治理高级别会议 - 中华人民共和国科学技术部",
@@ -1600,6 +1738,18 @@
       "summary": "涨停潮来了！人工智能，关键转折！ 金融界"
     },
     {
+      "title": "WAIC 追问 | 让AI辅助管理者做决策，中科闻歌的把握有多大 - DoNews",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NZ0FWZWhObDlISlVPOHdEUVhVbjM4ejFicUpTZFM5VENHekNXUHJTdE4ydDdFUGx6UlBVbWZsWGNfVEIwOEo5REdnS1Zlb25Zd1ZndTFBR29uR1hhU1E?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T09:53:57+00:00",
+      "language": "zh",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [],
+      "summary": "WAIC 追问 | 让AI辅助管理者做决策，中科闻歌的把握有多大 DoNews"
+    },
+    {
       "title": "瀚高股份亮相2026世界人工智能大会（WAIC），以智能基座平台HigoBase加速AI 规模化创新 - 美通社",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPdG12TVlpZ08wTTMtQ1FCTFVFNXE0VlhCY0poWUhZdUlJQUo4bGRjcXpQXzZ5VHZZU0FqRFZIbkRvM2lOMXZNdTgtQmJnOWpiY0FKM0tYZw?oc=5",
       "source": "中文AI新闻聚合",
@@ -1641,22 +1791,6 @@
         "生态"
       ],
       "summary": "塔上孕育AI新生态，中国铁塔以全域数字新基建赋能千行百业 shobserver.com"
-    },
-    {
-      "title": "不止于大模型，更在于真闭环：上海精智发布“沃土”， 定义“工厂原生AI”新范式 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OZzljWktZc0cwNDN2QXFCdmIzY1NyeDQtcTE3TE1oMmJ6dHNZblNYczRBMlB5aUlRX251T2UydmNCcmhOS0ZNcXBrd00zT2hhWVMzaFo1bWtxcG1nTll4VUlja01Edw?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-21T09:30:26+00:00",
-      "language": "zh",
-      "category": "技术研究",
-      "relevance_score": 59,
-      "tags": [
-        "模型",
-        "大模型",
-        "发布"
-      ],
-      "summary": "不止于大模型，更在于真闭环：上海精智发布“沃土”， 定义“工厂原生AI”新范式 东方财富"
     },
     {
       "title": "WAIC重磅成果｜上海市教育算力专区正式开启试运行",
@@ -1924,6 +2058,21 @@
       "relevance_score": 50,
       "tags": [],
       "summary": "【讲习所·中国与世界】“人工智能是全人类共同的智慧结晶和宝贵财富” China Daily"
+    },
+    {
+      "title": "贝佐斯与英国政府联手投资20亿英镑AI材料初创公司CuspAI - 搜狐网",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDQ4SWwtMy1KbTEtMzZrckRVYXNwLUEtSGZObDBvakllSVlhWjgyMVJuMEtyLVo2N2Jzay1IRUMxckJKMnkyV1NVanVjZk1lSnFXZkhwV2NRSno2dXZNWEVZRkotSDJaZlFKcVRSSVlwaEhOM2ltSks0VVRZc0s1b04wQ3p0X3A0?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T07:34:00+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 49,
+      "tags": [
+        "投资",
+        "公司"
+      ],
+      "summary": "贝佐斯与英国政府联手投资20亿英镑AI材料初创公司CuspAI 搜狐网"
     },
     {
       "title": "Reproducing OpenAI’s “persistently beneficial models” - GRPO trait install barely moves. Ideas? [P] [R]",
@@ -2217,6 +2366,21 @@
       "summary": "每天3万步！创投人不看模型参数，看AI能否进入真实场景 新浪财经"
     },
     {
+      "title": "WAIC链合π圆桌会落幕：算力底座、医疗 AI、具身智能多维落地，AI 迈入商业化黄金周期 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhSjg3TmVtR1l0Nmljam5ib1dVN0FLTEZ5TGdyZnotZjREZFNrSGhJU1JPWHBSX3Mtbk5leFFtcVhvbDc3VTJtanN0ZDBXaTZqckhDQkZYZVdPQmdfNFNVWg?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-21T01:27:22+00:00",
+      "language": "zh",
+      "category": "投资商业",
+      "relevance_score": 48,
+      "tags": [
+        "商业化",
+        "落地"
+      ],
+      "summary": "WAIC链合π圆桌会落幕：算力底座、医疗 AI、具身智能多维落地，AI 迈入商业化黄金周期 东方财富"
+    },
+    {
       "title": "300余款新品首发 AI盛会“剧透”产业新图景 - 新华网上海频道",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRko2MFRoZzBhQXRmUE1NZDNmMVNiTHhMTDZVV3VRU3lOT0pnSFpNNHYzdkprZm5vd3A5WHZ3cG11VnNUWTduUHpZOENydjJoYjZ3RUFKVXoxcWhqNEZUbHhKZXctZGRHbzlHMUhlM3duck1HU2w4Z3ZTTU5ELUVucWtR?oc=5",
       "source": "中文AI新闻聚合",
@@ -2427,7 +2591,7 @@
       "published_at": "2026-07-20T19:33:25+00:00",
       "language": "en",
       "category": "技术研究",
-      "relevance_score": 56,
+      "relevance_score": 55,
       "tags": [
         "model"
       ],
@@ -3924,7 +4088,7 @@
       "published_at": "2026-07-19T19:24:45+00:00",
       "language": "en",
       "category": "产品应用",
-      "relevance_score": 47,
+      "relevance_score": 46,
       "tags": [
         "app",
         "law"
@@ -4182,7 +4346,7 @@
     },
     {
       "title": "AI创企Etched洽谈融资投后估值目标200亿美元|AI芯片|红杉资本|英伟达|圣何塞|硅谷_手机新浪网 - 新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNMXFXdjh5VklEUEtLek9WQ0V1YU5pbzR3bnFJcWh4Q3BXT2dwNGgyVVNuZG1FNm9PT25hX2hBMUFyWmRzNWUtRmVLd0o2enN1dFQ0T0IxVlhmWURIQ0Q2NV9QNk5fV0N5VXFoYXJEZmNnUms2c01sdkU4dG95YWx0Z21jdVBqLVZnM25YVHh5a05ScnJlR1pBazZ2Q3pGY29ENVljZ2xITXh1MjFBdktNOE5sd0t2QkdiaG5yWXo5VnFaUDJtUGZ6elNFNk83b1phTEdEWjZXbDNMTHVQTTQ3dlZ4NDRPcGxlYV9iUHhzQ2hXSzg3TTc3SldsREVUaUowU3hrX0g3Zm0tRnM5Zk5pOFpVSjBjRHg3OFgxV1NWMTI4LUI0YnNXejVR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPOExrQ0VkSHZOZEZJRHZDZWY5ZFhnOVZMTW1jQ05SalhQTVI3YWNBUEU3aUgtQ3VGOUxyUmZQdXJkZU9UVzVwbVgwMEFwcnpQX0Qyb28tQmJIYjhKLU9RSWZKMnR5TEs5WVc0ZlFBWDJOSkRBeU9rWmRhckhZYTVhNm9zcE5IdGJFbUxGSjg3N3NxYlVSdWstMTJobWdxY09HOHQ5U1ZGSl9GMFVKaHhqNV8wN0FaMHQtMWcxTmlSdHZlX0RNWFdxRUk4VVNST29GMW1RSVJlY1RXeHhrempPdXU3RjVJRnZsaEdYblJTMWItVEN5ZVo1TWE0akt1V3l5RUNGSkZvTXVKRzM2RzRTMFBNUFBnU2s2bWxnZmlobU1BYWlhMDFFaGxycnlWd2h5Mk9pcFc3alEzaXNOaWI0c3l4SQ?oc=5",
       "source": "中文AI投资融资",
       "source_type": "国内资讯",
       "published_at": "2026-07-18T07:00:00+00:00",
@@ -4290,6 +4454,21 @@
       "summary": "Agility is opening a new training center for its Digit robots in Fremont, California."
     },
     {
+      "title": "TikTok is testing an AI likeness detection tool",
+      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "source": "The Verge AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-17T19:34:30+00:00",
+      "language": "en",
+      "category": "产品应用",
+      "relevance_score": 29,
+      "tags": [
+        "tool",
+        "company"
+      ],
+      "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra . The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge . YouTube has been working on a simil"
+    },
+    {
       "title": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 - 新华网",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVpYbldzanFQQk0ydFZOLWpZUG1QZ0RoUEFKaHROdDN0YjVyakNGTkhjSDMwR0FEcUpucGwza0JfOFJtLTNLaS1BMkc5RVhxaGUwQ3FyS1Z0RldFQ0tTeUl4eXh0czRERXpiQTN0SS1HNFhtWEU2cUhWSTFTM1MyU2FOTU1kcm11d1VOcEVR?oc=5",
       "source": "中文AI新闻聚合",
@@ -4302,6 +4481,22 @@
         "治理"
       ],
       "summary": "习近平主席出席2026世界人工智能大会暨人工智能全球治理高级别会议开幕式并发表主旨讲话侧记 新华网"
+    },
+    {
+      "title": "Apple’s plot to crush OpenAI",
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "source": "The Verge AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-17T17:41:32+00:00",
+      "language": "en",
+      "category": "技术研究",
+      "relevance_score": 37,
+      "tags": [
+        "api",
+        "app",
+        "law"
+      ],
+      "summary": "Apple is suing OpenAI . The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done . So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The Vergecast , Nilay and"
     },
     {
       "title": "近镜头｜共奏人工智能发展全球合作的交响 - 新华网",
@@ -4531,6 +4726,23 @@
         "tool"
       ],
       "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identity, and most agents still share credentials;"
+    },
+    {
+      "title": "New York governor says she’s using AI to analyze ‘every single rule’ in the state",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+      "source": "The Verge AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-16T17:58:37+00:00",
+      "language": "en",
+      "category": "政策治理",
+      "relevance_score": 32,
+      "tags": [
+        "regulation",
+        "policy",
+        "law",
+        "data center"
+      ],
+      "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg 's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for "
     },
     {
       "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
@@ -6755,22 +6967,6 @@
         "act"
       ],
       "summary": "It seems like the latest hotness in git these days is the concept of worktrees. Which… is kind of funny because they’ve been around since 2015. But, nevertheless, they are cool, and you might be wondering why you’d use them, how they differ from branches, and why they are suddenly so popular. Let’s talk about it! Conte"
-    },
-    {
-      "title": "DeepSeek首次融资落地：募集超500亿，估值超3300亿元 - 华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MX1dnazliRHJIVDdDQ2N4VXhleUNLOWFFemVLVEsxN2lGMURfZ0RqbUdmbjBJd1cxMHctSWRiYktkSW9BVzlIdW1TTV83MHdvcHZv?oc=5",
-      "source": "中文AI投资融资",
-      "source_type": "国内资讯",
-      "published_at": "2026-06-16T07:00:00+00:00",
-      "language": "zh",
-      "category": "投资商业",
-      "relevance_score": 35,
-      "tags": [
-        "融资",
-        "估值",
-        "落地"
-      ],
-      "summary": "DeepSeek首次融资落地：募集超500亿，估值超3300亿元 华尔街见闻"
     },
     {
       "title": "200+AI专家集结北京，共议世界模型、智能体、具身智能等话题，这届智源大会释放什么信号？_投促活动 - 北京市投资促进服务中心",
