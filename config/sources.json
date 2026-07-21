@@ -49,6 +49,11 @@
     "enabled": false,
     "mode": "free_search_only"
   },
+  "domestic_platforms": {
+    "wechat_urls_file": "config/wechat_urls.txt",
+    "xiaohongshu_urls_file": "config/xiaohongshu_urls.txt",
+    "douyin_urls_file": "config/douyin_urls.txt"
+  },
   "rss": [
     {
       "name": "OpenAI News",
@@ -109,17 +114,40 @@
     {
       "name": "机器之心",
       "url": "https://www.jiqizhixin.com/rss",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "language": "zh",
       "enabled": true
     },
     {
       "name": "量子位",
       "url": "https://www.qbitai.com/feed",
-      "source_type": "RSS",
+      "source_type": "国内资讯",
       "language": "zh",
       "enabled": true
+    },
+    {
+      "name": "中文AI新闻聚合",
+      "url": "https://news.google.com/rss/search?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20OR%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%20OR%20AIGC%20OR%20DeepSeek&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "国内资讯",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 80
+    },
+    {
+      "name": "中文AI投资融资",
+      "url": "https://news.google.com/rss/search?q=AI%20%E8%9E%8D%E8%B5%84%20OR%20%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%20%E6%8A%95%E8%B5%84%20OR%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%20%E4%BC%B0%E5%80%BC&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "国内资讯",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 60
+    },
+    {
+      "name": "中文AI技术开源",
+      "url": "https://news.google.com/rss/search?q=AI%20%E5%BC%80%E6%BA%90%20OR%20%E5%A4%A7%E6%A8%A1%E5%9E%8B%20%E5%8F%91%E5%B8%83%20OR%20AI%20%E8%8A%AF%E7%89%87%20OR%20%E6%99%BA%E8%83%BD%E4%BD%93&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "国内资讯",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 60
     }
-  ],
-  "wechat_urls_file": "config/wechat_urls.txt"
+  ]
 }
