@@ -1,20 +1,3352 @@
 {
-  "updated_at": "2026-07-21T12:00:00Z",
+  "updated_at": "2026-07-21T12:31:50.192896+00:00",
+  "count": 239,
+  "errors": [],
   "articles": [
     {
-      "title": "AI情报雷达网页端部署完成示例",
-      "url": "#",
-      "source": "系统",
+      "title": "AI is more likely than humans to form biases when hiring",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "source": "MIT Technology Review AI",
       "source_type": "RSS",
-      "published_at": "2026-07-21T12:00:00Z",
-      "category": "产品应用",
-      "relevance_score": 90,
-      "summary": "部署到GitHub Pages后，GitHub Actions将定时抓取并更新AI资讯。",
+      "published_at": "2026-07-20T08:39:01+00:00",
+      "category": "技术研究",
+      "relevance_score": 94,
       "tags": [
-        "网页端",
-        "自动化",
-        "AI资讯"
-      ]
+        "model",
+        "paper",
+        "research",
+        "training",
+        "agent",
+        "reasoning",
+        "feature",
+        "app",
+        "law",
+        "act"
+      ],
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests"
+    },
+    {
+      "title": "China’s AI models have Trump’s AI world at war with itself",
+      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-20T18:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 84,
+      "tags": [
+        "stock",
+        "model",
+        "open source",
+        "chip",
+        "launch",
+        "release",
+        "app",
+        "act",
+        "industry",
+        "company"
+      ],
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the coun"
+    },
+    {
+      "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+      "url": "https://arxiv.org/abs/2607.18171v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:12:28+00:00",
+      "category": "技术研究",
+      "relevance_score": 78,
+      "tags": [
+        "model",
+        "benchmark",
+        "inference",
+        "agent",
+        "multimodal",
+        "gpu",
+        "app",
+        "platform",
+        "act"
+      ],
+      "summary": "Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. "
+    },
+    {
+      "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
+      "url": "https://arxiv.org/abs/2607.18147v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:45:13+00:00",
+      "category": "技术研究",
+      "relevance_score": 77,
+      "tags": [
+        "valuation",
+        "model",
+        "paper",
+        "architecture",
+        "agent",
+        "app",
+        "tool",
+        "act"
+      ],
+      "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control,"
+    },
+    {
+      "title": "Advancing next-gen AI with materials science innovation",
+      "url": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-21T10:37:34+00:00",
+      "category": "技术研究",
+      "relevance_score": 76,
+      "tags": [
+        "invest",
+        "investment",
+        "research",
+        "architecture",
+        "api",
+        "chip",
+        "app",
+        "tool",
+        "platform",
+        "act"
+      ],
+      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advance"
+    },
+    {
+      "title": "Show HN: ChatPanel, A Privacy-first AI Agent browser side panel",
+      "url": "https://chatpanel.net/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:56:19+00:00",
+      "category": "技术研究",
+      "relevance_score": 75,
+      "tags": [
+        "model",
+        "open source",
+        "agent",
+        "feature",
+        "assistant",
+        "app",
+        "act",
+        "privacy"
+      ],
+      "summary": "I needed an AI agent that understands my work better (meetings, notes, chats and lives where I access the web) and gives me flexibility to use the model of choice. So, I built this and I am a 100x engineer now. A few features to highlight. - You bring your own"
+    },
+    {
+      "title": "Show HN: Competiflow – monitor competitor pricing, changelogs, blogs",
+      "url": "https://competiflow.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:15:35+00:00",
+      "category": "产品应用",
+      "relevance_score": 72,
+      "tags": [
+        "api",
+        "launch",
+        "product",
+        "feature",
+        "app",
+        "tool",
+        "act"
+      ],
+      "summary": "Hi, I'm the author. I run two small products I launched this year and as a daily task I was keeping an eye on my competitors. Two things that I was particularly curious about were: the new features they are launching and the content they are posting. I was ini"
+    },
+    {
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-09T20:22:28+00:00",
+      "category": "产品应用",
+      "relevance_score": 69,
+      "tags": [
+        "model",
+        "paper",
+        "research",
+        "release",
+        "app",
+        "tool",
+        "platform",
+        "act",
+        "company"
+      ],
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers"
+    },
+    {
+      "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
+      "url": "https://arxiv.org/abs/2607.18232v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:31+00:00",
+      "category": "技术研究",
+      "relevance_score": 68,
+      "tags": [
+        "model",
+        "benchmark",
+        "training",
+        "architecture",
+        "act"
+      ],
+      "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take lin"
+    },
+    {
+      "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+      "url": "https://arxiv.org/abs/2607.18149v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:49:30+00:00",
+      "category": "技术研究",
+      "relevance_score": 68,
+      "tags": [
+        "invest",
+        "model",
+        "dataset",
+        "inference",
+        "architecture",
+        "github",
+        "act"
+      ],
+      "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boole"
+    },
+    {
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-13T18:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 68,
+      "tags": [
+        "valuation",
+        "model",
+        "paper",
+        "research",
+        "app",
+        "tool",
+        "act",
+        "company"
+      ],
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publis"
+    },
+    {
+      "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
+      "url": "https://arxiv.org/abs/2607.18116v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:11:19+00:00",
+      "category": "技术研究",
+      "relevance_score": 67,
+      "tags": [
+        "model",
+        "benchmark",
+        "agent",
+        "app",
+        "act"
+      ],
+      "summary": "Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial correctness and visual legibility remains challenging, as existing frameworks emphasize pedagogic"
+    },
+    {
+      "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
+      "url": "https://arxiv.org/abs/2607.18114v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:10:06+00:00",
+      "category": "技术研究",
+      "relevance_score": 67,
+      "tags": [
+        "model",
+        "dataset",
+        "training",
+        "assistant",
+        "tool",
+        "law",
+        "act"
+      ],
+      "summary": "Modern LLMs are alarmingly susceptible to surprisingly simple immaterial changes of input prompts: a casual hint, an incorrectly labeled few-shot example, or a fake prior assistant turn often flips an originally correct answer. We study where this susceptibili"
+    },
+    {
+      "title": "Ask HN: Have you noticed convincing AI comments on Product Hunt?",
+      "url": "https://news.ycombinator.com/item?id=48991063",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:53:16+00:00",
+      "category": "产品应用",
+      "relevance_score": 66,
+      "tags": [
+        "launch",
+        "product",
+        "feature",
+        "tool",
+        "platform"
+      ],
+      "summary": "A few days ago, I launched my tool on Product Hunt for the first time. Although it didn't rank high, I received four comments and a few upvotes. I felt a small but genuine sense of accomplishment. Naturally, I replied to each comment with care. However, I late"
+    },
+    {
+      "title": "Ask HN: Will Anthropic or OpenAI start offering Chinese open source models?",
+      "url": "https://news.ycombinator.com/item?id=48990892",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:34:26+00:00",
+      "category": "技术研究",
+      "relevance_score": 66,
+      "tags": [
+        "model",
+        "open source",
+        "market"
+      ],
+      "summary": "Do you think there could exist a situation in the market where either Anthropic or OpenAI will offer chinese models for their clients?"
+    },
+    {
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "url": "https://arxiv.org/abs/2607.18236v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:59:41+00:00",
+      "category": "技术研究",
+      "relevance_score": 65,
+      "tags": [
+        "model",
+        "training",
+        "inference",
+        "github",
+        "robotics",
+        "feature",
+        "policy",
+        "act"
+      ],
+      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sa"
+    },
+    {
+      "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
+      "url": "https://arxiv.org/abs/2607.18199v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:38:38+00:00",
+      "category": "技术研究",
+      "relevance_score": 65,
+      "tags": [
+        "model",
+        "paper",
+        "training",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics,"
+    },
+    {
+      "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
+      "url": "https://arxiv.org/abs/2607.18163v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:07:40+00:00",
+      "category": "技术研究",
+      "relevance_score": 65,
+      "tags": [
+        "model",
+        "training",
+        "policy",
+        "act"
+      ],
+      "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful"
+    },
+    {
+      "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
+      "url": "https://arxiv.org/abs/2607.18144v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:43:54+00:00",
+      "category": "技术研究",
+      "relevance_score": 65,
+      "tags": [
+        "valuation",
+        "model",
+        "benchmark",
+        "api",
+        "app",
+        "act"
+      ],
+      "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule"
+    },
+    {
+      "title": "ClouDens: Operational Context-Aware Anomaly Detection for Large-scale Cloud System Monitoring",
+      "url": "https://arxiv.org/abs/2607.18127v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:20:26+00:00",
+      "category": "技术研究",
+      "relevance_score": 65,
+      "tags": [
+        "model",
+        "benchmark",
+        "dataset",
+        "api",
+        "release",
+        "feature",
+        "app",
+        "platform",
+        "act",
+        "cloud"
+      ],
+      "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. "
+    },
+    {
+      "title": "The risk of weather data sabotage is rising",
+      "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-17T08:57:32+00:00",
+      "category": "投资商业",
+      "relevance_score": 64,
+      "tags": [
+        "raised",
+        "invest",
+        "stock",
+        "model",
+        "research",
+        "agent",
+        "app",
+        "tool",
+        "act",
+        "partner"
+      ],
+      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major str"
+    },
+    {
+      "title": "Your family’s $300 stake in OpenAI",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-06T18:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 63,
+      "tags": [
+        "funding",
+        "valuation",
+        "ipo",
+        "model",
+        "app",
+        "policy",
+        "act",
+        "safety",
+        "market",
+        "company"
+      ],
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again la"
+    },
+    {
+      "title": "EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database",
+      "url": "https://arxiv.org/abs/2607.18187v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:26:21+00:00",
+      "category": "技术研究",
+      "relevance_score": 62,
+      "tags": [
+        "model",
+        "dataset",
+        "training",
+        "inference",
+        "github",
+        "feature",
+        "act"
+      ],
+      "summary": "Large-scale scientific simulations generate volumetric data at rates that far outpace advances in storage and network bandwidth, making effective lossy compression increasingly critical. However, conventional compressors often struggle to preserve fine structu"
+    },
+    {
+      "title": "VEHBench: A Stage-Local Diagnostic Benchmark for LLM-Assisted Vibration Energy Harvester Design",
+      "url": "https://arxiv.org/abs/2607.18181v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:17:05+00:00",
+      "category": "技术研究",
+      "relevance_score": 62,
+      "tags": [
+        "model",
+        "benchmark",
+        "dataset",
+        "policy",
+        "act"
+      ],
+      "summary": "Battery-free Internet of Things (IoT) requires iterative design of vibration energy harvesters (VEHs) under coupled physical constraints, while LLMs are emerging as interface layers for engineering workflows. However, existing engineering benchmarks primarily "
+    },
+    {
+      "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
+      "url": "https://arxiv.org/abs/2607.18142v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:36:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 62,
+      "tags": [
+        "dataset",
+        "training",
+        "inference",
+        "agent",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and events in an industrial process, which is crucial for modern manufacturing and quality control systems. Existing VLM-based anomaly reasoning methods are capable of detecting open-"
+    },
+    {
+      "title": "Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning",
+      "url": "https://arxiv.org/abs/2607.18130v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:24:17+00:00",
+      "category": "技术研究",
+      "relevance_score": 61,
+      "tags": [
+        "invest",
+        "model",
+        "benchmark",
+        "paper",
+        "training",
+        "app",
+        "act"
+      ],
+      "summary": "Most parameter-efficient finetuning (PEFT) methods adapt weights or activations, thus leaving one of the key Transformer components unchanged: residual connections. This paper investigates Manifold-Constrained Hyper-Connections (mHC), a generalisation of resid"
+    },
+    {
+      "title": "Nvidia Reveals 9 . 3 % Stake in AI Cloud Firm Nebius Following $2 Billion Investment",
+      "url": "http://www.econotimes.com/Nvidia-Reveals-93-Stake-in-AI-Cloud-Firm-Nebius-Following-2-Billion-Investment-1747254",
+      "source": "econotimes.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T06:45:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 59,
+      "tags": [
+        "invest",
+        "investment",
+        "cloud"
+      ],
+      "summary": "Nvidia Reveals 9 . 3 % Stake in AI Cloud Firm Nebius Following $2 Billion Investment"
+    },
+    {
+      "title": "The Many Senses of Visual Similarity: A Text-Prompted Image Perceptual Metric",
+      "url": "https://arxiv.org/abs/2607.18237v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:59:51+00:00",
+      "category": "技术研究",
+      "relevance_score": 59,
+      "tags": [
+        "valuation",
+        "model",
+        "benchmark",
+        "dataset",
+        "training",
+        "github"
+      ],
+      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to conditi"
+    },
+    {
+      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+      "url": "https://arxiv.org/abs/2607.18231v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:31+00:00",
+      "category": "技术研究",
+      "relevance_score": 59,
+      "tags": [
+        "model",
+        "inference",
+        "github",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches add"
+    },
+    {
+      "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
+      "url": "https://arxiv.org/abs/2607.18230v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:13+00:00",
+      "category": "技术研究",
+      "relevance_score": 59,
+      "tags": [
+        "model",
+        "training",
+        "github",
+        "act"
+      ],
+      "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies "
+    },
+    {
+      "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
+      "url": "https://arxiv.org/abs/2607.18218v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:52:33+00:00",
+      "category": "技术研究",
+      "relevance_score": 59,
+      "tags": [
+        "model",
+        "research",
+        "architecture",
+        "gpu",
+        "app",
+        "act"
+      ],
+      "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscap"
+    },
+    {
+      "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+      "url": "https://arxiv.org/abs/2607.18213v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:47:44+00:00",
+      "category": "技术研究",
+      "relevance_score": 59,
+      "tags": [
+        "benchmark",
+        "inference",
+        "agent",
+        "tool"
+      ],
+      "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal repre"
+    },
+    {
+      "title": "Anthropic Follows SpaceX Playbook , Claude - Parent Reportedly Pursuing Multibillion - Dollar Credit Lines Ahead of IPO",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-follows-spacex-playbook-claude-143101207.html",
+      "source": "finance.yahoo.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T02:15:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 58,
+      "tags": [
+        "ipo"
+      ],
+      "summary": "Anthropic Follows SpaceX Playbook , Claude - Parent Reportedly Pursuing Multibillion - Dollar Credit Lines Ahead of IPO"
+    },
+    {
+      "title": "Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds",
+      "url": "https://arxiv.org/abs/2607.18135v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:27:56+00:00",
+      "category": "产品应用",
+      "relevance_score": 58,
+      "tags": [
+        "training",
+        "app",
+        "tool",
+        "policy"
+      ],
+      "summary": "Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a hig"
+    },
+    {
+      "title": "LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks",
+      "url": "https://arxiv.org/abs/2607.18110v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:08:49+00:00",
+      "category": "技术研究",
+      "relevance_score": 58,
+      "tags": [
+        "valuation",
+        "model",
+        "training",
+        "policy"
+      ],
+      "summary": "Reinforcement learning (RL) on open-ended tasks compresses an LLM's rubric-based evaluation into a scalar reward, discarding rich textual feedback and conflating responses with distinct quality profiles. We propose Experiential Learning (EL), which repurposes "
+    },
+    {
+      "title": "Prediction markets favour Nvidia to stay on top despite Apple charge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-markets-favour-nvidia-stay-100100824.html",
+      "source": "finance.yahoo.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T11:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 57,
+      "tags": [
+        "app",
+        "market"
+      ],
+      "summary": "Prediction markets favour Nvidia to stay on top despite Apple charge"
+    },
+    {
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-15T17:09:37+00:00",
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "valuation",
+        "model",
+        "research",
+        "training",
+        "agent",
+        "release",
+        "app",
+        "act",
+        "safety",
+        "partner"
+      ],
+      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training"
+    },
+    {
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-07T11:10:52+00:00",
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "invest",
+        "investment",
+        "model",
+        "benchmark",
+        "research",
+        "dataset",
+        "architecture",
+        "api",
+        "agent",
+        "reasoning"
+      ],
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove"
+    },
+    {
+      "title": "Artificial intelligence : markets hit by new model",
+      "url": "https://www.abc.net.au/listen/programs/worldtoday/artificial-intelligence-markets-hit-by-new-model/106940132",
+      "source": "abc.net.au",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T06:30:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 56,
+      "tags": [
+        "model",
+        "market"
+      ],
+      "summary": "Artificial intelligence : markets hit by new model"
+    },
+    {
+      "title": "Automated Discovery Has No Universally Superior Harness",
+      "url": "https://arxiv.org/abs/2607.18235v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:59:37+00:00",
+      "category": "技术研究",
+      "relevance_score": 56,
+      "tags": [
+        "model",
+        "release",
+        "act"
+      ],
+      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation"
+    },
+    {
+      "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
+      "url": "https://arxiv.org/abs/2607.18228v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:58:05+00:00",
+      "category": "技术研究",
+      "relevance_score": 56,
+      "tags": [
+        "model",
+        "benchmark",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the beh"
+    },
+    {
+      "title": "Imitation of Arm Gestures by the Semi-Humanoid Robot NICO",
+      "url": "https://arxiv.org/abs/2607.18197v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:37:57+00:00",
+      "category": "技术研究",
+      "relevance_score": 56,
+      "tags": [
+        "model",
+        "api",
+        "feature",
+        "app",
+        "act"
+      ],
+      "summary": "Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this work, we de"
+    },
+    {
+      "title": "World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation",
+      "url": "https://arxiv.org/abs/2607.18154v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:52:58+00:00",
+      "category": "产品应用",
+      "relevance_score": 56,
+      "tags": [
+        "model",
+        "feature",
+        "platform",
+        "policy",
+        "act"
+      ],
+      "summary": "The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more reali"
+    },
+    {
+      "title": "Totally Positive Matrices and the Highest-Order Coefficients of the Characteristic Polynomial",
+      "url": "https://arxiv.org/abs/2607.18148v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:48:24+00:00",
+      "category": "产品应用",
+      "relevance_score": 56,
+      "tags": [
+        "invest",
+        "dataset",
+        "product",
+        "feature",
+        "act"
+      ],
+      "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together wi"
+    },
+    {
+      "title": "New Chinese AI model Kimi K3 challenges OpenAI and Anthropic",
+      "url": "https://www.techcentral.ie/new-chinese-ai-model-kimi-k3-challenges-openai-and-anthropic/",
+      "source": "techcentral.ie",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T13:30:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 55,
+      "tags": [
+        "model"
+      ],
+      "summary": "New Chinese AI model Kimi K3 challenges OpenAI and Anthropic"
+    },
+    {
+      "title": "HugstonOne Architecture, Capability, Benchmark to Privacy Local AI Workstation",
+      "url": "https://zenodo.org/records/21471816",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:14:07+00:00",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "benchmark",
+        "architecture",
+        "privacy"
+      ],
+      "summary": "HugstonOne Architecture, Capability, Benchmark to Privacy Local AI Workstation"
+    },
+    {
+      "title": "Show HN: Enlarger • A local upscaler that keeps detail instead of smoothing it",
+      "url": "https://enlarger.app/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:31:36+00:00",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "open source",
+        "app",
+        "market"
+      ],
+      "summary": "Hey everyone! I know there are gazillion alternatives out there especially with AI and all, but this nevertheless is my take on it. I created it because I was frustrated with the options I was seeing in the market. Too heavy, too complex, UX was meh, the outpu"
+    },
+    {
+      "title": "I moved Agentique's LLM layer to BAML",
+      "url": "https://agentique.ch/blog/why-i-moved-agentiques-llm-layer-to-baml/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T10:46:45+00:00",
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "agent"
+      ],
+      "summary": "I moved Agentique's LLM layer to BAML"
+    },
+    {
+      "title": "2 Reason ( s ) to Buy Warren Buffett Favorite Artificial Intelligence ( AI ) Stock and Never Sell",
+      "url": "https://finance.yahoo.com/technology/ai/articles/2-reason-buy-warren-buffetts-090500280.html",
+      "source": "finance.yahoo.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T10:15:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 54,
+      "tags": [
+        "stock"
+      ],
+      "summary": "2 Reason ( s ) to Buy Warren Buffett Favorite Artificial Intelligence ( AI ) Stock and Never Sell"
+    },
+    {
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-20T10:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 54,
+      "tags": [
+        "shares",
+        "model",
+        "safety"
+      ],
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
+    },
+    {
+      "title": "Google new AI chip could make Gemini up to 10 times more efficient",
+      "url": "https://www.samaa.tv/2087353932-google-s-new-ai-chip-could-make-gemini-up-to-10-times-more-efficient",
+      "source": "samaa.tv",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T08:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 53,
+      "tags": [
+        "chip"
+      ],
+      "summary": "Google new AI chip could make Gemini up to 10 times more efficient"
+    },
+    {
+      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
+      "url": "http://www.laosnews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
+      "source": "laosnews.net",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 53,
+      "tags": [],
+      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
+    },
+    {
+      "title": "Three-Body Scattering for Generative Modeling",
+      "url": "https://arxiv.org/abs/2607.18198v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:38:12+00:00",
+      "category": "技术研究",
+      "relevance_score": 53,
+      "tags": [
+        "model",
+        "github",
+        "feature",
+        "act"
+      ],
+      "summary": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision"
+    },
+    {
+      "title": "Certified Training for Convolutional Perturbations",
+      "url": "https://arxiv.org/abs/2607.18195v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:36:05+00:00",
+      "category": "技术研究",
+      "relevance_score": 53,
+      "tags": [
+        "model",
+        "training",
+        "app",
+        "safety"
+      ],
+      "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for exam"
+    },
+    {
+      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
+      "url": "http://www.thailandnews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
+      "source": "thailandnews.net",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 53,
+      "tags": [],
+      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
+    },
+    {
+      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
+      "url": "http://www.myanmarnews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
+      "source": "myanmarnews.net",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 53,
+      "tags": [],
+      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
+    },
+    {
+      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
+      "url": "http://www.afghanistannews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
+      "source": "afghanistannews.net",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 52,
+      "tags": [],
+      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
+    },
+    {
+      "title": "China Kimi K3 raises pressure on OpenAI and Anthropic",
+      "url": "http://www.calcuttanews.net/news/279196078/china-s-kimi-k3-raises-pressure-on-openai-and-anthropic",
+      "source": "calcuttanews.net",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 52,
+      "tags": [],
+      "summary": "China Kimi K3 raises pressure on OpenAI and Anthropic"
+    },
+    {
+      "title": "Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles",
+      "url": "https://arxiv.org/abs/2607.18106v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:07:20+00:00",
+      "category": "政策治理",
+      "relevance_score": 52,
+      "tags": [
+        "model",
+        "app",
+        "law",
+        "act"
+      ],
+      "summary": "Methods for discovering rare failures in autonomous systems have so far been demonstrated almost exclusively in simulations with simple, academic driving stacks, leaving open whether they generalize to the more robust planners used in commercial systems. We ad"
+    },
+    {
+      "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
+      "url": "https://arxiv.org/abs/2607.18102v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:03:15+00:00",
+      "category": "技术研究",
+      "relevance_score": 52,
+      "tags": [
+        "model",
+        "benchmark",
+        "agent",
+        "feature"
+      ],
+      "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-ag"
+    },
+    {
+      "title": "I asked an AI agent to delete a folder my tool was guarding",
+      "url": "https://termaxa.com/blog/cursor-saga/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:26:06+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "summary": "I asked an AI agent to delete a folder my tool was guarding"
+    },
+    {
+      "title": "Tell HN: GitHub notifications email is full",
+      "url": "https://news.ycombinator.com/item?id=48991146",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:03:48+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "github",
+        "app"
+      ],
+      "summary": "I just replied by email to a Github issue notification, as I usually do, and I got an error from postmaster@microsoft.com telling me that notifications@github.com and notifications-bot@github.com mailboxes are full… I don’t think that’s supposed to happen. Has"
+    },
+    {
+      "title": "Chinese LLMs write more vulnerable code when prompted as U.S. officials",
+      "url": "https://www.boozallen.com/expertise/cybersecurity/whats-in-americas-code.html",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:59:37+00:00",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "Chinese LLMs write more vulnerable code when prompted as U.S. officials"
+    },
+    {
+      "title": "Show HN: Tool that turns a CSV into an agent-run, searchable paywalled directory",
+      "url": "https://medspas.shipmore.io",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:58:10+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "agent",
+        "tool"
+      ],
+      "summary": "Show HN: Tool that turns a CSV into an agent-run, searchable paywalled directory"
+    },
+    {
+      "title": "LLMs Are Surprisingly Bad Blog Authors",
+      "url": "https://wakamoleguy.com/p/llms-are-surprisingly-bad-blog-authors",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:38:17+00:00",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "LLMs Are Surprisingly Bad Blog Authors"
+    },
+    {
+      "title": "Responsible LLM Use in Conversations",
+      "url": "https://marcdix.de/blog/responsible-llm-use-in-conversations.html",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:31:17+00:00",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "Responsible LLM Use in Conversations"
+    },
+    {
+      "title": "LLM spambots liked my Show HN post more than real people did",
+      "url": "https://sgnt.ai/p/show-hn-llm-spam/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:22:30+00:00",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "LLM spambots liked my Show HN post more than real people did"
+    },
+    {
+      "title": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?",
+      "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T10:42:26+00:00",
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "GPT-5.6 vs. Claude Fable 5 for Physical AI, which performs best?"
+    },
+    {
+      "title": "Show HN: Friday – a local-first desktop AI assistant that can use tools",
+      "url": "https://friday.haraldbregu.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T10:34:06+00:00",
+      "category": "产品应用",
+      "relevance_score": 51,
+      "tags": [
+        "assistant",
+        "tool"
+      ],
+      "summary": "Show HN: Friday – a local-first desktop AI assistant that can use tools"
+    },
+    {
+      "title": "Kimi K3 Hit a GPU Wall . Why Nvidia and Microsoft May Be the Real Winners",
+      "url": "https://www.insidermonkey.com/blog/kimi-k3-hit-a-gpu-wall-why-nvidia-and-microsoft-may-be-the-real-winners-1803061/",
+      "source": "insidermonkey.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T21:45:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "gpu"
+      ],
+      "summary": "Kimi K3 Hit a GPU Wall . Why Nvidia and Microsoft May Be the Real Winners"
+    },
+    {
+      "title": "Causal Discovery on Irregular Time Series",
+      "url": "https://arxiv.org/abs/2607.18226v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:57:45+00:00",
+      "category": "技术研究",
+      "relevance_score": 50,
+      "tags": [
+        "model",
+        "app",
+        "act"
+      ],
+      "summary": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly "
+    },
+    {
+      "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
+      "url": "https://arxiv.org/abs/2607.18225v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:57:20+00:00",
+      "category": "政策治理",
+      "relevance_score": 50,
+      "tags": [
+        "inference",
+        "policy",
+        "act"
+      ],
+      "summary": "We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring e"
+    },
+    {
+      "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
+      "url": "https://arxiv.org/abs/2607.18210v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:45:04+00:00",
+      "category": "技术研究",
+      "relevance_score": 50,
+      "tags": [
+        "model",
+        "paper",
+        "app"
+      ],
+      "summary": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positionin"
+    },
+    {
+      "title": "Unveiling Invariant and Transferable Latent Factors Across Heterogeneous Environments via ATLAS",
+      "url": "https://arxiv.org/abs/2607.18209v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:44:57+00:00",
+      "category": "技术研究",
+      "relevance_score": 50,
+      "tags": [
+        "model",
+        "paper",
+        "act"
+      ],
+      "summary": "This paper considers a multi-environment factor model in which high-dimensional covariates are collected from heterogeneous environments, with auxiliary labels available in a subset of these environments. The joint distribution of the covariates may vary acros"
+    },
+    {
+      "title": "A Continual Validation, Updating, and Decision-Making Framework for Self-Adaptive Digital Twins via Robust Model Predictive Control: A Case Study in Additive Manufacturing",
+      "url": "https://arxiv.org/abs/2607.18164v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:07:41+00:00",
+      "category": "技术研究",
+      "relevance_score": 50,
+      "tags": [
+        "model",
+        "app",
+        "act"
+      ],
+      "summary": "Digital Twins rely on surrogate models to mirror physical systems in real time, yet these models can degrade as operating conditions evolve, a phenomenon known as concept drift. Maintaining surrogate fidelity under drift, particularly when models must also cap"
+    },
+    {
+      "title": "The Calibration Channel Determines the Bayes-Error Proxy: An Exact Law for Temperature-Induced Distortion",
+      "url": "https://arxiv.org/abs/2607.18162v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:07:26+00:00",
+      "category": "政策治理",
+      "relevance_score": 50,
+      "tags": [
+        "model",
+        "law",
+        "act"
+      ],
+      "summary": "The soft-label Bayes-error estimator beta(z) = E[min(z, 1-z)] of Ishida et al. estimates the irreducible error of a binary task directly from probability-valued labels. Recent work by Ushio et al. showed that this estimator is fragile when the probabilities ar"
+    },
+    {
+      "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
+      "url": "https://arxiv.org/abs/2607.18161v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:06:19+00:00",
+      "category": "产品应用",
+      "relevance_score": 50,
+      "tags": [
+        "agent",
+        "assistant",
+        "app"
+      ],
+      "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose"
+    },
+    {
+      "title": "Scott Galloway Predicts Sam Altman Is Out as OpenAI CEO Within 6 Months - Apple ( NASDAQ : AAPL ), Microsoft",
+      "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60557060/scott-galloway-predicts-sam-altman-is-out-as-openai-ceo-within-6-months-hes-an-innovator-not-an-operator",
+      "source": "benzinga.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:15:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 49,
+      "tags": [
+        "app"
+      ],
+      "summary": "Scott Galloway Predicts Sam Altman Is Out as OpenAI CEO Within 6 Months - Apple ( NASDAQ : AAPL ), Microsoft"
+    },
+    {
+      "title": "COVAriance-Induced Fairness Gap Penalty for Subgroup-Fair Clustering",
+      "url": "https://arxiv.org/abs/2607.18119v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T16:14:13+00:00",
+      "category": "技术研究",
+      "relevance_score": 49,
+      "tags": [
+        "benchmark",
+        "dataset",
+        "act"
+      ],
+      "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms i"
+    },
+    {
+      "title": "The year of sustainable indie products",
+      "url": "https://olly.world/the-year-of-sustainable-indie-products",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:18:23+00:00",
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "product"
+      ],
+      "summary": "The year of sustainable indie products"
+    },
+    {
+      "title": "We spent months building AI agents. Then we deleted them",
+      "url": "https://runnit.io/articles/we-spent-months-building-ai-agents-into-runnit-then-we-deleted-them",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:10:05+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "We spent months building AI agents. Then we deleted them"
+    },
+    {
+      "title": "Hugging Face turns to GLM 5.2 to fend off AI agent attack",
+      "url": "https://venturebeat.com/security/safety-guardrails-blocked-hugging-faces-defenders-not-the-attacker-when-an-ai-agent-breached-its-systems",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:03:37+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "Hugging Face turns to GLM 5.2 to fend off AI agent attack"
+    },
+    {
+      "title": "Show HN: Shellink – let AI agents run commands on servers behind jump hosts",
+      "url": "https://github.com/jie123108/Shellink",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:02:43+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "Show HN: Shellink – let AI agents run commands on servers behind jump hosts"
+    },
+    {
+      "title": "Show HN: Open-Kritt – Open-source infrastructure for AI-based security research",
+      "url": "https://github.com/Kritt-ai/open-kritt",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:32:04+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "research"
+      ],
+      "summary": "Show HN: Open-Kritt – Open-source infrastructure for AI-based security research"
+    },
+    {
+      "title": "Tesla cash burn to test investor faith in AI bets",
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-cash-burn-test-investor-faith-ai-bets-2026-07-21/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:25:46+00:00",
+      "category": "投资商业",
+      "relevance_score": 48,
+      "tags": [
+        "invest"
+      ],
+      "summary": "Tesla cash burn to test investor faith in AI bets"
+    },
+    {
+      "title": "Thinking Machines draws from Chinese rivals in debut AI model",
+      "url": "https://www.ft.com/content/ef486929-d2c2-480b-8b00-9cb98bda6acf",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:23:30+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "model"
+      ],
+      "summary": "Thinking Machines draws from Chinese rivals in debut AI model"
+    },
+    {
+      "title": "AI coding agents should optimize for less owned code",
+      "url": "https://www.openenergytransition.org/posts/ai-coding-agents-should-optimize-for-less-owned-code",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:22:08+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "AI coding agents should optimize for less owned code"
+    },
+    {
+      "title": "Top American AI Execs Sound Alarm on Chinese Models",
+      "url": "https://www.wsj.com/tech/ai/top-american-ai-execs-sound-alarm-on-chinese-models-3c74f8c1",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:16:49+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "model"
+      ],
+      "summary": "Top American AI Execs Sound Alarm on Chinese Models"
+    },
+    {
+      "title": "What is China Moonshot AI and why is it roiling markets ?",
+      "url": "https://www.businesstimes.com.sg/companies-markets/what-chinas-moonshot-ai-and-why-it-roiling-markets",
+      "source": "businesstimes.com.sg",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T09:30:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 48,
+      "tags": [
+        "market"
+      ],
+      "summary": "What is China Moonshot AI and why is it roiling markets ?"
+    },
+    {
+      "title": "TCS Acquires Land in Vizag , Pune for OpenAI Data Sites",
+      "url": "https://economictimes.indiatimes.com/et-front/tcs-acquires-land-in-vizag-pune-for-openai-data-sites/articleshow/132524167.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T00:30:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 48,
+      "tags": [],
+      "summary": "TCS Acquires Land in Vizag , Pune for OpenAI Data Sites"
+    },
+    {
+      "title": "China Open - Weight AI Models Now Match Top U . S . Systems in Benchmarks",
+      "url": "https://www.radioseoul1650.com/archives/147927",
+      "source": "radioseoul1650.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T23:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "model",
+        "benchmark"
+      ],
+      "summary": "China Open - Weight AI Models Now Match Top U . S . Systems in Benchmarks"
+    },
+    {
+      "title": "Hugging Face turned to Chinese open source AI model after experiencing autonomous cyber attack",
+      "url": "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
+      "source": "fortune.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T21:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "model",
+        "open source"
+      ],
+      "summary": "Hugging Face turned to Chinese open source AI model after experiencing autonomous cyber attack"
+    },
+    {
+      "title": "China new AI model halts new subscriptions as demand swamps capacity",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/07/21/china039s-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity",
+      "source": "thestar.com.my",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T05:15:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 47,
+      "tags": [
+        "model"
+      ],
+      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
+    },
+    {
+      "title": "Kimi K3 gets high evaluation scores",
+      "url": "http://global.chinadaily.com.cn/a/202607/20/WS6a5e33f4a310986e2b46648e.html",
+      "source": "global.chinadaily.com.cn",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T05:15:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 47,
+      "tags": [
+        "valuation"
+      ],
+      "summary": "Kimi K3 gets high evaluation scores"
+    },
+    {
+      "title": "Learning Adaptive Safety Margins for Visual Navigation",
+      "url": "https://arxiv.org/abs/2607.18200v1",
+      "source": "arXiv",
+      "source_type": "论文",
+      "published_at": "2026-07-20T17:40:25+00:00",
+      "category": "技术研究",
+      "relevance_score": 47,
+      "tags": [
+        "dataset",
+        "safety"
+      ],
+      "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts u"
+    },
+    {
+      "title": "Apple Reclaims World Most Valuable Company Title at $4 . 9 Trillion",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-reclaims-worlds-most-valuable-163952633.html",
+      "source": "finance.yahoo.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 47,
+      "tags": [
+        "app",
+        "company"
+      ],
+      "summary": "Apple Reclaims World Most Valuable Company Title at $4 . 9 Trillion"
+    },
+    {
+      "title": "Top American AI execs sound alarm on Chinese models",
+      "url": "https://www.livemint.com/ai/top-american-ai-execs-sound-alarm-on-chinese-models-11784596256576.html",
+      "source": "livemint.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T03:30:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 46,
+      "tags": [
+        "model"
+      ],
+      "summary": "Top American AI execs sound alarm on Chinese models"
+    },
+    {
+      "title": "China new AI model halts new subscriptions as demand swamps capacity",
+      "url": "https://www.asiaone.com/digital/chinas-new-ai-model-halts-new-subscriptions-demand-swamps-capacity",
+      "source": "asiaone.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T03:30:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 46,
+      "tags": [
+        "model"
+      ],
+      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
+    },
+    {
+      "title": "Kimi K3 gets high evaluation scores",
+      "url": "http://usa.chinadaily.com.cn/a/202607/20/WS6a5e33f4a310986e2b46648e.html",
+      "source": "usa.chinadaily.com.cn",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T02:45:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 46,
+      "tags": [
+        "valuation"
+      ],
+      "summary": "Kimi K3 gets high evaluation scores"
+    },
+    {
+      "title": "Kimi K3 gets high evaluation scores",
+      "url": "http://europe.chinadaily.com.cn/a/202607/20/WS6a5e33f4a310986e2b46648e.html",
+      "source": "europe.chinadaily.com.cn",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T02:15:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 46,
+      "tags": [
+        "valuation"
+      ],
+      "summary": "Kimi K3 gets high evaluation scores"
+    },
+    {
+      "title": "Most engineers fail behavioral interviews because they prepare wrong. Here's",
+      "url": "https://leetcopilot.dev/blog/behavioral-interview-prep-complete-guide",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:22:11+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Most engineers fail behavioral interviews because they prepare wrong. Here's"
+    },
+    {
+      "title": "US banks insulated from AI data centre downturn",
+      "url": "https://www.thebanker.com/content/db39aacf-703b-4fc2-8501-eebb5a831f0a",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:19:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "US banks insulated from AI data centre downturn"
+    },
+    {
+      "title": "Show HN: Wordgem, a Daily Word Game",
+      "url": "https://wordgem.xyz",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:15:20+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Create words using the letters in the grid. Use all of the letters to solve, and solve in as few words as possible"
+    },
+    {
+      "title": "We built the delivery evidence chain",
+      "url": "https://www.appaloft.com/blog/delivery-evidence-chain/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:07:45+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "We built the delivery evidence chain"
+    },
+    {
+      "title": "Stagehand: The AI-Driven Browser Automation Framework",
+      "url": "https://www.akashtandon.in/interactive-explainers/stagehand/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T12:03:52+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Stagehand: The AI-Driven Browser Automation Framework"
+    },
+    {
+      "title": "Tech ain't that deep – and that's a problem",
+      "url": "https://deadsimpletech.com/blog/tech-aint-deep",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:42:04+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Tech ain't that deep – and that's a problem"
+    },
+    {
+      "title": "Software and AI – Plotting vs. Pantsing",
+      "url": "https://pyjarrett.github.io/2026/07/18/software-and-ai-plotting-versus-pantsing.html",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:30:30+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Software and AI – Plotting vs. Pantsing"
+    },
+    {
+      "title": "Show HN: openmog – an AI that only knows what you post",
+      "url": "https://www.openmog.com/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:30:06+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Show HN: openmog – an AI that only knows what you post"
+    },
+    {
+      "title": "Tfgen: configure your Terraform stacks using plain Go",
+      "url": "https://ably.com/blog/cdktf-migration-tfgen",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:29:03+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Tfgen: configure your Terraform stacks using plain Go"
+    },
+    {
+      "title": "Show HN: An AI podcast on real engineering tradeoffs",
+      "url": "https://medium.com/@aneeshaprasannan/i-found-the-most-honest-ai-podcast-on-youtube-by-accident-and-it-ruined-my-favorite-excuse-4aad47bf6732",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:23:04+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Show HN: An AI podcast on real engineering tradeoffs"
+    },
+    {
+      "title": "Show HN: Turn Excel, CSV and Google Sheets into an AI Chatbot",
+      "url": "https://www.frontierbase.io",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T11:22:07+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Show HN: Turn Excel, CSV and Google Sheets into an AI Chatbot"
+    },
+    {
+      "title": "Boeing asks US to intervene over record EU loan to Airbus",
+      "url": "https://www.reuters.com/business/aerospace-defense/boeing-asks-us-intervene-over-record-eu-loan-airbus-2026-07-21/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T10:48:40+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Boeing asks US to intervene over record EU loan to Airbus"
+    },
+    {
+      "title": "Chelsea's Defensive Rebuild Gains Momentum as Lacroix Emerges as Priority Target",
+      "url": "https://predx-article.fika.bar/chelsea-s-defensive-rebuild-gains-momentum-as-maxence-lacroi-01KY15FE68Z32G954W1AA0QPRS",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T10:48:39+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Chelsea's Defensive Rebuild Gains Momentum as Lacroix Emerges as Priority Target"
+    },
+    {
+      "title": "iOS 27 jailbreak with usbliter8 exploit",
+      "url": "https://github.com/34306/usbliter8-fun",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T10:46:05+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "iOS 27 jailbreak with usbliter8 exploit"
+    },
+    {
+      "title": "South Korea promises free homegrown AI chatbot this year",
+      "url": "https://www.bssnews.net/international/407578",
+      "source": "bssnews.net",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T09:30:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "South Korea promises free homegrown AI chatbot this year"
+    },
+    {
+      "title": "South Korea promises free homegrown AI chatbot this year",
+      "url": "https://www.freemalaysiatoday.com/category/business/2026/07/21/south-korea-promises-free-homegrown-ai-chatbot-this-year",
+      "source": "freemalaysiatoday.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T09:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "South Korea promises free homegrown AI chatbot this year"
+    },
+    {
+      "title": "South Korea promises free homegrown AI chatbot this year",
+      "url": "https://www.channelnewsasia.com/east-asia/south-korea-free-ai-chatbot-6267671",
+      "source": "channelnewsasia.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T09:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "South Korea promises free homegrown AI chatbot this year"
+    },
+    {
+      "title": "South Korea promises free homegrown AI chatbot this year",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/07/21/south-korea-promises-free-homegrown-ai-chatbot-this-year",
+      "source": "thestar.com.my",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T08:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "South Korea promises free homegrown AI chatbot this year"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.vietnamtribune.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "vietnamtribune.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T22:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.shanghaisun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "shanghaisun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T21:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.bangladeshsun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "bangladeshsun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T21:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.pakistantelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "pakistantelegraph.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T21:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.baltimorestar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "baltimorestar.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T21:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "Entry - level FDEs earn up to 7 times more than software developers , starting at Rs 18 lakh",
+      "url": "https://www.moneycontrol.com/artificial-intelligence/entry-level-fdes-earn-up-to-7-times-more-than-software-developers-starting-at-rs-18-lakh-article-13979349.html",
+      "source": "moneycontrol.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T08:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [],
+      "summary": "Entry - level FDEs earn up to 7 times more than software developers , starting at Rs 18 lakh"
+    },
+    {
+      "title": "Head of federal A . I . safety organization calls it quits * WorldNetDaily * by Elizabeth Troutman Mitchell , The Daily Signal",
+      "url": "https://www.wnd.com/2026/07/head-federal-i-safety-organization-calls-it-quits/",
+      "source": "wnd.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:30:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 44,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Head of federal A . I . safety organization calls it quits * WorldNetDaily * by Elizabeth Troutman Mitchell , The Daily Signal"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.sierraleonetimes.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "sierraleonetimes.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.haitisun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "haitisun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.dallassun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "dallassun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China new AI model halts new subscriptions as demand swamps capacity – One America News Network",
+      "url": "https://www.oann.com/tech/chinas-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity/",
+      "source": "oann.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:15:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 44,
+      "tags": [
+        "model"
+      ],
+      "summary": "China new AI model halts new subscriptions as demand swamps capacity – One America News Network"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.phoenixherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "phoenixherald.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.theusnews.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "theusnews.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.torontotelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "torontotelegraph.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.saltlakecitysun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "saltlakecitysun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T19:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.israelherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "israelherald.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T18:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.stlouisstar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "stlouisstar.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T18:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.milwaukeesun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "milwaukeesun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T18:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.brazilsun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "brazilsun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.mainemirror.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "mainemirror.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.taiwansun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "taiwansun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "Wall Street holds steadier as chip companies swing back upward",
+      "url": "https://www.wwaytv3.com/wall-street-holds-steadier-as-chip-companies-swing-back-upward/",
+      "source": "wwaytv3.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:45:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 44,
+      "tags": [
+        "chip"
+      ],
+      "summary": "Wall Street holds steadier as chip companies swing back upward"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.parisguardian.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "parisguardian.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:30:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "Alabama ChatGPT Wrongful Death Lawsuit : Accused in Suicide",
+      "url": "https://techstory.in/the-lethal-delusion-lawsuit-alleges-chatgpt-incited-alabama-woman-to-end-her-life/",
+      "source": "techstory.in",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:30:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 44,
+      "tags": [
+        "law"
+      ],
+      "summary": "Alabama ChatGPT Wrongful Death Lawsuit : Accused in Suicide"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.floridastatesman.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "floridastatesman.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "Chinese Startup Moonshot Kimi K3 AI Model Halts New Subscription As Demand Swaps Capacity",
+      "url": "https://www.chinatechnews.com/2026/07/20/125956-chinese-startup-moonshots-kimi-k3-ai-model-halts-new-subscription-as-demand-swaps-capacity",
+      "source": "chinatechnews.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:15:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 44,
+      "tags": [
+        "model"
+      ],
+      "summary": "Chinese Startup Moonshot Kimi K3 AI Model Halts New Subscription As Demand Swaps Capacity"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.californiatelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "californiatelegraph.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.indiagazette.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "indiagazette.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.utahindependent.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "utahindependent.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T17:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.nashvilleherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "nashvilleherald.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.memphissun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "memphissun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.northkoreatimes.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "northkoreatimes.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.malaysiasun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "malaysiasun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.birminghamstar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "birminghamstar.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.londonmercury.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "londonmercury.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 44,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "Achieving operational excellence with AI",
+      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "source": "MIT Technology Review AI",
+      "source_type": "RSS",
+      "published_at": "2026-07-02T15:37:08+00:00",
+      "category": "投资商业",
+      "relevance_score": 44,
+      "tags": [
+        "invest",
+        "investment",
+        "research",
+        "product",
+        "tool",
+        "act",
+        "market",
+        "company"
+      ],
+      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality contro"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.sydneysun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "sydneysun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.newjerseytelegraph.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "newjerseytelegraph.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.cincinnatisun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "cincinnatisun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T16:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.oklahomacitysun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "oklahomacitysun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.irishsun.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "irishsun.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China AI Companies Are Winning Over Developers With Cheaper Models . Silicon Valley Biggest Advantage Is Facing New Pressure .",
+      "url": "https://www.ibtimes.com/chinas-ai-companies-are-winning-over-developers-cheaper-models-silicon-valleys-biggest-3805494",
+      "source": "ibtimes.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:15:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 43,
+      "tags": [
+        "model"
+      ],
+      "summary": "China AI Companies Are Winning Over Developers With Cheaper Models . Silicon Valley Biggest Advantage Is Facing New Pressure ."
+    },
+    {
+      "title": "China new AI model halts new subscriptions as demand swamps capacity",
+      "url": "https://www.ksat.com/tech/2026/07/20/chinas-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity/",
+      "source": "ksat.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:15:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 43,
+      "tags": [
+        "model"
+      ],
+      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.russiaherald.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "russiaherald.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China Kimi K3 surprises US AI industry with strong debut",
+      "url": "http://www.argentinastar.com/news/279196078/china-s-kimi-k3-surprises-us-ai-industry-with-strong-debut",
+      "source": "argentinastar.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [
+        "industry"
+      ],
+      "summary": "China Kimi K3 surprises US AI industry with strong debut"
+    },
+    {
+      "title": "China new AI model halts new subscriptions as demand swamps capacity",
+      "url": "https://abcnews.com/Technology/wireStory/chinas-new-ai-model-halts-new-subscriptions-demand-134909820",
+      "source": "abcnews.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 43,
+      "tags": [
+        "model"
+      ],
+      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
+    },
+    {
+      "title": "Wall Street holds steadier as chip companies swing back upward",
+      "url": "https://www.sun-sentinel.com/2026/07/20/wall-street-oil-gas-prices/",
+      "source": "sun-sentinel.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T14:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 43,
+      "tags": [
+        "chip"
+      ],
+      "summary": "Wall Street holds steadier as chip companies swing back upward"
+    },
+    {
+      "title": "China new AI model halts new subscriptions as demand swamps capacity",
+      "url": "https://www.clickorlando.com/tech/2026/07/20/chinas-new-ai-model-halts-new-subscriptions-as-demand-swamps-capacity/",
+      "source": "clickorlando.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T13:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 43,
+      "tags": [
+        "model"
+      ],
+      "summary": "China new AI model halts new subscriptions as demand swamps capacity"
+    },
+    {
+      "title": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial",
+      "url": "http://global.chinadaily.com.cn/a/202607/20/WS6a5e3cdaa310986e2b466493.html",
+      "source": "global.chinadaily.com.cn",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T00:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 42,
+      "tags": [],
+      "summary": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial"
+    },
+    {
+      "title": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial",
+      "url": "http://usa.chinadaily.com.cn/a/202607/20/WS6a5e3cdaa310986e2b466493.html",
+      "source": "usa.chinadaily.com.cn",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T00:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 42,
+      "tags": [],
+      "summary": "Kimi K3 moment should prompt some to rethink AI future for common good : China Daily editorial"
+    },
+    {
+      "title": "The US is advancing AI safety through state and federal action",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-15T12:00:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 41,
+      "tags": [
+        "app",
+        "law",
+        "act",
+        "safety",
+        "governance"
+      ],
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI."
+    },
+    {
+      "title": "Moonshot AI pauses subscriptions after users swarm to test Kimi K3",
+      "url": "https://www.siliconrepublic.com/business/moonshot-ai-pauses-subscriptions-after-users-swarm-to-test-kimi-k3",
+      "source": "siliconrepublic.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T15:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 40,
+      "tags": [],
+      "summary": "Moonshot AI pauses subscriptions after users swarm to test Kimi K3"
+    },
+    {
+      "title": "AMD Just Got a Potential AI Heavyweight Customer . Here The New Price Target",
+      "url": "https://finance.yahoo.com/technology/ai/articles/amd-just-got-potential-ai-133035921.html",
+      "source": "finance.yahoo.com",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-20T14:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 40,
+      "tags": [],
+      "summary": "AMD Just Got a Potential AI Heavyweight Customer . Here The New Price Target"
+    },
+    {
+      "title": "Why teens deserve access to safe AI",
+      "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-16T16:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 38,
+      "tags": [
+        "app",
+        "tool",
+        "partnership",
+        "partner"
+      ],
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
+    },
+    {
+      "title": "Our approach to government and national security partnerships",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-08T13:30:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 38,
+      "tags": [
+        "app",
+        "safety",
+        "partnership",
+        "partner"
+      ],
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety."
+    },
+    {
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "url": "https://openai.com/index/hp-frontier-partnership",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-28T17:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 38,
+      "tags": [
+        "launch",
+        "enterprise",
+        "partnership",
+        "partner"
+      ],
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations."
+    },
+    {
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-25T02:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 38,
+      "tags": [
+        "paper",
+        "research",
+        "agent",
+        "product"
+      ],
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
+    },
+    {
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-24T06:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 38,
+      "tags": [
+        "inference",
+        "chip"
+      ],
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
+    },
+    {
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-23T13:00:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 38,
+      "tags": [
+        "valuation",
+        "app",
+        "act",
+        "safety"
+      ],
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation."
+    },
+    {
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-16T00:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 38,
+      "tags": [
+        "valuation",
+        "model",
+        "release",
+        "safety"
+      ],
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy."
+    },
+    {
+      "title": "Introducing the OpenAI Partner Network",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-14T17:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 38,
+      "tags": [
+        "invest",
+        "launch",
+        "enterprise",
+        "partner"
+      ],
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation."
+    },
+    {
+      "title": "Separating signal from noise in coding evaluations",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-08T13:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "valuation",
+        "model",
+        "benchmark"
+      ],
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models."
+    },
+    {
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-07-07T08:54:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "api",
+        "agent",
+        "product"
+      ],
+      "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents."
+    },
+    {
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-18T08:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "model",
+        "research",
+        "reasoning"
+      ],
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases."
+    },
+    {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-12T10:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "agent",
+        "app",
+        "act"
+      ],
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work."
+    },
+    {
+      "title": "OpenAI to acquire Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 35,
+      "tags": [
+        "agent",
+        "enterprise",
+        "cloud"
+      ],
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows."
+    },
+    {
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "url": "https://openai.com/index/cars24",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-16T00:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "agent",
+        "company"
+      ],
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company."
+    },
+    {
+      "title": "How to manage AI investments in the agentic era",
+      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-14T10:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 32,
+      "tags": [
+        "invest",
+        "investment",
+        "agent",
+        "enterprise"
+      ],
+      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows."
+    },
+    {
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "agent",
+        "app",
+        "act",
+        "partner"
+      ],
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work."
+    },
+    {
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-26T10:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "model",
+        "safety"
+      ],
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack."
+    },
+    {
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-23T00:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 32,
+      "tags": [
+        "product",
+        "company"
+      ],
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company."
+    },
+    {
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-17T10:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 32,
+      "tags": [
+        "research",
+        "act"
+      ],
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research."
+    },
+    {
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "url": "https://openai.com/index/bbva",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 32,
+      "tags": [
+        "enterprise",
+        "partner"
+      ],
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide."
+    },
+    {
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 32,
+      "tags": [
+        "tool",
+        "act"
+      ],
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content."
+    },
+    {
+      "title": "A scorecard for the AI age",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-17T10:00:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 30,
+      "tags": [
+        "act"
+      ],
+      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
+    },
+    {
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-15T10:00:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 29,
+      "tags": [
+        "safety"
+      ],
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness."
+    },
+    {
+      "title": "Helping K–12 educators build practical AI skills",
+      "url": "https://openai.com/index/k-12-educators-practical-skills",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-08T10:00:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 29,
+      "tags": [
+        "act"
+      ],
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom."
+    },
+    {
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "url": "https://openai.com/index/mufg",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-07T00:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 29,
+      "tags": [
+        "enterprise"
+      ],
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale."
+    },
+    {
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-30T06:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 29,
+      "tags": [
+        "shares",
+        "product",
+        "act"
+      ],
+      "summary": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies."
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "benchmark",
+        "research",
+        "dataset"
+      ],
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets."
+    },
+    {
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-29T07:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 29,
+      "tags": [
+        "app"
+      ],
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes."
+    },
+    {
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "url": "https://openai.com/index/daybreak-securing-the-world",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-22T10:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 29,
+      "tags": [
+        "tool"
+      ],
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale."
+    },
+    {
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-22T10:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 29,
+      "tags": [
+        "open source"
+      ],
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review."
+    },
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-21T23:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 29,
+      "tags": [
+        "enterprise"
+      ],
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts."
+    },
+    {
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-18T17:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 29,
+      "tags": [
+        "enterprise"
+      ],
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence."
+    },
+    {
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "url": "https://openai.com/index/preply",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-12T00:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 29,
+      "tags": [
+        "launch"
+      ],
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises."
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-05-29T17:30:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 29,
+      "tags": [
+        "act"
+      ],
+      "summary": "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+    },
+    {
+      "title": "Connect more of your apps to Search",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-07-16T16:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 26,
+      "tags": [
+        "app",
+        "act"
+      ],
+      "summary": "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
+    },
+    {
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-07-16T16:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
+    },
+    {
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-10T07:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice."
+    },
+    {
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-09T13:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 26,
+      "tags": [
+        "model",
+        "copilot"
+      ],
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work."
+    },
+    {
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/bio-bug-bounty",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "Details about the OpenAI Bio Bounty program"
+    },
+    {
+      "title": "Introducing GPT-Live",
+      "url": "https://openai.com/index/introducing-gpt-live",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-08T00:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 26,
+      "tags": [
+        "model",
+        "act"
+      ],
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
+    },
+    {
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-30T09:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages."
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug."
+    },
+    {
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-29T16:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 26,
+      "tags": [
+        "app",
+        "act"
+      ],
+      "summary": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long."
+    },
+    {
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-25T16:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 26,
+      "tags": [
+        "launch",
+        "app"
+      ],
+      "summary": "The new Google Finance is coming out of beta and launching a new Android app."
+    },
+    {
+      "title": "Improving health intelligence in ChatGPT",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-18T11:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "valuation",
+        "reasoning"
+      ],
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations."
+    },
+    {
+      "title": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-17T00:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 26,
+      "tags": [
+        "benchmark",
+        "research"
+      ],
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions."
+    },
+    {
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-15T15:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "invest",
+        "investment"
+      ],
+      "summary": "We’re strengthening our presence in Alabama through new investments and community support."
+    },
+    {
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-11T20:00:00+00:00",
+      "category": "投资商业",
+      "relevance_score": 26,
+      "tags": [
+        "invest",
+        "investment"
+      ],
+      "summary": "Our new community investments in Virginia support local jobs and expand energy affordability."
+    },
+    {
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-01T16:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "Learn how Googlers used AI to produce Google I/O 2026."
+    },
+    {
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-05-28T15:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 26,
+      "tags": [],
+      "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+    },
+    {
+      "title": "How data science teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-14T00:00:00+00:00",
+      "category": "政策治理",
+      "relevance_score": 23,
+      "tags": [
+        "act"
+      ],
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs."
+    },
+    {
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "url": "https://openai.com/index/australian-payments-plus",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-07T00:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 23,
+      "tags": [
+        "enterprise"
+      ],
+      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central."
+    },
+    {
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-07-01T16:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 23,
+      "tags": [
+        "industry"
+      ],
+      "summary": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms."
+    },
+    {
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-23T17:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 23,
+      "tags": [
+        "research"
+      ],
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research."
+    },
+    {
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-17T15:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 23,
+      "tags": [
+        "research"
+      ],
+      "summary": "New research shows how AMIE, our medical AI, could help manage health conditions."
+    },
+    {
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-03T13:00:00+00:00",
+      "category": "产品应用",
+      "relevance_score": 23,
+      "tags": [
+        "tool"
+      ],
+      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping."
+    },
+    {
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-05-22T18:00:00+00:00",
+      "category": "技术研究",
+      "relevance_score": 23,
+      "tags": [
+        "robotics"
+      ],
+      "summary": "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
+    },
+    {
+      "title": "Celebrating 25 years of visual search innovation",
+      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-07-14T16:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content."
+    },
+    {
+      "title": "How sales teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-14T00:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs."
+    },
+    {
+      "title": "Getting started with ChatGPT",
+      "url": "https://openai.com/academy/getting-started",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-10T00:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI."
+    },
+    {
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-07-09T10:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work."
+    },
+    {
+      "title": "The latest AI news we announced in June 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-07-01T18:15:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Here are Google’s latest AI updates from June 2026."
+    },
+    {
+      "title": "Inside Genebench-Pro",
+      "url": "https://openai.com/index/genebench-pro/case-studies",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-30T00:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Inside Genebench-Pro"
+    },
+    {
+      "title": "Codex-maxxing for long-running work",
+      "url": "https://openai.com/index/codex-maxxing-long-running-work",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-22T00:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt."
+    },
+    {
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "source": "OpenAI News",
+      "source_type": "RSS",
+      "published_at": "2026-06-11T00:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity."
+    },
+    {
+      "title": "The latest AI news we announced in May 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-06-05T14:45:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Here are Google’s latest AI updates from May 2026"
+    },
+    {
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-05-29T19:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Take our I/O 2026 quiz, vibe coded in Google AI Studio."
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "source": "Google AI Blog",
+      "source_type": "RSS",
+      "published_at": "2026-05-29T12:00:00+00:00",
+      "category": "产业动态",
+      "relevance_score": 20,
+      "tags": [],
+      "summary": "Check out real-life AI prototypes from the Futures Lab."
     }
   ]
 }
