@@ -3,7 +3,7 @@ name: 更新并部署AI情报雷达
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "17 */2 * * *"
   push:
     branches: ["main"]
     paths-ignore:
@@ -33,9 +33,7 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 抓取最新资讯
-        env:
-          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      - name: 抓取免费公开资讯
         run: python scripts/fetch_news.py
 
       - name: 保存最新数据
@@ -43,7 +41,7 @@ jobs:
           git config user.name "ai-radar-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/articles.json
-          git diff --cached --quiet || git commit -m "chore: update AI intelligence data"
+          git diff --cached --quiet || git commit -m "chore: update free AI intelligence data"
           git push || true
 
       - name: 配置Pages
