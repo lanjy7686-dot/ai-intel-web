@@ -1,7 +1,7 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-21T14:34:06.697232+00:00",
-  "count": 311,
+  "updated_at": "2026-07-21T14:36:34.557538+00:00",
+  "count": 299,
   "errors": [],
   "source_status": {
     "X": {
@@ -16,7 +16,7 @@
     },
     "Reddit": {
       "state": "fetched",
-      "count": 24
+      "count": 12
     },
     "arXiv": {
       "state": "fetched",
@@ -755,26 +755,6 @@
       "summary": "I use Pi coding agent with OpenAI GPT-5.6 Sol but have been finding that GPT-5.6 is slower than Claude Code. Do you use any other model like one of the hosted OSS ones?"
     },
     {
-      "title": "A tag-review queue for cleaning tags before training, now part of PixlStash, my open-source self-hosted image database",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2ipv4/a_tagreview_queue_for_cleaning_tags_before/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T13:37:49+00:00",
-      "author": "u/Infamous_Campaign687",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 63,
-      "tags": [
-        "model",
-        "training",
-        "api",
-        "feature",
-        "app",
-        "tool"
-      ],
-      "summary": "I'm the developer of PixlStash, a self-hosted, open-source image app/server and database with a GUI and an API that auto-tags, writes descriptions and helps organise large image libraries. As part of trying to improve the built-in tagger that finds picture anomalies (malformed hands, malformed teeth, bad anatomy, etc) "
-    },
-    {
       "title": "The risk of weather data sabotage is rising",
       "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
       "source": "MIT Technology Review AI",
@@ -1209,24 +1189,6 @@
       "summary": "It's now easier to prompt an AI for a specific problem and later release the code on git, without thinking or researching a bigger goal that there could be an existing project where my contribution would be much more meaningful and sustainable... How could this fragmentation be saved in favor of existing projects?"
     },
     {
-      "title": "Krea 2 with editable 3D pose, composition and lighting control",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2j59y/krea_2_with_editable_3d_pose_composition_and/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T13:54:29+00:00",
-      "author": "u/chaltee",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 57,
-      "tags": [
-        "model",
-        "github",
-        "app",
-        "act"
-      ],
-      "summary": "The workflow uses an editable mannequin to set the subject's silhouette, pose, and lighting (highlights and shadows). You still need to describe the intended pose, composition, and scene lighting explicitly in the prompt. Checkpoint: raw.safetensors from Krea-2-Raw (both krea2_raw_fp8_scaled.safetensors and krea2_raw_i"
-    },
-    {
       "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
       "url": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
       "source": "TechCrunch AI",
@@ -1470,6 +1432,21 @@
       "summary": "I built Pinpoint because I was tired of typing out feedback on the visual work my AI agent did. I want my agent to be autonomous, so having it ask for feedback through a UI felt genuinely better. Dropping a contextual comment on each screenshot is much closer to how you'd give feedback on a design in Figma. It also doe"
     },
     {
+      "title": "Show HN: Ctoken – CLI util to count LLM tokens in files, dirs or input",
+      "url": "https://github.com/RimantasZ/ctoken",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:32:23+00:00",
+      "author": "iezhy",
+      "engagement": 2,
+      "category": "产品应用",
+      "relevance_score": 54,
+      "tags": [
+        "tool"
+      ],
+      "summary": "Useful when implementing AI skills, knowledge bases, MCP descriptions etc - its much easier to use CLI tool than web calculator (especially for multiple files)"
+    },
+    {
       "title": "Tracking the Apple to OpenAI pipeline: 283 moves, 44% from hardware",
       "url": "https://www.inkling.co/research/apple-to-openai",
       "source": "Hacker News",
@@ -1500,6 +1477,23 @@
       "summary": "Gemini 3.6 Flash released on AIStudio"
     },
     {
+      "title": "Show HN: A Scrabble-like word game for learning Spanish vocabulary",
+      "url": "https://spanish.tilebo.app/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:18:30+00:00",
+      "author": "HikesALot",
+      "engagement": 2,
+      "category": "产品应用",
+      "relevance_score": 54,
+      "tags": [
+        "launch",
+        "feature",
+        "app"
+      ],
+      "summary": "I built this game after a 2 week trip to spain. It's for learning Spanish vocab, not for competitive playing. I plan to keep this MVP version free and without registration, then add some pay features (audio pronunciation and a review deck). Any advice on launching a new web app will be appreciated. Is it important to m"
+    },
+    {
       "title": "Show HN: WiFi-LLM",
       "url": "https://github.com/bertaye/wifi-llm",
       "source": "Hacker News",
@@ -1513,38 +1507,6 @@
         "inference"
       ],
       "summary": "Hello, while I was learning LLM Inference basics I realized with few tricks I could use my ESP32 for inference if I stream the weights only when they are needed from a host over WiFi. Speed? Really bad. Lol. But this is just a technical demo of how it can be done. I really enjoyed while coding it. It has a sliding wind"
-    },
-    {
-      "title": "Show HN: Ctoken – CLI util to count LLM tokens in files, dirs or input",
-      "url": "https://github.com/RimantasZ/ctoken",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:32:23+00:00",
-      "author": "iezhy",
-      "engagement": 1,
-      "category": "产品应用",
-      "relevance_score": 54,
-      "tags": [
-        "tool"
-      ],
-      "summary": "Useful when implementing AI skills, knowledge bases, MCP descriptions etc - its much easier to use CLI tool than web calculator (especially for multiple files)"
-    },
-    {
-      "title": "Show HN: A Scrabble-like word game for learning Spanish vocabulary",
-      "url": "https://spanish.tilebo.app/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:18:30+00:00",
-      "author": "HikesALot",
-      "engagement": 1,
-      "category": "产品应用",
-      "relevance_score": 54,
-      "tags": [
-        "launch",
-        "feature",
-        "app"
-      ],
-      "summary": "I built this game after a 2 week trip to spain. It's for learning Spanish vocab, not for competitive playing. I plan to keep this MVP version free and without registration, then add some pay features (audio pronunciation and a review deck). Any advice on launching a new web app will be appreciated. Is it important to m"
     },
     {
       "title": "What kind of iOS app do you wish existed?",
@@ -1596,23 +1558,6 @@
         "act"
       ],
       "summary": "I built a network of all 1306 players and 110 rosters engraved on the Cup since 1915. Surprisingly there's no islands, every team has somehow had at least one player who's won it again, there's several close calls where the connection almost broke. A few times where a winner starts off as an island and then gets connec"
-    },
-    {
-      "title": "[Krea2] Four steps Raw, four steps Turbo seems like enough",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2jsps/krea2_four_steps_raw_four_steps_turbo_seems_like/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T14:18:40+00:00",
-      "author": "u/PropagandaOfTheDude",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 54,
-      "tags": [
-        "model",
-        "app",
-        "act"
-      ],
-      "summary": "I mentioned last week that I didn't like the way that the Turbo LoRA affects Raw gens. The first image above shows the problem. The LoRA colors don't \"pop\" as much. After some experimentation, I'm happy with a simple solution: Four steps with Raw, CFG 3.0, using a negative, and then hand the noisy latent to… Four steps"
     },
     {
       "title": "I just read LeCun’s recent thoughts on world models. Thoughts on JEPA as a path forward? [D]",
@@ -1856,22 +1801,6 @@
       "summary": "Does anyone know the EXACT timing of when NeurIPS reviews are gonna be released? I'm just refreshing openreview all the time and it's stressing me out so much. Thank you for your help. submitted by /u/Anshuman3480 [link] [comments]"
     },
     {
-      "title": "Blender Depth to Final Video with LTX-2.3 IC-LoRA",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2i4jz/blender_depth_to_final_video_with_ltx23_iclora/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T13:14:48+00:00",
-      "author": "u/waterarttrkgl",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "app"
-      ],
-      "summary": "I created a simple ship scene in Blender and rendered both a basic preview and a depth map. I then passed them into an LTX-2.3 IC-LoRA workflow in ComfyUI to preserve the scene’s structure while transforming the rough render into the final cinematic shot. This is a short 14-second experiment exploring how basic 3D layo"
-    },
-    {
       "title": "Halliday’s latest smart glasses feature a much-improved display",
       "url": "https://www.theverge.com/tech/968255/halliday-gen-2-smart-glasses-hands-on-ai-wearables",
       "source": "The Verge AI",
@@ -1885,54 +1814,6 @@
         "app"
       ],
       "summary": "I was not a fan of the original Halliday glasses. The Gen 2 are better. | Image: Halliday I first slipped on Halliday's original smart glasses at CES 2025. I was not a fan. The glasses had a tiny, movable display window embedded into the frame that was incredibly finicky to see, and my 30-minute demo left me with achy "
-    },
-    {
-      "title": "Which is the best open weight model/workflow to create fusions atm?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2hj03/which_is_the_best_open_weight_modelworkflow_to/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T12:50:20+00:00",
-      "author": "u/dbzer0",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "act"
-      ],
-      "summary": "hey y'all I'm having trouble finding a definite answer to this, so I thought I'd ask. I want something simple: To provide two images of fantasy characters and ask the model to place them in a battle situation (maybe changing their posts/weapons), in a specific location/background, so a splash art. Which model/comfy wor"
-    },
-    {
-      "title": "HOMIE - Human-object centric video personalization | Qwen3-VL-2B + Wan2.1 | R2V",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2h68v/homie_humanobject_centric_video_personalization/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T12:35:06+00:00",
-      "author": "u/switch2stock",
-      "reddit_community": "StableDiffusion",
-      "category": "投资商业",
-      "relevance_score": 51,
-      "tags": [
-        "stock",
-        "github"
-      ],
-      "summary": "https://yiyangcai.github.io/homie-page.github.io/ submitted by /u/switch2stock [link] [comments]"
-    },
-    {
-      "title": "Are all social media platforms actively shadow banning or deleting AI videos?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2f8bb/are_all_social_media_platforms_actively_shadow/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T11:04:48+00:00",
-      "author": "u/No_Link7744",
-      "reddit_community": "StableDiffusion",
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "platform",
-        "act"
-      ],
-      "summary": "For example YouTube tightened enforcement around their Inauthentic & Repetitious Content policies. They’ve wiped several massive channels built on mass-produced synthetic media (like fake movie trailers and automated slideshows reading articles) submitted by /u/No_Link7744 [link] [comments]"
     },
     {
       "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
@@ -2056,22 +1937,6 @@
         "发布"
       ],
       "summary": "WAIC重磅成果｜上海仪电智算牵头成立“智算系统架构联盟”并发布《超节点系统架构规范》"
-    },
-    {
-      "title": "What actually makes a still image feel dynamic?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2dmew/what_actually_makes_a_still_image_feel_dynamic/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T09:38:40+00:00",
-      "author": "u/GPU_FieldNotes",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 50,
-      "tags": [
-        "gpu",
-        "act"
-      ],
-      "summary": "I’ve been thinking about why some AI-generated action scenes still feel strangely static. It seems to come down to three separate layers: Subject movement — dynamic poses, twisting bodies, flowing hair and clothes Environmental movement — motion blur, debris, sparks, water and dust Camera movement — low angles, foresho"
     },
     {
       "title": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
@@ -2398,36 +2263,6 @@
       "summary": "PartialString – A finite-difference time-domain physical modelling synthesiser"
     },
     {
-      "title": "Late to the party, which one is newer, Preview 3, or Aesthethic v1.1?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2jo7t/late_to_the_party_which_one_is_newer_preview_3_or/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T14:14:09+00:00",
-      "author": "u/RafiHDW",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model"
-      ],
-      "summary": "Sorry, I'm still very new to Anima, so I have a question. Which model is the one everyone has been talking about? I'm a bit confused by the naming. Is Aesthetic v1.1 the polished/final version of Preview 3 , or is it simply the latest version of the Aesthetic model (which might be an older model), while Preview 3 is a "
-    },
-    {
-      "title": "Krea2 - haven't been this impressed with AI since the early days",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2j4dr/krea2_havent_been_this_impressed_with_ai_since/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T13:53:30+00:00",
-      "author": "u/bravesirkiwi",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model"
-      ],
-      "summary": "What can't it do? I find I rarely hit a wall, and even then there's often a way to prompt around it. It knows pretty much everything, you can direct with vague locations and it almost always nails it, and it works with keywords, full sentence prompting, or a combo. AND it rarely bleeds keywords into each other. I don't"
-    },
-    {
       "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
       "url": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
       "source": "TechCrunch AI",
@@ -2440,21 +2275,6 @@
         "platform"
       ],
       "summary": "Deezer said more than 90,000 AI-generated tracks were uploaded daily on the platform in June"
-    },
-    {
-      "title": "Respect the Heat save the GPU",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2f493/respect_the_heat_save_the_gpu/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T10:59:29+00:00",
-      "author": "u/tostane",
-      "reddit_community": "StableDiffusion",
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "gpu"
-      ],
-      "summary": "I hope people respect the GPU temps during the summer and power down during the high temperatures of the day so air conditioners can do what is needed. Let us all hope Mega AI centers do the same so homes do not suffer power losses. submitted by /u/tostane [link] [comments]"
     },
     {
       "title": "WAIC重磅成果｜智爱赛思全面升级并发布科研专属Token Plan",
@@ -2652,6 +2472,19 @@
       "summary": "I asked 6 AIs to pick a database, 430 times – Postgres wins, Oracle is invisible"
     },
     {
+      "title": "Can you see seven states from Lookout Mountain? We traced every sightline",
+      "url": "https://uptowhere.com/blog/seven-states-lookout-mountain/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-21T14:29:16+00:00",
+      "author": "tonvilro",
+      "engagement": 2,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Can you see seven states from Lookout Mountain? We traced every sightline"
+    },
+    {
       "title": "Are 128-bit symmetric keys secure against quantum computers?",
       "url": "https://kerkour.com/128-bit-keys-post-quantum",
       "source": "Hacker News",
@@ -2754,19 +2587,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "Where Your AI Lives Matters More Than How Smart It Is – Especially in the UAE"
-    },
-    {
-      "title": "Can you see seven states from Lookout Mountain? We traced every sightline",
-      "url": "https://uptowhere.com/blog/seven-states-lookout-mountain/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-21T14:29:16+00:00",
-      "author": "tonvilro",
-      "engagement": 1,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Can you see seven states from Lookout Mountain? We traced every sightline"
     },
     {
       "title": "AI Is ThoughtWare, Not Software: The End of Thinking as We Know It",
@@ -2897,19 +2717,6 @@
         "app"
       ],
       "summary": "Software may be written in programming languages, but human language is at the heart of developer collaboration. Developers explain how projects work in READMEs. They ask for help in issues. They review, debate, and improve code in pull requests. That collaboration often happens in English—but not always. As AI becomes"
-    },
-    {
-      "title": "Changing Video's camera angle with LTX 2.3 lora (CrossView Prompt)",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v2e4le/changing_videos_camera_angle_with_ltx_23_lora/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-21T10:06:42+00:00",
-      "author": "u/CQDSN",
-      "reddit_community": "StableDiffusion",
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "submitted by /u/CQDSN [link] [comments]"
     },
     {
       "title": "Gritt exits stealth with $32 million for robots to build solar plants — then, everything else",
