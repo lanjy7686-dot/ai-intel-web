@@ -3,270 +3,79 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="AI情报雷达：免费聚合全球AI投资、技术、产品、政策与产业资讯。" />
+  <meta name="description" content="AI情报雷达：聚合全球AI投资、技术、产品、政策、论文和社区资讯。" />
   <title>AI情报雷达</title>
   <style>
-    :root{
-      --bg:#07111f;--panel:#0d1b2e;--panel2:#10233a;--text:#eef5ff;--muted:#94a8c2;
-      --line:#1d3653;--accent:#4cc9f0;--accent2:#7b61ff;--good:#43d17a;--warn:#ffb84d;
-      --shadow:0 16px 50px rgba(0,0,0,.26)
-    }
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:radial-gradient(circle at 8% 0%,rgba(76,201,240,.15),transparent 33%),radial-gradient(circle at 92% 5%,rgba(123,97,255,.17),transparent 30%),var(--bg);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
-    a{color:inherit}
-    .wrap{max-width:1320px;margin:0 auto;padding:28px 20px 60px}
-    header{display:flex;gap:20px;justify-content:space-between;align-items:center;margin-bottom:22px}
-    .brand{display:flex;gap:14px;align-items:center}
-    .logo{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;font-size:27px;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 8px 30px rgba(76,201,240,.24)}
-    h1{font-size:28px;margin:0;letter-spacing:.5px}
-    .sub{color:var(--muted);font-size:13px;margin-top:5px}
-    .status{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px}
-    .dot{width:9px;height:9px;border-radius:50%;background:var(--good);box-shadow:0 0 12px var(--good)}
-    .free-badge{padding:5px 9px;border:1px solid rgba(67,209,122,.35);border-radius:999px;background:rgba(67,209,122,.09);color:#9af0bd;font-weight:700}
-    .toolbar,.panel,.x-panel{background:linear-gradient(180deg,rgba(16,35,58,.92),rgba(13,27,46,.94));border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px}
-    .toolbar{padding:16px;display:grid;grid-template-columns:2fr repeat(3,1fr) auto;gap:12px;margin-bottom:18px}
-    input,select,button{border-radius:12px;border:1px solid var(--line);background:#0a1728;color:var(--text);padding:12px 13px;font-size:14px;outline:none}
-    input:focus,select:focus{border-color:var(--accent)}
-    button{cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;font-weight:700}
-    button.secondary{background:#0a1728;border:1px solid var(--line)}
-    .x-panel{padding:18px;margin-bottom:18px}
-    .x-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:14px}
-    .x-head h2{margin:0 0 5px;font-size:18px}
-    .x-head p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
-    .x-mark{font-weight:900;font-size:20px;border:1px solid var(--line);border-radius:12px;padding:8px 12px;background:#05080d}
-    .x-search-row{display:grid;grid-template-columns:1fr auto;gap:10px}
-    .quick-searches{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-    .quick-searches button{background:#0a1728;border:1px solid var(--line);font-weight:600;padding:9px 11px}
-    .quick-searches button:hover{border-color:var(--accent);color:#bdeeff}
-    .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:18px}
-    .stat{padding:18px}
-    .stat .label{font-size:12px;color:var(--muted)}
-    .stat .value{font-size:28px;font-weight:800;margin-top:7px}
-    .layout{display:grid;grid-template-columns:1fr 330px;gap:18px}
-    .feed{padding:18px}
-    .feed-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-    .feed-head h2,.side h2{margin:0;font-size:18px}
-    .count{font-size:12px;color:var(--muted)}
-    .card{padding:18px 0;border-bottom:1px solid var(--line)}
-    .card:last-child{border-bottom:0}
-    .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px;margin-bottom:8px}
-    .badge{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#0a1728}
-    .score{color:#bdeeff}
-    .title{font-size:19px;font-weight:760;line-height:1.45;text-decoration:none}
-    .title:hover{color:var(--accent)}
-    .summary{color:#c8d6e7;line-height:1.75;font-size:14px;margin:9px 0 0}
-    .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:11px}
-    .tag{font-size:11px;color:#b7c7d9;background:#0a1728;padding:4px 8px;border-radius:8px;border:1px solid #17304d}
-    .side{padding:18px;height:max-content;position:sticky;top:18px}
-    .rank{margin-top:14px;display:grid;gap:12px}
-    .rank-item{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}
-    .rank-num{width:26px;height:26px;border-radius:9px;display:grid;place-items:center;background:#0a1728;border:1px solid var(--line);font-weight:800;font-size:12px}
-    .rank-title{font-size:13px;line-height:1.5;text-decoration:none}
-    .rank-source{font-size:11px;color:var(--muted);margin-top:3px}
-    .empty{padding:50px 20px;text-align:center;color:var(--muted)}
-    .notice{display:none;margin:0 0 18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,184,77,.45);background:rgba(255,184,77,.09);color:#ffd89a;font-size:13px;line-height:1.65}
-    .notice.show{display:block}
-    .footer{color:var(--muted);text-align:center;font-size:12px;margin-top:24px}
-    .loading{animation:pulse 1.2s infinite}
-    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
-    @media(max-width:980px){.toolbar{grid-template-columns:1fr 1fr}.stats{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.side{position:static}}
-    @media(max-width:620px){header{align-items:flex-start}.status{display:none}.toolbar,.x-search-row{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.wrap{padding:18px 12px 40px}.title{font-size:17px}}
+    :root{--bg:#07111f;--panel:#0d1b2e;--panel2:#10233a;--text:#eef5ff;--muted:#94a8c2;--line:#1d3653;--accent:#59b9ff;--accent2:#8b6cff;--good:#58d68d;--warn:#ffbe63;--shadow:0 16px 50px rgba(0,0,0,.25)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(circle at 8% 0%,rgba(89,185,255,.14),transparent 32%),radial-gradient(circle at 92% 5%,rgba(139,108,255,.17),transparent 30%),var(--bg);color:var(--text);font-family:Inter,"PingFang SC","Microsoft YaHei",system-ui,sans-serif}
+    a{color:inherit}.wrap{max-width:1360px;margin:0 auto;padding:28px 20px 60px}
+    header{display:flex;gap:18px;justify-content:space-between;align-items:center;margin-bottom:22px}.brand{display:flex;gap:14px;align-items:center}
+    .logo{width:54px;height:54px;border-radius:17px;display:grid;place-items:center;font-size:28px;background:linear-gradient(135deg,var(--accent),var(--accent2));box-shadow:0 8px 30px rgba(89,185,255,.22)}
+    h1{font-size:29px;margin:0}.sub{color:var(--muted);font-size:13px;margin-top:5px}.status{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:13px;flex-wrap:wrap;justify-content:flex-end}
+    .dot{width:9px;height:9px;border-radius:50%;background:var(--good);box-shadow:0 0 12px var(--good)}.pill{padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:#0a1728;color:#cbeaff}
+    .panel,.toolbar,.search-panel{background:linear-gradient(180deg,rgba(16,35,58,.92),rgba(13,27,46,.94));border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px}
+    .toolbar{padding:16px;display:grid;grid-template-columns:2fr repeat(3,1fr) auto;gap:12px;margin-bottom:16px}
+    input,select,button{border-radius:12px;border:1px solid var(--line);background:#0a1728;color:var(--text);padding:12px 13px;font-size:14px;outline:none}input:focus,select:focus{border-color:var(--accent)}
+    button{cursor:pointer;background:linear-gradient(135deg,var(--accent),var(--accent2));border:0;font-weight:700}button:hover{filter:brightness(1.08)}
+    .search-panel{padding:16px;margin-bottom:18px}.search-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:12px}.search-head h2{font-size:16px;margin:0}.search-note{font-size:12px;color:var(--muted)}
+    .search-grid{display:flex;gap:8px;flex-wrap:wrap}.search-link{display:inline-flex;align-items:center;gap:7px;text-decoration:none;padding:9px 12px;border-radius:11px;border:1px solid var(--line);background:#0a1728;font-size:13px;color:#dcecff;cursor:pointer}.search-link:hover{border-color:var(--accent);color:white}
+    .stats{display:grid;grid-template-columns:repeat(6,1fr);gap:13px;margin-bottom:18px}.stat{padding:17px}.stat .label{font-size:12px;color:var(--muted)}.stat .value{font-size:27px;font-weight:800;margin-top:7px}
+    .layout{display:grid;grid-template-columns:1fr 335px;gap:18px}.feed{padding:18px}.feed-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}.feed-head h2,.side h2{margin:0;font-size:18px}.count{font-size:12px;color:var(--muted)}
+    .card{padding:18px 0;border-bottom:1px solid var(--line)}.card:last-child{border-bottom:0}.meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px;margin-bottom:8px}
+    .badge{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:#0a1728}.source-reddit{color:#ffbc8a}.score{color:#bdeeff}.title{font-size:19px;font-weight:760;line-height:1.45;text-decoration:none}.title:hover{color:var(--accent)}
+    .summary{color:#c8d6e7;line-height:1.75;font-size:14px;margin:9px 0 0}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:11px}.tag{font-size:11px;color:#b7c7d9;background:#0a1728;padding:4px 8px;border-radius:8px;border:1px solid #17304d}
+    .side{padding:18px;height:max-content;position:sticky;top:18px}.rank{margin-top:14px;display:grid;gap:12px}.rank-item{display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start}.rank-num{width:26px;height:26px;border-radius:9px;display:grid;place-items:center;background:#0a1728;border:1px solid var(--line);font-weight:800;font-size:12px}.rank-title{font-size:13px;line-height:1.5;text-decoration:none}.rank-source{font-size:11px;color:var(--muted);margin-top:3px}
+    .source-list{display:grid;gap:10px;margin-top:14px}.source-row{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:#cbd8e7}.source-row span:last-child{color:#91d8ff;font-weight:700}
+    .empty{padding:50px 20px;text-align:center;color:var(--muted)}.notice{display:none;margin-bottom:18px;padding:14px 16px;border-radius:14px;border:1px solid rgba(255,190,99,.45);background:rgba(255,190,99,.09);color:#ffd89a;font-size:13px;line-height:1.65}.notice.show{display:block}.footer{color:var(--muted);text-align:center;font-size:12px;margin-top:24px}.loading{animation:pulse 1.2s infinite}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    @media(max-width:1060px){.toolbar{grid-template-columns:1fr 1fr}.stats{grid-template-columns:repeat(3,1fr)}.layout{grid-template-columns:1fr}.side{position:static}}@media(max-width:640px){header{align-items:flex-start}.status{display:none}.toolbar{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.wrap{padding:18px 12px 40px}.title{font-size:17px}.search-head{align-items:flex-start;flex-direction:column}}
   </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <div class="brand">
-      <div class="logo">📡</div>
-      <div>
-        <h1>AI情报雷达</h1>
-        <div class="sub">投资 · 技术 · 产品 · 政策 · 产业</div>
-      </div>
-    </div>
-    <div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span><span class="free-badge">完全免费模式</span></div>
-  </header>
+  <header><div class="brand"><div class="logo">📡</div><div><h1>AI情报雷达</h1><div class="sub">投资 · 技术 · 产品 · 政策 · 论文 · 全球社区</div></div></div><div class="status"><span class="dot"></span><span id="updatedAt">正在读取数据</span><span class="pill">完全免费模式</span><span id="redditStatus" class="pill">Reddit：检测中</span></div></header>
 
   <section class="toolbar">
-    <input id="keyword" placeholder="搜索公司、模型、融资、芯片、机器人…" />
-    <select id="category">
-      <option>全部分类</option><option>投资商业</option><option>技术研究</option>
-      <option>产品应用</option><option>政策治理</option><option>产业动态</option>
-    </select>
-    <select id="sourceType">
-      <option>全部来源</option><option>全球新闻</option><option>论文</option>
-      <option>技术社区</option><option>微信公众号</option><option>RSS</option>
-    </select>
-    <select id="timeRange">
-      <option value="1">近24小时</option><option value="3">近3天</option>
-      <option value="7" selected>近7天</option><option value="30">近30天</option>
-    </select>
+    <input id="keyword" placeholder="搜索公司、模型、融资、芯片、机器人、社区话题…" />
+    <select id="category"><option>全部分类</option><option>投资商业</option><option>技术研究</option><option>产品应用</option><option>政策治理</option><option>产业动态</option></select>
+    <select id="sourceType"><option>全部来源</option><option>Reddit</option><option>RSS</option><option>论文</option><option>技术社区</option><option>微信公众号</option><option>全球新闻</option></select>
+    <select id="timeRange"><option value="1">近24小时</option><option value="3">近3天</option><option value="7" selected>近7天</option><option value="30">近30天</option></select>
     <button id="refreshBtn">刷新</button>
   </section>
 
-  <section class="x-panel">
-    <div class="x-head">
-      <div>
-        <h2>X 实时搜索（免费）</h2>
-        <p>不调用X API、不消耗credits。点击后直接进入X查看实时公开结果，可能需要登录X账号。</p>
-      </div>
-      <div class="x-mark">𝕏</div>
-    </div>
-    <div class="x-search-row">
-      <input id="xQuery" placeholder="输入要在X搜索的关键词，如：AI机器人、OpenAI融资…" />
-      <button id="xSearchBtn">在X实时搜索</button>
-    </div>
-    <div class="quick-searches">
-      <button data-x-query="OpenAI OR Anthropic OR DeepSeek OR Gemini OR Claude OR NVIDIA OR 人工智能 OR 大模型">AI综合</button>
-      <button data-x-query="(AI OR 人工智能 OR 大模型) (funding OR investment OR valuation OR 融资 OR 投资 OR 估值)">AI投资融资</button>
-      <button data-x-query="(OpenAI OR Anthropic OR DeepSeek OR Gemini OR Claude) (release OR launch OR model OR 发布 OR 新模型)">大模型发布</button>
-      <button data-x-query="(AI OR 人工智能) (NVIDIA OR GPU OR chip OR 芯片 OR 算力)">AI芯片算力</button>
-      <button data-x-query="(AI OR 人工智能) (robotics OR robot OR 机器人)">AI机器人</button>
-      <button data-x-query="人工智能 OR 大模型 OR 智能体 OR AIGC lang:zh">中文AI动态</button>
-    </div>
-  </section>
+  <section class="search-panel"><div class="search-head"><h2>免费实时搜索入口</h2><div class="search-note">X不调用付费API；Reddit除自动RSS聚合外，也可直接打开站内最新搜索。</div></div><div class="search-grid">
+    <a class="search-link" data-platform="x" data-query="artificial intelligence OR AI OR LLM">𝕏 AI综合</a>
+    <a class="search-link" data-platform="x" data-query="AI funding OR AI investment OR AI valuation">𝕏 投资融资</a>
+    <a class="search-link" data-platform="x" data-query="AI model launch OR LLM release OR AI agent">𝕏 模型发布</a>
+    <a class="search-link" data-platform="reddit" data-query="AI funding investment">Reddit 投资讨论</a>
+    <a class="search-link" data-platform="reddit" data-query="LLM model release benchmark">Reddit 模型技术</a>
+    <a class="search-link" data-platform="reddit" data-query="AI agent robotics">Reddit 智能体机器人</a>
+    <a class="search-link" id="customSearch">搜索输入框关键词</a>
+  </div></section>
 
   <div id="sourceNotice" class="notice" role="status"></div>
-
   <section class="stats">
-    <div class="stat panel"><div class="label">当前结果</div><div class="value" id="sTotal">0</div></div>
-    <div class="stat panel"><div class="label">投资商业</div><div class="value" id="sInvest">0</div></div>
-    <div class="stat panel"><div class="label">技术研究</div><div class="value" id="sTech">0</div></div>
-    <div class="stat panel"><div class="label">产品应用</div><div class="value" id="sProduct">0</div></div>
-    <div class="stat panel"><div class="label">政策治理</div><div class="value" id="sPolicy">0</div></div>
+    <div class="stat panel"><div class="label">当前结果</div><div class="value" id="sTotal">0</div></div><div class="stat panel"><div class="label">投资商业</div><div class="value" id="sInvest">0</div></div><div class="stat panel"><div class="label">技术研究</div><div class="value" id="sTech">0</div></div><div class="stat panel"><div class="label">产品应用</div><div class="value" id="sProduct">0</div></div><div class="stat panel"><div class="label">政策治理</div><div class="value" id="sPolicy">0</div></div><div class="stat panel"><div class="label">Reddit</div><div class="value" id="sReddit">0</div></div>
   </section>
 
-  <main class="layout">
-    <section class="feed panel">
-      <div class="feed-head"><h2>最新资讯</h2><span class="count" id="resultCount">0 条</span></div>
-      <div id="feed"><div class="empty loading">正在加载最新AI资讯…</div></div>
-    </section>
-
-    <aside class="side panel">
-      <h2>重点关注</h2>
-      <div class="sub">按相关度与新鲜度排序</div>
-      <div id="ranking" class="rank"></div>
-    </aside>
-  </main>
-
-  <div class="footer">内容仅作信息聚合，不构成投资建议。免费模式不调用X API；公众号及网站内容请遵守平台规则和版权要求。</div>
+  <main class="layout"><section class="feed panel"><div class="feed-head"><h2>最新资讯</h2><span class="count" id="resultCount">0 条</span></div><div id="feed"><div class="empty loading">正在加载最新AI资讯…</div></div></section><aside class="side panel"><h2>重点关注</h2><div class="sub">按相关度与新鲜度排序</div><div id="ranking" class="rank"></div><h2 style="margin-top:24px">来源概览</h2><div id="sourceOverview" class="source-list"></div></aside></main>
+  <div class="footer">内容仅作公开信息聚合，不构成投资建议。Reddit内容保留来源、作者与原帖链接；X使用免费站内搜索入口。</div>
 </div>
 
 <script>
-const fallbackData = {
-  updated_at: new Date().toISOString(),
-  mode: "free",
-  articles: [{
-    title:"AI情报雷达已切换为完全免费模式",
-    url:"#",
-    source:"系统示例",
-    source_type:"RSS",
-    published_at:new Date().toISOString(),
-    category:"产品应用",
-    relevance_score:88,
-    summary:"自动聚合免费公开资讯；X改为一键实时搜索，不再调用付费API。",
-    tags:["免费模式","X实时搜索"]
-  }]
-};
-
-let store = fallbackData.articles;
-let dataErrors = [];
-const el = id => document.getElementById(id);
-const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
-
-function formatTime(iso){
-  const date = new Date(iso);
-  if(Number.isNaN(date.getTime())) return "";
-  return new Intl.DateTimeFormat("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}).format(date);
-}
-
-function openXSearch(query){
-  const text = String(query || "").trim();
-  if(!text){ el("xQuery").focus(); return; }
-  const url = `https://x.com/search?q=${encodeURIComponent(text)}&src=typed_query&f=live`;
-  window.open(url,"_blank","noopener,noreferrer");
-}
-
-function filtered(){
-  const query = el("keyword").value.trim().toLowerCase();
-  const category = el("category").value;
-  const source = el("sourceType").value;
-  const days = Number(el("timeRange").value);
-  const cutoff = Date.now() - days * 86400000;
-  return store.filter(article => {
-    const text = [article.title,article.summary,article.source,(article.tags||[]).join(" ")].join(" ").toLowerCase();
-    const matchesQuery = !query || text.includes(query);
-    const matchesCategory = category === "全部分类" || article.category === category;
-    const matchesSource = source === "全部来源" || article.source_type === source;
-    const timestamp = new Date(article.published_at).getTime();
-    const matchesTime = Number.isNaN(timestamp) || timestamp >= cutoff;
-    return matchesQuery && matchesCategory && matchesSource && matchesTime;
-  }).sort((a,b)=>(b.relevance_score||0)-(a.relevance_score||0) || new Date(b.published_at)-new Date(a.published_at));
-}
-
-function render(){
-  const rows = filtered();
-  el("resultCount").textContent = `${rows.length} 条`;
-  el("sTotal").textContent = rows.length;
-  const count = category => rows.filter(item => item.category === category).length;
-  el("sInvest").textContent = count("投资商业");
-  el("sTech").textContent = count("技术研究");
-  el("sProduct").textContent = count("产品应用");
-  el("sPolicy").textContent = count("政策治理");
-
-  const notice = el("sourceNotice");
-  notice.className = "notice";
-  if(dataErrors.length){
-    notice.textContent = "部分免费来源本轮暂时无法访问，其他来源仍正常更新；系统会在下一轮自动重试。";
-    notice.classList.add("show");
-  }
-
-  el("feed").innerHTML = rows.length ? rows.map(article => `
-    <article class="card">
-      <div class="meta">
-        <span class="badge">${escapeHtml(article.category || "其他")}</span>
-        <span>${escapeHtml(article.source || "")}</span><span>·</span>
-        <span>${escapeHtml(article.source_type || "")}</span><span>·</span>
-        <span>${formatTime(article.published_at)}</span>
-        <span class="score">相关度 ${Number(article.relevance_score||0)}</span>
-      </div>
-      <a class="title" href="${escapeHtml(article.url || "#")}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>
-      <p class="summary">${escapeHtml(article.summary || "")}</p>
-      <div class="tags">${(article.tags||[]).slice(0,8).map(tag=>`<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-    </article>`).join("") : `<div class="empty">没有符合条件的资讯</div>`;
-
-  el("ranking").innerHTML = rows.slice(0,8).map((article,index)=>`
-    <div class="rank-item">
-      <div class="rank-num">${index+1}</div>
-      <div>
-        <a class="rank-title" href="${escapeHtml(article.url||"#")}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>
-        <div class="rank-source">${escapeHtml(article.source||"")} · ${Number(article.relevance_score||0)}</div>
-      </div>
-    </div>`).join("");
-}
-
-async function loadData(){
-  try{
-    const response = await fetch(`data/articles.json?t=${Date.now()}`,{cache:"no-store"});
-    if(!response.ok) throw new Error("data unavailable");
-    const data = await response.json();
-    store = Array.isArray(data.articles) ? data.articles.filter(item => item.source_type !== "X") : [];
-    dataErrors = Array.isArray(data.errors) ? data.errors.filter(item => !String(item).startsWith("X:")) : [];
-    el("updatedAt").textContent = `更新于 ${formatTime(data.updated_at)}`;
-  }catch(error){
-    store = fallbackData.articles;
-    dataErrors = [];
-    el("updatedAt").textContent = "离线预览模式";
-  }
-  render();
-}
-
-["keyword","category","sourceType","timeRange"].forEach(id=>el(id).addEventListener(id==="keyword"?"input":"change",render));
-el("refreshBtn").addEventListener("click",loadData);
-el("xSearchBtn").addEventListener("click",()=>openXSearch(el("xQuery").value));
-el("xQuery").addEventListener("keydown",event=>{if(event.key==="Enter") openXSearch(event.currentTarget.value);});
-document.querySelectorAll("[data-x-query]").forEach(button=>button.addEventListener("click",()=>openXSearch(button.dataset.xQuery)));
-loadData();
+const fallbackData={updated_at:new Date().toISOString(),source_status:{Reddit:{state:"preview",count:0}},articles:[{title:"网页端正在等待最新数据",url:"#",source:"系统示例",source_type:"RSS",published_at:new Date().toISOString(),category:"产品应用",relevance_score:80,summary:"部署完成后，GitHub Actions会自动更新RSS、Reddit、arXiv和Hacker News资讯。",tags:["免费模式"]}]};
+let store=fallbackData.articles,sourceStatus={},dataErrors=[];
+const el=id=>document.getElementById(id);const escapeHtml=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function formatTime(iso){const d=new Date(iso);if(Number.isNaN(d.getTime()))return "";return new Intl.DateTimeFormat("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}).format(d)}
+function openPlatformSearch(platform,query){const q=encodeURIComponent((query||"artificial intelligence").trim());const url=platform==="reddit"?`https://www.reddit.com/search/?q=${q}&sort=new`:`https://x.com/search?q=${q}&src=typed_query&f=live`;window.open(url,"_blank","noopener")}
+function filtered(){const q=el("keyword").value.trim().toLowerCase(),cat=el("category").value,src=el("sourceType").value,days=Number(el("timeRange").value),cutoff=Date.now()-days*86400000;return store.filter(a=>{const text=[a.title,a.summary,a.source,a.author,(a.tags||[]).join(" ")].join(" ").toLowerCase();const t=new Date(a.published_at).getTime();return(!q||text.includes(q))&&(cat==="全部分类"||a.category===cat)&&(src==="全部来源"||a.source_type===src)&&(Number.isNaN(t)||t>=cutoff)}).sort((a,b)=>(b.relevance_score||0)-(a.relevance_score||0)||new Date(b.published_at)-new Date(a.published_at))}
+function render(){const rows=filtered();el("resultCount").textContent=`${rows.length} 条`;el("sTotal").textContent=rows.length;const count=c=>rows.filter(x=>x.category===c).length;el("sInvest").textContent=count("投资商业");el("sTech").textContent=count("技术研究");el("sProduct").textContent=count("产品应用");el("sPolicy").textContent=count("政策治理");el("sReddit").textContent=rows.filter(x=>x.source_type==="Reddit").length;
+  const notice=el("sourceNotice");notice.className="notice";notice.textContent="";const selected=el("sourceType").value,reddit=sourceStatus.Reddit||{};if(selected==="Reddit"&&rows.length===0){const reason=reddit.state==="error"?`Reddit自动订阅本轮暂时失败：${reddit.message||"可能触发访问频率限制"}。`:"近期开启的社区中暂未匹配到内容。";notice.innerHTML=`<strong>Reddit提示：</strong>${escapeHtml(reason)} 可使用上方“Reddit实时搜索”直接查看最新讨论。`;notice.classList.add("show")}else if(dataErrors.some(x=>String(x).includes("Reddit"))){notice.innerHTML="<strong>部分来源提示：</strong>Reddit本轮可能受频率限制，其他免费来源仍正常更新。";notice.classList.add("show")}
+  el("feed").innerHTML=rows.length?rows.map(a=>`<article class="card"><div class="meta"><span class="badge">${escapeHtml(a.category||"其他")}</span><span class="${a.source_type==="Reddit"?"source-reddit":""}">${escapeHtml(a.source||"")}</span>${a.author?`<span>· ${escapeHtml(a.author)}</span>`:""}<span>· ${escapeHtml(a.source_type||"")}</span><span>· ${formatTime(a.published_at)}</span><span class="score">相关度 ${Number(a.relevance_score||0)}</span></div><a class="title" href="${escapeHtml(a.url||"#")}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a><p class="summary">${escapeHtml(a.summary||"")}</p><div class="tags">${(a.tags||[]).slice(0,8).map(t=>`<span class="tag">${escapeHtml(t)}</span>`).join("")}</div></article>`).join(""):`<div class="empty">没有符合条件的资讯</div>`;
+  el("ranking").innerHTML=rows.slice(0,8).map((a,i)=>`<div class="rank-item"><div class="rank-num">${i+1}</div><div><a class="rank-title" href="${escapeHtml(a.url||"#")}" target="_blank" rel="noopener">${escapeHtml(a.title)}</a><div class="rank-source">${escapeHtml(a.source||"")} · ${Number(a.relevance_score||0)}</div></div></div>`).join("");
+  const sourceCounts={};store.forEach(a=>sourceCounts[a.source_type||"其他"]=(sourceCounts[a.source_type||"其他"]||0)+1);el("sourceOverview").innerHTML=Object.entries(sourceCounts).sort((a,b)=>b[1]-a[1]).map(([name,n])=>`<div class="source-row"><span>${escapeHtml(name)}</span><span>${n}</span></div>`).join("")}
+async function loadData(){try{const response=await fetch(`data/articles.json?t=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw new Error("data unavailable");const data=await response.json();store=Array.isArray(data.articles)?data.articles:[];sourceStatus=data.source_status||{};dataErrors=Array.isArray(data.errors)?data.errors:[];el("updatedAt").textContent=`更新于 ${formatTime(data.updated_at)}`;const reddit=sourceStatus.Reddit||{};el("redditStatus").textContent=reddit.state==="fetched"?`Reddit：${reddit.count||0} 条`:"Reddit：待更新"}catch(error){store=fallbackData.articles;sourceStatus={};dataErrors=[];el("updatedAt").textContent="离线预览模式";el("redditStatus").textContent="Reddit：待更新"}render()}
+["keyword","category","sourceType","timeRange"].forEach(id=>el(id).addEventListener(id==="keyword"?"input":"change",render));document.querySelectorAll(".search-link[data-platform]").forEach(link=>link.addEventListener("click",()=>openPlatformSearch(link.dataset.platform,link.dataset.query)));el("customSearch").addEventListener("click",()=>openPlatformSearch("reddit",el("keyword").value.trim()||"artificial intelligence"));el("refreshBtn").addEventListener("click",loadData);loadData();
 </script>
 </body>
 </html>
