@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-07-21T12:00:00Z",
+  "articles": [
+    {
+      "title": "AI情报雷达网页端部署完成示例",
+      "url": "#",
+      "source": "系统",
+      "source_type": "RSS",
+      "published_at": "2026-07-21T12:00:00Z",
+      "category": "产品应用",
+      "relevance_score": 90,
+      "summary": "部署到GitHub Pages后，GitHub Actions将定时抓取并更新AI资讯。",
+      "tags": [
+        "网页端",
+        "自动化",
+        "AI资讯"
+      ]
+    }
+  ]
+}
