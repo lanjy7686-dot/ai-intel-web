@@ -1,9 +1,10 @@
 {
+  "mode": "free",
   "gdelt": {
-    "enabled": true,
+    "enabled": false,
     "query": "(\"artificial intelligence\" OR \"generative AI\" OR \"large language model\" OR OpenAI OR Anthropic OR DeepSeek OR NVIDIA)",
-    "timespan": "1d",
-    "max_items": 80
+    "timespan": "3d",
+    "max_items": 40
   },
   "arxiv": {
     "enabled": true,
@@ -27,12 +28,24 @@
     ]
   },
   "x": {
-    "enabled": true,
-    "max_items": 10,
-    "fetch_interval_minutes": 180,
-    "query": "(OpenAI OR Anthropic OR DeepSeek OR Gemini OR Claude OR NVIDIA OR \"artificial intelligence\" OR LLM OR 人工智能 OR 大模型 OR 智能体) (funding OR valuation OR investment OR IPO OR earnings OR launch OR release OR benchmark OR model OR agent OR chip OR robotics OR 融资 OR 投资 OR 发布 OR 芯片 OR 机器人) -is:retweet -is:reply"
+    "enabled": false,
+    "mode": "free_search_only"
   },
   "rss": [
+    {
+      "name": "Google News 中文AI",
+      "url": "https://news.google.com/rss/search?q=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+OR+AI%E8%9E%8D%E8%B5%84&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "source_type": "全球新闻",
+      "language": "zh",
+      "enabled": true
+    },
+    {
+      "name": "Google News Global AI",
+      "url": "https://news.google.com/rss/search?q=artificial+intelligence+OR+LLM+OR+AI+funding+OR+robotics&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "全球新闻",
+      "language": "en",
+      "enabled": true
+    },
     {
       "name": "OpenAI News",
       "url": "https://openai.com/news/rss.xml",
@@ -50,6 +63,20 @@
     {
       "name": "MIT Technology Review AI",
       "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "source_type": "RSS",
+      "language": "en",
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "source_type": "RSS",
+      "language": "en",
+      "enabled": true
+    },
+    {
+      "name": "VentureBeat AI",
+      "url": "https://venturebeat.com/category/ai/feed/",
       "source_type": "RSS",
       "language": "en",
       "enabled": true
