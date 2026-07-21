@@ -13,7 +13,7 @@ from dateutil import parser as dateparser
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config/sources.json"
 OUTPUT = ROOT / "data/articles.json"
-UA = "AI-Intel-Web/1.0 (personal research dashboard)"
+UA = "AI-Intel-Web/1.1 (personal research dashboard)"
 
 CATEGORY_KEYWORDS = {
     "投资商业":["funding","raised","valuation","invest","investment","venture capital","ipo","acquisition","merger","revenue","earnings","stock","shares","融资","估值","投资","并购","收购","上市","财报","营收","利润","股价","商业化","资本"],
@@ -44,6 +44,15 @@ def canonical(url):
         return urlunsplit((p.scheme.lower(),p.netloc.lower(),p.path.rstrip("/"),urlencode(q),""))
     except Exception:return url
 
+def load_previous_payload():
+    try:
+        return json.loads(OUTPUT.read_text(encoding="utf-8")) if OUTPUT.exists() else {}
+    except Exception:
+        return {}
+
+def previous_x_articles(previous):
+    return [a for a in previous.get("articles", []) if a.get("source_type") == "X"]
+
 def classify(a):
     text=f"{a.get('title','')} {a.get('summary','')} {a.get('content','')}".lower()
     scores={}
@@ -59,7 +68,8 @@ def classify(a):
     core=sum(1 for t in CORE_TERMS if t in text)
     age=max(0,(datetime.now(timezone.utc)-dt(a.get("published_at"))).total_seconds()/3600)
     fresh=max(0,25-int(age/4))
-    a["relevance_score"]=min(100,20+min(30,core*6)+min(25,sum(scores.values())*3)+fresh)
+    engagement=min(15,int(a.get("engagement",0) or 0)//20)
+    a["relevance_score"]=min(100,20+min(30,core*6)+min(25,sum(scores.values())*3)+fresh+engagement)
     a["tags"]=list(dict.fromkeys(tags))
     a["summary"]=clean(a.get("summary") or a.get("content") or a.get("title"))[:260]
     a.pop("content",None)
@@ -71,12 +81,10 @@ def rss_collect(cfg):
         if not src.get("enabled",True):continue
         feed=feedparser.parse(src["url"])
         for e in feed.entries[:50]:
-            title=clean(e.get("title"))
-            url=e.get("link","")
+            title=clean(e.get("title")); url=e.get("link","")
             if not title or not url:continue
-            content=clean((e.get("summary") or e.get("description") or ""))
-            if e.get("content"):
-                content=clean(" ".join(x.get("value","") for x in e.get("content",[])))
+            content=clean(e.get("summary") or e.get("description") or "")
+            if e.get("content"):content=clean(" ".join(x.get("value","") for x in e.get("content",[])))
             out.append({"title":title,"url":url,"source":src.get("name","RSS"),"source_type":src.get("source_type","RSS"),"published_at":dt(e.get("published") or e.get("updated")).isoformat(),"content":content})
     return out
 
@@ -110,20 +118,34 @@ def hn_collect(cfg):
             out.append({"title":title,"url":x.get("url") or f"https://news.ycombinator.com/item?id={x.get('id')}","source":"Hacker News","source_type":"技术社区","published_at":datetime.fromtimestamp(x.get("time",0),tz=timezone.utc).isoformat(),"content":clean(x.get("text",""))})
     return out[:c.get("max_items",40)]
 
-def x_collect(cfg):
+def x_collect(cfg, previous):
     c=cfg.get("x",{})
     token=os.getenv("X_BEARER_TOKEN","").strip()
-    if not c.get("enabled",True) or not token:return []
-    r=requests.get("https://api.x.com/2/tweets/search/recent",params={"query":c["query"],"max_results":min(100,max(10,c.get("max_items",100))),"tweet.fields":"created_at,author_id,lang","expansions":"author_id","user.fields":"name,username"},headers={"Authorization":f"Bearer {token}"},timeout=35)
+    cached=previous_x_articles(previous)
+    previous_status=previous.get("source_status",{}).get("X",{})
+    if not c.get("enabled",True):
+        return cached,{"enabled":False,"configured":bool(token),"state":"disabled","count":len(cached)}
+    if not token:
+        return cached,{"enabled":True,"configured":False,"state":"missing_token","count":len(cached),"message":"请在GitHub Secrets中配置 X_BEARER_TOKEN"}
+    interval=max(30,int(c.get("fetch_interval_minutes",180)))
+    last_fetch=previous_status.get("last_fetch_at")
+    if last_fetch:
+        elapsed=(datetime.now(timezone.utc)-dt(last_fetch)).total_seconds()/60
+        if elapsed < interval:
+            return cached,{"enabled":True,"configured":True,"state":"cached","count":len(cached),"last_fetch_at":last_fetch,"next_fetch_minutes":max(1,int(interval-elapsed))}
+    params={"query":c["query"],"max_results":min(100,max(10,int(c.get("max_items",10)))),"tweet.fields":"created_at,author_id,lang,public_metrics,possibly_sensitive","expansions":"author_id","user.fields":"name,username,verified,public_metrics"}
+    r=requests.get("https://api.x.com/2/tweets/search/recent",params=params,headers={"Authorization":f"Bearer {token}"},timeout=35)
     r.raise_for_status()
-    p=r.json(); users={u["id"]:u for u in p.get("includes",{}).get("users",[])}
+    payload=r.json(); users={u["id"]:u for u in payload.get("includes",{}).get("users",[])}
     out=[]
-    for x in p.get("data",[]):
-        u=users.get(x.get("author_id"),{}); username=u.get("username","")
-        text=clean(x.get("text"))
+    for post in payload.get("data",[]):
+        user=users.get(post.get("author_id"),{}); username=user.get("username",""); text=clean(post.get("text"))
         if not text:continue
-        out.append({"title":text[:150],"url":f"https://x.com/{username}/status/{x['id']}" if username else f"https://x.com/i/web/status/{x['id']}","source":f"X · @{username}" if username else "X","source_type":"X","published_at":dt(x.get("created_at")).isoformat(),"content":text})
-    return out
+        metrics=post.get("public_metrics",{})
+        engagement=sum(int(metrics.get(k,0) or 0) for k in ("like_count","retweet_count","reply_count","quote_count"))
+        out.append({"title":text[:180],"url":f"https://x.com/{username}/status/{post['id']}" if username else f"https://x.com/i/web/status/{post['id']}","source":f"X · @{username}" if username else "X","source_type":"X","published_at":dt(post.get("created_at")).isoformat(),"content":text,"engagement":engagement,"verified":bool(user.get("verified",False))})
+    now=datetime.now(timezone.utc).isoformat()
+    return out,{"enabled":True,"configured":True,"state":"fetched","count":len(out),"last_fetch_at":now,"interval_minutes":interval}
 
 def wechat_collect(cfg):
     p=ROOT/cfg.get("wechat_urls_file","config/wechat_urls.txt")
@@ -142,22 +164,28 @@ def wechat_collect(cfg):
     return out
 
 def main():
-    cfg=json.loads(CONFIG.read_text(encoding="utf-8"))
-    collectors=[("GDELT",gdelt_collect),("RSS",rss_collect),("arXiv",arxiv_collect),("Hacker News",hn_collect),("X",x_collect),("微信",wechat_collect)]
-    all_items=[]; errors=[]
-    with cf.ThreadPoolExecutor(max_workers=6) as ex:
+    cfg=json.loads(CONFIG.read_text(encoding="utf-8")); previous=load_previous_payload()
+    collectors=[("GDELT",gdelt_collect),("RSS",rss_collect),("arXiv",arxiv_collect),("Hacker News",hn_collect),("微信",wechat_collect)]
+    all_items=[]; errors=[]; source_status={}
+    with cf.ThreadPoolExecutor(max_workers=5) as ex:
         jobs={ex.submit(fn,cfg):name for name,fn in collectors}
         for fut,name in [(f,n) for f,n in jobs.items()]:
-            try:all_items.extend(fut.result())
-            except Exception as e:errors.append(f"{name}: {e}")
+            try:
+                items=fut.result(); all_items.extend(items); source_status[name]={"state":"fetched","count":len(items)}
+            except Exception as e:
+                errors.append(f"{name}: {e}"); source_status[name]={"state":"error","count":0,"message":str(e)}
+    try:
+        x_items,x_status=x_collect(cfg,previous); all_items.extend(x_items); source_status["X"]=x_status
+    except Exception as e:
+        cached=previous_x_articles(previous); all_items.extend(cached); errors.append(f"X: {e}")
+        source_status["X"]={"enabled":True,"configured":True,"state":"error_cached","count":len(cached),"message":str(e),"last_fetch_at":previous.get("source_status",{}).get("X",{}).get("last_fetch_at")}
     seen=set(); out=[]
     for a in all_items:
         key=hashlib.sha256((re.sub(r"\W+","",a.get("title","").lower())+"|"+canonical(a.get("url",""))).encode()).hexdigest()
         if key in seen:continue
         seen.add(key); out.append(classify(a))
-    out.sort(key=lambda x:(x.get("relevance_score",0),dt(x.get("published_at"))),reverse=True)
-    payload={"updated_at":datetime.now(timezone.utc).isoformat(),"count":len(out),"errors":errors,"articles":out[:500]}
-    OUTPUT.parent.mkdir(parents=True,exist_ok=True)
-    OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
-    print(json.dumps({"count":len(out),"errors":errors},ensure_ascii=False))
+    out.sort(key=lambda x:(x.get("relevance_score",0),x.get("engagement",0),dt(x.get("published_at"))),reverse=True)
+    payload={"updated_at":datetime.now(timezone.utc).isoformat(),"count":len(out),"errors":errors,"source_status":source_status,"articles":out[:500]}
+    OUTPUT.parent.mkdir(parents=True,exist_ok=True); OUTPUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8")
+    print(json.dumps({"count":len(out),"errors":errors,"x":source_status.get("X")},ensure_ascii=False))
 if __name__=="__main__":main()
