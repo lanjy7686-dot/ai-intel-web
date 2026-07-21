@@ -9,12 +9,12 @@
   "arxiv": {
     "enabled": true,
     "query": "cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.RO",
-    "max_items": 50
+    "max_items": 60
   },
   "hackernews": {
     "enabled": true,
-    "scan_items": 250,
-    "max_items": 50,
+    "scan_items": 320,
+    "max_items": 60,
     "keywords": [
       "AI",
       "LLM",
@@ -26,7 +26,12 @@
       "agent",
       "machine learning",
       "inference",
-      "model"
+      "model",
+      "MCP",
+      "multimodal",
+      "datacenter",
+      "GPU",
+      "chip"
     ]
   },
   "reddit": {
@@ -42,7 +47,10 @@
       "StableDiffusion",
       "LanguageTechnology",
       "MLQuestions",
-      "ChatGPT"
+      "ChatGPT",
+      "hardware",
+      "datacenter",
+      "datascience"
     ]
   },
   "x": {
@@ -58,72 +66,114 @@
     {
       "name": "OpenAI News",
       "url": "https://openai.com/news/rss.xml",
-      "source_type": "RSS",
+      "source_type": "巨头企业",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 30
     },
     {
       "name": "Google AI Blog",
       "url": "https://blog.google/technology/ai/rss/",
-      "source_type": "RSS",
+      "source_type": "巨头企业",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 30
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "source_type": "巨头企业",
+      "language": "en",
+      "enabled": true,
+      "max_items": 30
+    },
+    {
+      "name": "Microsoft Official Blog",
+      "url": "https://blogs.microsoft.com/feed/",
+      "source_type": "巨头企业",
+      "language": "en",
+      "enabled": true,
+      "max_items": 25
+    },
+    {
+      "name": "AWS Artificial Intelligence",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "source_type": "巨头企业",
+      "language": "en",
+      "enabled": true,
+      "max_items": 30
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/feed/",
+      "source_type": "产业链",
+      "language": "en",
+      "enabled": true,
+      "max_items": 35
     },
     {
       "name": "MIT Technology Review AI",
       "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
-      "source_type": "RSS",
+      "source_type": "新技术",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 35
     },
     {
       "name": "TechCrunch AI",
       "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-      "source_type": "RSS",
+      "source_type": "巨头企业",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 35
     },
     {
       "name": "VentureBeat AI",
       "url": "https://venturebeat.com/category/ai/feed/",
-      "source_type": "RSS",
+      "source_type": "产业链",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 35
     },
     {
       "name": "The Verge AI",
       "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-      "source_type": "RSS",
+      "source_type": "巨头企业",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 30
     },
     {
       "name": "GitHub AI & ML",
       "url": "https://github.blog/ai-and-ml/feed/",
-      "source_type": "RSS",
+      "source_type": "新技术",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 35
     },
     {
       "name": "Hugging Face Blog",
       "url": "https://huggingface.co/blog/feed.xml",
-      "source_type": "RSS",
+      "source_type": "新技术",
       "language": "en",
-      "enabled": true
+      "enabled": true,
+      "max_items": 35
     },
     {
       "name": "机器之心",
       "url": "https://www.jiqizhixin.com/rss",
       "source_type": "国内资讯",
       "language": "zh",
-      "enabled": true
+      "enabled": true,
+      "max_items": 45
     },
     {
       "name": "量子位",
       "url": "https://www.qbitai.com/feed",
       "source_type": "国内资讯",
       "language": "zh",
-      "enabled": true
+      "enabled": true,
+      "max_items": 45
     },
     {
       "name": "中文AI新闻聚合",
@@ -131,7 +181,7 @@
       "source_type": "国内资讯",
       "language": "zh",
       "enabled": true,
-      "max_items": 80
+      "max_items": 40
     },
     {
       "name": "中文AI投资融资",
@@ -139,7 +189,7 @@
       "source_type": "国内资讯",
       "language": "zh",
       "enabled": true,
-      "max_items": 60
+      "max_items": 30
     },
     {
       "name": "中文AI技术开源",
@@ -147,7 +197,79 @@
       "source_type": "国内资讯",
       "language": "zh",
       "enabled": true,
-      "max_items": 60
+      "max_items": 30
+    },
+    {
+      "name": "全球AI巨头动态",
+      "url": "https://news.google.com/rss/search?q=OpenAI%20OR%20Anthropic%20OR%20%22Google%20DeepMind%22%20OR%20%22Microsoft%20AI%22%20OR%20%22Meta%20AI%22%20OR%20%22Amazon%20Bedrock%22%20OR%20%22Apple%20Intelligence%22%20OR%20xAI&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "巨头企业",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 45
+    },
+    {
+      "name": "中国AI巨头动态",
+      "url": "https://news.google.com/rss/search?q=%E7%99%BE%E5%BA%A6%20%E6%96%87%E5%BF%83%20OR%20%E9%98%BF%E9%87%8C%20%E9%80%9A%E4%B9%89%20OR%20%E8%85%BE%E8%AE%AF%20%E6%B7%B7%E5%85%83%20OR%20%E5%AD%97%E8%8A%82%20%E8%B1%86%E5%8C%85%20OR%20%E5%8D%8E%E4%B8%BA%20%E7%9B%98%E5%8F%A4%20OR%20DeepSeek%20OR%20%E6%99%BA%E8%B0%B1%20OR%20%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2%20OR%20MiniMax%20OR%20%E7%99%BE%E5%B7%9D%E6%99%BA%E8%83%BD&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "巨头企业",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 45
+    },
+    {
+      "name": "全球AI芯片供应链",
+      "url": "https://news.google.com/rss/search?q=NVIDIA%20OR%20AMD%20OR%20Intel%20OR%20Broadcom%20OR%20TSMC%20OR%20ASML%20OR%20%22SK%20Hynix%22%20OR%20Micron%20OR%20HBM%20OR%20%22AI%20accelerator%22&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "产业链",
+      "language": "en",
+      "enabled": true,
+      "max_items": 45
+    },
+    {
+      "name": "中国算力芯片产业链",
+      "url": "https://news.google.com/rss/search?q=%E5%8D%8E%E4%B8%BA%20%E6%98%87%E8%85%BE%20OR%20%E5%AF%92%E6%AD%A6%E7%BA%AA%20OR%20%E6%B5%B7%E5%85%89%20OR%20%E5%A3%81%E4%BB%9E%20OR%20%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%20OR%20%E6%B2%90%E6%9B%A6%20OR%20%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85%20OR%20%E5%85%89%E6%A8%A1%E5%9D%97%20OR%20%E6%B6%B2%E5%86%B7%20OR%20AI%E6%9C%8D%E5%8A%A1%E5%99%A8%20OR%20%E7%AE%97%E5%8A%9B%E4%B8%AD%E5%BF%83&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "产业链",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 45
+    },
+    {
+      "name": "AI数据中心与能源",
+      "url": "https://news.google.com/rss/search?q=%22AI%20data%20center%22%20OR%20%22AI%20factory%22%20OR%20optical%20interconnect%20OR%20CPO%20OR%20liquid%20cooling%20OR%20power%20grid%20OR%20nuclear%20power%20AI&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "产业链",
+      "language": "en",
+      "enabled": true,
+      "max_items": 40
+    },
+    {
+      "name": "AI基础设施与企业软件",
+      "url": "https://news.google.com/rss/search?q=CoreWeave%20OR%20Cerebras%20OR%20Groq%20OR%20Mistral%20OR%20Perplexity%20OR%20Databricks%20OR%20Snowflake%20OR%20Scale%20AI%20OR%20Hugging%20Face&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "产业链",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 40
+    },
+    {
+      "name": "前沿模型与智能体技术",
+      "url": "https://news.google.com/rss/search?q=%22agentic%20AI%22%20OR%20%22multimodal%20model%22%20OR%20%22world%20model%22%20OR%20%22reasoning%20model%22%20OR%20%22MCP%20protocol%22%20OR%20%22long%20context%22%20OR%20%22post-training%22%20OR%20%22test-time%20compute%22&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "新技术",
+      "language": "en",
+      "enabled": true,
+      "max_items": 45
+    },
+    {
+      "name": "具身智能与机器人",
+      "url": "https://news.google.com/rss/search?q=%22physical%20AI%22%20OR%20%22embodied%20AI%22%20OR%20humanoid%20robot%20OR%20robotics%20foundation%20model%20OR%20VLA%20model&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "新技术",
+      "language": "en",
+      "enabled": true,
+      "max_items": 40
+    },
+    {
+      "name": "AI for Science",
+      "url": "https://news.google.com/rss/search?q=%22AI%20for%20science%22%20OR%20%22AI%20drug%20discovery%22%20OR%20protein%20model%20OR%20weather%20AI%20OR%20materials%20AI%20OR%20scientific%20agent&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "新技术",
+      "language": "en",
+      "enabled": true,
+      "max_items": 35
     }
   ]
 }
