@@ -1,41 +1,36 @@
-# AI情报雷达｜网页端
+# AI情报雷达｜完全免费网页端
 
-这是一个可以部署到 **GitHub Pages** 的网页端AI资讯雷达。
+这是一个部署在 **GitHub Pages** 上的AI资讯雷达，不需要服务器，不调用付费X API。
 
-## 网页功能
+## 免费模式功能
 
-- 聚合全球新闻、X、arXiv、Hacker News、RSS、微信公众号公开文章链接
+- 自动聚合中文和英文AI新闻RSS
+- 自动抓取OpenAI、Google AI、MIT Technology Review、TechCrunch、VentureBeat等公开订阅源
+- 自动抓取arXiv最新AI论文
+- 自动抓取Hacker News技术社区动态
+- 支持添加公开微信公众号文章链接
 - 自动去重、分类、相关度评分
-- 支持关键词、分类、来源、时间筛选
+- 支持关键词、分类、来源和时间筛选
+- 网页提供X实时搜索入口，点击后直接在X查看结果
+- GitHub Actions每2小时自动更新
 - 手机和电脑自适应
-- GitHub Actions 每30分钟自动抓取并更新网页
-- 不需要本地安装，不需要常开电脑
 
-## 直接预览
+## X实时搜索
 
-双击 `index.html` 可以打开离线预览。离线状态显示示例数据；部署上线后读取 `data/articles.json` 的实时数据。
+免费模式不调用X API，也不使用 `X_BEARER_TOKEN`，因此不会产生X API credits费用。
 
-## 上线步骤
+网页内预设：
 
-1. 在 GitHub 新建一个公开仓库，例如 `ai-intel-web`。
-2. 把本项目全部文件上传到仓库根目录。
-3. 进入仓库 `Settings → Pages`。
-4. 在 `Build and deployment → Source` 选择 `GitHub Actions`。
-5. 进入 `Actions`，运行“更新并部署AI情报雷达”。
-6. 部署成功后，Pages页面会显示网页地址。
+- AI综合
+- AI投资融资
+- 大模型发布
+- AI芯片算力
+- AI机器人
+- 中文AI动态
 
-## X配置
+点击按钮会直接打开X实时搜索页面，查看内容时可能需要登录X账号。
 
-进入：
-
-`Settings → Secrets and variables → Actions → New repository secret`
-
-新增：
-
-- Name：`X_BEARER_TOKEN`
-- Secret：你的X官方API Bearer Token
-
-没有配置时，系统自动跳过X，不影响其他来源。
+此前添加的GitHub secret `X_BEARER_TOKEN` 已不再被工作流读取，可保留，也可以在仓库 `Settings → Secrets and variables → Actions` 中删除。
 
 ## 微信公众号
 
@@ -45,13 +40,9 @@
 
 每行加入一个公开公众号文章链接。系统不绕过登录、验证码或访问控制。
 
-也可以在 `config/sources.json` 中添加RSSHub生成的订阅地址，作为普通RSS来源。
+## 修改免费资讯来源
 
-## 修改资讯来源
-
-编辑 `config/sources.json`。
-
-RSS格式：
+编辑 `config/sources.json`。RSS格式：
 
 ```json
 {
@@ -69,7 +60,7 @@ RSS格式：
 
 ## 注意
 
-- GitHub定时任务通常接近每30分钟运行，但高峰期可能延迟。
-- X需要官方开发者权限与API配额。
-- 网站、RSS、公众号内容应遵守平台条款、版权与合理使用要求。
+- GitHub定时任务可能在高峰期延迟。
+- 某个免费来源临时限流或无法访问时，其他来源仍会正常更新。
+- 网站、RSS和公众号内容应遵守来源平台条款、版权与合理使用要求。
 - 投资资讯只作信息整理，不构成投资建议。
