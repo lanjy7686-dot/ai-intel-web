@@ -1,11 +1,14 @@
 {
-  "updated_at": "2026-07-21T14:02:24.084036+00:00",
+  "mode": "free",
+  "updated_at": "2026-07-21T14:04:23.081131+00:00",
   "count": 287,
   "errors": [],
   "source_status": {
-    "GDELT": {
-      "state": "fetched",
-      "count": 0
+    "X": {
+      "enabled": false,
+      "state": "free_search_only",
+      "count": 0,
+      "message": "完全免费模式：不调用X API，网页提供一键X实时搜索。"
     },
     "RSS": {
       "state": "fetched",
@@ -21,12 +24,6 @@
     },
     "微信": {
       "state": "fetched",
-      "count": 0
-    },
-    "X": {
-      "enabled": false,
-      "configured": true,
-      "state": "disabled",
       "count": 0
     }
   },
@@ -51,7 +48,7 @@
         "law",
         "act"
       ],
-      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests"
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own bi"
     },
     {
       "title": "China’s AI models have Trump’s AI world at war with itself",
@@ -73,7 +70,7 @@
         "industry",
         "company"
       ],
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the coun"
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks,"
     },
     {
       "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
@@ -94,7 +91,7 @@
         "platform",
         "act"
       ],
-      "summary": "Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. "
+      "summary": "Real-time multimodal applications, including voice agents and interactive video generation, compose heterogeneous models into pipelines whose efficient deployment requires application-specific decisions about placement, streaming, and intra-model parallelism. Existing serving systems and auto-parall"
     },
     {
       "title": "Advancing next-gen AI with materials science innovation",
@@ -116,7 +113,7 @@
         "platform",
         "act"
       ],
-      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advance"
+      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of innovation that makes them possible: advanced materials. Every new generation of AI "
     },
     {
       "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
@@ -136,7 +133,7 @@
         "tool",
         "act"
       ],
-      "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control,"
+      "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control, wrapping trusted solvers behind languag"
     },
     {
       "title": "Show HN: Aeon.WorX – A generic object lifecycle management system (like PLM/PDM)",
@@ -152,7 +149,7 @@
         "copilot",
         "platform"
       ],
-      "summary": "Hi All, In the past I used to make games as an hobby. I wanted do something different this time. After having spent ~10Y working on SmarTeam, ENOVIA and 3DExperience Platform. And recently using Azure Devops and Salesforce. Seeing all the complexity, engineeri"
+      "summary": "Hi All, In the past I used to make games as an hobby. I wanted do something different this time. After having spent ~10Y working on SmarTeam, ENOVIA and 3DExperience Platform. And recently using Azure Devops and Salesforce. Seeing all the complexity, engineering that went into it, I was itching to c"
     },
     {
       "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
@@ -174,7 +171,7 @@
         "api",
         "gpu"
       ],
-      "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized "
+      "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a"
     },
     {
       "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
@@ -196,7 +193,7 @@
         "feature",
         "app"
       ],
-      "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only"
+      "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and then failed a customer in production; only one in twenty fully trusts automated ev"
     },
     {
       "title": "Anthropic found a hidden space where Claude puzzles over concepts",
@@ -217,7 +214,7 @@
         "act",
         "company"
       ],
-      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers"
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving. Researchers at the company built a tool called the "
     },
     {
       "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
@@ -237,7 +234,7 @@
         "act",
         "company"
       ],
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publis"
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s lo"
     },
     {
       "title": "It's Not What You Say, It's How You Say It: Evaluating LLM Responses to Expressions of Belief",
@@ -254,7 +251,7 @@
         "architecture",
         "act"
       ],
-      "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take lin"
+      "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presup"
     },
     {
       "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
@@ -273,7 +270,7 @@
         "github",
         "act"
       ],
-      "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boole"
+      "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boolean circuits executable via bitwise CPU o"
     },
     {
       "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
@@ -290,7 +287,7 @@
         "app",
         "act"
       ],
-      "summary": "Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial correctness and visual legibility remains challenging, as existing frameworks emphasize pedagogic"
+      "summary": "Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial correctness and visual legibility remains challenging, as existing frameworks emphasize pedagogical content while overlooking geometric o"
     },
     {
       "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
@@ -309,7 +306,7 @@
         "law",
         "act"
       ],
-      "summary": "Modern LLMs are alarmingly susceptible to surprisingly simple immaterial changes of input prompts: a casual hint, an incorrectly labeled few-shot example, or a fake prior assistant turn often flips an originally correct answer. We study where this susceptibili"
+      "summary": "Modern LLMs are alarmingly susceptible to surprisingly simple immaterial changes of input prompts: a casual hint, an incorrectly labeled few-shot example, or a fake prior assistant turn often flips an originally correct answer. We study where this susceptibility, spanning sycophancy and related cue-"
     },
     {
       "title": "国产大模型突破升级，AI产业链集体走强，科创创业人工智能ETF易方达（159140）标的指数涨超8% - 证券之星",
@@ -346,7 +343,7 @@
         "act",
         "cloud"
       ],
-      "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. "
+      "summary": "With the rapid growth of cloud computing infrastructures in scale and complexity, network monitoring for Large-scale Cloud Systems (LCSs) has become increasingly challenging, requiring automated and reliable anomaly detection to maintain service availability. Modern LCSs continuously generate teleme"
     },
     {
       "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
@@ -366,7 +363,7 @@
         "policy",
         "act"
       ],
-      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sa"
+      "summary": "Pretrained dense visual features from Vision Transformers (ViTs) are powerful yet have been underutilized in robot learning. Modern robot policies either compress each observation into a single global token, or rely on visual backbones trained from scratch, sacrificing both fine-grained spatial deta"
     },
     {
       "title": "PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning",
@@ -384,7 +381,7 @@
         "app",
         "act"
       ],
-      "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics,"
+      "summary": "Not all training samples contribute equally to large language model fine-tuning. Selecting informative training samples can reduce the computational cost while preserving downstream performance. Many existing data selection methods rely on indirect heuristics, such as data quality, diversity or reas"
     },
     {
       "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
@@ -400,7 +397,7 @@
         "policy",
         "act"
       ],
-      "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful"
+      "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful alternative for large language model po"
     },
     {
       "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
@@ -418,7 +415,7 @@
         "app",
         "act"
       ],
-      "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule"
+      "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule generation, LLM-based methods are rapid"
     },
     {
       "title": "Ask HN: To lead with, or bury, AI in product marketing",
@@ -436,7 +433,7 @@
         "act",
         "market"
       ],
-      "summary": "Howdy dear folks. Here on hackernews there seems to be very little other than AI related stories. Maybe not all too strange given the crowd who frequents this site. From what I gather the mostly positive sentiment isn't as widely shared among the general popul"
+      "summary": "Howdy dear folks. Here on hackernews there seems to be very little other than AI related stories. Maybe not all too strange given the crowd who frequents this site. From what I gather the mostly positive sentiment isn't as widely shared among the general population (0: 50% of americans are more conc"
     },
     {
       "title": "Ask HN: Which model do you use with Pi coding agent?",
@@ -468,7 +465,7 @@
         "tool",
         "act"
       ],
-      "summary": "https://redenta.app Redenta is a set of document tools that run entirely in the browser — redaction, metadata stripping, and format conversion. Nothing is uploaded, there's no account, and the tools are free. The redaction is the part I actually care about. Mo"
+      "summary": "https://redenta.app Redenta is a set of document tools that run entirely in the browser — redaction, metadata stripping, and format conversion. Nothing is uploaded, there's no account, and the tools are free. The redaction is the part I actually care about. Most tools that \"redact\" a PDF draw a blac"
     },
     {
       "title": "大模型几个月能力翻番，标准更新却按年算！业界：AI迭代太快，治理没跟上 - 新浪财经",
@@ -506,7 +503,7 @@
         "act",
         "partner"
       ],
-      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major str"
+      "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, wit"
     },
     {
       "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
@@ -528,7 +525,7 @@
         "product",
         "assistant"
       ],
-      "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahea"
+      "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents”"
     },
     {
       "title": "Your family’s $300 stake in OpenAI",
@@ -550,7 +547,7 @@
         "market",
         "company"
       ],
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again la"
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Time"
     },
     {
       "title": "EVOLVE: Efficient Learned Volume Compression with Variable-Rate Encoding on a Cross-Domain Database",
@@ -569,7 +566,7 @@
         "feature",
         "act"
       ],
-      "summary": "Large-scale scientific simulations generate volumetric data at rates that far outpace advances in storage and network bandwidth, making effective lossy compression increasingly critical. However, conventional compressors often struggle to preserve fine structu"
+      "summary": "Large-scale scientific simulations generate volumetric data at rates that far outpace advances in storage and network bandwidth, making effective lossy compression increasingly critical. However, conventional compressors often struggle to preserve fine structural details at high compression ratios ("
     },
     {
       "title": "VEHBench: A Stage-Local Diagnostic Benchmark for LLM-Assisted Vibration Energy Harvester Design",
@@ -586,7 +583,7 @@
         "policy",
         "act"
       ],
-      "summary": "Battery-free Internet of Things (IoT) requires iterative design of vibration energy harvesters (VEHs) under coupled physical constraints, while LLMs are emerging as interface layers for engineering workflows. However, existing engineering benchmarks primarily "
+      "summary": "Battery-free Internet of Things (IoT) requires iterative design of vibration energy harvesters (VEHs) under coupled physical constraints, while LLMs are emerging as interface layers for engineering workflows. However, existing engineering benchmarks primarily assess final artifact validity, offering"
     },
     {
       "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
@@ -605,7 +602,7 @@
         "app",
         "act"
       ],
-      "summary": "Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and events in an industrial process, which is crucial for modern manufacturing and quality control systems. Existing VLM-based anomaly reasoning methods are capable of detecting open-"
+      "summary": "Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and events in an industrial process, which is crucial for modern manufacturing and quality control systems. Existing VLM-based anomaly reasoning methods are capable of detecting open-ended anomalies in general domains. Howe"
     },
     {
       "title": "Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning",
@@ -624,7 +621,7 @@
         "app",
         "act"
       ],
-      "summary": "Most parameter-efficient finetuning (PEFT) methods adapt weights or activations, thus leaving one of the key Transformer components unchanged: residual connections. This paper investigates Manifold-Constrained Hyper-Connections (mHC), a generalisation of resid"
+      "summary": "Most parameter-efficient finetuning (PEFT) methods adapt weights or activations, thus leaving one of the key Transformer components unchanged: residual connections. This paper investigates Manifold-Constrained Hyper-Connections (mHC), a generalisation of residual connections, as a novel PEFT approac"
     },
     {
       "title": "Show HN: Neverbell, an AI agent that analyzes markets and executes trades",
@@ -641,7 +638,7 @@
         "act",
         "market"
       ],
-      "summary": "Hi HN, we're developing Neverbell, an AI agent that combines market analysis with trade execution. One of our beta testers said to Neverbell: “Protect my downside, but don’t be too conservative.” Volatility increased a few days later, and the agent decreased t"
+      "summary": "Hi HN, we're developing Neverbell, an AI agent that combines market analysis with trade execution. One of our beta testers said to Neverbell: “Protect my downside, but don’t be too conservative.” Volatility increased a few days later, and the agent decreased their exposure. Our tester wasn’t happy. "
     },
     {
       "title": "南瑞深度支撑全国首个水风光一体化智慧运营大模型发布 - 中国能源新闻网",
@@ -689,7 +686,7 @@
         "training",
         "github"
       ],
-      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to conditi"
+      "summary": "Human visual similarity judgments are context-dependent. For example, two images may be similar in shape but distinct in color. Existing perceptual similarity metrics, however, collapse these nuances into a single scalar value, offering no mechanism to condition on specific aspects. To bridge this g"
     },
     {
       "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
@@ -707,7 +704,7 @@
         "app",
         "act"
       ],
-      "summary": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches add"
+      "summary": "Vision-language-action (VLA) models have achieved impressive generalization in robotic manipulation, and recent memory-augmented VLAs have relaxed the Markovian assumption by conditioning on past images or language summaries. Vision-based memory approaches address this by conditioning on sampled pas"
     },
     {
       "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
@@ -723,7 +720,7 @@
         "github",
         "act"
       ],
-      "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies "
+      "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level im"
     },
     {
       "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
@@ -741,7 +738,7 @@
         "app",
         "act"
       ],
-      "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscap"
+      "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spa"
     },
     {
       "title": "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
@@ -757,7 +754,7 @@
         "agent",
         "tool"
       ],
-      "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal repre"
+      "summary": "Pruning long context for coding agents has been a vital technology for efficient context management. While existing context pruning methods such as SWE-Pruner realize this by attaching a separate code classifier, we find the agent itself encodes internal representations indicating the relevance of c"
     },
     {
       "title": "Isaac Sim-to-Real: Reinforcement Learning based Locomotion for Quadrupeds",
@@ -773,7 +770,7 @@
         "tool",
         "policy"
       ],
-      "summary": "Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a hig"
+      "summary": "Learning-based approaches to locomotion have risen in popularity in recent years, showing the capability for complex legged locomotion and whole-body control. Reinforcement learning (RL), the primary learning-based approach for locomotion, often utilizes a high-performance simulation tool, providing"
     },
     {
       "title": "LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks",
@@ -789,7 +786,7 @@
         "training",
         "policy"
       ],
-      "summary": "Reinforcement learning (RL) on open-ended tasks compresses an LLM's rubric-based evaluation into a scalar reward, discarding rich textual feedback and conflating responses with distinct quality profiles. We propose Experiential Learning (EL), which repurposes "
+      "summary": "Reinforcement learning (RL) on open-ended tasks compresses an LLM's rubric-based evaluation into a scalar reward, discarding rich textual feedback and conflating responses with distinct quality profiles. We propose Experiential Learning (EL), which repurposes the feedback model from an LLM-as-a-Judg"
     },
     {
       "title": "Show HN: LLM Context profiler for tracking context usage by tools, agents, MCPs",
@@ -882,7 +879,7 @@
         "app",
         "tool"
       ],
-      "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its o"
+      "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; only about a third give every agent its own scoped identity, and most agents stil"
     },
     {
       "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
@@ -904,7 +901,7 @@
         "safety",
         "partner"
       ],
-      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training"
+      "summary": "OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its m"
     },
     {
       "title": "The foundational elements of AI architecture that IT leaders need to scale",
@@ -926,7 +923,7 @@
         "agent",
         "reasoning"
       ],
-      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove"
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the futur"
     },
     {
       "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
@@ -948,7 +945,7 @@
         "github",
         "api"
       ],
-      "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence app"
+      "summary": "Railway , a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of leg"
     },
     {
       "title": "深圳国际通用人工智能大会将至，AI产业链加速落地，这些股频获机构调研 - 财联社",
@@ -1005,7 +1002,7 @@
         "release",
         "act"
       ],
-      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation"
+      "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery"
     },
     {
       "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
@@ -1022,7 +1019,7 @@
         "app",
         "act"
       ],
-      "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the beh"
+      "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the behavior they induce across controlled vari"
     },
     {
       "title": "Imitation of Arm Gestures by the Semi-Humanoid Robot NICO",
@@ -1039,7 +1036,7 @@
         "app",
         "act"
       ],
-      "summary": "Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this work, we de"
+      "summary": "Seamless human-robot interaction (HRI) requires a number of perceptual and motor abilities from the robot, one of them being the imitation of human gestures. Humanoid robots have an advantage in HRI thanks to their anthropomorphic features. In this work, we develop a system for imitation of human ar"
     },
     {
       "title": "World Translation: Minimizing Sim-to-Real Gap with Backward Dynamics Extraction and Unpaired Domain Translation",
@@ -1056,7 +1053,7 @@
         "policy",
         "act"
       ],
-      "summary": "The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more reali"
+      "summary": "The gap between simulation and reality remains a fundamental challenge in deploying simulation-trained robotic policies in the real world. Real-to-sim methods narrow this gap from the real side, learning transition dynamics from real data to build a more realistic digital world. Learned dynamics mod"
     },
     {
       "title": "Totally Positive Matrices and the Highest-Order Coefficients of the Characteristic Polynomial",
@@ -1073,7 +1070,7 @@
         "feature",
         "act"
       ],
-      "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together wi"
+      "summary": "We investigate the extent to which totally positive matrices can be distinguished through the highest-order coefficients of their characteristic polynomials. To identify the most informative coefficients, we also employed neural-network classifiers together with feature-attribution methods. Using da"
     },
     {
       "title": "世界人工智能开源大赛在杭州启动 - chinanews.com.cn",
@@ -1114,7 +1111,7 @@
         "feature",
         "app"
       ],
-      "summary": "I Built BlurShield how easy it is to expose email address,Phone No,API Key and other important info. BlurShield is a browser extension which detects and blur the sensitive info automatically. It includes the custom blur options also and also user can keep thei"
+      "summary": "I Built BlurShield how easy it is to expose email address,Phone No,API Key and other important info. BlurShield is a browser extension which detects and blur the sensitive info automatically. It includes the custom blur options also and also user can keep their own custom patterns in it and a lot of"
     },
     {
       "title": "Show HN: WiFi-LLM",
@@ -1127,7 +1124,7 @@
       "tags": [
         "inference"
       ],
-      "summary": "Hello, while I was learning LLM Inference basics I realized with few tricks I could use my ESP32 for inference if I stream the weights only when they are needed from a host over WiFi. Speed? Really bad. Lol. But this is just a technical demo of how it can be d"
+      "summary": "Hello, while I was learning LLM Inference basics I realized with few tricks I could use my ESP32 for inference if I stream the weights only when they are needed from a host over WiFi. Speed? Really bad. Lol. But this is just a technical demo of how it can be done. I really enjoyed while coding it. I"
     },
     {
       "title": "持续深化人工智能法治研究 中国政法大学发布多项研究成果 - chinanews.com.cn",
@@ -1155,7 +1152,7 @@
         "app",
         "act"
       ],
-      "summary": "I built a network of all 1306 players and 110 rosters engraved on the Cup since 1915. Surprisingly there's no islands, every team has somehow had at least one player who's won it again, there's several close calls where the connection almost broke. A few times"
+      "summary": "I built a network of all 1306 players and 110 rosters engraved on the Cup since 1915. Surprisingly there's no islands, every team has somehow had at least one player who's won it again, there's several close calls where the connection almost broke. A few times where a winner starts off as an island "
     },
     {
       "title": "Show HN: Pinpoint – Visual feedback for AI coding agents",
@@ -1170,7 +1167,7 @@
         "agent",
         "product"
       ],
-      "summary": "I built Pinpoint because I was tired of typing out feedback on the visual work my AI agent did. I want my agent to be autonomous, so having it ask for feedback through a UI felt genuinely better. Dropping a contextual comment on each screenshot is much closer "
+      "summary": "I built Pinpoint because I was tired of typing out feedback on the visual work my AI agent did. I want my agent to be autonomous, so having it ask for feedback through a UI felt genuinely better. Dropping a contextual comment on each screenshot is much closer to how you'd give feedback on a design i"
     },
     {
       "title": "Show HN: Glass – a see/act/debug loop over any GUI app for agents (MCP)",
@@ -1201,17 +1198,17 @@
       "summary": "Show HN: CLI tool that packages data-heavy projects into LLM context windows"
     },
     {
-      "title": "携手构建公正合理的全球人工智能治理体系述评之三_要闻 - 奥一网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Mdnh3M18wMWVYbzhsYmlPOGlqVnQ3Y1pFdkVLRnpXS2FFcmlHRDJ0SEZSQWI0SER0OTVQejhpUmRJMi1lSFROb2VwVnRZRE1nd3RvSmllbGdoR3A5S1E?oc=5",
+      "title": "携手构建公正合理的全球人工智能治理体系述评之三 - chinanews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fekxMcWlKVmg3OVh2NlBWaS1QNXVMa1FNYUdzZHNObFJXT1pVNUc0ZGZQZGFIQmhkZ2J1RncyZTVTRFQybWZya3NTcFhoSndLeWc0ckpfNFBKa3ZkbXFGTjd5T1cxWjBh?oc=5",
       "source": "Google News 中文AI",
       "source_type": "全球新闻",
-      "published_at": "2026-07-21T12:47:36+00:00",
+      "published_at": "2026-07-21T12:31:47+00:00",
       "category": "政策治理",
       "relevance_score": 54,
       "tags": [
         "治理"
       ],
-      "summary": "携手构建公正合理的全球人工智能治理体系述评之三_要闻 奥一网"
+      "summary": "携手构建公正合理的全球人工智能治理体系述评之三 chinanews.com.cn"
     },
     {
       "title": "总台记者专访丨俄专家：合作对人工智能发展至关重要 - 群众新闻网",
@@ -1387,7 +1384,7 @@
         "feature",
         "act"
       ],
-      "summary": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision"
+      "summary": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision for a one-step generator. Three-Body Sc"
     },
     {
       "title": "Certified Training for Convolutional Perturbations",
@@ -1403,7 +1400,7 @@
         "app",
         "safety"
       ],
-      "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for exam"
+      "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for example an object detector missing objects. "
     },
     {
       "title": "Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles",
@@ -1419,7 +1416,7 @@
         "law",
         "act"
       ],
-      "summary": "Methods for discovering rare failures in autonomous systems have so far been demonstrated almost exclusively in simulations with simple, academic driving stacks, leaving open whether they generalize to the more robust planners used in commercial systems. We ad"
+      "summary": "Methods for discovering rare failures in autonomous systems have so far been demonstrated almost exclusively in simulations with simple, academic driving stacks, leaving open whether they generalize to the more robust planners used in commercial systems. We address this gap by applying two rare-even"
     },
     {
       "title": "FinSAgent: Corpus-Aligned Multi-Agent RAG Framework for Evidence-Grounded SEC Filing Question Answering",
@@ -1435,7 +1432,7 @@
         "agent",
         "feature"
       ],
-      "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-ag"
+      "summary": "Financial question answering over U.S. Securities and Exchange Commission (SEC) filings requires retrieving and synthesizing heterogeneous evidence dispersed across long, standardized, and highly redundant disclosures. Existing retrieval-augmented and multi-agent systems typically derive retrieval q"
     },
     {
       "title": "OSS ChatGPT WebUI v4 – Projects, Agent Profiles, Server Tools, 1-Click Sharing",
@@ -1463,7 +1460,7 @@
         "product",
         "app"
       ],
-      "summary": "Hi, I know you to be a discerning bunch of tech savvy people, but since that doesn't stop 50% of the web being powered by WordPress, I want to share how one can vastly improve the search experience on WordPress sites: SearchCue! It's a product we built after b"
+      "summary": "Hi, I know you to be a discerning bunch of tech savvy people, but since that doesn't stop 50% of the web being powered by WordPress, I want to share how one can vastly improve the search experience on WordPress sites: SearchCue! It's a product we built after building Monocle Search for Squarespace, "
     },
     {
       "title": "Show HN: I build a project management platform around .md files",
@@ -1477,7 +1474,7 @@
         "agent",
         "platform"
       ],
-      "summary": "Hey HN, Wanted to show this to get a response! I've built this asynchronous communications platform for my agents. Everything is accessible and readable through a VFS and markdown, so it works well for agents. I use it as a central 'hub' for all of my agents t"
+      "summary": "Hey HN, Wanted to show this to get a response! I've built this asynchronous communications platform for my agents. Everything is accessible and readable through a VFS and markdown, so it works well for agents. I use it as a central 'hub' for all of my agents to post too (coding agents & more). Very "
     },
     {
       "title": "A level up on voice interaction with agents – and local",
@@ -1531,17 +1528,6 @@
         "api"
       ],
       "summary": "Upload a DLL or select NuGet package. Ask questions about the API in plain English. Gets you code samples, architecture views, and diffs between versions."
-    },
-    {
-      "title": "侯安贵参观2026世界人工智能大会宝武展台 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzUkhlaFFSN2pkb0JYTlRmQ2l5ZTBDNWdVUHJnNHFFdGwyQXBjUjE3TGNSTVA3SHZTOW5nejBVX3hzdEYzaWZCaUhGTFZSdXI0ZklwWXdZZDBwaWUwTDlYTU13ZW9VcTVXNm9pOGxpa1NjbUJqMzRKcHpTRlR1YlU?oc=5",
-      "source": "Google News 中文AI",
-      "source_type": "全球新闻",
-      "published_at": "2026-07-21T12:33:47+00:00",
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "侯安贵参观2026世界人工智能大会宝武展台 新浪网"
     },
     {
       "title": "苏州正式设立人工智能发展办公室 - 观点网",
@@ -1622,7 +1608,7 @@
         "product",
         "app"
       ],
-      "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the d"
+      "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-native retrieval has quietly overtaken the dedicated vector databases that define th"
     },
     {
       "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
@@ -1644,7 +1630,7 @@
         "launch",
         "product"
       ],
-      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its an"
+      "summary": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm. At its annual I/O developer conference , Google a"
     },
     {
       "title": "2026世界人工智能大会闭幕 - altxw.com",
@@ -1771,6 +1757,17 @@
       "summary": "东风汽车两项人工智能项目入选国家级榜单 湖北省经济和信息化厅"
     },
     {
+      "title": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 - 央视网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BOHA4a3pLcVViU3hmbWczZkM3MnRqS0xTbTZvSHBHU1R1aGNOYnV0UGtJdFV6THNNSzZSdDhmNkpqODBiOXdRUENMSlN5bGQ0ZzRVRFlLLWlmM1ZnbU5VOGNSS3UwUVJ3OUstVDA1cjFSY1NZSnJaUQ?oc=5",
+      "source": "Google News 中文AI",
+      "source_type": "全球新闻",
+      "published_at": "2026-07-21T03:03:54+00:00",
+      "category": "产业动态",
+      "relevance_score": 49,
+      "tags": [],
+      "summary": "盘点2026世界人工智能大会亮眼成果 看AI赋能千行百业 央视网"
+    },
+    {
       "title": "Causal Discovery on Irregular Time Series",
       "url": "https://arxiv.org/abs/2607.18226v1",
       "source": "arXiv",
@@ -1783,7 +1780,7 @@
         "app",
         "act"
       ],
-      "summary": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly "
+      "summary": "Causal discovery methods have shown strong performance in temporal systems, but they typically rely on regular and discrete lag structures, limiting their applicability to regularly sampled data. However, many real-world tasks require dealing with irregularly sampled streams of events, such as senso"
     },
     {
       "title": "Vector Search As Nearest Neighbor Matching: RAG-based Policy Learning in Causal Inference",
@@ -1798,7 +1795,7 @@
         "policy",
         "act"
       ],
-      "summary": "We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring e"
+      "summary": "We propose one-step and two-step methods for policy learning with retrieval-augmented generation (RAG). We formulate RAG-based action selection under the potential outcome framework. In the two-step method, vector search retrieves action-specific neighboring evidence in an embedding space, the gener"
     },
     {
       "title": "Optimization of sim-to-real transfer in the humanoid robot NICO",
@@ -1813,7 +1810,7 @@
         "paper",
         "app"
       ],
-      "summary": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positionin"
+      "summary": "Robotic grasping requires accurate coordination between visual perception, object localization, inverse kinematics, and hand control. However, when movements planned in simulation are executed on a physical robot, the sim-to-real gap can cause small positioning errors that prevent successful graspin"
     },
     {
       "title": "中国成为全球AI治理可信引领者——国际社会积极评价2026世界人工智能大会 - 中国科技网",
@@ -1841,7 +1838,7 @@
         "paper",
         "act"
       ],
-      "summary": "This paper considers a multi-environment factor model in which high-dimensional covariates are collected from heterogeneous environments, with auxiliary labels available in a subset of these environments. The joint distribution of the covariates may vary acros"
+      "summary": "This paper considers a multi-environment factor model in which high-dimensional covariates are collected from heterogeneous environments, with auxiliary labels available in a subset of these environments. The joint distribution of the covariates may vary across environments, whereas the latent struc"
     },
     {
       "title": "A Continual Validation, Updating, and Decision-Making Framework for Self-Adaptive Digital Twins via Robust Model Predictive Control: A Case Study in Additive Manufacturing",
@@ -1856,7 +1853,7 @@
         "app",
         "act"
       ],
-      "summary": "Digital Twins rely on surrogate models to mirror physical systems in real time, yet these models can degrade as operating conditions evolve, a phenomenon known as concept drift. Maintaining surrogate fidelity under drift, particularly when models must also cap"
+      "summary": "Digital Twins rely on surrogate models to mirror physical systems in real time, yet these models can degrade as operating conditions evolve, a phenomenon known as concept drift. Maintaining surrogate fidelity under drift, particularly when models must also capture aleatoric uncertainty, remains an o"
     },
     {
       "title": "The Calibration Channel Determines the Bayes-Error Proxy: An Exact Law for Temperature-Induced Distortion",
@@ -1871,7 +1868,7 @@
         "law",
         "act"
       ],
-      "summary": "The soft-label Bayes-error estimator beta(z) = E[min(z, 1-z)] of Ishida et al. estimates the irreducible error of a binary task directly from probability-valued labels. Recent work by Ushio et al. showed that this estimator is fragile when the probabilities ar"
+      "summary": "The soft-label Bayes-error estimator beta(z) = E[min(z, 1-z)] of Ishida et al. estimates the irreducible error of a binary task directly from probability-valued labels. Recent work by Ushio et al. showed that this estimator is fragile when the probabilities are not the true posterior: even perfectly"
     },
     {
       "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
@@ -1886,7 +1883,7 @@
         "assistant",
         "app"
       ],
-      "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose"
+      "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose than the corresponding human-written im"
     },
     {
       "title": "COVAriance-Induced Fairness Gap Penalty for Subgroup-Fair Clustering",
@@ -1901,7 +1898,7 @@
         "dataset",
         "act"
       ],
-      "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms i"
+      "summary": "Fair clustering aims to make cluster assignments independent of sensitive attributes, but this goal becomes challenging when multiple sensitive attributes jointly define many subgroups. In such settings, directly extending existing fair clustering algorithms is computationally expensive or numerical"
     },
     {
       "title": "NVIDIA promotes physical AI and robotics in Japan - Inspenet",
@@ -1968,7 +1965,7 @@
       "tags": [
         "research"
       ],
-      "summary": "If AI got lucky or not, AI is surely going to assist in solving serious math problems. If you want to spend your resources/weekends contributing, this repository is full of math problems where you can add your thoughts (or proofs - for you Good Will Hunting ty"
+      "summary": "If AI got lucky or not, AI is surely going to assist in solving serious math problems. If you want to spend your resources/weekends contributing, this repository is full of math problems where you can add your thoughts (or proofs - for you Good Will Hunting type people) for others to build on it and"
     },
     {
       "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
@@ -2149,7 +2146,7 @@
         "dataset",
         "safety"
       ],
-      "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts u"
+      "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based pl"
     },
     {
       "title": "Adobe camera app’s new feature will critique your photos using AI",
@@ -2469,7 +2466,7 @@
         "market",
         "company"
       ],
-      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality contro"
+      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how wo"
     },
     {
       "title": "Five US tech giants' hidden debts soar to $1.65tn on opaque AI funding - Nikkei Asia",
