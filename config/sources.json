@@ -16,44 +16,13 @@
     "enabled": true,
     "scan_items": 320,
     "max_items": 60,
-    "keywords": [
-      "AI",
-      "LLM",
-      "OpenAI",
-      "Anthropic",
-      "DeepSeek",
-      "NVIDIA",
-      "robotics",
-      "agent",
-      "machine learning",
-      "inference",
-      "model",
-      "MCP",
-      "multimodal",
-      "datacenter",
-      "GPU",
-      "chip"
-    ],
+    "keywords": ["AI", "LLM", "OpenAI", "Anthropic", "DeepSeek", "NVIDIA", "robotics", "agent", "machine learning", "inference", "model", "MCP", "multimodal", "datacenter", "GPU", "chip"],
     "max_age_hours": 72
   },
   "reddit": {
     "enabled": true,
     "max_items_per_community": 12,
-    "communities": [
-      "MachineLearning",
-      "LocalLLaMA",
-      "artificial",
-      "OpenAI",
-      "singularity",
-      "robotics",
-      "StableDiffusion",
-      "LanguageTechnology",
-      "MLQuestions",
-      "ChatGPT",
-      "hardware",
-      "datacenter",
-      "datascience"
-    ],
+    "communities": ["MachineLearning", "LocalLLaMA", "artificial", "OpenAI", "singularity", "robotics", "StableDiffusion", "LanguageTechnology", "MLQuestions", "ChatGPT", "hardware", "datacenter", "datascience"],
     "max_age_hours": 72
   },
   "x": {
@@ -208,123 +177,183 @@
     },
     {
       "name": "中文AI新闻聚合",
-      "url": "https://news.google.com/rss/search?q=%28%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+OR+AIGC+OR+DeepSeek%29+when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "url": "https://news.google.com/rss/search?q=(人工智能+OR+大模型+OR+AIGC+OR+DeepSeek)+when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
       "source_type": "国内资讯",
       "language": "zh",
+      "enabled": true,
+      "max_items": 45,
+      "require_date": true,
+      "max_age_hours": 30
+    },
+    {
+      "name": "中文AI投资融资",
+      "url": "https://news.google.com/rss/search?q=(AI+融资+OR+人工智能+投资+OR+大模型+估值)+when:3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "source_type": "国内资讯",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 35,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "中文AI技术开源",
+      "url": "https://news.google.com/rss/search?q=(AI+开源+OR+大模型+发布+OR+AI+芯片+OR+智能体)+when:3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "source_type": "国内资讯",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 35,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "全球AI巨头动态",
+      "url": "https://news.google.com/rss/search?q=(OpenAI+OR+Anthropic+OR+Google+DeepMind+OR+Microsoft+AI+OR+Meta+AI+OR+Amazon+Bedrock+OR+Apple+Intelligence+OR+xAI)+when:3d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "巨头企业",
+      "language": "en",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "中国AI巨头动态",
+      "url": "https://news.google.com/rss/search?q=(百度+文心+OR+阿里+通义+OR+腾讯+混元+OR+字节+豆包+OR+华为+盘古+OR+DeepSeek+OR+智谱+OR+月之暗面+OR+MiniMax+OR+百川智能)+when:3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "source_type": "巨头企业",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "全球AI芯片供应链",
+      "url": "https://news.google.com/rss/search?q=(NVIDIA+OR+AMD+OR+Intel+OR+Broadcom+OR+TSMC+OR+ASML+OR+SK+Hynix+OR+Micron+OR+HBM+OR+AI+accelerator)+when:3d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "产业链",
+      "language": "en",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "中国算力芯片产业链",
+      "url": "https://news.google.com/rss/search?q=(华为+昇腾+OR+寒武纪+OR+海光+OR+壁仞+OR+摩尔线程+OR+沐曦+OR+中芯国际+OR+光模块+OR+液冷+OR+AI服务器+OR+算力中心)+when:3d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "source_type": "产业链",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "AI数据中心与能源",
+      "url": "https://news.google.com/rss/search?q=(AI+data+center+OR+AI+factory+OR+optical+interconnect+OR+CPO+OR+liquid+cooling+OR+power+grid+OR+nuclear+power+AI)+when:3d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "产业链",
+      "language": "en",
+      "enabled": true,
+      "max_items": 45,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "AI基础设施与企业软件",
+      "url": "https://news.google.com/rss/search?q=(CoreWeave+OR+Cerebras+OR+Groq+OR+Mistral+OR+Perplexity+OR+Databricks+OR+Snowflake+OR+Scale+AI+OR+Hugging+Face)+when:3d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "产业链",
+      "language": "en",
+      "enabled": true,
+      "max_items": 45,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "前沿模型与智能体技术",
+      "url": "https://news.google.com/rss/search?q=(agentic+AI+OR+multimodal+model+OR+world+model+OR+reasoning+model+OR+MCP+protocol+OR+long+context+OR+post-training+OR+test-time+compute)+when:3d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "新技术",
+      "language": "en",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "具身智能与机器人",
+      "url": "https://news.google.com/rss/search?q=(physical+AI+OR+embodied+AI+OR+humanoid+robot+OR+robotics+foundation+model+OR+VLA+model)+when:3d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "新技术",
+      "language": "en",
+      "enabled": true,
+      "max_items": 45,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "AI for Science",
+      "url": "https://news.google.com/rss/search?q=(AI+for+science+OR+AI+drug+discovery+OR+protein+model+OR+weather+AI+OR+materials+AI+OR+scientific+agent)+when:3d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "新技术",
+      "language": "en",
+      "enabled": true,
+      "max_items": 40,
+      "require_date": true,
+      "max_age_hours": 78
+    },
+    {
+      "name": "主流媒体·国际综合",
+      "url": "https://news.google.com/rss/search?q=(artificial+intelligence+OR+generative+AI+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+NVIDIA)+(Reuters+OR+Associated+Press+OR+BBC+OR+Bloomberg+OR+CNBC+OR+Financial+Times+OR+Wall+Street+Journal+OR+New+York+Times+OR+Guardian)+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "主流媒体",
+      "language": "en",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 30
+    },
+    {
+      "name": "主流媒体·国际财经",
+      "url": "https://news.google.com/rss/search?q=(AI+OR+artificial+intelligence+OR+semiconductor+OR+data+center+OR+robotics)+(Reuters+OR+Bloomberg+OR+CNBC+OR+Financial+Times+OR+Wall+Street+Journal+OR+Nikkei)+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "主流媒体",
+      "language": "en",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 30
+    },
+    {
+      "name": "主流媒体·国内权威",
+      "url": "https://news.google.com/rss/search?q=(人工智能+OR+大模型+OR+AIGC+OR+DeepSeek+OR+AI芯片+OR+具身智能)+(新华社+OR+人民日报+OR+央视新闻+OR+中国新闻网+OR+经济日报+OR+科技日报)+when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "source_type": "主流媒体",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 30
+    },
+    {
+      "name": "主流媒体·国内财经",
+      "url": "https://news.google.com/rss/search?q=(人工智能+OR+大模型+OR+AI芯片+OR+算力+OR+机器人+OR+融资)+(财联社+OR+第一财经+OR+证券时报+OR+上海证券报+OR+中国证券报+OR+经济观察报)+when:1d&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+      "source_type": "主流媒体",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 50,
+      "require_date": true,
+      "max_age_hours": 30
+    },
+    {
+      "name": "主流媒体·亚洲科技财经",
+      "url": "https://news.google.com/rss/search?q=(artificial+intelligence+OR+AI+chip+OR+robotics+OR+data+center)+(Nikkei+Asia+OR+South+China+Morning+Post+OR+The+Straits+Times+OR+Korea+Times)+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "主流媒体",
+      "language": "en",
       "enabled": true,
       "max_items": 40,
       "require_date": true,
       "max_age_hours": 30
     },
     {
-      "name": "中文AI投资融资",
-      "url": "https://news.google.com/rss/search?q=%28AI+%E8%9E%8D%E8%B5%84+OR+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+%E6%8A%95%E8%B5%84+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+%E4%BC%B0%E5%80%BC%29+when%3A3d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
-      "source_type": "国内资讯",
-      "language": "zh",
-      "enabled": true,
-      "max_items": 30,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "中文AI技术开源",
-      "url": "https://news.google.com/rss/search?q=%28AI+%E5%BC%80%E6%BA%90+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+%E5%8F%91%E5%B8%83+OR+AI+%E8%8A%AF%E7%89%87+OR+%E6%99%BA%E8%83%BD%E4%BD%93%29+when%3A3d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
-      "source_type": "国内资讯",
-      "language": "zh",
-      "enabled": true,
-      "max_items": 30,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "全球AI巨头动态",
-      "url": "https://news.google.com/rss/search?q=%28OpenAI+OR+Anthropic+OR+%22Google+DeepMind%22+OR+%22Microsoft+AI%22+OR+%22Meta+AI%22+OR+%22Amazon+Bedrock%22+OR+%22Apple+Intelligence%22+OR+xAI%29+when%3A3d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
-      "source_type": "巨头企业",
-      "language": "zh",
-      "enabled": true,
-      "max_items": 45,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "中国AI巨头动态",
-      "url": "https://news.google.com/rss/search?q=%28%E7%99%BE%E5%BA%A6+%E6%96%87%E5%BF%83+OR+%E9%98%BF%E9%87%8C+%E9%80%9A%E4%B9%89+OR+%E8%85%BE%E8%AE%AF+%E6%B7%B7%E5%85%83+OR+%E5%AD%97%E8%8A%82+%E8%B1%86%E5%8C%85+OR+%E5%8D%8E%E4%B8%BA+%E7%9B%98%E5%8F%A4+OR+DeepSeek+OR+%E6%99%BA%E8%B0%B1+OR+%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2+OR+MiniMax+OR+%E7%99%BE%E5%B7%9D%E6%99%BA%E8%83%BD%29+when%3A3d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
-      "source_type": "巨头企业",
-      "language": "zh",
-      "enabled": true,
-      "max_items": 45,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "全球AI芯片供应链",
-      "url": "https://news.google.com/rss/search?q=%28NVIDIA+OR+AMD+OR+Intel+OR+Broadcom+OR+TSMC+OR+ASML+OR+%22SK+Hynix%22+OR+Micron+OR+HBM+OR+%22AI+accelerator%22%29+when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
-      "source_type": "产业链",
-      "language": "en",
-      "enabled": true,
-      "max_items": 45,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "中国算力芯片产业链",
-      "url": "https://news.google.com/rss/search?q=%28%E5%8D%8E%E4%B8%BA+%E6%98%87%E8%85%BE+OR+%E5%AF%92%E6%AD%A6%E7%BA%AA+OR+%E6%B5%B7%E5%85%89+OR+%E5%A3%81%E4%BB%9E+OR+%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B+OR+%E6%B2%90%E6%9B%A6+OR+%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85+OR+%E5%85%89%E6%A8%A1%E5%9D%97+OR+%E6%B6%B2%E5%86%B7+OR+AI%E6%9C%8D%E5%8A%A1%E5%99%A8+OR+%E7%AE%97%E5%8A%9B%E4%B8%AD%E5%BF%83%29+when%3A3d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
-      "source_type": "产业链",
-      "language": "zh",
-      "enabled": true,
-      "max_items": 45,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "AI数据中心与能源",
-      "url": "https://news.google.com/rss/search?q=%28%22AI+data+center%22+OR+%22AI+factory%22+OR+optical+interconnect+OR+CPO+OR+liquid+cooling+OR+power+grid+OR+nuclear+power+AI%29+when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
-      "source_type": "产业链",
+      "name": "主流媒体·科学与政策",
+      "url": "https://news.google.com/rss/search?q=(artificial+intelligence+OR+AI+safety+OR+AI+regulation+OR+AI+research)+(Nature+OR+Science+OR+IEEE+Spectrum+OR+MIT+Technology+Review)+when:1d&hl=en-US&gl=US&ceid=US:en",
+      "source_type": "主流媒体",
       "language": "en",
       "enabled": true,
       "max_items": 40,
       "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "AI基础设施与企业软件",
-      "url": "https://news.google.com/rss/search?q=%28CoreWeave+OR+Cerebras+OR+Groq+OR+Mistral+OR+Perplexity+OR+Databricks+OR+Snowflake+OR+Scale+AI+OR+Hugging+Face%29+when%3A3d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
-      "source_type": "产业链",
-      "language": "zh",
-      "enabled": true,
-      "max_items": 40,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "前沿模型与智能体技术",
-      "url": "https://news.google.com/rss/search?q=%28%22agentic+AI%22+OR+%22multimodal+model%22+OR+%22world+model%22+OR+%22reasoning+model%22+OR+%22MCP+protocol%22+OR+%22long+context%22+OR+%22post-training%22+OR+%22test-time+compute%22%29+when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
-      "source_type": "新技术",
-      "language": "en",
-      "enabled": true,
-      "max_items": 45,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "具身智能与机器人",
-      "url": "https://news.google.com/rss/search?q=%28%22physical+AI%22+OR+%22embodied+AI%22+OR+humanoid+robot+OR+robotics+foundation+model+OR+VLA+model%29+when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
-      "source_type": "新技术",
-      "language": "en",
-      "enabled": true,
-      "max_items": 40,
-      "require_date": true,
-      "max_age_hours": 78
-    },
-    {
-      "name": "AI for Science",
-      "url": "https://news.google.com/rss/search?q=%28%22AI+for+science%22+OR+%22AI+drug+discovery%22+OR+protein+model+OR+weather+AI+OR+materials+AI+OR+scientific+agent%29+when%3A3d&hl=en-US&gl=US&ceid=US%3Aen",
-      "source_type": "新技术",
-      "language": "en",
-      "enabled": true,
-      "max_items": 35,
-      "require_date": true,
-      "max_age_hours": 78
+      "max_age_hours": 30
     }
   ],
   "freshness": {
@@ -332,6 +361,6 @@
     "manual_max_age_hours": 720,
     "retention_hours": 720,
     "future_tolerance_hours": 6,
-    "max_output": 500
+    "max_output": 800
   }
 }
