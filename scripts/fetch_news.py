@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config/sources.json"
 OUTPUT = ROOT / "data/articles.json"
 # FRESHNESS_PATCH_V2
+# PRIORITY_MEDIA_SCORING_V1
 UA = "AI-Intel-Radar/1.5 (free public-feed dashboard; contact via GitHub repository)"
 
 CATEGORY_KEYWORDS = {
@@ -89,7 +90,8 @@ def classify(article):
     age_hours = max(0, (datetime.now(timezone.utc) - dt(article.get("published_at"))).total_seconds() / 3600)
     freshness = max(0, 25 - int(age_hours / 4))
     engagement = min(15, int(article.get("engagement", 0) or 0) // 20)
-    article["relevance_score"] = min(100, 20 + min(30, core_hits * 6) + min(25, sum(scores.values()) * 3) + freshness + engagement)
+    source_bonus = min(15, max(0, int(article.get("source_priority", 0) or 0)))
+    article["relevance_score"] = min(100, 20 + min(30, core_hits * 6) + min(25, sum(scores.values()) * 3) + freshness + engagement + source_bonus)
     article["tags"] = list(dict.fromkeys(tags))
     article["summary"] = clean(article.get("summary") or article.get("content") or article.get("title"))[:320]
     article.pop("content", None)
@@ -131,6 +133,7 @@ def rss_collect(config):
                 "content": content,
                 "language": source.get("language", ""),
                 "date_verified": True,
+                "source_priority": int(source.get("priority", 0) or 0),
             })
     return articles
 
@@ -373,6 +376,10 @@ def main():
     for item in output:
         source_counts[item.get("source_type", "其他")] = source_counts.get(item.get("source_type", "其他"), 0) + 1
     source_status["来源统计"] = source_counts
+    source_status["重点媒体"] = {
+        "彭博社": sum(1 for item in output if "彭博" in str(item.get("source", "")) or "Bloomberg" in str(item.get("source", ""))),
+        "财联社": sum(1 for item in output if "财联社" in str(item.get("source", "")) or "cls.cn" in str(item.get("url", ""))),
+    }
     now = datetime.now(timezone.utc)
     last_24h = sum(
         1 for item in output

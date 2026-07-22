@@ -16,13 +16,44 @@
     "enabled": true,
     "scan_items": 320,
     "max_items": 60,
-    "keywords": ["AI", "LLM", "OpenAI", "Anthropic", "DeepSeek", "NVIDIA", "robotics", "agent", "machine learning", "inference", "model", "MCP", "multimodal", "datacenter", "GPU", "chip"],
+    "keywords": [
+      "AI",
+      "LLM",
+      "OpenAI",
+      "Anthropic",
+      "DeepSeek",
+      "NVIDIA",
+      "robotics",
+      "agent",
+      "machine learning",
+      "inference",
+      "model",
+      "MCP",
+      "multimodal",
+      "datacenter",
+      "GPU",
+      "chip"
+    ],
     "max_age_hours": 72
   },
   "reddit": {
     "enabled": true,
     "max_items_per_community": 12,
-    "communities": ["MachineLearning", "LocalLLaMA", "artificial", "OpenAI", "singularity", "robotics", "StableDiffusion", "LanguageTechnology", "MLQuestions", "ChatGPT", "hardware", "datacenter", "datascience"],
+    "communities": [
+      "MachineLearning",
+      "LocalLLaMA",
+      "artificial",
+      "OpenAI",
+      "singularity",
+      "robotics",
+      "StableDiffusion",
+      "LanguageTechnology",
+      "MLQuestions",
+      "ChatGPT",
+      "hardware",
+      "datacenter",
+      "datascience"
+    ],
     "max_age_hours": 72
   },
   "x": {
@@ -354,6 +385,72 @@
       "max_items": 40,
       "require_date": true,
       "max_age_hours": 30
+    },
+    {
+      "name": "彭博社·AI巨头与模型",
+      "url": "https://news.google.com/rss/search?q=%28site%3Abloomberg.com+%28%22artificial+intelligence%22+OR+OpenAI+OR+Anthropic+OR+DeepSeek+OR+Gemini+OR+Claude+OR+xAI%29%29+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "主流媒体",
+      "language": "en",
+      "enabled": true,
+      "max_items": 80,
+      "require_date": true,
+      "max_age_hours": 30,
+      "priority": 18
+    },
+    {
+      "name": "彭博社·芯片算力与数据中心",
+      "url": "https://news.google.com/rss/search?q=%28site%3Abloomberg.com+%28NVIDIA+OR+AMD+OR+TSMC+OR+ASML+OR+HBM+OR+semiconductor+OR+%22AI+chip%22+OR+%22data+center%22%29%29+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "主流媒体",
+      "language": "en",
+      "enabled": true,
+      "max_items": 80,
+      "require_date": true,
+      "max_age_hours": 30,
+      "priority": 18
+    },
+    {
+      "name": "彭博社·AI资本市场",
+      "url": "https://news.google.com/rss/search?q=%28site%3Abloomberg.com+%28AI+funding+OR+AI+investment+OR+valuation+OR+earnings+OR+IPO+OR+acquisition%29%29+when%3A1d&hl=en-US&gl=US&ceid=US%3Aen",
+      "source_type": "主流媒体",
+      "language": "en",
+      "enabled": true,
+      "max_items": 80,
+      "require_date": true,
+      "max_age_hours": 30,
+      "priority": 18
+    },
+    {
+      "name": "财联社·AI产业快讯",
+      "url": "https://news.google.com/rss/search?q=%28site%3Acls.cn+%28%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+OR+DeepSeek+OR+%E6%99%BA%E8%83%BD%E4%BD%93+OR+%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD+OR+%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%29%29+when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "主流媒体",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 80,
+      "require_date": true,
+      "max_age_hours": 30,
+      "priority": 18
+    },
+    {
+      "name": "财联社·芯片算力产业链",
+      "url": "https://news.google.com/rss/search?q=%28site%3Acls.cn+%28AI%E8%8A%AF%E7%89%87+OR+%E7%AE%97%E5%8A%9B+OR+%E8%8B%B1%E4%BC%9F%E8%BE%BE+OR+%E5%8D%8E%E4%B8%BA%E6%98%87%E8%85%BE+OR+%E5%AF%92%E6%AD%A6%E7%BA%AA+OR+%E5%85%89%E6%A8%A1%E5%9D%97+OR+CPO+OR+%E6%B6%B2%E5%86%B7+OR+%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%29%29+when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "主流媒体",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 80,
+      "require_date": true,
+      "max_age_hours": 30,
+      "priority": 18
+    },
+    {
+      "name": "财联社·AI资本市场",
+      "url": "https://news.google.com/rss/search?q=%28site%3Acls.cn+%28%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD+%E8%9E%8D%E8%B5%84+OR+AI%E6%8A%95%E8%B5%84+OR+%E5%A4%A7%E6%A8%A1%E5%9E%8B+%E4%BC%B0%E5%80%BC+OR+AI%E6%A6%82%E5%BF%B5%E8%82%A1+OR+%E5%B9%B6%E8%B4%AD+OR+IPO+OR+%E8%B4%A2%E6%8A%A5%29%29+when%3A1d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "source_type": "主流媒体",
+      "language": "zh",
+      "enabled": true,
+      "max_items": 80,
+      "require_date": true,
+      "max_age_hours": 30,
+      "priority": 18
     }
   ],
   "freshness": {
@@ -361,6 +458,6 @@
     "manual_max_age_hours": 720,
     "retention_hours": 720,
     "future_tolerance_hours": 6,
-    "max_output": 800
+    "max_output": 1200
   }
 }
