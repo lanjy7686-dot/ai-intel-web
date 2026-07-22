@@ -33,23 +33,23 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 应用重点媒体配置
-        run: python scripts/boost_bloomberg_cls.py
-
       - name: 校验程序和配置
         run: |
-          python -m py_compile scripts/fetch_news.py scripts/boost_bloomberg_cls.py
+          python -m py_compile scripts/fetch_news.py scripts/enrich_priority_media.py
           python -m json.tool config/sources.json > /dev/null
 
       - name: 抓取最新公开资讯
         run: python scripts/fetch_news.py
 
-      - name: 保存最新配置与数据
+      - name: 追加彭博社与财联社重点资讯
+        run: python scripts/enrich_priority_media.py
+
+      - name: 保存最新数据
         run: |
           git config user.name "ai-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add scripts/fetch_news.py config/sources.json index.html data/articles.json
-          git diff --cached --quiet || git commit -m "feat: prioritize Bloomberg and CLS AI news"
+          git add data/articles.json
+          git diff --cached --quiet || git commit -m "chore: update AI news with Bloomberg and CLS focus"
           git push || true
 
       - name: 配置Pages
