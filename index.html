@@ -9,6 +9,7 @@
 <!-- MAINSTREAM_MEDIA_V1 -->
 <!-- BLOOMBERG_CLS_FOCUS_V1 -->
 <!-- SERENITY_X_WATCH_V1 -->
+<!-- LLM_NEWS_MODULE_V1 -->
 <!-- LATEST_NEWS_FIRST_V1 -->
 <style>
 :root{--bg:#07111f;--panel:#0d1b2e;--text:#eef5ff;--muted:#94a8c2;--line:#1d3653;--accent:#4cc9f0;--accent2:#7b61ff;--good:#43d17a;--warn:#ffb84d;--shadow:0 16px 50px rgba(0,0,0,.26)}
@@ -16,6 +17,8 @@
 
 .watch-panel{padding:18px;margin-bottom:18px}.watch-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:14px}.watch-head h2{margin:0;font-size:19px}.watch-handle{color:var(--accent);font-weight:700}.watch-actions{display:flex;gap:8px;flex-wrap:wrap}.watch-btn{display:inline-flex;align-items:center;justify-content:center;padding:9px 12px;border:1px solid var(--line);border-radius:11px;background:#0a1728;text-decoration:none;font-size:12px}.watch-btn:hover{border-color:var(--accent);color:var(--accent)}.watch-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.55fr);gap:16px}.watch-timeline{min-height:560px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#081523}.watch-info{display:grid;gap:10px;align-content:start}.watch-card{padding:14px;border:1px solid var(--line);border-radius:13px;background:#0a1728}.watch-card h3{font-size:14px;margin:0 0 8px}.watch-card p{margin:0;color:#c8d6e7;font-size:13px;line-height:1.7}.watch-searches{display:grid;gap:8px}.watch-searches a{display:block;padding:10px 11px;border:1px solid var(--line);border-radius:10px;text-decoration:none;font-size:12px;background:#081523}.watch-searches a:hover{border-color:var(--accent);color:var(--accent)}
 @media(max-width:1180px){.toolbar{grid-template-columns:1fr 1fr 1fr}.stats{grid-template-columns:repeat(3,1fr)}.search-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:980px){.watch-grid{grid-template-columns:1fr}.layout{grid-template-columns:1fr}.side{position:static}.search-grid{grid-template-columns:repeat(2,1fr)}.custom-search{grid-template-columns:1fr 1fr}}@media(max-width:680px){.watch-head{display:block}.watch-actions{margin-top:10px}.watch-timeline{min-height:500px}header{align-items:flex-start}.status{display:none}.toolbar,.custom-search{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.search-grid{grid-template-columns:1fr}.wrap{padding:18px 12px 40px}.title{font-size:17px}.search-head{display:block}.search-note{margin-top:8px}}
+
+.llm-panel{padding:18px;margin:18px 0}.llm-head{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;margin-bottom:14px}.llm-head h2{margin:0;font-size:20px}.llm-summary{display:flex;gap:8px;flex-wrap:wrap}.llm-pill{padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:#0a1728;color:#cfe9ff;font-size:12px}.llm-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.llm-column{border:1px solid var(--line);border-radius:14px;background:#091727;overflow:hidden}.llm-column-head{display:flex;justify-content:space-between;align-items:center;padding:13px 14px;border-bottom:1px solid var(--line)}.llm-column-head h3{margin:0;font-size:15px}.llm-list{display:grid}.llm-item{display:block;padding:12px 14px;border-bottom:1px solid rgba(29,54,83,.72);text-decoration:none}.llm-item:last-child{border-bottom:0}.llm-item:hover{background:#0c1d31}.llm-title{font-size:14px;font-weight:700;line-height:1.5}.llm-meta{font-size:11px;color:var(--muted);margin-top:5px}.llm-empty{padding:28px 14px;text-align:center;color:var(--muted);font-size:13px}.llm-models{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}.llm-model{padding:5px 8px;border:1px solid var(--line);border-radius:999px;background:#081523;color:#bdd2ea;font-size:11px}@media(max-width:860px){.llm-grid{grid-template-columns:1fr}.llm-head{display:block}.llm-summary{margin-top:10px}}
 </style>
 </head>
 <body>
@@ -28,7 +31,7 @@
 <section class="toolbar">
   <input id="keyword" placeholder="搜索媒体、公司、模型、融资、芯片、算力、机器人、新技术…">
   <select id="category"><option>全部分类</option><option>投资商业</option><option>技术研究</option><option>产品应用</option><option>政策治理</option><option>产业动态</option></select>
-  <select id="sourceType"><option>全部来源</option><option>主流媒体</option><option>巨头企业</option><option>产业链</option><option>新技术</option><option>国内资讯</option><option>微信公众号</option><option>小红书</option><option>抖音</option><option>Reddit</option><option>论文</option><option>技术社区</option><option>RSS</option><option>全球新闻</option></select>
+  <select id="sourceType"><option>全部来源</option><option>大模型资讯</option><option>主流媒体</option><option>巨头企业</option><option>产业链</option><option>新技术</option><option>国内资讯</option><option>微信公众号</option><option>小红书</option><option>抖音</option><option>Reddit</option><option>论文</option><option>技术社区</option><option>RSS</option><option>全球新闻</option></select>
   <select id="timeRange"><option value="1" selected>近24小时</option><option value="3">近3天</option><option value="7">近7天</option><option value="30">近30天</option></select>
   <select id="sortMode"><option value="latest" selected>最新优先</option><option value="relevance">相关度优先</option></select>
   <button id="refreshBtn">刷新</button>
@@ -40,6 +43,7 @@
   <div class="search-head"><div><h2>最新专题搜索</h2><div class="sub">主流媒体与产业专题均默认限定近24小时。</div></div><div class="search-note">自动聚合覆盖国际综合媒体、财经媒体、国内权威媒体、国内财经媒体、亚洲媒体及科学政策媒体；按钮用于补充实时搜索。</div></div>
   <div class="platform-tabs">
     <button class="platform-tab active" data-filter="all">全部</button>
+    <button class="platform-tab" data-filter="llm">大模型资讯</button>
     <button class="platform-tab" data-filter="media">主流媒体</button>
     <button class="platform-tab" data-filter="industry">产业专题</button>
     <button class="platform-tab" data-filter="wechat">微信公众号</button>
@@ -50,6 +54,10 @@
     <button class="platform-tab" data-filter="x">X</button>
   </div>
   <div class="search-grid">
+    <a class="search-link latest" data-group="llm" data-platform="news" data-query="OpenAI GPT Anthropic Claude Gemini Llama Grok Mistral large language model" data-days="1">国外大模型 · 最新发布</a>
+    <a class="search-link latest" data-group="llm" data-platform="news" data-query="DeepSeek 通义千问 Qwen 文心一言 腾讯混元 豆包 华为盘古 智谱GLM Kimi MiniMax" data-days="1">国内大模型 · 最新发布</a>
+    <a class="search-link industry" data-group="llm" data-platform="news" data-query="reasoning model multimodal model open source LLM benchmark model API" data-days="1">大模型 · 开源评测</a>
+    <a class="search-link industry" data-group="llm" data-platform="news" data-query="大模型 智能体 API 企业应用 多模态 推理模型" data-days="1">大模型 · 应用落地</a>
     <a class="search-link media" data-group="media" data-platform="news" data-query="site:bloomberg.com artificial intelligence OpenAI NVIDIA data center funding" data-days="1">彭博社 · AI最新</a>
     <a class="search-link media" data-group="media" data-platform="news" data-query="site:cls.cn 人工智能 大模型 AI芯片 算力 机器人 融资" data-days="1">财联社 · AI最新</a>
     <a class="search-link media" data-group="media" data-platform="news" data-query="artificial intelligence Reuters Associated Press BBC Bloomberg CNBC Financial Times Wall Street Journal New York Times Guardian" data-days="1">国际主流媒体 · AI</a>
@@ -92,6 +100,33 @@
   <section class="feed panel"><div class="feed-head"><h2>最新资讯</h2><span class="count" id="resultCount">0 条</span></div><div id="feed"><div class="empty">正在加载最新AI资讯…</div></div></section>
   <aside class="side panel"><h2>重点关注</h2><div class="sub">综合相关度与新鲜度</div><div id="ranking" class="rank"></div><h2 style="margin-top:24px">来源概览</h2><div id="sourceOverview" class="source-list"></div></aside>
 </main>
+
+<section class="llm-panel panel" id="llmNewsModule">
+  <div class="llm-head">
+    <div>
+      <h2>国内外大模型资讯</h2>
+      <div class="sub">聚合模型发布、开源、评测、API、智能体、多模态与产业应用，按真实发布时间排序。</div>
+    </div>
+    <div class="llm-summary">
+      <span class="llm-pill">国外 <strong id="llmGlobalCount">0</strong></span>
+      <span class="llm-pill">国内 <strong id="llmDomesticCount">0</strong></span>
+      <span class="llm-pill">近24小时</span>
+    </div>
+  </div>
+  <div class="llm-grid">
+    <section class="llm-column">
+      <div class="llm-column-head"><h3>国外大模型</h3><span class="sub">GPT · Claude · Gemini · Llama · Grok</span></div>
+      <div class="llm-list" id="llmGlobalList"><div class="llm-empty">正在加载国外大模型资讯…</div></div>
+    </section>
+    <section class="llm-column">
+      <div class="llm-column-head"><h3>国内大模型</h3><span class="sub">DeepSeek · Qwen · Kimi · GLM · 豆包</span></div>
+      <div class="llm-list" id="llmDomesticList"><div class="llm-empty">正在加载国内大模型资讯…</div></div>
+    </section>
+  </div>
+  <div class="llm-models">
+    <span class="llm-model">OpenAI / GPT</span><span class="llm-model">Anthropic / Claude</span><span class="llm-model">Google / Gemini</span><span class="llm-model">Meta / Llama</span><span class="llm-model">xAI / Grok</span><span class="llm-model">Mistral</span><span class="llm-model">DeepSeek</span><span class="llm-model">通义千问 / Qwen</span><span class="llm-model">文心</span><span class="llm-model">腾讯混元</span><span class="llm-model">豆包</span><span class="llm-model">华为盘古</span><span class="llm-model">智谱GLM</span><span class="llm-model">Kimi</span><span class="llm-model">MiniMax</span>
+  </div>
+</section>
 
 <section class="stats">
   <div class="stat panel"><div class="label">当前结果</div><div class="value" id="sTotal">0</div></div>
@@ -163,6 +198,28 @@ function render(){const rows=filtered(),countType=t=>rows.filter(x=>x.source_typ
   const sourceCounts={};store.forEach(a=>sourceCounts[a.source_type||"其他"]=(sourceCounts[a.source_type||"其他"]||0)+1);el("sourceOverview").innerHTML=Object.entries(sourceCounts).sort((a,b)=>b[1]-a[1]).map(([name,n])=>`<div class="source-row"><span>${escapeHtml(name)}</span><span>${n}</span></div>`).join("")}
 async function loadData(){try{const response=await fetch(`data/articles.json?t=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw new Error("data unavailable");const data=await response.json();store=Array.isArray(data.articles)?data.articles:[];dataErrors=Array.isArray(data.errors)?data.errors:[];el("updatedAt").textContent=`更新于 ${formatTime(data.updated_at)}`;const fp=data.freshness_policy||{};el("freshStatus").textContent=`近24小时：${fp.last_24h||0} 条`}catch(error){store=fallbackData.articles;el("updatedAt").textContent="离线预览模式";el("freshStatus").textContent="近24小时：待更新"}render()}
 ["keyword","category","sourceType","timeRange","sortMode"].forEach(id=>el(id).addEventListener(id==="keyword"?"input":"change",render));document.querySelectorAll(".search-link").forEach(link=>link.addEventListener("click",()=>openPlatformSearch(link.dataset.platform,link.dataset.query,link.dataset.days||el("platformDays").value)));document.querySelectorAll(".platform-tab").forEach(tab=>tab.addEventListener("click",()=>{document.querySelectorAll(".platform-tab").forEach(x=>x.classList.remove("active"));tab.classList.add("active");const group=tab.dataset.filter;document.querySelectorAll(".search-link").forEach(link=>link.style.display=(group==="all"||link.dataset.group===group)?"block":"none")}));el("customSearchBtn").addEventListener("click",()=>openPlatformSearch(el("customPlatform").value,el("platformKeyword").value||el("keyword").value||"人工智能",el("platformDays").value));el("platformKeyword").addEventListener("keydown",e=>{if(e.key==="Enter")el("customSearchBtn").click()});el("refreshBtn").addEventListener("click",loadData);loadData();
+</script>
+
+<script>
+(function(){
+  const domesticTerms=["deepseek","通义","qwen","文心","混元","豆包","盘古","智谱","glm","kimi","月之暗面","minimax","百川","零一万物","阶跃星辰","书生浦语","国产大模型"];
+  const globalTerms=["openai","gpt","anthropic","claude","gemini","deepmind","llama","meta ai","grok","xai","mistral","cohere","amazon nova","microsoft phi","nemotron"];
+  function region(article){const text=[article.source,article.title,article.summary,(article.tags||[]).join(" ")].join(" ").toLowerCase();if(String(article.source||"").startsWith("国内大模型")||domesticTerms.some(x=>text.includes(x)))return"domestic";if(String(article.source||"").startsWith("国际大模型")||globalTerms.some(x=>text.includes(x)))return"global";return article.language==="zh"?"domestic":"global"}
+  function itemHtml(a){return `<a class="llm-item" href="${escapeHtml(a.url||"#")}" target="_blank" rel="noopener"><div class="llm-title">${escapeHtml(a.title||"")}</div><div class="llm-meta">${escapeHtml(a.source||"")} · ${escapeHtml(relativeTime(a.published_at))}</div></a>`}
+  function renderLLMNews(){
+    if(typeof store==="undefined")return;
+    const cutoff=Date.now()-24*60*60*1000;
+    const terms=[...domesticTerms,...globalTerms,"large language model","foundation model","reasoning model","multimodal model","大模型"];
+    const rows=store.filter(a=>{const t=new Date(a.published_at).getTime(),text=[a.title,a.summary,a.source,(a.tags||[]).join(" ")].join(" ").toLowerCase();return !Number.isNaN(t)&&t>=cutoff&&(a.source_type==="大模型资讯"||terms.some(x=>text.includes(x)))}).sort((a,b)=>new Date(b.published_at)-new Date(a.published_at));
+    const domestic=rows.filter(a=>region(a)==="domestic"),global=rows.filter(a=>region(a)==="global");
+    const domesticList=document.getElementById("llmDomesticList"),globalList=document.getElementById("llmGlobalList");
+    if(domesticList)domesticList.innerHTML=domestic.length?domestic.slice(0,8).map(itemHtml).join(""):'<div class="llm-empty">近24小时暂无国内大模型资讯</div>';
+    if(globalList)globalList.innerHTML=global.length?global.slice(0,8).map(itemHtml).join(""):'<div class="llm-empty">近24小时暂无国外大模型资讯</div>';
+    const dc=document.getElementById("llmDomesticCount"),gc=document.getElementById("llmGlobalCount");if(dc)dc.textContent=domestic.length;if(gc)gc.textContent=global.length;
+  }
+  let tries=0;const timer=setInterval(()=>{renderLLMNews();tries+=1;if(tries>=12)clearInterval(timer)},500);
+  document.getElementById("refreshBtn")?.addEventListener("click",()=>setTimeout(renderLLMNews,1000));
+})();
 </script>
 </body>
 </html>
