@@ -1,12 +1,12 @@
 {
   "mode": "free",
-  "updated_at": "2026-07-23T00:39:14.073628+00:00",
-  "count": 1282,
+  "updated_at": "2026-07-23T00:41:48.633352+00:00",
+  "count": 1267,
   "errors": [],
   "freshness_policy": {
     "undated_items": "discarded",
-    "last_24h": 901,
-    "last_72h": 1268
+    "last_24h": 888,
+    "last_72h": 1253
   },
   "source_status": {
     "X": {
@@ -35,11 +35,11 @@
     },
     "RSS": {
       "state": "fetched",
-      "count": 1108
+      "count": 1107
     },
     "Reddit": {
       "state": "fetched",
-      "count": 24
+      "count": 12
     },
     "arXiv": {
       "state": "fetched",
@@ -62,21 +62,38 @@
       "count": 0
     },
     "来源统计": {
-      "国内资讯": 122,
-      "主流媒体": 575,
       "技术社区": 58,
+      "国内资讯": 122,
+      "主流媒体": 573,
       "巨头企业": 144,
-      "Reddit": 24,
-      "产业链": 185,
+      "产业链": 184,
+      "Reddit": 12,
       "新技术": 114,
       "论文": 60
     },
     "重点媒体": {
-      "彭博社": 184,
-      "财联社": 235
+      "彭博社": 182,
+      "财联社": 236
     }
   },
   "articles": [
+    {
+      "title": "Localmaxxing – Local LLM Inference Benchmarks",
+      "url": "https://www.localmaxxing.com/en",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-07-23T00:41:00+00:00",
+      "author": "ilreb",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "benchmark",
+        "inference"
+      ],
+      "summary": "Localmaxxing – Local LLM Inference Benchmarks"
+    },
     {
       "title": "OpenAI最强AI模型：GPT-6文档曝光，达到通用人工智能水平 - 新浪网",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE43Mld1bGl4MGFVWU1ZTlVvR2t4ek1mZWdyX3V4RDZJeHNaMGZ1ZGFrd1FzRlMxUHpNdzl0OFBnQjNjc1lRUTVVQVpaR0lBVlhpTG9YUXlReW04MVlMRy1sWEI0RXFnNVFaV04wZVZ1b3V0QQ?oc=5",
@@ -542,6 +559,23 @@
       "summary": "US Department of Energy: AI funding opportunities for small businesses"
     },
     {
+      "title": "18:11:14【AI耗电激增与高温炙烤下 美国电网迎极限考验】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoN1BrR1RjU3JkY0tLekltcmt5QW1Gd1FELVNkZXRiaGdrLXRtN2xERmZ0WVRvLTJoeGlSYy1IREhuUXM0b080aA?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T23:50:27+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "18:11:14【AI耗电激增与高温炙烤下 美国电网迎极限考验】 财联社",
+      "source_priority": 18
+    },
+    {
       "title": "东盟国家驻华使节参访中国—东盟国家人工智能应用合作中心 - chinanews.com.cn",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1HR245Nzd4Q054Z3FYc0hFWlA5bzNtMmgwNzREYjBIQkNxWHI0SFplUjdWMV9rRGFhMDZXeGJsb3ZuMWhTOHd6cnBwQlpFX1RDdEp1eDA0TFRGMzNpTVdqYzhPcTlxNTlkMVcyVHFMa2Y?oc=5",
       "source": "中文AI新闻聚合",
@@ -592,24 +626,6 @@
       "summary": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily."
     },
     {
-      "title": "Best models for 12GB VRAM and 16GB DDR5 RAM?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3x8jj/best_models_for_12gb_vram_and_16gb_ddr5_ram/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T23:45:57+00:00",
-      "author": "u/BlackHazeRus",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 60,
-      "tags": [
-        "model",
-        "release",
-        "tool"
-      ],
-      "summary": "Hey, folks! I have ASUS ROG Strix G16 with i7-13650HX, RTX 4080M 12GB, and 16GB DDR5 RAM. Just a few days ago I started my journey in local LLM hosting! I wanted to try it out for quite some time, but with the release of Odysseus by PewDiePie, I decided to give it a go. For anyone curious: I use Ternary-Bonsai-27B-gguf"
-    },
-    {
       "title": "07:44:02【Alphabet CEO：市场对AI基础设施和解决方案需求旺盛 云业务积压订单已增至5140亿美元】 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE02dGZoLTNCZGpMb2RTRENZZVk4NnZUN3NKWUxWVUtheHVSclpweV9mWjJfc2hHX04xQW9YeC1PbE1Hc29RVXlUcw?oc=5",
       "source": "财联社",
@@ -650,7 +666,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-22T23:40:40+00:00",
       "author": "petethomas",
-      "engagement": 12,
+      "engagement": 14,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -908,21 +924,20 @@
       "summary": "07:15:46【特斯拉Q2营收超预期但利润失色 资本开支不及目标引发技术担忧】 财联社"
     },
     {
-      "title": "\"Basic\" anime style in ANIMA model",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3wice/basic_anime_style_in_anima_model/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T23:15:03+00:00",
-      "author": "u/justbob9",
-      "reddit_community": "StableDiffusion",
+      "title": "放射学工作清单中的人工智能市场规模、份额 |增长 [2026-2034] - Fortune Business Insights",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTERUS3NWeUktM2JmUUZicTJ5R3BqOVRtV3ZRWUkxUVRscnc5WEhXZy1vLVl5RkJiaDM5QTJ2TVRtV3praDJoVnFYdDA3OFA1VEZaTHFMWkJETjFqNlo3cU4xYUZ1UGpPdTdBLURiZzdNNjdOWUFzMUhFS2RsLW93SXdYaVl3dEZL?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-22T23:13:21+00:00",
+      "language": "zh",
       "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 51,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 54,
       "tags": [
-        "model",
-        "act"
+        "市场"
       ],
-      "summary": "I really like the \"basic\" anime style in WAI-Illustrious models while using \"anime screencap\" tag, it just looks like the most universal anime style, I tried getting this effect using anima (aesthetic version) but while I managed to get somewhat similar results (mainly with \"anime coloring\" tag) it still doesn't feel e"
+      "summary": "放射学工作清单中的人工智能市场规模、份额 |增长 [2026-2034] Fortune Business Insights"
     },
     {
       "title": "The Army Is Burning Through Its AI Tokens",
@@ -954,6 +969,24 @@
         "launch"
       ],
       "summary": "Bitwave Launches Agentic Finance Initiative"
+    },
+    {
+      "title": "【早报】美股AI服务器整机龙头，大涨近20%；特斯拉、谷歌披露财报；油价、黄金齐升；A股又一波公司启动增持回购 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Nc1VxTzdEbmpYaFhOZXFuQ0NGSEZVSDgxU2FTT3IxVFJPYWNLYVo0T2Q2Q25CSzFFYWs5Q0JxZXRkTGRoTUx5Ug?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T23:11:56+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "资本市场",
+        "财联社"
+      ],
+      "summary": "【早报】美股AI服务器整机龙头，大涨近20%；特斯拉、谷歌披露财报；油价、黄金齐升；A股又一波公司启动增持回购 财联社",
+      "source_priority": 18
     },
     {
       "title": "AI世界的“原油期货”要来了：芝商所官宣将推出算力期货市场 - 财联社",
@@ -1107,23 +1140,6 @@
       "source_priority": 18
     },
     {
-      "title": "亏损收窄、打通“元宝”后 美团大涨9% - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5HbjNJdEZKOTBuSWo3M0x1X3V1c0V1dFZreGZPOUNuTUI2TXFTc1RTQ2dseEVEQmJwOW1XSUN5eEFnYzZxa3Z1RQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T22:59:34+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 96,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "亏损收窄、打通“元宝”后 美团大涨9% 财联社",
-      "source_priority": 18
-    },
-    {
       "title": "AI音乐独角兽估值冲上54亿美元 “互联网女皇”基金领投最新融资 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5jSXZPMWZyMUx3eFpwV05lV3FTdzliTFBQZXFUNkgtTC15azhSamp1bTIxTnVPT0ZwU3ZHM3lDeWhQMzdFWWdFXw?oc=5",
       "source": "中文AI投资融资",
@@ -1139,24 +1155,6 @@
         "估值"
       ],
       "summary": "AI音乐独角兽估值冲上54亿美元 “互联网女皇”基金领投最新融资 财联社"
-    },
-    {
-      "title": "华丰科技：2026年世界人工智能大会期间，公司的高速背板连接器及高速线模组产品在AI服务器领域有相关应用展示 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPaS1tNnNVSXJmMl9KSTBocllxNDJUMnR5Y192UHlyaE5nU3VVMEw0MUpTRS1wVDRVZERPemZoWnFLYkxQM254WXVzYWVMbEJ6eFhCQVhUMzFzaUhuUzRfSmlNT3lPUQ?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-22T22:58:40+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 60,
-      "tags": [
-        "产品",
-        "应用",
-        "公司"
-      ],
-      "summary": "华丰科技：2026年世界人工智能大会期间，公司的高速背板连接器及高速线模组产品在AI服务器领域有相关应用展示 东方财富"
     },
     {
       "title": "“核能”还是“核武”？中美AI比的是什么 - 新浪军事_手机新浪网",
@@ -1328,24 +1326,6 @@
       "source_priority": 18
     },
     {
-      "title": "【早报】美股AI服务器整机龙头，大涨近20%；特斯拉、谷歌披露财报；油价、黄金齐升；A股又一波公司启动增持回购 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Nc1VxTzdEbmpYaFhOZXFuQ0NGSEZVSDgxU2FTT3IxVFJPYWNLYVo0T2Q2Q25CSzFFYWs5Q0JxZXRkTGRoTUx5Ug?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T22:46:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 96,
-      "tags": [
-        "重点媒体",
-        "资本市场",
-        "财联社"
-      ],
-      "summary": "【早报】美股AI服务器整机龙头，大涨近20%；特斯拉、谷歌披露财报；油价、黄金齐升；A股又一波公司启动增持回购 财联社",
-      "source_priority": 18
-    },
-    {
       "title": "Senate Weighs Vote on High-Stakes Crypto Legislation Next Week - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeUIwa0NXWG9BX1ZoVWFZYzFWSVI1Nm5EQlMxZExnbUhqMDFPM2htVklvMko5Z2E3M0s3LThJQWg2OWxmM0UweTBFY21ZYUZjUWpocVg5Zm0zTy1rWnZPa0hldTQtaXBRVGFFRlZvQTBETlMxUTJ4ZDZjcE52amJ6dGpiN2hhSTBETWNNa2pLbjMzRkNxcC1UYjc4ZkNjSEk1eF9Ra2poV1A5Q2xnRnpEUEhfbw?oc=5",
       "source": "彭博社",
@@ -1427,22 +1407,6 @@
       ],
       "summary": "SpaceX拟投入550亿美元在得州建设Terafab芯片工厂 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "Image generation sites and apps that allow Hentai without restriction?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3vmmd/image_generation_sites_and_apps_that_allow_hentai/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T22:39:36+00:00",
-      "author": "u/NoAKAsNeeded",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 48,
-      "tags": [
-        "app"
-      ],
-      "summary": "submitted by /u/NoAKAsNeeded [link] [comments]"
     },
     {
       "title": "IBM Lowers Its Growth Outlook as Sales of Data-Center Mainframes Sink 42% - WSJ",
@@ -1627,22 +1591,6 @@
       "summary": "国产开源、全球前沿，大模型Kimi K3强在哪里？ 21财经"
     },
     {
-      "title": "SCAIL-2/SAM 3 Tracking Help",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3veq7/scail2sam_3_tracking_help/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T22:31:03+00:00",
-      "author": "u/Delightful_Disciple",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model"
-      ],
-      "summary": "Long story short I’m trying to place someone over Terry Crews in this shot from “White Chicks” using SCAIL-2/SAM 3 through Maestro which I’ve had incredible results with for pretty complex scenes. I know this scene overall is a bit ambitious, but even the close up shots I’ve isolated refuse to track when it’s basically"
-    },
-    {
       "title": "算力新主线：华为超节点题材概念龙头梳理! - 手机网易网",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE11dXpWX29BQjFhRmc0M1VIbUNZZU9iOFBXZjh0Xzk0d0pHMHZ6alBmM1djQzI2X2R4aDFoQ2JQeE1tbE5DamkyQ2dOU2tDUWNmdmpUbzY3TF9ZZzRjbzFMYlBB?oc=5",
       "source": "中国算力芯片产业链",
@@ -1765,6 +1713,22 @@
       "summary": "Hey, I would like to show you my project, but it's difficult because it only works with a registration, so I explain the concept to you. The Idea: Everyone who registers has to do an onboarding and answer meaningful questions that help you to find a right match. The matching happens by the system. Once you're done with"
     },
     {
+      "title": "中国人工智能加速壮大,核心产业规模突破1.2万亿元--见道网 - 新浪网",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kQjB5OGVlaTNuTkpta1ZDV0tlNlpuWE4tazQwN0YyeDVyLUU2T01hanZaQWt6LU1ueWNjVTBpOE94LXBheVRCRDhQOW41dW1ENXhmMzF0ejlNeEpDb1FCaVNlTlVVdjdxV29hSDQ4YnU1ZnFCbi0zRkE2UU1pQ3c?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-22T22:19:35+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 54,
+      "tags": [
+        "产业"
+      ],
+      "summary": "中国人工智能加速壮大,核心产业规模突破1.2万亿元--见道网 新浪网"
+    },
+    {
       "title": "AI & Tech Brief: The AI gatekeepers - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMzQ0ZGVyVU9EemQyT1FIWl80MWhuMmI2TVBTaUUyMUxxZ21saHhlMjRBZXBhOXc1Mko5THVwM1F5WjZOZDB4NndiN0VCbkplX01JSkFRN0VrLXB4Z1JidkpoZEF0RWVxUGJJNnhNc0JPOV9STllXNkNIT3lTMThLWGdnUDIyYXh4YUlsMFZqNlpueHJJYXFTRGJTQkZXUkVUVjlr?oc=5",
       "source": "全球AI巨头动态",
@@ -1794,6 +1758,22 @@
       ],
       "summary": "谷歌掌门皮查伊：2027年将是AI重塑生产方式的关键拐点 财联社",
       "source_priority": 18
+    },
+    {
+      "title": "国产AI持续打开全球市场空间 - 广州日报",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lVVowN1R4S3dwQjFfTDRSVkxocllMT252ZkZ4aUpGNnpudVhiMTFXSHRYZVVKT0FiNWhBakZSRTVSYmF2MG1GUnp0eF9pbVQydVQxMWdHRVR3Z29zMHliNk1WYUZQQ21DdzFWYkUtR1dkTWE4dFE?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-22T22:13:59+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 48,
+      "tags": [
+        "市场"
+      ],
+      "summary": "国产AI持续打开全球市场空间 广州日报"
     },
     {
       "title": "IBM Cuts Full-Year Sales Outlook After Mainframe Unit Dip - Bloomberg.com",
@@ -2017,7 +1997,7 @@
       "source_type": "技术社区",
       "published_at": "2026-07-22T22:00:07+00:00",
       "author": "arto",
-      "engagement": 15,
+      "engagement": 16,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -2128,20 +2108,6 @@
       "summary": "Running Claude Code on a Jailbroken Kindle over SSH via Tailscale"
     },
     {
-      "title": "Famegrid Krea 2 LoR",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3uecx/famegrid_krea_2_lor/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T21:52:01+00:00",
-      "author": "u/ripcord007",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "submitted by /u/ripcord007 [link] [comments]"
-    },
-    {
       "title": "The Powerhouse of the AI Chip",
       "url": "https://twitter.com/joefioti/status/2077430481809989662",
       "source": "Hacker News",
@@ -2156,24 +2122,6 @@
         "chip"
       ],
       "summary": "The Powerhouse of the AI Chip"
-    },
-    {
-      "title": "深交所理事长沙雁：受理首批创新企业IPO，争取尽快形成一批典型案例 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RS1dwc3lHajhQWFZDTHJibklpWVduaHJOUVMtV19CRV9aQWZVeTdVcW14eXBSV2xvRHRGQnA4RlRfc1FTelJvUQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T21:45:16+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 95,
-      "tags": [
-        "重点媒体",
-        "资本市场",
-        "财联社"
-      ],
-      "summary": "深交所理事长沙雁：受理首批创新企业IPO，争取尽快形成一批典型案例 财联社",
-      "source_priority": 18
     },
     {
       "title": "NotchAgent – native macOS notch control for AI agents running under herdr",
@@ -2394,20 +2342,6 @@
       "source_priority": 18
     },
     {
-      "title": "How can I get better at prompt details for style",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3tfot/how_can_i_get_better_at_prompt_details_for_style/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T21:16:20+00:00",
-      "author": "u/RajMahal04",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "So I have been dipping my toes in txt to img generation, mainly with anime style art. But when it comes to coming up with prompts for stylization and things like that, I get a bit lost. For example, I have been getting the same kind of art style but do not know how to do different ones, or it is not what I was expectin"
-    },
-    {
       "title": "IBM lowers its growth outlook as sales of data center mainframes sink 42% - MSN",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPek03d2hYOTd6azVxWDJlVzNsMHJiaXZxOHNOVVRPbUdkLUdKcEctZUJWRGNuTDhuTG5hTlMxUVpKLXR3NFNvWmRXcTlMVXJ3WC1KcXlrVGM2cFVZUmlkdENQTlpMb3ZFZU5yTnBaT2otNDB5WGRIVjJWMVJ6NHNOdXJuXzBFWHFybnpuWnVCQWxuMUduZHlYbFo2Vl80bWhWUzZ2VnJrUG1SXzNTdVlmcXBYUC1Tal84VnRoRklDUHFxQQ?oc=5",
       "source": "主流媒体·国际财经",
@@ -2472,22 +2406,6 @@
         "research"
       ],
       "summary": "Hey everyone, I'm not in college anymore. Is it possible to do research with a professor or any research lab while working a full time job? If yes, what's the best way to reach out and get involved? Also if anyone looking for someone to work with on a research project or something similar, can dm me. submitted by /u/Va"
-    },
-    {
-      "title": "WAN 2.2 inpainting only a specific region (chest) for video",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3t82g/wan_22_inpainting_only_a_specific_region_chest/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T21:08:25+00:00",
-      "author": "u/TekeshiX",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 48,
-      "tags": [
-        "act"
-      ],
-      "summary": "Hello! Is there any way to make only a part of an image to move in a WAN 2.2 generated video? For example I want to be able to \"inpaint\" over a character's breasts and only those breasts to move/bounce and nothing else in the entire video (everything else has to remain 100% static). This kind of \"animation\" could be ve"
     },
     {
       "title": "Stock Movers: Alphabet, Tesla, IBM - Bloomberg.com",
@@ -2806,6 +2724,23 @@
       "summary": "I built The Daily FM because I wanted a daily summary of the latest AI news sent to my podcast app and then realized it was useful in summarizing other stuff: - Any blogs, websites, or X handles - The top Hacker News stories with comments - Long podcasts (think Lex Fridman) - Changes in state/federal legislation It pul"
     },
     {
+      "title": "04:49:59 财联社7月23日电，Alphabet首席执行官称，谷歌云第二季度积压订单增至5140亿美元。 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GRDVXamtscDI2NC1MZE85b1Nrb1FHV0lBaThzOW40VGJNWDVxUm43akFpbXdHQXFudG5MNnV0cV9FUDFhZ0FKMw?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T20:49:59+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 95,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "04:49:59 财联社7月23日电，Alphabet首席执行官称，谷歌云第二季度积压订单增至5140亿美元。 财联社",
+      "source_priority": 18
+    },
+    {
       "title": "Wall Street Won’t Give Up on Strategy, Sees 170% Upside - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdUFnNnphTF8tdkc0WTZlak9HOW15QTlXVGtuRC1EVGNOQWJCeFN2SlpFUDVMWDlzNDIyTnhaUExic05kSl81VE8wVzhhWGFQa0wzLTM1b2NucEcxSXVzRmpkbm92V2NUY1FTOVg0MWhXUjJ1X054SDdkOEc2MG5pdlVobFdHbWs1WTQ2ZlJuWlF3S0lINERBb3VNcjhyOUdnYzVfRC1fYnFtczRZRXVPd1ZZUQ?oc=5",
       "source": "彭博社",
@@ -2867,54 +2802,6 @@
         "model"
       ],
       "summary": "The episode has also intensified a broader debate in Washington over the influx of Chinese open models."
-    },
-    {
-      "title": "Image2Prompt — Vision-to-prompt tab for SD WebUI Forge Neo (Qwen2-VL, Qwen2.5-VL, Florence-2)",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3sm34/image2prompt_visiontoprompt_tab_for_sd_webui/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T20:45:59+00:00",
-      "author": "u/adeliogentile",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "github"
-      ],
-      "summary": "Couldn't find an existing extension for Forge Neo that generates prompts from images, so I built one. Might be useful if you want to reverse-engineer prompts or caption images directly inside the UI. What it does: Adds an Image2Prompt tab. Upload/paste an image → pick a vision-language model → get a prompt in your chos"
-    },
-    {
-      "title": "FDA Is Investigating Another Cyclospora Parasite Outbreak - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOThMZUNDUUhqZjA3MHhEeTBoN1QwMTRSV1F5THJGTVZib0M5dzVQTEFuS2NueXluRjFTYUJDTFRnSE81Q0hPSW9FWVpKdnNqSllKTHQ1QnZuV3VWdk5xN2llUEhyRXUwdi1SazVsOXdJc1AzcG96MnpxVmZVUldTMmM1RmtvQzl6cTY5Um1NbVBfUVgwZmVYM0tjYzRoNVFscDlvNnJpdTFpZTBneUx1Yk9Bd3B0UQ?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T20:43:31+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 95,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "FDA Is Investigating Another Cyclospora Parasite Outbreak Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "VRAM needed to train custom LORA?",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3shda/vram_needed_to_train_custom_lora/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T20:41:11+00:00",
-      "author": "u/Civil_Fee_7862",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Mode: Qwen Image Edit 2511 How much VRAM do I need to train a really good LORA? submitted by /u/Civil_Fee_7862 [link] [comments]"
     },
     {
       "title": "Big Tech's $5 Trillion AI Debt: Big Enough to Fail? - Newsmax",
@@ -3250,20 +3137,6 @@
       "summary": "I develop pacwich, which started as package bun-workspaces before I expanded it to support Node as a runtime and npm and pnpm as package manager backends. No config is required to use it. It has a CLI and an equivalent TypeScript library API. Docs are tailored for both people and agents. The main goal of the package is"
     },
     {
-      "title": "Is AI speedrunning crypto's mistakes of no consumer?",
-      "url": "https://www.wsj.com/cio-journal/openais-high-stakes-high-touch-push-to-make-ai-work-for-business-7f08b7d4",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-07-22T20:18:53+00:00",
-      "author": "invalidmonk",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "Is AI speedrunning crypto's mistakes of no consumer?"
-    },
-    {
       "title": "ServiceNow Posts Strong Sales and Bookings, Touts AI Strength - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTFE5OEt3MU1DOWwxSTNaY0RXNGF6ZmhmbEliTzZsejI0aTZaQUkyY1dnSHlXdG91ZVZzQkNWbFRaYzIwS1ZlYV9NaFFwRDFMbkxSa05BM1UwQUIwemllazI5UjRYbUJvOC1URHlOYjIzbmhDRkJLNmRJbmdWNDcxSVl3OUFSR3E3Z3I5dXJYZGxWNWV2OGxBQkJkWm9BNnZOMnY1VWhGeHlWV0hYdlB2UA?oc=5",
       "source": "彭博社",
@@ -3398,30 +3271,6 @@
       ],
       "summary": "Pool Supplier Leslie’s Considers Potential Chapter 11 Bankruptcy Bloomberg.com",
       "source_priority": 18
-    },
-    {
-      "title": "Mix Studio - A Free Open Source AI Workspace for ComfyUI. Generate from Your Desktop or Phone with 1-Click Installs for Krea 2, Flux 2 Klein, Qwen Image Edit, LTX 2.3, Wan 2.2, SCAIL 2 and Much More!",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3rjy1/mix_studio_a_free_open_source_ai_workspace_for/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T20:09:30+00:00",
-      "author": "u/blackmixture",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 75,
-      "tags": [
-        "model",
-        "open source",
-        "github",
-        "gpu",
-        "release",
-        "feature",
-        "app",
-        "tool",
-        "act"
-      ],
-      "summary": "I love ComfyUI as an engine. I do not love it as a daily driver. So I spent the last few months building Mix Studio , a 100% free & open source interface that runs everything through ComfyUI in the background while giving you an actual app experience. GitHub: https://github.com/BlackMixture/Mix-Studio Showcase and down"
     },
     {
       "title": "美股收盘：明星存储股集体飙涨两位数 芯片股反弹费城指数升逾5% - 财联社",
@@ -3634,6 +3483,24 @@
       "source_priority": 18
     },
     {
+      "title": "芯片通胀来袭！AI交易将迎大考 一文读懂背后双刃剑效应 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE04bDFXN2JVVFBWR0dfUjFUUUd1bEtOMmQ0X0dMcVB1Z3RoUXNpSnZIRG1tbHdZWlMtbGpDVnlNTXhFS0hpYl9MdA?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T19:50:04+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 94,
+      "tags": [
+        "重点媒体",
+        "产业链",
+        "财联社"
+      ],
+      "summary": "芯片通胀来袭！AI交易将迎大考 一文读懂背后双刃剑效应 财联社",
+      "source_priority": 18
+    },
+    {
       "title": "US says Chinese companies could face sanctions for AI intellectual property theft - Anadolu Ajansı",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaUlReVB5Q1lMQ3ZvbnY1U09sQjVTMWFxWHhwNTR0QTJqWmg4ZWl2ZG5yd3Zoai1DTlR5VmNkOFc5WS15Rm84MWdNZkwwTXZFZG5mVlZ6dVVFNUpsT1VCV3ZqczVTdjRZak5sOU5jbWNoU3NYaG9IS2liS19nQnNLZDh5cEhjSHVNWVZtcHFFbG11a0FzekR6S1g0SS1oUm95Q24zMGx0RHFTVE9TUmotTnlnVnZhTlJKelgteHppeXA?oc=5",
       "source": "AI基础设施与企业软件",
@@ -3664,22 +3531,6 @@
       ],
       "summary": "Oklo、X-Energy股价暴涨 据称入选白宫AI核电建设加速计划 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "A few more Clean Plate Lora examples",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3qqzl/a_few_more_clean_plate_lora_examples/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T19:41:09+00:00",
-      "author": "u/nazihater3000",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 47,
-      "tags": [
-        "act"
-      ],
-      "summary": "Even when it goes wrong the results are impressive. Here's the Lora https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Clean-Plate The workflow is the basic LTX-2.3_V2V_ICLoRA_Single_Stage_Distilled.json The prompt: \"An empty clean plate of the exact same location: identical background, environment, structures and l"
     },
     {
       "title": "Market Outlook: AI infrastructure expands beyond the Mag 7 - BNN Bloomberg",
@@ -3730,24 +3581,6 @@
         "market"
       ],
       "summary": "AI ‘Picks and Shovels’ Stocks: Are They the Smartest Way to Play the Data-Center Boom? MarketWise"
-    },
-    {
-      "title": "Car photo background replacement: gen models distort the car, segmentation can’t handle see through",
-      "url": "https://www.reddit.com/r/StableDiffusion/comments/1v3qicu/car_photo_background_replacement_gen_models/",
-      "source": "Reddit · r/StableDiffusion",
-      "source_type": "Reddit",
-      "published_at": "2026-07-22T19:32:39+00:00",
-      "author": "u/sk1ll111",
-      "reddit_community": "StableDiffusion",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 53,
-      "tags": [
-        "model",
-        "api",
-        "tool"
-      ],
-      "summary": "I have no experience with image processing and I am trying to vibe code a tool to replace backgrounds in used-car listing photos for a family member who owns a dealership. Two requirements: (1) the car exterior and interior must stay pixel-identical — no regeneration or distortion, and (2) background visible through wi"
     },
     {
       "title": "OpenAI President Says Kimi K3 ‘Pretty Good,’ Unsure If Distilled From GPT Models - Bloomberg.com",
@@ -4713,23 +4546,6 @@
       "summary": "知情人士：三星电子洽谈参与法国AI公司Mistral的新一轮融资 新浪财经"
     },
     {
-      "title": "Billionaire Michael Bloomberg says Trump’s plan to have the government own AI would make ‘George Orwell blush’ - moneywise.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPV3FmQUx1MU1QOElDYndmU2J5MGplMWFpZlRFdUI2d1h6cWNCYk5HeHZyUUhlSGpxdlZmUFBRNnJXQ3d6ejJIaFUwRWdXLUFPVGowcDMtcTBZVW9xSlJldkQxajlSWGQ3SkMzMnlncU15M1kxQl85bXJWaml1S3dBTnhhV0ZOUGpMUURhdHB3?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T17:38:54+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 93,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Billionaire Michael Bloomberg says Trump’s plan to have the government own AI would make ‘George Orwell blush’ moneywise.com",
-      "source_priority": 18
-    },
-    {
       "title": "我校举办教师人工智能融合创新能力提升培训-首医要闻 - 首都医科大学",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UWTlCbFdlR3dIaGVIM1hlUy1PMjEtYV85dm5KQUFPc2tESVBoRUlpOVpCVnc2czZhVDBiOWJsUVAwa05zbkRBYzU0S1lyLTFvZy0tendTTFZfeEI5dE9ka1VrWmhxLXZDUXBobWlqY3ZSQWJ3N3hOZjlROEg?oc=5",
       "source": "中文AI新闻聚合",
@@ -5179,7 +4995,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -5685,6 +5501,20 @@
       ],
       "summary": "US Official Says Moonshot Accessed Banned Nvidia Chips Bloomberg.com",
       "source_priority": 18
+    },
+    {
+      "title": "AI-Generated Faces Perceived as More Trustworthy Than Real - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYWZuNExMUmdQWE1XQW9tV1hSN080UzZ0T3lOdldyYWtpQXFZVzFURXFDZEVzaXFhZjNJWllQMXpndEZKeFZFQjA5VlVuNE5yV1QtcmVYaXJTX3p4UVNTc3M3QXo5dnJpNUVfQ2U0ZFFTS0lLcUQ4aFd6bFBQWTVYQTlBY01MdGtX?oc=5",
+      "source": "AI基础设施与企业软件",
+      "source_type": "产业链",
+      "published_at": "2026-07-22T15:40:04+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 43,
+      "tags": [],
+      "summary": "AI-Generated Faces Perceived as More Trustworthy Than Real 조선일보"
     },
     {
       "title": "The AI Export Boom That Wasn’t - Bloomberg.com",
@@ -6519,7 +6349,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "财联社"
@@ -6550,7 +6380,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -6567,7 +6397,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -6584,7 +6414,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "产业链",
@@ -8464,7 +8294,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -9090,6 +8920,25 @@
       "relevance_score": 57,
       "tags": [],
       "summary": "S&P 500 Fluctuates as Traders Brace for Alphabet, Tesla Results Bloomberg.com"
+    },
+    {
+      "title": "AI的尽头是能源，WAIC上，大模型、机器人、平台全来了 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fT1hicDEzc3hGRnZmNGZmTVNkRHd2aTJKeTBJLXdDT2pnNEdtVlZGRjE3Y2tjOFRNd3pTU051YzVYYWpaTGF0NEJ2NXl6TjRHRlRpNnVGMTV1N0U4MTZKTQ?oc=5",
+      "source": "中文AI新闻聚合",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-22T11:57:01+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "技术研究",
+      "relevance_score": 60,
+      "tags": [
+        "模型",
+        "机器人",
+        "大模型",
+        "平台"
+      ],
+      "summary": "AI的尽头是能源，WAIC上，大模型、机器人、平台全来了 东方财富"
     },
     {
       "title": "Nvidia stock trades near record levels as AI demand drives revenue growth - Ad-hoc-news.de",
@@ -9861,18 +9710,22 @@
       "source_priority": 18
     },
     {
-      "title": "引领全球创新 弥合数字鸿沟 外媒热议中国AI“加速度” - 习近平外交思想和新时代中国外交",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1xaDc1Vk5Ob25ZaVB6cmRDLTNMQlhidmYwSFg1dW4ycHE3UjMzdnlpNnJCbkFiTlVhbVNFYTJHOE1iUXVKU09JZkFsSE84MEpFZkhGbmZKX3hBbWVNQTNlc0paZWtoa3hvdUw1OFlwVXBOTmFD?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-22T10:40:40+00:00",
+      "title": "18:42:13 财联社7月22日电，富国银行将ARM目标股价从410美元下调至350美元。 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlU09BSExoelhUZlY3dERmZDFkdkhXeFQ2dmU4Z3hOZnhRakZULXNVcmQ0WlR3RFk1TnR4amQ0ZHpSeG43R2tOSA?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T10:42:13+00:00",
       "language": "zh",
       "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 42,
-      "tags": [],
-      "summary": "引领全球创新 弥合数字鸿沟 外媒热议中国AI“加速度” 习近平外交思想和新时代中国外交"
+      "category": "投资商业",
+      "relevance_score": 90,
+      "tags": [
+        "重点媒体",
+        "资本市场",
+        "财联社"
+      ],
+      "summary": "18:42:13 财联社7月22日电，富国银行将ARM目标股价从410美元下调至350美元。 财联社",
+      "source_priority": 18
     },
     {
       "title": "AI raises the bar for some jobs while widening access to others – PwC report - Business Review",
@@ -10120,20 +9973,6 @@
       "summary": "The pledge was introduced in March, and has done little to quell concerns so far. | Image: Cath Virginia / The Verge, Getty Images In the face of backlash to concerns the AI boom will increase consumer electricity bills, the largest utility companies and data center developers in the US are now promising to do somethin"
     },
     {
-      "title": "M14 SASU - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GbnVmendIYWFnNURTaFBYeW50U0hCdWVTaHVqRE11NTc1WG9aalBiQ2ZheFZxNXZPSTBQbjJoQ1g0OXBRb3pvcVdvdVREVG1TWThJWU9rckk1dXVrelBjOC1hNA?oc=5",
-      "source": "彭博社·芯片算力与数据中心",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T10:11:46+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 18,
-      "category": "产业动态",
-      "relevance_score": 57,
-      "tags": [],
-      "summary": "M14 SASU Bloomberg.com"
-    },
-    {
       "title": "Cerberus to Move Sangwan to India After Ghosh Exit to Apollo - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX1VaZGs0NTJxQ3FRai1GdFd4RTN0MFhiOXIyQVIxUWZGXzRNVTRkUnR1S3BicU1ERFhOMG5qQWkxVjRfWlhEdXN2YjlUMUJzNXY3ck02YWhXSVJhaDk2cGE2THpFOUNRc0xlQkM4c2NlellKY3M5cWVMRDNlUEFEMUcyOHRCUXpuYnNLcXFMUVRRQ2dhc0t1V3QxaW4xeTRnVzdaUklwSUVhakxrTGNlQQ?oc=5",
       "source": "彭博社",
@@ -10316,20 +10155,6 @@
       "relevance_score": 57,
       "tags": [],
       "summary": "Chiang Chee Tee, Harrisons Holdings Malaysia BHD: Profile and Biography Bloomberg.com"
-    },
-    {
-      "title": "【会展区】AI从炫技到实干，2026世界人工智能大会向下扎根向上生长 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xX3hXT3IxcXZwZWVNSTVlMHk0YzBGUjJOckFQekRFQW4tZXBrMFl6STl2V0hJcFlFUlZaNk83Ry1TLXhiQkpnMDZCNnhxNEZuM213c0sxZUdVUjd3WHFJVQ?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-22T09:50:58+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 48,
-      "tags": [],
-      "summary": "【会展区】AI从炫技到实干，2026世界人工智能大会向下扎根向上生长 东方财富"
     },
     {
       "title": "Retina Chip Designed to Restore Sight to Go on Sale in Europe - Bloomberg.com",
@@ -10795,20 +10620,6 @@
       "source_priority": 18
     },
     {
-      "title": "以AI为智能伙伴 共筑健康未来——讯飞医疗全栈数智方案亮相2026世界人工智能大会 - 中国日报网",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KQkVaN1NaeEVPZnF0R1AxRnZ2THlwYnJyRDBLR1RDQ3lBeHg3YWMxVnlleVkzQWVRY3dVTnpuM0Z0LVdvTzV4Rkw3aWpsMVNfU1dOelhmbXFPY1RqTUdIMkVCa0JVRmdrR2FOaUY0TDFOOGdUMTU0d3o3ZWI?oc=5",
-      "source": "中文AI新闻聚合",
-      "source_type": "国内资讯",
-      "published_at": "2026-07-22T08:52:21+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 48,
-      "tags": [],
-      "summary": "以AI为智能伙伴 共筑健康未来——讯飞医疗全栈数智方案亮相2026世界人工智能大会 中国日报网"
-    },
-    {
       "title": "Li Xiaolin, China Western Power Industrial Co Ltd: Profile and Biography - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WbDRtXy1Fa2RTaWk1d3dMWmVCZ05hb1dOT05tMlBBRzdIR0c0OHZxd0toMVpLUW1pNjNrcURqcFRBV2luTnZXUnZoMkF1R1d6a1NzQzJnbThvZGh0MXc?oc=5",
       "source": "彭博社·芯片算力与数据中心",
@@ -10904,23 +10715,6 @@
         "财联社"
       ],
       "summary": "Alphabet CEO：市场对AI基础设施和解决方案需求旺盛 云业务积压订单已增至5140亿美元 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "16:43:53【云知声：预计上半年营收5.3至5.8亿元 同比增31%至43%】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE51Q1NRQTYzZEpfQkdlVXN5REhlanJMOXFHUnVkQ0pnRmJHdEZoTDhZcVROM2U4djQtMFI1UnNpSjRWVEQ1WkNTQw?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T08:43:53+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 89,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "16:43:53【云知声：预计上半年营收5.3至5.8亿元 同比增31%至43%】 财联社",
       "source_priority": 18
     },
     {
@@ -11565,6 +11359,24 @@
       "source_priority": 18
     },
     {
+      "title": "深交所理事长沙雁：受理首批创新企业IPO，争取尽快形成一批典型案例 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1RS1dwc3lHajhQWFZDTHJibklpWVduaHJOUVMtV19CRV9aQWZVeTdVcW14eXBSV2xvRHRGQnA4RlRfc1FTelJvUQ?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T07:41:04+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 88,
+      "tags": [
+        "重点媒体",
+        "资本市场",
+        "财联社"
+      ],
+      "summary": "深交所理事长沙雁：受理首批创新企业IPO，争取尽快形成一批典型案例 财联社",
+      "source_priority": 18
+    },
+    {
       "title": "MSEDCL Said to Pick Banks for India IPO Worth Up to $1 Billion - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbjhDZGdRcXZ3MW4wcm5WN3djTDlDOVplWEhyd2gxS1FSbklqTFNKY1NBQ0ZLOVctRVNpamdwQ0o4Snl6akQwLWx3aUYwMlpKRzZsS1F3SDZDLVNCejY0a3plNkJjUlU1ek41ZUZYUHdDaW8ySzR4UEhyalVFUmJnN0lIeUlBUllOZ0o0bW90VjJfcjZLRE5lMFd1R2ZXdGhBcXhfMURGZ1lfbF85dmQ0b1NR?oc=5",
       "source": "彭博社",
@@ -11817,22 +11629,6 @@
       ],
       "summary": "财联社7月23日电，特斯拉CEO马斯克称，特斯拉与SpaceX之间的重叠之处正日益增多。无法在财报电话会议上谈论合并特斯拉与SpaceX的事宜。 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "Stocks - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMYzNJY3BpcmJaNlVjM3k4dU1pYTBQdzJNdGdHMUd4X0doNGVZNU5EZFdmOGhyNWRFakdKdmhyRklfUVhYQnc3OTI2T2V2VEs2S1hEZnc2SmxZQWpFSnc?oc=5",
-      "source": "彭博社·芯片算力与数据中心",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T07:11:26+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 18,
-      "category": "投资商业",
-      "relevance_score": 59,
-      "tags": [
-        "stock"
-      ],
-      "summary": "Stocks Bloomberg.com"
     },
     {
       "title": "历史性调仓！AI硬科技接管公募核心仓位，消费股罕见缺席十大重仓 - 财联社",
@@ -13069,7 +12865,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "财联社"
@@ -13984,7 +13780,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "财联社"
@@ -14710,6 +14506,22 @@
       "source_priority": 18
     },
     {
+      "title": "Stocks - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wQ0tnX0pnQWNVZEh2RmIwb2tqSHBuQUVEUngxNmRZS3ZQUkQ0V3F0OVFkZkhyRGJxNnd4bF9Ed0hnZkZ4Nkk0Z2NfNVphUnktOC1NcXVRSDdyQUo4MEE?oc=5",
+      "source": "彭博社·芯片算力与数据中心",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T01:28:10+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 18,
+      "category": "投资商业",
+      "relevance_score": 58,
+      "tags": [
+        "stock"
+      ],
+      "summary": "Stocks Bloomberg.com"
+    },
+    {
       "title": "美股收盘：明星存储股集体飙涨两位数 芯片股反弹费城指数升逾5% - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBBY3REVW5kajBZV05pZVV2TXk1MVRJelBmSlIyQ3VuWnpJU0VBU0FrZldhR0NHeUhSS1JkMlpYRlFlblhhVFE?oc=5",
       "source": "财联社",
@@ -14981,6 +14793,22 @@
       "summary": "Why the University of Tennessee is suing Claude AI creator Anthropic Knoxville News Sentinel"
     },
     {
+      "title": "供需共振推动氧化锆价值重估 融资资金加仓六只概念股 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aalR2aVljWWlPRWc1cnhyeWVvQ2NVVm11Rnh0eGJyaWs4RWdJVWZEZFoxaWtoa0dHN0ZCUk1Ld3ZYZm5MVHRwQXVGSW50M2M3cE5oRjdnb1ZYRzR2MTYwTw?oc=5",
+      "source": "主流媒体·国内财经",
+      "source_type": "主流媒体",
+      "published_at": "2026-07-22T00:48:14+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "投资商业",
+      "relevance_score": 43,
+      "tags": [
+        "融资"
+      ],
+      "summary": "供需共振推动氧化锆价值重估 融资资金加仓六只概念股 东方财富"
+    },
+    {
       "title": "投资界24h|腾讯成中国最赚钱互联网企业；张一鸣已给家乡捐10亿；传月之暗面以500亿美元估值进行Pre-IPO融资 - 投资界",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aX3UwUUFFaU9JUEM0N0dJQ3pzOG8xeEpLSWdXSElBN2NibGdWSHc4RG1XMnhrelJvQ0NmQVhGTExlOGxQRC1aOGl3a0lfaUdnQ0ZRcUVR?oc=5",
       "source": "中文AI投资融资",
@@ -14998,39 +14826,6 @@
         "投资"
       ],
       "summary": "投资界24h|腾讯成中国最赚钱互联网企业；张一鸣已给家乡捐10亿；传月之暗面以500亿美元估值进行Pre-IPO融资 投资界"
-    },
-    {
-      "title": "08:40:17【盘前题材挖掘】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MOFJydkVybDc2Nnp4anVpRmFsNzdsZGVLcFhndGpqYS04c2lrSkhzUlRoZ21MLVRLZUQ2VmdRbEZVRldMcjVjbw?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T00:40:17+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "08:40:17【盘前题材挖掘】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "中信证券：全面看好国产算力产业链 - 东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBNZXFaMUZnTWptaG9vT19oWGV6dklhWnRiX3Jrdl9PTW1TTnBqYjNEZE5qNHlTUVZZZ3YwUXd5cGZGWnQ2c2NUYm1Uai0ta01zWEF4RUNkbk9JdmV5RGdSOQ?oc=5",
-      "source": "主流媒体·国内财经",
-      "source_type": "主流媒体",
-      "published_at": "2026-07-22T00:39:33+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [
-        "产业"
-      ],
-      "summary": "中信证券：全面看好国产算力产业链 东方财富"
     },
     {
       "title": "壁仞科技(06082)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
@@ -15444,23 +15239,6 @@
         "data center"
       ],
       "summary": "3 AI Infrastructure Stocks Backed By Data Center Spending simplywall.st"
-    },
-    {
-      "title": "OpenAI Models Escaped Locked Test Environment, Hacked Hugging Face to Cheat on Benchmark - Decrypt",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNekw5Q0ZCYW5GdWxHLTEtUmRnWnRFRGhLVF9JaDlWbUVabVVxb1hMMEg2Y25UN3cyZFNCeE55VExZT0xhRHY3Y0F3WTBwYVJyQzV6QTZIalVNTU9mMGU5VHFyYWVRQmhjTHJvMUVOQjMtOXQ4N0doY2h1Z1RoRDFRRUdUYmFRVi1IcHpjeGJSWjJmQ0QxVnp0aUdTX1JjR2dVelE?oc=5",
-      "source": "AI基础设施与企业软件",
-      "source_type": "产业链",
-      "published_at": "2026-07-21T21:29:03+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "benchmark"
-      ],
-      "summary": "OpenAI Models Escaped Locked Test Environment, Hacked Hugging Face to Cheat on Benchmark Decrypt"
     },
     {
       "title": "大模型自研NPU 利空第三方AI芯片 - 电子工程专辑",
@@ -17364,11 +17142,11 @@
       "summary": "Real-to-sim conversion for robotic interaction with objects remains labor-intensive because it requires more than visual reconstruction: a streamlined real2sim process must recover scene geometries and object states, infer physical parameters, and assemble actors, objects, cameras, poses, and trajectories into a runnab"
     },
     {
-      "title": "Nvidia hits the gas: Next-gen \"Vera Rubin\" AI chips enter full production - Investing.com UK",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZXh4azBMQVVkMHJKR24xMllWdWN4UmVJcVRrb0ZBMVVTNmhfa3JDQmxYeGRYZHdzOEZ1R3hMLUs2UlZFNGdQcnlfbnh5bWpJOXFXcmd3NVFPd2dZTEVMdDJWYUFRZjBFV1ZUQmE4cEs1a3BKN0VJZHM5R0t5MGt2bkRUbEh0M0t0WEEtclpuMks2d3dSdkNiaG1HUHNYOUx4dVJqb3p6dVhWN0N0WFVESm1hM2szemx1d1l1S2xnODR6U1ppZDBkb180cWJCVVRreXZF?oc=5",
+      "title": "Nvidia hits the gas: Next-gen \"Vera Rubin\" AI chips enter full production - Investing.com South Africa",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUlZVZjRScXpicTJrR1hmYzRNRzcxdkRLNW4xZlFUM0dYMm1IamVTWUxZTVhOYjk4Y1Ftb2ZuTXlpYkd5aTBqY3BWMkduSTNBWnJ5cWhjWU1MUS13NFVHYWVobmJ2c0NHQUh2bFBUXzljWGdKY05OUFhfaXg4emlERUFvODZ2QllsblFkQl92bjAwR0J5V3BlRl9ITUd6RnI0TVVRZHB5UWsxM2J3c0taT0pOSjA1WEUwRENTQ1FLeDY2Z0xiczVVSzZ3WDlCVHRHMVE4?oc=5",
       "source": "全球AI芯片供应链",
       "source_type": "产业链",
-      "published_at": "2026-07-21T15:21:56+00:00",
+      "published_at": "2026-07-21T15:21:59+00:00",
       "language": "en",
       "date_verified": true,
       "source_priority": 0,
@@ -17379,7 +17157,7 @@
         "chip",
         "product"
       ],
-      "summary": "Nvidia hits the gas: Next-gen \"Vera Rubin\" AI chips enter full production Investing.com UK"
+      "summary": "Nvidia hits the gas: Next-gen \"Vera Rubin\" AI chips enter full production Investing.com South Africa"
     },
     {
       "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
@@ -18183,7 +17961,7 @@
       "date_verified": true,
       "source_priority": 0,
       "category": "技术研究",
-      "relevance_score": 39,
+      "relevance_score": 38,
       "tags": [
         "model"
       ],
@@ -18610,7 +18388,7 @@
       "date_verified": true,
       "source_priority": 0,
       "category": "技术研究",
-      "relevance_score": 41,
+      "relevance_score": 40,
       "tags": [
         "agent",
         "robotics"
@@ -18909,7 +18687,7 @@
       "date_verified": true,
       "source_priority": 0,
       "category": "技术研究",
-      "relevance_score": 43,
+      "relevance_score": 42,
       "tags": [
         "agent"
       ],
@@ -20128,6 +19906,231 @@
       "relevance_score": 36,
       "tags": [],
       "summary": "Bristol Myers Squibb Deploys AI SuperPOD on NVIDIA Vera Rubin The Tech Buzz"
+    },
+    {
+      "title": "Satya Nadella Maps Out the Future of Enterprise AI as Server Backlogs Hit $57 Billion - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPUVR2QTlCM0hzMGdndUh3MjVhdkdhclZTdjl2RTF0c0VNTmNkTE5mTk5femM3dDM3WklvUFlNNTMxNUk4dm4yX0hlVklUcjNzQ1NFdzNIanpYS0VuZWlpZDZVRDFjenFIS1lxRlppQkEtUDltUnhLbVhVaHFmeWJzRWpuQi1hNFVzbTFmeXo1eVJjcnFEX0N3WWVkVDJSamNyMnY2cFVkSFU2bHA0WmQtTXpRU0k1eTRCUERjWUVjTDg4NVFMTUZMV3lFMUo0SDNndnlSS1ZZdHk2a2hGdmZHcVRSODItblNKVDJaTHR3SWlDZkxENEREdGlKd2poUQ?oc=5",
+      "source": "全球AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-20T11:37:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产品应用",
+      "relevance_score": 33,
+      "tags": [
+        "enterprise"
+      ],
+      "summary": "Satya Nadella Maps Out the Future of Enterprise AI as Server Backlogs Hit $57 Billion The Globe and Mail"
+    },
+    {
+      "title": "Why Jensen Huang went to Japan as ultra-large alliance to reshape AI leadership begins - 디지털투데이",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOekhEaFdyS0JQRk1JR1JhRXhnU2tSYzJIdWhLY2Y5V0QxQ0pkNVBTeXVCcHlqb2Fub1lUWk1SbTVIeGZwTTFZMlFYX2lWMUhuSEtTSUFYbnctWEMxajg3VUd5aGNudTZOV1FaUHFTMFA0ZTE1RHFrRmFiWGZFbFUzUnNJUFlCS1RoZXlLRnhJS3VsUzVOanlUU2t4elFrMWhsd0tzek1LUWV2cmFncUtwSHgxOW5oTk5UcE5HYUU0UmFrME1OSEl3?oc=5",
+      "source": "具身智能与机器人",
+      "source_type": "新技术",
+      "published_at": "2026-07-20T11:30:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 30,
+      "tags": [],
+      "summary": "Why Jensen Huang went to Japan as ultra-large alliance to reshape AI leadership begins 디지털투데이"
+    },
+    {
+      "title": "Moonshot AI’s Kimi K3 drops with 2.8 trillion parameters, and Wall Street is already nervous - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEaml3VkJuLXNTRHJwcV84R21UOTZiRkxXcWt6ZV9HMmxfVTlLRk9MQWd4NnRRaGpudC05WlM5cDN6cHdqQ0dNa1lRb3RkSXNiTWZIVUUyRUwteTF3SndWSjlvWWdxTnh5UkRkZHM4Z0FXUXBVclE?oc=5",
+      "source": "前沿模型与智能体技术",
+      "source_type": "新技术",
+      "published_at": "2026-07-20T11:14:17+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 30,
+      "tags": [],
+      "summary": "Moonshot AI’s Kimi K3 drops with 2.8 trillion parameters, and Wall Street is already nervous Crypto Briefing"
+    },
+    {
+      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin - NVIDIA Blog",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdV92ZjdHMGtWVkQ5eEVLZFFwYmpsaXQzUzVwTnM2dW5RV3NYcmIwMVNoN0dIUXhlY3pwU3hVcWxtcy1VVjh3QjZSOHdIQlA5Z1ZBNnlaQWV5UFRwaFpxN2VZOHJBd1MtMmRqSndtVDFGdEZQeVJHaUJldnl4WVFTdm9UaGhka3d3dEpZbGtubzV1c0NMZmtRendyVno3N0NqSmc0bE0xYmdpMW9JaUVTc1J6ckZnZ1hKZ1dYLXNYLUlqc0J4TVgybw?oc=5",
+      "source": "AI for Science",
+      "source_type": "新技术",
+      "published_at": "2026-07-20T11:02:43+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "政策治理",
+      "relevance_score": 42,
+      "tags": [
+        "act",
+        "industry"
+      ],
+      "summary": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin NVIDIA Blog"
+    },
+    {
+      "title": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
+      "url": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "source": "NVIDIA Blog",
+      "source_type": "产业链",
+      "published_at": "2026-07-20T10:59:23+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "技术研究",
+      "relevance_score": 61,
+      "tags": [
+        "invest",
+        "investment",
+        "acquisition",
+        "earnings",
+        "model",
+        "research",
+        "dataset",
+        "training",
+        "architecture",
+        "agent"
+      ],
+      "summary": "Erin Davis calls it the “SuperDuperPOD.” That’s two things in one name: pharmaceutical giant Bristol Myers Squibb (BMS) already runs one of the largest AI clusters in life sciences, with serious results to show for it. And they’re doubling down. BMS announced today it is deploying its second NVIDIA DGX SuperPOD , this "
+    },
+    {
+      "title": "Claude Fable 5 Billing Splits Today: Max Gets It Free, Pro Pays Per Token - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVzdwUGctYUQ0VWQtTEY3NGg2Tlc0ZW9MR1VkYUJxMkFJczY2dWhhWUhReERYSVZrVHMtRGdnWWZrMVljVS1iYWdkUG9hQWVRaEN2cFdzeXh4YTMtdDBSYmRDQVdiS3IwSWdsOEZiQk01V1B0VGU3bDlQQXpLRDdEZjl6S1pibFE0ZU1JeDcyQjhCcnVEMXNKd1lsSWhpZGtrVGdvbkFVLU9LNTFENnRMVG5JbjVVRVNfMVJZQ0VCbWwxY0Fw?oc=5",
+      "source": "前沿模型与智能体技术",
+      "source_type": "新技术",
+      "published_at": "2026-07-20T10:20:59+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 36,
+      "tags": [],
+      "summary": "Claude Fable 5 Billing Splits Today: Max Gets It Free, Pro Pays Per Token Tech Times"
+    },
+    {
+      "title": "Officials in Pocatello, Idaho, deny data center application appeal - Data Center Dynamics",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdzJWMlVOendDYVV5UjQ4UDhCLTlJNVR0QXctWUFUYkhqZWVHVklfeExyekkzUHpMOThpLThEMHdVdW5qMmszOXBwZ0JkTVNIcEhQOHJ0T2IxeWtMeXkxaTY2bjlFdF8xcTcwS3RDOEl0S1dYblFSWnRWa1Y4OElpcDNxUGhuaV9Tb3dKbTBrZ2dsNmVwVUJLTjJVdmhId01ickFHS1FTNzhtalMw?oc=5",
+      "source": "AI数据中心与能源",
+      "source_type": "产业链",
+      "published_at": "2026-07-20T10:15:48+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产品应用",
+      "relevance_score": 36,
+      "tags": [
+        "app",
+        "data center"
+      ],
+      "summary": "Officials in Pocatello, Idaho, deny data center application appeal Data Center Dynamics"
+    },
+    {
+      "title": "1分钟看懂昇腾950：华为在WAIC亮出的算力巨无霸 - eeo.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0yR3JCVk8wNjQ1QzR3am85dmJYMUpnMFVNa2FYVEdnZTh5Sm8tTS1xODI3OVhwaHJUN0h1UF9VLTU2UlI4bVp6bmpZT3JXT0VSMUJKZHRBWE8?oc=5",
+      "source": "中国算力芯片产业链",
+      "source_type": "产业链",
+      "published_at": "2026-07-20T10:02:47+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 30,
+      "tags": [],
+      "summary": "1分钟看懂昇腾950：华为在WAIC亮出的算力巨无霸 eeo.com.cn"
+    },
+    {
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI News",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-20T10:00:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "投资商业",
+      "relevance_score": 45,
+      "tags": [
+        "shares",
+        "model",
+        "safety"
+      ],
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
+    },
+    {
+      "title": "WAIC现场直击 昇腾950超节点 不为刷榜只为落地 - 维科号",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9QZXhrcWdiRHQzR1hIbk5sRTEzUHFIRXg5dGFsLVZUa3U3N19ja3czQ3BfRTg1VGVPSGRuTm93dFBRRnEwTTEtaQ?oc=5",
+      "source": "中国算力芯片产业链",
+      "source_type": "产业链",
+      "published_at": "2026-07-20T09:15:47+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产品应用",
+      "relevance_score": 33,
+      "tags": [
+        "落地"
+      ],
+      "summary": "WAIC现场直击 昇腾950超节点 不为刷榜只为落地 维科号"
+    },
+    {
+      "title": "国泰海通：AI产业风险投资激增，企业资本运作正当时 - 新浪新闻_手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aZWtJVEJLZlZGWjhEekJBYm9xR3ZVUVNYNmtkSkRBbDVZTDBSRUhpeHpqZEFqWjFxOFAyaDFQV29yZ1hTdUNsOWhVek1vQWQ0dXJjeVRBUzBGcDBidnNPNXIyZ2VzWWZzYVpfMnJ4aTd1aVBm?oc=5",
+      "source": "中文AI投资融资",
+      "source_type": "国内资讯",
+      "published_at": "2026-07-20T09:12:37+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "投资商业",
+      "relevance_score": 39,
+      "tags": [
+        "投资",
+        "资本",
+        "产业"
+      ],
+      "summary": "国泰海通：AI产业风险投资激增，企业资本运作正当时 新浪新闻_手机新浪网"
+    },
+    {
+      "title": "EU Parliament testing secure EPGenAI Hub to keep MEPs off public AI - Neowin",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMDI5bDl3dGNKTW5OM21hRTM2c3JMWVFSUjBkRDZ4akVxTXFKUWd1Q0Y1R2pVX1NoYzRVSkh3MlZDTWx2NFVueE1ydE9sVENUS21McXoySUlxRW9JRFlHYmM0b0dTR3lfV0tzOEM3T0plVGFudkxESjJFb1gzVmdHTjZUb2hXYVgxRk5hblcxZE11dV9Zdml1OHJrb9IBmwFBVV95cUxNMDI5bDl3dGNKTW5OM21hRTM2c3JMWVFSUjBkRDZ4akVxTXFKUWd1Q0Y1R2pVX1NoYzRVSkh3MlZDTWx2NFVueE1ydE9sVENUS21McXoySUlxRW9JRFlHYmM0b0dTR3lfV0tzOEM3T0plVGFudkxESjJFb1gzVmdHTjZUb2hXYVgxRk5hblcxZE11dV9Zdml1OHJrbw?oc=5",
+      "source": "全球AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-20T09:10:01+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 36,
+      "tags": [],
+      "summary": "EU Parliament testing secure EPGenAI Hub to keep MEPs off public AI Neowin"
+    },
+    {
+      "title": "华为昇腾950超节点首次线下展出 总算力达100亿亿次 - 观点网",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Yemg1RzQ2bTRENnhwN3Y3YzZ2VkNrLS1FRnRCeDR2bnZjN3A5a0lobFllYTFHRkFlcVhJRHFzQ3VsUDQ2ZjlPR1kxOE1wVF9vcjItOWR0dHd6NlpsS0FRY1p3?oc=5",
+      "source": "中国算力芯片产业链",
+      "source_type": "产业链",
+      "published_at": "2026-07-20T09:00:26+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 30,
+      "tags": [],
+      "summary": "华为昇腾950超节点首次线下展出 总算力达100亿亿次 观点网"
+    },
+    {
+      "title": "Google announces the Googlebook, a new breed of Gemini PCs - Mashable",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVE83UDVrRllCQWRFMzliUjEzRTZzVHpFc3NVUWd0QmZlbzZRZVpqS01uUVB6b1V3R0ZkMFNNZkZVbXJZamg4UnR5UTBlbkdJQ0NCb2U2RVRwdnJ2cVVTV3dlM3VHcnZ1U19RMFQyVHZsbThEXzNnSVpsX3ZwTEVqRm93?oc=5",
+      "source": "全球AI巨头动态",
+      "source_type": "巨头企业",
+      "published_at": "2026-07-20T09:00:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "source_priority": 0,
+      "category": "产业动态",
+      "relevance_score": 36,
+      "tags": [],
+      "summary": "Google announces the Googlebook, a new breed of Gemini PCs Mashable"
     }
   ]
 }
