@@ -10,6 +10,7 @@
 <!-- BLOOMBERG_CLS_FOCUS_V1 -->
 <!-- SERENITY_X_WATCH_V1 -->
 <!-- LLM_NEWS_MODULE_V1 -->
+<!-- ROBUST_SEARCH_LINKS_V1 -->
 <!-- LATEST_NEWS_FIRST_V1 -->
 <style>
 :root{--bg:#07111f;--panel:#0d1b2e;--text:#eef5ff;--muted:#94a8c2;--line:#1d3653;--accent:#4cc9f0;--accent2:#7b61ff;--good:#43d17a;--warn:#ffb84d;--shadow:0 16px 50px rgba(0,0,0,.26)}
@@ -40,7 +41,7 @@
 <div class="notice"><strong>首页顺序：</strong>最新资讯已置顶，重点博主与统计信息随后展示。<br><strong>最新规则：</strong>彭博社、财联社已设为重点媒体并提高抓取上限；默认只看近24小时，缺少可靠发布时间或超过来源时间窗口的内容不会进入最新列表。</div>
 
 <section class="search-panel">
-  <div class="search-head"><div><h2>最新专题搜索</h2><div class="sub">主流媒体与产业专题均默认限定近24小时。</div></div><div class="search-note">自动聚合覆盖国际综合媒体、财经媒体、国内权威媒体、国内财经媒体、亚洲媒体及科学政策媒体；按钮用于补充实时搜索。</div></div>
+  <div class="search-head"><div><h2>最新专题搜索</h2><div class="sub">主流媒体与产业专题均默认限定近24小时。</div></div><div class="search-note">快捷按钮已改为“任一关键词匹配”，并使用兼容性更好的新闻搜索；本站聚合列表仍可直接查看，无需跳转。</div></div>
   <div class="platform-tabs">
     <button class="platform-tab active" data-filter="all">全部</button>
     <button class="platform-tab" data-filter="llm">大模型资讯</button>
@@ -88,7 +89,7 @@
     <a class="search-link" data-group="x" data-platform="x" data-query="AI funding investment valuation IPO">X 投融资</a>
   </div>
   <div class="custom-search">
-    <select id="customPlatform"><option value="news">Google新闻</option><option value="wechat">微信公众号（搜狗按时间）</option><option value="wechat-special">微信公众号（搜狗微信备用）</option><option value="xhs">小红书</option><option value="douyin">抖音</option><option value="reddit">Reddit</option><option value="x">X</option><option value="baidu">百度全网</option></select>
+    <select id="customPlatform"><option value="news">Google新闻（兼容搜索）</option><option value="bing-news">Bing新闻（备用）</option><option value="wechat">微信公众号（搜狗按时间）</option><option value="wechat-special">微信公众号（搜狗微信备用）</option><option value="xhs">小红书</option><option value="douyin">抖音</option><option value="reddit">Reddit</option><option value="x">X</option><option value="baidu">百度全网</option></select>
     <select id="platformDays"><option value="1" selected>近24小时</option><option value="3">近3天</option><option value="7">近7天</option><option value="30">近30天</option></select>
     <input id="platformKeyword" placeholder="输入关键词，如：路透AI、英伟达供应链、华为昇腾、具身智能">
     <button id="customSearchBtn">搜索</button>
@@ -188,7 +189,35 @@ function relativeTime(iso){const d=new Date(iso),seconds=Math.max(0,(Date.now()-
 function sogouRange(days){const n=Number(days)||1;if(n<=1)return"1d";if(n<=7)return"1w";return"1m"}
 function wechatSogouUrl(raw,days){const query=encodeURIComponent(`${raw} site:mp.weixin.qq.com`);return `https://www.sogou.com/web?query=${query}&gpc=${sogouRange(days)}&ie=utf8`}
 function wechatSpecialUrl(raw){return `https://weixin.sogou.com/weixin?type=2&query=${encodeURIComponent(raw)}&ie=utf8`}
-function openPlatformSearch(platform,query,days=1){const raw=(query||"人工智能").trim(),q=encodeURIComponent(raw);let url="";if(platform==="news")url=`https://news.google.com/search?q=${encodeURIComponent(`(${raw}) when:${Math.max(1,Number(days)||1)}d`)}&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans`;else if(platform==="wechat")url=wechatSogouUrl(raw,days);else if(platform==="wechat-special")url=wechatSpecialUrl(raw);else if(platform==="xhs")url=`https://www.xiaohongshu.com/search_result?keyword=${q}&source=web_search_result_notes`;else if(platform==="douyin")url=`https://www.douyin.com/search/${q}?type=general`;else if(platform==="reddit")url=`https://www.reddit.com/search/?q=${q}&sort=new`;else if(platform==="x")url=`https://x.com/search?q=${q}&src=typed_query&f=live`;else url=`https://www.baidu.com/s?wd=${q}`;window.open(url,"_blank","noopener")}
+function searchAfterDate(days){const d=new Date();d.setUTCDate(d.getUTCDate()-Math.max(1,Number(days)||1));return d.toISOString().slice(0,10)}
+function normalizeNewsQuery(raw){
+  const original=(raw||"人工智能").trim();
+  if(/\bOR\b|[()"]/i.test(original))return original;
+  const phrases=["artificial intelligence","large language model","data center","Financial Times","Wall Street Journal","New York Times","Associated Press","AI for Science","reasoning model","multimodal model","open source","model release","model API","supply chain"];
+  let work=original;const saved=[];
+  phrases.forEach(phrase=>{const re=new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"ig");work=work.replace(re,match=>{saved.push(`"${match}"`);return `__PHRASE_${saved.length-1}__`})});
+  const tokens=(work.match(/site:[^\s]+|-?[^\s]+/g)||[]).map(token=>{const m=token.match(/^__PHRASE_(\d+)__$/);return m?saved[Number(m[1])]:token}).filter(Boolean);
+  const site=tokens.filter(token=>token.startsWith("site:"));
+  const terms=[...new Set(tokens.filter(token=>!token.startsWith("site:")))];
+  const body=terms.length>1?`(${terms.join(" OR ")})`:(terms[0]||"");
+  return [...site,body].filter(Boolean).join(" ");
+}
+function openPlatformSearch(platform,query,days=1){
+  const raw=(query||"人工智能").trim(),q=encodeURIComponent(raw);let url="";
+  if(platform==="news"){
+    const searchQuery=`${normalizeNewsQuery(raw)} after:${searchAfterDate(days)}`;
+    url=`https://www.google.com/search?q=${encodeURIComponent(searchQuery)}&tbm=nws`;
+  }else if(platform==="bing-news"){
+    url=`https://www.bing.com/news/search?q=${encodeURIComponent(normalizeNewsQuery(raw))}`;
+  }else if(platform==="wechat")url=wechatSogouUrl(raw,days);
+  else if(platform==="wechat-special")url=wechatSpecialUrl(raw);
+  else if(platform==="xhs")url=`https://www.xiaohongshu.com/search_result?keyword=${q}&source=web_search_result_notes`;
+  else if(platform==="douyin")url=`https://www.douyin.com/search/${q}?type=general`;
+  else if(platform==="reddit")url=`https://www.reddit.com/search/?q=${q}&sort=new`;
+  else if(platform==="x")url=`https://x.com/search?q=${q}&src=typed_query&f=live`;
+  else url=`https://www.baidu.com/s?wd=${q}`;
+  window.open(url,"_blank","noopener");
+}
 function filtered(){const q=el("keyword").value.trim().toLowerCase(),cat=el("category").value,src=el("sourceType").value,days=Number(el("timeRange").value),cutoff=Date.now()-days*86400000,sortMode=el("sortMode").value;const rows=store.filter(a=>{const text=[a.title,a.summary,a.source,a.author,(a.tags||[]).join(" ")].join(" ").toLowerCase(),t=new Date(a.published_at).getTime();return(!q||text.includes(q))&&(cat==="全部分类"||a.category===cat)&&(src==="全部来源"||a.source_type===src)&&(!Number.isNaN(t)&&t>=cutoff)});return rows.sort((a,b)=>sortMode==="latest"?(new Date(b.published_at)-new Date(a.published_at)||(b.relevance_score||0)-(a.relevance_score||0)):((b.relevance_score||0)-(a.relevance_score||0)||new Date(b.published_at)-new Date(a.published_at)))}
 function sourceClass(type){if(type==="主流媒体")return"source-mainstream";if(type==="巨头企业")return"source-giant";if(type==="产业链")return"source-chain";if(type==="新技术")return"source-frontier";if(type==="国内资讯")return"source-domestic";if(type==="微信公众号")return"source-wechat";if(type==="小红书")return"source-xhs";if(type==="抖音")return"source-douyin";return""}
 function render(){const rows=filtered(),countType=t=>rows.filter(x=>x.source_type===t).length,countCategory=c=>rows.filter(x=>x.category===c).length;el("resultCount").textContent=`${rows.length} 条`;el("sTotal").textContent=rows.length;el("sMedia").textContent=countType("主流媒体");el("sGiants").textContent=countType("巨头企业");el("sChain").textContent=countType("产业链");el("sFrontier").textContent=countType("新技术");el("sInvest").textContent=countCategory("投资商业");el("sTech").textContent=countCategory("技术研究");el("sDomestic").textContent=countType("国内资讯");
