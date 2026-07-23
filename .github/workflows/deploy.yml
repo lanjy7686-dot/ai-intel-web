@@ -36,9 +36,12 @@ jobs:
       - name: 安装Serenity重点博主页面
         run: python scripts/add_serenity_watch.py
 
+      - name: 调整首页内容顺序
+        run: python scripts/reorder_latest_first.py
+
       - name: 校验程序和配置
         run: |
-          python -m py_compile scripts/fetch_news.py scripts/enrich_priority_media.py scripts/add_serenity_watch.py
+          python -m py_compile scripts/fetch_news.py scripts/enrich_priority_media.py scripts/add_serenity_watch.py scripts/reorder_latest_first.py
           python -m json.tool config/sources.json > /dev/null
 
       - name: 抓取最新公开资讯
@@ -52,7 +55,7 @@ jobs:
           git config user.name "ai-radar-bot"
           git config user.email "actions@users.noreply.github.com"
           git add index.html data/articles.json
-          git diff --cached --quiet || git commit -m "feat: add Serenity X daily watch"
+          git diff --cached --quiet || git commit -m "chore: put latest news first and update AI data"
           git push || true
 
       - name: 配置Pages
