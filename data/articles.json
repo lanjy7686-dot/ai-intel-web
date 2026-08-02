@@ -1,14 +1,14 @@
 {
   "mode": "free",
-  "updated_at": "2026-08-02T09:20:09.922049+00:00",
-  "count": 334,
+  "updated_at": "2026-08-02T11:34:07.019595+00:00",
+  "count": 320,
   "errors": [
     "RSS: Remote end closed connection without response"
   ],
   "freshness_policy": {
     "undated_items": "discarded",
-    "last_24h": 271,
-    "last_72h": 334
+    "last_24h": 257,
+    "last_72h": 320
   },
   "source_status": {
     "X": {
@@ -66,16 +66,450 @@
     },
     "来源统计": {
       "技术社区": 60,
+      "主流媒体": 188,
       "Reddit": 12,
-      "主流媒体": 202,
       "论文": 60
     },
     "重点媒体": {
-      "彭博社": 56,
-      "财联社": 146
+      "彭博社": 55,
+      "财联社": 133
     }
   },
   "articles": [
+    {
+      "title": "Ask HN: What's Your BHAG?",
+      "url": "https://news.ycombinator.com/item?id=49143456",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T11:31:02+00:00",
+      "author": "sudo_cowsay",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Just wondering, what is everyone's Big Hairy Audacious Goal?"
+    },
+    {
+      "title": "NIST Develops New Standards to Safeguard Computers Against Quantum Threats",
+      "url": "https://www.nist.gov/blogs/taking-measure/quantum-computers-may-put-internet-traffic-risk-nist-safeguarding-computers-new",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T11:26:52+00:00",
+      "author": "birdculture",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "NIST Develops New Standards to Safeguard Computers Against Quantum Threats"
+    },
+    {
+      "title": "Show HN: Fuse – statically typed functional programming language",
+      "url": "https://fuselang.org",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T11:23:56+00:00",
+      "author": "the_unproven",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Hi HN! I've been working on the fuse programming language, it's a statically typed purely functional language with higher-kinder types and ad-hoc polymorphism. It compiles to the GRIN whole-program optimizer, producing LLVM-generated native code. Fuse supports ADTs, Generics, Type Methods, Traits, Pattern matching etc."
+    },
+    {
+      "title": "电报解读 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VWFBSQmZBYnlsck4wU0h4VHp0NlJ4MVBmM0phQWZOUWZlbDdpQWFObnNIbGNaZ0ZwZXM0MXRmSHNuV0hZVVVqeg?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T11:21:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "电报解读 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "近30家A股上市公司本周披露并购重组最新公告 华新建材拟分阶段收购HPI股权 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBKVkFDN2FHV1E0U1FodHZxRi1LckliXzluMFdZQzhWYldyZUVvV0tkdGUwRER0b3RWNWppVk4yUFZLb0tUS3c?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T11:11:17+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "资本市场",
+        "财联社"
+      ],
+      "summary": "近30家A股上市公司本周披露并购重组最新公告 华新建材拟分阶段收购HPI股权 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "LLMs Discover P=NP (Comic)",
+      "url": "https://chatgpt.com/s/m_6a6f252612a08191b4081f60a92bceba",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T11:09:27+00:00",
+      "author": "stagas",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "LLMs Discover P=NP (Comic)"
+    },
+    {
+      "title": "Generative AI floods and dilutes the market for books",
+      "url": "https://arxiv.org/abs/2607.20349",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T11:06:07+00:00",
+      "author": "theanonymousone",
+      "engagement": 3,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 54,
+      "tags": [
+        "market"
+      ],
+      "summary": "Generative AI floods and dilutes the market for books"
+    },
+    {
+      "title": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives",
+      "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T11:02:38+00:00",
+      "author": "joozio",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Europeans Are About to Find Out How Entrenched AI Is in Their Daily Lives"
+    },
+    {
+      "title": "Banks Offload Risk from Leveraged ETFs With Exotic ‘Crash Puts’ - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTTNMZU9TQi1HQ1V5UkJ6ZXAtTFRObHQ2a1cwTDNsUVo3UlBYUG4zZGR6bUJ3aVV4T3VTUVBlNkk5TGlOWDgyU2JGMm1ETnVTU1AyQV9ERG5mZGtvU2lwYkMxQWRjM2dWejZrTk8xeEVCNnhDTHgtUEZoY3lJRTVwb3VQVnhLWS13aktXbjV1TzhxWVlaVjI5STJJU1U1YVFfTWt5NWJibURLMjBHRGpEaXZn?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T11:00:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "Banks Offload Risk from Leveraged ETFs With Exotic ‘Crash Puts’ Bloomberg.com",
+      "source_priority": 18
+    },
+    {
+      "title": "What is the downside of coaching that I may not be seeing yet?",
+      "url": "https://news.ycombinator.com/item?id=49143243",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:58:23+00:00",
+      "author": "ikut3hva",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 51,
+      "tags": [
+        "app",
+        "act"
+      ],
+      "summary": "Hi everyone! TL;DR: I genuinely enjoy every coaching session I run, and I believe my mentees find them incredibly valuable. However, I’m still curious about one thing: what is the downside of coaching that I may not be seeing yet? As an experienced software engineer (still working full-time), I started mentoring to sha"
+    },
+    {
+      "title": "LLM Counter-Defaults",
+      "url": "https://counterdefaults.aixdesign.co/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:49:23+00:00",
+      "author": "bookofjoe",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "LLM Counter-Defaults"
+    },
+    {
+      "title": "Damned if you do and damned if you don't: Can NOT using AI amount to negligence?",
+      "url": "https://www.judiciary.uk/speech-by-the-master-of-the-rolls-to-the-professional-negligence-bar-association/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:48:46+00:00",
+      "author": "MasterScrat",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Damned if you do and damned if you don't: Can NOT using AI amount to negligence?"
+    },
+    {
+      "title": "The Holy Grail of Engine Tech: Aerospike Engines Explained (Martian Chronicles) [video]",
+      "url": "https://www.youtube.com/watch?v=C0DDxNcI2BA",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:46:34+00:00",
+      "author": "zeristor",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "The Holy Grail of Engine Tech: Aerospike Engines Explained (Martian Chronicles) [video]"
+    },
+    {
+      "title": "Show HN: CaLLMar – play a text-based adventure game in an LLM chat",
+      "url": "https://github.com/lascauje/callmar",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:45:02+00:00",
+      "author": "lascauje",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "Show HN: CaLLMar – play a text-based adventure game in an LLM chat"
+    },
+    {
+      "title": "Build a Dependency Injection Container in Vanilla JavaScript",
+      "url": "https://jsdev.space/di-container-javascript/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:40:10+00:00",
+      "author": "javatuts",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Build a Dependency Injection Container in Vanilla JavaScript"
+    },
+    {
+      "title": "Show HN: Documan – AI Powered Requirement Management Workspace",
+      "url": "https://github.com/bbayer/DocuMan",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:38:26+00:00",
+      "author": "bbayer",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 60,
+      "tags": [
+        "feature",
+        "tool",
+        "industry"
+      ],
+      "summary": "That is a tool that I have developed based on my own needs since it was a shame not to use AI for requirement generation. There are ancient tools like IBM DOORS but they require buying seat licences and they don't have any support for LLMs. I see that requirement management is a mess most of time, people are going back"
+    },
+    {
+      "title": "Rexpaint – a powerful ASCII art editor",
+      "url": "https://www.gridsagegames.com/rexpaint/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:36:36+00:00",
+      "author": "sph",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Rexpaint – a powerful ASCII art editor"
+    },
+    {
+      "title": "Knuth versus Email",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/email.html",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:21:19+00:00",
+      "author": "thombles",
+      "engagement": 3,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Knuth versus Email"
+    },
+    {
+      "title": "Stock market turmoil sheds stark light on the opaque AI economy",
+      "url": "https://www.theguardian.com/technology/2026/aug/02/stock-market-turmoil-nvidia-china-light-ai-economy",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:19:43+00:00",
+      "author": "beardyw",
+      "engagement": 3,
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 51,
+      "tags": [
+        "stock",
+        "market"
+      ],
+      "summary": "Stock market turmoil sheds stark light on the opaque AI economy"
+    },
+    {
+      "title": "Show HN: We made Arcad, a parametric CAD in the browser, free and no signup",
+      "url": "https://app.arcad.studio/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:15:49+00:00",
+      "author": "steinvakt2",
+      "engagement": 5,
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 60,
+      "tags": [
+        "model",
+        "launch",
+        "feature",
+        "app",
+        "tool"
+      ],
+      "summary": "My friend and I have been working on Arcad for some months now. It's a free browser-based parametric CAD tool aimed at hobbyists and makers. It has editable feature history, solid modeling powered by OpenCascade, STEP export and touch controls for tablets, although it's primarily made for PC use. Everything runs in the"
+    },
+    {
+      "title": "No replies to rebuttals and comments even by AC [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdeae3/no_replies_to_rebuttals_and_comments_even_by_ac_d/",
+      "source": "Reddit · r/MachineLearning",
+      "source_type": "Reddit",
+      "published_at": "2026-08-02T10:11:21+00:00",
+      "author": "u/bricklerex",
+      "reddit_community": "MachineLearning",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Not even the AC, nor reviewers, is responding to our comments in rebuttals, and they were all submitted well before the discussion period started. What is one to do in this case? submitted by /u/bricklerex [link] [comments]"
+    },
+    {
+      "title": "Research Topics in ML, AI and Deep Learning",
+      "url": "https://blog.sparsh.dev/research-topics-in-ml-ai-and-deep-learning/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T10:05:59+00:00",
+      "author": "sparshrestha",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "research"
+      ],
+      "summary": "Research Topics in ML, AI and Deep Learning"
+    },
+    {
+      "title": "Play games with your brain signals using Octopus 16 wireless EEG device",
+      "url": "https://www.cnx-software.com/2026/08/02/play-games-with-your-brain-signals-using-octopus-16-wireless-eeg-device/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T09:58:13+00:00",
+      "author": "giuliomagnifico",
+      "engagement": 3,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Play games with your brain signals using Octopus 16 wireless EEG device"
+    },
+    {
+      "title": "头部大模型力拼“降价开源” 企业级AI部署有望加快 机构：AI投资重心或向应用倾斜 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4yb05yTFRzRVZaYlR2UlJRNlc2N29SR2dseE5sSFJQa0ZtQVhSMlRqSXdwQWlXMTc4RU11dlB0SVY5YWNVcV9QUA?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T09:58:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "投资商业",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "资本市场",
+        "财联社"
+      ],
+      "summary": "头部大模型力拼“降价开源” 企业级AI部署有望加快 机构：AI投资重心或向应用倾斜 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "联合国专家组警告：AI发展速度已超越科学认知和监管能力 或带来灾难性风险 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE42UE9JWHBPcXhKcTJjVHR5U3FlRUNtSFZkUC1kci1HaDg0eTJETXFKd2l2N3pIam9jU08yZzJyZU9LSTFvZzdpMQ?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T09:57:07+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "联合国专家组警告：AI发展速度已超越科学认知和监管能力 或带来灾难性风险 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "SHOW HN: Substantial update to UK train mapping",
+      "url": "https://trainmap.co.uk/map.html",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T09:53:54+00:00",
+      "author": "optionalltd",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 48,
+      "tags": [
+        "app"
+      ],
+      "summary": "SHOW HN: Substantial update to UK train mapping"
+    },
+    {
+      "title": "亏损收窄、打通“元宝”后 美团大涨9% - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5HbjNJdEZKOTBuSWo3M0x1X3V1c0V1dFZreGZPOUNuTUI2TXFTc1RTQ2dseEVEQmJwOW1XSUN5eEFnYzZxa3Z1RQ?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T09:48:24+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 96,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "亏损收窄、打通“元宝”后 美团大涨9% 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "Entertainment Breakdown: Medium's Surging Pop-Culture Publication",
+      "url": "https://medium.com/theentertainmentbreakdown/entertainment-breakdown-mediums-surging-pop-culture-publication-0601ed117e1b",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-02T09:40:32+00:00",
+      "author": "raynchad",
+      "engagement": 3,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Entertainment Breakdown: Medium's Surging Pop-Culture Publication"
+    },
     {
       "title": "EVE Online but for Hermes and OpenClaw agents: MMORPG your agents can play",
       "url": "https://github.com/shehryarsaroya/agent-eve",
@@ -83,7 +517,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T09:15:01+00:00",
       "author": "runrunlobster",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "技术研究",
       "relevance_score": 51,
@@ -100,7 +534,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T09:12:58+00:00",
       "author": "kookster310",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -131,10 +565,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T09:06:33+00:00",
       "author": "eniac111",
-      "engagement": 1,
+      "engagement": 35,
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 57,
+      "relevance_score": 58,
       "tags": [
         "model",
         "architecture",
@@ -150,7 +584,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T09:02:00+00:00",
       "author": "maxloh",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "技术研究",
       "relevance_score": 57,
@@ -161,13 +595,47 @@
       "summary": "AirLLM: Inference 2.8T Kimi K3 on a single 4GB GPU"
     },
     {
+      "title": "港股风向标｜恒指反弹遭挫创阶段新低 强美元风险袭扰市场 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBQdUsySVB0cnJucGFhQ1RQR193RUFoaldpR2xfeFpNM21LNm01WGhyUjUxLUZTbFN0OEtkU3cxRUZCNFpoMlA4SQ?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T08:57:49+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 95,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "港股风向标｜恒指反弹遭挫创阶段新低 强美元风险袭扰市场 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "17:24:19【印尼附近海域一渡轮起火 已致至少5人死亡41人失踪】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9CcURTUUE3Vmx6ZDNraGJ1SlR2Wlh5VzJzLVBveGZlZXNaaEUyUmVScThYTDlVYmpid3ZPU1B5QUI2U2tWRUdmUQ?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T08:56:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 95,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "17:24:19【印尼附近海域一渡轮起火 已致至少5人死亡41人失踪】 财联社",
+      "source_priority": 18
+    },
+    {
       "title": "Ask HN: When will ChatGPT Voice be able to control my phone?",
       "url": "https://news.ycombinator.com/item?id=49142464",
       "source": "Hacker News",
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:49:55+00:00",
       "author": "spapas82",
-      "engagement": 1,
+      "engagement": 6,
       "date_verified": true,
       "category": "产品应用",
       "relevance_score": 57,
@@ -184,12 +652,29 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:49:22+00:00",
       "author": "holdthelineworl",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
       "summary": "A daily estimation game where the crowd's answer fights an AI"
+    },
+    {
+      "title": "AI顾问成华尔街新顶流：单日收费2.5万美元 预约排到两个月后 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UOTBGNG5KTEEyV09IVXB4MXRaX0JmYTZKZlBiRnhyandBclJReTk1WnI3eDJTcHg4eklMZGV3cHF5dnZLYTkzdA?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T08:48:19+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 95,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "AI顾问成华尔街新顶流：单日收费2.5万美元 预约排到两个月后 财联社",
+      "source_priority": 18
     },
     {
       "title": "ANZ, NAB Among Banks Funding Blackstone HSBC Book Buy, AFR Says - Bloomberg.com",
@@ -200,7 +685,7 @@
       "language": "en",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -216,7 +701,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:38:55+00:00",
       "author": "robert-boehnke",
-      "engagement": 2,
+      "engagement": 4,
       "date_verified": true,
       "category": "技术研究",
       "relevance_score": 48,
@@ -234,7 +719,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -249,7 +734,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:30:18+00:00",
       "author": "Animats",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -263,7 +748,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:27:38+00:00",
       "author": "dexmac221",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 51,
@@ -277,7 +762,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:26:44+00:00",
       "author": "JuekMorningstar",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -291,7 +776,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:25:02+00:00",
       "author": "edward",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -305,12 +790,30 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:24:59+00:00",
       "author": "mellosouls",
-      "engagement": 2,
+      "engagement": 4,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
       "summary": "Ginger hair portraits show unexpected 'golden thread' connecting Americans"
+    },
+    {
+      "title": "亚马逊开始控制AI成本：减少调用外部模型 资源转向前沿研究 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9USHRWbGtla0VaOFNUMGVGOURRay0taS05UlZ2c1ZkMlpQSU9PV193SERBSXpNQWUyWHVTMmZzOGdERWNyMldjYw?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T08:18:40+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 95,
+      "tags": [
+        "重点媒体",
+        "新技术",
+        "财联社"
+      ],
+      "summary": "亚马逊开始控制AI成本：减少调用外部模型 资源转向前沿研究 财联社",
+      "source_priority": 18
     },
     {
       "title": "16:17:01【国家防总、应急管理部针对北京河北启动防汛四级应急响应】 - 财联社",
@@ -321,29 +824,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "16:17:01【国家防总、应急管理部针对北京河北启动防汛四级应急响应】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Morocco Says Trump Highway Naming Is Mark of ‘Deep Appreciation’ - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcElhVktaaGtldzRrT2ctcGlpSE4tT2dfMFZFcktFN0lVa0hidS1WdDFYbjhDYUFNbVNPZFJsbWowU01TQkd0b2UybngtY1BYdWRCN2s0N3JjUU04bWNxai0tdERxNVVubXN0UTk1a0NLVXkteWEtajdlbHBaSnBsWW5ZVHJfV1pRSjdVXzNjOFoxWDc3cGtmd3I2cVBsQkV3dndUZHZCajdtWmRsajJoSUxqQQ?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T08:16:24+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 96,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Morocco Says Trump Highway Naming Is Mark of ‘Deep Appreciation’ Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -355,7 +841,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "财联社"
@@ -370,7 +856,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:10:37+00:00",
       "author": "markchennext-al",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -384,7 +870,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:08:03+00:00",
       "author": "luckymonkybaby",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -398,7 +884,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:07:05+00:00",
       "author": "sbulaev",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "产品应用",
       "relevance_score": 48,
@@ -414,7 +900,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T08:02:47+00:00",
       "author": "Mobeen0119",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -430,12 +916,29 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "Two-Minute ‘Microdramas’ Are the Fastest Growing Form of Streaming Bloomberg.com",
+      "source_priority": 18
+    },
+    {
+      "title": "Europe’s Key Rivers Are Drying Up as Extreme Heat Impact Widens - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMzBISmZmbHpNS042emlQY2lMVEpzN24xSlIwcUtlMFlzRG9JUktLVk80YV94QVBXYkMzRnpRT0lKVmZlUDV6MFM4SWlESVQ4ZEZsWG4yUXZRc2NVbTZGUjY3QUJqcnRNUjZjSzdsN19nZDlEVDE5a0lMOXk3SXM5N3FLUTFqWmUwRGRxTjRoejZoNFl0X2VXdnhmNDNURWw0MV9NbFgxdjVNamZwS0RTOTJFMDc?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T08:00:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 95,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "Europe’s Key Rivers Are Drying Up as Extreme Heat Impact Widens Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -447,7 +950,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -464,7 +967,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "财联社"
@@ -479,7 +982,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:51:37+00:00",
       "author": "ZeljkoS",
-      "engagement": 5,
+      "engagement": 7,
       "date_verified": true,
       "category": "技术研究",
       "relevance_score": 54,
@@ -495,7 +998,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:50:29+00:00",
       "author": "u1hcw9nx",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 51,
@@ -509,7 +1012,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:47:34+00:00",
       "author": "Salim_wariz",
-      "engagement": 7,
+      "engagement": 8,
       "date_verified": true,
       "category": "产品应用",
       "relevance_score": 54,
@@ -529,7 +1032,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "财联社"
@@ -546,7 +1049,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "财联社"
@@ -563,7 +1066,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "财联社"
@@ -580,7 +1083,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "财联社"
@@ -597,7 +1100,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 96,
+      "relevance_score": 95,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -615,7 +1118,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -632,7 +1135,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "产业链",
@@ -650,7 +1153,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 96,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -667,7 +1170,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -682,10 +1185,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:16:07+00:00",
       "author": "sbmthakur",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [],
       "summary": "DeepSeek's Theory of the AI Gap"
     },
@@ -698,7 +1201,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -713,12 +1216,29 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:13:50+00:00",
       "author": "tosh",
-      "engagement": 6,
+      "engagement": 8,
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 45,
+      "relevance_score": 44,
       "tags": [],
       "summary": "AI labels to be compulsory on authentic-looking content under EU rules"
+    },
+    {
+      "title": "Markets - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pNktuQlgwVHhZeDU2dy1rU1VSOVhXNzlOZlJlbmxhTHJISGc4bW44c3p5elhUaG1iRnlMTFE1VXgtRmtGM0JlTA?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T07:13:03+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 94,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "Markets Bloomberg.com",
+      "source_priority": 18
     },
     {
       "title": "I don't recommend Tailwind CSS",
@@ -727,10 +1247,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:09:38+00:00",
       "author": "andros",
-      "engagement": 109,
+      "engagement": 208,
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 50,
+      "relevance_score": 54,
       "tags": [],
       "summary": "I don't recommend Tailwind CSS"
     },
@@ -743,7 +1263,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -758,10 +1278,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:06:18+00:00",
       "author": "BlueBerry2001",
-      "engagement": 84,
+      "engagement": 122,
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 49,
+      "relevance_score": 50,
       "tags": [],
       "summary": "Australia's social media ban has failed"
     },
@@ -775,7 +1295,7 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "paper",
         "act"
@@ -789,10 +1309,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T07:02:18+00:00",
       "author": "joozio",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 54,
+      "relevance_score": 53,
       "tags": [
         "valuation"
       ],
@@ -807,7 +1327,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -822,10 +1342,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T06:59:36+00:00",
       "author": "vytasta",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 48,
+      "relevance_score": 47,
       "tags": [
         "agent"
       ],
@@ -838,7 +1358,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T06:59:28+00:00",
       "author": "handfuloflight",
-      "engagement": 17,
+      "engagement": 20,
       "date_verified": true,
       "category": "技术研究",
       "relevance_score": 48,
@@ -854,10 +1374,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T06:57:01+00:00",
       "author": "MatCat",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [],
       "summary": "Testing LLM Concurrency on Consumer Hardware (RTX 5060)"
     },
@@ -870,7 +1390,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -885,10 +1405,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T06:46:43+00:00",
       "author": "thewavelength",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "政策治理",
-      "relevance_score": 54,
+      "relevance_score": 53,
       "tags": [
         "act"
       ],
@@ -903,12 +1423,29 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "14:46:24【下周央行公开市场将有18420亿元逆回购到期】 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "America Is Exporting Bewilderment to the Rest of the World - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTVFSMkVjLUNBSWJGN1NiUWJHbU54MGsxVHRqQlQxYTI5RnMtcWE3VHRibUcxZWJiNC1jZkctNzRmekZzcUtLVFBaNDBHWURQRVUtdFRxYnNhNHZFMkxWcHFyVmVGbUxhS2tYVnpyUkxta1hHMkdXLVV5LUlWVmZUcTJsUHlrUmg0VUtnQlo4OUtKZkdGY1R5OV85a0UwdEZwOFgtSmdKRUhEZHBGNThqUndn?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T06:45:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 94,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "America Is Exporting Bewilderment to the Rest of the World Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -918,10 +1455,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T06:44:27+00:00",
       "author": "yuzu_mikan",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "产品应用",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "product",
         "act"
@@ -937,7 +1474,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -954,7 +1491,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -969,10 +1506,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T06:36:20+00:00",
       "author": "KinetiNode",
-      "engagement": 4,
+      "engagement": 5,
       "date_verified": true,
       "category": "产品应用",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "app",
         "act"
@@ -988,7 +1525,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1005,7 +1542,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1023,7 +1560,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1040,7 +1577,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1057,7 +1594,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "产业链",
@@ -1075,7 +1612,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1092,7 +1629,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1107,10 +1644,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T06:15:23+00:00",
       "author": "Garbage",
-      "engagement": 3,
+      "engagement": 5,
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 48,
+      "relevance_score": 47,
       "tags": [
         "agent"
       ],
@@ -1125,13 +1662,30 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "新技术",
         "财联社"
       ],
       "summary": "14:11:47【中国产品包揽全球大模型调用量前五 国产大模型调用量全球领先】 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "06:40:38【特朗普称与哈马斯及加沙其他武装团体达成解除武装协议】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBFRzladlBVbXF1VUlRVkxyOS1maDVZT3NnaENId25oM25FWS1IU1ptRk5CTm9hRDBhWkJBRXo0ZGpoRzQySHBKUA?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T06:01:29+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 94,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "06:40:38【特朗普称与哈马斯及加沙其他武装团体达成解除武装协议】 财联社",
       "source_priority": 18
     },
     {
@@ -1143,12 +1697,29 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "16:42:30【财政部：1-6月国有企业营业总收入同比下降2.0% 利润总额同比增长2.4%】 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "South Korea Issues Heat Wave Alert as Temperature Hits Record - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORUhuVzRPamZ0cjBPNW00WGtrbURpUm5HTS1COFZlSjRVN0ZZLXdERzlxYVhIcXlGamlTS0ZScE5VRHhkc1FwZ1ZlY3lBck44MGgyaWUwTUZWSXMtSUVsd0xqeGRYOFluWjRTUU9NUllyRUJGak4xWWhkdGliRnZibHZNWE41NVFSTjVFSmlmeE5wdzRIMmRCYnpYNkd2TUU5aFgzdU1kNXhLaWdDd2x1TTBB?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T05:47:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 94,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "South Korea Issues Heat Wave Alert as Temperature Hits Record Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -1160,29 +1731,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "15:23:47 财联社7月31日电，日本央行行长植田和男表示，重返通货紧缩的风险已降低。 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "13:42:24【伊朗外长与沙特外交大臣通电话 讨论地区局势】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1QOXJXZmtEM3ZmV25VVzZkRTBmTmtGLVNoLU9TMW5oTHRtVHFwOVNFSERwYVR1eHpmMUpoTkFNX0VFLW9QLWhFNA?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T05:42:24+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 95,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "13:42:24【伊朗外长与沙特外交大臣通电话 讨论地区局势】 财联社",
       "source_priority": 18
     },
     {
@@ -1194,7 +1748,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1211,7 +1765,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1228,7 +1782,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1245,7 +1799,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 94,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1260,10 +1814,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T05:33:53+00:00",
       "author": "cable2600",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 45,
+      "relevance_score": 44,
       "tags": [],
       "summary": "AI Ate Your RAM (Why Memory Prices Exploded)"
     },
@@ -1274,10 +1828,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T05:32:44+00:00",
       "author": "aeromusek",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 48,
+      "relevance_score": 47,
       "tags": [
         "model"
       ],
@@ -1290,10 +1844,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T05:30:33+00:00",
       "author": "anirudhshivam",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 54,
+      "relevance_score": 53,
       "tags": [
         "agent"
       ],
@@ -1308,63 +1862,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 95,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "深度参与算电协同 AI与虚拟电厂双向赋能|虚拟电厂风口前夜① 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "13:25:00【推动交通物流降本提质增效 浙江省政府出台重要意见】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE90Rm9WTlpRNlNNelZGd2FnV04ySkV6Um5JamFKLTMxanRHVVV6Umg0U1YySHFCeTJaNUloNlpVOFpkUXVJVVpjUg?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T05:25:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 95,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "13:25:00【推动交通物流降本提质增效 浙江省政府出台重要意见】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "【早报】美股科技巨头冷暖不均，英伟达、英特尔齐创新高；一批A股公司一季度净利增超10倍 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOREMyVTlIVDZNdjNYWWlTRlBDXzU0Vlc0cS1XSmgwYk9CWXFUTzEycnNONVpDMUQxZDYtOTJNeFh1ZldXWENycw?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T05:24:26+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 95,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "【早报】美股科技巨头冷暖不均，英伟达、英特尔齐创新高；一批A股公司一季度净利增超10倍 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "13:08:15【渤海海峡黄海北部部分海域执行军事任务 禁止驶入】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rc3FEbFpIWVNseW5YUy15dGczek5ZdUtoMHpjRFUzUXdySnlGazl4VDRDb0F2TTE5WGpOWTFVenBtLUxibEtFRw?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T05:18:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 94,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "13:08:15【渤海海峡黄海北部部分海域执行军事任务 禁止驶入】 财联社",
       "source_priority": 18
     },
     {
@@ -1376,7 +1879,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1394,7 +1897,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1411,46 +1914,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "13:01:04【小米手机涨价300到500元】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Katayama to Say Japan, US Are Coordinating to Curb Yen Weakness - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUDl6Tmd2ckw3UTVkOG5jVGVjNXBERmpsbk1Wak4zSmM1QVhobHUzS0pKVnI1N29vWUhZYWljM0l2TlBIRl85emJJYXRuM2IzUmI2dHN5SUQ1a0QtMUs0R09DekNiODZXeDFXeGVXUVVLdDEtalhyX2ZEMjREWjNTc3FnNWNzVUI2T096SmxzR2kwcHZYbS1xVFh2a3VXQld1aTc5VmpBMEdDZ0tfaDQ3UmgtOA?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T05:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 94,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Katayama to Say Japan, US Are Coordinating to Curb Yen Weakness Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "奥尔特曼自称修正认知：AI发展不会引发全球性“就业危机” - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1TRElkRmxPQlFETWRmazZlWHhRUFVOYnUzc2hJZjcxdEFHS2tBLUhveEtqdlhzOFIyaFFuamNiMHR2MFhMTnJnNQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T04:50:13+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 94,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "奥尔特曼自称修正认知：AI发展不会引发全球性“就业危机” 财联社",
       "source_priority": 18
     },
     {
@@ -1462,7 +1931,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "产业链",
@@ -1518,13 +1987,31 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "新技术",
         "财联社"
       ],
       "summary": "Anthropic“神话”模型扩大全球内测范围 已揪出上万高危漏洞 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "12:21:37【银河证券：Kimi K3正式开源重塑大模型商业生态 建议关注国产超节点及产业链相关公司】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5LNzE4VE5LV2h6a3lNYmZ6NEI2emp5aTdsc252MWtBcmh6b2FBbllPQV93TzZSQ25LZjlQUWtKVzgwZ04yYnNxOQ?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T04:21:37+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 93,
+      "tags": [
+        "重点媒体",
+        "新技术",
+        "财联社"
+      ],
+      "summary": "12:21:37【银河证券：Kimi K3正式开源重塑大模型商业生态 建议关注国产超节点及产业链相关公司】 财联社",
       "source_priority": 18
     },
     {
@@ -1547,6 +2034,23 @@
     },
     {
       "title": "电报解读 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9MamtwZ2IxZWdSeV9QWmhpbFdEeTk5VVlOZk11T29BTnpVbmxDWmFwM3dfM3d1dUNtU003anJjYk1KRzBKLUE?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T04:18:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 93,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "电报解读 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "电报解读 - 财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5EMDc2WGE0QWQ1bXVqWXpOMFZvb1JpSE5feUotalBxT2xKd0RVV2Y2M243VjFfMUJ3WmVCbU9FeUNTbnB1ZUtTMg?oc=5",
       "source": "财联社",
       "source_type": "主流媒体",
@@ -1554,7 +2058,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1569,7 +2073,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-02T04:07:46+00:00",
       "author": "isaacsu",
-      "engagement": 68,
+      "engagement": 70,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 53,
@@ -1594,50 +2098,20 @@
     },
     {
       "title": "AI Is Creating a Two-Speed Jobs Market in the UK, Indeed Says - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWU9qX0NhNzUwc205RldUUU96VjRvNWlqdDBRMm9EODEyTHdCTVRYVFBJT0psVXN1TWFCelE3aE8wdXBvTk1YN0FkWjFIazBJMVZMbmxHa3FjWUswOUhFZWx1NnRUQkVYWW1xNmFMZDdFNVVjUVJBZ0M0cHdVMnFDLTRreGJwTVNoMWVReVJZRW1fR01PNGF5a0RjSkstTnpBcG9DVzJNMHZlTlpYM2JmTERXMXZxVjVsZlg0WVlFcG9oVV85ODVoOVpJR2ZJbkE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMmNDTjkyVl9wQXVPS2VTZGVsTGtmTnJhc2pFRzZ6RW1RWnlHWW10YU1CS3JxVzY5SG42aXJBc0hYeFBGU0VsOWUycXhzMXpFUUFkd2owa0NOcGkyWk5CSlNJY3J3MWFQbTF1MGc0MG53OUxqd0lRLXF2NVpkTklVMmJRdmlmSmFCcDF0VTBNUTJhSzIxMnJuM3ZFR3ZzVW1BbnI3Wnk3QzVSMnQtdzlaZQ?oc=5",
       "source": "彭博社",
       "source_type": "主流媒体",
       "published_at": "2026-08-02T04:00:00+00:00",
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "AI Is Creating a Two-Speed Jobs Market in the UK, Indeed Says Bloomberg.com",
       "source_priority": 18
-    },
-    {
-      "title": "Futurism says Meta has \"almost nothing\" to show for AI. The numbers say",
-      "url": "https://runtimewire.com/article/futurism-says-meta-has-almost-nothing-to-show-for-ai-the-numbers-say-otherwise",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:55:08+00:00",
-      "author": "ryanmerket",
-      "engagement": 9,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "Futurism says Meta has \"almost nothing\" to show for AI. The numbers say"
-    },
-    {
-      "title": "AI Models as Commodities",
-      "url": "https://www.axios.com/2026/08/01/deepseek-model-cheap-ai-price-war",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:51:00+00:00",
-      "author": "kooi",
-      "engagement": 4,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 47,
-      "tags": [
-        "model"
-      ],
-      "summary": "AI Models as Commodities"
     },
     {
       "title": "【早报】美股科技巨头全线走高；英伟达财报出炉、SpaceX启动IPO - 财联社",
@@ -1648,7 +2122,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1656,38 +2130,6 @@
       ],
       "summary": "【早报】美股科技巨头全线走高；英伟达财报出炉、SpaceX启动IPO 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]",
-      "url": "https://philarchive.org/archive/NIEWTCv17",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:41:38+00:00",
-      "author": "muglug",
-      "engagement": 47,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 52,
-      "tags": [],
-      "summary": "OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]"
-    },
-    {
-      "title": "Foundational ternary-model inference and training – CUDA, CPU, BitNet/TQ",
-      "url": "https://github.com/Quitetall/tritium",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:40:39+00:00",
-      "author": "jacquesm",
-      "engagement": 1,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 53,
-      "tags": [
-        "model",
-        "training",
-        "inference"
-      ],
-      "summary": "Foundational ternary-model inference and training – CUDA, CPU, BitNet/TQ"
     },
     {
       "title": "AI浪潮下最讽刺一幕：苹果不争，故天下莫能与之争？ - 财联社",
@@ -1698,81 +2140,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 93,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "AI浪潮下最讽刺一幕：苹果不争，故天下莫能与之争？ 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "Task Hounds – a local-first, inspectable multi-agent dev workspace",
-      "url": "https://github.com/catowabisabi/task-hounds",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:30:51+00:00",
-      "author": "enomars",
-      "engagement": 1,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 47,
-      "tags": [
-        "agent"
-      ],
-      "summary": "Task Hounds – a local-first, inspectable multi-agent dev workspace"
-    },
-    {
-      "title": "Show HN: I get 25 deep researched ideas with one single prompt",
-      "url": "https://github.com/ringlochid/banksia",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:28:57+00:00",
-      "author": "ringlochid",
-      "engagement": 10,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 50,
-      "tags": [
-        "research",
-        "agent"
-      ],
-      "summary": "Make a three-layer workflow with 19 agents work together in parallel with one single prompt, then use that to research anything I want. If I don't specify any topic, it can prompt me some topics and wait for my response."
-    },
-    {
-      "title": "Large language models can predict the results of social science experiments",
-      "url": "https://www.nature.com/articles/s41586-026-10742-x",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:28:25+00:00",
-      "author": "Tomte",
-      "engagement": 1,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 53,
-      "tags": [
-        "model"
-      ],
-      "summary": "Large language models can predict the results of social science experiments"
-    },
-    {
-      "title": "Show HN: CleanSlate – an open-source coding agent for the IDE, CLI, and SDK",
-      "url": "https://github.com/TheWariend/CleanSlate",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:25:41+00:00",
-      "author": "maaaz7n",
-      "engagement": 1,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 56,
-      "tags": [
-        "agent",
-        "platform",
-        "act",
-        "cloud"
-      ],
-      "summary": "CleanSlate is an open-source platform for running coding agents across your local machine and the cloud. Today, it works through an IDE, CLI, and SDK. Agents can understand a codebase, make changes, run commands, browse the web, and verify their work. We are now building longer-running autonomous cloud agents that can "
     },
     {
       "title": "11:24:19【长三角（嘉兴）Token运营中心正式启动】 - 财联社",
@@ -1783,7 +2157,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1800,29 +2174,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 94,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "AI将继续“发力”？知名投行：标普500年内有望涨至9000点！ 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "AI Marketing",
-      "url": "https://www.lerobit.com",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T03:20:25+00:00",
-      "author": "akliluart",
-      "engagement": 1,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 47,
-      "tags": [
-        "market"
-      ],
-      "summary": "AI Marketing"
     },
     {
       "title": "AI音乐独角兽估值冲上54亿美元 “互联网女皇”基金领投最新融资 - 财联社",
@@ -1833,7 +2191,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1851,7 +2209,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1868,7 +2226,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1886,7 +2244,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1904,7 +2262,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1922,7 +2280,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1940,7 +2298,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1958,7 +2316,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -1976,7 +2334,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -1993,7 +2351,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "新技术",
@@ -2011,7 +2369,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "新技术",
@@ -2029,7 +2387,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2046,27 +2404,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "06:14:58【周五（7月31日）重点关注财经事件和经济数据】 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "Show HN: FirstEmployee.ai – Start a Business",
-      "url": "https://firstemployee.ai/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T02:59:21+00:00",
-      "author": "nadermx",
-      "engagement": 6,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "Show HN: FirstEmployee.ai – Start a Business"
     },
     {
       "title": "10:54:05【嫩江支流甘河发生2026年第1号洪水】 - 财联社",
@@ -2077,7 +2421,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2094,7 +2438,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2111,7 +2455,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "产业链",
@@ -2119,22 +2463,6 @@
       ],
       "summary": "三大运营商齐推Token套餐 AI算力“大众化”时代要来了？ 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "The world first agentic AI radio",
-      "url": "https://www.twitch.tv/newsmyimaginationai",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T02:42:49+00:00",
-      "author": "myimaginationai",
-      "engagement": 7,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 47,
-      "tags": [
-        "agent"
-      ],
-      "summary": "The world first agentic AI radio"
     },
     {
       "title": "10:34:58【因降雨预警 北京市郊铁路部分列车临时停运】 - 财联社",
@@ -2145,7 +2473,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2162,7 +2490,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2180,7 +2508,7 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "产品应用",
-      "relevance_score": 47,
+      "relevance_score": 46,
       "tags": [
         "product"
       ],
@@ -2195,7 +2523,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -2203,22 +2531,6 @@
       ],
       "summary": "美股财报季后的思考：科技巨头们，谁能更快将AI算力变成真金白银？ 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "Building agents that survive their own execution",
-      "url": "https://conol.ai/blog/building-agents-that-survive-their-own-execution",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T02:09:14+00:00",
-      "author": "greatony",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 47,
-      "tags": [
-        "agent"
-      ],
-      "summary": "Building agents that survive their own execution"
     },
     {
       "title": "10:05:18【独家｜吉利汽车集团架构调整 林杰任销售总公司总经理】 - 财联社",
@@ -2229,7 +2541,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2246,46 +2558,13 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "Renewable Energy Solution Systems Inc/Florida Bloomberg.com",
       "source_priority": 18
-    },
-    {
-      "title": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
-      "url": "https://costperprompt.com/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T01:56:44+00:00",
-      "author": "ahmed_hassan7",
-      "engagement": 26,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "api"
-      ],
-      "summary": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators"
-    },
-    {
-      "title": "Hiring FDE's (full stack software eng) // 100K+ & equity // AI for Manufacturing",
-      "url": "https://www.tryharmony.ai/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T01:53:49+00:00",
-      "author": "georgeharmony",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 50,
-      "tags": [
-        "act",
-        "hiring"
-      ],
-      "summary": "Hiring FDE's (full stack software eng) // 100K+ & equity // AI for Manufacturing"
     },
     {
       "title": "粤芯半导体明日上会 近3年累亏超65亿 - 财联社",
@@ -2296,29 +2575,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "粤芯半导体明日上会 近3年累亏超65亿 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "Token diplomacy: How China is shaping the AI future",
-      "url": "https://www.semafor.com/article/07/28/2026/token-diplomacy-how-china-is-shaping-the-worlds-ai-future",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T01:48:53+00:00",
-      "author": "qwikhost",
-      "engagement": 9,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 47,
-      "tags": [
-        "api"
-      ],
-      "summary": "Token diplomacy: How China is shaping the AI future"
     },
     {
       "title": "殷勇在北京经开区调研医药健康产业发展工作，要求持续完善产业支持政策，提升医药健康产业发展能级 - 财联社",
@@ -2329,12 +2592,29 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "殷勇在北京经开区调研医药健康产业发展工作，要求持续完善产业支持政策，提升医药健康产业发展能级 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "Malaysia Minister Sees Stable Second-Half Growth, Bernama Says - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTdnNk1jTHEydjdIWldrNm5CNGpOM3Rxam1IRVFVUUZqRmNBSGYzNU9wcWYyRWhxWnA5S1ZKUi1WSGtFR1pmSm91VEtValBQWUhWMmNWVmtWa0JRZ3ZiUUhMU0xqRThUbGZTZHV1WkRPZXE1bkd6VGN5bmljd2VSQ3RuRnNBWmJseElLZnVOZUY1N09zTWRoblJDT1huTVIxc3VWX1I3cFFtUUU5WGsyS2hR?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T01:44:00+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 92,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "Malaysia Minister Sees Stable Second-Half Growth, Bernama Says Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -2346,45 +2626,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 92,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "09:34:43【海军83舰编队将抵达印度尼西亚开启访问】 财联社",
       "source_priority": 18
-    },
-    {
-      "title": "People Who Called for Averting Nuclear War Are Calling for AI Slowdown",
-      "url": "https://allevato.me/2026/08/01/rome-declaration",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T01:32:01+00:00",
-      "author": "kukanani",
-      "engagement": 4,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 44,
-      "tags": [],
-      "summary": "People Who Called for Averting Nuclear War Are Calling for AI Slowdown"
-    },
-    {
-      "title": "How to Model the True Cost per Token Across GPU Architectures",
-      "url": "https://www.softwareseni.com/inference-economics-how-to-model-the-true-cost-per-token-across-gpu-architectures/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T01:31:31+00:00",
-      "author": "thunderbong",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 53,
-      "tags": [
-        "model",
-        "architecture",
-        "gpu"
-      ],
-      "summary": "How to Model the True Cost per Token Across GPU Architectures"
     },
     {
       "title": "打破AI烧钱魔咒！Anthropic销售额暴增 有望迎来首个季度盈利 - 财联社",
@@ -2395,7 +2643,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2412,7 +2660,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 93,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2429,7 +2677,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2446,108 +2694,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "资本市场",
         "财联社"
       ],
       "summary": "聚焦打鼾口服疗法 美生物科技公司上市首日股价跳涨 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Smevals: A small eval suite for evaluating models, prompts, and harnesses",
-      "url": "https://simonwillison.net/2026/Jul/31/smevals/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T01:02:05+00:00",
-      "author": "seahorseemoji",
-      "engagement": 5,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 46,
-      "tags": [
-        "model"
-      ],
-      "summary": "Smevals: A small eval suite for evaluating models, prompts, and harnesses"
-    },
-    {
-      "title": "Persistent State Machines: LLM Attention with INT4 In-Memory Cells",
-      "url": "https://zenodo.org/records/21753002",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T01:01:45+00:00",
-      "author": "yusuke_esaka",
-      "engagement": 13,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 49,
-      "tags": [],
-      "summary": "Persistent State Machines: LLM Attention with INT4 In-Memory Cells"
-    },
-    {
-      "title": "The AI Bubble Survives on $1.65T in Hidden Debt",
-      "url": "https://www.youtube.com/watch?v=HXlcMbxzz0U",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T00:51:30+00:00",
-      "author": "cable2600",
-      "engagement": 3,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [],
-      "summary": "The AI Bubble Survives on $1.65T in Hidden Debt"
-    },
-    {
-      "title": "AMD's physical AI plans come into focus as company launch Ryzen embedded AI X100",
-      "url": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-02T00:49:36+00:00",
-      "author": "teleforce",
-      "engagement": 4,
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 49,
-      "tags": [
-        "launch",
-        "company"
-      ],
-      "summary": "AMD's physical AI plans come into focus as company launch Ryzen embedded AI X100"
-    },
-    {
-      "title": "08:49:11【美国华盛顿州山火蔓延 多地发布最高级别疏散令】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zTFAzMHpVWTBHdlFwY2NhREhadl9NenBoVzVvcDJMT0U1NHZKOWp6X1l2THNfSWVFczVISlY0X2RZaHFDQWF1MQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T00:49:11+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 92,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "08:49:11【美国华盛顿州山火蔓延 多地发布最高级别疏散令】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "08:40:02【金风科技参建Ummbila Emoyeni一期风电项目实现商业运营】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA2YVJLcmExWW91bUI0VUlKd0Roa2w0YzdhTnFCOHozRjFtRUtnT0ctUVk0Ml9KenBvZjdkSlN4VEgxNDFRS3NETg?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-02T00:40:02+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 92,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "08:40:02【金风科技参建Ummbila Emoyeni一期风电项目实现商业运营】 财联社",
       "source_priority": 18
     },
     {
@@ -2559,7 +2712,7 @@
       "language": "en",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -2577,7 +2730,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2594,12 +2747,29 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "Guyana Is Feeling the Crushing Weight of Its Oil Boom Bloomberg.com",
+      "source_priority": 18
+    },
+    {
+      "title": "Fed’s Credibility Test and J&J’s New Bet - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZVpCaUFmUHlGQ0NTU0xfX01IRmVhWnctdjJuUmM4MWtMeHdrYzdjc0E3b0h6ZW9sNGk4Z3NXTUVsb2hkWHBHLWRnSENVMGlreThLMXRmV0tkZXhHbjhRZTlyNnNvMW1BdXl3cDZ4Y29vZjVQU3FJMU41Y3hPalpJemI2X0ZyeDhUWXkyRWtiSDctVV9PNm9YUVNB?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-02T00:00:52+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 91,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "Fed’s Credibility Test and J&J’s New Bet Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -2611,7 +2781,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -2628,7 +2798,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2645,7 +2815,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -2662,7 +2832,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "产业链",
@@ -2680,7 +2850,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 92,
+      "relevance_score": 91,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2697,13 +2867,30 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 92,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "资本市场",
         "财联社"
       ],
       "summary": "环球下周看点：SpaceX首份财报+解禁潮 中东冲突峰回路转 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "【早报】个人贷款新规来了；造车新势力最新成绩单公布 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9kcC1nekl3RkgyYVRQaWxUUUYwaXVOX3czQWtiRmVkejVnVVVwNmc5cmc2WjlicHlxdVlqMlYwd2dvOTdqcWllcw?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-01T23:17:27+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 90,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "【早报】个人贷款新规来了；造车新势力最新成绩单公布 财联社",
       "source_priority": 18
     },
     {
@@ -2715,30 +2902,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "新技术",
         "财联社"
       ],
       "summary": "错过张雪机车的重庆国资们 站上大模型与新能源的牌桌 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "声称能少烧多达7成云端Token 英特尔推出本地+云端“混合龙虾” - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5PUzgxbnJKQlo4cEhiWWthaGY0ckVKZVZ3c2s0SUZsR0VkUXZDMjE5bl9qdGpVQlptNWlieGl1QkluZWRyd1dkeg?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T23:03:11+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 91,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "声称能少烧多达7成云端Token 英特尔推出本地+云端“混合龙虾” 财联社",
       "source_priority": 18
     },
     {
@@ -2750,7 +2920,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2767,30 +2937,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "资本市场",
         "财联社"
       ],
       "summary": "【早报】中际旭创发布严正声明；MiniMax启动A股IPO 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "【早报】美油大幅高开，伊朗代表团离开谈判地点；多只科技牛股本周解禁；比利时0-0平伊朗、西班牙获首胜 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BdDFlWkRXVnVkcUVQOEZhckdFU0JocE9PQ2JhOG1XN0pvbW94azgxTjdNeVdGaldtWkFwQ1R1MVg2S1BQNXJCNw?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T22:39:32+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 91,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "【早报】美油大幅高开，伊朗代表团离开谈判地点；多只科技牛股本周解禁；比利时0-0平伊朗、西班牙获首胜 财联社",
       "source_priority": 18
     },
     {
@@ -2802,7 +2955,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2819,29 +2972,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "02:16:13【欧盟宣布将召开紧急会议讨论休达移民危机】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "联合国专家组警告：AI发展速度已超越科学认知和监管能力 或带来灾难性风险 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE42UE9JWHBPcXhKcTJjVHR5U3FlRUNtSFZkUC1kci1HaDg0eTJETXFKd2l2N3pIam9jU08yZzJyZU9LSTFvZzdpMQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T22:12:24+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 91,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "联合国专家组警告：AI发展速度已超越科学认知和监管能力 或带来灾难性风险 财联社",
       "source_priority": 18
     },
     {
@@ -2853,7 +2989,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2863,37 +2999,19 @@
     },
     {
       "title": "Hungary to Shut Its Only Nuclear Plant for First Time on Drought - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX2MwMF9WaFdUNEpqd0xyNlNRTmYwU0I1MlE4dkdXV2o4MUJpRTdWZndFbG1sMkJZal9RZ0xzNS1wa01zdFBwOVdmOHJsSHRiQjRHb3dyMGFvX05lVXZaNi1Qb1FidGh5Y1gya1lFZllJd0RBMkpCWVMtd1FOVHNHa2dNeWpaa2tjQ0YyajFLTEN0alhSNWFCYUlLMExZcEo5aDdIeFBBQ1dLYlFGUktiYjZ1Vzg0TEo5TXEtNjlwcHZ5QQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1h2VC0tajdpRkg1SU12UmYwdXNwRmJaWkJkMHhQTDZKUExJSHpzeVFFbXJHd0NrNTVfV3NXdDhhSDJna2NMSzBJanJFMEpfRXlZNzVTUXpQX2pvb0E2UTNLMkJiT0lTZnhaSTBJLTQ5TXpPZnNHUUszRkFrd0JmR2NUNmE3ZWotN3JhUm1EXzV6QzF3UUJjNVdvcUFlLXV3UFpEZ1U4RndmZUJNV2VleDY1UUNPQQ?oc=5",
       "source": "彭博社",
       "source_type": "主流媒体",
       "published_at": "2026-08-01T21:54:47+00:00",
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 91,
+      "relevance_score": 90,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "Hungary to Shut Its Only Nuclear Plant for First Time on Drought Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "特朗普禁令被绕过？Anthropic新模型魅力太大 美政府机构争相合作 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CU1NqY2F1SlB1MlJJUzhJVXBNczFzV1d2YV9oZjc1cnVTR2lBbktnYWNfN0ZXWWFaQW0ybnVqdC1QRWJCT1lmZw?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T21:35:07+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 91,
-      "tags": [
-        "重点媒体",
-        "新技术",
-        "财联社"
-      ],
-      "summary": "特朗普禁令被绕过？Anthropic新模型魅力太大 美政府机构争相合作 财联社",
       "source_priority": 18
     },
     {
@@ -2905,7 +3023,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 91,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -2922,7 +3040,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2939,7 +3057,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2956,7 +3074,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "财联社"
@@ -2973,7 +3091,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -2991,7 +3109,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -3023,7 +3141,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3040,7 +3158,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3057,7 +3175,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3074,7 +3192,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -3092,7 +3210,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "新技术",
@@ -3110,7 +3228,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3127,7 +3245,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3144,7 +3262,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3161,7 +3279,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3178,30 +3296,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 90,
+      "relevance_score": 89,
       "tags": [
         "重点媒体",
         "资本市场",
         "财联社"
       ],
       "summary": "01:48:04【Anthropic得州数据中心正洽谈融资150亿美元 谷歌将为此提供财务担保与芯片】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "亏损收窄、打通“元宝”后 美团大涨9% - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5HbjNJdEZKOTBuSWo3M0x1X3V1c0V1dFZreGZPOUNuTUI2TXFTc1RTQ2dseEVEQmJwOW1XSUN5eEFnYzZxa3Z1RQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T19:32:06+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 90,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "亏损收窄、打通“元宝”后 美团大涨9% 财联社",
       "source_priority": 18
     },
     {
@@ -3213,7 +3314,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3230,12 +3331,29 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 90,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "真功夫收获高增长，贝泰妮还想赢下一个五年 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "War With Iran: Trending News, Latest Updates, Analysis - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIN1Nua3pxWlpMX0Y2cU1RZ1pJUHRfTDZJbVJyMTN3Z1JROGJvV1JQTjJHQ3VwNkxvOUhCMFl1VWZTeXduY2xvTlNPOHF6Ni1iQVFPQg?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-01T19:03:18+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 88,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "War With Iran: Trending News, Latest Updates, Analysis Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -3247,7 +3365,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3264,12 +3382,30 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "Communication Services Sector & Industry Performance Bloomberg.com",
+      "source_priority": 18
+    },
+    {
+      "title": "DeepSeek-V4系列迎重大升级 性能追平旗舰模型 Agent能力大幅增强 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9hcGpHRGxCcldtNkt1ZXhqSVFVWW1TMzlvdjFtRThJVnpJLXZ2dkxacnFIVnk4YkpCQUJOelhpbTN5ZHA5WXc?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-01T18:58:00+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 88,
+      "tags": [
+        "重点媒体",
+        "新技术",
+        "财联社"
+      ],
+      "summary": "DeepSeek-V4系列迎重大升级 性能追平旗舰模型 Agent能力大幅增强 财联社",
       "source_priority": 18
     },
     {
@@ -3281,7 +3417,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3298,7 +3434,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3315,7 +3451,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3332,7 +3468,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3349,7 +3485,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3366,7 +3502,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -3384,7 +3520,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 89,
+      "relevance_score": 88,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3401,7 +3537,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 89,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "新技术",
@@ -3419,7 +3555,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "新技术",
@@ -3455,7 +3591,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3472,7 +3608,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -3490,7 +3626,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -3501,14 +3637,14 @@
     },
     {
       "title": "Capital One Cites Money Laundering Review in Trump-Related Suit - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTzdyVDdxWkhnVWg1OWJ3T2xubGpKTW1EOG9XaHVyNHAwU196T2dCYjZEYnFlZlIxS21ZUFI4RmtYeV8xUnVWdFhqUVRvcFp0TEFmSlJvMWFWUWctRDRUSVhoM3MyR01Jdm94bFRDMFB5b2tNSmpRWEw0Y2VTMmRYTVFIdWdLLTRpWEtweld2Sk9najJvcUpleEFRZ1hLYU01eFNZZWZBT19wZzNlRUhjdmxEcG9RaVdZYTk3cURZNGc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQktsN2lFSGk4RjJqSnFqTjFxa3FhMFZSRjhFa0EwWUh0cFAwanVGRzFVNDhQdDduNW1hajF0YnhRdTZweWpYemRVMW1TUERiU3VkSnpjdGgybTdGTzd2bkNTdFN0RDNwNmdGc01tT1lzazlTQTVfNlEzWmtLdGVsUFRJSnRYeDRrZC1XS0RXR3pwV0htUXlBY1diX1ZiYnJyRUtpT2lvdVJCSkxTMm1DOC1QV00?oc=5",
       "source": "彭博社",
       "source_type": "主流媒体",
       "published_at": "2026-08-01T16:52:38+00:00",
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3525,7 +3661,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "产业链",
@@ -3543,46 +3679,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "关键时刻惠誉也来泼冷水：AI市场回调正成为全球主要信用风险 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "一博科技：上半年净利润同比增长1562% PCB工厂订单增长势头良好 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBWTmNZOVN5ZElzdXBMdF9EQlk3TzhPeFFTckVnNTZlUV9BdHVIamJ6dmYtb3ZMclNJSU0tLW1lUlB1dUxialE?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T16:36:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 88,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "一博科技：上半年净利润同比增长1562% PCB工厂订单增长势头良好 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Ebola Outbreak in Congo Becomes Country’s Largest on Record - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOby1abTl6SjZMLU9GcWx2aVJ4bnVfaVF5aGI5Rzh5RWhsSE1ZbFRqdWFDTDQtQUxkaWF4eHpReFVmTnlaQ2FOblpZeWFtRmlLQm5lUXk5enpPWGxORVJxYk82VWJjLW12ZVNqdFJGUldKbG9GN2xYazl0aUh4Vk5ISjBiMVJqbnMxZFZLLU8zazVyWTVFX0dKaVJUZWlHNkZhM0FCQlhQOFhNcUpydkJ3?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T16:26:50+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 88,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Ebola Outbreak in Congo Becomes Country’s Largest on Record Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -3615,7 +3717,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3632,7 +3734,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3649,7 +3751,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "产业链",
@@ -3667,7 +3769,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3684,7 +3786,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3701,7 +3803,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 88,
+      "relevance_score": 87,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3718,7 +3820,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3735,7 +3837,7 @@
       "language": "en",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -3753,7 +3855,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3771,7 +3873,7 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 41,
+      "relevance_score": 40,
       "tags": [],
       "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread! submitted by /u/AutoModerator "
     },
@@ -3784,7 +3886,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3801,7 +3903,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "财联社"
@@ -3818,29 +3920,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "21:41:17【冲绳要求美军撤走海马斯】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "12:53:02【住房公积金缴存覆盖面扩大 灵活就业人员可自愿缴纳】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJckNQQV84Y1Z0X3Izc3IwM1c4ZVYyY0ZpYzJaNGhwa25Jb0lTVGdKNlNLRGtHajF5OGVWM1EyYXA4Z29uN25RcA?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T14:34:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 87,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "12:53:02【住房公积金缴存覆盖面扩大 灵活就业人员可自愿缴纳】 财联社",
       "source_priority": 18
     },
     {
@@ -3852,7 +3937,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3869,7 +3954,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3886,7 +3971,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3903,7 +3988,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -3912,21 +3997,20 @@
       "source_priority": 18
     },
     {
-      "title": "降幅高达80%！OpenAI大砍两款AI模型价格 “Token价格战”升温 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBCWHJOcG91cUpOc2tLcWFmRlpDaW1vbDlaZURpWGxyMVVYeGpPLWNjSllBRWtUdXlXU3ZibnkwUWhhRDZOZWViSg?oc=5",
-      "source": "财联社",
+      "title": "Tanker Carrying Qatari LNG Struck While Transiting Hormuz - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZC01LTFlUHo2T0haVkFkVVB1RVRjQWR5WTFMWjgzSjdiWnQ2X3NFX29wSVRMSU84S2NPNHZtY01PMVhzby1RZEVnZlFlZlpBSkQ1NWZBSW4yelpLa0txN2hreVJnMVdtT1NQMTFUb0hnX2xVUnFscjJJSzNBR1EtSUx5bm44a0ZkQlFfWkRQU21WZHZ1U1Rld1BsT0wtS0NjM2xINHdFTU15VXpB?oc=5",
+      "source": "彭博社",
       "source_type": "主流媒体",
-      "published_at": "2026-08-01T13:44:35+00:00",
-      "language": "zh",
+      "published_at": "2026-08-01T13:55:54+00:00",
+      "language": "en",
       "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 87,
+      "category": "产业动态",
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
-        "新技术",
-        "财联社"
+        "彭博社"
       ],
-      "summary": "降幅高达80%！OpenAI大砍两款AI模型价格 “Token价格战”升温 财联社",
+      "summary": "Tanker Carrying Qatari LNG Struck While Transiting Hormuz Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -3938,7 +4022,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "新技术",
@@ -3956,13 +4040,30 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 87,
+      "relevance_score": 86,
       "tags": [
         "重点媒体",
         "资本市场",
         "财联社"
       ],
       "summary": "股价盘后涨近10%！亚马逊云业务蓬勃发展 上调全年资本支出至2200亿美元 财联社",
+      "source_priority": 18
+    },
+    {
+      "title": "Greece Wildfires Rage Near Athens, Prompting Sea Evacuations - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd3c0QnhjTjNHUS1RU2hmenktSmFPQkZkSHNJbmhnLXI5YU85VUtyTGtkRmxsWkVJUEdMX1hNWWpBQ1h6dm9hZmpPVzZzclIxcUJiX2EtRGt1eVBYdHJ5UlRQNWhvQVBQMkhVcC1LaXZMNHl5Y21OOVE3Ny1XS0I5RzhkZGRoVGEyelJxTDdRWDFnRFVVMDdqYUFPWk1ZM3hQZks1ME5pODlqM1dDQ0F3?oc=5",
+      "source": "彭博社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-01T13:38:46+00:00",
+      "language": "en",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 86,
+      "tags": [
+        "重点媒体",
+        "彭博社"
+      ],
+      "summary": "Greece Wildfires Rage Near Athens, Prompting Sea Evacuations Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -3974,29 +4075,12 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 87,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "Exxon, Chevron Warn Fuel Prices to Endure as War Knocks Refining Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "War With Iran: Trending News, Latest Updates, Analysis - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBIN1Nua3pxWlpMX0Y2cU1RZ1pJUHRfTDZJbVJyMTN3Z1JROGJvV1JQTjJHQ3VwNkxvOUhCMFl1VWZTeXduY2xvTlNPOHF6Ni1iQVFPQg?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T13:26:01+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 87,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "War With Iran: Trending News, Latest Updates, Analysis Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -4008,30 +4092,13 @@
       "language": "zh",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 87,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "新技术",
         "财联社"
       ],
       "summary": "银河证券：Kimi K3正式开源重塑大模型商业生态 建议关注国产超节点及产业链相关公司 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Turkey Said to Extend Iraq Oil Pipeline Deal by One Year - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb3huR3dCaTNxSUphYXlQNmN6TWEtdHppQTRyTzFfUkVyMW1OV3V1bS16M1UwZV9taV94UlNOampQdkpCdnhsMXpsVTk4S1NUMmF2bWNfd08weU9lNHNZRkYzbGF0cjNoQTF1SHBUX1dLQ25JYzFiM1BCVFhVTk1FS0Q4T1MyVVlkSUZIQm5VNkI2emo0Mm4wdllSenc5YTMyVzFjUWxGRjNneG8?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T12:47:11+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 86,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Turkey Said to Extend Iraq Oil Pipeline Deal by One Year Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -4043,12 +4110,29 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "彭博社"
       ],
       "summary": "Kuwait Intercepts Iranian Drones as Trump Weighs Fresh Strikes Bloomberg.com",
+      "source_priority": 18
+    },
+    {
+      "title": "20:36:16【我国茶产业链规模已迈入万亿元】 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1rQ3Fmek1FaGNRVThlaVdGYS1PQUZybDZpYWFwU1pWcGtXcExwcTFUN2RTckZuX2J5aWNZUWJFblR2NC0tTXlWMQ?oc=5",
+      "source": "财联社",
+      "source_type": "主流媒体",
+      "published_at": "2026-08-01T12:36:16+00:00",
+      "language": "zh",
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 85,
+      "tags": [
+        "重点媒体",
+        "财联社"
+      ],
+      "summary": "20:36:16【我国茶产业链规模已迈入万亿元】 财联社",
       "source_priority": 18
     },
     {
@@ -4060,7 +4144,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -4069,37 +4153,20 @@
       "source_priority": 18
     },
     {
-      "title": "20:16:03【 尹志尧：中微公司5年内产能将超700亿元】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE03Uk84ckRWNGsteHl4UjdaU3RBZktHZU1BUDNydm5ROVM5X05vQVh0dkY4OTlKV3JzcVYwN3E3QzJtcElNTFhaNA?oc=5",
-      "source": "财联社",
+      "title": "Russia Hits Kyiv With ‘Horrific’ Missile Barrage, Killing Nine - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUnNDQmlXNG1NeWotYWliUGtHd3hwR3pza1hQRVRid0JxZ2JVOVljV1BCT0ZpdnJrY0tqcy1wRzVLRTE1YkRIQWRCRDV5SS1yUWNrcmlwUUNSRExmMDNrdFRiMEJLNEVySnhVODBHd01KUmhKT0dCZ2RlQVZYakhObWdZM1VfSFBCMDQ1dG9ISjVQUGs3YnM1Y1ZBb2FJQXBfaktrQUVwcmIzdkV6WU1z?oc=5",
+      "source": "彭博社",
       "source_type": "主流媒体",
-      "published_at": "2026-08-01T12:16:03+00:00",
-      "language": "zh",
+      "published_at": "2026-08-01T12:23:35+00:00",
+      "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
-        "财联社"
+        "彭博社"
       ],
-      "summary": "20:16:03【 尹志尧：中微公司5年内产能将超700亿元】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "20:15:35【华虹宏力白鹏：将与中微长期深度协同 深化联合研发加速国产设备规模化应用】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE13bjBFbEhYYzZfaS1ib1MycGM4REFhTlFFV0hhdmdzLXU1WFE2NG9yNjJfX1JqZURMNzRpVFlQR0RUYkpNTkU2UA?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T12:15:35+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 86,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "20:15:35【华虹宏力白鹏：将与中微长期深度协同 深化联合研发加速国产设备规模化应用】 财联社",
+      "summary": "Russia Hits Kyiv With ‘Horrific’ Missile Barrage, Killing Nine Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -4131,7 +4198,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -4149,7 +4216,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -4166,7 +4233,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -4184,7 +4251,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -4201,7 +4268,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "财联社"
@@ -4218,7 +4285,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "财联社"
@@ -4235,7 +4302,7 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "财联社"
@@ -4252,7 +4319,7 @@
       "language": "en",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "彭博社"
@@ -4269,30 +4336,13 @@
       "language": "en",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "资本市场",
         "彭博社"
       ],
       "summary": "Are You Looking at Your Investment Portfolio Too Often? What One Expert Recommends Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "Fed’s Credibility Test and J&J’s New Bet - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZVpCaUFmUHlGQ0NTU0xfX01IRmVhWnctdjJuUmM4MWtMeHdrYzdjc0E3b0h6ZW9sNGk4Z3NXTUVsb2hkWHBHLWRnSENVMGlreThLMXRmV0tkZXhHbjhRZTlyNnNvMW1BdXl3cDZ4Y29vZjVQU3FJMU41Y3hPalpJemI2X0ZyeDhUWXkyRWtiSDctVV9PNm9YUVNB?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T12:00:01+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 86,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Fed’s Credibility Test and J&J’s New Bet Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -4304,7 +4354,7 @@
       "language": "en",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -4322,7 +4372,7 @@
       "language": "en",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "资本市场",
@@ -4340,305 +4390,12 @@
       "language": "zh",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 86,
+      "relevance_score": 85,
       "tags": [
         "重点媒体",
         "财联社"
       ],
       "summary": "第12批国采拟中选结果揭晓 头部大厂强势拿单 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "19:32:19【中方在联合国举行2026世界人工智能大会暨人工智能全球治理高级别会议吹风会】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9reWNlZTZCUXlSOUliVFFWRm5vN2U2bm5EdjdvQVZvenBvX2ZUMU5BOG5UQjBpNXJJVW5wNUgwTW9fbmZnaXVleQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T11:32:19+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 86,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "19:32:19【中方在联合国举行2026世界人工智能大会暨人工智能全球治理高级别会议吹风会】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "The History You Can Buy for $25,000 a Night - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQM2FWLU45QjlIWW05MHJUejVTX0Y1YWhOYnVoVTZUWUlZeUNOaWtibTZWc25WVUsySzJ4Z3J1ZGY0dFU1WmJBVEJjQWxZSzgyWmxGVUJFZGEtTDJGMXhXQzlDMGlNWVZKb3dEOGQyZ2VjcE1fZXZZQ21YeEFqa3FiYzdxWE5uNmdCS2piQlNpQVJTcDRPa2lubXBjTWhSbGt2?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T11:30:01+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 86,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "The History You Can Buy for $25,000 a Night Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "康宁三季度业绩指引略逊预期 AI光通信业务增速放缓 股价盘中跌近20% - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9IYnhLWnN2cU14bkx4TUl3RGlNU1V1QlNicU9udk5zc0RVUXJPRUhDMTd5ZHE4TEt0TnFnd2VnMHZ2UTJ5UDdfdg?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T11:13:19+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "资本市场",
-        "财联社"
-      ],
-      "summary": "康宁三季度业绩指引略逊预期 AI光通信业务增速放缓 股价盘中跌近20% 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "财联社8月1日电，泽连斯基表示，乌克兰国家安全局袭击了巴什科尔托斯坦地区三座俄罗斯炼油厂。 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1nTU5OeUhHc2pvVF9VU01oZ1JPQ3ZvNzJ4TXZtNk9heE1fdXdyc0xBU01fOHU3YWRndGhXWktMQ0JvUGdFX3RQTQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T11:11:48+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "财联社8月1日电，泽连斯基表示，乌克兰国家安全局袭击了巴什科尔托斯坦地区三座俄罗斯炼油厂。 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "19:02:19【一艘LNG运输船通过霍尔木兹海峡时遭投射物击中】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5wc3dhcUVlUjJFYzJzTldwWTk1dERjdERyQ2IwYmlELW9rdW1SanRIaXRiQzhzbTBHRmxVekpOekFMUHllNzJJeA?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T11:02:19+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "19:02:19【一艘LNG运输船通过霍尔木兹海峡时遭投射物击中】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Aston Martin Creditors Fume at Lack of Detail on Debt Deal - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMV9WbWxHSzNsLVUwTDNkVThwN3BoWDFxeXNQbkFrenNtMWt0VVRNaTBuazNRS25nYVRMNDBFaGZPMzZ1NV9BYXl1REFPb01WUVdQM2o0elRXdHl4RXpJYzQ5X1dYV2taNWE3Y2NfN2ZGVkF2ZFZBNzhzRjRIMUQtZlJVTDZuUUlWd0ZhMFlPd1lwUUl1dEMwZlZNZlJTMmRTYzlkbHlXU0YyMFpOWEE?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T11:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Aston Martin Creditors Fume at Lack of Detail on Debt Deal Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "这家高速公路企业2025年营收同比增幅3成，利润大降9成，存续债超30亿 | 债市财报观察 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9taDlGdThVdDFHd0pqVWFVTHMxdGVSLTRwYkJCQTByX25Sa1BLRFdiS1hXdW5oMDItbjdlaHRKV0Y2ZUp2LWd0bA?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:55:28+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "资本市场",
-        "财联社"
-      ],
-      "summary": "这家高速公路企业2025年营收同比增幅3成，利润大降9成，存续债超30亿 | 债市财报观察 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "可口可乐Q2业绩超预期并上调全年指引 股价创历史新高 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9kdXZqaVBGVEQxWGwzbEptMlI4UmViQURNOVVVb1pNaTBidE5CX2tjbHRyOGRrN3QxQy1PNm9tWVFvTE8zUFJfTg?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:32:45+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "资本市场",
-        "财联社"
-      ],
-      "summary": "可口可乐Q2业绩超预期并上调全年指引 股价创历史新高 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "18:32:21 财联社8月1日电，伊朗西部伊斯兰阿巴德西吉尔附近听到爆炸声。 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Ldk11ejJvMGtiSGFYY0d1dUZVb0p1c2hjVUZpMXhQWXRIRkp1X3RMaXI2VE9SMHVlcHpjQmZJeC11Zlp4d0ZnWQ?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:32:21+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "18:32:21 财联社8月1日电，伊朗西部伊斯兰阿巴德西吉尔附近听到爆炸声。 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "股票ETF 7月净流入4778亿创历史峰值，多维度破纪录 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xcndtMFFKYUFIN2d5YjA5b1JOeFlIR190UHR1V0pCamZkZ05Da1N3eFFVeFFMQTdnNkNLcVZVcVhvWlFqUUpJTg?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:31:00+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "股票ETF 7月净流入4778亿创历史峰值，多维度破纪录 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "18:28:29【日本北海道航空系统一客机起落架舱门发生故障 将紧急降落】 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uQlJpRWlUblVKNjN6cGM3RUVOZjJGMjMzV3ZjLVpQYTJITUs1dHlLVHgtWFQwRjZhNTBUUGdnRmpuSlFyREpNQg?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:28:29+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "18:28:29【日本北海道航空系统一客机起落架舱门发生故障 将紧急降落】 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Infantino Backlash Grows as UEFA Loses Confidence in Him - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNHBtQWgzR2JkczM1dGRXQWtkQ2EtamlRcnBqSlBWYjQ5OG1EQ21WYTRydTJfbGQ5d0x0TUhjWHhINU55YXRjSVdYa2VHby1ZYU16VWtYREVwdWpOR1JuRElfRmF4aFBHT21teVpIVWNkOEtYV0FDaDhFc0RmRHEwRlBCMTczOXItOTNYSWpTYmc0YjlhYlQ1QUlQMTh3dlZrOV85UGJsT3VLMFotNi1DUDBn?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:24:14+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Infantino Backlash Grows as UEFA Loses Confidence in Him Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "Spain Slams ‘Selfish’ Reaction From Some EU States to Ceuta - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYzFKYlNrZVk2b0tMbzB4WEItbWhmV2NZak9yblVYbUhZd0JWOFlwd2pkbjBCaURrcTZjMldnQkN6bThNZEJZbm5UcVlVZ2EwVmRIUlJqakFPX1dJRkE2enRTUVY3S19pZnJCZElibmZjalZCNWY5X3BoUExrSzQ2b2RjM09tdGFwVUNBVnNGVlprbWE0RllvWC1kRDFrUE9GUXVhZ2lNeVFVdWxqX0NtVG5WR1VlNDY5R2pxVFRUanpwSkRWV2RoYw?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:14:27+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Spain Slams ‘Selfish’ Reaction From Some EU States to Ceuta Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "财联社7月31日电，亚马逊CEO表示，AWS在AI和非AI领域均呈现强劲增长，订单积压达4960亿美元。 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBUdkdpcC11cWNCdWwxSTRRMFRSZlRXeElVdThzRnJ3ek1VQmVJVTVVcFVWM3pLSkp6dUc3VlRWRjN5NS1lM3ZqSA?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T10:00:21+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "财联社"
-      ],
-      "summary": "财联社7月31日电，亚马逊CEO表示，AWS在AI和非AI领域均呈现强劲增长，订单积压达4960亿美元。 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Japan Yen Intervention: Trending News, Latest Updates, Analysis - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JcFNIS2sxSHY5cnBIVVZoVXQ3NUVoVVliRU4wZlJJcUViWDVNVzJwSUxlcGxFUDdjUGtFR1d4MG8wdWRNcnBKcUl6d2V5V3BqNFBOZnV0MFF1LTUydWswZw?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T09:53:38+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Japan Yen Intervention: Trending News, Latest Updates, Analysis Bloomberg.com",
-      "source_priority": 18
-    },
-    {
-      "title": "SpaceX一度较发行价跌超20% 估值泡沫与解禁压力双重夹击 - 财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NYVJIR05wV2dxVTlJRWpNS205Sjl6MGcwLWVfdzNpamlDVkdnNmc1OTdmMFNNbWpzbG1IQ19uUG16dF83UnAtMA?oc=5",
-      "source": "财联社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T09:48:44+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "资本市场",
-        "财联社"
-      ],
-      "summary": "SpaceX一度较发行价跌超20% 估值泡沫与解禁压力双重夹击 财联社",
-      "source_priority": 18
-    },
-    {
-      "title": "Indian Oil Buys Record Spot Market Crude on Mideast Supply Hit - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS0FxODZLMXd6SE1MYmcyZWh0aUNiR3hxdFljZ2h6bm1IZUZvVndwaTFSeXVPUnJWRlBXTkd6elY2N2wyTFExUExKZUhhRjVaZmlvRk1abW1UOC1QNV9Baks4V2xVNjEyTjVYVTIxRWV4RkxCUXJtX1dJUy1ZdC1sTXI0SFp1azdkVGxKTXcycGd3TWxiRWozSzFOQW9kMm51eVRwd0RLYk5XVGphM1BJcS1oRQ?oc=5",
-      "source": "彭博社",
-      "source_type": "主流媒体",
-      "published_at": "2026-08-01T09:30:37+00:00",
-      "language": "en",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 85,
-      "tags": [
-        "重点媒体",
-        "彭博社"
-      ],
-      "summary": "Indian Oil Buys Record Spot Market Crude on Mideast Supply Hit Bloomberg.com",
       "source_priority": 18
     },
     {
@@ -4651,7 +4408,7 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 55,
+      "relevance_score": 54,
       "tags": [
         "valuation",
         "benchmark",
@@ -4671,7 +4428,7 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 38,
+      "relevance_score": 37,
       "tags": [],
       "summary": "This time we have seen the worst meta reviews...may be people are unintersted to do reviews...in my case they did not acknowledge the report at all as well the entire rebuttal. How many are facing the same thing? submitted by /u/Historical_Pause247 [link] [comments]"
     },
@@ -4685,26 +4442,12 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "政策治理",
-      "relevance_score": 43,
+      "relevance_score": 42,
       "tags": [
         "law",
         "act"
       ],
       "summary": "We received the reviews, but they don't mention whether we should submit a revised version. Should we prepare one? I also couldn't find anywhere to upload a revision. What exactly is the EMNLP commitment deadline? I had assumed we were supposed to upload an updated version. Do you know what they're expecting us to do n"
-    },
-    {
-      "title": "Meta score EMNLP 2026 [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1vc3uit/meta_score_emnlp_2026_d/",
-      "source": "Reddit · r/MachineLearning",
-      "source_type": "Reddit",
-      "published_at": "2026-07-31T21:26:06+00:00",
-      "author": "u/Historical_Pause247",
-      "reddit_community": "MachineLearning",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 37,
-      "tags": [],
-      "summary": "Any one got meta score 2.5 (borderline finding) and still accepted to findings previously?? In my case meta review didnot acknowledge the reporting against a wrong review submitted by /u/Historical_Pause247 [link] [comments]"
     },
     {
       "title": "Learning to Trace Seiberg Dualities",
@@ -4715,7 +4458,7 @@
       "author": "Jonathan J. Heckman, Shani Meynet, Alessandro Mininno, Gary Shiu",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 57,
+      "relevance_score": 56,
       "tags": [
         "model",
         "benchmark",
@@ -4736,7 +4479,7 @@
       "author": "Yao Xiao, Reuben Tan, Zhen Zhu, Yuqun Wu, Jianfeng Gao, Derek Hoiem",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 54,
+      "relevance_score": 53,
       "tags": [
         "model",
         "benchmark",
@@ -4758,7 +4501,7 @@
       "author": "Lizhi Yang, Junheng Li, Aaron D. Ames",
       "date_verified": true,
       "category": "政策治理",
-      "relevance_score": 45,
+      "relevance_score": 44,
       "tags": [
         "benchmark",
         "training",
@@ -4777,7 +4520,7 @@
       "author": "Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 36,
+      "relevance_score": 35,
       "tags": [
         "paper",
         "agent"
@@ -4793,7 +4536,7 @@
       "author": "Xiangning Lin, Shenzhe Zhu, Shu Yang, Zhenyu Zhang, Haoqian Zhang, Yipeng Zhao, Chengxuan Qian, Tianwei Wang, Ziheng Zhang, Zhenlong Yuan, Dingcheng Wang, Juncheng Wu, Yuan Si, Jiaxin Liu, Baolong Bi, Robert Mahari, Tobin South, Dazza Greenwood, Zexue He, Rishi Bommasani, Sophia Kazinnik, Andreas Haupt, Samuele Marro, Erik Brynjolfsson, Alex Pentland, Jiaxin Pei",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 54,
+      "relevance_score": 53,
       "tags": [
         "model",
         "paper",
@@ -4811,7 +4554,7 @@
       "author": "Qiushi Sun, Kanzhi Cheng, Yian Wang, Bowen Yang, Hang Yan, Liheng Chen, Fangzhi Xu, Zichen Ding, Nuo Chen, Jialin Cao, Xingdong Gong, Zehao Li, Kaiming Jin, Xinfeng Yuan, Zhoumianze Liu, Jingyang Gong, Zhangyue Yin, Jiahui Gao, Zhiyong Wu, Tianbao Xie, Jianbing Zhang, Ben Kao, Lingpeng Kong",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 55,
+      "relevance_score": 54,
       "tags": [
         "valuation",
         "model",
@@ -4835,7 +4578,7 @@
       "author": "Sparsh Roy, Samuel Girmachew, Nishita Chavan",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 42,
+      "relevance_score": 41,
       "tags": [
         "model",
         "benchmark",
@@ -4853,7 +4596,7 @@
       "author": "Junsol Kim, Winnie Street, Roberta Rocca, Diane M. Korngiebel, Adam Waytz, James Evans, Geoff Keeling",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 48,
+      "relevance_score": 47,
       "tags": [
         "model",
         "reasoning",
@@ -4871,7 +4614,7 @@
       "author": "Lifeng Zhuo, Wendi Chen, Han Xue, Shirun Tang, Jun Lv, Cewu Lu, Chuan Wen",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 48,
+      "relevance_score": 47,
       "tags": [
         "inference",
         "github",
@@ -4891,7 +4634,7 @@
       "author": "Haomin Qi, Xingliang Wang, Xuanqi Gao, Baihui Sang, Xin Zhang, Minghua Ma, Pengfei Gao, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "valuation",
         "benchmark",
@@ -4912,7 +4655,7 @@
       "author": "Kangning Zhang, Yixing Li, Shuai Shao, Qingyao Li, Zhengxi Lu, Zhiyuan Yao, Jianghao Lin, Wenxiang Jiao, Yuan Lu, Weiwen Liu, Weinan Zhang, Yong Yu",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 45,
+      "relevance_score": 44,
       "tags": [
         "benchmark",
         "training",
@@ -4931,7 +4674,7 @@
       "author": "Md. Mehrab Hossain Opi, Robiul Islam Ryad, Md. Umar Faruk",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 45,
+      "relevance_score": 44,
       "tags": [
         "valuation",
         "paper",
@@ -4950,7 +4693,7 @@
       "author": "Manyi Wang, Junjielong Xu, Pinjia He",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 45,
+      "relevance_score": 44,
       "tags": [
         "benchmark",
         "agent",
@@ -4967,7 +4710,7 @@
       "author": "Jiawei Xu, Minghui Liu, Juzheng Zhang, Tom Goldstein, Furong Huang",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "model",
         "benchmark",
@@ -4988,7 +4731,7 @@
       "author": "Jiacheng Tao, Qingyun Sun, Haonan Yuan, Ziwei Zhang, Jianxin Li",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "model",
         "architecture",
@@ -5009,7 +4752,7 @@
       "author": "Iliya Mirzaei",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 42,
+      "relevance_score": 41,
       "tags": [
         "model",
         "benchmark",
@@ -5027,7 +4770,7 @@
       "author": "Alexandra Lassota, Krzysztof Sornat",
       "date_verified": true,
       "category": "产品应用",
-      "relevance_score": 36,
+      "relevance_score": 35,
       "tags": [
         "app",
         "act"
@@ -5043,7 +4786,7 @@
       "author": "Woongkyu Lee, Jungwook Choi",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 48,
+      "relevance_score": 47,
       "tags": [
         "model",
         "benchmark",
@@ -5063,7 +4806,7 @@
       "author": "Junlin Yang, Che Jiang, Yu Fu, Tianwei Luo, Can Ren, Weizhi Wang, Kaikai Zhao, Hongyi Liu, Yuxin Zuo, Yuru Wang, Yuchen Fan, Kai Tian, Zhenzhao Yuan, Xiaojian Lin, Li Sheng, Rushi Qiang, Guoli Jia, Xingtai Lv, Ermo Hua, Dianqiao Lei, Youbang Sun, Ning Ding, Bowen Zhou, Kaiyan Zhang",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 61,
+      "relevance_score": 60,
       "tags": [
         "valuation",
         "model",
@@ -5087,7 +4830,7 @@
       "author": "Mengfei Ran, Yifeng Shen, Ruijie Guan",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 39,
+      "relevance_score": 38,
       "tags": [
         "inference",
         "product",
@@ -5104,7 +4847,7 @@
       "author": "Tianyu Yang, Yiming Zeng, Wenzhe Cai, Yuqiang Yang, Jiaqi Peng, Hui Cheng, Jiangmiao Pang, Tai Wang",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "model",
         "training",
@@ -5125,7 +4868,7 @@
       "author": "Shentong Mo, Yatao Bian",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 42,
+      "relevance_score": 41,
       "tags": [
         "model",
         "benchmark",
