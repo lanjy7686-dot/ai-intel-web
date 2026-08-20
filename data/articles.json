@@ -1,12 +1,14 @@
 {
   "mode": "free",
-  "updated_at": "2026-08-20T20:53:51.920830+00:00",
-  "count": 235,
-  "errors": [],
+  "updated_at": "2026-08-20T21:43:32.175980+00:00",
+  "count": 144,
+  "errors": [
+    "RSS: Remote end closed connection without response"
+  ],
   "freshness_policy": {
     "undated_items": "discarded",
-    "last_24h": 107,
-    "last_72h": 212
+    "last_24h": 79,
+    "last_72h": 144
   },
   "source_status": {
     "X": {
@@ -34,8 +36,9 @@
       "message": "使用仅限mp.weixin.qq.com的时间范围搜索，默认近24小时。"
     },
     "RSS": {
-      "state": "fetched",
-      "count": 92
+      "state": "error",
+      "count": 0,
+      "message": "Remote end closed connection without response"
     },
     "Reddit": {
       "state": "fetched",
@@ -62,12 +65,8 @@
       "count": 0
     },
     "来源统计": {
-      "技术社区": 59,
-      "巨头企业": 66,
+      "技术社区": 60,
       "Reddit": 24,
-      "新技术": 12,
-      "产业链": 4,
-      "国内资讯": 10,
       "论文": 60
     },
     "重点媒体": {
@@ -77,13 +76,449 @@
   },
   "articles": [
     {
+      "title": "Can LRMs Do Analogical Reasoning Under Perceptual Uncertainty? (2025)",
+      "url": "https://arxiv.org/abs/2503.11207",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:40:17+00:00",
+      "author": "wslh",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "reasoning"
+      ],
+      "summary": "Can LRMs Do Analogical Reasoning Under Perceptual Uncertainty? (2025)"
+    },
+    {
+      "title": "Show HN: Let your coding agents set up your test coverage",
+      "url": "https://blog.codacy.com/introducing-codacy-skills-part-3-let-your-agent-set-up-test-coverage",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:36:44+00:00",
+      "author": "ARayOutOfBounds",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "agent"
+      ],
+      "summary": "Show HN: Let your coding agents set up your test coverage"
+    },
+    {
+      "title": "Which hardware path should I choose for local LLMs: 2× 7900 XTX, R9700, Gorgon Halo 192GB, or wait for Medusa and the RDNA 5 (UDNA) flagship?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtwtu2/which_hardware_path_should_i_choose_for_local/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T21:36:03+00:00",
+      "author": "u/LimahT_25",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 82,
+      "tags": [
+        "model",
+        "inference",
+        "gpu",
+        "launch",
+        "product",
+        "app",
+        "platform",
+        "act",
+        "cloud"
+      ],
+      "summary": "Note: I do agree that Nvidia is the first preference of most people in here, but it's too damn costly in my country that I can buy two RX 9700xtx at the price of a single 5070Ti I'm planning a new PC in roughly 3–5 months , primarily for local LLM inference, but also for gaming. Also willing to wait longer if the next "
+    },
+    {
+      "title": "Fewer contrails would be good for the climate",
+      "url": "https://www.economist.com/leaders/2026/08/20/fewer-contrails-would-be-good-for-the-climate",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:35:13+00:00",
+      "author": "Gander5739",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Fewer contrails would be good for the climate"
+    },
+    {
+      "title": "Iceland cuts store losses by 80% with AI-powered theft detection",
+      "url": "https://www.retailgazette.co.uk/blog/2026/08/iceland-cuts-store-losses-by-80-with-ai-powered-theft-detection/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:28:24+00:00",
+      "author": "theanonymousone",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Iceland cuts store losses by 80% with AI-powered theft detection"
+    },
+    {
+      "title": "Go updates may delight diehard gophers but displease AI overlords",
+      "url": "https://www.theregister.com/devops/2026/08/20/go-updates-may-delight-diehard-gophers-but-displease-ai-overlords/5290643",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:25:20+00:00",
+      "author": "joebuckwilliams",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Go updates may delight diehard gophers but displease AI overlords"
+    },
+    {
+      "title": "Opus 5 Is Trash",
+      "url": "https://news.ycombinator.com/item?id=49380480",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:24:46+00:00",
+      "author": "no-user",
+      "engagement": 3,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Opus 5 is trash, it misses details and too bad to work with."
+    },
+    {
+      "title": "The Threat of AI to Media Archives",
+      "url": "https://ebird.org/news/threat-of-ai-to-archives",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:13:20+00:00",
+      "author": "steptwo",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "The Threat of AI to Media Archives"
+    },
+    {
+      "title": "How to use Qwen27b with Deepseek Harness",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtw870/how_to_use_qwen27b_with_deepseek_harness/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T21:11:57+00:00",
+      "author": "u/i_wayyy_over_think",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 84,
+      "tags": [
+        "model",
+        "github",
+        "api",
+        "agent",
+        "reasoning",
+        "app",
+        "act"
+      ],
+      "summary": "- I'm assuming you already have a way to host qwen3.8-27b, but I installed docker and WSL2 and asked codex to use https://github.com/noonghunna/club-3090 to get the vLLM working to host it for me. ( I ran into a stability issue with the number of MTP draft tokens, had to lower it to 3 or it would crash pretty quickly. "
+    },
+    {
+      "title": "How to Destroy AI Scam Phone Calls (Short Video)",
+      "url": "https://www.youtube.com/shorts/aa0v-24EFy0",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:08:49+00:00",
+      "author": "rmason",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "How to Destroy AI Scam Phone Calls (Short Video)"
+    },
+    {
+      "title": "Early-life stress leaves a 'scar' inside brain cells",
+      "url": "https://medicine.washu.edu/news/how-early-life-stress-leaves-a-scar-inside-brain-cells/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:08:36+00:00",
+      "author": "gmays",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Early-life stress leaves a 'scar' inside brain cells"
+    },
+    {
+      "title": "A happy user of llama-swap",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtw4xl/a_happy_user_of_llamaswap/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T21:08:30+00:00",
+      "author": "u/our_sole",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "model",
+        "github",
+        "gpu",
+        "app"
+      ],
+      "summary": "I recently considered purchasing another GPU, not so much because I need more bandwidth or vram, but because I have several local GPU-based scheduled workloads that use different models/config. After shopping around looking at prices, I decided to use a different approach. After having issues with llama.cpp model route"
+    },
+    {
+      "title": "Single-User Inference Card",
+      "url": "https://markohaberl.substack.com/p/single-user-inference-card",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:06:36+00:00",
+      "author": "mhaberl",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 48,
+      "tags": [
+        "inference"
+      ],
+      "summary": "Single-User Inference Card"
+    },
+    {
+      "title": "AI Is Revolutionizing Strategic Decision-Making",
+      "url": "https://hbr.org/2026/09/ai-is-revolutionizing-strategic-decision-making",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:05:30+00:00",
+      "author": "devy",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "AI Is Revolutionizing Strategic Decision-Making"
+    },
+    {
+      "title": "We published 421 AI-written articles in five months. They earned 10 clicks",
+      "url": "https://blog.marketingsohigh.com/421-ai-articles-10-clicks-what-the-data-showed/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:00:46+00:00",
+      "author": "csroay",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "We published 421 AI-written articles in five months. They earned 10 clicks"
+    },
+    {
+      "title": "Show HN: Molecule.dev is an AI-first composable package ecosystem",
+      "url": "https://github.com/molecule-dev/molecule",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T21:00:07+00:00",
+      "author": "loh",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Show HN: Molecule.dev is an AI-first composable package ecosystem"
+    },
+    {
+      "title": "GeoBench.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtvwqy/geobench/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T20:59:56+00:00",
+      "author": "u/JLeonsarmiento",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 51,
+      "tags": [
+        "dataset",
+        "github"
+      ],
+      "summary": "prompt: the file Table.csv contains 4096 random pairs of WGS84 latitude and longitude coordinates spread all over the world with an unique identifier and text column \"Land_or_Water\" that is empty. your task is to label each pair or coordinates either into land or water using only your geography knowledge. Do not use an"
+    },
+    {
+      "title": "Show HN: Praxos – team messaging with built-in memory",
+      "url": "https://www.praxos.ai/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:55:49+00:00",
+      "author": "mogusian",
+      "engagement": 4,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "github",
+        "agent",
+        "reasoning",
+        "product",
+        "feature",
+        "app",
+        "company"
+      ],
+      "summary": "Hey HN! What does a regular workflow at a startup look like? Probably like this: > One founder talks to customers > Another founder builds > A customer asks for something. The first founder explains it to the second. The second founder explains it to Claude > Two weeks any one of the founders asks one of the following "
+    },
+    {
+      "title": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6868618",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:55:29+00:00",
+      "author": "EA-3167",
+      "engagement": 3,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 51,
+      "tags": [],
+      "summary": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education"
+    },
+    {
+      "title": "Teaching a local LLM to reason about a new domain through continued pretraining",
+      "url": "https://www.teachmecoolstuff.com/viewarticle/teaching-a-local-llm-a-new-domain",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:52:00+00:00",
+      "author": "dev-experiments",
+      "engagement": 2,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "training"
+      ],
+      "summary": "Teaching a local LLM to reason about a new domain through continued pretraining"
+    },
+    {
+      "title": "Show HN: PingChange – monitor web pages and OpenAPI specs for meaningful changes",
+      "url": "https://pingchange.com",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:51:42+00:00",
+      "author": "epigos",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 72,
+      "tags": [
+        "api",
+        "feature",
+        "app",
+        "tool",
+        "policy",
+        "company",
+        "cloud"
+      ],
+      "summary": "I built PingChange after watching the same thing happen over and over: a competitor prices change, a company policy is updated or important web content changes but there is often no reliable way to track it and know when it happens. The tool monitors web pages and API on a schedule and alerts your team when something m"
+    },
+    {
+      "title": "Teaching a local LLM to reason about a new domain by doing Continued Pretraining",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtvm8p/teaching_a_local_llm_to_reason_about_a_new_domain/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T20:48:58+00:00",
+      "author": "u/funJS",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "training"
+      ],
+      "summary": "I was doing some experimentation on using Unsloth to do Continued Pretraining of qwen 3 4B. The goal was to teach the llm how to reason about a new domain, in this case a fictional city. Sharing more details in the write-up: https://www.teachmecoolstuff.com/viewarticle/teaching-a-local-llm-a-new-domain submitted by /u/"
+    },
+    {
+      "title": "The crisis of AI-generated mathematics",
+      "url": "https://arxiv.org/abs/2608.02859",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:47:32+00:00",
+      "author": "sharma-arjun",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "The crisis of AI-generated mathematics"
+    },
+    {
+      "title": "The Three AI Pills",
+      "url": "https://thezvi.wordpress.com/2026/08/05/the-three-ai-pills/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:47:22+00:00",
+      "author": "gmays",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "The Three AI Pills"
+    },
+    {
+      "title": "Namo_complete: A non-obtrusive AI autocomplete for your Bash terminal",
+      "url": "https://github.com/namo-robotics/namo_complete",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:46:54+00:00",
+      "author": "davidwbrwn",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Namo_complete: A non-obtrusive AI autocomplete for your Bash terminal"
+    },
+    {
+      "title": "Build production agents with computer use, the Skills API, and the Files API",
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:46:36+00:00",
+      "author": "mfiguiere",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "api",
+        "agent",
+        "product"
+      ],
+      "summary": "Build production agents with computer use, the Skills API, and the Files API"
+    },
+    {
+      "title": "Show HN: Verified business dashboards inside ChatGPT and Claude via MCP Apps",
+      "url": "https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-interactive-ui",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T20:45:36+00:00",
+      "author": "corpusiq_io",
+      "engagement": 1,
+      "date_verified": true,
+      "category": "产品应用",
+      "relevance_score": 54,
+      "tags": [
+        "app"
+      ],
+      "summary": "Show HN: Verified business dashboards inside ChatGPT and Claude via MCP Apps"
+    },
+    {
       "title": "Human brain organoids record the passage of time over multiple years",
       "url": "https://www.nature.com/articles/s41586-026-10877-x",
       "source": "Hacker News",
       "source_type": "技术社区",
       "published_at": "2026-08-20T20:42:40+00:00",
       "author": "bookofjoe",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -97,7 +532,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T20:34:32+00:00",
       "author": "1970-01-01",
-      "engagement": 1,
+      "engagement": 2,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -111,7 +546,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T20:33:09+00:00",
       "author": "mooreds",
-      "engagement": 2,
+      "engagement": 3,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -169,7 +604,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T20:24:05+00:00",
       "author": "amrrs",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 51,
@@ -183,12 +618,77 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T20:18:14+00:00",
       "author": "root-parent",
-      "engagement": 4,
+      "engagement": 6,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
       "tags": [],
       "summary": "Treasury plan to subdue yields fails"
+    },
+    {
+      "title": "Am I just doing something wrong, or is Qwen3-Next-80B-A3B-Thinking extremely verbose with thinking by design?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtuqje/am_i_just_doing_something_wrong_or_is/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T20:16:26+00:00",
+      "author": "u/rebellioninmypants",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 63,
+      "tags": [
+        "model",
+        "github",
+        "reasoning",
+        "copilot",
+        "tool",
+        "act"
+      ],
+      "summary": "Even with very simple queries, I am getting a ton of: Alternatively, But wait! Actually, Wait! Alternatively etc. Even with simple web search prompts, the model thinks for a good minute before executing a web search. For use with GitHub Copilot, it thinks, speculated, and hallucinates for good 2-3 minutes (roughly 30t/"
+    },
+    {
+      "title": "Fine-tuning Cactus Needle 2 can match DeepSeek v4 on the specific task",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtupep/finetuning_cactus_needle_2_can_match_deepseek_v4/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T20:15:19+00:00",
+      "author": "u/Henrie_the_dreamer",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "model",
+        "benchmark",
+        "github",
+        "launch",
+        "product",
+        "app",
+        "act"
+      ],
+      "summary": "Hey LocalLlama, Henry from Cactus here! When we trained Needle 2, I had a strict rule to not expose the model to any data sample that remotely felt like these benchmarks. It seemed over-the-top, but benchmarks are easy to overfit around, yet struggle in the wild, especially since we quantize to 2-bit. Numbers would loo"
+    },
+    {
+      "title": "I pushed Qwen3.8-27B to 381 tps for a single request on a RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtup5s/i_pushed_qwen3827b_to_381_tps_for_a_single/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T20:15:04+00:00",
+      "author": "u/iamMess",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 72,
+      "tags": [
+        "model",
+        "inference",
+        "github",
+        "release",
+        "assistant",
+        "app",
+        "act"
+      ],
+      "summary": "Four days ago I released a hyper-optimized Qwen3.8-27B inference engine for an RTX 3090 (82 tps single request, 672 peak). Since then it went to ~114, then ~138 tps single-user with DFlash2 drafting and lookup-augmented drafting. Today it's ~133 tps on real chat prompts, 382 tps when the model reproduces its own contex"
     },
     {
       "title": "AI-Driven Development Means Test-Driven Development",
@@ -263,6 +763,31 @@
       "summary": "This is a Techmeme/Memeorandum providing a China-sourced news-perspective on Chinese politics and AI news that Claude built for me this week. It updates every morning."
     },
     {
+      "title": "I really want DeepSeek V4 to work as a local coding agent, but the tool calling keeps falling apart. Has anyone solved this?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtu779/i_really_want_deepseek_v4_to_work_as_a_local/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T19:57:21+00:00",
+      "author": "u/No-Paper-557",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 88,
+      "tags": [
+        "model",
+        "benchmark",
+        "paper",
+        "api",
+        "agent",
+        "reasoning",
+        "gpu",
+        "assistant",
+        "app",
+        "tool"
+      ],
+      "summary": "I’ve spent a frankly stupid number of hours trying to get DeepSeek-V4-Flash-0731 working properly as a local coding agent. When it’s behaving itself, I really like the model. The reasoning is good enough that I kept convincing myself I was probably one config change away from having a great setup. I’m starting to think"
+    },
+    {
       "title": "Use the OSS, Commit Back – OAVL – The Open Source AI Viability License",
       "url": "https://github.com/kenm47/oavl",
       "source": "Hacker News",
@@ -291,6 +816,55 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "Ukrainian publishers call for support after Russian attacks destroy 10M books"
+    },
+    {
+      "title": "If you are wondering why Ornith 1.5 35B A3B with MTP is so slow, this is why",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtu555/if_you_are_wondering_why_ornith_15_35b_a3b_with/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T19:55:16+00:00",
+      "author": "u/Max-_-Power",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "政策治理",
+      "relevance_score": 48,
+      "tags": [
+        "act"
+      ],
+      "summary": "The author of the HuggingFace post discovered that Ornith-1.5-35B-A3B is currently being shipped with a MTP head that was never actually trained — it's just random initialization. submitted by /u/Max-_-Power [link] [comments]"
+    },
+    {
+      "title": "Optimizing Qwen3.8-27B on one MI300X with an open-source agent toolkit: 311 to 495 tok/s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vtu21z/optimizing_qwen3827b_on_one_mi300x_with_an/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T19:51:58+00:00",
+      "author": "u/cheptsov",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 57,
+      "tags": [
+        "inference",
+        "agent",
+        "tool",
+        "cloud"
+      ],
+      "summary": "Here's an example of using dstack's open-source toolkit for optimizing inference on a single MI300X. Qwen3.8-27B went from 311 to 495 tok/s, +59%, at the full 1M context with p50 TTFT under 1.5s and four concurrent users at 10k in / 1.5k out. The gains came from linked optimization sessions and source-level patches to "
+    },
+    {
+      "title": "Introducing AI Futures",
+      "url": "https://openai.com/index/introducing-ai-futures/",
+      "source": "Hacker News",
+      "source_type": "技术社区",
+      "published_at": "2026-08-20T19:46:49+00:00",
+      "author": "logickkk1",
+      "engagement": 7,
+      "date_verified": true,
+      "category": "产业动态",
+      "relevance_score": 45,
+      "tags": [],
+      "summary": "Introducing AI Futures"
     },
     {
       "title": "AI-Native Services: The Definitive Guide",
@@ -359,7 +933,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T19:33:57+00:00",
       "author": "cryptographical",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -387,7 +961,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T19:32:51+00:00",
       "author": "Luker88",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "产品应用",
       "relevance_score": 60,
@@ -401,13 +975,29 @@
       "summary": "I am working on opencode with the last qwen3.8-27B from unsloth (with dynamic 3.0 quants). while checking documentation for a rust project, instead of fetching the url it had listed in its own reasoning, it tried fetching urls like: https://routify-file-proxy-sg.oss-ap-southeast-1.aliyuncs.com/proxy_temp_file/productio"
     },
     {
+      "title": "NVIDIA dropped an NVIDIA-hosted CUDA MCP for AI-assisted CUDA operations, such as searching official, up-to-date documentation, writing optimized GPU code, and analyzing performance data",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vttie3/nvidia_dropped_an_nvidiahosted_cuda_mcp_for/",
+      "source": "Reddit · r/LocalLLaMA",
+      "source_type": "Reddit",
+      "published_at": "2026-08-20T19:31:44+00:00",
+      "author": "u/swagonflyyyy",
+      "reddit_community": "LocalLLaMA",
+      "date_verified": true,
+      "category": "技术研究",
+      "relevance_score": 54,
+      "tags": [
+        "gpu"
+      ],
+      "summary": "submitted by /u/swagonflyyyy [link] [comments]"
+    },
+    {
       "title": "GitHub Is Down Again",
       "url": "https://www.githubstatus.com/incidents/bhbcjn4n3jzp",
       "source": "Hacker News",
       "source_type": "技术社区",
       "published_at": "2026-08-20T19:31:37+00:00",
       "author": "hmaxdml",
-      "engagement": 7,
+      "engagement": 9,
       "date_verified": true,
       "category": "技术研究",
       "relevance_score": 48,
@@ -437,7 +1027,7 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T19:27:05+00:00",
       "author": "einkaufspilot",
-      "engagement": 3,
+      "engagement": 4,
       "date_verified": true,
       "category": "产业动态",
       "relevance_score": 45,
@@ -457,20 +1047,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "Drain Clog – A custom anti-malware and system security suite built from scratch"
-    },
-    {
-      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T19:18:21+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web."
     },
     {
       "title": "Show HN: We Added Notion Calendar to *Superhuman for iMessage",
@@ -526,23 +1102,6 @@
       "relevance_score": 45,
       "tags": [],
       "summary": "The poets trying to give AI taste"
-    },
-    {
-      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
-      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T19:15:05+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "product",
-        "law"
-      ],
-      "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product."
     },
     {
       "title": "Study reveals that almost 40% of music released globally in July 2026 used AI",
@@ -628,10 +1187,10 @@
       "source_type": "技术社区",
       "published_at": "2026-08-20T19:05:36+00:00",
       "author": "danielvaughn",
-      "engagement": 83,
+      "engagement": 222,
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 61,
+      "relevance_score": 68,
       "tags": [
         "github",
         "agent",
@@ -677,249 +1236,6 @@
       "summary": "OpenAI's Rogue AI Agent Hacked More Than Just Hugging Face"
     },
     {
-      "title": "You can soon stream Crunchyroll on your car's infotainment system",
-      "url": "https://www.engadget.com/2240331/crunchyroll-appning-by-forvia-stream-on-car-infotainment-system/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:56:11+00:00",
-      "author": "bookofjoe",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "You can soon stream Crunchyroll on your car's infotainment system"
-    },
-    {
-      "title": "AI Alignment as a Thought-Terminating Cliche",
-      "url": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:49:26+00:00",
-      "author": "ibobev",
-      "engagement": 5,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "AI Alignment as a Thought-Terminating Cliche"
-    },
-    {
-      "title": "Fieldmade – RPG crafting by drawing pixel art and AI",
-      "url": "https://chromagolem.itch.io/fieldmade",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:49:22+00:00",
-      "author": "ChromaGolem",
-      "engagement": 7,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Fieldmade – RPG crafting by drawing pixel art and AI"
-    },
-    {
-      "title": "Show HN: trailers.fm – live channel of movie trailers",
-      "url": "https://trailers.fm/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:48:54+00:00",
-      "author": "dogancan",
-      "engagement": 5,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Presenting trailers.fm. It's a live channel of more than 150,000 movie trailers, 1896 to date. I categorized them into genres, year and language. It's a fun way to discover new movies or stare all day. Let me know what you think!"
-    },
-    {
-      "title": "Spirit Flight Attendants Fight Google's Data Bid for AI",
-      "url": "https://www.wsj.com/pro/bankruptcy/spirit-flight-attendants-fight-googles-data-bid-for-ai-e939e049",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:47:22+00:00",
-      "author": "thm",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Spirit Flight Attendants Fight Google's Data Bid for AI"
-    },
-    {
-      "title": "Ask HN: Did I do the right thing using AI?",
-      "url": "https://news.ycombinator.com/item?id=49378454",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:39:53+00:00",
-      "author": "simondukr",
-      "engagement": 4,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Ask HN: Did I do the right thing using AI?"
-    },
-    {
-      "title": "Anthropic Expects to Match SpaceX's Record IPO Size or Top It",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:39:42+00:00",
-      "author": "helsinkiandrew",
-      "engagement": 6,
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 54,
-      "tags": [
-        "ipo"
-      ],
-      "summary": "Anthropic Expects to Match SpaceX's Record IPO Size or Top It"
-    },
-    {
-      "title": "Brancher un LLM sur un catalogue produit avec Django",
-      "url": "https://tonydevweb.com/articles/brancher-llm-catalogue-produit.html",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:39:16+00:00",
-      "author": "tonydevweb",
-      "engagement": 7,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 51,
-      "tags": [],
-      "summary": "Brancher un LLM sur un catalogue produit avec Django"
-    },
-    {
-      "title": "What I learned building an AI applic",
-      "url": "https://news.ycombinator.com/item?id=49378449",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:38:58+00:00",
-      "author": "simondukr",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 48,
-      "tags": [
-        "app"
-      ],
-      "summary": "What I learned building an AI applic"
-    },
-    {
-      "title": "TrueForge – The open-source agent harness",
-      "url": "https://github.com/truefoundry/trueforge",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:36:07+00:00",
-      "author": "qiasl2",
-      "engagement": 12,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "TrueForge – The open-source agent harness"
-    },
-    {
-      "title": "Ask HN: How do you review and validate LLM generated code?",
-      "url": "https://news.ycombinator.com/item?id=49378314",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:26:05+00:00",
-      "author": "darkLord19",
-      "engagement": 5,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 60,
-      "tags": [
-        "model",
-        "product",
-        "act"
-      ],
-      "summary": "It's become very fast to generate code nowadays, but how do you review and test all of it? Every time you ask a model to review some piece of code, it comes back with different \"findings\". So, you still have to filter through the noise of their findings to get to actual defects. And if you try to do the full review man"
-    },
-    {
-      "title": "Show HN: Kandelo – a POSIX-compatible multi-process WASM kernel for the browser",
-      "url": "https://kandelo.dev/20260819-demo/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:25:30+00:00",
-      "author": "brandonpayton",
-      "engagement": 10,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 60,
-      "tags": [
-        "shares",
-        "architecture",
-        "github",
-        "api",
-        "agent"
-      ],
-      "summary": "Kandelo is an open-source, Wasm-based multi-process kernel that runs POSIX programs in browsers and Node.js. Kandelo is still experimental, but it already runs a substantial range of existing software. Do you have use cases for this? We are trying Kandelo as a new foundation for WordPress Playground which runs server-s"
-    },
-    {
-      "title": "NASA mission to save sinking space telescope fails",
-      "url": "https://www.nbcnews.com/science/space/nasa-swift-space-telescope-boost-mission-fails-rcna593421",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:24:51+00:00",
-      "author": "anigbrowl",
-      "engagement": 5,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "NASA mission to save sinking space telescope fails"
-    },
-    {
-      "title": "Soup Raiders Goes Native: Porting the Demo from Unity",
-      "url": "https://eliasfarhan.ch/gamedev/cpp/2026/08/20/srnative-02-porting-unity.html",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:22:53+00:00",
-      "author": "kwakwa_cat",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Soup Raiders Goes Native: Porting the Demo from Unity"
-    },
-    {
-      "title": "Slopbait",
-      "url": "http://writingball.blogspot.com/2026/08/slopbait.html",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:22:26+00:00",
-      "author": "speckx",
-      "engagement": 3,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Slopbait"
-    },
-    {
-      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T18:20:35+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "feature",
-        "tool"
-      ],
-      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool."
-    },
-    {
       "title": "Is KV Cache in a high dimensional vector space? [D]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vtrdem/is_kv_cache_in_a_high_dimensional_vector_space_d/",
       "source": "Reddit · r/MachineLearning",
@@ -938,433 +1254,6 @@
       "summary": "I've been doing some research on this question: At inference time a large part of a model's working memory lives in the KV cache, plus whatever external memory the harness bolts on. I've been poking at the storage-and-retrieval side of this, treating that cache as an index, and what stands out is that it isn't a flat l"
     },
     {
-      "title": "Show HN: Language Audio Trainer – Learn languages without looking at the screen",
-      "url": "https://playling.netlify.app/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:17:55+00:00",
-      "author": "SalaevAl",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "app",
-        "act"
-      ],
-      "summary": "I recently built a language learning app with a slightly different approach. I deliberately didn't want it to be another Duolingo-like app. I think users should be able to choose what they want to learn and when. The main idea behind Language Audio Trainer is that you can simply press Play and listen to useful phrases "
-    },
-    {
-      "title": "New open source relational benchmark and foundation model",
-      "url": "https://www.reddit.com/r/datascience/comments/1vtr8jo/new_open_source_relational_benchmark_and/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-20T18:13:26+00:00",
-      "author": "u/rsesrsfh",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 66,
-      "tags": [
-        "model",
-        "benchmark",
-        "open source",
-        "github",
-        "release"
-      ],
-      "summary": "New oss relational learning benchmark, leaderboard and TabPFN harness RelArena-α: standardized relational machine learning model benchmarking TabPFN-Rel: a harness for tabular foundation model TabPFN-3 for predictions over relational data RPI-α (Relational Prediction Interface): an interface to run any RelArena model o"
-    },
-    {
-      "title": "Scientific spat erupts over claim that bones have key immune vessels",
-      "url": "https://www.science.org/content/article/scientific-spat-erupts-over-claim-bones-have-key-immune-vessels",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:11:20+00:00",
-      "author": "prabal97",
-      "engagement": 3,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Scientific spat erupts over claim that bones have key immune vessels"
-    },
-    {
-      "title": "Proton Mail now sorts emails into \"Primary,\" \"Social,\" and more, like Gmail",
-      "url": "https://www.neowin.net/news/proton-mail-is-finally-now-able-to-sort-your-emails-into-different-categories/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:08:57+00:00",
-      "author": "bundie",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Proton Mail now sorts emails into \"Primary,\" \"Social,\" and more, like Gmail"
-    },
-    {
-      "title": "Are you good at AI, or just using it?",
-      "url": "https://news.ycombinator.com/item?id=49378057",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:04:18+00:00",
-      "author": "ppezaris",
-      "engagement": 14,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 57,
-      "tags": [
-        "agent",
-        "app",
-        "act",
-        "company"
-      ],
-      "summary": "We’re working on a ladder for individual AI proficiency and would love feedback on both the levels and the definitions. L0 New: brand new to AI, or has not yet used it. L1 Chat: simple prompt-and-response use. Work is serial: ask, wait for an answer, then ask again. L2 Contextual Work: gives AI relevant documents, data"
-    },
-    {
-      "title": "Buoyant software – improves when models improve",
-      "url": "https://blog.rajivayyangar.com/buoyancy/",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:04:08+00:00",
-      "author": "rajivayyangar",
-      "engagement": 3,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "model"
-      ],
-      "summary": "Buoyant software – improves when models improve"
-    },
-    {
-      "title": "Anchors: A simple daily ritual app",
-      "url": "https://anchors.wallets.company",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:03:13+00:00",
-      "author": "johnoke",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 48,
-      "tags": [
-        "app"
-      ],
-      "summary": "Anchors: A simple daily ritual app"
-    },
-    {
-      "title": "Hola AI Agent",
-      "url": "https://cloudgpu.io/agent/hola-ai-agent",
-      "source": "Hacker News",
-      "source_type": "技术社区",
-      "published_at": "2026-08-20T18:01:35+00:00",
-      "author": "seejay",
-      "engagement": 2,
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "agent"
-      ],
-      "summary": "Hola AI Agent"
-    },
-    {
-      "title": "Grok keeps sending gibberish responses to users",
-      "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T17:32:16+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 45,
-      "tags": [],
-      "summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning."
-    },
-    {
-      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
-      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T17:18:58+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "launch"
-      ],
-      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web."
-    },
-    {
-      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "source": "Hugging Face Blog",
-      "source_type": "新技术",
-      "published_at": "2026-08-20T16:52:57+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "inference"
-      ],
-      "summary": "Up to 3.2x Faster Inference with LFM2.5-DSpark"
-    },
-    {
-      "title": "Ramp launches its own AI model router, called Router",
-      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T16:46:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 59,
-      "tags": [
-        "model",
-        "api",
-        "launch"
-      ],
-      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API."
-    },
-    {
-      "title": "Authoring Dogwood policies from natural language in Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/authoring-dogwood-policies-from-natural-language-in-amazon-bedrock-agentcore/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T16:31:28+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 81,
-      "tags": [
-        "valuation",
-        "model",
-        "training",
-        "open source",
-        "agent",
-        "multimodal",
-        "launch",
-        "product",
-        "feature",
-        "app"
-      ],
-      "summary": "AI agents can automate complex workflows but might take actions that don’t align with your organization’s policies or regulatory constraints if used without proper controls. To address this, we built Policy in Amazon Bedrock AgentCore so teams can implement controls that are applied across agents running in Amazon Bedr"
-    },
-    {
-      "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T16:24:12+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 87,
-      "tags": [
-        "model",
-        "training",
-        "inference",
-        "architecture",
-        "api",
-        "agent",
-        "product",
-        "assistant",
-        "app",
-        "tool"
-      ],
-      "summary": "Scaling agentic AI across an enterprise requires architectural patterns that preserve flexibility while avoiding vendor lock-in. This post is Part 2 of our series on multi-agent systems at scale. In this post, we examine how machine learning (ML) teams operate agentic AI systems across a “multi-everything” environment "
-    },
-    {
-      "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T16:11:18+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 75,
-      "tags": [
-        "model",
-        "inference",
-        "architecture",
-        "open source",
-        "github",
-        "api",
-        "agent",
-        "reasoning",
-        "product",
-        "app"
-      ],
-      "summary": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore starts with recognizing where large-scale migrations break down. Discovery consumes weeks per application. Engineers write infrastructure code from scratch for each workload. Post-migration operations devolve into reactive firefighting. Multiply those"
-    },
-    {
-      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
-      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T16:07:26+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 50,
-      "tags": [
-        "app",
-        "act"
-      ],
-      "summary": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil."
-    },
-    {
-      "title": "AWS vector solutions: Build agentic AI where your data lives",
-      "url": "https://aws.amazon.com/blogs/machine-learning/aws-vector-solutions-build-agentic-ai-where-your-data-lives/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T16:06:06+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 93,
-      "tags": [
-        "invest",
-        "investment",
-        "model",
-        "research",
-        "dataset",
-        "training",
-        "architecture",
-        "api",
-        "agent",
-        "multimodal"
-      ],
-      "summary": "Agentic AI is changing how you work, and vector search powers the retrieval layer that makes agents accurate, contextual, and grounded in real data. Agents plan, reason, and take action across multi-step workflows, making fast, relevant access to your organization’s knowledge essential. That knowledge already has a hom"
-    },
-    {
-      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
-      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T16:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 50,
-      "tags": [
-        "enterprise",
-        "company"
-      ],
-      "summary": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant."
-    },
-    {
-      "title": "It’s Greg Brockman’s OpenAI now",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T15:45:55+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 68,
-      "tags": [
-        "ipo",
-        "model",
-        "release",
-        "app",
-        "law",
-        "company"
-      ],
-      "summary": "OpenAI has had a hell of a year. The company spent months battling former co-founder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of execu"
-    },
-    {
-      "title": "Debates over AI consciousness are a trap",
-      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-      "source": "MIT Technology Review AI",
-      "source_type": "新技术",
-      "published_at": "2026-08-20T15:42:39+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "政策治理",
-      "relevance_score": 93,
-      "tags": [
-        "invest",
-        "investment",
-        "venture capital",
-        "revenue",
-        "model",
-        "api",
-        "agent",
-        "reasoning",
-        "release",
-        "product"
-      ],
-      "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a sep"
-    },
-    {
-      "title": "Build intelligent security for healthcare APIs with Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-intelligent-security-for-healthcare-apis-with-amazon-bedrock/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T15:20:03+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 87,
-      "tags": [
-        "model",
-        "research",
-        "architecture",
-        "api",
-        "product",
-        "app",
-        "tool",
-        "enterprise",
-        "regulation",
-        "act"
-      ],
-      "summary": "If you manage Fast Healthcare Interoperability Resources (FHIR) APIs, you must balance open patient data access with strict data protection requirements. Static security rules require constant updates as clinical workflows evolve, and maintaining them manually creates compliance gaps. With Amazon Bedrock , a fully mana"
-    },
-    {
-      "title": "Welcome to the AI crisis in math",
-      "url": "https://www.theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T14:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 81,
-      "tags": [
-        "funding",
-        "raised",
-        "model",
-        "paper",
-        "research",
-        "training",
-        "reasoning",
-        "launch",
-        "release",
-        "product"
-      ],
-      "summary": "Today on Decoder , I’m talking with Robert Hart, The Verge ’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in "
-    },
-    {
       "title": "Mapping intrinsic rank and informational gravity in complex tabular data: I developed a non-parametric, model-agnostic, information-theoretic diagnostic to bypass the limits of linear, rank, and Euclidean baselines. [R]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vtjotb/mapping_intrinsic_rank_and_informational_gravity/",
       "source": "Reddit · r/MachineLearning",
@@ -1374,7 +1263,7 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 68,
+      "relevance_score": 67,
       "tags": [
         "model",
         "dataset",
@@ -1386,65 +1275,6 @@
         "act"
       ],
       "summary": "Links: Preprint: https://doi.org/10.5281/zenodo.22028087 Entropic Scree Function v1.0.0 / GitHub: https://github.com/tjleestjohn/Entropic-Scree TL;DR: Standard PCA fundamentally fractures non-linear dependencies into \"Spurious Orthogonal Dimensions,\" drastically overestimating the true rank of complex tabular systems. "
-    },
-    {
-      "title": "Bring the Fire: Play Games on GeForce NOW With New Firefox Browser Support",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-firefox/",
-      "source": "NVIDIA Blog",
-      "source_type": "产业链",
-      "published_at": "2026-08-20T13:00:24+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 59,
-      "tags": [
-        "ipo",
-        "release",
-        "app",
-        "act",
-        "cloud"
-      ],
-      "summary": "It’s a new way into the cloud. GeForce NOW welcomes Firefox support to the cloud, opening up another way to jump into high-performance PC gaming straight from the browser, starting today. Whether on a school laptop or everyday PC, it’s now even easier to play supported PC games without downloading a dedicated app. Plus"
-    },
-    {
-      "title": "Meta AI’s new Mac app wants you to talk to your apps",
-      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T12:11:57+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 55,
-      "tags": [
-        "feature",
-        "app",
-        "tool",
-        "company"
-      ],
-      "summary": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue."
-    },
-    {
-      "title": "Slack is launching collaborative vibe-coding channels",
-      "url": "https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T12:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 70,
-      "tags": [
-        "agent",
-        "launch",
-        "release",
-        "feature",
-        "tool"
-      ],
-      "summary": "Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels with dedicated user tabs, alongside features that compare coding changes and preview HTML output bef"
     },
     {
       "title": "Resizing images from Flutter Camera Stream for TFLite modle [P]",
@@ -1504,122 +1334,6 @@
       "summary": "Worked some time ago on one of the ad teams at Yahoo, and this grew out of a question I kept returning to while there are there \"simple\" models that are both simple, scalable, interpretable, and controllable at the same time? Decided to explore it, first in a blog (starting here ), then in a new preprint \"The Spectral "
     },
     {
-      "title": "这届“WRC必看”：全栈AI、20+超难家务，8.99万带回家",
-      "url": "https://www.qbitai.com/2026/08/476280.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T10:17:47+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [],
-      "summary": "这届“WRC必看”：全栈AI、20+超难家务，8.99万带回家"
-    },
-    {
-      "title": "光帆AI技术正式落地韶音OpenFit 2 AI耳机，携手突破AI边界",
-      "url": "https://www.qbitai.com/2026/08/476281.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T10:13:45+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 55,
-      "tags": [
-        "上线",
-        "功能",
-        "落地",
-        "合作"
-      ],
-      "summary": "韶音宣布与光帆科技达成AI技术合作，将上线基于光帆自研AI OS的效率功能合集——\"AI 实验室\""
-    },
-    {
-      "title": "Unlocking hidden revenue streams with market models",
-      "url": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "source": "MIT Technology Review AI",
-      "source_type": "新技术",
-      "published_at": "2026-08-20T09:47:22+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 76,
-      "tags": [
-        "revenue",
-        "model",
-        "research",
-        "product",
-        "tool",
-        "act",
-        "market"
-      ],
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider potentially hundreds of variables to price each of these journeys: demand, season, time of day, curr"
-    },
-    {
-      "title": "闭源RSI的严父：18个Agent自主科研，Kimi K3靠Harness逼近Opus 5",
-      "url": "https://www.qbitai.com/2026/08/476199.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T09:46:23+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 46,
-      "tags": [
-        "agent"
-      ],
-      "summary": "经典RSI剧本开始动摇"
-    },
-    {
-      "title": "今年WRC最大展台，预告具身智能未来",
-      "url": "https://www.qbitai.com/2026/08/476141.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T09:42:44+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 43,
-      "tags": [],
-      "summary": "从自主泛化到真生产力"
-    },
-    {
-      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T09:30:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 55,
-      "tags": [
-        "agent",
-        "tool"
-      ],
-      "summary": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor."
-    },
-    {
-      "title": "攻克行业级柔性操作难题！招商局狮子山人工智能实验室首次亮相WRC 2026",
-      "url": "https://www.qbitai.com/2026/08/476129.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T09:22:05+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 49,
-      "tags": [],
-      "summary": "全栈自研，真机叠衣ICRA夺冠"
-    },
-    {
       "title": "Discussion thread for EMNLP 2026 Notifications/Results [D]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vtdpve/discussion_thread_for_emnlp_2026/",
       "source": "Reddit · r/MachineLearning",
@@ -1656,231 +1370,6 @@
       "summary": "A premise: I hope this question is \"worth\" of this subreddit, I did a decent amount of research before posting, I thought it was potentially interesting enough for it, but possibly not basic enough for r/learnmachinelearning . Is there any agreement/indication about how harmful (if at all) it is, in the context of mult"
     },
     {
-      "title": "Introducing AI Futures",
-      "url": "https://openai.com/index/introducing-ai-futures",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T07:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "政策治理",
-      "relevance_score": 51,
-      "tags": [
-        "governance"
-      ],
-      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
-    },
-    {
-      "title": "宇树科技上市首日大涨629%，世界机器人大会里谁是“下一个宇树”？",
-      "url": "https://www.qbitai.com/2026/08/476120.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T06:17:10+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "投资商业",
-      "relevance_score": 48,
-      "tags": [
-        "上市",
-        "机器人"
-      ],
-      "summary": "这几个玩家或可被“押注”"
-    },
-    {
-      "title": "墨奇亮相WRC：一台机器人长程任务实战背后的“具身大脑”革命",
-      "url": "https://www.qbitai.com/2026/08/476078.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T01:37:34+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 53,
-      "tags": [
-        "模型",
-        "架构",
-        "机器人",
-        "发布"
-      ],
-      "summary": "墨奇智能（MORPHI）首次在国内系统亮相，公开展示其新近发布的具身智能模型架构MoRA"
-    },
-    {
-      "title": "完美世界2026半年报：《异环》全球流水破20亿 Q3起释放业绩",
-      "url": "https://www.qbitai.com/2026/08/476075.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T01:21:07+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 41,
-      "tags": [],
-      "summary": "完美世界今年4月底推出的重磅新游《异环》截至8月18日已取得全球累计流水超20亿元，业绩贡献将在Q3起逐步释放"
-    },
-    {
-      "title": "华尔街实测8款全球主流Agent：千问办公综合排名第一",
-      "url": "https://www.qbitai.com/2026/08/476070.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-20T01:06:45+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "投资商业",
-      "relevance_score": 47,
-      "tags": [
-        "商业化",
-        "agent"
-      ],
-      "summary": "成本也正成为Agent商业化需要考虑的重要因素"
-    },
-    {
-      "title": "How ChatGPT Work helps Stampli move ideas to market",
-      "url": "https://openai.com/index/stampli",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-20T00:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 49,
-      "tags": [
-        "launch",
-        "product",
-        "market"
-      ],
-      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days."
-    },
-    {
-      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
-      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T23:32:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 43,
-      "tags": [
-        "model"
-      ],
-      "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason."
-    },
-    {
-      "title": "Domain and publish date filters for Web Search on AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T22:13:20+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 77,
-      "tags": [
-        "valuation",
-        "invest",
-        "earnings",
-        "stock",
-        "model",
-        "research",
-        "architecture",
-        "api",
-        "agent",
-        "reasoning"
-      ],
-      "summary": "When an AI agent uses Web Search to ground its answers on behalf of a customer, the organization behind that agent needs domain and date filters to control which sources the agent consults and how fresh those sources must be. A financial-services agent shouldn’t ground its answers in an unvetted blog. A product-informa"
-    },
-    {
-      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T22:10:46+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 58,
-      "tags": [
-        "enterprise",
-        "privacy"
-      ],
-      "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data."
-    },
-    {
-      "title": "Automate Document Processing with Quick Automate and the IDP Accelerator",
-      "url": "https://aws.amazon.com/blogs/machine-learning/automate-document-processing-with-quick-automate-and-the-idp-accelerator/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T22:09:56+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 77,
-      "tags": [
-        "earnings",
-        "model",
-        "architecture",
-        "open source",
-        "github",
-        "api",
-        "product",
-        "assistant",
-        "app",
-        "enterprise"
-      ],
-      "summary": "Mortgage lending runs on documents. Every loan starts with a familiar set: earnings statements, W-2s, bank statements, driver’s licenses, voided checks, and insurance applications. Every lender processes them at scale. The challenge of classifying, extracting, and validating high volumes of documents isn’t unique to mo"
-    },
-    {
-      "title": "Asynchronous patterns for calling Amazon Bedrock AgentCore agents in serverless pipelines",
-      "url": "https://aws.amazon.com/blogs/machine-learning/asynchronous-patterns-for-calling-amazon-bedrock-agentcore-agents-in-serverless-pipelines/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T22:06:09+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 77,
-      "tags": [
-        "model",
-        "benchmark",
-        "inference",
-        "architecture",
-        "github",
-        "agent",
-        "reasoning",
-        "release",
-        "product",
-        "app"
-      ],
-      "summary": "Asynchronous invocation patterns for Amazon Bedrock AgentCore agents in serverless pipelines remove idle compute costs while your AI agent processes requests. A common example is document validation: in a real-estate financing back office, an agent can read a property record or loan contract, reason about whether the i"
-    },
-    {
-      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T21:51:23+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 55,
-      "tags": [
-        "enterprise"
-      ],
-      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI."
-    },
-    {
       "title": "Same GRPO recipe on three from-scratch LLMs (353M/316M/672M) gave three different outcomes, with no clean relationship to scale [P]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vszsit/same_grpo_recipe_on_three_fromscratch_llms/",
       "source": "Reddit · r/MachineLearning",
@@ -1890,7 +1379,7 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 67,
+      "relevance_score": 66,
       "tags": [
         "raised",
         "valuation",
@@ -1901,56 +1390,6 @@
         "policy"
       ],
       "summary": "I trained three LLMs from scratch in raw PyTorch then post-trained each one with SFT and then GRPO. Same process every time: same synthetic arithmetic curriculum, same reward function, same hyperparameters, same KL coefficient. Pre-training went as expected, the val loss went down as the model got more modern technique"
-    },
-    {
-      "title": "How Fanatics Betting and Gaming built a multi-agent customer support system",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-fanatics-betting-and-gaming-built-a-multi-agent-customer-support-system/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T20:40:45+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 94,
-      "tags": [
-        "valuation",
-        "invest",
-        "investment",
-        "model",
-        "research",
-        "architecture",
-        "open source",
-        "api",
-        "agent",
-        "reasoning"
-      ],
-      "summary": "Fanatics Betting and Gaming (FBG) built a multi-agent customer support system on AWS to solve a challenge unique to sports betting. Customers expect instant, accurate answers, especially during live events when every minute counts. Customers ask about account issues, deposit limits, state-specific regulations, and resp"
-    },
-    {
-      "title": "KnowledgeForge: mining gold from the ITSM ticket graveyard",
-      "url": "https://aws.amazon.com/blogs/machine-learning/knowledgeforge-mining-gold-from-the-itsm-ticket-graveyard/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T20:36:50+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 94,
-      "tags": [
-        "invest",
-        "model",
-        "inference",
-        "architecture",
-        "github",
-        "api",
-        "agent",
-        "product",
-        "app",
-        "platform"
-      ],
-      "summary": "KnowledgeForge is about mining gold from the IT Service Management (ITSM) ticket graveyard: the resolved incident tickets whose knowledge never reaches a knowledge base article. Enterprise IT support teams resolve thousands of tickets every month, and each one holds something useful: a symptom, a root cause, and the fi"
     },
     {
       "title": "How much of the weight-space perception gap is actually symmetry? Evidence from ~1.8M fitted SIRENs [R]",
@@ -1973,109 +1412,6 @@
         "act"
       ],
       "summary": "I’ve been looking at a fairly basic question in weight-space learning that I don’t think gets separated cleanly enough: Why does reading semantics directly from neural network weights work pretty well when the networks share an initialization, but collapse when the networks are fitted independently? The usual explanati"
-    },
-    {
-      "title": "AI was supposed to win people over by now — it hasn’t",
-      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T19:11:40+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 39,
-      "tags": [],
-      "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance."
-    },
-    {
-      "title": "Google packs Search and Gemini with new AI study tools",
-      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 63,
-      "tags": [
-        "launch",
-        "feature",
-        "assistant",
-        "tool"
-      ],
-      "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI."
-    },
-    {
-      "title": "Offering Zero Data Retention for frontier models",
-      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 57,
-      "tags": [
-        "model",
-        "api",
-        "safety",
-        "privacy"
-      ],
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
-    },
-    {
-      "title": "Google Gemini is getting a dedicated student hub",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "research",
-        "act"
-      ],
-      "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It "
-    },
-    {
-      "title": "5 new ways to level up your learning with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "source": "Google AI Blog",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T19:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 42,
-      "tags": [
-        "tool"
-      ],
-      "summary": "Here’s how you can use Google Search tools to study for classes and standardized tests."
-    },
-    {
-      "title": "Researchers say OpenAI revoked their access to limited cyber program",
-      "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T18:46:14+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 54,
-      "tags": [
-        "model",
-        "research",
-        "law"
-      ],
-      "summary": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster."
     },
     {
       "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
@@ -2171,27 +1507,6 @@
         "release"
       ],
       "summary": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using "
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: Managing your work",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
-      "source": "GitHub AI & ML",
-      "source_type": "新技术",
-      "published_at": "2026-08-19T17:50:23+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 57,
-      "tags": [
-        "github",
-        "agent",
-        "feature",
-        "copilot",
-        "app",
-        "act"
-      ],
-      "summary": "This is the third post in our GitHub Copilot app for Beginners series. If you’re just joining us, check out, GitHub Copilot app for beginners: Getting started , where we introduced the app and how it helps you work across multiple agent sessions. Our second post goes deeper on working within a session. Here, we’ll look"
     },
     {
       "title": "Lévy Attention: Single-Pass Predictive Uncertainty for Continuous-Time Attention",
@@ -2292,7 +1607,7 @@
       "author": "Tomasz R. Bielecki, Thibaut Mastrolia, Haoze Yan",
       "date_verified": true,
       "category": "政策治理",
-      "relevance_score": 57,
+      "relevance_score": 56,
       "tags": [
         "model",
         "app",
@@ -2310,7 +1625,7 @@
       "author": "Tate Berenbaum, Muthaiah Venkatachalam",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 70,
+      "relevance_score": 69,
       "tags": [
         "model",
         "benchmark",
@@ -2333,7 +1648,7 @@
       "author": "Leo Schmidt-Traub, Frédéric Berdoz, Luca A. Lanzendörfer, Roger Wattenhofer",
       "date_verified": true,
       "category": "产业动态",
-      "relevance_score": 39,
+      "relevance_score": 38,
       "tags": [],
       "summary": "Neural audio codecs based on Residual Vector Quantization (RVQ) have become the dominant discrete representation for token-based general audio generation, yet resynthesizing high-quality audio from coarse codec tokens remains an open problem and bounds the fidelity of every system that generates them. Prior work has fr"
     },
@@ -2346,7 +1661,7 @@
       "author": "George Andrikopoulos",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 54,
+      "relevance_score": 53,
       "tags": [
         "model",
         "benchmark",
@@ -2365,7 +1680,7 @@
       "author": "Zhenyao Cui, Siyuan Kan, Siyang Li, Ziwei Wang, Dongrui Wu",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "benchmark",
         "training",
@@ -2383,30 +1698,12 @@
       "author": "Steven Morse, Daniel Runfola, Trenton W. Ford",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 45,
+      "relevance_score": 44,
       "tags": [
         "model",
         "app"
       ],
       "summary": "We present a novel application of embedding-based dynamic topic modeling techniques to detect and quantify topic drift at the comment level in a massive corpus. By leveraging pretrained language models to generate contextualized semantic embeddings for short text, we analyzed 12.7 billion Reddit comments spanning 2006 "
-    },
-    {
-      "title": "Meet the startup helping Wall Street put a price on AI compute",
-      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T17:26:48+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 48,
-      "tags": [
-        "gpu",
-        "product",
-        "data center"
-      ],
-      "summary": "The AI buildout shows no signs of slowing. And with hundreds of billions of dollars a year going into data centers and GPUs, compute has become the single biggest cost for anyone building AI products. But for all that spending, there still isn’t a straightforward way to put a price on compute — or for firms to hedge th"
     },
     {
       "title": "Beyond Trial Averaging: Anchoring Neural and Visual Representations for Few-Repetition Brain-to-Image Retrieval",
@@ -2417,7 +1714,7 @@
       "author": "Zhenyao Cui, Siyuan Kan, Dingkun Liu, Dongrui Wu",
       "date_verified": true,
       "category": "投资商业",
-      "relevance_score": 48,
+      "relevance_score": 47,
       "tags": [
         "acquisition",
         "dataset",
@@ -2434,7 +1731,7 @@
       "author": "Emanuele Luzio",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 57,
+      "relevance_score": 56,
       "tags": [
         "valuation",
         "model",
@@ -2454,7 +1751,7 @@
       "author": "George Andrikopoulos",
       "date_verified": true,
       "category": "产品应用",
-      "relevance_score": 60,
+      "relevance_score": 59,
       "tags": [
         "model",
         "assistant",
@@ -2473,7 +1770,7 @@
       "author": "Boqiao Zhang, Godbless James, Sai Krishna Gottipati, Andrew Fitzgibbon",
       "date_verified": true,
       "category": "政策治理",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "stock",
         "app",
@@ -2491,7 +1788,7 @@
       "author": "Dongbin Kim, Seungyun Lee, Geonwoo Shin, Jaewook Lee",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 51,
+      "relevance_score": 50,
       "tags": [
         "model",
         "benchmark",
@@ -2509,7 +1806,7 @@
       "author": "John Mangum, Andrew Glaws, Francois Usseglio-Viretta, Steven Spurgeon, Donal Finegan",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 63,
+      "relevance_score": 62,
       "tags": [
         "acquisition",
         "model",
@@ -2521,26 +1818,6 @@
       "summary": "Quantitative microstructural characterization of Li-ion battery electrode materials using electron backscatter diffraction (EBSD) has been proven as a critical method for optimizing cell performance. However, the inherently slow nature of EBSD can hinder the throughput of analyses needed for statistical representation "
     },
     {
-      "title": "OpenAI hit the brakes. Now what?",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T17:10:09+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 66,
-      "tags": [
-        "ipo",
-        "model",
-        "training",
-        "safety",
-        "company"
-      ],
-      "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes . On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a "
-    },
-    {
       "title": "Pretraining Reusable Inference Across Views with Synthetic Task Priors",
       "url": "https://arxiv.org/abs/2608.19115v1",
       "source": "arXiv",
@@ -2549,7 +1826,7 @@
       "author": "Jielong Lu, Zhihao Wu, Jiajun Yu, Zhaoliang Chen, Haishuai Wang",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 60,
+      "relevance_score": 59,
       "tags": [
         "benchmark",
         "dataset",
@@ -2560,25 +1837,6 @@
         "act"
       ],
       "summary": "Modern pretrained encoders make representations from heterogeneous views increasingly reusable, but the procedure that determines view utility and combines evidence is still relearned for each downstream task. Consequently, knowledge about view relevance, complementarity, reliability, and missingness is repeatedly disc"
-    },
-    {
-      "title": "Meta AI is getting a Mac app",
-      "url": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T17:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 75,
-      "tags": [
-        "launch",
-        "product",
-        "assistant",
-        "app"
-      ],
-      "summary": "Meta AI can create content and make suggestions based on what it “sees” on your screen. | Image: Meta Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content "
     },
     {
       "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
@@ -2822,23 +2080,6 @@
         "act"
       ],
       "summary": "Long-term robot operation in evolving environments requires object-level understanding that persists across repeated revisits. Existing systems either overwrite history to maintain an up-to-date map or store semantic snapshots without consistent cross-session object identity, resulting in temporal amnesia: the systemat"
-    },
-    {
-      "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
-      "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T15:44:53+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "政策治理",
-      "relevance_score": 44,
-      "tags": [
-        "act",
-        "data center"
-      ],
-      "summary": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals."
     },
     {
       "title": "Multi-Agent Off-Policy Deep Reinforcement Learning for Smart Campus Coverage",
@@ -3150,22 +2391,6 @@
       "summary": "Visual grounding in Unmanned Aerial Vehicle (UAV) imagery aims to localize a target object in complex bird's-eye-view scenes according to a natural language description. However, the abundance of small, densely distributed, and visually similar objects creates high visual redundancy, while repetitive local configuratio"
     },
     {
-      "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
-      "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T15:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 41,
-      "tags": [
-        "assistant"
-      ],
-      "summary": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime."
-    },
-    {
       "title": "DeepWeaver: Bridging the Evidence Synthesis Gap in Open-Ended Question Answering",
       "url": "https://arxiv.org/abs/2608.18988v1",
       "source": "arXiv",
@@ -3245,31 +2470,6 @@
       "summary": "We consider the problem of classification of skin tone using photoplethysmography (PPG) signals with labels of the ordinal six-class Fitzpatrick skin tones. A typical accuracy for this task is a poor 40-55 %. However, the labels are subjectively determined by comparing the skin with a colour chart, and hence contain wi"
     },
     {
-      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
-      "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
-      "source": "VentureBeat AI",
-      "source_type": "产业链",
-      "published_at": "2026-08-19T14:18:12+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 81,
-      "tags": [
-        "model",
-        "research",
-        "architecture",
-        "agent",
-        "gpu",
-        "product",
-        "app",
-        "tool",
-        "platform",
-        "enterprise"
-      ],
-      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decis"
-    },
-    {
       "title": "rEDMRec: Distilling Large Language Model Reasoning into an Editable Experience Memory for Recommendation",
       "url": "https://arxiv.org/abs/2608.18952v1",
       "source": "arXiv",
@@ -3324,22 +2524,6 @@
       "summary": "Clifford circuits play a foundational role in quantum computing, particularly due to their importance in quantum error correction and fault-tolerant logical synthesis. While these circuits can be efficiently simulated and represented as symplectic matrices, standard synthesis methods-such as the Aaronson-Gottesman algo"
     },
     {
-      "title": "Calendly throws its hat into meeting note-taker circus",
-      "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
-      "source": "TechCrunch AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T14:09:39+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 41,
-      "tags": [
-        "assistant"
-      ],
-      "summary": "Calendly is also releasing a meeting scheduling assistant called Callie."
-    },
-    {
       "title": "Training Chemical Plausibility-Aware Large Language Models for Single-Step Retrosynthesis",
       "url": "https://arxiv.org/abs/2608.18940v1",
       "source": "arXiv",
@@ -3361,45 +2545,6 @@
       "summary": "Single-step retrosynthesis is a central component of computer-aided synthesis planning, yet its intrinsically one-to-many nature is poorly captured by single-answer evaluation and benchmarking protocols. To address this, we introduce Top-K prompting as a robust training and inference paradigm to better capture diverse,"
     },
     {
-      "title": "Interactive tool for learning ML System design for free",
-      "url": "https://www.reddit.com/r/datascience/comments/1vskth7/interactive_tool_for_learning_ml_system_design/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-19T12:18:37+00:00",
-      "author": "u/avourakis",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 58,
-      "tags": [
-        "model",
-        "training",
-        "chip",
-        "tool",
-        "act"
-      ],
-      "summary": "I know data scientists are increasingly being asked to own models end-to-end. The problem I see (specially with juniors) is that they jump straight into Docker or other MLOps tools without building the foundation first. I’ve been in data science for 8+ years and I think the best way to start is with ML system design. I"
-    },
-    {
-      "title": "Nvidia’s new financial strategy does not compute",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T12:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "投资商业",
-      "relevance_score": 55,
-      "tags": [
-        "invest",
-        "revenue",
-        "chip",
-        "product"
-      ],
-      "summary": "“Compute is an asset class! Compute is an asset class!” I continue to insist as I slowly shrink down and turn into a corncob | Image: Cath Virginia / The Verge, Getty Images April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to ta"
-    },
-    {
       "title": "Looking for 1 teammate — RealPDE Competition (NeurIPS 2026)[D]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vsjlzj/looking_for_1_teammate_realpde_competition/",
       "source": "Reddit · r/MachineLearning",
@@ -3414,34 +2559,6 @@
         "github"
       ],
       "summary": "Registering for RealPDE (Sim2Real / LTTTA tracks — real PIV + CFD fluid dynamics data). Team cap is 3. If you've got a strong ML background and wanna participate, just DM me. Deadline's Aug 20, so move fast. 🔗 https://realpdecompetition.github.io submitted by /u/Alternative_Push9328 [link] [comments]"
-    },
-    {
-      "title": "章鱼动力亮相WRC 2026，携“脑-手-数据”技术体系探索具身智能未来范式",
-      "url": "https://www.qbitai.com/2026/08/475931.html",
-      "source": "量子位",
-      "source_type": "国内资讯",
-      "published_at": "2026-08-19T10:54:07+00:00",
-      "language": "zh",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 37,
-      "tags": [],
-      "summary": "章鱼动力亮相WRC 2026，携“脑-手-数据”技术体系探索具身智能未来范式"
-    },
-    {
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "url": "https://openai.com/index/replit",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-19T07:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs."
     },
     {
       "title": "ICONIP 2026 — what happens if the sole author cannot attend in person? [D]",
@@ -3462,350 +2579,6 @@
       "summary": "Hi everyone 👋 My paper was recently accepted to ICONIP 2026, but I’m the sole author and most likely won’t be able to attend the conference in person due to work commitments. I’m trying to understand what options might be available before I contact the organizers. Has anyone here attended or published at ICONIP in prev"
     },
     {
-      "title": "ChatGPT Ads expands across Europe",
-      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T22:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 37,
-      "tags": [
-        "market"
-      ],
-      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions."
-    },
-    {
-      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
-      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T19:48:26+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "政策治理",
-      "relevance_score": 36,
-      "tags": [
-        "act"
-      ],
-      "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap . In a post on Tuesday , Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the"
-    },
-    {
-      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T19:28:30+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "research",
-        "training",
-        "company"
-      ],
-      "summary": "OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face , including improvements to its research environments, monitoring, and alignment techniques. The company had already put the brakes on a new model, Astra , that it thinks c"
-    },
-    {
-      "title": "Strengthening democratic oversight in national security",
-      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T19:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 48,
-      "tags": [
-        "training",
-        "launch",
-        "tool"
-      ],
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise."
-    },
-    {
-      "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T18:56:14+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 82,
-      "tags": [
-        "model",
-        "research",
-        "inference",
-        "open source",
-        "api",
-        "agent",
-        "reasoning",
-        "launch",
-        "product",
-        "feature"
-      ],
-      "summary": "Agents have evolved from simple chat applications to autonomous, long-running systems that dynamically discover and compose dozens of tools per task without human oversight. On the other side, service and content providers are moving from human-centric subscription-based, one-size-fits-all pricing to pay-per-use, per-e"
-    },
-    {
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face Blog",
-      "source_type": "新技术",
-      "published_at": "2026-08-18T18:09:38+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 39,
-      "tags": [
-        "agent",
-        "act"
-      ],
-      "summary": "How Much Memory Does Your Agent Actually Need?"
-    },
-    {
-      "title": "Customize Amazon Quick embedded chat into your application",
-      "url": "https://aws.amazon.com/blogs/machine-learning/customize-amazon-quick-embedded-chat-into-your-application/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T17:13:13+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 58,
-      "tags": [
-        "revenue",
-        "shares",
-        "research",
-        "agent",
-        "product",
-        "assistant",
-        "app",
-        "tool",
-        "enterprise",
-        "policy"
-      ],
-      "summary": "Amazon Quick embedded chat provides a conversational AI interface that you can integrate directly into your web application. Your users can ask questions, explore data, and get insights without leaving your application. However, a generic chat interface creates a disjointed experience. The chat interface must look and "
-    },
-    {
-      "title": "Implement vector-prompt document classification using Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/implement-vector-prompt-document-classification-using-amazon-bedrock/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T17:10:37+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 76,
-      "tags": [
-        "valuation",
-        "model",
-        "benchmark",
-        "training",
-        "inference",
-        "architecture",
-        "github",
-        "api",
-        "agent",
-        "multimodal"
-      ],
-      "summary": "Vector-prompt classification on Amazon Bedrock helps insurance companies accurately classify thousands of daily documents: policies, affidavits, endorsements, and regulatory forms, for compliance, claims, and customer service. Manual classification is time-consuming and error-prone, while traditional automated approach"
-    },
-    {
-      "title": "How Jumio built a real-time feature store on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-jumio-built-a-real-time-feature-store-on-aws/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T17:05:48+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 70,
-      "tags": [
-        "valuation",
-        "model",
-        "dataset",
-        "training",
-        "inference",
-        "architecture",
-        "product",
-        "feature",
-        "app",
-        "tool"
-      ],
-      "summary": "If you’re managing a real-time feature store, you might be facing challenges such as data duplication, feature engineering, feature consistency, manual deployment, and latency. Jumio is an identity verification provider that helps businesses detect fraud and build digital trust. To provide these services in real time, "
-    },
-    {
-      "title": "Improve contract search accuracy with auto-generated filters in Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/machine-learning/improve-contract-search-accuracy-with-auto-generated-filters-in-amazon-bedrock/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T17:02:52+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 82,
-      "tags": [
-        "model",
-        "dataset",
-        "training",
-        "architecture",
-        "api",
-        "reasoning",
-        "product",
-        "app",
-        "tool",
-        "platform"
-      ],
-      "summary": "Enterprises rely on large volumes of complex legal agreements to make critical business decisions — determining rights, renewal options, geographic restrictions, and compliance obligations. In industries like entertainment and media, where organizations manage thousands of contracts across multiple jurisdictions, this "
-    },
-    {
-      "title": "How Axonius built secure multi-tenant AI agents on Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-axonius-built-secure-multi-tenant-ai-agents-on-bedrock-agentcore/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T16:27:07+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 87,
-      "tags": [
-        "model",
-        "inference",
-        "architecture",
-        "api",
-        "agent",
-        "reasoning",
-        "product",
-        "feature",
-        "app",
-        "tool"
-      ],
-      "summary": "Independent Software Vendors (ISVs) are expanding their offerings and adding AI agents. Common considerations for organizations when adding agentic workloads include security, scalability, time to market, and cost tracking. ISVs have another dimension, they provide services to other organizations and need to manage age"
-    },
-    {
-      "title": "Another rant like interview experience",
-      "url": "https://www.reddit.com/r/datascience/comments/1vru2oh/another_rant_like_interview_experience/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-18T16:25:03+00:00",
-      "author": "u/proof_required",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 41,
-      "tags": [
-        "model",
-        "feature",
-        "act"
-      ],
-      "summary": "I was given a home assignment to do modeling for some adtech data. They had no explicit ask about what kind of model or how deep you have to go. Just data and they asked we want to see the modeling. I spent lot of time in understanding the data, identifying the features, creating labels etc. When it came to modeling I "
-    },
-    {
-      "title": "Firefox’s Smart Window promises a better AI browser",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
-      "source": "The Verge AI",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T13:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 38,
-      "tags": [
-        "partnership",
-        "partner"
-      ],
-      "summary": "Starting today, AI chats in Firefox's Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa . Smart Window can also now automatically suggest tab groups and show visual previews of pages you previously visited when you search your browsing hi"
-    },
-    {
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "url": "https://openai.com/index/partnering-with-codeai",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T11:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 40,
-      "tags": [
-        "partner"
-      ],
-      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly."
-    },
-    {
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T11:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 40,
-      "tags": [
-        "model"
-      ],
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development."
-    },
-    {
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "url": "https://openai.com/index/chatgpt-for-teens",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T11:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 34,
-      "tags": [
-        "feature"
-      ],
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents."
-    },
-    {
-      "title": "We still don’t know how people are really using AI",
-      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-      "source": "MIT Technology Review AI",
-      "source_type": "新技术",
-      "published_at": "2026-08-18T10:06:43+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 86,
-      "tags": [
-        "model",
-        "research",
-        "dataset",
-        "release",
-        "product",
-        "assistant",
-        "app",
-        "platform",
-        "policy",
-        "act"
-      ],
-      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent source to corroborate it,” says Anka Reuel, a computer science PhD candidate at the Stanford Trustwo"
-    },
-    {
       "title": "Trained an diffusion model that runs on 264KB of RAM [P]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1vrk7t5/trained_an_diffusion_model_that_runs_on_264kb_of/",
       "source": "Reddit · r/MachineLearning",
@@ -3815,529 +2588,11 @@
       "reddit_community": "MachineLearning",
       "date_verified": true,
       "category": "技术研究",
-      "relevance_score": 34,
+      "relevance_score": 33,
       "tags": [
         "model"
       ],
       "summary": "I recently bought a Shrike lite which has got 264KB of SRAM. I decided to train an image generation model that generates 32*32 pixel images. The microcontroller also has an FPGA onboard which I used to create two parallel INT8 MAC engines with 16 bit accumulation to speed up calculations, however the system soon hit a "
-    },
-    {
-      "title": "AI’s recursive self-improvement might not come so quickly after all",
-      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-      "source": "MIT Technology Review AI",
-      "source_type": "新技术",
-      "published_at": "2026-08-18T09:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 86,
-      "tags": [
-        "valuation",
-        "invest",
-        "investment",
-        "model",
-        "benchmark",
-        "paper",
-        "research",
-        "dataset",
-        "training",
-        "architecture"
-      ],
-      "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-i"
-    },
-    {
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "url": "https://openai.com/index/asana",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T07:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 36,
-      "tags": [],
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K."
-    },
-    {
-      "title": "How NVIDIA scales expertise with ChatGPT Work",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-18T00:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 34,
-      "tags": [],
-      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally."
-    },
-    {
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face Blog",
-      "source_type": "新技术",
-      "published_at": "2026-08-18T00:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 34,
-      "tags": [
-        "model",
-        "act"
-      ],
-      "summary": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers"
-    },
-    {
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face Blog",
-      "source_type": "新技术",
-      "published_at": "2026-08-17T19:46:21+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 27,
-      "tags": [],
-      "summary": "Same Cluster, 33 Points More Utilization: What Changed Was the Order"
-    },
-    {
-      "title": "How does one prepare for such interviews?",
-      "url": "https://www.reddit.com/r/datascience/comments/1vr2gxc/how_does_one_prepare_for_such_interviews/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-17T19:37:43+00:00",
-      "author": "u/JayBong2k",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 27,
-      "tags": [],
-      "summary": "https://preview.redd.it/99irhgolmzjh1.png?width=622&format=png&auto=webp&s=99a2c4b9cec59a17af5ff650cb38720f373095d0 I see posts like these on my Linkedin feed every day. At this juncture, I am not sure if this is true or just one of those AI Slops - I am assuming there's a grain of truth in them. But now, when I am pre"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
-      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-17T18:06:33+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 70,
-      "tags": [
-        "valuation",
-        "model",
-        "benchmark",
-        "paper",
-        "dataset",
-        "inference",
-        "architecture",
-        "agent",
-        "reasoning",
-        "gpu"
-      ],
-      "summary": "NVIDIA Nemotron 3.5 Lightning is designed for the fast, specialized model execution required by high-volume agentic workloads. With NVIDIA Nemotron 3.5 Lightning on Amazon SageMaker JumpStart, you can access an open model designed for high-volume agentic workloads. With this launch, you can deploy Nemotron 3.5 Lightnin"
-    },
-    {
-      "title": "Build OpenClaw agents that transact with Amazon Bedrock AgentCore payments",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-17T16:19:56+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "research",
-        "api",
-        "agent",
-        "launch",
-        "product",
-        "assistant",
-        "app",
-        "tool",
-        "policy"
-      ],
-      "summary": "This post is a collaboration between AWS and the OpenClaw Foundation . Autonomous agents that browse the web, call APIs, and query Model Context Protocol (MCP) servers can encounter services that require an HTTP 402 Payment Required response to be settled before access continues. To use those services without pausing f"
-    },
-    {
-      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-      "source": "GitHub AI & ML",
-      "source_type": "新技术",
-      "published_at": "2026-08-17T16:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 57,
-      "tags": [
-        "invest",
-        "investment",
-        "model",
-        "architecture",
-        "github",
-        "agent",
-        "product",
-        "feature",
-        "copilot",
-        "app"
-      ],
-      "summary": "When I was in college, I joined the beta for one of the first versions of AI inline completions in VS Code. It felt like a game changer. Since then, GenAI has fundamentally changed software development: hybrid teams where agents and humans work in tandem, with the developer at the center as visionary and orchestrator. "
-    },
-    {
-      "title": "Securing the Infrastructure of Intelligence",
-      "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence/",
-      "source": "NVIDIA Blog",
-      "source_type": "产业链",
-      "published_at": "2026-08-17T12:34:51+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 62,
-      "tags": [
-        "invest",
-        "investment",
-        "revenue",
-        "model",
-        "training",
-        "inference",
-        "api",
-        "chip",
-        "gpu",
-        "product"
-      ],
-      "summary": "AI factories are the defining infrastructure of the AI era — where compute transforms energy and data into intelligence that powers every business, industry and country. In the AI economy, compute is revenue. AI factories require a full stack of critical resources: advanced chips, packaging, memory and networking — as "
-    },
-    {
-      "title": "Get closer to the game with Gemini and Pixel",
-      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "source": "Google AI Blog",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-17T08:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产业动态",
-      "relevance_score": 33,
-      "tags": [
-        "partner"
-      ],
-      "summary": "Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology."
-    },
-    {
-      "title": "The Defender’s Window",
-      "url": "https://openai.com/index/the-defenders-window",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-17T05:30:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 33,
-      "tags": [
-        "api"
-      ],
-      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now."
-    },
-    {
-      "title": "OpenAI joins PORTS-Pike project",
-      "url": "https://openai.com/index/openai-joins-ports-pike-project",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-17T05:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "投资商业",
-      "relevance_score": 36,
-      "tags": [
-        "invest",
-        "investment"
-      ],
-      "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs"
-    },
-    {
-      "title": "Weekly Entering & Transitioning - Thread 17 Aug, 2026 - 24 Aug, 2026",
-      "url": "https://www.reddit.com/r/datascience/comments/1vqhpog/weekly_entering_transitioning_thread_17_aug_2026/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-17T04:01:15+00:00",
-      "author": "u/AutoModerator",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 26,
-      "tags": [
-        "app"
-      ],
-      "summary": "Welcome to this week's entering & transitioning thread! This thread is for any questions about getting started, studying, or transitioning into the data science field. Topics include: Learning resources (e.g. books, tutorials, videos) Traditional education (e.g. schools, degrees, electives) Alternative education (e.g. "
-    },
-    {
-      "title": "New policy ideas for the Intelligence Age",
-      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-      "source": "OpenAI News",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-17T03:15:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "政策治理",
-      "relevance_score": 32,
-      "tags": [
-        "policy"
-      ],
-      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age."
-    },
-    {
-      "title": "Universitas Gadjah Mada, Indosat and NVIDIA Open Indonesia’s First University AI Center to Develop Local AI Talent",
-      "url": "https://blogs.nvidia.com/blog/ugm-indosat-nvidia-ai-technology-center/",
-      "source": "NVIDIA Blog",
-      "source_type": "产业链",
-      "published_at": "2026-08-14T17:13:05+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 51,
-      "tags": [
-        "model",
-        "research",
-        "architecture",
-        "open source",
-        "multimodal",
-        "gpu",
-        "launch",
-        "tool",
-        "platform",
-        "enterprise"
-      ],
-      "summary": "Indonesia is taking charge of its AI future. This week, the Ministry of Communication and Digital Affairs (Komdigi), Indosat Ooredoo Hutchison (Indosat or IOH), NVIDIA and Universitas Gadjah Mada (UGM) launched the UGM Indosat NVIDIA AI Technology Center (NVAITC) in Yogyakarta — the country’s first university-based AI "
-    },
-    {
-      "title": "What Hugging Face learned from reproducing 2,200 ICML papers",
-      "url": "https://www.reddit.com/r/datascience/comments/1vobzd9/what_hugging_face_learned_from_reproducing_2200/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-14T16:26:28+00:00",
-      "author": "u/rhiever",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 23,
-      "tags": [
-        "paper"
-      ],
-      "summary": "submitted by /u/rhiever [link] [comments]"
-    },
-    {
-      "title": "Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge",
-      "url": "https://aws.amazon.com/blogs/machine-learning/custom-reward-functions-for-multi-turn-reinforcement-learning-with-amazon-nova-forge/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-14T16:02:10+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 63,
-      "tags": [
-        "valuation",
-        "model",
-        "research",
-        "training",
-        "api",
-        "agent",
-        "multimodal",
-        "reasoning",
-        "product",
-        "assistant"
-      ],
-      "summary": "In multi-turn reinforcement learning (RL), your custom reward function decides what the model actually learns. A subtly wrong reward can quietly teach the wrong thing while every training curve looks healthy. Designing a reward that holds up over multi-turn, agentic tasks is one of the hardest parts of customizing Amaz"
-    },
-    {
-      "title": "How to bring your software delivery workflow into GitHub with agent apps",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-      "source": "GitHub AI & ML",
-      "source_type": "新技术",
-      "published_at": "2026-08-14T16:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "产品应用",
-      "relevance_score": 45,
-      "tags": [
-        "github",
-        "agent",
-        "launch",
-        "release",
-        "product",
-        "feature",
-        "copilot",
-        "app",
-        "tool",
-        "platform"
-      ],
-      "summary": "How many tabs do you have open alongside your pull request? Imagine picking up a new issue in your product’s free-trial onboarding flow: make the “invite your teammates” step optional. Support keeps flagging the step as a friction point as signups increase. Quick win, right? From scoping to deployment, you need answers"
-    },
-    {
-      "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-      "source": "AWS Artificial Intelligence",
-      "source_type": "巨头企业",
-      "published_at": "2026-08-14T15:58:44+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 75,
-      "tags": [
-        "invest",
-        "investment",
-        "earnings",
-        "stock",
-        "model",
-        "inference",
-        "architecture",
-        "github",
-        "api",
-        "agent"
-      ],
-      "summary": "A common challenge in building agentic workflows is mixing managed foundation models (FMs) with your own cost-optimized or domain-specific models, without rewriting your agent framework to do it. In this post, we show you how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore ru"
-    },
-    {
-      "title": "State of Open Models: Summer 2026 Observations",
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source": "Hugging Face Blog",
-      "source_type": "新技术",
-      "published_at": "2026-08-14T00:00:00+00:00",
-      "language": "en",
-      "date_verified": true,
-      "source_priority": 0,
-      "category": "技术研究",
-      "relevance_score": 23,
-      "tags": [
-        "model"
-      ],
-      "summary": "State of Open Models: Summer 2026 Observations"
-    },
-    {
-      "title": "How widely is R still used in industry today?",
-      "url": "https://www.reddit.com/r/datascience/comments/1vnh7w2/how_widely_is_r_still_used_in_industry_today/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-13T17:25:27+00:00",
-      "author": "u/Kati1998",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 26,
-      "tags": [
-        "app",
-        "industry"
-      ],
-      "summary": "I’m a Data Science student (career changer, not in a data related role). My program is focused more on the applied statistics side, so most of my classes use R. I’m already familiar with Python since it was the main language used in my prerequisite courses, and I’ve completed projects using Python, so I’m comfortable w"
-    },
-    {
-      "title": "Typical question in the first interview?",
-      "url": "https://www.reddit.com/r/datascience/comments/1vnbj8m/typical_question_in_the_first_interview/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-13T14:00:08+00:00",
-      "author": "u/WhatIsMyNamme",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "产业动态",
-      "relevance_score": 26,
-      "tags": [],
-      "summary": "I have a 30minute zoom meeting for a data science job and I'm just wondering what types of questions others have been asked in these interviews? I had one a couple months ago and they did ask me a SQL question but that was the only technical one I can remember Edit: Interview finished and doesn't look like I got it y'a"
-    },
-    {
-      "title": "Data Science in manufacturing vs IT/consulting",
-      "url": "https://www.reddit.com/r/datascience/comments/1vmbfw4/data_science_in_manufacturing_vs_itconsulting/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-12T11:26:51+00:00",
-      "author": "u/missing-in-idleness",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "政策治理",
-      "relevance_score": 50,
-      "tags": [
-        "agent",
-        "product",
-        "act",
-        "safety",
-        "market",
-        "company"
-      ],
-      "summary": "I’m currently working at an IT company and will probably be leaving soon. I’m already talking with companies in banking, IT and consulting, mostly for roles close to my current experience. But I also got an opportunity at a large factory with a small data science team. From the initial talks, their work seems to be aro"
-    },
-    {
-      "title": "I'm curious about people working in ranking and if you can change customer behavior",
-      "url": "https://www.reddit.com/r/datascience/comments/1vm23kr/im_curious_about_people_working_in_ranking_and_if/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-12T02:52:36+00:00",
-      "author": "u/Xamius",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "技术研究",
-      "relevance_score": 23,
-      "tags": [
-        "model"
-      ],
-      "summary": "Basically I have a ranking service for b2b SaaS but basically like hotels flights etc The models do well and I can improve accuracy pretty easily to a point But if I want to promote options better for other metrics I'm struggling to change behavior other than people selectng the same thing lower Just hoping for experie"
-    },
-    {
-      "title": "Laid off after 4.5 yrs at the company as Sr Data scientist. How is the job market ?",
-      "url": "https://www.reddit.com/r/datascience/comments/1vlzpvt/laid_off_after_45_yrs_at_the_company_as_sr_data/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-12T01:01:57+00:00",
-      "author": "u/dead_n_alive",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "产品应用",
-      "relevance_score": 35,
-      "tags": [
-        "agent",
-        "app",
-        "platform",
-        "market",
-        "company"
-      ],
-      "summary": "PhD computational Physics from USA and 3 yrs of Postdoc in the USA. Transitioned to DS in early 2022. Mainly worked with Text data (embedding related word2vec to Transformer based, AI solutions too but Prompt based no agent based solution), Traditional ML & NeuralNets for classification and regression. Python, SQL and "
-    },
-    {
-      "title": "Attempted to apply creative writing skills to an explainer of Markov Chain Monte Carlo. Tell me how bad I did 😅",
-      "url": "https://www.reddit.com/r/datascience/comments/1vln1cs/attempted_to_apply_creative_writing_skills_to_an/",
-      "source": "Reddit · r/datascience",
-      "source_type": "Reddit",
-      "published_at": "2026-08-11T16:53:54+00:00",
-      "author": "u/vanisle_kahuna",
-      "reddit_community": "datascience",
-      "date_verified": true,
-      "category": "投资商业",
-      "relevance_score": 32,
-      "tags": [
-        "invest",
-        "model",
-        "app",
-        "act"
-      ],
-      "summary": "Lately I've been deep in a personal project by writing chapter summaries of Richard McElreath’s Statistical Rethinking textbook and applying them to wildfire models, and somehow found a way to elegantly (in my opinion) combine the two through storytelling. The tl;dr: I built a whole narrative around a wildfire forensic"
     }
   ]
 }
